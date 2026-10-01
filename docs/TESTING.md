@@ -1,0 +1,25 @@
+# Test and acceptance plan
+
+Status: production verification plan. Frontend build/typecheck/lint and targeted demo browser checks have run; see DEMO_QA.md for results. Backend compiles, but no PostgreSQL integration suite or production acceptance suite has run.
+
+## Backend
+
+JUnit, Spring Boot Test, Testcontainers PostgreSQL, and Spring Modulith verification. CI must require Docker-backed integration tests rather than silently skip them. Verify fresh migrations/checksums, module boundaries, session persistence and rotation, CSRF, role restrictions, disabled-user revocation, last-super-admin protection, validation, optimistic conflicts, and audit transactions.
+
+Publication tests must demonstrate that saving draft content, ordering, visibility, SEO, gallery references, and relations does not change public responses; publish copies the aggregate atomically; unauthenticated preview fails. Media tests cover signature mismatch, invalid images, size limits, incomplete uploads, and referenced deletion. Contact tests cover validation, duplicate requests, rate limits, and Turnstile success/failure/timeout through a stubbed external boundary.
+
+## Frontend and end-to-end
+
+Use React Testing Library for meaningful form and interaction behavior, and Playwright against real application services for critical workflows. Public flows: homepage/navigation, service list/detail, contact validation/submission. Admin flows: valid/invalid login, edit/save/preview/publish homepage, create/publish service, upload media, view/update message status, settings, users, and role restrictions. Include two-editor stale update behavior and session expiration without lost form input.
+
+## Visual and accessibility QA
+
+Compare public pages against the supplied approved concept once available. Test widths 360, 375, 390, 430, 768, 1024, 1280, 1440, and 1920px. Check overflow, portrait/landscape, touch targets, keyboard/focus, menu focus management, 200% text zoom, errors, contrast, reduced motion, WebGL failure, slow connections, and essential public content with JavaScript disabled. Test modern Chromium, Firefox, and WebKit; record any remaining real-device Safari coverage separately.
+
+## Performance and SEO
+
+Measure representative production builds with intended imagery, fonts, motion, and 3D enhancement. Targets: mobile performance 85+, desktop 90+, accessibility/SEO/best practices 90+. Field goals at the 75th percentile: LCP ≤2.5s, INP ≤200ms, CLS ≤0.1. Lab measurements do not establish field INP. Check canonical metadata, sitemap published entries, robots, structured data without invented ratings, image sizing, deferred WebGL, console errors, broken links, and no indexed previews.
+
+## CI and launch evidence
+
+Frontend: locked install, lint, strict typecheck, tests, production build. Backend: Maven verify including PostgreSQL integration/migration tests and packaging. Critical E2E runs against the full stack. No deployment after failed checks. Record actual results and limitations; deployment, external backups, and restore evidence are separate required gates.

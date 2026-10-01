@@ -1,0 +1,2779 @@
+PROJECT: TRIP LINE
+MASTER PRODUCT + DESIGN + ENGINEERING SPECIFICATION
+STATUS: LOCKED V1 DIRECTION
+
+========================================================
+0. YOUR ROLE
+========================================================
+
+You are the lead product engineer, frontend engineer, backend engineer,
+UX engineer, DevOps engineer, and technical architect for Trip Line.
+
+Build this as a real production product, not a demo, prototype, static
+mockup, generated landing page, or portfolio exercise.
+
+Work autonomously through the entire project.
+
+Do not make arbitrary architectural changes to this specification.
+If a small implementation detail is unspecified, choose the simplest
+production-quality implementation consistent with this document.
+
+Before implementing:
+
+1. inspect the supplied Trip Line logo;
+2. inspect the supplied approved visual concept;
+3. inspect the supplied Snami Travel reference only for art-direction
+   principles;
+4. create:
+   - docs/PRODUCT.md
+   - docs/ARCHITECTURE.md
+   - docs/DESIGN_SYSTEM.md
+   - docs/API.md
+   - docs/DATABASE.md
+   - docs/DEPLOYMENT.md
+   - docs/SECURITY.md
+   - docs/TESTING.md
+   - TODO.md
+5. write an implementation plan divided into milestones;
+6. then build the project milestone by milestone.
+
+Do not stop after scaffolding.
+Do not leave critical TODOs.
+Do not replace production implementations with mocks.
+Do not fabricate content, statistics, testimonials, ratings,
+awards, partners, or company claims.
+
+Use sample/seed content only where explicitly identified as placeholder.
+
+========================================================
+1. PRODUCT OBJECTIVE
+========================================================
+
+Trip Line V1 consists of:
+
+PUBLIC WEBSITE
+- Home
+- About Us
+- Services
+- Individual Service Detail pages
+- Contact Us
+
+ADMIN/CMS
+- Secure admin login
+- Dashboard
+- Home page editor
+- About page editor
+- Contact page editor
+- Services management
+- Media library
+- Contact-message inbox
+- Global website settings
+- SEO controls
+- User management
+- Roles
+- Audit log
+
+NO V1:
+- B2B reservation portal
+- Booking engine
+- Customer accounts
+- Agent accounts
+- CRM pipeline
+- Payments
+- Invoices
+- Redis
+- Kafka
+- RabbitMQ
+- Elasticsearch
+- Kubernetes
+- Microservices
+
+However, architecture MUST allow these to be added later without
+rewriting V1.
+
+Future modules will include:
+
+- CRM
+- leads
+- companies
+- contacts
+- opportunities
+- sales activities
+- B2B partner accounts
+- reservations
+- availability
+- pricing
+- payments
+- invoices
+- commissions
+- notifications
+
+Do NOT implement empty future modules now.
+
+========================================================
+2. BRAND / ART DIRECTION
+========================================================
+
+Trip Line must NOT look like:
+
+- generic travel agency website
+- generic SaaS website
+- Bootstrap template
+- tourism WordPress theme
+- blue-and-white travel site
+- generic AI-generated landing page
+- excessive glassmorphism
+- random gradients
+- endless identical card grids
+
+REFERENCE PRINCIPLE:
+
+The supplied Snami Travel website is inspiration for:
+
+- editorial confidence
+- storytelling
+- whitespace
+- composition
+- photography
+- typography
+- immersive pacing
+
+DO NOT copy:
+
+- its layouts
+- assets
+- fonts
+- animations
+- branding
+- visual symbols
+- components
+- code
+- content
+
+Trip Line must remain visibly and unmistakably Trip Line.
+
+CORE CREATIVE CONCEPT:
+
+"THE JOURNEY IN MOTION"
+
+Trip Line's visual language is based on:
+
+- movement
+- journeys
+- routes
+- connection
+- departure
+- arrival
+- discovery
+- changing perspective
+- flight trajectories
+- cinematic travel imagery
+
+The gold curved flight line from the Trip Line identity is the
+signature visual element.
+
+A visitor should recognize Trip Line's visual language even if the
+logo were temporarily removed.
+
+========================================================
+3. DESIGN CHARACTER
+========================================================
+
+The public website must feel:
+
+- cinematic
+- premium
+- editorial
+- modern
+- sophisticated
+- atmospheric
+- highly art-directed
+- intentional
+- spacious
+- immersive
+- award-quality
+
+It must NOT feel excessively "luxury" through clichés.
+
+Avoid:
+
+- gold everywhere
+- shiny marble
+- fake luxury imagery
+- champagne imagery unless relevant
+- massive shadows
+- excessive blur
+- decorative animation with no purpose
+
+Luxury comes from:
+
+- composition
+- typography
+- photography
+- timing
+- spacing
+- restraint
+- material quality
+- microinteraction detail
+
+Visual ratio guideline:
+
+45% photography/film
+30% typography
+15% negative space
+10% 3D/graphic identity
+
+========================================================
+4. COLOR SYSTEM
+========================================================
+
+Start from the supplied Trip Line logo.
+
+Sample the actual logo colors and adjust these approximate tokens once.
+After locking them, EVERYTHING must reference design tokens.
+
+Initial palette:
+
+--color-teal-950: #071F20
+--color-teal-900: #0D3334
+--color-teal-800: #174647
+--color-teal-700: #285454
+
+--color-ivory: #F4EBDD
+--color-warm-white: #FFFDF8
+--color-sand: #E4D7C1
+
+--color-gold: #D7AA4D
+--color-gold-light: #EAC56F
+--color-gold-dark: #A8792D
+
+--color-text-dark: #102A2B
+--color-text-light: #F5EFE4
+--color-muted-light: rgba(245,239,228,.72)
+--color-muted-dark: rgba(16,42,43,.66)
+
+Create semantic tokens too:
+
+--background-primary
+--background-secondary
+--surface
+--surface-elevated
+--text-primary
+--text-secondary
+--accent
+--border
+--focus
+
+Do not hardcode color values throughout components.
+
+Gold is an ACCENT, not the default text color.
+
+========================================================
+5. TYPOGRAPHY
+========================================================
+
+Use:
+
+DISPLAY:
+Instrument Serif or equivalent open-license editorial serif.
+
+UI/BODY:
+Manrope.
+
+Use next/font.
+
+Do not load unnecessary weights.
+
+Approximate desktop scale:
+
+Hero headline:
+clamp(4.2rem, 7.5vw, 8.5rem)
+
+Large editorial statement:
+clamp(3.5rem, 6vw, 7rem)
+
+H1 inner page:
+clamp(3.5rem, 6vw, 6.5rem)
+
+H2:
+clamp(2.5rem, 4vw, 4.5rem)
+
+H3:
+1.5–2rem
+
+Body large:
+1.125–1.25rem
+
+Body:
+1rem
+
+UI:
+0.875rem
+
+Eyebrow labels:
+0.70–0.80rem
+uppercase
+letter-spacing approximately .16em–.24em
+
+Typography must remain fluid.
+
+Do not simply reduce desktop text uniformly on mobile.
+
+========================================================
+6. LAYOUT SYSTEM
+========================================================
+
+Desktop:
+- max content width ~1440px
+- 12-column grid
+- normal content max ~1280px
+- 48–72px side padding depending on viewport
+- 100–160px section spacing
+
+Tablet:
+- 32px side padding
+- 80–120px section spacing
+
+Mobile:
+- 20px side padding
+- 64–96px section spacing
+
+Use CSS clamp() extensively.
+
+Do not force everything into centered containers.
+
+Use:
+
+- asymmetric compositions
+- controlled bleed
+- layered photography
+- editorial text blocks
+- vertical whitespace
+- occasional viewport-height moments
+
+========================================================
+7. FRONTEND TECHNOLOGY
+========================================================
+
+Use current stable mutually compatible releases.
+
+Required:
+
+- Next.js App Router
+- React 19.3+ stable APIs where supported
+- TypeScript strict mode
+- Tailwind CSS for utility styling
+- CSS custom properties for design tokens
+- Motion for React
+- React Three Fiber
+- Drei
+- Three.js
+- Lucide icons
+- TanStack Query for authenticated/admin API state
+- React Hook Form
+- Zod
+- TanStack Table for admin data tables where helpful
+- TipTap only where formatted long-form content is necessary
+
+Do NOT add:
+
+- Redux
+- MobX
+- GSAP unless a concrete effect cannot reasonably be implemented
+  using Motion/native browser APIs
+- giant UI libraries for the public website
+
+Admin may use accessible Radix/shadcn primitives, but heavily theme them.
+
+Public website components must be custom.
+
+========================================================
+8. SERVER VS CLIENT REACT
+========================================================
+
+Default to Server Components.
+
+Do not make the whole application "use client".
+
+SERVER:
+- page shells
+- SEO
+- public page content
+- service content
+- navigation
+- footer
+- static editorial sections
+
+CLIENT only where needed:
+- motion
+- navigation interaction
+- forms
+- 3D
+- service hover previews
+- admin interface
+- dynamic editors
+- media upload
+- authenticated tables
+
+Keep client bundle intentionally small.
+
+========================================================
+9. MOTION LANGUAGE
+========================================================
+
+Motion must be systemized.
+
+Do NOT invent a different animation for every element.
+
+STANDARD REVEAL:
+
+opacity: 0 → 1
+y: 24–36px → 0
+duration: approximately 650–850ms
+smooth premium easing
+
+EDITORIAL IMAGE REVEAL:
+
+clip-path/mask reveal
+scale: approximately 1.05 → 1
+duration: 900–1200ms
+
+HOVER:
+
+translateY: 0 → -3px
+image scale: 1 → approximately 1.025
+arrow translateX: 0 → 4px
+
+POINTER DEPTH:
+
+max rotateX ±2°
+max rotateY ±3°
+
+Never create extreme card tilting.
+
+ROUTE ANIMATION:
+
+gold path draws based on scroll progress.
+
+Use Motion:
+- useScroll
+- useTransform
+- whileInView
+- MotionValue
+- layout animations
+
+Use React ViewTransition for carefully selected page/shared-image
+transitions when appropriate.
+
+Do not use animations merely because they are available.
+
+========================================================
+10. REDUCED MOTION
+========================================================
+
+Respect prefers-reduced-motion everywhere.
+
+Reduced-motion mode:
+
+- disable nonessential parallax
+- disable pointer tilt
+- disable route drawing animations
+- disable camera movement
+- disable 3D object movement
+- keep simple opacity transitions
+- never remove content
+
+No interaction may require motion.
+
+========================================================
+11. 3D SYSTEM
+========================================================
+
+The website should FEEL dimensional.
+
+Do NOT turn the website into a Three.js demo.
+
+Approximate guideline:
+
+90% DOM/CSS/Motion
+10% WebGL/R3F
+
+PRIMARY 3D MOMENT:
+
+Hero can contain a lightweight Trip Line aircraft / flight object.
+
+Preferred:
+- stylized premium aircraft
+- metallic/brass/gold material
+- subtle environmental reflections
+- extremely restrained pointer response
+- integrated with flight path
+
+If a production-quality aircraft GLB is not supplied:
+
+DO NOT download copyrighted/random assets.
+
+Use a temporary lightweight stylized geometry or logo-derived
+2.5D plane representation.
+
+Build the scene architecture so the final GLB can replace it easily.
+
+3D requirements:
+
+- dynamic import
+- no SSR for Canvas
+- lazy initialize where possible
+- reuse materials/geometries
+- compressed GLB
+- Meshopt/Draco where appropriate
+- lightweight textures
+- cap DPR approximately 1–1.5
+- use frameloop="demand" when scene does not require continuous animation
+- dispose assets correctly
+- avoid expensive post-processing
+- no unnecessary shadows
+- no giant environment maps
+
+Mobile:
+
+Use simplified 3D or static 2.5D alternative by default when needed.
+
+3D is enhancement.
+Content must work without WebGL.
+
+========================================================
+12. SIGNATURE FLIGHT PATH
+========================================================
+
+This is the primary brand interaction.
+
+Implement a reusable component:
+
+<JourneyLine />
+
+It should support:
+
+- SVG paths
+- gold gradient/solid variants
+- start marker
+- end marker
+- aircraft marker
+- scroll-linked progress
+- static mode
+- dark/light variants
+- reduced-motion mode
+
+Use this motif selectively.
+
+Recommended appearances:
+
+1. Hero
+2. Philosophy transition
+3. About journey/timeline
+4. Contact/end-of-journey CTA
+
+Do not put it behind every section.
+
+========================================================
+13. PUBLIC ROUTES
+========================================================
+
+Required:
+
+/
+ /about
+ /services
+ /services/[slug]
+ /contact
+
+System:
+ /404
+ error state
+ loading states
+
+Reserved future paths:
+ /partners
+ /b2b
+ /account
+
+Do not implement reserved routes.
+
+========================================================
+14. GLOBAL NAVIGATION
+========================================================
+
+Desktop navigation:
+
+Trip Line logo left.
+
+Center/right:
+Home
+About
+Services
+Contact
+
+CTA:
+Contact Us
+
+No visible Admin link.
+
+Behavior:
+
+- transparent/dark over hero
+- sticky
+- after scroll becomes controlled semi-opaque surface
+- very light blur only if it improves legibility
+- hide/reveal behavior may respond gently to scroll direction
+- keyboard accessible
+- visible focus states
+
+Mobile:
+
+- logo
+- menu button
+- full-height or sheet-style navigation
+- large navigation links
+- Contact CTA
+- social/contact shortcuts optionally at bottom
+
+No over-designed hamburger animation.
+
+========================================================
+15. HOME PAGE
+========================================================
+
+HOME must follow a narrative.
+
+--------------------------------
+SECTION 01 — HERO
+--------------------------------
+
+Desktop approximately 90–100svh.
+
+Visual:
+cinematic Trip Line destination imagery.
+
+Initial seed headline:
+
+THE WORLD
+FEELS DIFFERENT
+FROM HERE.
+
+"FROM HERE." may use gold accent.
+
+Seed supporting text:
+
+Curated travel experiences and seamless services from people
+who know the destination.
+
+Primary CTA:
+Explore Services
+
+Secondary:
+Contact Us
+
+Eyebrow:
+TRAVEL / PEOPLE / PLACES / POSSIBILITIES
+
+Hero includes:
+
+- destination imagery
+- dark teal composition
+- gold JourneyLine
+- aircraft element
+- subtle depth
+- scroll indicator
+
+Image must remain readable with real text.
+
+Do not bake text into images.
+
+--------------------------------
+SECTION 02 — PHILOSOPHY
+--------------------------------
+
+Light ivory section.
+
+Seed statement:
+
+WE MOVE
+PEOPLE.
+BUT THAT'S
+ONLY THE BEGINNING.
+
+Large editorial typography.
+
+Include:
+
+- one vertically composed image
+- supporting paragraph
+- link to About
+- small text motif such as:
+  PEOPLE
+  PLACES
+  CULTURE
+  CONNECTION
+  POSSIBILITIES
+
+Use an asymmetric editorial composition.
+
+--------------------------------
+SECTION 03 — SERVICES INTRO
+--------------------------------
+
+Dark section.
+
+Seed title:
+
+EXPERIENCES
+DESIGNED
+AROUND YOU.
+
+Service items come from backend.
+
+Home displays only featured services.
+
+Preferred composition:
+three visually strong editorial cards/items, not a generic SaaS grid.
+
+Each:
+- number
+- image
+- title
+- short description
+- arrow
+
+Possible seed services:
+- Private Transfers
+- Tours & Experiences
+- Travel Services
+
+These are sample data and must remain editable.
+
+--------------------------------
+SECTION 04 — FEATURE STORY
+--------------------------------
+
+One large photographic moment.
+
+Purpose:
+slow down the page.
+
+Could be:
+- large full-bleed destination image
+- short statement
+- subtle route graphic
+
+Admin can disable this section.
+
+--------------------------------
+SECTION 05 — WHY TRIP LINE
+--------------------------------
+
+Use only real configurable differentiators.
+
+Suggested editable labels:
+- Local Knowledge
+- Personal Service
+- Trusted Partners
+- Seamless Planning
+
+Do NOT create unverifiable claims.
+
+--------------------------------
+SECTION 06 — OPTIONAL METRICS
+--------------------------------
+
+Disabled by default.
+
+Metrics must never appear unless real values are entered through admin.
+
+Examples:
+years experience
+destinations
+travelers
+
+Do not seed fake numbers.
+
+--------------------------------
+SECTION 07 — FINAL CTA
+--------------------------------
+
+Large dark cinematic CTA.
+
+Seed:
+
+WHERE TO NEXT?
+
+Supporting text.
+
+Buttons:
+Explore Services
+Contact Us
+
+JourneyLine returns here as a concluding visual.
+
+--------------------------------
+SECTION 08 — FOOTER
+--------------------------------
+
+Logo
+navigation
+contact details
+socials
+copyright
+optional legal links
+
+All global details come from settings.
+
+========================================================
+16. ABOUT PAGE
+========================================================
+
+Hero:
+
+PEOPLE.
+PLACES.
+POSSIBILITIES.
+
+Use layered editorial photography.
+
+Sections:
+
+1. Hero
+2. Our Story
+3. Philosophy
+4. How We Approach Travel
+5. Journey/Process
+6. Optional values
+7. Optional team
+8. Optional partners
+9. CTA
+
+Use JourneyLine as a process/timeline device.
+
+Potential process:
+
+IDEA
+→ PLAN
+→ DEPART
+→ EXPERIENCE
+→ RETURN
+
+Do not show Team or Partner sections when no content exists.
+
+========================================================
+17. SERVICES PAGE
+========================================================
+
+Hero seed:
+
+JOURNEYS
+IN EVERY
+DIRECTION.
+
+Below hero:
+
+editorial service index.
+
+Desktop format can resemble:
+
+01   Private Transfers            [image preview]   →
+02   Tours & Experiences          [image preview]   →
+03   Travel Services              [image preview]   →
+04   Special Arrangements         [image preview]   →
+
+Hover:
+
+- show/update associated image
+- subtle image motion
+- no cursor-chasing gimmicks
+
+Mobile:
+
+vertical image-first cards/list.
+
+Service categories should be supported by the data model but
+category filtering is optional for V1 if there are only a few services.
+
+========================================================
+18. SERVICE DETAIL
+========================================================
+
+Route:
+/services/[slug]
+
+Structure:
+
+1. Hero
+2. Breadcrumb
+3. Service title
+4. Short description
+5. Main CTA
+6. Highlights
+7. Overview
+8. Gallery
+9. Useful information
+10. Optional included/excluded items
+11. Optional FAQ
+12. Contact CTA
+13. Related services
+
+Only render sections with content.
+
+Example hero seed:
+
+PRIVATE
+TRANSFERS.
+
+Supporting:
+Start your journey in complete comfort.
+
+The system must support different service content without developers
+editing code.
+
+========================================================
+19. CONTACT PAGE
+========================================================
+
+Hero/heading:
+
+LET'S GO
+SOMEWHERE.
+
+Desktop:
+roughly 45/55 composition.
+
+Left:
+- heading
+- description
+- phone
+- WhatsApp
+- email
+- address
+- social links
+
+Right:
+contact form.
+
+Required:
+Name
+Email
+Message
+
+Optional/configurable:
+Phone
+Company
+Subject
+Service of interest
+
+Submission:
+- validate client side
+- validate backend
+- Cloudflare Turnstile
+- persist in PostgreSQL
+- show success state
+- no page reload
+- prevent duplicate accidental submissions
+
+Store UTM/source fields if available.
+
+========================================================
+20. PUBLIC COMPONENT LIBRARY
+========================================================
+
+Create reusable components such as:
+
+BrandLogo
+Navigation
+MobileNavigation
+Footer
+
+SectionShell
+EditorialHeading
+Eyebrow
+RichText
+
+PrimaryButton
+SecondaryButton
+TextLink
+
+JourneyLine
+HeroAircraft
+HeroMedia
+ImageReveal
+EditorialImage
+MediaFrame
+
+ServiceFeature
+ServiceIndex
+ServicePreview
+RelatedServices
+
+ContactCTA
+ContactForm
+
+ScrollIndicator
+SectionIndex
+
+Do not over-abstract.
+
+A component must solve an actual repeated problem.
+
+========================================================
+21. IMAGE DIRECTION
+========================================================
+
+Use cinematic travel imagery.
+
+Preferred:
+- architecture
+- landscapes
+- cultural detail
+- local atmosphere
+- transport
+- genuine experiences
+- natural human presence
+- golden-hour lighting when suitable
+
+Avoid:
+- generic stock families
+- corporate handshakes
+- fake tourism models
+- oversaturated stock photography
+- generic airplane-in-blue-sky imagery
+
+Images in the initial implementation may use clearly marked placeholder
+assets that can be replaced in admin.
+
+Do not scrape copyrighted photography.
+
+========================================================
+22. ADMIN DESIGN
+========================================================
+
+Admin does NOT copy the cinematic public-site UX.
+
+Admin should be:
+
+- clean
+- fast
+- professional
+- calm
+- predictable
+- highly usable
+
+Visual continuity:
+- deep teal sidebar
+- ivory/off-white workspace
+- gold as restrained accent
+- Manrope primarily
+- no 3D
+- no parallax
+- no custom cursor
+
+Desktop-first but fully responsive.
+
+========================================================
+23. ADMIN ROUTES
+========================================================
+
+/admin/login
+
+/admin
+/admin/pages
+/admin/pages/home
+/admin/pages/about
+/admin/pages/contact
+
+/admin/services
+/admin/services/new
+/admin/services/[id]
+
+/admin/media
+/admin/messages
+
+/admin/settings
+/admin/users
+/admin/audit
+
+========================================================
+24. ADMIN DASHBOARD
+========================================================
+
+Show:
+
+- total active services
+- new contact messages
+- total messages
+- published pages
+- website status
+- recent messages
+- recent content changes
+
+Do NOT invent visitor analytics until analytics exists.
+
+========================================================
+25. PAGE EDITOR
+========================================================
+
+Do NOT build a Webflow clone.
+
+Pages consist of structured sections.
+
+Example:
+
+HOME PAGE
+
+Hero
+[enabled]
+headline
+description
+background media
+primary CTA
+secondary CTA
+
+Philosophy
+[enabled]
+eyebrow
+headline
+body
+image
+
+Services
+[enabled]
+headline
+featured services
+
+Feature Story
+[enabled]
+...
+
+Admin capabilities:
+
+- edit
+- enable/disable
+- reorder allowed sections where safe
+- preview
+- save
+- publish
+
+Use autosave only if it can be implemented safely without confusing
+published state.
+
+Prefer explicit:
+Save Draft
+Preview
+Publish
+
+========================================================
+26. CONTENT PUBLISHING
+========================================================
+
+Public website must not immediately expose unfinished edits.
+
+Implement draft/published content.
+
+Recommended simple model:
+
+For page sections:
+- draft_content JSONB
+- published_content JSONB
+- draft_enabled
+- published_enabled
+
+Publish copies validated draft values to published fields atomically.
+
+For services use equivalent draft/published approach.
+
+Public APIs only return published content.
+
+Admin APIs can access drafts.
+
+Keep implementation understandable.
+
+========================================================
+27. ADMIN PREVIEW
+========================================================
+
+Admin must have:
+
+Preview Draft
+
+Preview should open the page using draft content only for authenticated
+authorized users.
+
+Never expose draft content publicly.
+
+========================================================
+28. SERVICES ADMIN
+========================================================
+
+Fields:
+
+Title
+Slug
+Category
+Short description
+Long description
+Hero image
+Card image
+Gallery
+Highlights
+Useful information
+FAQ
+CTA label
+CTA URL/action
+Featured
+Display order
+Enabled
+SEO title
+SEO description
+OG image
+
+Long text may use restricted TipTap content.
+
+No arbitrary script or iframe embedding.
+
+========================================================
+29. MEDIA LIBRARY
+========================================================
+
+Features:
+
+- drag/drop upload
+- file picker
+- image preview
+- search
+- alt text
+- filename
+- dimensions
+- file size
+- type
+- created date
+- usage/reference warning before delete
+
+Object storage:
+Cloudflare R2.
+
+DB stores metadata, not binary file content.
+
+Use presigned upload where appropriate.
+
+Generate randomized object keys.
+
+Allowed initial formats:
+jpg/jpeg
+png
+webp
+avif
+
+Optional:
+pdf for future brochure support
+
+Do NOT allow arbitrary HTML or executable uploads.
+
+Avoid user-uploaded SVG unless sanitization is implemented.
+
+Set upload size limits.
+
+========================================================
+30. CONTACT INBOX
+========================================================
+
+Messages table:
+
+Name
+Email
+Phone
+Company
+Subject
+Created
+Status
+
+Statuses:
+
+NEW
+READ
+REPLIED
+ARCHIVED
+
+Message detail:
+- full message
+- source page
+- service interest
+- UTM info
+- status
+- timestamps
+
+This module is deliberately designed so a future CRM can convert
+contact submissions into leads.
+
+Do NOT build the CRM yet.
+
+========================================================
+31. GLOBAL SETTINGS
+========================================================
+
+Editable:
+
+Company name
+Tagline
+Logo variants
+Favicon
+
+Phone
+WhatsApp
+Email
+Address
+Business hours
+
+Instagram
+Facebook
+LinkedIn
+TikTok
+other socials if needed
+
+Default SEO title
+Default SEO description
+Default OG image
+
+Default locale
+Timezone
+
+Footer text
+
+========================================================
+32. USER ROLES
+========================================================
+
+Initial roles:
+
+SUPER_ADMIN
+ADMIN
+EDITOR
+
+SUPER_ADMIN:
+- everything
+- user management
+- role management
+- security-sensitive settings
+
+ADMIN:
+- pages
+- services
+- media
+- messages
+- website settings
+
+EDITOR:
+- pages
+- services
+- media
+- cannot manage users
+- cannot modify security-critical settings
+
+Backend authorization is authoritative.
+
+Never rely solely on hiding frontend controls.
+
+========================================================
+33. AUTHENTICATION
+========================================================
+
+Use Spring Security.
+
+Use session authentication, not hand-rolled JWT auth.
+
+Prefer:
+Spring Session JDBC using PostgreSQL so sessions survive application
+restarts and can later work across multiple backend instances.
+
+Cookie:
+
+- Secure
+- HttpOnly
+- SameSite=Lax where architecture allows
+- sensible expiration
+- regenerate session on login
+
+Password hashing:
+use a strong Spring-supported password encoder.
+
+No passwords logged.
+
+Implement:
+- login
+- logout
+- current user
+- change password
+- admin-created users
+- forced initial password change optional
+
+No public signup.
+
+========================================================
+34. CSRF
+========================================================
+
+Keep Spring Security CSRF protection enabled.
+
+Frontend must correctly retrieve/send CSRF tokens for unsafe requests.
+
+Never "solve" integration issues by globally disabling CSRF.
+
+========================================================
+35. LOGIN PROTECTION
+========================================================
+
+Implement reasonable brute-force protection.
+
+At minimum:
+- rate limit by IP
+- rate limit repeated username attempts
+- generic authentication error
+- audit failed login attempts
+
+Do not reveal whether a username exists.
+
+========================================================
+36. BACKEND STACK
+========================================================
+
+Use:
+
+Java 21 LTS
+Spring Boot 4.1.x
+Spring Security
+Spring Data JPA
+Spring Validation
+Spring Actuator
+Spring Session JDBC
+Spring Modulith
+Flyway
+PostgreSQL
+S3-compatible client for R2
+
+Use Spring Boot's dependency management.
+
+Avoid manually forcing mismatched framework versions.
+
+Architecture:
+MODULAR MONOLITH.
+
+========================================================
+37. BACKEND MODULES
+========================================================
+
+Recommended package layout:
+
+com.tripline.platform
+│
+├── Application
+│
+├── shared
+│   ├── errors
+│   ├── validation
+│   ├── security
+│   ├── storage
+│   └── config
+│
+├── auth
+├── users
+├── content
+├── services
+├── media
+├── contacts
+├── settings
+└── audit
+
+Each domain module owns:
+
+- domain
+- persistence
+- application/service logic
+- API/controllers where appropriate
+
+Do not create a generic:
+controller/
+service/
+repository/
+entity/
+global package architecture.
+
+Organize around business modules.
+
+Use Spring Modulith verification tests to guard module boundaries.
+
+========================================================
+38. DATABASE
+========================================================
+
+PostgreSQL.
+
+Use UUID primary keys.
+
+Store timestamps in UTC.
+
+Use explicit constraints.
+
+Use indexes deliberately.
+
+Use optimistic locking where simultaneous admin edits could matter.
+
+Minimum conceptual entities:
+
+users
+roles
+user_roles
+
+spring_session
+spring_session_attributes
+
+pages
+page_sections
+
+service_categories
+services
+service_media
+service_relations
+
+media_assets
+
+contact_submissions
+
+site_settings
+navigation_items
+
+audit_logs
+
+Optional supporting:
+content_revisions if required by implementation.
+
+========================================================
+39. INTERNATIONALIZATION READINESS
+========================================================
+
+Launch language:
+English.
+
+Prepare content storage for future:
+
+English
+Arabic
+Turkish
+others
+
+Do not hard-wire English-only database schemas.
+
+Preferred model:
+
+page translations/localizations keyed by locale
+service translations keyed by locale
+section localized content keyed by locale
+
+Seed only "en".
+
+Do not build the public language selector until needed.
+
+Ensure future RTL support is possible.
+
+========================================================
+40. DATABASE MIGRATIONS
+========================================================
+
+Flyway is mandatory.
+
+Location:
+
+backend/src/main/resources/db/migration/
+
+Examples:
+
+V001__initial_users.sql
+V002__create_content_schema.sql
+V003__create_services.sql
+V004__create_media.sql
+V005__create_contacts.sql
+V006__create_settings.sql
+V007__create_audit_log.sql
+
+Rules:
+
+- never manually modify production database schema;
+- all schema changes use migrations;
+- once a migration has reached a persistent environment, do not edit it;
+- create a new forward migration instead;
+- migrations must exist in source control;
+- migrations must succeed before app is considered healthy.
+
+========================================================
+41. API STYLE
+========================================================
+
+REST JSON.
+
+Version:
+ /api/v1/...
+
+Use DTOs.
+
+Do NOT expose JPA entities directly.
+
+Use consistent API error shape:
+
+{
+  "code": "...",
+  "message": "...",
+  "fieldErrors": {...},
+  "timestamp": "...",
+  "traceId": "..."
+}
+
+Do not expose stack traces to clients.
+
+========================================================
+42. PUBLIC API
+========================================================
+
+Conceptual endpoints:
+
+GET /api/v1/public/site
+GET /api/v1/public/navigation
+
+GET /api/v1/public/pages/{slug}
+GET /api/v1/public/services
+GET /api/v1/public/services/{slug}
+
+POST /api/v1/public/contact
+
+Support locale parameter/header internally.
+
+Public service listing supports:
+- featured
+- category
+- enabled/published only
+
+========================================================
+43. ADMIN API
+========================================================
+
+Auth:
+POST /api/v1/auth/login
+POST /api/v1/auth/logout
+GET  /api/v1/auth/me
+GET  /api/v1/auth/csrf
+
+Pages:
+GET   /api/v1/admin/pages
+GET   /api/v1/admin/pages/{id}
+PATCH /api/v1/admin/pages/{id}
+POST  /api/v1/admin/pages/{id}/publish
+
+Services:
+GET    /api/v1/admin/services
+POST   /api/v1/admin/services
+GET    /api/v1/admin/services/{id}
+PATCH  /api/v1/admin/services/{id}
+DELETE or ARCHIVE safely
+POST   /api/v1/admin/services/{id}/publish
+
+Media:
+GET    /api/v1/admin/media
+POST   upload-init/presign
+POST   upload-complete
+PATCH  metadata
+DELETE safe/unreferenced item
+
+Messages:
+GET   /api/v1/admin/messages
+GET   /api/v1/admin/messages/{id}
+PATCH /api/v1/admin/messages/{id}
+
+Settings:
+GET
+PATCH
+
+Users:
+CRUD based on role permissions
+
+Audit:
+GET paginated/filterable
+
+Exact endpoint names may be refined but keep API cohesive.
+
+========================================================
+44. PAGINATION
+========================================================
+
+Admin list endpoints must paginate.
+
+Use consistent parameters:
+
+page
+size
+sort
+
+Set reasonable max page size.
+
+Search/filter server-side for:
+
+services
+media
+messages
+users
+audit logs
+
+========================================================
+45. VALIDATION
+========================================================
+
+Frontend validation improves UX.
+
+Backend validation is mandatory.
+
+Backend is source of truth.
+
+Validate:
+
+- email
+- URLs
+- slugs
+- text lengths
+- allowed service status
+- file type
+- upload size
+- required alt fields where appropriate
+- phone reasonably without over-restricting international formats
+
+Sanitize formatted rich-text content.
+
+========================================================
+46. CONTACT FORM ANTI-SPAM
+========================================================
+
+Use Cloudflare Turnstile.
+
+The browser obtains token.
+
+Backend validates token with Cloudflare before accepting message.
+
+Also apply reasonable rate limiting.
+
+Never rely on client-side Turnstile success alone.
+
+========================================================
+47. SEO
+========================================================
+
+Every public page/service supports:
+
+- SEO title
+- meta description
+- canonical URL
+- OpenGraph title
+- OpenGraph description
+- OG image
+- social image fallback
+
+Next.js dynamic metadata.
+
+Generate:
+- sitemap.xml
+- robots.txt
+
+Use semantic HTML.
+
+Structured data where genuinely applicable:
+
+Organization
+BreadcrumbList
+Service
+
+Do not output fake ratings/reviews.
+
+========================================================
+48. URL STABILITY
+========================================================
+
+Service slug changes must be handled carefully.
+
+Prefer:
+- slug is editable before launch;
+- warn if changed after publishing;
+- optionally store previous slugs later for redirects.
+
+Do not casually break published URLs.
+
+========================================================
+49. ACCESSIBILITY
+========================================================
+
+Target WCAG 2.2 AA.
+
+Required:
+
+- keyboard navigable
+- visible focus states
+- no keyboard traps
+- semantic headings
+- landmark elements
+- labels for forms
+- accessible error summaries
+- aria only where necessary
+- alt text
+- adequate contrast
+- reduced motion
+- 200% text zoom support
+- correct button/link semantics
+
+Do not make motion, hover, color, or 3D the only way to understand content.
+
+Touch targets approximately 44px minimum where practical.
+
+========================================================
+50. PERFORMANCE
+========================================================
+
+Performance is a product requirement.
+
+Target field Core Web Vitals:
+
+LCP <= 2.5s
+INP <= 200ms
+CLS <= 0.1
+
+Treat 75th percentile mobile as the important target.
+
+Images:
+- next/image
+- responsive sizes
+- explicit dimensions/aspect ratios
+- preload only real LCP image
+- lazy load below fold
+- AVIF/WebP when practical
+
+Fonts:
+- next/font
+- minimal weights
+- no layout shift
+
+JavaScript:
+- dynamic import heavy interactions
+- 3D not included in initial critical bundle
+- no unnecessary client components
+
+Hero:
+must remain visually strong without requiring a huge video.
+
+If video is introduced:
+- optimized short loop
+- poster image
+- muted
+- no audio
+- mobile fallback
+- never block LCP
+
+========================================================
+51. VIEW TRANSITIONS
+========================================================
+
+Use React ViewTransition selectively.
+
+Good candidates:
+
+service card/index
+→ service detail hero
+
+Do not animate every route.
+
+Transitions must:
+- be short
+- not delay navigation
+- respect reduced motion
+- degrade normally when unsupported
+
+========================================================
+52. CACHING
+========================================================
+
+Public content changes infrequently.
+
+Use sensible caching.
+
+Possible approach:
+
+Next.js server-fetch caching/revalidation.
+
+Public page content:
+short ISR/revalidation window.
+
+After publish, support targeted revalidation if cleanly implementable.
+
+Admin data:
+never statically cached.
+
+Do not let a CMS publish appear stale for hours.
+
+========================================================
+53. SECURITY HEADERS
+========================================================
+
+Configure appropriate:
+
+Content-Security-Policy
+Strict-Transport-Security in production
+X-Content-Type-Options
+Referrer-Policy
+Permissions-Policy
+frame-ancestors
+
+Be especially careful with:
+- R2 media
+- Turnstile
+- embedded maps if later enabled
+
+Do not use unsafe-inline broadly as an easy fix.
+
+========================================================
+54. STORAGE
+========================================================
+
+Production media:
+Cloudflare R2.
+
+Separate buckets/prefixes where helpful:
+
+tripline-public-media
+tripline-backups
+
+Never commit production secrets.
+
+R2 credentials server-side only.
+
+Public media may use controlled public access/custom domain.
+
+Backups must not be public.
+
+========================================================
+55. AUDIT LOG
+========================================================
+
+Record admin events including:
+
+LOGIN_SUCCESS
+LOGIN_FAILURE
+LOGOUT
+
+PAGE_UPDATE
+PAGE_PUBLISH
+
+SERVICE_CREATE
+SERVICE_UPDATE
+SERVICE_PUBLISH
+SERVICE_ARCHIVE
+
+MEDIA_UPLOAD
+MEDIA_DELETE
+
+SETTINGS_UPDATE
+
+USER_CREATE
+USER_UPDATE
+USER_DISABLE
+
+Store:
+- actor ID
+- event
+- entity type
+- entity ID
+- timestamp
+- safe metadata
+
+Never store passwords or secrets.
+
+========================================================
+56. OBSERVABILITY
+========================================================
+
+Spring Actuator.
+
+Expose publicly only what is safe.
+
+Health endpoint used by Coolify.
+
+Implement:
+- application health
+- database health
+- structured useful logs
+- request/trace identifier
+- meaningful backend exception logging
+
+Do not expose internal configuration or sensitive Actuator endpoints publicly.
+
+========================================================
+57. ERROR HANDLING
+========================================================
+
+Public UI:
+
+beautiful branded:
+- 404
+- 500
+- network error states
+
+Admin:
+- toast/inline errors
+- preserve form input on failure
+- retry where safe
+- destructive actions require confirmation
+
+Backend:
+centralized exception handling.
+
+No raw SQL/internal exception details exposed.
+
+========================================================
+58. FRONTEND REPOSITORY STRUCTURE
+========================================================
+
+Monorepo:
+
+tripline/
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   │   ├── public/
+│   │   ├── admin/
+│   │   ├── motion/
+│   │   └── ui/
+│   ├── features/
+│   ├── lib/
+│   ├── styles/
+│   ├── public/
+│   │   ├── brand/
+│   │   └── models/
+│   ├── tests/
+│   ├── Dockerfile
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   ├── Dockerfile
+│   └── pom.xml
+│
+├── infra/
+│   ├── docker-compose.dev.yml
+│   └── README.md
+│
+├── docs/
+├── .github/
+│   └── workflows/
+├── README.md
+└── TODO.md
+
+========================================================
+59. FRONTEND STATE
+========================================================
+
+Public site:
+prefer server-rendered content.
+
+Admin:
+TanStack Query for server state.
+
+Forms:
+React Hook Form + Zod.
+
+Avoid global client state unless genuinely required.
+
+No Redux.
+
+========================================================
+60. LOCAL DEVELOPMENT
+========================================================
+
+Provide straightforward onboarding.
+
+README should support:
+
+1. clone
+2. configure .env files
+3. docker compose up PostgreSQL + optional local S3-compatible storage
+4. run backend
+5. run frontend
+6. login with seeded development admin
+7. begin editing
+
+Never seed a production default password.
+
+Development seed credentials only in development profile.
+
+========================================================
+61. TESTING — FRONTEND
+========================================================
+
+Use:
+
+unit/component testing where useful
+React Testing Library
+Playwright for end-to-end critical workflows
+
+Critical E2E:
+
+PUBLIC:
+- homepage loads
+- navigation works
+- services load
+- service detail loads
+- contact form submits
+- contact validation works
+
+ADMIN:
+- login
+- invalid login
+- edit homepage
+- publish homepage
+- create service
+- publish service
+- upload media
+- open contact message
+- update status
+- authorization restrictions
+
+========================================================
+62. TESTING — BACKEND
+========================================================
+
+Use:
+JUnit
+Spring Boot Test
+Testcontainers PostgreSQL
+
+Test:
+- module boundaries
+- auth
+- role restrictions
+- page publishing
+- service publishing
+- contact submission
+- Turnstile integration through mock/stub boundary
+- validation
+- media metadata
+- audit creation
+- database migrations
+
+Do not use H2 as the only database integration test.
+
+Production database is PostgreSQL, so integration tests should use PostgreSQL.
+
+========================================================
+63. CI
+========================================================
+
+GitHub Actions on every PR/main update.
+
+Frontend:
+- install locked dependencies
+- lint
+- typecheck
+- tests
+- production build
+
+Backend:
+- Maven verify
+- unit tests
+- integration tests
+- migration validation
+- package
+
+Optionally:
+build Docker images as CI validation.
+
+No deployment if checks fail.
+
+========================================================
+64. DEPLOYMENT ARCHITECTURE
+========================================================
+
+Cloudflare
+│
+├── DNS
+├── CDN where appropriate
+├── Turnstile
+└── R2
+        │
+        ▼
+VPS
+│
+└── Coolify
+    │
+    ├── Next.js frontend
+    ├── Spring Boot backend
+    └── PostgreSQL
+
+Do NOT place PostgreSQL on a public port.
+
+Initial frontend domain:
+https://tripline-domain/
+
+Initial API:
+prefer a clean API subdomain such as:
+https://api.tripline-domain/
+
+or same-origin path routing if cleanly supported.
+
+Do not create unnecessary networking complexity.
+
+========================================================
+65. COOLIFY
+========================================================
+
+Production should use separate Coolify resources:
+
+1. frontend application
+2. backend application
+3. PostgreSQL database
+
+Do not make PostgreSQL lifecycle dependent on redeploying frontend/backend.
+
+Frontend and backend deploy from the same monorepo but separate build roots.
+
+Configure:
+- domains
+- HTTPS
+- environment variables
+- health checks
+- restart policies
+- persistent DB storage
+
+========================================================
+66. VPS
+========================================================
+
+Start with sufficient capacity for:
+
+- Coolify
+- frontend
+- backend
+- PostgreSQL
+
+Do not choose the absolute minimum Coolify server size.
+
+A practical starting target is around:
+
+2+ vCPU
+4+ GB RAM
+adequate NVMe storage
+
+Monitor actual usage.
+
+Scale vertically before introducing distributed infrastructure.
+
+========================================================
+67. PRODUCTION BACKUPS
+========================================================
+
+MANDATORY.
+
+Database backups:
+daily.
+
+Store copy OFF the VPS in S3-compatible object storage/R2.
+
+Suggested retention:
+7 daily
+4 weekly
+3 monthly
+
+Adjust later based on business requirements.
+
+Also preserve:
+- Coolify recovery material
+- installation secrets
+- deployment configuration where applicable
+
+A backup is not considered trustworthy until restore has been tested.
+
+Perform a documented restore test before production sign-off.
+
+========================================================
+68. DEPLOYMENT SAFETY
+========================================================
+
+Use separate:
+
+development
+staging
+production
+
+If resources are limited, staging can run on the same VPS with separate
+database/resources, but must not share production data.
+
+Never test migrations first on production.
+
+Flow:
+
+feature branch
+→ CI
+→ merge
+→ staging
+→ verify
+→ production
+
+========================================================
+69. ENVIRONMENT VARIABLES
+========================================================
+
+Document every variable.
+
+Examples:
+
+FRONTEND:
+NEXT_PUBLIC_API_URL
+NEXT_PUBLIC_TURNSTILE_SITE_KEY
+NEXT_PUBLIC_SITE_URL
+
+BACKEND:
+SPRING_PROFILES_ACTIVE
+
+DATABASE_URL / datasource fields
+DATABASE_USERNAME
+DATABASE_PASSWORD
+
+CORS_ALLOWED_ORIGINS
+
+R2_ENDPOINT
+R2_ACCESS_KEY_ID
+R2_SECRET_ACCESS_KEY
+R2_BUCKET
+R2_PUBLIC_BASE_URL
+
+TURNSTILE_SECRET_KEY
+
+SESSION_COOKIE settings
+
+FRONTEND_REVALIDATION_SECRET if implemented
+
+ADMIN bootstrap credentials only for initial secure setup,
+never permanently embedded.
+
+No secret may be prefixed NEXT_PUBLIC unless intentionally public.
+
+========================================================
+70. MOBILE
+========================================================
+
+Mobile must be intentionally designed.
+
+Test at minimum:
+360
+375
+390
+430 px widths.
+
+No horizontal overflow.
+
+Simplify compositions.
+
+Hero:
+- strong typography
+- readable image crop
+- lighter animation
+- possible static aircraft
+- JourneyLine simplified
+
+No tiny desktop interface scaled down.
+
+Menus and forms must be thumb friendly.
+
+========================================================
+71. RESPONSIVE QA
+========================================================
+
+Test:
+
+360
+390
+768
+1024
+1280
+1440
+1920
+
+Also test:
+- portrait
+- landscape
+- touch
+- keyboard
+- reduced motion
+- slow connection
+- JavaScript failure for essential public content where possible
+
+========================================================
+72. BROWSER SUPPORT
+========================================================
+
+Target current modern:
+
+Chrome
+Edge
+Firefox
+Safari
+
+Mobile:
+iOS Safari
+Android Chrome
+
+Enhancements such as WebGL/ViewTransition may degrade gracefully.
+
+Core content/navigation/form submission must remain usable.
+
+========================================================
+73. CMS CONTENT RULE
+========================================================
+
+Do not hardcode business content into components unless it is
+purely interface language.
+
+Content such as:
+
+headlines
+paragraphs
+images
+services
+contact details
+social links
+CTA labels
+
+must come from CMS/settings where identified.
+
+Design structure remains controlled by code.
+
+This separation is intentional:
+
+ADMIN CONTROLS CONTENT.
+CODE CONTROLS DESIGN.
+
+========================================================
+74. INITIAL SEED CONTENT
+========================================================
+
+Seed editable drafts for development:
+
+HOME:
+"The World Feels Different From Here."
+
+PHILOSOPHY:
+"We Move People. But That's Only the Beginning."
+
+SERVICES:
+"Experiences Designed Around You."
+
+SERVICES PAGE:
+"Journeys in Every Direction."
+
+ABOUT:
+"People. Places. Possibilities."
+
+CONTACT:
+"Let's Go Somewhere."
+
+These are initial creative placeholders, not immutable text.
+
+========================================================
+75. DO NOT FABRICATE BUSINESS DATA
+========================================================
+
+Do NOT generate:
+
+5+ years experience
+50+ destinations
+10K travelers
+4.9 rating
+partner logos
+customer reviews
+awards
+certifications
+
+unless real data is supplied.
+
+If design requires these elements:
+hide section until supplied.
+
+========================================================
+76. PERFORMANCE ACCEPTANCE
+========================================================
+
+Representative production build should aim for:
+
+Core Web Vitals:
+LCP <= 2.5s
+INP <= 200ms
+CLS <= 0.1
+
+Lighthouse goals:
+Accessibility >= 90
+SEO >= 90
+Best Practices >= 90
+
+Performance:
+target >= 85 mobile
+target >= 90 desktop
+
+Do not fake Lighthouse scores by disabling intended functionality.
+
+========================================================
+77. CODE QUALITY
+========================================================
+
+TypeScript:
+strict.
+
+Java:
+clear domain boundaries.
+
+No:
+- giant 1,000-line React components
+- giant God services
+- copy/paste components
+- duplicated business logic
+- mysterious utility dumping grounds
+- circular dependencies
+- unused packages
+- dead experimental code
+
+Use comments for WHY, not obvious WHAT.
+
+========================================================
+78. DOCUMENTATION
+========================================================
+
+README must explain:
+
+- architecture
+- prerequisites
+- local startup
+- environment variables
+- migrations
+- creating admin
+- media/R2
+- tests
+- build
+- deployment
+- backup
+- restore
+- troubleshooting
+
+Docs folder should remain synchronized with implementation.
+
+========================================================
+79. DEFINITION OF DONE
+========================================================
+
+V1 is NOT DONE until:
+
+PUBLIC:
+[ ] Home complete
+[ ] About complete
+[ ] Services complete
+[ ] Service detail complete
+[ ] Contact complete
+[ ] responsive
+[ ] motion complete
+[ ] reduced-motion complete
+[ ] 3D enhancement/fallback complete
+[ ] SEO complete
+[ ] sitemap/robots complete
+[ ] errors/404 complete
+
+ADMIN:
+[ ] login
+[ ] dashboard
+[ ] page editing
+[ ] preview
+[ ] publishing
+[ ] services CRUD
+[ ] media library
+[ ] message inbox
+[ ] settings
+[ ] users
+[ ] roles
+[ ] audit log
+
+BACKEND:
+[ ] modular architecture
+[ ] PostgreSQL
+[ ] Flyway
+[ ] auth
+[ ] authorization
+[ ] CSRF
+[ ] sessions
+[ ] validation
+[ ] Turnstile
+[ ] R2
+[ ] audit
+[ ] Actuator health
+[ ] consistent errors
+
+OPERATIONS:
+[ ] Dockerfiles
+[ ] CI
+[ ] Coolify deployment
+[ ] staging
+[ ] production
+[ ] SSL
+[ ] DB persistence
+[ ] external backups
+[ ] restore test documented
+[ ] secrets documented
+
+QUALITY:
+[ ] unit tests
+[ ] integration tests
+[ ] E2E critical flows
+[ ] no production mock data
+[ ] no console errors
+[ ] no obvious accessibility failures
+[ ] no broken links
+[ ] no exposed secrets
+[ ] performance targets reasonably met
+
+========================================================
+80. IMPLEMENTATION ORDER
+========================================================
+
+Follow this order unless there is a strong engineering reason to change it:
+
+MILESTONE 1
+Project scaffolding
+Documentation
+Design tokens
+Monorepo
+Local infrastructure
+
+MILESTONE 2
+PostgreSQL
+Flyway
+Spring Boot
+module architecture
+users/auth/security
+
+MILESTONE 3
+CMS/content
+services
+settings
+media
+contacts
+audit
+
+MILESTONE 4
+Base frontend
+design system
+navigation
+footer
+responsive layout
+
+MILESTONE 5
+Home
+About
+Services
+Service Detail
+Contact
+
+MILESTONE 6
+Motion
+JourneyLine
+View Transitions
+3D hero enhancement
+performance optimization
+
+MILESTONE 7
+Admin interface
+page editor
+service manager
+media
+messages
+settings
+users/audit
+
+MILESTONE 8
+Tests
+security review
+accessibility
+performance
+SEO
+
+MILESTONE 9
+Docker
+CI
+Coolify
+Cloudflare
+R2
+Turnstile
+staging
+
+MILESTONE 10
+production validation
+backup
+restore test
+final documentation
+launch readiness
+
+========================================================
+81. MOST IMPORTANT CREATIVE RULE
+========================================================
+
+Do not sacrifice the approved art direction just because a normal
+React component is easier to implement.
+
+Likewise, do not sacrifice usability/performance just to create a
+visual effect.
+
+When deciding between two implementations, choose the one that
+preserves:
+
+1. Trip Line identity
+2. editorial quality
+3. responsiveness
+4. accessibility
+5. performance
+6. maintainability
+
+The final public site should feel bespoke and intentional.
+
+The admin should feel effortless and professional.
+
+The backend should be boring, secure, modular, testable and easy
+to extend.
+
+========================================================
+82. FUTURE ARCHITECTURAL PROMISE
+========================================================
+
+V1 must allow this progression:
+
+Website + CMS
+        ↓
+Contact Inbox
+        ↓
+CRM
+        ↓
+Companies / Leads / Opportunities
+        ↓
+B2B Partners
+        ↓
+Reservations
+        ↓
+Pricing / Availability
+        ↓
+Payments / Invoices / Commissions
+
+Do not pre-build those systems.
+
+Build clean domain boundaries so they can be added without replacing
+the website, admin, auth, media, database migration, deployment or
+content foundations.
+
+END OF MASTER SPECIFICATION

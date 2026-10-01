@@ -1,0 +1,10 @@
+export type Item = { title: string; body: string; image: string; imageAlt: string; url: string };
+export type Section = { key: string; type: string; enabled: boolean; eyebrow: string; title: string; body: string; image: string; imageAlt: string; ctaLabel: string; ctaUrl: string; items: Item[] };
+export type Content = { title: string; description: string; eyebrow: string; image: string; imageAlt: string; category: string; featured: boolean; enabled: boolean; displayOrder: number; ctaLabel: string; ctaUrl: string; seoTitle: string; seoDescription: string; ogImage: string; sections: Section[] };
+export type Document = { id: string; slug: string; locale: string; version: number; content: Content; publishedAt: string | null; updatedAt: string };
+export type Site = { companyName: string; tagline: string; email: string; phone: string; whatsapp: string; address: string; footerText: string; socials: { label: string; url: string }[]; seoTitle: string; seoDescription: string; timezone: string; locale: string };
+export type PageResult<T> = { items: T[]; total: number; page: number; size: number };
+export type User = { id: string; email: string; display_name: string; disabled: boolean; version: number; roles: string[]; role?: string };
+export type Media = { id: string; url: string; filename: string; alt: string; width: number; height: number; size_bytes: number; mime_type: string; created_at: string };
+export type Message = { id: string; name: string; email: string; phone: string; company: string; subject: string; message: string; status: string; service_interest: string; source: string; created_at: string };
+export const blankContent: Content = { title: "", description: "", eyebrow: "", image: "", imageAlt: "", category: "", featured: false, enabled: true, displayOrder: 0, ctaLabel: "Contact Us", ctaUrl: "/contact", seoTitle: "", seoDescription: "", ogImage: "", sections: [] };

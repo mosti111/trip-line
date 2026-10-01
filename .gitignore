@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+target/
+.env
+.env.*
+.env.local
+!.env.example
+*.log
+playwright-report/
+test-results/
+.tools/
+artifacts/
+*.dump

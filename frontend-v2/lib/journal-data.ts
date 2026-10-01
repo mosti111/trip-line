@@ -1,0 +1,10 @@
+export const places = [
+  { id: 'istanbul', theme: 'City', name: 'Istanbul', note: 'Two continents. A thousand stories.', image: '/images/istanbul-placeholder.png', coordinate: '41.0082° N · 28.9784° E', title: 'Follow your curiosity.', body: 'Ferry crossings, winding streets and a skyline that stays with you. Make room for the unexpected in a city of many layers.' },
+  { id: 'cappadocia', theme: 'Sky', name: 'Cappadocia', note: 'A little closer to extraordinary.', image: '/images/tours-placeholder.png', coordinate: '38.6431° N · 34.8289° E', title: 'Find another perspective.', body: 'Soft morning light over sculpted valleys. Ancient paths and wide-open horizons. A landscape made for slowing down.' },
+  { id: 'coast', theme: 'Sea', name: 'The Turquoise Coast', note: 'Take the scenic route.', image: '/images/coast.png', coordinate: 'TÜRKİYE · MEDITERRANEAN', title: 'Let the day unfold.', body: 'Pine-covered shores, quiet coves and another shade of blue around every corner. Leave a little space in the plan.' },
+] as const;
+export const offerings = [
+  { slug: 'private-transfers', title: 'Private transfers', subtitle: 'A considered arrival.', image: '/images/transfers-placeholder.png', body: 'From the airport to your next chapter. Tell us your arrival point, destination and party size, and we can explore the right arrangement.', items: ['Airport arrivals', 'Intercity journeys', 'Travel at your pace'] },
+  { slug: 'tours-experiences', title: 'Tours & experiences', subtitle: 'Follow what moves you.', image: '/images/tours-placeholder.png', body: 'A familiar place seen differently. Explore possibilities shaped around your interests, from a city walk to a day among extraordinary landscapes.', items: ['Culture & discovery', 'Landscape & nature', 'Personal interests'] },
+  { slug: 'travel-services', title: 'Travel services', subtitle: 'The details, connected.', image: '/images/coast.png', body: 'Bring the moving parts of your journey together. Share your ideas and let a thoughtful conversation give them direction.', items: ['Thoughtful planning', 'Connected journeys', 'Personal arrangements'] },
+] as const;
