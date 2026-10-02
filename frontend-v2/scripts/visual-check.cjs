@@ -1,0 +1,9 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone Node verification script. */
+const { chromium } = require('@playwright/test');
+const fs = require('node:fs');
+const path = require('node:path');
+const out=path.resolve(__dirname,'../../tmp/frontend-qa');fs.mkdirSync(out,{recursive:true});
+(async()=>{const browser=await chromium.launch({headless:true});const report=[];
+for(const [name,url,width,height] of [['home-desktop','/en',1440,1000],['home-mobile','/en',390,844],['home-arabic','/ar',390,844],['services-turkish','/tr/services',390,844],['hajj-mobile','/en/services/hajj-umrah',390,844],['contact-desktop','/en/contact?service=corporate&destination=qatar',1280,900],['contact-arabic','/ar/contact?service=corporate&destination=qatar',360,800],['country-desktop','/en/destinations/indonesia',1280,900]]){
+ const page=await browser.newPage({viewport:{width,height}});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});const response=await page.goto('http://localhost:3002'+url,{waitUntil:'networkidle'});await page.screenshot({path:path.join(out,name+'.png'),fullPage:true});const data=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,lang:document.documentElement.lang,dir:document.documentElement.dir,headings:[...document.querySelectorAll('h1')].map(x=>x.textContent),brokenImages:[...document.images].filter(x=>x.complete&&!x.naturalWidth).map(x=>x.src),offenders:[...document.querySelectorAll('main *')].filter(x=>{const r=x.getBoundingClientRect();return r.width&& (r.right>innerWidth+2||r.left< -2)}).slice(0,10).map(x=>x.className)}));report.push({name,status:response.status(),...data,errors});await page.close();
+}fs.writeFileSync(path.join(out,'visual-check.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

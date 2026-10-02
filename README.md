@@ -1,5 +1,17 @@
 # Trip Line
 
+## Current project — 2 October 2026
+
+**Active frontend: [`frontend-v2/`](frontend-v2/).** The approved Türkiye-focused public frontend is implemented and ready for review: 40 content pages in Arabic, English and Turkish, all 12 client-requested Turkish destinations, interactive geographic discovery, video, scroll-driven Three.js and contextual WhatsApp/email inquiries. Build, lint and production browser checks passed. This revision has not been deployed; backend/CMS and publication work remain.
+
+**For a new agent, start with [AGENTS.md](AGENTS.md) and [AI handoff](docs/AI_HANDOFF.md).** See the [delivery report](docs/FRONTEND_DELIVERY.md), [completed phase plan](docs/FRONTEND_IMPLEMENTATION_PLAN.md), [documentation index](docs/README.md) and [saved QA evidence](docs/qa/2026-10-02/README.md).
+
+Run the active frontend with Node 24 and pnpm 11.25.0: from `frontend-v2`, run `pnpm install --frozen-lockfile` and `pnpm dev --port 3002`. Open `/ar`, `/en` or `/tr`. Public content runs without the backend. Keep local `.env` files out of Git.
+
+## Historical V1 demo notes
+
+The sections below describe the preserved V1 demo and broader backend roadmap, not the latest V2 implementation. Older hosted demo links do not show this revision.
+
 Production website and CMS requested in the [master specification](docs/MASTER_SPECIFICATION.txt).
 
 **Current state: working public-site demo; production V1 is unfinished.** At the user's request, public-site preview delivery takes priority over completing the CMS and deployment. The supplied logo, approved visual concept, and Snami Travel reference have been reviewed. Backend source and migrations are retained for the next implementation phase.

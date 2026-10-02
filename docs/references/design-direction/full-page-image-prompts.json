@@ -1,0 +1,138 @@
+{
+  "status": "Interrupted, incomplete and not approved",
+  "brandPrompt": "Use case: ui-mockup. High-fidelity Trip Line website design sheet. Reference image 1 supplies the ACTUAL stacked white Trip / Line logo with ascending airplane flourish; preserve that compact mixed-case lockup, never substitute a generic wordmark. Reference image 2 supplies brand identity: dominant muted teal #406764, deep teal #1F3E41, sand #E8D9C6, sparse bronze #A07E63, ivory for readable forms. Reference image 3 supplies the retained V2 atlas composition. Broad friendly geometric sans, strong brand fields, thin bronze numbered rings and restrained dashed flight paths. No floating tilted photo cards, generic rounded tile grids, gradient SaaS styling, fake testimonials, partner logos or invented prices. All imagery illustrative. English content, visible EN / AR / TR and WhatsApp. Every page uses coherent original-logo header and useful branded footer. Create FULL PAGE layouts, not just hero sections. Each page requested must have a PC layout and a separately reflowed 390px phone layout, not a scaled-down desktop. Show flat interface screenshots on a quiet ivory design-sheet background with small outside labels, no physical devices, no room mockups. Use a large high-resolution tall canvas, enough space for all sections. Essential headlines and controls should be legible. No narrative UX annotation paragraphs in the interface. ",
+  "referencePaths": [
+    "C:/Users/mosta/AppData/Local/Temp/tripline-profile-page-1.png",
+    "C:/Users/mosta/AppData/Local/Temp/tripline-profile-page-2.png",
+    "C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/docs/references/design-direction/tripline-profile-atlas-v1.png"
+  ],
+  "jobs": [
+    {
+      "id": "01-home",
+      "title": "Homepage — PC + mobile",
+      "prompt": "Two complete long homepage layouts side by side, PC occupying about 70% sheet width and mobile 30%, heights balanced by natural mobile reflow. Every section in order: actual-logo navigation; hero 'Your journey. Our care.' with Bosphorus travel film imagery and Plan your journey plus WhatsApp; three editorial service worlds Travel & Tours, Hajj & Umrah, Business & Groups, no photo tiles; profile proof with 25,000+ clients, 15,000+ tours, 10,000+ hotel bookings, 5,000+ pilgrimage travelers and tiny pending-confirmation note; V2 atlas map and single integrated destination preview with all ten profile destinations Türkiye, Georgia, Egypt, Saudi Arabia, Oman, Qatar, UAE, Maldives, Malaysia, Indonesia; company story Established 2019; three-step planning sequence; business invitation; verified-credential content slot with no fake marks; closing short inquiry form and WhatsApp; useful footer. Mobile: copy then cropped film, stacked service chapters, 2x2 proof, country index BEFORE selected-country photo, optional map toggle, stacked story and inquiry. Strong profile teal dominance and warm bronze routes. All sections visible in both full-page layouts."
+    },
+    {
+      "id": "02-services-index",
+      "title": "All services — PC + mobile",
+      "prompt": "Two full-page Services overview layouts, desktop and mobile. Header original profile logo. Hero 'Every journey has a purpose.' short introduction. Useful anchor navigation Travel & Holidays / Hajj & Umrah / Business & Groups. Nine nonboxed editorial numbered service rows, each with clear title, concise one-sentence description and arrow link: Domestic & international tours; Hajj & Umrah; Summer camps & conference planning; Corporate & business travel; Flights & hotel arrangements; Comprehensive travel planning; Conferences & event management; Training programs; Visa assistance. Bronze numbered ring, no repetitive photo card grid. Planning section Share your plans / Shape the arrangements / Prepare to travel. Short questions accordion. Contextual inquiry form and WhatsApp, branded footer. Desktop generous rows with number/title/description columns. Mobile number and heading then description/action, single-column planning and form. Whole page all sections visible."
+    },
+    {
+      "id": "03-tours-detail",
+      "title": "Tours service — PC + mobile",
+      "prompt": "Full-page Domestic & international tours service detail, PC and mobile. Sections: breadcrumbs and original-logo header; editorial photo opener 'Explore with purpose.' with culture/landscape travel photo; audience Individuals, families and groups; numbered arrangements Destination & itinerary planning, Transport coordination, Accommodation arrangements, Experiences based on your interests; planning brief Destination / Dates / Party; three-step coordination; Useful questions accordion; related services Tailor-made planning and Flights & hotel arrangements; contextual inquiry/WhatsApp and footer. No fixed purchasable packages, no made-up inclusions or prices. Desktop alternating wide media/editorial arrangements, mobile fully stacked with visible direct inquiry."
+    },
+    {
+      "id": "04-pilgrimage",
+      "title": "Hajj & Umrah — PC + mobile",
+      "prompt": "Full-page dedicated Hajj & Umrah design, PC plus mobile. Original logo, calm respectful photography of pilgrimage architecture, muted teal and sand, no playful travel stickers across sacred media. Hero 'Care at every step.' Subnav Hajj / Umrah / Planning. Distinct Hajj and Umrah editorial sections with inquiry links, no claims of current capacity or guaranteed visas. Arrangements: Flights, Accommodation, Visa facilitation inquiry, Group coordination. Planning questions pilgrimage type / preferred dates / group size. Three-step planning. FAQ about scope and conditions, contextual pilgrimage inquiry with service selection and WhatsApp, footer. Mobile clear stacked sections, respectful crop, no long pinning."
+    },
+    {
+      "id": "05-flights-hotels",
+      "title": "Flights & hotels — PC + mobile",
+      "prompt": "Full-page Flights & hotel arrangements service design desktop and phone. Hero 'The details, connected.' with calm flight-window and hospitality editorial media, clearly inquiry service today. Two wide editorial sections Flight arrangements / Hotel arrangements with preferences and inquiry actions; neither uses price or fake search inventory. Planning brief From / To / Dates / Travelers / Stay preferences, short simple form. Explain confirmed scope and supplier conditions in legible reading section. FAQ, related Travel planning, WhatsApp inquiry and footer. Reserve future online reservations entry position in nav without fake live booking button. Phone single-column brief and visible inquiry."
+    },
+    {
+      "id": "06-travel-planning",
+      "title": "Travel planning — PC + mobile",
+      "prompt": "Full-page Comprehensive travel planning desktop and mobile. Hero 'One thoughtful plan.' Documentary landscape scene. Four numbered editorial arrangements: Itinerary, Stays, Transport, Experiences. A distinct spacious itinerary-planning sequence drawn along subtle bronze route, stages Ideas / Options / Confirmed arrangements, NOT invented daily itinerary or schedule. Practical questions interests / destination / pace / dates / party. Optional country atlas discovery link. Three useful FAQ disclosures, related Tours and Flights/Hotels, contextual inquiry form with WhatsApp, footer. Brand teal dominance, sand reading break. Mobile itinerary steps vertical."
+    },
+    {
+      "id": "07-visa",
+      "title": "Visa assistance — PC + mobile",
+      "prompt": "Full-page Visa assistance service desktop and mobile. Original logo. Hero 'Prepare for the journey.' Calm understated documentary travel-document imagery, no fake official government emblems. Reading-heavy careful structure: Who this service is for; Destination-specific inquiry; Information to discuss nationality/residence/destination/travel purpose without sensitive document-upload field; Process discussion / Document guidance / Application coordination where supported; explicit non-guaranteed authority decision; Useful questions; Visa assistance inquiry and WhatsApp; footer. No invented visa rules, costs or processing times. Desktop narrow readable prose plus side inquiry, mobile stacked, calm and trustworthy."
+    },
+    {
+      "id": "08-business",
+      "title": "Business & groups — PC + mobile",
+      "prompt": "Full-page Business & Groups main page desktop and phone. Original profile logo. Hero 'Bring people together. We’ll connect the details.' with elegant professional venue / travel documentary imagery. Four large nonboxed editorial capability chapters Corporate travel, Conferences & events, Summer camps, Training programs; each with direct relevant inquiry. Planning brief Objective / People / Place & timing. Three-stage coordination. Separate Partnership inquiry, future partner access reserved but no dead live sign-in. Business inquiry form Name / Work email / Organization / Group size / Service / Destination / Requirements, WhatsApp, footer. Phone single-column capability chapters and form."
+    },
+    {
+      "id": "09-corporate-detail",
+      "title": "Corporate travel — PC + mobile",
+      "prompt": "Full-page Corporate & business travel service desktop and phone. Hero 'Keep business moving.' photo of professional business travel, not luxury private jets. Sections: service audience Businesses and coordinators; Business trips / Accommodation / Meetings / Group arrangements editorial capabilities; requirements brief travelers / destination / dates / one-off or recurring; coordination process; supplier and scope FAQ; related Events and Training; organization inquiry and WhatsApp; footer. Calm spacious brand style, no fake corporate clients or performance statistics."
+    },
+    {
+      "id": "10-events-detail",
+      "title": "Conferences & events — PC + mobile",
+      "prompt": "Full-page Conferences & event management service desktop and phone. Hero 'From an idea to a gathering.' striking full-width conference venue editorial photograph. Sections: purpose and audience; Venue planning / Attendee travel / Accommodation / Program logistics in numbered editorial layout; event brief event type, dates, destination, attendees, logistics; planning coordination sequence; useful questions; related Corporate travel and Training; event inquiry form with WhatsApp; footer. No fabricated past events, testimonials or company-client logos. Mobile venue photo cropped then stacked content."
+    },
+    {
+      "id": "11-camps-training",
+      "title": "Camps & training — PC + mobile",
+      "prompt": "Design sheet with TWO complete related service pages, Summer camps & conference planning and Training programs, EACH shown desktop plus phone. Four flat full-page layouts arranged in a spacious 2-row sheet. Camps page: hero 'Bring people together.' outdoor group/camp illustrative photo; Program objectives, Venue/stays, Group travel, Logistics; planning brief Group / Location / Dates / Objectives; coordination sequence; FAQ; inquiry/WhatsApp/footer. Training page: hero 'Create room to learn.' professional training-room illustrative photo; Program organization, Venue/schedule, Participant accommodation, Group travel; brief Objectives / Participants / Dates; coordination; FAQ; inquiry/footer. Same brand family but audience-appropriate photography and composition. All sections, not just four hero thumbnails."
+    },
+    {
+      "id": "12-atlas",
+      "title": "Destination atlas — PC + mobile",
+      "prompt": "Full Destinations/atlas page desktop and mobile. Keep supplied V2 atlas reference identity and interaction. Sections original-logo header; title 'A world of possibilities.'; map left with Europe/Africa/Arabian peninsula/Indian Ocean/Southeast Asia accurate recognizable geography and selected Türkiye, integrated one photograph and editorial preview right; all ten country index: Türkiye Georgia Egypt Saudi Arabia Oman Qatar UAE Maldives Malaysia Indonesia. No floating photo card. Country directory as ten plain editorial rows below with tiny bronze numbers and direct links, never boxed tiles. Inquiry and WhatsApp plus footer. Phone country index first, selected Türkiye photo/copy next, 'Show map' control rather than squeeze large map, then stacked country directory and inquiry. Map pins illustrative require production coordinate verification."
+    },
+    {
+      "id": "13-country-detail",
+      "title": "Country detail — PC + mobile",
+      "prompt": "Full country detail layout using Türkiye as complete example, plus a small restrained outside-page template legend naming same layout's country variants Georgia / Egypt / Saudi Arabia / Oman / Qatar / UAE / Maldives / Malaysia / Indonesia. Desktop and mobile full page. Header and breadcrumb Destinations / Türkiye; panorama hero 'Türkiye' and concise intro; three nonboxed travel interests Culture & city discovery / Landscapes & nature / Coastal inspiration; relevant service editorial links Tours / Travel planning / Flights & Hotels; practical planning requirements Dates / Party / Starting point; crosslinks to the other nine countries as plain country index; country-aware inquiry form and WhatsApp; footer. No invented available packages/prices. Mobile stacked photo and headings, no sideways scrolling cards."
+    },
+    {
+      "id": "14-about",
+      "title": "About Trip Line — PC + mobile",
+      "prompt": "Full About page desktop and mobile. Original logo and brand. Hero 'Built around the journey.' with Türkiye media. Story anchored Established in 2019, tourism company serving personal travelers, pilgrims and organizations. Three audiences as editorial sections, not tile grid. Planning philosophy / coordination process in numbered steps. Company-profile proof figures with tiny pending confirmation note, no 12 years claim. Credential evidence area as plain verified-license content slot without fabricated badge or partner logos. No generated team portraits. Inquiry/WhatsApp and full footer. Mobile photo and story stack, figures2x2."
+    },
+    {
+      "id": "15-contact",
+      "title": "Contact — PC + mobile",
+      "prompt": "Full Contact/Inquiry page desktop and mobile. Header profile logo. Hero 'Your next journey starts here.' Brief confident purpose. Desktop two-column contact channels on left WhatsApp +90 5541072202, info@triplinetravel.net and concise inquiry on right. Form Name / Email / Service / Destination / Your plans, optional group/dates contextual fields, privacy checkbox and Send inquiry. Sand form section with teal text and generous fields, no rounded generic card container. Next-step expectations, note inquiry is not reservation, existing-reservation support reference slot. FAQ two rows, footer. Mobile direct WhatsApp first, single-column 16px form fields and large submit, sticky WhatsApp clear of submit."
+    },
+    {
+      "id": "16-faq-legal",
+      "title": "FAQ, legal & preferences — PC + mobile",
+      "prompt": "Comprehensive design sheet containing FOUR page layouts: FAQ, Privacy notice, Website terms, Cookie preferences. Each needs PC and mobile representation, use four clearly labeled rows on a tall sheet and crisp sufficient resolution. FAQ: header, title 'A little clarity.', topic anchor rail Planning / Services / Reservations, open and closed accordion examples with useful concise questions, contact action, footer. Privacy and Terms: calm readable legal-document templates, title/date/contents navigation and structured section headings; body uses concise content-placeholder lines rather than fabricated legally authoritative policy. Cookie preferences: essential always on, analytics optional switch off, Save preferences, footer; no invented marketing trackers. Muted teal identity with ivory reading surfaces, original logo visible. Mobile narrow prose and stacked topic anchors. All document sections indicated, not just hero."
+    },
+    {
+      "id": "17-auth",
+      "title": "Sign-in & recovery — PC + mobile",
+      "prompt": "Full design sheet for FOUR access states Sign in, Create account, Recover access, Set new password. EACH with desktop and mobile designs, four rows, clear outside labels. Desktop consistent split teal brand story and ivory form, actual stacked logo, small language and Back to website. Sign in Email/Password/show control, Forgot password, Sign in, Create account. Register Name/Email/Password/Confirm/terms checkbox. Recover Email and neutral confirmation message that does not reveal whether account exists. Reset New password/Confirm and expired-link message example. Mobile short teal brand band then focused full-width form, no large photo, no 3D. Error beneath relevant field. Calm precise utility pages in company palette."
+    },
+    {
+      "id": "18-reservation-discovery",
+      "title": "Reservation search & results — PC + mobile",
+      "prompt": "Two complete future reservation pages Search and Results, each PC plus mobile, 2-row design sheet. Utility header actual logo, Reservations/Account/Language/Support. Search: title 'Find your next journey.', service-type selector only as placeholder conditional on API, destination/date range/travelers fields, Search and assistance, footer. Results: editable criteria summary; desktop filter rail and sorting; two horizontal unboxed supplier-result rows with media slots (not fake actual hotels), names 'Supplier option', currency/price labeled 'API price', conditions and View details. Mobile criteria compact/edit, Filters sheet entry, readable stacked result rows with prices/conditions/actions visible. Empty/unavailable and price-changed small states. No invented prices, inventory or packages. Clean calm brand utility without cinematic scroll traps."
+    },
+    {
+      "id": "19-reservation-details",
+      "title": "Option detail & travelers — PC + mobile",
+      "prompt": "Two full future booking page layouts Option detail and Traveler details, EACH desktop and mobile. Option detail: utility header; selected supplier media placeholders and verified facts; available selection; inclusions/exclusions; cancellation/payment condition disclosures; summary showing supplier price placeholder; Continue, Support. Traveler page: progress Select / Travelers / Review / Payment / Confirmation; lead traveler first/last/email/phone, additional traveler requirements conditional, optional requests, side summary and Continue to review. Phone summary compact above form, fields single column, accessible conditions. No fake prices or actual payment information. Brand teal headers, ivory work surfaces, sand summaries, bronze progress."
+    },
+    {
+      "id": "20-reservation-completion",
+      "title": "Review, payment & confirmation — PC + mobile",
+      "prompt": "Three full future reservation layouts Review / Payment handoff / Confirmation, EACH PC plus phone, three rows. Review: editable option/dates/travelers/contacts, clear inclusions and conditions, refreshed price placeholder, acknowledgement, Continue. Payment: supplier/provider handoff explanation, amount/currency placeholder, pending reservation status and secure-payment action; do not render fake card form. Confirmation: distinguish Confirmed versus Pending based on supplier result, reference placeholder, itinerary summary, document links if available, view reservation/support. Consistent progress and calm original-logo utility header. Mobile summary, conditions and actions stack; no celebration implying pending is confirmed. Every section on all three pages visible."
+    },
+    {
+      "id": "21-customer-account",
+      "title": "Customer account — PC + mobile",
+      "prompt": "Four complete account layouts Overview / My reservations / Reservation detail / Profile & preferences, each desktop and mobile. Clear actual-logo account utility header; desktop calm left nav, mobile horizontal nav. Overview authentic empty state 'No upcoming reservations' with search/support, no fake metrics. My reservations status tabs upcoming/past/all, search by reference, readable record or empty state. Detail supplier status/reference/dates/travelers/payment status, exact conditions, available documents, support/management only if API allows, timeline. Profile name/email/phone/language, save feedback, separate password recovery. Teal headers, ivory reading/work area, sparse bronze. Mobile stacked records not squeezed tables. Illustrative data labels no real customer identities."
+    },
+    {
+      "id": "22-partner-workspace",
+      "title": "Partner workspace — PC + mobile",
+      "prompt": "Design sheet for partner access, partner overview, partner reservation search, reservation list/detail, team/permissions and organization settings. Use SEVEN labeled full page mini-layout rows EACH PC and mobile, ample tall high-resolution canvas. Actual logo, teal utility header, organization context, desktop narrow left nav, mobile scrollable utility nav. Access focused login and request-access link. Overview pending actions/recent records genuine empty state no invented revenue/wallet. Search destination/dates/party/client reference. Records reference/client/dates/status/assigned member; desktop containedtable, mobile stackedrecord. Detail exactsupplierstatus/ref/conditions/docs/clientreference/support. Team member/role/status and conditional invitation controls. Settings organization/workcontact/language. No assumed commissions, credit facilities, unsupported permission promises. Shared future search/detail/traveler/review/payment/confirmation templates carry organization context."
+    },
+    {
+      "id": "23-system-states",
+      "title": "System & feedback states — PC + mobile",
+      "prompt": "Four full brand-consistent state screens 404 / Service unavailable / Reservation loading / No matching results, each PC and phone in four rows. Actual stacked Trip Line logo, teal/sand brand, restrained route ending metaphor no floating cards. 404 headline 'That route leads elsewhere.' Back home + Contact. Unavailable 'A brief interruption.' Retry preserving criteria, support. Loading clear skeleton matching utility result structure not spinning globe, no fake booking confirmation. No results 'Let’s try another route.' Edit dates/criteria + assisted inquiry, never empty blankscreen. Also small inline field error, success feedback, expired session label under relevant screen. Mobile short message and reachable actions. No narration panels or browserdevice mockups."
+    }
+  ],
+  "completed": [
+    {
+      "id": "02-services-index",
+      "title": "All services — PC + mobile",
+      "path": "C:\\Users\\mosta\\.codex\\generated_images\\01a0f8a3-34c9-76b2-9738-39a190993bf4\\exec-a6b1273a-52f4-4a61-83f6-6e857bb5e2c3.png"
+    },
+    {
+      "id": "01-home",
+      "title": "Homepage — PC + mobile",
+      "path": "C:\\Users\\mosta\\.codex\\generated_images\\01a0f8a3-34c9-76b2-9738-39a190993bf4\\exec-ef8fbf14-ff31-4c70-995b-efb495e22be6.png"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "base": "Use case ui-mockup. Generate a MULTI-PAGE DESIGN COMPARISON BOARD. User explicitly asks MULTIPLE SCREENS IN ONE IMAGE for faster review. Create high-resolution large landscape or near-square sheet, with clear labeled panels separated by warm gutters. Each panel contains ONE COMPLETE scrolling page: desktop wide screenshot left 70% and genuinely reflowed mobile screenshot right 30%, through footer. No device frames, no perspective, no floating screens. 4 pages = 2x2 panels; 5 pages = 3 panels top + 2 panels bottom; 3 pages = 3 panels side by side. Capture all named sections using concise copy and visible headings; prioritize legibility of hierarchy, fields, links. Do not collapse all pages into one homepage or omit pages. Brand source image1 approved Trip Line, image2 supporting stats/partner treatment. Faithful compact stacked Trip/Line airplane logo, bold broad geometric mixed-case sans, muted teal #406764 / deep teal #1F3E41 / sand #E8D9C6 / bronze #A07E63; environmental photography and connecting thin bronze route. Vary page compositions meaningfully while staying consistent. Header Services Destinations About EN AR TR WhatsApp; footer confirmed public links and ©2026. No luxury serif, glass, generic card grids, tilted image stacks, invented client logos, fake prices, booking widgets accounts checkout or fake past trips. Media illustrative. Actual launch focus describe services and collect inquiries. Phone forms single column. English review. ",
+  "boards": [
+    {
+      "id": "board-01-services-atlas-business",
+      "pages": [
+        [
+          "10-training",
+          "Training Program Organization",
+          "Hero 'Create space for learning.' illustrative learning venue. Program organization scope, participant/venue/travel coordination, objectives/participants/schedule/location planning brief, process, FAQ, related camps/events, inquiry/WhatsApp, footer. No invented academic accreditation or course catalog."
+        ],
+        [
+          "11-visa",
+          "Visa Assistance",
+          "Hero 'Plan your next step with clarity.' restrained teal type and illustrative travel-document still life with no personal details. Assistance scope, destination/nationality/residence/purpose/timing planning fields, coordination steps, FAQ, related travel services, contextual WhatsApp/inquiry, footer. No visa rules fees processing guarantees or government endorsement."
+        ],
+        [
+          "12-atlas",
+          "Destinations / Atlas",
+          "Hero 'Find your place.' lead straight into large interactive-style geographically credible Europe/Africa/Arabia/Asia atlas. Ten-country index Türkiye/Georgia/Egypt/Saudi Arabia/Oman/Qatar/UAE/Maldives/Malaysia/Indonesia. Selected Türkiye integrated photo + heading + explore/inquiry. Below editorial country directory with all ten names and short orientation, assisted planning/WhatsApp, footer. Mobile country selector then synchronized preview; optional map secondary."
+        ],
+        [
+          "23-business",
+          "Business & Groups",
+          "Hero 'Bring your people. We’ll help with the journey.' illustrated professional venue. Corporate travel, conferences/events, camps/training in distinct editorial chapters. Organization planning brief objective/participants/place/timing/logistics; coordination sequence; inquiry/WhatsApp; footer. No partner portal/login at launch."
+        ]
+      ]
+    },
+    {
+      "id": "board-02-countries-west",
+      "pages": [
+        [
+          "13-turkiye",
+          "Türkiye",
+          "Country page hero 'Türkiye, your way.' correct illustrative Bosphorus Istanbul, Cappadocia and turquoise coastal landscape. Intro orientation, editorial travel interests 'Culture, landscapes and coast', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "14-georgia",
+          "Georgia",
+          "Country page hero 'Georgia, your way.' correct illustrative Tbilisi old city and Caucasus mountain landscapes. Intro orientation, editorial travel interests 'City discoveries and mountain landscapes', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "15-egypt",
+          "Egypt",
+          "Country page hero 'Egypt, your way.' correct illustrative Nile river Cairo and correctly recognizable pyramids. Intro orientation, editorial travel interests 'History, cities and the Nile', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "16-saudi",
+          "Saudi Arabia",
+          "Country page hero 'Saudi Arabia, your way.' correct illustrative Respectful Mecca architecture and contemporary Riyadh. Intro orientation, editorial travel interests 'Pilgrimage and broader travel planning', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "17-oman",
+          "Oman",
+          "Country page hero 'Oman, your way.' correct illustrative Muscat architecture, Hajar mountains and coastline. Intro orientation, editorial travel interests 'Mountains, coast and culture', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ]
+      ]
+    },
+    {
+      "id": "board-03-countries-east",
+      "pages": [
+        [
+          "18-qatar",
+          "Qatar",
+          "Country page hero 'Qatar, your way.' correct illustrative Doha skyline and Museum of Islamic Art exterior. Intro orientation, editorial travel interests 'City exploration and group planning', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "19-uae",
+          "United Arab Emirates",
+          "Country page hero 'United Arab Emirates, your way.' correct illustrative Dubai skyline and Abu Dhabi architectural landscape. Intro orientation, editorial travel interests 'Cities, coast and group planning', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "20-maldives",
+          "Maldives",
+          "Country page hero 'Maldives, your way.' correct illustrative Natural Indian Ocean atolls and clear-water beach. Intro orientation, editorial travel interests 'Island landscapes and time to unwind', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "21-malaysia",
+          "Malaysia",
+          "Country page hero 'Malaysia, your way.' correct illustrative Kuala Lumpur skyline and rainforest landscape. Intro orientation, editorial travel interests 'Cities, nature and cultural discovery', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ],
+        [
+          "22-indonesia",
+          "Indonesia",
+          "Country page hero 'Indonesia, your way.' correct illustrative Indonesian tropical coastline and Java temple landscape. Intro orientation, editorial travel interests 'Islands, culture and natural landscapes', relevant service inquiry paths phrased as discuss your requirements rather than available products. Large landscape scene, dates/purpose/party/departure planning prompts, related destinations with back-to-atlas, country-prefilled WhatsApp/inquiry, footer. No fake packages hotels prices or availability."
+        ]
+      ]
+    },
+    {
+      "id": "board-04-company-contact-faq",
+      "pages": [
+        [
+          "24-about",
+          "About Trip Line",
+          "Hero 'Thoughtful travel. Human connections.' company purpose, Türkiye identity and establishment 2019; personal/pilgrimage/business audiences; coordination approach; four profile metrics; no 12 years claim. Source-based partner logo strip; company inquiry; footer. No invented staff portraits testimonials awards or license number."
+        ],
+        [
+          "25-contact",
+          "Contact & Inquiry",
+          "Hero 'Let’s plan your next journey.' compact teal heading. Direct WhatsApp +90 554 107 22 02, info@triplinetravel.net. Inquiry form name/email/service/destination/message, optional dates/party/organization; privacy acknowledgement; clear submit. Small form state inset shows success and failure labels without pretending submission happened. What happens next, small FAQ, footer. Mobile direct channels first then single column form; accessible buttons."
+        ],
+        [
+          "26-faq",
+          "Frequently Asked Questions",
+          "Hero 'A little clarity before you go.' teal. Topic index Planning/Services/Group travel/Contact. Accessible accordion rows with one open answer explaining inquiries are discussed before arrangements. No invented cancellation rules or prices. Short WhatsApp assistance CTA, footer. Mobile clear accordion tap targets."
+        ]
+      ]
+    },
+    {
+      "id": "board-05-legal-404",
+      "pages": [
+        [
+          "27-privacy",
+          "Privacy Notice — layout",
+          "Compact brand header, calm sand reading surface, Privacy notice title, proposed contents index, section headings information collected/use/contact/rights; represent body with short generic review placeholders explicitly 'Policy text pending review' rather than invented authoritative legal claims. Contact footer. Mobile contents disclosure, readable one-column body. Presentation label draft policy layout."
+        ],
+        [
+          "28-terms",
+          "Website Terms — layout",
+          "Compact brand header, calm sand reading surface, Website terms title, contents, headings Using this website/Inquiries/Travel arrangements/Contact. Body placeholder 'Terms pending review'. No invented cancellation/refund terms. Footer and small cookie preferences panel demonstrating optional settings state separately. Mobile readable contents/body/settings. Presentation label draft terms layout."
+        ],
+        [
+          "29-not-found",
+          "404 / Page not found",
+          "Compact real brand header, teal main area, large '404' sand typography, headline 'A small detour.' slim bronze route exits then returns. Clear Home/Explore services/WhatsApp actions, short country-links suggestion, branded complete footer. Mobile strong readable stack. No excessive imagery."
+        ]
+      ]
+    }
+  ]
+}

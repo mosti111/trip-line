@@ -1,5 +1,9 @@
 # Trip Line — version 2
 
+**Current local implementation (2 October 2026):** the approved teal/sand/bronze public frontend, now centered on Türkiye and all twelve client-requested destinations. Forty content pages in English, Arabic and Turkish, with live 3D, video, scroll motion and contextual inquiry. See [delivery and verification](../docs/FRONTEND_DELIVERY.md) and [completed phase plan](../docs/FRONTEND_IMPLEMENTATION_PLAN.md). Run `pnpm dev --port 3002`. This revision has not been deployed.
+
+The following notes document the **earlier journal demo**, not the current local implementation.
+
 Public demo: https://trip-line-journal-v2.vercel.app
 
 Independent frontend copy for The Living Travel Journal. The original frontend directory and https://trip-line-demo.vercel.app remain unchanged. Vercel project: trip-line-journal-v2. Never link this folder to trip-line-demo.
