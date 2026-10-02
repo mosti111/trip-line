@@ -5,7 +5,7 @@ import * as T from 'three';
 
 function Sculpture() {
   const mesh = useRef<T.Mesh>(null);
-  const state = useRef({progress:0,x:0,y:0});
+  const state = useRef({progress:0,x:0,y:0,lost:false});
   const {gl, invalidate, camera} = useThree();
   const geometry = useMemo(() => {
     const curve=new T.CatmullRomCurve3([new T.Vector3(-14,-1,1),new T.Vector3(-7,-2,2),new T.Vector3(-2,0,0),new T.Vector3(3,2,-3),new T.Vector3(6,0,0),new T.Vector3(12,-1,3)]);
@@ -30,17 +30,18 @@ function Sculpture() {
     material.envMap=env.texture;material.needsUpdate=true;
     const host=gl.domElement.closest('.bronze-journey');
     let visible=true;
-    const refresh=()=>{if(visible&&!document.hidden)invalidate();};
+    const refresh=()=>{if(visible&&!document.hidden&&!state.current.lost)invalidate();};
     const progress=(event:Event)=>{state.current.progress=(event as CustomEvent<number>).detail;refresh();};
     const pointer=(event:PointerEvent)=>{state.current.x=(event.clientX/innerWidth-.5)*.035;state.current.y=(event.clientY/innerHeight-.5)*.025;refresh();};
-    const lost=(event:Event)=>{event.preventDefault();host?.classList.remove('ribbon-ready');};
+    const lost=(event:Event)=>{event.preventDefault();state.current.lost=true;host?.classList.remove('ribbon-ready');};
+    const restored=()=>{state.current.lost=false;refresh();};
     const observer=new IntersectionObserver(entries=>{visible=entries[0]?.isIntersecting??false;refresh();}); if(host)observer.observe(host);
-    window.addEventListener('bronze-progress',progress);window.addEventListener('pointermove',pointer,{passive:true});document.addEventListener('visibilitychange',refresh);gl.domElement.addEventListener('webglcontextlost',lost);
+    window.addEventListener('bronze-progress',progress);window.addEventListener('pointermove',pointer,{passive:true});document.addEventListener('visibilitychange',refresh);gl.domElement.addEventListener('webglcontextlost',lost);gl.domElement.addEventListener('webglcontextrestored',restored);
     invalidate();
-    return()=>{observer.disconnect();window.removeEventListener('bronze-progress',progress);window.removeEventListener('pointermove',pointer);document.removeEventListener('visibilitychange',refresh);gl.domElement.removeEventListener('webglcontextlost',lost);host?.classList.remove('ribbon-ready');env.dispose();generator.dispose();cards.forEach(c=>{c.geometry.dispose();c.material.dispose();});};
+    return()=>{observer.disconnect();window.removeEventListener('bronze-progress',progress);window.removeEventListener('pointermove',pointer);document.removeEventListener('visibilitychange',refresh);gl.domElement.removeEventListener('webglcontextlost',lost);gl.domElement.removeEventListener('webglcontextrestored',restored);host?.classList.remove('ribbon-ready');env.dispose();generator.dispose();cards.forEach(c=>{c.geometry.dispose();c.material.dispose();});};
   },[gl,invalidate]);
   useFrame(()=>{
-    if(!mesh.current)return;
+    if(!mesh.current||state.current.lost)return;
     const {progress,x,y}=state.current;
     mesh.current.rotation.set(-.14+progress*.48+y,progress*-.28+x,progress*.08);
     mesh.current.scale.setScalar(1+progress*.22);

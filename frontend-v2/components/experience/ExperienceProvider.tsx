@@ -9,7 +9,7 @@ export function ExperienceProvider() {
   const { calm } = useTravel();
   const pathname = usePathname();
   useEffect(() => {
-    if (calm || /\/(contact|privacy|terms|faq)(\/|$)/.test(pathname)) return;
+    if (calm || !/^\/(en|ar|tr)\/?$/.test(pathname)) return;
     const media = matchMedia('(min-width: 1024px) and (pointer: fine)');
     let dispose = () => {};
     let cancelled = false;

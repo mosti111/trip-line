@@ -29,7 +29,7 @@ export function HomeJourney({locale}:{locale:Locale}) {
     <div className="opening"><Hero locale={locale} title={turkeyCopy.hero[locale]} body={turkeyCopy.homeBody[locale]} home label={copy.follow[locale]}/><a className="scroll-cue" href="#service-worlds">{copy.scroll[locale]}<ArrowDown size={17}/></a><div className="departure-copy"><span>02 / {copy.follow[locale]}</span><p>{copy.departure[locale]}</p><bdi>İSTANBUL · 41.01° N / 28.98° E</bdi></div></div>
     <JourneyChapter number="03" title={ui.worldsTitle[locale]}><ServiceWorldsV3 locale={locale}/></JourneyChapter>
     <JourneyChapter number="04" title={ui.numbers[locale]} className="chapter-proof"><Numbers locale={locale}/></JourneyChapter>
-    <JourneyChapter number="05" title={ui.destinations[locale]}><TurkeyDiscovery locale={locale}/></JourneyChapter>
+    <JourneyChapter number="05" title={ui.destinations[locale]}><TurkeyDiscovery locale={locale} guided/></JourneyChapter>
     <JourneyChapter number="06" title={turkeyCopy.domestic[locale]} className="chapter-sand"><SignaturePlaces locale={locale}/></JourneyChapter>
     <JourneyChapter number="07" title={copy.film[locale]}><section className="travel-film"><div className="film-frame"><Photo file="turkiye.jpg"/><HeroVideo/><div className="film-statement"><h2>{copy.film[locale]}</h2><span>İSTANBUL / TÜRKİYE</span></div></div></section></JourneyChapter>
     <ServicesJourney locale={locale}/>

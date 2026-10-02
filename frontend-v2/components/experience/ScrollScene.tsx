@@ -23,6 +23,8 @@ export function ScrollScene({ children }: {children:React.ReactNode}) {
               .fromTo(root.querySelector('.departure-copy'),{opacity:0,y:45},{opacity:1,y:0,ease:'none'},.3);
           }
           root.querySelectorAll('.world-plane').forEach((plane,i)=>{if(i!==1)gsap.from(plane,{y:65,rotationY:i===0?4:-4,scrollTrigger:{trigger:plane,start:'top 95%',end:'top 40%',scrub:.8}});});
+          const atlas=root.querySelector('.turkey-atlas');
+          if(atlas){let previous=-1;const stops=['istanbul','cappadocia','antalya','rize-ayder','bodrum'];ScrollTrigger.create({trigger:atlas,start:'top 70%',end:'bottom 30%',onUpdate:self=>{const index=Math.min(4,Math.floor(self.progress*5));if(index!==previous){previous=index;window.dispatchEvent(new CustomEvent('bronze-place',{detail:stops[index]}));}}});}
           const frame=root.querySelector('.film-frame');if(frame)gsap.fromTo(frame,{clipPath:'inset(8% 12% 8% 12%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',scrollTrigger:{trigger:frame,start:'top 85%',end:'top 5%',scrub:.7}});
           const services=root.querySelector<HTMLElement>('.services-journey');const track=root.querySelector<HTMLElement>('.services-track');
           if(services&&track){
