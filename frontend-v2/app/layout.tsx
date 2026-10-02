@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Manrope, Noto_Sans_Arabic } from 'next/font/google';
 import '@/styles/travel.css';
+import '@/styles/experience.css';
+import 'lenis/dist/lenis.css';
 import { headers } from 'next/headers';
 import { siteUrl } from '@/lib/site-url';
 import { isLocale } from '@/lib/i18n';
