@@ -1,5 +1,7 @@
 # Trip Line implementation milestones
 
+**Current status, 2 October 2026:** the Türkiye-focused V2 public frontend is implemented and verified. All six frontend phases are complete; see [the phase plan](docs/FRONTEND_IMPLEMENTATION_PLAN.md) and [AI handoff](docs/AI_HANDOFF.md). Publication approvals/deployment and backend/CMS work remain. The checklist below preserves the earlier V1/backend roadmap; its demo-first instructions are historical.
+
 Status: public-site demo implemented; production V1 remains in progress. The user requested a demo first, followed by mobile layout improvements. Finish demo delivery before resuming full CMS/operations work.
 
 ## Demo delivery

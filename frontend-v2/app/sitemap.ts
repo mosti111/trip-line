@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getServices } from "@/lib/server";
+import { publicPaths } from '@/lib/travel-content';
+import { href, locales } from '@/lib/i18n';
 import { siteUrl } from "@/lib/site-url";
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> { const services = await getServices(); return [...["", "/about", "/services", "/contact"].map(path => ({ url: `${siteUrl}${path}` })), ...services.map(s => ({ url: `${siteUrl}/services/${s.slug}`, lastModified: s.publishedAt || s.updatedAt }))]; }
+export default function sitemap():MetadataRoute.Sitemap {return locales.flatMap(locale=>publicPaths.map(path=>({url:siteUrl+href(locale,path),alternates:{languages:Object.fromEntries(locales.map(l=>[l,siteUrl+href(l,path)]))}})));}

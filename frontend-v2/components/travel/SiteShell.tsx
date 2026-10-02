@@ -1,0 +1,35 @@
+'use client';
+
+import { createContext, useContext, useId, useRef, useSyncExternalStore } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { MotionConfig } from 'motion/react';
+import { ArrowUpRight, Menu, X, Mail, Phone } from 'lucide-react';
+import { href, locales, ui, type Locale } from '@/lib/i18n';
+import { turkeyCopy, turkishPlaces } from '@/lib/turkiye';
+import { email, phone, services, whatsapp } from '@/lib/travel-content';
+
+const Context = createContext<{locale:Locale;calm:boolean}>({locale:'en',calm:false});
+export const useTravel = () => useContext(Context);
+function subscribe(fn:()=>void) { const m=window.matchMedia('(prefers-reduced-motion: reduce)'); m.addEventListener('change',fn); window.addEventListener('tripline-preference',fn); window.addEventListener('storage',fn); return ()=>{m.removeEventListener('change',fn);window.removeEventListener('tripline-preference',fn);window.removeEventListener('storage',fn);}; }
+function preference() {try{return localStorage.getItem('tripline-motion')==='reduced'?'reduced':'system';}catch{return 'system';}}
+function snapshot() {return preference()==='reduced'||window.matchMedia('(prefers-reduced-motion: reduce)').matches;}
+function persistLanguage(locale:Locale) {document.cookie=`tripline-language=${locale}; Path=/; Max-Age=31536000; SameSite=Lax${location.protocol==='https:'?'; Secure':''}`;}
+export function WhatsAppIcon({size=22}:{size?:number}) { return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><path d="M20.4 3.7A10.2 10.2 0 0 0 4.2 15.9L2.7 21.5l5.7-1.4A10.2 10.2 0 0 0 20.4 3.7Z"/><path d="M8 6.8c.4-.2.7 0 .9.6l1 2c.2.4-.5 1-.9 1.4.6 1.7 2 3 3.8 3.6.4-.5.8-1.4 1.2-1.3l2.4 1.1c.5.2.6.5.4 1.1-.4 1.2-1.5 1.8-2.7 1.5-4.6-1.1-7.5-4.2-7.8-7.6-.1-1 .6-2.1 1.7-2.4Z"/></svg>; }
+export function Logo({locale}:{locale:Locale}) {const id=useId();return <Link href={href(locale)} className="brand" aria-label={`Trip Line — ${ui.home[locale]}`}><svg viewBox="0 0 135 102" role="img" aria-label="Trip Line"><defs><filter id={id} colorInterpolationFilters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 2 2 2 0 -5"/></filter></defs><image href="/media/logo-source.png" width="135" height="102" filter={`url(#${id})`}/></svg></Link>;}
+export function SiteShell({locale,children,nonce}:{locale:Locale;children:React.ReactNode;nonce?:string}) {
+ const path=usePathname(); const menu=useRef<HTMLDialogElement>(null); const trigger=useRef<HTMLButtonElement>(null);
+ const calm=useSyncExternalStore(subscribe,snapshot,()=>true); const choice=useSyncExternalStore(subscribe,preference,()=>'system');
+ const nav=[['services',ui.services],['destinations/turkiye',turkeyCopy.domestic],['business',ui.business],['about',ui.about]] as const;
+ const langPath=path.replace(/^\/(en|ar|tr)(?=\/|$)/,'');
+ const languageLinks=<div className="languages" aria-label={ui.language[locale]}>{locales.map(l=><a key={l} lang={l} href={href(l,langPath)} aria-current={l===locale?'true':undefined} onClick={e=>{persistLanguage(l);const query=window.location.search;if(query||window.location.hash){e.preventDefault();window.location.assign(href(l,langPath)+query+window.location.hash);}}}>{l==='ar'?'عربي':l.toUpperCase()}</a>)}</div>;
+ return <Context.Provider value={{locale,calm}}><MotionConfig reducedMotion={calm?'always':'user'} nonce={nonce}><div className={`travel-site ${calm?'reduce-motion':''}`}>
+ <a className="skip-link" href="#main">{ui.skip[locale]}</a>
+ <header className="header"><Logo locale={locale}/><nav className="desktop-nav" aria-label={ui.nav[locale]}>{nav.map(([p,label])=><Link key={p} href={href(locale,p)} aria-current={path===href(locale,p)||path.startsWith(href(locale,p)+'/')?'page':undefined}>{label[locale]}</Link>)}</nav><div className="header-tools">{languageLinks}<a className="header-whatsapp" href={whatsapp(ui.plan[locale])} aria-label={ui.whatsapp[locale]}><WhatsAppIcon/></a><button ref={trigger} className="menu-button" aria-label={ui.menu[locale]} onClick={()=>menu.current?.showModal()}><Menu size={24}/></button></div></header>
+ <main id="main">{children}</main>
+ <footer className="footer"><div className="footer-grid"><div className="footer-brand"><Logo locale={locale}/><p>{ui.tagline[locale]}</p><a className="text-link" href={whatsapp(ui.plan[locale])}><WhatsAppIcon/> WhatsApp</a></div><div><h2>{ui.services[locale]}</h2>{services.map(s=><Link key={s.slug} href={href(locale,`services/${s.slug}`)}>{s.title[locale]}</Link>)}</div><div><h2>{turkeyCopy.domestic[locale]}</h2><div className="footer-countries">{turkishPlaces.map(c=><Link key={c.slug} href={href(locale,`destinations/turkiye/${c.slug}`)}>{c.name[locale]}</Link>)}</div><Link href={href(locale,'destinations')}>{turkeyCopy.international[locale]} ↗</Link></div><div><h2>{ui.company[locale]}</h2>{[['about',ui.about],['business',ui.business],['faq',ui.faq],['contact',ui.contact]].map(([p,label])=><Link key={p as string} href={href(locale,p as string)}>{typeof label==='string'?label:label[locale]}</Link>)}<h2 className="footer-contact-title">{ui.contact[locale]}</h2><a href={`mailto:${email}`}><Mail size={15}/><bdi>{email}</bdi></a><a href={`tel:${phone}`}><Phone size={15}/><bdi>+90 554 107 22 02</bdi></a></div></div>
+ <div className="footer-bottom"><small>© {new Date().getFullYear()} Trip Line. {ui.rights[locale]}</small><div><Link href={href(locale,'privacy')}>{ui.privacy[locale]}</Link><Link href={href(locale,'terms')}>{ui.terms[locale]}</Link></div><label className="motion-choice">{ui.motion[locale]}<select value={choice} onChange={e=>{try{localStorage.setItem('tripline-motion',e.target.value);}catch{}window.dispatchEvent(new Event('tripline-preference'));}}><option value="system">{ui.system[locale]}</option><option value="reduced">{ui.reduce[locale]}</option></select></label></div>
+ </footer>
+ <dialog ref={menu} className="nav-dialog" aria-labelledby="menu-title" onClose={()=>trigger.current?.focus()}><div className="dialog-header"><span id="menu-title">Trip Line</span><button className="icon-button" aria-label={ui.close[locale]} onClick={()=>menu.current?.close()}><X/></button></div><nav aria-label={ui.nav[locale]}>{[['',ui.home],...nav,['contact',ui.contact],['faq',ui.faq]].map(([p,label],i)=><Link key={p as string} href={href(locale,p as string)} onClick={()=>menu.current?.close()}><span className="index">{String(i+1).padStart(2,'0')}</span>{typeof label==='string'?label:label[locale]}<ArrowUpRight/></Link>)}</nav><div className="dialog-footer">{languageLinks}<a className="button" href={whatsapp(ui.plan[locale])}><WhatsAppIcon/>{ui.whatsapp[locale]}</a><a href={`mailto:${email}`}>{email}</a></div></dialog>
+ </div></MotionConfig></Context.Provider>;
+}

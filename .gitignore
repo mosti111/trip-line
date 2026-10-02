@@ -13,3 +13,6 @@ test-results/
 .tools/
 artifacts/
 *.dump
+
+# Local preparation, downloaded source pages and regenerable QA output.
+/tmp/
