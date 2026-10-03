@@ -1,5 +1,10 @@
 # Public demo verification
 
+> Historical/reference record. Read [current handoff](AI_HANDOFF.md) and
+> [accepted decisions](DECISIONS.md) first. Older status, exploration and next-step
+> instructions below do not override the active frontend, Türkiye-first steering
+> or Bronze Journey continuation. Preserve source reasoning; this is not current QA sign-off.
+
 Scope: local Next.js public-site demo. The user requested this before the complete production product, then specifically requested a better mobile layout.
 
 ## Verified

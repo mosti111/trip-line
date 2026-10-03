@@ -1,5 +1,10 @@
 # Trip Line — The Living Travel Journal
 
+> Historical/reference record. Read [current handoff](AI_HANDOFF.md) and
+> [accepted decisions](DECISIONS.md) first. Older status, exploration and next-step
+> instructions below do not override the active frontend, Türkiye-first steering
+> or Bronze Journey continuation. Preserve source reasoning; this is not current QA sign-off.
+
 Research and proposed concept, September 27, 2026. User requested a more creative, extensively interactive combination of options 2 and 3, supported by online research. This is a proposal, not implemented behavior or a replacement of the live demo. The generated storyboard is illustrative: typography, logo, geography, copy and imagery require implementation review. Preserve the approved Trip Line identity.
 
 ## Creative direction

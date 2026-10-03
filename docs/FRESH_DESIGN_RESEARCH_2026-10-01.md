@@ -1,5 +1,10 @@
 # Fresh design exploration — 1 October 2026
 
+> Historical/reference record. Read [current handoff](AI_HANDOFF.md) and
+> [accepted decisions](DECISIONS.md) first. Older status, exploration and next-step
+> instructions below do not override the active frontend, Türkiye-first steering
+> or Bronze Journey continuation. Preserve source reasoning; this is not current QA sign-off.
+
 ## Current user decisions
 
 - Discard previous chat's design directions and layouts. Existing code stays intact.

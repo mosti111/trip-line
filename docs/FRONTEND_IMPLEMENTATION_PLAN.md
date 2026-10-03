@@ -26,6 +26,21 @@ Implement the approved 29-page public design set in `frontend-v2`, using the exi
 
 ## Status
 
+### Repository operating system — TL-SYS-001 (3 October 2026)
+
+Documentation-only operating map, authority/decisions, product/design/motion/responsive
+rules and task/report workflow established. See [system task](tasks/TL-SYS-001-agent-operating-system.md)
+and [report](reports/TL-SYS-001-report.md). This does not complete V3 QA or authorize deployment.
+
+### V3 — The Bronze Journey (authorized 2 October 2026)
+
+- Baseline: complete; frozen install/type/lint/build and repeated production browser verification passed. Feature branch `feat/v3-bronze-journey` protects the baseline.
+- Motion foundation, hero/departure study, service worlds, proof, atlas, destination portals, film/services route and journey builder: implemented; production verification in progress.
+- Shared destination/service/company compositions, responsive/RTL layouts and menu: implemented; visual refinement and verification in progress.
+- Full QA and delivery: in progress. See `V3_BRONZE_JOURNEY.md` for architecture; final evidence and limitations will be recorded separately from historical V2 delivery.
+
+### Historical V2 completion
+
 - Phase 1: complete — ZIP sheets verified against all 14 extracted references; source logo and partner strips recovered; local licensed media and geographic vectors documented.
 - Phase 2: complete — approved shared composition and homepage, with client-directed Türkiye emphasis.
 - Phase 3: complete — 40 public content pages and branded 404, including all 12 requested Turkish destinations.

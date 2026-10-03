@@ -1,5 +1,15 @@
 # Approved visual direction
 
+## Current interpretation — 3 October 2026
+
+The approval records below remain the visual baseline. Later Türkiye-first steering and
+the authorized [V3 Bronze Journey](V3_BRONZE_JOURNEY.md) continue that identity.
+Read [decisions](DECISIONS.md), [design system](DESIGN_SYSTEM.md),
+[motion](MOTION_SYSTEM.md) and [responsive rules](RESPONSIVE_RULES.md) for active rules.
+The ten-country atlas remains secondary to twelve Turkish destinations.
+V2 implementation/localization was delivered; V3 refinement/QA remains in progress.
+Historical remaining-work text below records the state at selection, not today's backlog.
+
 ## Initial page-design approval — 2 October 2026
 
 The user approved the initial design after reviewing the 29-page desktop/mobile preview set and receiving its ZIP: "initial design approved".
@@ -28,7 +38,7 @@ This is the visual direction authority for subsequent design work. It supersedes
 - English, Arabic and Turkish. Use supported device/browser preferred language; otherwise English. Allow manual switching and remember it.
 - Preserve all ten profile countries and company services.
 
-## Remaining work
+## Historical remaining work at initial selection
 
 Extend this approved direction to the complete public sitemap and remaining homepage sections. Design Arabic RTL and Turkish variants. Choose actual fonts, accurate map geometry, faithful logo assets and suitable licensed/original media. Implement and verify motion separately: the still image does not establish exact animation timing or 3D behavior. The screenshot's generated map and illustrative photography are references, not production assets.
 

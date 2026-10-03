@@ -1,6 +1,50 @@
 # Design system
 
-Status: logo and approved visual concept inspected; initial design tokens implemented in frontend/styles/globals.css. Mobile composition is independently defined in frontend/styles/mobile.css.
+Current active design system, consolidated 3 October 2026. The October approved direction
+and Bronze Journey continuation govern `frontend-v2/`. Older V1 token/type references
+below are preserved as historical reasoning, not instructions to revert active styles.
+
+## Active identity and tokens
+
+Preserve actual stacked Trip Line logo, muted teal, ivory/sand, bronze/gold accents,
+cinematic travel media, bold editorial typography, spatial/asymmetric layouts,
+generous whitespace and the route/ribbon language.
+Active tokens are in `frontend-v2/styles/travel.css`; V3 composition extends them
+in `styles/experience.css`.
+
+| Active token | Value |
+| --- | --- |
+| teal | #406764 |
+| deep / night | #1f3e41 / #17373a |
+| sand / paper / ivory | #e8d9c6 / #f3ede3 / #faf6ef |
+| bronze / ink | #a07e63 / #163d42 |
+| maximum composition | 1320px |
+| gutter | clamp(22px, 4.4vw, 80px) |
+
+Current layout loads Manrope and Noto Sans Arabic via next/font. Bold sans-serif headings
+and connected Arabic typography supersede the early Instrument Serif default.
+Use active semantic tokens and inspect actual component CSS before editing.
+Source-derived stacked logo lives at `public/media/logo-source.png`; an earlier compact
+flight-mark approximation is not authority to replace that identity.
+
+## Composition rules
+
+Prefer editorial asymmetry, purposeful overlapping layers, controlled bleed, large type,
+spatial depth, varied section rhythm, deliberate negative space and narrative media.
+Avoid repeating the same grid in every section, excessive bordered cards, unnecessary
+containers, generic icon-feature rows and visual clutter.
+
+Reusable components maintain consistent language while allowing different editorial
+compositions; reuse must not make every page visually identical.
+
+## Interaction and accessibility
+
+Hover/focus states are purposeful. Essential information never depends only on hover.
+Keyboard focus stays visible; labels, semantic landmarks, native menu/disclosures and
+form errors remain accessible. Target WCAG 2.2 AA, practical 44px touch targets and 200%
+text zoom. These are requirements, not a claim that a complete audit has passed.
+Read [motion](MOTION_SYSTEM.md) and [responsive rules](RESPONSIVE_RULES.md) for those
+authoritative behaviors. Preserve real geography and photo orientation in Arabic.
 
 ## Required references
 
@@ -18,13 +62,15 @@ The user explicitly identified these as the design standard they want in every d
 
 Apply this quality bar to subsequent Trip Line work: deliberate composition throughout every page, careful type scale and line breaks, consistent spacing, original brand details, and purposeful motion. Design phone layouts as complete compositions with the same care as desktop. Check actual rendered pages and interactions before claiming completion; preserve readable content, keyboard operation, reduced-motion support and fast loading.
 
-These references guide craft and quality while Trip Line retains its teal, ivory, gold and travel identity. They do not imply that the present demo already matches the reference quality. This records a direction for future design work; no live redesign was published as part of recording the preference.
+These references inspire craft and quality, never templates to copy. Trip Line retains
+its own teal/sand/bronze identity. Their historical review does not certify current
+frontend quality, reference-site performance or full motion behavior.
 
-## Identity direction
+## Historical V1 identity reasoning
 
 Creative concept: The Journey in Motion. The gold curved flight line expresses connection, departure, arrival, and discovery. Use restrained teal, ivory, cinematic photography, editorial serif typography, asymmetry, and generous space. Avoid generic travel grids, SaaS styling, blue-and-white palettes, luxury clichés, and excessive gold or blur.
 
-## Initial tokens
+## Historical V1 initial tokens — superseded for active V2
 
 | Token | Initial value |
 | --- | --- |
@@ -45,13 +91,13 @@ Logo sampling: lower-left background clustered around RGB(25,66,68) / #194244; l
 
 Phone composition: three-line home headline sized for 360–430px, quiet teal copy area over a separate lower photograph with a soft mask, simplified flight path below the copy, 14px body text, image-first service cards on ivory, 50px form controls, and native modal navigation. The sample metrics and contact details visible in the reference concept are not rendered.
 
-## Typography and layout
+## Historical V1 typography and layout
 
 Instrument Serif display and Manrope body/UI through next/font, minimal weights. Fluid typography: hero clamp(4.2rem, 7.5vw, 8.5rem), editorial statement clamp(3.5rem, 6vw, 7rem), H2 clamp(2.5rem, 4vw, 4.5rem). Mobile composition needs its own line breaks and scale. Use CSS logical properties for future RTL.
 
 Desktop content approximately 1280px, maximum composition 1440px, 12-column grid, 48–72px gutters, and 100–160px section spacing. Tablet gutters 32px; mobile 20px with 64–96px section spacing. Use controlled bleed and varied editorial compositions.
 
-## Motion and accessibility
+## Historical timing guidance and accessibility intent
 
 Reveal: opacity and 24–36px translation over 650–850ms. Images: mask reveal and scale 1.05 to 1 over 900–1200ms. Hover: at most -3px lift, 1.025 image scale, and 4px arrow shift. Pointer depth capped at ±2 degrees X and ±3 degrees Y.
 

@@ -1,10 +1,19 @@
 # Trip Line
 
-## Current project — 2 October 2026
+## Current project — 3 October 2026
 
-**Active frontend: [`frontend-v2/`](frontend-v2/).** The approved Türkiye-focused public frontend is implemented and ready for review: 40 content pages in Arabic, English and Turkish, all 12 client-requested Turkish destinations, interactive geographic discovery, video, scroll-driven Three.js and contextual WhatsApp/email inquiries. Build, lint and production browser checks passed. This revision has not been deployed; backend/CMS and publication work remain.
+**Active frontend: [`frontend-v2/`](frontend-v2/).** Forty public content pages in
+Arabic, English and Turkish, all twelve Turkish destinations, nine services, geographic
+discovery, film, scroll-driven 3D and prepared WhatsApp/email inquiry. V2 has verified
+delivery evidence. V3 [Bronze Journey](docs/V3_BRONZE_JOURNEY.md) is implemented on
+`feat/v3-bronze-journey` with refinement/QA in progress; V2 results are not V3 sign-off.
+Current V2/V3 deployment is not established; backend/CMS and publication remain.
 
-**For a new agent, start with [AGENTS.md](AGENTS.md) and [AI handoff](docs/AI_HANDOFF.md).** See the [delivery report](docs/FRONTEND_DELIVERY.md), [completed phase plan](docs/FRONTEND_IMPLEMENTATION_PLAN.md), [documentation index](docs/README.md) and [saved QA evidence](docs/qa/2026-10-02/README.md).
+**Start with [AGENTS.md](AGENTS.md), [handoff](docs/AI_HANDOFF.md),
+[product vision](docs/PRODUCT_VISION.md) and [decisions](docs/DECISIONS.md).**
+Use the [documentation index](docs/README.md), [tasks](docs/tasks/README.md) and
+[reports](docs/reports/README.md). See [historical V2 delivery](docs/FRONTEND_DELIVERY.md),
+[current phase plan](docs/FRONTEND_IMPLEMENTATION_PLAN.md) and [V2 QA](docs/qa/2026-10-02/README.md).
 
 Run the active frontend with Node 24 and pnpm 11.25.0: from `frontend-v2`, run `pnpm install --frozen-lockfile` and `pnpm dev --port 3002`. Open `/ar`, `/en` or `/tr`. Public content runs without the backend. Keep local `.env` files out of Git.
 

@@ -1,10 +1,20 @@
 # AI handoff — start here
 
-Updated 2 October 2026, Europe/Istanbul. This is the current implementation handoff for another agent or a fresh chat. It supersedes outdated status and next-task instructions in the 1 October design handoff and older demo README sections. It does not authorize new work by itself; follow the user's next request.
+Updated 3 October 2026, Europe/Istanbul (documentation operating system; V3 QA status
+preserved). This is the current implementation handoff for a fresh session. It supersedes
+outdated status/next-task instructions in older design/demo notes. It does not authorize
+new work by itself; follow the user's current task.
 
 ## Current outcome
 
-The user authorized phased implementation until the public frontend was finished, including motion, animation, video and real scroll-driven 3D. The initial design ZIP was reviewed; its fourteen PNG sheets match the extracted references. The client then requested a strong Türkiye tourism focus. That implementation is ready for review in `frontend-v2/`.
+V3 work is now authorized by the full “The Bronze Journey” handoff on 2 October 2026. Work continues in `frontend-v2/` on `feat/v3-bronze-journey`; see `V3_BRONZE_JOURNEY.md`. V2 below is the protected historical baseline. V3 implementation and verification status is tracked in `FRONTEND_IMPLEMENTATION_PLAN.md`; no deployment is authorized.
+
+### Protected V2 baseline
+
+The following describes the delivered V2 revision and its evidence, retained underneath
+the current V3 status above. The user authorized phased implementation including motion,
+video and scroll-driven 3D. The fourteen ZIP sheets matched extracted references; client
+Türkiye-first steering expanded the implementation. V2 was delivered for review.
 
 Forty content pages plus branded 404 exist in English, Arabic and Turkish (120 localized content routes). The twelve Turkish destination pages are Istanbul, Trabzon, Rize & Ayder, Uzungöl, Antalya, Bodrum, Fethiye, Marmaris, Sapanca, Bursa, Yalova and Cappadocia. Türkiye leads the homepage, navigation, discovery and footer. Ten-country international discovery remains secondary. There are nine service pages plus company, business, FAQ, contact and legal review layouts.
 
@@ -12,9 +22,17 @@ No deployment was performed for this revision. Do not confuse the older V1/V2 Ve
 
 ## Read in order
 
+Use the [root operating map](../AGENTS.md) for authority and conditional reads.
+Baseline: this handoff, [product vision](PRODUCT_VISION.md), [decisions](DECISIONS.md)
+and the specific [task](tasks/README.md). Frontend work also reads
+[design system](DESIGN_SYSTEM.md), [motion](MOTION_SYSTEM.md),
+[responsive rules](RESPONSIVE_RULES.md) and [architecture](ARCHITECTURE.md).
+Complete significant work with a [report](reports/README.md). The list below is a
+supporting source map; V2 delivery/QA is historical evidence, not V3 sign-off.
+
 1. `../AGENTS.md` and `../frontend-v2/AGENTS.md` — repository and framework instructions.
 2. `FRONTEND_DELIVERY.md` — behavior, verification and launch boundaries.
-3. `FRONTEND_IMPLEMENTATION_PLAN.md` — completed six-phase frontend plan and client steering.
+3. `FRONTEND_IMPLEMENTATION_PLAN.md` — current V3 QA status, historical V2 phases and client steering.
 4. `APPROVED_DESIGN_DIRECTION.md`, `PUBLIC_PAGE_PREVIEW_INDEX.md`, and `references/public-page-previews/` — approved visual authority.
 5. `MASTER_SPECIFICATION.txt`, `API.md`, `ARCHITECTURE.md` and root `TODO.md` — broader production/backend requirements if the user requests that phase.
 6. `NEW_CHAT_PROJECT_HANDOFF.md` — historical company/design context only. Its “design-only” and “generate previews next” instructions are obsolete.
@@ -29,6 +47,8 @@ No deployment was performed for this revision. Do not confuse the older V1/V2 Ve
 | `lib/travel-content.ts` | Nine services, ten countries, FAQ, contact details and public route inventory |
 | `lib/turkiye.ts` | Twelve Turkish destination records and Türkiye-first copy |
 | `components/travel/Pages.tsx` | Page composition, including country and Turkish place details |
+| `components/home-v3/`, `components/experience/`, `styles/experience.css` | Current Bronze Journey homepage, scroll/3D/portal enhancement and builder; see V3 notes |
+| `lib/journey.ts` | Validated ordered itinerary context for prepared-message inquiry |
 | `components/travel/SiteShell.tsx` | Logo, header, modal menu, footer, locale and motion preferences |
 | `components/travel/Sections.tsx` | Shared hero, services, figures, international atlas, story, partners and planner |
 | `components/travel/TurkeyDiscovery.tsx` | Türkiye map/list/preview synchronization, mode switch and regional filters |
@@ -44,11 +64,16 @@ Older journal components and original public route files remain as historical co
 
 ## Run on a fresh machine
 
+Validation requirements are in [TESTING.md](TESTING.md) and the root operating map.
+Frontend changes run `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`;
+record missing tests honestly. Documentation-only tasks require typecheck/lint and
+consistency/diff review. The production-preview procedure below remains available.
+
 Use Node 24 and pnpm 11.25.0. From `frontend-v2/`, run `pnpm install --frozen-lockfile`, then `pnpm dev --port 3002`. The new public pages use local typed content and do not require the backend. `.env.example` documents optional backend/media/deployment settings; do not copy credentials from another machine. `/ar`, `/en` and `/tr` are explicit locale entry points.
 
 Validation: `pnpm typecheck`, `pnpm lint`, `pnpm build`. Browser setup if needed: `pnpm exec playwright install chromium`. Run `node scripts/verify-public.mjs` with the production preview listening on port 3003, or set `QA_URL` to its actual origin. The historical local check used `pnpm start --port 3003`; Next prints a warning because this repo retains standalone output. For actual standalone deployment, package `public` and `.next/static` alongside `.next/standalone/server.js` and launch the generated server according to the bundled Next documentation. Do not mistake a local preview server for deployment.
 
-## Verified baseline and limitations
+## Historical V2 verified baseline and limitations
 
 Build, TypeScript, lint and production Chromium checks passed on 2 October. All 120 content routes returned 200; missing public pages returned branded HTTP 404. Checked filtering, atlas synchronization, planner context, form validation and prepared messages, language persistence, RTL, modal focus return, live WebGL/video and reduced-motion fallbacks. Six production screenshots cover widths 360–1440 px, with no document overflow or broken loaded images and no browser errors. Reports and selected screenshots are preserved in `qa/2026-10-02/`; scripts regenerate local evidence under ignored `tmp/frontend-qa/`.
 

@@ -1,5 +1,10 @@
 # Numbers and partners — section proposal
 
+> Historical/reference record. Read [current handoff](AI_HANDOFF.md) and
+> [accepted decisions](DECISIONS.md) first. Older status, exploration and next-step
+> instructions below do not override the active frontend, Türkiye-first steering
+> or Bronze Journey continuation. Preserve source reasoning; this is not current QA sign-off.
+
 User requested a company-figures section inspired by the supplied horizontal statistics strip and a partner-logo section inspired by the supplied Jaeco logo strip, redesigned for Trip Line's approved visual direction.
 
 Preview: `references/section-studies/numbers-and-partners-v1.png`. This new section composition awaits review; the overall website direction remains approved.

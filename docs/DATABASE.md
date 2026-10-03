@@ -1,6 +1,11 @@
 # Database plan
 
-Status: conceptual schema, not executed migrations. PostgreSQL, UUID domain primary keys, UTC timestamptz, explicit foreign keys/check constraints, and optimistic version columns on concurrently edited aggregates. Spring Session tables follow its supported JDBC schema rather than imposing domain UUID conventions on framework internals.
+Status: target conceptual schema. Existing Flyway source files are in
+`backend/src/main/resources/db/migration/`; execution against PostgreSQL is not
+established. Compare actual migrations before implementing this plan.
+PostgreSQL, UUID domain primary keys, UTC timestamptz, explicit foreign keys/check
+constraints and optimistic version columns on concurrently edited aggregates.
+Spring Session tables follow its supported JDBC schema rather than imposing domain UUID conventions.
 
 ## Ownership and records
 

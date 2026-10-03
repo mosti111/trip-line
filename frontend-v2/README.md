@@ -1,6 +1,16 @@
-# Trip Line — version 2
+# Trip Line — active public frontend
 
-**Current local implementation (2 October 2026):** the approved teal/sand/bronze public frontend, now centered on Türkiye and all twelve client-requested destinations. Forty content pages in English, Arabic and Turkish, with live 3D, video, scroll motion and contextual inquiry. See [delivery and verification](../docs/FRONTEND_DELIVERY.md) and [completed phase plan](../docs/FRONTEND_IMPLEMENTATION_PLAN.md). Run `pnpm dev --port 3002`. This revision has not been deployed.
+**Current local implementation (3 October 2026):** active Türkiye-first public frontend;
+40 content pages, twelve Turkish destinations, nine services, EN/AR/TR and Arabic RTL.
+V2 [delivery evidence](../docs/FRONTEND_DELIVERY.md) is historical;
+V3 [Bronze Journey](../docs/V3_BRONZE_JOURNEY.md) is implemented with QA in progress.
+See [phase status](../docs/FRONTEND_IMPLEMENTATION_PLAN.md), [agent map](../AGENTS.md)
+and [documentation index](../docs/README.md). Current deployment is not established.
+
+Use Node 24 and pnpm 11.25.0: `pnpm install --frozen-lockfile`, then
+`pnpm dev --port 3002`; open /en, /ar or /tr. Current typed public content does not
+require backend or TRIPLINE_DEMO. Optional environment settings are in .env.example;
+keep secrets out of Git. Read [verification](../docs/TESTING.md) for commands and evidence.
 
 The following notes document the **earlier journal demo**, not the current local implementation.
 
@@ -8,7 +18,7 @@ Public demo: https://trip-line-journal-v2.vercel.app
 
 Independent frontend copy for The Living Travel Journal. The original frontend directory and https://trip-line-demo.vercel.app remain unchanged. Vercel project: trip-line-journal-v2. Never link this folder to trip-line-demo.
 
-## Local preview
+## Historical journal local preview
 
 Use Node 24 and pnpm 11.25.0. Install with `pnpm install --frozen-lockfile`, set `TRIPLINE_DEMO=true` in .env.local, and run `pnpm dev --port 3002`. The current local preview runs on http://127.0.0.1:3002.
 

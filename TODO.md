@@ -1,6 +1,29 @@
 # Trip Line implementation milestones
 
-**Current status, 2 October 2026:** the Türkiye-focused V2 public frontend is implemented and verified. All six frontend phases are complete; see [the phase plan](docs/FRONTEND_IMPLEMENTATION_PLAN.md) and [AI handoff](docs/AI_HANDOFF.md). Publication approvals/deployment and backend/CMS work remain. The checklist below preserves the earlier V1/backend roadmap; its demo-first instructions are historical.
+## Current public frontend
+
+Updated 3 October 2026. V2's six public phases are complete with dated evidence.
+V3 Bronze Journey is implemented in frontend-v2; refinement/QA remains in progress.
+See [phase status](docs/FRONTEND_IMPLEMENTATION_PLAN.md) and [handoff](docs/AI_HANDOFF.md).
+The repository operating system is recorded in [TL-SYS-001](docs/reports/TL-SYS-001-report.md).
+Older unchecked public-page items below do not mean the active pages are unimplemented.
+
+## Publication/launch requirements
+
+- Approved legal wording and current company claim/partner confirmation.
+- Final media sign-off, canonical domain and correct deployment-project setup.
+- Explicit publication authorization before deployment or enabling indexing.
+- Record actual deployment/operational verification; old demo URLs are historical.
+
+## Future backend/CMS platform
+
+Existing source/migrations are unfinished platform work. PostgreSQL/Flyway integration,
+authentication/session/role verification, CMS editing/publishing, R2/Turnstile,
+persisted inquiries, staging/backups/restore and full-stack acceptance remain.
+Active inquiry prepares WhatsApp/email messages; no server receives them.
+The original detailed milestone checklist is preserved below as target-platform history.
+
+## Historical milestones — V1/demo and platform roadmap
 
 Status: public-site demo implemented; production V1 remains in progress. The user requested a demo first, followed by mobile layout improvements. Finish demo delivery before resuming full CMS/operations work.
 
@@ -91,8 +114,12 @@ All three visual references have been inspected. Originals are preserved under d
 
 Later milestones need approved company/contact/service content, final imagery, production domain, VPS/Coolify access, Cloudflare/R2/Turnstile configuration, deployment secrets, and backup storage. Never commit credentials to this checklist.
 
-## Resume notes
+## Backend resume notes and historical V1 contact boundary
 
-Frontend demo runs independently of the unfinished backend. Backend source includes auth/users, content/services, settings, media, contacts and audit with Flyway migrations; compilation is not runtime verification. No PostgreSQL, Testcontainers, R2 or Turnstile integration has been exercised. ADMIN UI is not implemented. ContactForm intentionally only validates input and must be connected before production.
+The public frontend runs independently of the unfinished backend. Backend source includes
+auth/users, content/services, settings, media, contacts and audit with Flyway migrations;
+compilation is not runtime verification. No PostgreSQL, Testcontainers, R2 or Turnstile
+integration is established. ADMIN UI is unfinished. Historical V1 ContactForm validates
+demo input only; active V2/V3 Inquiry prepares WhatsApp/email without server delivery.
 
 Before backend sign-off: add PostgreSQL tests, Modulith boundary checks, consistent trace IDs and optimistic-lock errors; review media reference/deletion consistency and object-storage failure recovery; add AVIF decoding support or explicitly resolve format scope; finish category/navigation/settings controls and draft previews. Do not infer completion from existing class names or planned documentation.

@@ -1,5 +1,8 @@
 # Frontend verification baseline — 2 October 2026
 
+Historical verified V2 revision. These outputs do not sign off later V3 changes in the
+same workspace. Read [current status](../../AI_HANDOFF.md) before choosing next work.
+
 These are saved outputs from verification of the Türkiye-focused frontend. No personal customer data is present; form checks used synthetic QA input and did not send a message.
 
 - `production-check.json`: 120 localized content routes, six responsive views, interaction checks and empty browser error log.

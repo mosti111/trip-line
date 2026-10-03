@@ -1,6 +1,12 @@
 # API contract plan
 
-Status: proposed contract; endpoints are not implemented. REST JSON under `/api/v1`; DTOs only, no persistence entities. Locale defaults to `en`. All admin lists paginate with zero-based `page`, `size` default 20/max 100, and allowlisted `sort` fields. Search and filters run server-side.
+Status: target contract, not a verified operational API. Controllers exist in backend
+source; inspect them before changing contracts. Runtime/PostgreSQL integration and
+CMS acceptance remain unfinished. The active public frontend uses typed local content
+and prepares WhatsApp/email messages without calling the persisted-contact endpoint.
+REST JSON under `/api/v1`; DTOs only, no persistence entities. Locale defaults to `en`.
+All admin lists paginate with zero-based `page`, `size` default 20/max 100,
+and allowlisted `sort` fields. Search and filters run server-side in the target contract.
 
 ## Public
 

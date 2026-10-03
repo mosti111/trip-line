@@ -1,5 +1,10 @@
 # Trip Line frontend delivery — 2 October 2026
 
+Historical verified V2 baseline. Current V3 source is in the same frontend-v2 workspace,
+with QA in progress; see [current handoff](AI_HANDOFF.md) and
+[phase status](FRONTEND_IMPLEMENTATION_PLAN.md). Results below apply to the V2 revision
+checked that day, not automatically to Bronze Journey. No deployment is established.
+
 ## Implemented scope
 
 The approved ZIP contains 14 composite sheets covering the original 29 page types. Its PNGs match the stored public-page references by SHA-256. The new frontend follows their muted teal, sand, bronze, stacked logo, environmental photography and editorial hierarchy.

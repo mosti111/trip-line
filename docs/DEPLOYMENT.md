@@ -1,8 +1,12 @@
 # Deployment and recovery plan
 
-Status: the public frontend demo is deployed on Vercel. The full production backend, database and recovery setup below remain planned.
+Status: historical V1 demo deployment evidence plus a target production/recovery plan.
+Current frontend-v2 V2/V3 is not established as deployed. Keep noindex; publication
+requires explicit authorization, legal/claim/partner/media sign-off and correct
+canonical-domain/deployment setup. Older Vercel projects do not establish current hosting.
+Backend, database and recovery setup below remain planned/unverified.
 
-## Vercel demo — deployed September 27, 2026
+## Historical V1 Vercel demo — deployed September 27, 2026
 
 - Public URL: https://trip-line-demo.vercel.app
 - Project: mostafaabdelwahab651-3920s-projects/trip-line-demo

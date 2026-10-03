@@ -1,6 +1,33 @@
 # Test and acceptance plan
 
-Status: production verification plan. Frontend build/typecheck/lint and targeted demo browser checks have run; see DEMO_QA.md for results. Backend compiles, but no PostgreSQL integration suite or production acceptance suite has run.
+Status: current frontend verification procedure plus unfinished production acceptance plan.
+V2 evidence is in [delivery](FRONTEND_DELIVERY.md) and [dated QA](qa/2026-10-02/README.md);
+V3 QA remains in progress per [phase plan](FRONTEND_IMPLEMENTATION_PLAN.md).
+Backend compilation is not PostgreSQL integration or production acceptance.
+
+## Current public frontend procedure
+
+From frontend-v2: `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`.
+Vitest/Playwright scripts and dependencies exist; do not assume a configured suite or
+claim no-tests output as a pass. For documentation-only work, typecheck/lint plus
+link/consistency/diff review suffice; test/build if application/config changes.
+
+For public changes start a production preview (e.g. `pnpm start --port 3003`),
+then `node scripts/verify-public.mjs`. Set QA_URL for another origin.
+For V3 flows also run `node scripts/verify-v3.mjs`; it adds planner ordering/context,
+navigation, fallback and responsive checks. Install Chromium if needed:
+`pnpm exec playwright install chromium`.
+In PowerShell: `$env:QA_URL='http://localhost:3013'`, then run the scripts.
+Next standalone packaging needs public and .next/static beside its generated server;
+the preview procedure is not deployment. Read bundled Next docs before changing it.
+
+Check EN/AR/TR, natural map orientation, 360/390/430/768/1024/1280/1440px as relevant,
+keyboard/menu focus, prepared-message validation/context invalidation, video controls,
+WebGL failure, device/explicit reduced motion and no document overflow.
+Keep raw evidence under ignored root tmp/frontend-qa/; preserve selected durable,
+non-sensitive results with date/revision in docs/qa/ and link from the task report.
+Record actual checks and missing browser/physical-device/performance coverage.
+Do not externally send inquiry test messages.
 
 ## Backend
 
