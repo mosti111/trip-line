@@ -160,3 +160,11 @@ html[dir=rtl] .opening .hero-content{transform-origin:top right}
 @keyframes menu-arrive{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 @media(max-width:767px){.opening .video-toggle{bottom:74px;inset-inline-end:22px}.nav-dialog nav>a{font-size:26px;min-height:61px;line-height:1.25}.travel-site:has(.bronze-home) .desktop-nav{display:none}}
 @media(prefers-reduced-motion:reduce){.travel-site *,.travel-site *:before,.travel-site *:after{scroll-behavior:auto!important;animation:none!important;transition-duration:.01ms!important}}
+.service-route-directory .service-milestone{scroll-margin-block:40px}
+/* Bound decorative portal arcs; allow the actual layout to expose overflow errors. */
+.signature-places{overflow:hidden}.chapter-proof .numbers-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.chapter-proof .numbers-grid>div{min-width:0}.bronze-home .chapter-proof .numbers-grid strong{font-size:clamp(30px,3.3vw,48px)}.bronze-home .partner-tracks{min-width:0;max-width:100%;overflow:auto}
+@media(max-width:767px){.chapter-proof .numbers-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bronze-home .chapter-proof .numbers-grid strong{font-size:35px}}
+/* Departure is a real chapter even when script, data saver or motion eligibility prevent pinning. */
+.departure-copy{display:block;position:relative;top:auto;inset-inline-start:auto;opacity:1;width:auto;max-width:none;padding:90px var(--gutter);pointer-events:auto}
+@media(min-width:1024px) and (min-height:800px) and (pointer:fine) and (prefers-reduced-motion:no-preference){.opening-pinned .departure-copy{position:absolute;top:20%;inset-inline-start:var(--gutter);width:1050px;max-width:80%;padding:0;opacity:0;pointer-events:none}}
+@media(max-width:767px){.departure-copy{padding-block:70px}.opening>.scroll-cue{top:max(750px,calc(100svh - 60px));bottom:auto}}

@@ -47,14 +47,18 @@ try{
  await page.waitForLoadState('networkidle');await page.reload({waitUntil:'networkidle'});await expect(page.locator('h1')).toHaveText('Cappadocia');await page.goBack({waitUntil:'networkidle'});await expect(page.locator('.journey-builder')).toBeAttached();await page.goForward();await expect(page.locator('h1')).toHaveText('Cappadocia');
  report.checks.push('Destination shared-element navigation, direct refresh, browser back/forward');
  await page.goto(base+'/en',{waitUntil:'networkidle'});
- const services=page.locator('.services-journey');await expect(services).toHaveClass(/horizontal-enhanced/);
+ const services=page.locator('.service-route-directory');
  for(const locale of ['en','ar','tr']){
   await page.goto(base+'/'+locale,{waitUntil:'networkidle'});
-  for(const link of await services.locator('a').all()) {await link.focus();await page.waitForTimeout(800);await expect(link).toBeInViewport({ratio:1});}
+  const choices=page.locator('.world-choices button');
+  for(let i=0;i<3;i++){await choices.nth(i).focus();await expect(choices.nth(i)).toHaveAttribute('aria-pressed','true');await expect(page.locator('.world-image[data-active=true]')).toHaveCount(1);}
+  await choices.first().focus();await page.keyboard.press('ArrowDown');await expect(choices.nth(1)).toBeFocused();await expect(choices.nth(1)).toHaveAttribute('aria-pressed','true');
+  await services.locator('summary').click();await expect(services.locator('a')).toHaveCount(9);
+  for(const link of await services.locator('a').all()){await link.focus();await expect(link).toBeInViewport({ratio:1});}
   await page.screenshot({path:path.join(out,`services-keyboard-${locale}.png`)});
  }
  await page.goto(base+'/en',{waitUntil:'networkidle'});
- report.checks.push('All nine horizontal service links fully visible on keyboard focus in EN/AR/TR');
+ report.checks.push('Three service worlds synchronize media on focus; arrow navigation and all nine service directory links work in EN/AR/TR');
  await page.locator('.menu-button').click();await expect.poll(()=>page.locator('.menu-image img').evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);await page.screenshot({path:path.join(out,'menu-desktop.png')});await page.keyboard.press('Escape');await expect(page.locator('.menu-button')).toBeFocused();
  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(800);
  const heroVideo=page.locator('.home-hero video');await expect.poll(()=>heroVideo.evaluate(v=>v.paused)).toBe(false);
@@ -78,14 +82,14 @@ try{
   const calm=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});watch(calm);await calm.goto(base+'/'+locale,{waitUntil:'networkidle'});
   await expect(calm.locator('.ribbon canvas')).toHaveCount(0);await expect(calm.locator('.pin-spacer')).toHaveCount(0);expect(await calm.locator('video[src]').count()).toBe(0);await expect(calm.locator('.hero-content')).toHaveCSS('transform','none');await calm.screenshot({path:path.join(out,`reduced-motion-${locale}.png`),fullPage:true});await calm.close();
  }
- const saver=await browser.newPage();watch(saver);await saver.addInitScript(()=>Object.defineProperty(navigator,'connection',{value:{saveData:true},configurable:true}));await saver.goto(base+'/en',{waitUntil:'networkidle'});expect(await saver.locator('video[src]').count()).toBe(0);await expect(saver.locator('.ribbon canvas')).toHaveCount(0);await saver.close();
+ const saver=await browser.newPage();watch(saver);await saver.addInitScript(()=>Object.defineProperty(navigator,'connection',{value:{saveData:true},configurable:true}));await saver.goto(base+'/en',{waitUntil:'networkidle'});expect(await saver.locator('video[src]').count()).toBe(0);await expect(saver.locator('.ribbon canvas')).toHaveCount(0);await expect(saver.locator('.departure-copy')).toHaveCSS('opacity','1');await saver.close();
  report.checks.push('Device reduced motion, native static composition, no automatic video or WebGL on data saver');
  await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/en',{waitUntil:'networkidle'});await expect(page.locator('.ribbon-ready')).toBeVisible();
  await page.locator('.ribbon canvas').evaluate(canvas=>canvas.dispatchEvent(new Event('webglcontextlost',{cancelable:true})));await expect(page.locator('.ribbon-ready')).toHaveCount(0);await expect(page.locator('.ribbon>svg')).toHaveCSS('opacity','1');
  report.checks.push('WebGL context-loss event restores static SVG');
  const nojs=await browser.newPage({javaScriptEnabled:false});
  for(const route of ['/en','/ar','/tr','/en/services/tours','/ar/destinations/turkiye/rize-ayder','/tr/contact']){await nojs.goto(base+route);await expect(nojs.locator('h1')).toBeVisible();await clean(nojs,'no-JS '+route);}
- await nojs.goto(base+'/en');await expect(nojs.locator('.hero .button')).toHaveAttribute('href','/en/destinations/turkiye');await expect(nojs.locator('.world-plane')).toHaveCount(3);await nojs.screenshot({path:path.join(out,'no-js-home.png')});await nojs.close();report.checks.push('No-JS visible homepage in all locales, service/destination/contact content and destination links');
+ await nojs.goto(base+'/en');await expect(nojs.locator('.hero .button')).toHaveAttribute('href','/en/destinations/turkiye');await expect(nojs.locator('.world-choices button')).toHaveCount(3);await expect(nojs.locator('.service-route-directory a')).toHaveCount(9);await nojs.screenshot({path:path.join(out,'no-js-home.png')});await nojs.close();report.checks.push('No-JS visible homepage in all locales, service/destination/contact content and destination links');
  for(const width of [390,1280]){
   const touch=await browser.newPage({viewport:{width,height:900},hasTouch:true,isMobile:true});watch(touch);await touch.goto(base+'/ar',{waitUntil:'networkidle'});
   expect(await touch.evaluate(()=>matchMedia('(pointer:coarse)').matches)).toBe(true);await expect(touch.locator('.pin-spacer')).toHaveCount(0);await expect(touch.locator('.ribbon canvas')).toHaveCount(0);
@@ -95,7 +99,7 @@ try{
  report.checks.push('Emulated coarse touch at 390/1280: native vertical layout, static sculpture, planner and menu');
  for(const locale of ['en','ar','tr']){
   await page.setViewportSize({width:1280,height:600});await page.goto(base+'/'+locale,{waitUntil:'networkidle'});await expect(page.locator('.pin-spacer')).toHaveCount(0);
-  await services.locator('a').last().focus();await expect(services.locator('a').last()).toBeInViewport({ratio:1});await clean(page,'short '+locale);
+  await services.locator('summary').click();await services.locator('a').last().focus();await expect(services.locator('a').last()).toBeInViewport({ratio:1});await clean(page,'short '+locale);
   await page.locator('.menu-button').click();await page.locator('.dialog-footer>a').last().focus();await expect(page.locator('.dialog-footer>a').last()).toBeInViewport({ratio:1});await page.keyboard.press('Escape');await expect(page.locator('.menu-button')).toBeFocused();
  }
  report.checks.push('Short-height 1280×600 EN/AR/TR: no pin, reachable last service and scrollable menu footer');

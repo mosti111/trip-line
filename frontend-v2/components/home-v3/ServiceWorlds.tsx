@@ -31,7 +31,7 @@ export function ServiceWorldsV3({ locale }: { locale: Locale }) {
         <div id="world-description" className="world-description" aria-live="polite" aria-atomic="true"><p key={world.path}>{world.body[locale]}</p><Action locale={locale} path={world.path} secondary>{ui.more[locale]}</Action></div>
         <svg className="world-route" viewBox="0 0 1000 500" aria-hidden="true"><path d="M-20 420 H350 C550 420 400 50 680 80 S850 450 1020 360"/></svg>
       </div>
-      <details className="service-route-directory services-journey"><summary>{ui.allServices[locale]}<span aria-hidden="true">09 ↗</span></summary><div>{services.map((s,i)=><Link className="service-milestone" key={s.slug} href={href(locale,`services/${s.slug}`)}><span className="index">{String(i+1).padStart(2,'0')}</span><span>{s.title[locale]}</span><ArrowUpRight size={20}/></Link>)}</div></details>
+      <details className="service-route-directory services-journey"><summary>{ui.allServices[locale]}<span aria-hidden="true">09 ↗</span></summary><div>{services.map((s,i)=><Link className="service-milestone" onFocus={e=>e.currentTarget.scrollIntoView({block:"nearest",behavior:"instant"})} key={s.slug} href={href(locale,`services/${s.slug}`)}><span className="index">{String(i+1).padStart(2,'0')}</span><span>{s.title[locale]}</span><ArrowUpRight size={20}/></Link>)}</div></details>
     </div>
   </section>;
 }

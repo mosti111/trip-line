@@ -46,7 +46,7 @@ try {
   await page.waitForTimeout(500);await page.evaluate(()=>window.__loss.restoreContext());await expect(page.locator('.ribbon-ready canvas')).toBeVisible();await expect(page.locator('.ribbon>svg')).toHaveCSS('opacity','0');
   await page.screenshot({path:path.join(out,'webgl-restored.png')});
   report.checks.push('Actual WebGL context loss/restoration via Chromium extension recovers sculpture');
-  await page.evaluate(()=>scrollTo({top:850,behavior:'instant'}));await page.waitForTimeout(1000);
+  await page.evaluate(()=>scrollTo({top:1250,behavior:'instant'}));await page.waitForTimeout(1000);
   await expect(page.locator('.departure-copy')).toHaveCSS('opacity','1');await expect(page.locator('.hero-content')).toHaveCSS('opacity','0');
   await page.screenshot({path:path.join(out,'departure-refined.png')});
   await page.locator('.home-hero .button').focus();await expect(page.locator('.hero-content')).toHaveCSS('opacity','1');await expect(page.locator('.home-hero .button')).toBeInViewport({ratio:1});
@@ -72,7 +72,7 @@ try {
     await page.goto(base+'/'+locale,{waitUntil:'networkidle'});
     await page.locator('.motion-choice select').selectOption('reduced');await expect(page.locator('.pin-spacer')).toHaveCount(0);await expect(page.locator('.ribbon canvas')).toHaveCount(0);
     await expect.poll(()=>page.locator('.hero-content').evaluate(el=>new DOMMatrix(getComputedStyle(el).transform).isIdentity)).toBe(true);await expect(page.locator('.hero-content')).toHaveCSS('opacity','1');
-    await page.locator('.motion-choice select').selectOption('system');await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await expect(page.locator('.pin-spacer')).toHaveCount(2);await expect(page.locator('.ribbon-ready canvas')).toBeVisible();
+    await page.locator('.motion-choice select').selectOption('system');await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await expect(page.locator('.pin-spacer')).toHaveCount(1);await expect(page.locator('.ribbon-ready canvas')).toBeVisible();
     await page.locator('.home-hero .button').click();await page.waitForURL('**/destinations/turkiye');await expect(page.locator('.pin-spacer')).toHaveCount(0);await expect(page.locator('html')).not.toHaveClass(/lenis/);
   }
   report.checks.push('EN/AR/TR live preference toggle tears down/recreates scenes; leaving home removes pins and Lenis');

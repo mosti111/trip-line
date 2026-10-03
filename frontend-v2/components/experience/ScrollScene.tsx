@@ -17,6 +17,7 @@ export function ScrollScene({ children }: {children:React.ReactNode}) {
           const cleanups:(()=>void)[]=[];
           const opening=root.querySelector('.opening');const hero=root.querySelector('.home-hero');
           if(opening&&hero){
+            opening.classList.add('opening-pinned');cleanups.push(()=>opening.classList.remove('opening-pinned'));
             const timeline=gsap.timeline({scrollTrigger:{trigger:opening,start:'top top',end:()=>`+=${innerHeight*1.3}`,pin:true,scrub:.7,anticipatePin:1,onUpdate:self=>window.dispatchEvent(new CustomEvent('bronze-progress',{detail:self.progress}))}});
             timeline.to(hero.querySelector('.hero-content'),{yPercent:-10,scale:.96,duration:.35,ease:'none'},.2)
               .to(hero.querySelector('.hero-content'),{opacity:0,duration:.22,ease:'none'},.42)
@@ -40,11 +41,11 @@ export function ScrollScene({ children }: {children:React.ReactNode}) {
         });
         mm.add('(pointer: fine) and (min-width: 1024px) and (prefers-reduced-motion: no-preference)',()=>{
           const hero=root.querySelector<HTMLElement>('.home-hero');if(!hero)return;
-          const photo=hero.querySelector<HTMLElement>(':scope > .photo img');if(!photo)return;
-          const move=(event:PointerEvent)=>{if(event.pointerType!=='mouse')return;const rect=hero.getBoundingClientRect();if(rect.bottom<=0)return;gsap.to(photo,{x:(event.clientX/innerWidth-.5)*20,y:(event.clientY/innerHeight-.5)*16,scale:1.03,duration:.8,overwrite:true,ease:'power2.out'});};
-          const reset=()=>gsap.to(photo,{x:0,y:0,scale:1,duration:.8,overwrite:true});
+          const photo=hero.querySelector<HTMLElement>(':scope > .photo img');if(!photo)return;const video=hero.querySelector('video');
+          const move=(event:PointerEvent)=>{if(event.pointerType!=='mouse')return;const rect=hero.getBoundingClientRect();if(rect.bottom<=0)return;gsap.to(photo,{x:(event.clientX/innerWidth-.5)*20,y:(event.clientY/innerHeight-.5)*16,scale:1.03,duration:.8,overwrite:true,ease:'power2.out'});if(video)gsap.to(video,{x:(event.clientX/innerWidth-.5)*16,y:(event.clientY/innerHeight-.5)*12,duration:.8,overwrite:'auto'});};
+          const reset=()=>{gsap.to(photo,{x:0,y:0,scale:1,duration:.8,overwrite:true});if(video)gsap.to(video,{x:0,y:0,duration:.8,overwrite:'auto'});};
           hero.addEventListener('pointermove',move);hero.addEventListener('pointerleave',reset);
-          return()=>{hero.removeEventListener('pointermove',move);hero.removeEventListener('pointerleave',reset);gsap.killTweensOf(photo);gsap.set(photo,{clearProps:'transform'});};
+          return()=>{hero.removeEventListener('pointermove',move);hero.removeEventListener('pointerleave',reset);gsap.killTweensOf(photo);if(video)gsap.killTweensOf(video,'x,y');gsap.set(photo,{clearProps:'transform'});};
         });
       },root);
       let refreshFrame=0;

@@ -3,6 +3,43 @@
 2 October 2026; updated by TL-001 on 3 October. Active frontend: `frontend-v2/`.
 Branch: `feat/v3-bronze-journey`. Current evidence: [V3 delivery](V3_FRONTEND_DELIVERY.md).
 
+## Current reconstruction — TL-002, 3 October 2026
+
+The [new user specification](tasks/TL-002-reconstruction-instructions.md) supersedes
+TL-001's visual composition. Implementation lives in the same active frontend.
+
+- HomeJourney composes arrival/departure, ServiceWorlds, a Türkiye entrance,
+  the existing geographic explorer with dominant crossfading media, sequential
+  destination portals, film, EditorialStory, source-attributed proof, JourneyBuilder
+  and the final route endpoint. Only existing localized content is used.
+- ServiceWorlds is a client selector with persistent crossfading media, focus/arrow/
+  touch selection and a native disclosure exposing all nine service links. This
+  replaces both the three panels and the long horizontal pinned service sequence.
+- DestinationJourney composes all twelve detail pages from source place identity,
+  interests, imagery, practical planning, service connections and contextual inquiry.
+  It reuses DestinationPortal for ordinary shared-image navigation.
+- ScrollScene retains one eligible desktop opening pin. Later titles reveal as blocks;
+  media parallax stays within 50px. Route drawing connects the Türkiye entrance and
+  final arrival. Native touch keeps chapter/state motion without pinning.
+- Departure is visible by default. Only an initialized eligible opening gains the
+  class that positions it inside the pinned sequence. No-JS, data saver and reduced
+  motion therefore retain the actual departure chapter.
+- Explorer keeps only active/previous destination images mounted, retains real map
+  coordinates and respects manual selection over guided scroll updates.
+- JourneyBuilder retains the same GET handoff and reorder controls; supported field
+  state now feeds a live summary, stop count, selected photo and route progress.
+- The menu keeps native modal/Escape behavior and explicitly cycles Tab within its
+  controls. It includes the secondary international directory. No custom cursor.
+
+No dependency, backend, deployment or indexing boundary changed. The current
+palette is recorded in [TL-DEC-010](DECISIONS.md#tl-dec-010--full-bronze-journey-reconstruction).
+Current completion evidence belongs to TL-002, not the historical snapshot below.
+
+## Historical TL-001 implementation snapshot
+
+The following preserves the previous implementation's reasoning and verification.
+Its horizontal service track and prior layouts are superseded by TL-002.
+
 ## Intent and content authority
 
 Follow the line: sculpture → service routes → graphic proof → geography → selected itinerary → inquiry. All twelve Türkiye destinations, nine services, three locales, secondary ten-country directory and existing source notes survive. No prices, inventory, reviews or claims were added. Existing local images and licensed Istanbul film are reused; no new media rights are required by this implementation. The two V3 concept images described in the request were not attached in this chat; implementation follows the supplied written storyboard and repository brand authority.

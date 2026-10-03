@@ -9,15 +9,16 @@ below are preserved as historical reasoning, not instructions to revert active s
 Preserve actual stacked Trip Line logo, muted teal, ivory/sand, bronze/gold accents,
 cinematic travel media, bold editorial typography, spatial/asymmetric layouts,
 generous whitespace and the route/ribbon language.
-Active tokens are in `frontend-v2/styles/travel.css`; V3 composition extends them
-in `styles/experience.css`.
+Base tokens are in `frontend-v2/styles/travel.css`; the current TL-002 public palette
+is scoped to `.travel-site` in `styles/experience.css`. The user explicitly selected
+these values in the [reconstruction specification](tasks/TL-002-reconstruction-instructions.md).
 
 | Active token | Value |
 | --- | --- |
-| teal | #406764 |
-| deep / night | #1f3e41 / #17373a |
-| sand / paper / ivory | #e8d9c6 / #f3ede3 / #faf6ef |
-| bronze / ink | #a07e63 / #163d42 |
+| teal | #194244 |
+| deep / night | #071F20 |
+| sand / paper / ivory | #E4D7C1 / #F8EFE0 / #FFFDF8 |
+| bronze / ink | #C89039 / #194244 |
 | maximum composition | 1320px |
 | gutter | clamp(22px, 4.4vw, 80px) |
 

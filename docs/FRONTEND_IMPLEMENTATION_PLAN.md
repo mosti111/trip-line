@@ -2,6 +2,13 @@
 
 Authorized 2 October 2026: plan the work in phases and continue until the frontend is finished.
 
+## Current reconstruction — 3 October 2026
+
+[TL-002](tasks/TL-002-bronze-reconstruction.md) supersedes the earlier V3 composition
+for the current task. Phases A–G have phone/desktop captures; H–K are undergoing
+production, responsive/RTL and resilience verification. See the task's full source
+instructions for visual acceptance; build success alone is insufficient.
+
 ## Scope and authority
 
 Implement the approved 29-page public design set in `frontend-v2`, using the existing Next.js/React/Motion/Three stack. Preserve V1 and the backend. `APPROVED_DESIGN_DIRECTION.md` and `PUBLIC_PAGE_PREVIEW_INDEX.md` supersede the older exploratory handoff. Accounts, reservations, CMS/backend implementation and deployment are separate phases outside this frontend task.

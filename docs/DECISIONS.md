@@ -125,3 +125,27 @@ configuration and user aesthetic acceptance remain open. V3 engineering QA now h
 the dated TL-001 baseline and explicit limitations. V3 notes say two concept images were
 not attached; the written storyboard is the available authority. Do not claim comparison
 against missing images or silently invent answers.
+
+## TL-DEC-010 — Full Bronze Journey reconstruction
+
+Date: 2026-10-03. Status: Authorized by the current user's supplied instructions.
+
+Decision: replace the earlier V2-derived V3 composition with cinematic travel chapters.
+Use #071F20 / #194244 teal, #F8EFE0 / #FFFDF8 ivory, #E4D7C1 sand and
+#D7AA4D / #C89039 / #A8792D bronze. These explicit current values supersede the
+older active token values in DESIGN_SYSTEM.md. Manrope/Noto Sans Arabic remain.
+The supplied task's approved grouping maps to existing Türkiye travel, Hajj/Umrah
+and business/group service worlds, preserving source content rather than inventing
+Leisure/Business/Bespoke categories.
+
+Consequences: the three service panels and horizontal nine-card sequence become a
+stateful editorial selector and an accessible nine-link directory. Türkiye gets an
+entrance and dominant selected media; detail pages have distinct place chapters.
+One desktop opening pin remains; other chapters use native scroll with bounded
+reveals/parallax. Existing reduced-motion, input, noindex, geography and inquiry
+boundaries remain. The old vertical fallback decision applies to enhancement
+eligibility, not preservation of the superseded composition.
+
+Evidence: [full user specification](tasks/TL-002-reconstruction-instructions.md),
+[task](tasks/TL-002-bronze-reconstruction.md). TL-001 is a historical engineering
+baseline; it does not establish aesthetic approval of this reconstruction.

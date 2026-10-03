@@ -27,8 +27,8 @@ Planner ordering has labeled button alternatives.
 
 Review navigation, atlas, split layouts, image proportions, typography, sticky elements
 and 3D independently. Current V3 uses native scrolling/static bronze below 1024px;
-768–1023px has editorial panels/two-column services; phones use vertical chapters and a
-single-column planner. At ≥1024px eligible desktop enhancement can apply; ≥1280px has
+768–1023px has a split service selector and explorer; phones use vertical chapters,
+a twelve-place index in two columns, and a single-column planner. At ≥1024px eligible desktop enhancement can apply; ≥1280px has
 fuller depth and optional contextual caption. Pinning/Lenis additionally require
 height >=800px, fine input and no data-saver/reduced-motion preference; coarse input
 keeps the static ribbon and vertical chapters. These describe current composition rather

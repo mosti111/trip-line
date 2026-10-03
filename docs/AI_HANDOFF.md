@@ -5,7 +5,17 @@ current implementation handoff for a fresh session. It supersedes
 outdated status/next-task instructions in older design/demo notes. It does not authorize
 new work by itself; follow the user's current task.
 
-## Current outcome
+## Current task — TL-002 reconstruction
+
+The user supplied a new full reconstruction specification on 3 October 2026.
+[TL-002](tasks/TL-002-bronze-reconstruction.md) is in progress on the same branch.
+The prior TL-001 delivery below is historical evidence, not completion of TL-002.
+The frozen V2 revision cc374eb was captured before design changes in
+ignored tmp/v3-reconstruction/before. Hero/departure, service selector, Türkiye
+entrance/explorer, destination chapters, editorial story, planner and arrival have
+been reconstructed; production QA and visual review are in progress.
+
+## Prior delivery outcome
 
 The existing V3 Bronze Journey continuation is complete in `frontend-v2/` on
 `feat/v3-bronze-journey`. See [V3 delivery](V3_FRONTEND_DELIVERY.md),

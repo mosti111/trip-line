@@ -17,7 +17,7 @@ explicit browser/test limitations. V1 `frontend/` is preserved.
 | `components/travel/Pages.tsx` | Server page composition; homepage delegates to HomeJourney |
 | `components/travel/SiteShell.tsx` | Client shell/context, menu, preferences and navigation; inspect actual client boundaries before extending |
 | `components/travel/` | Client interaction islands for atlas, selectors, inquiry, film and ribbon; shared editorial sections |
-| `components/home-v3/`, `components/experience/` | Homepage/journey builder, desktop scroll choreography, destination portals and lazy client 3D |
+| `components/home-v3/`, `components/experience/` | Reconstructed homepage, interactive worlds/planner, place-detail chapters, scroll choreography, portals and lazy client 3D |
 | `styles/travel.css`, `experience.css` | Active brand tokens, responsive/RTL and V3 composition; older journal CSS is historical |
 | `public/media/`, `sources.json` | Self-hosted photos/film, provenance and source notes |
 | `scripts/verify-public.mjs`, `verify-v3.mjs`, `verify-v3-resilience.mjs` | Production browser checks; generated evidence under ignored root `tmp/frontend-qa/` |
