@@ -52,6 +52,10 @@ Evidence: [approval record](APPROVED_DESIGN_DIRECTION.md), [preview index](PUBLI
 
 Date: 2026-10-02. Status: Accepted direction; implementation QA in progress.
 
+Update 2026-10-03: TL-001 completed the engineering continuation/QA baseline;
+see [V3 delivery](V3_FRONTEND_DELIVERY.md). The original status above records the
+2 October decision state, not the current task backlog.
+
 Decision: V3 continues in frontend-v2, preserving bronze route, film, atlas, content and
 accessible static/reduced-motion fallbacks. Reason: newer authorized written storyboard
 builds on V2. Consequences: V2 is historical verified evidence; do not call V3 fully verified.
@@ -92,9 +96,32 @@ Consequences: lean files, conditional reads, dated evidence and labeled history;
 ordinary features do not need extra plans.
 Evidence: [system task](tasks/TL-SYS-001-agent-operating-system.md).
 
+## TL-DEC-009 — V3 resilient rendering and enhancement eligibility
+
+Date: 2026-10-03. Status: Implemented within the authorized TL-001 continuation.
+
+Decision: retain the existing vertical composition on coarse pointers, data saver
+and viewports shorter than 800px; desktop pinning/Lenis require width >=1024px,
+height >=800px and fine input. The homepage sculpture initializes on intersection
+for fine input at >=1024px; touch retains SVG. Shared Ribbon is static SVG.
+Reason: production QA found an offscreen Arabic services track and a pinned section
+taller than a 600px viewport. The track now keeps a physical left origin with RTL
+text, preserving geographic orientation and semantic service order.
+
+The generic loading boundary now belongs to the historical `(public)` route group,
+not the root: the root boundary left localized main content hidden without JS.
+Localized pages render their local content directly while client enhancements stay
+lazy. This changes loading scope, not the product or dependency architecture.
+
+Evidence: [continuation task](tasks/TL-001-bronze-journey-continuation.md),
+[report](reports/TL-001-report.md), bundled Next loading-file convention and fresh
+Chromium checks. Existing motion/accessibility rules authorize these refinements;
+this entry does not claim new user visual approval or publication authorization.
+
 ## Questions still open
 
 Legal wording, current business/partner claims, media sign-off, canonical domain/deployment
-configuration and V3 visual/QA sign-off remain open. V3 notes say two concept images were
+configuration and user aesthetic acceptance remain open. V3 engineering QA now has
+the dated TL-001 baseline and explicit limitations. V3 notes say two concept images were
 not attached; the written storyboard is the available authority. Do not claim comparison
 against missing images or silently invent answers.

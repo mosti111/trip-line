@@ -1,13 +1,28 @@
 # AI handoff — start here
 
-Updated 3 October 2026, Europe/Istanbul (documentation operating system; V3 QA status
-preserved). This is the current implementation handoff for a fresh session. It supersedes
+Updated 3 October 2026, Europe/Istanbul (TL-001 Bronze Journey delivery). This is the
+current implementation handoff for a fresh session. It supersedes
 outdated status/next-task instructions in older design/demo notes. It does not authorize
 new work by itself; follow the user's current task.
 
 ## Current outcome
 
-V3 work is now authorized by the full “The Bronze Journey” handoff on 2 October 2026. Work continues in `frontend-v2/` on `feat/v3-bronze-journey`; see `V3_BRONZE_JOURNEY.md`. V2 below is the protected historical baseline. V3 implementation and verification status is tracked in `FRONTEND_IMPLEMENTATION_PLAN.md`; no deployment is authorized.
+The existing V3 Bronze Journey continuation is complete in `frontend-v2/` on
+`feat/v3-bronze-journey`. See [V3 delivery](V3_FRONTEND_DELIVERY.md),
+[TL-001 report](reports/TL-001-report.md) and [dated evidence](qa/2026-10-03-v3/README.md).
+Typecheck/lint/build and three production Chromium scripts passed: 120 localized
+routes, 60 V3 page/viewport cases, keyboard/RTL/touch/fallback/render-lifecycle checks.
+`pnpm test` finds no Vitest files and exits 1; this is an explicit gap. Physical
+devices, Safari/Firefox and field performance were not verified. No deployment
+occurred; user aesthetic acceptance and publication approvals remain separate.
+V2 below is the protected historical baseline, not the source of V3 verification.
+
+TL-001 preserved both paused QA scripts and fixed no-JS hidden content, Arabic
+service-track positioning, planner focus, short-height/coarse-input behavior,
+departure readability and lost metallic reflections after actual WebGL restoration.
+Pinning/Lenis require fine input, >=1024px width, >=800px height and no reduced-motion
+or data-saver preference. Shared Ribbon is static SVG; homepage BronzeJourney owns
+the lazy demand-rendered sculpture. Generic loading UI is scoped to `(public)`.
 
 ### Protected V2 baseline
 
@@ -53,12 +68,12 @@ supporting source map; V2 delivery/QA is historical evidence, not V3 sign-off.
 | `components/travel/Sections.tsx` | Shared hero, services, figures, international atlas, story, partners and planner |
 | `components/travel/TurkeyDiscovery.tsx` | Türkiye map/list/preview synchronization, mode switch and regional filters |
 | `components/travel/Inquiry.tsx` | Validation and honest prepared WhatsApp/email handoff |
-| `components/travel/Ribbon.tsx` | Lazy real Three.js bronze sculpture driven by scrolling; SVG fallback |
+| `components/travel/Ribbon.tsx` | Static shared SVG route; homepage sculpture lives in experience/BronzeJourney |
 | `components/travel/HeroVideo.tsx` | Local film, pause/play, visibility and motion/data-saver behavior |
 | `styles/travel.css` | Responsive visual system and RTL/reduced-motion behavior |
 | `lib/map-paths.json`, `lib/turkey-map.json` | Natural Earth geographic vector boundaries, never mirrored in RTL |
 | `public/media/`, `public/media/sources.json` | Self-hosted media and third-party source/license records |
-| `scripts/verify-public.mjs` | Repeatable production route/browser checks |
+| `scripts/verify-public.mjs`, `verify-v3.mjs`, `verify-v3-resilience.mjs` | Repeatable production route, V3 matrix and failure/render-lifecycle checks |
 
 Older journal components and original public route files remain as historical code. The proxy sends ordinary public entry URLs into the localized implementation. Do not accidentally revive the former journal as the active UI.
 
@@ -81,7 +96,7 @@ No external inquiry was sent. Safari/Firefox, physical devices and field Core We
 
 ## Next work depends on the user
 
-- For visual feedback: edit V2, preserve agreed brand/atlas/motion direction, and check relevant locales and mobile layouts.
+- For visual feedback: continue the delivered V3 in frontend-v2, preserve agreed brand/atlas/motion direction, and check relevant locales and mobile layouts.
 - For launch: obtain final legal copy and factual/media sign-off; configure canonical domain, indexing and the correct deployment project. Deployment requires user authorization.
 - For backend/CMS: inspect existing backend and master specification first. Do not claim the frontend handoff constitutes a working database, booking system or authenticated CMS.
 

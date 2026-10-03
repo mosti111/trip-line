@@ -53,7 +53,8 @@ to an unresolved product question or turn implemented code into approval.
 ## Repository boundaries
 
 - `frontend-v2/`: active public frontend, including V3 Bronze Journey work.
-  V2 delivery is a verified historical baseline; V3 QA remains in progress.
+  V2 delivery is a verified historical baseline; V3 has a dated TL-001 delivery
+  baseline in `docs/V3_FRONTEND_DELIVERY.md`, including verification limitations.
 - `frontend/`: preserved historical V1 demo. Do not overwrite it during V2 work.
 - `backend/`: existing incomplete platform source; not production-complete.
 - `docs/references/`: approved assets and labeled historical studies.

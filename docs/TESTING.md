@@ -2,7 +2,7 @@
 
 Status: current frontend verification procedure plus unfinished production acceptance plan.
 V2 evidence is in [delivery](FRONTEND_DELIVERY.md) and [dated QA](qa/2026-10-02/README.md);
-V3 QA remains in progress per [phase plan](FRONTEND_IMPLEMENTATION_PLAN.md).
+V3's TL-001 results and limitations are in [V3 delivery](V3_FRONTEND_DELIVERY.md).
 Backend compilation is not PostgreSQL integration or production acceptance.
 
 ## Current public frontend procedure
@@ -15,7 +15,9 @@ link/consistency/diff review suffice; test/build if application/config changes.
 For public changes start a production preview (e.g. `pnpm start --port 3003`),
 then `node scripts/verify-public.mjs`. Set QA_URL for another origin.
 For V3 flows also run `node scripts/verify-v3.mjs`; it adds planner ordering/context,
-navigation, fallback and responsive checks. Install Chromium if needed:
+navigation, fallback and responsive checks. Run `node scripts/verify-v3-resilience.mjs`
+for real WebGL loss/restoration, initialization failure, invalid video, render-idle
+sampling and live preference/route cleanup. Install Chromium if needed:
 `pnpm exec playwright install chromium`.
 In PowerShell: `$env:QA_URL='http://localhost:3013'`, then run the scripts.
 Next standalone packaging needs public and .next/static beside its generated server;

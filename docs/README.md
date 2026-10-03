@@ -12,7 +12,7 @@
 - [Design system](DESIGN_SYSTEM.md): active tokens, typography, composition and historical rationale.
 - [Motion system](MOTION_SYSTEM.md): four layers, performance, input and accessibility rules.
 - [Responsive rules](RESPONSIVE_RULES.md): phone/tablet/desktop composition and RTL.
-- [Bronze Journey](V3_BRONZE_JOURNEY.md): current V3 storyboard/implementation boundaries; QA in progress.
+- [Bronze Journey](V3_BRONZE_JOURNEY.md): current V3 storyboard/implementation boundaries.
 
 - [Approved direction](APPROVED_DESIGN_DIRECTION.md) and [page preview index](PUBLIC_PAGE_PREVIEW_INDEX.md).
 - [Public page sheets](references/public-page-previews/) and [approved references](references/approved/).
@@ -41,8 +41,9 @@
 - [Phase plan](FRONTEND_IMPLEMENTATION_PLAN.md): V3 QA status and historical six-phase V2 completion.
 - [V2 delivery](FRONTEND_DELIVERY.md) and [QA baseline](qa/2026-10-02/README.md):
   verified historical revision, not automatic V3 sign-off.
-- Current generated browser evidence lives under ignored root tmp/frontend-qa/.
-  A final V3 delivery report is not yet present; do not infer completion from planned filenames.
+- [V3 delivery](V3_FRONTEND_DELIVERY.md), [TL-001 report](reports/TL-001-report.md) and
+  [dated V3 evidence](qa/2026-10-03-v3/README.md): current engineering baseline and limitations.
+- Regenerable browser evidence remains under ignored root tmp/frontend-qa/.
 
 ## Historical research and exploration
 

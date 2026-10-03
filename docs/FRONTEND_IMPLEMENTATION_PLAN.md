@@ -35,9 +35,9 @@ and [report](reports/TL-SYS-001-report.md). This does not complete V3 QA or auth
 ### V3 — The Bronze Journey (authorized 2 October 2026)
 
 - Baseline: complete; frozen install/type/lint/build and repeated production browser verification passed. Feature branch `feat/v3-bronze-journey` protects the baseline.
-- Motion foundation, hero/departure study, service worlds, proof, atlas, destination portals, film/services route and journey builder: implemented; production verification in progress.
-- Shared destination/service/company compositions, responsive/RTL layouts and menu: implemented; visual refinement and verification in progress.
-- Full QA and delivery: in progress. See `V3_BRONZE_JOURNEY.md` for architecture; final evidence and limitations will be recorded separately from historical V2 delivery.
+- Motion foundation, hero/departure, service worlds, proof, atlas, destination portals, film/services route and journey builder: complete within the authorized V3 scope.
+- Shared compositions, responsive/RTL layouts, menu and fallback stabilization: complete under TL-001 (3 October 2026).
+- Engineering QA/delivery baseline: complete. Typecheck/lint/build and production Chromium public, V3 and resilience scripts passed. `pnpm test` finds no tests (exit 1), not a passing suite. No physical-device/Safari/Firefox/field-performance certification or client aesthetic approval is implied. See [V3 delivery](V3_FRONTEND_DELIVERY.md), [task](tasks/TL-001-bronze-journey-continuation.md), [report](reports/TL-001-report.md) and [evidence](qa/2026-10-03-v3/README.md). No deployment occurred.
 
 ### Historical V2 completion
 

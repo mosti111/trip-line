@@ -20,6 +20,8 @@ animating every element independently. Content is readable in DOM order before e
 and remains coherent without pinning or horizontal timelines.
 
 Current V3 uses homepage-scoped GSAP/ScrollTrigger and one eligible desktop Lenis instance.
+Eligibility requires width >=1024px, height >=800px, fine input and no reduced-motion
+or data-saver preference; other modes keep the native vertical composition.
 Native touch, keyboard, anchors and nested inputs remain authoritative; opening the modal
 pauses smooth scrolling. Clean up media-query contexts, observers, listeners and ticker
 callbacks on route/preference changes and unmount. See [V3 architecture](V3_BRONZE_JOURNEY.md);
@@ -49,9 +51,10 @@ services, geography and inquiry; preserve it as identity.
 - Keep content and navigation independent of WebGL.
 - Avoid huge environments, unnecessary textures, heavy post-processing and shadows.
 
-Current V3 BronzeJourney keeps SVG present and permits the scene at ≥1024px unless
-motion is reduced or data-saving is requested. Older Ribbon remains in shared travel
-compositions. Do not assume every route uses the homepage scene.
+Current V3 BronzeJourney keeps SVG present and initializes on intersection at ≥1024px
+with fine input unless motion is reduced or data-saving is requested. Restored
+WebGL contexts regenerate reflection textures. Shared Ribbon is static SVG.
+Do not assume every route uses the homepage scene.
 
 ## Motion accessibility
 

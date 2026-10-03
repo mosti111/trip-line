@@ -29,7 +29,9 @@ Review navigation, atlas, split layouts, image proportions, typography, sticky e
 and 3D independently. Current V3 uses native scrolling/static bronze below 1024px;
 768–1023px has editorial panels/two-column services; phones use vertical chapters and a
 single-column planner. At ≥1024px eligible desktop enhancement can apply; ≥1280px has
-fuller depth and optional contextual caption. These describe current composition rather
+fuller depth and optional contextual caption. Pinning/Lenis additionally require
+height >=800px, fine input and no data-saver/reduced-motion preference; coarse input
+keeps the static ribbon and vertical chapters. These describe current composition rather
 than universal breakpoints. Review 1024px separately from 768px and 1440px.
 
 ## RTL/localization

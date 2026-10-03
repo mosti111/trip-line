@@ -6,7 +6,8 @@ Read [handoff](AI_HANDOFF.md) for status and [decisions](DECISIONS.md) for autho
 ## Current architecture
 
 `frontend-v2/` is the active Next App Router frontend. V2 has dated delivery evidence;
-V3 Bronze Journey is implemented with QA in progress. V1 `frontend/` is preserved.
+V3 Bronze Journey has a [TL-001 delivery baseline](V3_FRONTEND_DELIVERY.md), with
+explicit browser/test limitations. V1 `frontend/` is preserved.
 
 | Boundary | Actual responsibility |
 | --- | --- |
@@ -19,12 +20,14 @@ V3 Bronze Journey is implemented with QA in progress. V1 `frontend/` is preserve
 | `components/home-v3/`, `components/experience/` | Homepage/journey builder, desktop scroll choreography, destination portals and lazy client 3D |
 | `styles/travel.css`, `experience.css` | Active brand tokens, responsive/RTL and V3 composition; older journal CSS is historical |
 | `public/media/`, `sources.json` | Self-hosted photos/film, provenance and source notes |
-| `scripts/verify-public.mjs`, `verify-v3.mjs` | Production browser checks; generated evidence under ignored root `tmp/frontend-qa/` |
+| `scripts/verify-public.mjs`, `verify-v3.mjs`, `verify-v3-resilience.mjs` | Production browser checks; generated evidence under ignored root `tmp/frontend-qa/` |
 
 Server Components dispatch and compose content; client islands own state and enhancement.
 Do not assume the desired future server/client split is already implemented everywhere.
 Public localized content uses local modules without backend requests. Older journal/API
 helpers and preview routes survive; they do not prove a working authenticated CMS.
+The loading boundary is scoped to historical `(public)` routes; localized main content
+renders directly without depending on client JS to reveal a streamed hidden segment.
 Locale routes are explicit /en, /ar, /tr, with English fallback, remembered selection
 and RTL Arabic; geography keeps its orientation. See [responsive rules](RESPONSIVE_RULES.md).
 

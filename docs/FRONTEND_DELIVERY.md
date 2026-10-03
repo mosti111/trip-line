@@ -1,7 +1,7 @@
 # Trip Line frontend delivery — 2 October 2026
 
 Historical verified V2 baseline. Current V3 source is in the same frontend-v2 workspace,
-with QA in progress; see [current handoff](AI_HANDOFF.md) and
+with a separate [V3 delivery baseline](V3_FRONTEND_DELIVERY.md); see [current handoff](AI_HANDOFF.md) and
 [phase status](FRONTEND_IMPLEMENTATION_PLAN.md). Results below apply to the V2 revision
 checked that day, not automatically to Bronze Journey. No deployment is established.
 

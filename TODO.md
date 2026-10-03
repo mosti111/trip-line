@@ -3,7 +3,8 @@
 ## Current public frontend
 
 Updated 3 October 2026. V2's six public phases are complete with dated evidence.
-V3 Bronze Journey is implemented in frontend-v2; refinement/QA remains in progress.
+V3 Bronze Journey continuation is complete in frontend-v2 with the dated
+[TL-001 delivery baseline](docs/V3_FRONTEND_DELIVERY.md) and explicit test/browser limitations.
 See [phase status](docs/FRONTEND_IMPLEMENTATION_PLAN.md) and [handoff](docs/AI_HANDOFF.md).
 The repository operating system is recorded in [TL-SYS-001](docs/reports/TL-SYS-001-report.md).
 Older unchecked public-page items below do not mean the active pages are unimplemented.

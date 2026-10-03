@@ -7,7 +7,8 @@ the authorized [V3 Bronze Journey](V3_BRONZE_JOURNEY.md) continue that identity.
 Read [decisions](DECISIONS.md), [design system](DESIGN_SYSTEM.md),
 [motion](MOTION_SYSTEM.md) and [responsive rules](RESPONSIVE_RULES.md) for active rules.
 The ten-country atlas remains secondary to twelve Turkish destinations.
-V2 implementation/localization was delivered; V3 refinement/QA remains in progress.
+V2 implementation/localization was delivered; V3 has a [TL-001 engineering delivery
+baseline](V3_FRONTEND_DELIVERY.md). This is not new client aesthetic approval.
 Historical remaining-work text below records the state at selection, not today's backlog.
 
 ## Initial page-design approval — 2 October 2026
