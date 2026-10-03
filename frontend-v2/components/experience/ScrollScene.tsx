@@ -7,20 +7,23 @@ import { ContextCursor } from './ContextCursor';
 export function ScrollScene({ children }: {children:React.ReactNode}) {
   const host=useRef<HTMLDivElement>(null);const {calm}=useTravel();
   useEffect(()=>{
-    if(calm)return;
+    if(calm||(navigator as Navigator & {connection?:{saveData?:boolean}}).connection?.saveData)return;
     let cancelled=false,dispose=()=>{};
     void Promise.all([import('gsap'),import('gsap/ScrollTrigger')]).then(([{gsap},{ScrollTrigger}])=>{
       if(cancelled||!host.current)return;
       gsap.registerPlugin(ScrollTrigger);
       const root=host.current; const mm=gsap.matchMedia();
       const context=gsap.context(()=>{
-        mm.add('(min-width: 1024px) and (prefers-reduced-motion: no-preference)',()=>{
+        mm.add('(min-width: 1024px) and (min-height: 800px) and (pointer: fine) and (prefers-reduced-motion: no-preference)',()=>{
+          const cleanups:(()=>void)[]=[];
           const opening=root.querySelector('.opening');const hero=root.querySelector('.home-hero');
           if(opening&&hero){
             const timeline=gsap.timeline({scrollTrigger:{trigger:opening,start:'top top',end:()=>`+=${innerHeight*1.3}`,pin:true,scrub:.7,anticipatePin:1,onUpdate:self=>window.dispatchEvent(new CustomEvent('bronze-progress',{detail:self.progress}))}});
-            timeline.to(hero.querySelector('.hero-content'),{yPercent:-18,opacity:.2,scale:.94,ease:'none'},0)
-              .to(hero.querySelectorAll(':scope > .photo,:scope > .hero-video'),{scale:.83,yPercent:-5,opacity:.55,ease:'none'},0)
-              .fromTo(root.querySelector('.departure-copy'),{opacity:0,y:45},{opacity:1,y:0,ease:'none'},.3);
+            timeline.to(hero.querySelector('.hero-content'),{yPercent:-18,opacity:0,scale:.94,duration:.35,ease:'none'},0)
+              .to(hero.querySelectorAll(':scope > .photo,:scope > .hero-video'),{scale:.83,yPercent:-5,opacity:.55,duration:1,ease:'none'},0)
+              .fromTo(root.querySelector('.departure-copy'),{opacity:0,y:45},{opacity:1,y:0,duration:.25,ease:'none'},.35);
+            const focus=()=>{if(timeline.scrollTrigger)window.scrollTo({top:timeline.scrollTrigger.start,behavior:'instant'});};
+            hero.addEventListener('focusin',focus);cleanups.push(()=>hero.removeEventListener('focusin',focus));
           }
           root.querySelectorAll('.world-plane').forEach((plane,i)=>{if(i!==1)gsap.from(plane,{y:65,rotationY:i===0?4:-4,scrollTrigger:{trigger:plane,start:'top 95%',end:'top 40%',scrub:.8}});});
           const atlas=root.querySelector('.turkey-atlas');
@@ -34,8 +37,9 @@ export function ScrollScene({ children }: {children:React.ReactNode}) {
             // Keyboard focus scrolls the vertical timeline to the focused link's position.
             const focus=(event:FocusEvent)=>{const item=(event.target as HTMLElement).closest<HTMLElement>('.service-milestone');const st=tween.scrollTrigger;if(item&&st){const progress=Math.min(1,Math.max(0,(item.offsetLeft-70)/Math.max(1,distance())));window.scrollTo({top:st.start+(st.end-st.start)*progress,behavior:'instant'});}};
             track.addEventListener('focusin',focus);
-            return()=>{services.classList.remove('horizontal-enhanced');track.removeEventListener('focusin',focus);};
+            cleanups.push(()=>{services.classList.remove('horizontal-enhanced');track.removeEventListener('focusin',focus);});
           }
+          return()=>cleanups.forEach(cleanup=>cleanup());
         });
       },root);
       const refresh=()=>ScrollTrigger.refresh();

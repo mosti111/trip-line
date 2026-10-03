@@ -25,16 +25,20 @@ function Sculpture() {
     for(const [x,y,z,w,h,power] of [[-4,4,7,14,4,4],[5,1,4,3,9,2],[0,-4,4,12,2,1.5]]) {
       const card=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshBasicMaterial({color:new T.Color(power,power*.84,power*.66),side:T.DoubleSide}));card.position.set(x,y,z);card.lookAt(0,0,0);room.add(card);cards.push(card);
     }
-    const generator=new T.PMREMGenerator(gl);const env=generator.fromScene(room,.03);
+    const generator=new T.PMREMGenerator(gl);let env=generator.fromScene(room,.03);
     const material=mesh.current?.material as T.MeshStandardMaterial;
     material.envMap=env.texture;material.needsUpdate=true;
     const host=gl.domElement.closest('.bronze-journey');
     let visible=true;
     const refresh=()=>{if(visible&&!document.hidden&&!state.current.lost)invalidate();};
     const progress=(event:Event)=>{state.current.progress=(event as CustomEvent<number>).detail;refresh();};
-    const pointer=(event:PointerEvent)=>{state.current.x=(event.clientX/innerWidth-.5)*.035;state.current.y=(event.clientY/innerHeight-.5)*.025;refresh();};
+    const pointer=(event:PointerEvent)=>{if(event.pointerType!=='mouse'||!matchMedia('(pointer: fine)').matches)return;state.current.x=(event.clientX/innerWidth-.5)*.035;state.current.y=(event.clientY/innerHeight-.5)*.025;refresh();};
     const lost=(event:Event)=>{event.preventDefault();state.current.lost=true;host?.classList.remove('ribbon-ready');};
-    const restored=()=>{state.current.lost=false;refresh();};
+    const restored=()=>{
+      // Render-target pixels are lost with the context; rebuild the reflection cards.
+      const previous=env;env=generator.fromScene(room,.03);material.envMap=env.texture;material.needsUpdate=true;previous.dispose();
+      state.current.lost=false;refresh();
+    };
     const observer=new IntersectionObserver(entries=>{visible=entries[0]?.isIntersecting??false;refresh();}); if(host)observer.observe(host);
     window.addEventListener('bronze-progress',progress);window.addEventListener('pointermove',pointer,{passive:true});document.addEventListener('visibilitychange',refresh);gl.domElement.addEventListener('webglcontextlost',lost);gl.domElement.addEventListener('webglcontextrestored',restored);
     invalidate();

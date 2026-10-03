@@ -9,7 +9,7 @@ export function ContextCursor() {
     const el=ref.current;if(!el||calm)return;
     const move=(event:PointerEvent)=>{
       const target=(event.target as HTMLElement).closest<HTMLElement>('[data-cursor-label]');
-      const enabled=matchMedia('(min-width:1280px) and (pointer:fine)').matches;
+      const enabled=event.pointerType==='mouse'&&matchMedia('(min-width:1280px) and (pointer:fine)').matches;
       el.hidden=!target||!enabled;
       if(target&&enabled){el.textContent=target.dataset.cursorLabel||'';el.style.transform=`translate(${event.clientX+18}px,${event.clientY+18}px)`;}
     };

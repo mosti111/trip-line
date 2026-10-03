@@ -9,8 +9,8 @@ export function ExperienceProvider() {
   const { calm } = useTravel();
   const pathname = usePathname();
   useEffect(() => {
-    if (calm || !/^\/(en|ar|tr)\/?$/.test(pathname)) return;
-    const media = matchMedia('(min-width: 1024px) and (pointer: fine)');
+    if (calm || !/^\/(en|ar|tr)\/?$/.test(pathname) || (navigator as Navigator & {connection?:{saveData?:boolean}}).connection?.saveData) return;
+    const media = matchMedia('(min-width: 1024px) and (min-height: 800px) and (pointer: fine)');
     let dispose = () => {};
     let cancelled = false;
     async function setup() {

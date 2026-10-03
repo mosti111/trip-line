@@ -64,3 +64,11 @@ html:has(.reduce-motion)::view-transition-group(*),html:has(.reduce-motion)::vie
 .reduce-motion .departure-copy{display:none}
 .turkey-atlas .atlas-preview>.photo{animation:atlas-arrival .5s cubic-bezier(.22,1,.36,1)}
 @keyframes atlas-arrival{from{clip-path:inset(0 10% 0 0);opacity:.5}to{clip-path:inset(0);opacity:1}}
+/* A wide track starts at the same physical origin in both reading directions. */
+.horizontal-enhanced{direction:ltr}
+html[dir=rtl] .horizontal-enhanced>.wrap{direction:rtl}
+html[dir=rtl] .opening .hero-content{transform-origin:top right}
+.departure-copy{top:34%;bottom:auto;max-width:560px}
+.builder-route li button{min-width:44px}
+.nav-dialog{padding-bottom:calc(40px + env(safe-area-inset-bottom));padding-top:max(32px,env(safe-area-inset-top))}
+@media(max-width:767px){.nav-dialog{padding-top:max(20px,env(safe-area-inset-top))}}
