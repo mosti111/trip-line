@@ -26,6 +26,7 @@ try{
   await expect(page.locator('.explorer-image[data-active=true] img')).toHaveAttribute('alt',locale==='ar'?'كابادوكيا':locale==='tr'?'Kapadokya':'Cappadocia');
   const builder=page.locator('.journey-builder');await builder.locator('input[value=istanbul]').check();await builder.locator('input[value=antalya]').check();
   await expect(builder.locator('input[name=journey]')).toHaveValue('istanbul,antalya');await expect(builder.locator('.builder-preview>span')).toHaveText('02');
+  if([390,1440].includes(width)){await align(page,'.builder-route');await page.screenshot({path:path.join(out,`${locale}-${width}-planner-selected.png`)});}
   await page.locator('.menu-button').click();await expect(page.locator('.nav-dialog')).toBeVisible();
   await page.locator('.dialog-footer>a').last().focus();await page.keyboard.press('Tab');
   if(!await page.evaluate(()=>!!document.activeElement?.closest('dialog')))report.errors.push(`${locale}/${width}: Tab escaped the modal`);
