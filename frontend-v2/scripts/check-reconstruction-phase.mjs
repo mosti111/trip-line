@@ -12,6 +12,8 @@ for(const width of [1440,390]){
  await page.goto(base+(process.env.QA_PATH||'/en'),{waitUntil:'networkidle',timeout:180000});
  await page.locator(selector).first().evaluate(el=>el.scrollIntoView({behavior:'instant',block:'start'}));
  await page.waitForTimeout(1200);
+ await page.locator(selector).first().evaluate(el=>window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY,behavior:'instant'}));
+ await page.waitForTimeout(1200);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  expect(errors).toEqual([]);
  await page.screenshot({path:path.join(out,`${phase}-${width}.png`)});

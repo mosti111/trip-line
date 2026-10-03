@@ -16,6 +16,8 @@ for(const width of [1440,390]) {
   if(!await target.count())throw new Error(`Missing ${selector}`);
   await target.evaluate(el=>el.scrollIntoView({block:'start',behavior:'instant'}));
   await page.waitForTimeout(1400);
+  await target.evaluate(el=>window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY,behavior:'instant'}));
+  await page.waitForTimeout(1400);
   const file=`${width}-${chapter}.png`;
   await page.screenshot({path:path.join(out,file)});report.captures.push(file);
  }
