@@ -19,9 +19,11 @@ export function ScrollScene({ children }: {children:React.ReactNode}) {
           const opening=root.querySelector('.opening');const hero=root.querySelector('.home-hero');
           if(opening&&hero){
             const timeline=gsap.timeline({scrollTrigger:{trigger:opening,start:'top top',end:()=>`+=${innerHeight*1.3}`,pin:true,scrub:.7,anticipatePin:1,onUpdate:self=>window.dispatchEvent(new CustomEvent('bronze-progress',{detail:self.progress}))}});
-            timeline.to(hero.querySelector('.hero-content'),{yPercent:-18,opacity:0,scale:.94,duration:.35,ease:'none'},0)
-              .to(hero.querySelectorAll(':scope > .photo,:scope > .hero-video'),{scale:.83,yPercent:-5,opacity:.55,duration:1,ease:'none'},0)
-              .fromTo(root.querySelector('.departure-copy'),{opacity:0,y:45},{opacity:1,y:0,duration:.25,ease:'none'},.35);
+            timeline.to(hero.querySelector('.hero-content'),{yPercent:-10,scale:.96,duration:.35,ease:'none'},.2)
+              .to(hero.querySelector('.hero-content'),{opacity:0,duration:.22,ease:'none'},.42)
+              .to(hero.querySelectorAll(':scope > .photo,:scope > .hero-video'),{scale:1.06,clipPath:'inset(12% 0% 12% 48%)',opacity:.35,duration:.7,ease:'none'},.2)
+              .to(hero.querySelector('.bronze-journey'),{yPercent:35,scale:1.16,duration:.8,ease:'none'},.2)
+              .fromTo(root.querySelector('.departure-copy'),{opacity:0,y:45},{opacity:1,y:0,duration:.35,ease:'none'},.6);
             const focus=()=>{if(timeline.scrollTrigger)window.scrollTo({top:timeline.scrollTrigger.start,behavior:'instant'});};
             hero.addEventListener('focusin',focus);cleanups.push(()=>hero.removeEventListener('focusin',focus));
           }
