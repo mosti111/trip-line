@@ -36,7 +36,7 @@ export function JourneyBuilder({ locale, initial = [] }: { locale: Locale; initi
     <form action={href(locale, 'contact')} method="get" className="builder-layout">
       <div className="builder-inputs">
       <fieldset className="builder-places"><legend>{ui.destination[locale]}</legend>{turkishPlaces.map(place =>
-        <label key={place.slug}><input type="checkbox" value={place.slug} checked={selected.includes(place.slug)} onChange={e => setSelected(current => e.target.checked ? [...current, place.slug] : current.filter(id => id !== place.slug))} />
+        <label key={place.slug}><input type="checkbox" value={place.slug} checked={selected.includes(place.slug)} onChange={e => { const checked = e.currentTarget.checked; setSelected(current => checked ? [...current, place.slug] : current.filter(id => id !== place.slug)); }} />
           <span>{place.name[locale]}</span><span aria-hidden="true">{selected.includes(place.slug) ? '−' : '+'}</span></label>)}</fieldset>        <div className="builder-fields"><label>{ui.service[locale]}<select name="service" value={service} onChange={e=>setService(e.target.value)}>{services.map(s=><option key={s.slug} value={s.slug}>{s.title[locale]}</option>)}</select></label>
           <label>{ui.dates[locale]} ({ui.optional[locale]})<input name="dates" maxLength={150} value={dates} onChange={e=>setDates(e.target.value)}/></label>
           <label>{ui.travelers[locale]} ({ui.optional[locale]})<input name="travelers" type="number" min="1" max="999" value={travelers} onChange={e=>setTravelers(e.target.value)}/></label></div>
