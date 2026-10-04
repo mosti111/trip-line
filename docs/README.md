@@ -41,9 +41,11 @@
 - [Phase plan](FRONTEND_IMPLEMENTATION_PLAN.md): V3 QA status and historical six-phase V2 completion.
 - [V2 delivery](FRONTEND_DELIVERY.md) and [QA baseline](qa/2026-10-02/README.md):
   verified historical revision, not automatic V3 sign-off.
+- [TL-002 reconstruction](reports/TL-002-report.md) and
+  [reconstruction evidence](qa/2026-10-03-reconstruction/README.md): current composition and verification.
 - [V3 delivery](V3_FRONTEND_DELIVERY.md), [TL-001 report](reports/TL-001-report.md) and
-  [dated V3 evidence](qa/2026-10-03-v3/README.md): current engineering baseline and limitations.
-- Regenerable browser evidence remains under ignored root tmp/frontend-qa/.
+  [earlier V3 evidence](qa/2026-10-03-v3/README.md): preserved prior engineering baseline.
+- Regenerable browser evidence remains under ignored root tmp/frontend-qa/ and tmp/v3-reconstruction/.
 
 ## Historical research and exploration
 

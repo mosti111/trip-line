@@ -2,12 +2,16 @@
 
 Authorized 2 October 2026: plan the work in phases and continue until the frontend is finished.
 
-## Current reconstruction — 3 October 2026
+## Current reconstruction — 4 October 2026
 
 [TL-002](tasks/TL-002-bronze-reconstruction.md) supersedes the earlier V3 composition
-for the current task. Phases A–G have phone/desktop captures; H–K are undergoing
-production, responsive/RTL and resilience verification. See the task's full source
-instructions for visual acceptance; build success alone is insufficient.
+for the current task. Phases A–J are implemented and reviewed at phone/desktop sizes.
+Phase K has matched final captures, public/responsive/RTL/media/resilience checks
+and a nine-case throttled planner regression. Work stopped at the user's request
+on 4 October. The final full V3 run is not passing; asset failures and a standalone
+unknown-route redirect loop remain documented and unresolved. Phase K is incomplete.
+See the [report](reports/TL-002-report.md) for chapter acceptance and exact evidence;
+build success alone is insufficient.
 
 ## Scope and authority
 
@@ -39,7 +43,7 @@ Documentation-only operating map, authority/decisions, product/design/motion/res
 rules and task/report workflow established. See [system task](tasks/TL-SYS-001-agent-operating-system.md)
 and [report](reports/TL-SYS-001-report.md). This does not complete V3 QA or authorize deployment.
 
-### V3 — The Bronze Journey (authorized 2 October 2026)
+### Historical TL-001 V3 baseline (authorized 2 October 2026)
 
 - Baseline: complete; frozen install/type/lint/build and repeated production browser verification passed. Feature branch `feat/v3-bronze-journey` protects the baseline.
 - Motion foundation, hero/departure, service worlds, proof, atlas, destination portals, film/services route and journey builder: complete within the authorized V3 scope.

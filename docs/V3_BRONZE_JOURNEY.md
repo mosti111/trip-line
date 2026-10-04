@@ -1,6 +1,6 @@
 # Trip Line V3 — The Bronze Journey
 
-2 October 2026; updated by TL-001 on 3 October. Active frontend: `frontend-v2/`.
+2 October 2026; updated by TL-002 on 3 October. Active frontend: `frontend-v2/`.
 Branch: `feat/v3-bronze-journey`. Current evidence: [V3 delivery](V3_FRONTEND_DELIVERY.md).
 
 ## Current reconstruction — TL-002, 3 October 2026
@@ -33,7 +33,7 @@ TL-001's visual composition. Implementation lives in the same active frontend.
 
 No dependency, backend, deployment or indexing boundary changed. The current
 palette is recorded in [TL-DEC-010](DECISIONS.md#tl-dec-010--full-bronze-journey-reconstruction).
-Current completion evidence belongs to TL-002, not the historical snapshot below.
+Current completion evidence belongs to [TL-002](reports/TL-002-report.md), not the historical snapshot below.
 
 ## Historical TL-001 implementation snapshot
 

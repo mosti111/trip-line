@@ -16,5 +16,6 @@ Record material decisions in [DECISIONS.md](../DECISIONS.md), and produce a matc
 [report](../reports/README.md). Update handoff/phase plan when status/scope changes.
 Follow-up suggestions do not authorize new work.
 
-Current task: [TL-001 — Bronze Journey continuation](TL-001-bronze-journey-continuation.md).
+Current task: [TL-002 — Bronze Journey reconstruction](TL-002-bronze-reconstruction.md).
+Prior frontend task: [TL-001 — Bronze Journey continuation](TL-001-bronze-journey-continuation.md).
 Prior system task: [TL-SYS-001](TL-SYS-001-agent-operating-system.md).

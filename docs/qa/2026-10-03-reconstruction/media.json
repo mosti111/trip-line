@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": [
+    "Decoded hero film is visibly opaque; staged opening captures retain arrival, framing change and readable departure",
+    "A delayed destination image retains previous media until loaded; only active and previous photos mount"
+  ],
+  "errors": []
+}

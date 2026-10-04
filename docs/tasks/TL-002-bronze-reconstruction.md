@@ -1,7 +1,11 @@
 # TL-002 — Bronze Journey reconstruction
 
-Status: In Progress, 3 October 2026. Authorized by the user's supplied
+Status: Review, 4 October 2026. Authorized by the user's supplied
 [full reconstruction instructions](TL-002-reconstruction-instructions.md).
+
+Stopped at the user's explicit request to document and commit work so far without
+continuing. Final V3 QA is not passing; this task is not Complete. See the report
+for outstanding asset/standalone redirect failures. Resumption needs user instruction.
 
 ## Outcome and boundaries
 
@@ -11,7 +15,7 @@ all twelve Turkish places, nine services, ten-country secondary directory, EN/TR
 real geography, approved fonts/content, prepared-message inquiry and noindex.
 No backend, deployment, publication, accounts or reservation changes.
 
-Current clean revision: 18e1fd3 on feat/v3-bronze-journey. V2 reference: cc374eb.
+Starting clean revision: 18e1fd3 on feat/v3-bronze-journey. V2 reference: cc374eb.
 TL-001 remains dated historical engineering evidence, not acceptance of this task.
 
 ## Sequence
@@ -44,3 +48,6 @@ normal/reduced motion, keyboard, touch, WebGL and static fallback. Inspect scree
 Keep temporary images in tmp/v3-reconstruction/{before,after}; preserve reproducible
 capture scripts and report chapter composition/interaction/narrative acceptance honestly.
 Record material decisions, update handoff/phase status and write TL-002 report.
+
+Implementation revision: `13b5afe`. See the [completion report](../reports/TL-002-report.md)
+for command results, chapter acceptance, before/after evidence and explicit limitations.

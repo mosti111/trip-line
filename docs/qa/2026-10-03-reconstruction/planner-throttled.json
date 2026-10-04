@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "cpuThrottle": 4,
+  "cases": [
+    {
+      "locale": "en",
+      "attempt": 1,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "en",
+      "attempt": 2,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "en",
+      "attempt": 3,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "ar",
+      "attempt": 1,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "ar",
+      "attempt": 2,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "ar",
+      "attempt": 3,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "tr",
+      "attempt": 1,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "tr",
+      "attempt": 2,
+      "selected": "antalya,istanbul"
+    },
+    {
+      "locale": "tr",
+      "attempt": 3,
+      "selected": "antalya,istanbul"
+    }
+  ],
+  "errors": []
+}

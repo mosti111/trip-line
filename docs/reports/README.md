@@ -13,4 +13,5 @@ Keep secrets/customer data out of reports. Material decisions belong in
 unstarted until authorized.
 
 First report: [TL-SYS-001](TL-SYS-001-report.md).
-Current frontend delivery: [TL-001 — Bronze Journey continuation](TL-001-report.md).
+Current frontend reconstruction: [TL-002](TL-002-report.md).
+Prior frontend delivery: [TL-001 — Bronze Journey continuation](TL-001-report.md).

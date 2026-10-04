@@ -1,6 +1,6 @@
 # AI handoff — start here
 
-Updated 3 October 2026, Europe/Istanbul (TL-001 Bronze Journey delivery). This is the
+Updated 4 October 2026, Europe/Istanbul (TL-002 reconstruction). This is the
 current implementation handoff for a fresh session. It supersedes
 outdated status/next-task instructions in older design/demo notes. It does not authorize
 new work by itself; follow the user's current task.
@@ -8,12 +8,23 @@ new work by itself; follow the user's current task.
 ## Current task — TL-002 reconstruction
 
 The user supplied a new full reconstruction specification on 3 October 2026.
-[TL-002](tasks/TL-002-bronze-reconstruction.md) is in progress on the same branch.
+[TL-002](tasks/TL-002-bronze-reconstruction.md) is stopped at the user's request on
+4 October 2026. Document and commit progress only; do not resume without instruction.
 The prior TL-001 delivery below is historical evidence, not completion of TL-002.
 The frozen V2 revision cc374eb was captured before design changes in
 ignored tmp/v3-reconstruction/before. Hero/departure, service selector, Türkiye
 entrance/explorer, destination chapters, editorial story, planner and arrival have
-been reconstructed; production QA and visual review are in progress.
+been reconstructed. Final application revision is `13b5afe`; the last fix removes
+a 40px mobile hydration shift that could move a planner checkbox during a click.
+Typecheck/lint, all three unit tests, production build and the nine-case 4× CPU
+planner regression pass. Public routes (120), resilience, media and the six-size
+EN/TR/AR reconstruction matrix passed at `b1a0bcc`. Matched after captures were
+refreshed at `13b5afe`. Final V3 is not passing: local attempts encountered asset
+errors, and the standalone loopback run hit an unknown-route redirect loop.
+Diagnosis and a clean full V3 pass remain outstanding; do not mark TL-002 complete.
+See [TL-002 report](reports/TL-002-report.md) and
+[reconstruction evidence](qa/2026-10-03-reconstruction/README.md) for exact revisions,
+browser limits and local preview interruptions. No deployment occurred.
 
 ## Prior delivery outcome
 
@@ -72,7 +83,7 @@ supporting source map; V2 delivery/QA is historical evidence, not V3 sign-off.
 | `lib/travel-content.ts` | Nine services, ten countries, FAQ, contact details and public route inventory |
 | `lib/turkiye.ts` | Twelve Turkish destination records and Türkiye-first copy |
 | `components/travel/Pages.tsx` | Page composition, including country and Turkish place details |
-| `components/home-v3/`, `components/experience/`, `styles/experience.css` | Current Bronze Journey homepage, scroll/3D/portal enhancement and builder; see V3 notes |
+| `components/home-v3/`, `components/experience/`, `styles/experience.css` | Reconstructed homepage, ServiceWorlds selector, DestinationJourney details, scroll/3D/portal enhancement and live planner; see V3 notes |
 | `lib/journey.ts` | Validated ordered itinerary context for prepared-message inquiry |
 | `components/travel/SiteShell.tsx` | Logo, header, modal menu, footer, locale and motion preferences |
 | `components/travel/Sections.tsx` | Shared hero, services, figures, international atlas, story, partners and planner |

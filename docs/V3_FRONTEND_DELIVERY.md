@@ -1,5 +1,15 @@
 # Bronze Journey — V3 delivery
 
+## Current reconstruction — TL-002
+
+4 October 2026. The full reconstruction supersedes the composition described in
+the historical TL-001 baseline below. See [TL-002 report](reports/TL-002-report.md)
+for the current outcome, chapter evaluation, exact checked revisions, screenshots
+and limitations, and [dated reconstruction evidence](qa/2026-10-03-reconstruction/README.md).
+Application revision: `13b5afe`. No deployment or publication occurred.
+
+## Historical TL-001 baseline
+
 3 October 2026, Europe/Istanbul. Active frontend: `frontend-v2/`.
 Task: [TL-001](tasks/TL-001-bronze-journey-continuation.md).
 Report: [recovery and implementation](reports/TL-001-report.md).

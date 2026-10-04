@@ -2,14 +2,16 @@
 
 Status: current frontend verification procedure plus unfinished production acceptance plan.
 V2 evidence is in [delivery](FRONTEND_DELIVERY.md) and [dated QA](qa/2026-10-02/README.md);
-V3's TL-001 results and limitations are in [V3 delivery](V3_FRONTEND_DELIVERY.md).
+V3's current reconstruction results are in [TL-002](reports/TL-002-report.md);
+[V3 delivery](V3_FRONTEND_DELIVERY.md) preserves the prior TL-001 baseline.
 Backend compilation is not PostgreSQL integration or production acceptance.
 
 ## Current public frontend procedure
 
 From frontend-v2: `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`.
-Vitest/Playwright scripts and dependencies exist; do not assume a configured suite or
-claim no-tests output as a pass. For documentation-only work, typecheck/lint plus
+Vitest currently has three journey boundary tests in `lib/journey.test.ts`. Browser
+coverage comes from the scripts below; never claim no-tests output as a pass.
+For documentation-only work, typecheck/lint plus
 link/consistency/diff review suffice; test/build if application/config changes.
 
 For public changes start a production preview (e.g. `pnpm start --port 3003`),
@@ -19,14 +21,21 @@ navigation, fallback and responsive checks. Run `node scripts/verify-v3-resilien
 for real WebGL loss/restoration, initialization failure, invalid video, render-idle
 sampling and live preference/route cleanup. Install Chromium if needed:
 `pnpm exec playwright install chromium`.
-In PowerShell: `$env:QA_URL='http://localhost:3013'`, then run the scripts.
+For the reconstruction, `node scripts/verify-reconstruction.mjs` checks seven
+homepage chapters at the six specified sizes in EN/TR/AR. Run
+`node scripts/verify-reconstruction-media.mjs` for visible film and delayed-photo
+continuity. Run resilience alone to avoid contention during idle-render sampling.
+`node scripts/verify-planner-throttled.mjs` checks first-click selection, removal
+and order after fresh navigation under 4× CPU throttling in EN/AR/TR.
+In PowerShell: `$env:QA_URL='http://localhost:3023'`, then run the scripts.
 Next standalone packaging needs public and .next/static beside its generated server;
 the preview procedure is not deployment. Read bundled Next docs before changing it.
 
 Check EN/AR/TR, natural map orientation, 360/390/430/768/1024/1280/1440px as relevant,
 keyboard/menu focus, prepared-message validation/context invalidation, video controls,
 WebGL failure, device/explicit reduced motion and no document overflow.
-Keep raw evidence under ignored root tmp/frontend-qa/; preserve selected durable,
+Keep raw evidence under ignored root tmp/frontend-qa/ or tmp/v3-reconstruction/;
+preserve selected durable,
 non-sensitive results with date/revision in docs/qa/ and link from the task report.
 Record actual checks and missing browser/physical-device/performance coverage.
 Do not externally send inquiry test messages.

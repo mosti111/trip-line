@@ -1,0 +1,234 @@
+{
+  "status": "failed",
+  "base": "http://127.0.0.1:3033",
+  "checks": [
+    "Ordered journey, reorder, dates/travelers, localized query handoff, preparation, stale output invalidation",
+    "Unknown/duplicate destination IDs and invalid traveler count sanitized",
+    "Keyboard reorder at boundary and removal restore usable focus; itinerary status updates",
+    "Destination shared-element navigation, direct refresh, browser back/forward",
+    "Three service worlds synchronize media on focus; arrow navigation and all nine service directory links work in EN/AR/TR",
+    "Menu Escape/focus return, simulated document visibility and offscreen video pause"
+  ],
+  "screens": [
+    {
+      "name": "home-en-360",
+      "url": "/en",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-390",
+      "url": "/en",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-430",
+      "url": "/en",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-768",
+      "url": "/en",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1024",
+      "url": "/en",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1280",
+      "url": "/en",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1440",
+      "url": "/en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-360",
+      "url": "/ar",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-390",
+      "url": "/ar",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-430",
+      "url": "/ar",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-768",
+      "url": "/ar",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1024",
+      "url": "/ar",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1280",
+      "url": "/ar",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1440",
+      "url": "/ar",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-360",
+      "url": "/tr",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-390",
+      "url": "/tr",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-430",
+      "url": "/tr",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-768",
+      "url": "/tr",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1024",
+      "url": "/tr",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1280",
+      "url": "/tr",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1440",
+      "url": "/tr",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-en-390",
+      "url": "/en/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-en-1440",
+      "url": "/en/destinations/turkiye",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-en-390",
+      "url": "/en/destinations/turkiye/rize-ayder",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-en-1440",
+      "url": "/en/destinations/turkiye/rize-ayder",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-en-390",
+      "url": "/en/services/hajj-umrah",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-en-1440",
+      "url": "/en/services/hajj-umrah",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "international-en-390",
+      "url": "/en/destinations",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "international-en-1440",
+      "url": "/en/destinations",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-en-390",
+      "url": "/en/contact",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-en-1440",
+      "url": "/en/contact",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    }
+  ],
+  "errors": [],
+  "performance": {},
+  "failure": "Error: page.goto: net::ERR_TOO_MANY_REDIRECTS at http://127.0.0.1:3033/en/not-a-page\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3033/en/not-a-page\", waiting until \"load\"\u001b[22m\n"
+}
