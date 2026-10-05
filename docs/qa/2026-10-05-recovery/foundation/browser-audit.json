@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Mega add3, accessible reorder/remove, focus return, reload persistence, validated journey-to-contact query",
+    "EN/AR/TR nonempty journey and five-item desktop nav at1280; mobile menu/sheet focus/Escape and no overflow"
+  ],
+  "screens": [
+    "mega-en-1440",
+    "drawer-en-1440",
+    "header-en-1280",
+    "menu-en-390",
+    "drawer-en-390",
+    "header-ar-1280",
+    "menu-ar-390",
+    "drawer-ar-390",
+    "header-tr-1280",
+    "menu-tr-390",
+    "drawer-tr-390"
+  ],
+  "errors": [],
+  "status": "passed"
+}
