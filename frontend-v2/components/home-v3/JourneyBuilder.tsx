@@ -1,19 +1,23 @@
 'use client';
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { ArrowUp, ArrowDown, X, ArrowUpRight } from 'lucide-react';
-import { href, ui, type Locale } from '@/lib/i18n';
+import { href, t, ui, type Locale } from '@/lib/i18n';
 import { journeyCopy as copy } from '@/lib/journey';
 import { turkishPlaces } from '@/lib/turkiye';
 import { services } from '@/lib/travel-content';
+import { useJourney } from '../experience/JourneyStore';
 import { Photo } from '../travel/Sections';
+import '@/styles/recovery-home.css';
 
 export function JourneyBuilder({ locale, initial = [] }: { locale: Locale; initial?: string[] }) {
-  const [selected, setSelected] = useState(initial);
-  const [service,setService]=useState('tours');
-  const [dates,setDates]=useState('');
-  const [travelers,setTravelers]=useState('');
+  const { destinations: selected, journeyType: service, addDestination, removeDestination, moveDestination, setJourneyType } = useJourney();
+  const [dates, setDates] = useState('');
+  const [flexible, setFlexible] = useState(true);
+  const [travelers, setTravelers] = useState('');
   const host = useRef<HTMLElement>(null);
-  const pendingFocus = useRef<{id:string;offset:number}|null>(null);
+  const seeded = useRef(false);
+  const pendingFocus = useRef<{ id: string; offset: number } | null>(null);
+  useEffect(() => { if (seeded.current) return; seeded.current = true; initial.forEach(addDestination); }, [initial, addDestination]);
   useLayoutEffect(() => {
     const target = pendingFocus.current;
     if (!target) return;
@@ -22,35 +26,24 @@ export function JourneyBuilder({ locale, initial = [] }: { locale: Locale; initi
     const preferred = row?.querySelector<HTMLButtonElement>(`[data-move="${target.offset}"]:not(:disabled)`);
     (preferred || row?.querySelector<HTMLButtonElement>('button:not(:disabled)'))?.focus();
   }, [selected]);
-  function move(index: number, offset: number) {
-    pendingFocus.current = {id:selected[index],offset};
-    setSelected(current => { const next = [...current]; [next[index], next[index + offset]] = [next[index + offset], next[index]]; return next; });
-  }
-  function remove(id:string) {
-    host.current?.querySelector<HTMLInputElement>(`input[value="${id}"]`)?.focus();
-    setSelected(current=>current.filter(place=>place!==id));
-  }
-  return <section ref={host} className="journey-builder sand" id="journey-builder"><div className="wrap">
-    <div className="section-head"><h2>{copy.builder[locale]}</h2><p>{copy.builderBody[locale]}</p></div>
-    <ol className="planner-progress" aria-label={copy.selected[locale]}>{[ui.destination,ui.service,ui.dates,copy.selected].map((label,i)=><li key={i} data-complete={i===0?selected.length>0:i===1?selected.length>0&&!!service:i===2?!!dates||!!travelers:selected.length>0}><span aria-hidden="true">0{i+1}</span>{label[locale]}</li>)}</ol>
-    <form action={href(locale, 'contact')} method="get" className="builder-layout">
-      <div className="builder-inputs">
-      <fieldset className="builder-places"><legend>{ui.destination[locale]}</legend>{turkishPlaces.map(place =>
-        <label key={place.slug}><input type="checkbox" value={place.slug} checked={selected.includes(place.slug)} onChange={e => { const checked = e.currentTarget.checked; setSelected(current => checked ? [...current, place.slug] : current.filter(id => id !== place.slug)); }} />
-          <span>{place.name[locale]}</span><span aria-hidden="true">{selected.includes(place.slug) ? '−' : '+'}</span></label>)}</fieldset>        <div className="builder-fields"><label>{ui.service[locale]}<select name="service" value={service} onChange={e=>setService(e.target.value)}>{services.map(s=><option key={s.slug} value={s.slug}>{s.title[locale]}</option>)}</select></label>
-          <label>{ui.dates[locale]} ({ui.optional[locale]})<input name="dates" maxLength={150} value={dates} onChange={e=>setDates(e.target.value)}/></label>
-          <label>{ui.travelers[locale]} ({ui.optional[locale]})<input name="travelers" type="number" min="1" max="999" value={travelers} onChange={e=>setTravelers(e.target.value)}/></label></div>
-</div>
-      <div className="builder-route"><div className="builder-preview" aria-hidden="true"><Photo file={selected.length?turkishPlaces.find(p=>p.slug===selected[selected.length-1])!.image:'turkiye.jpg'}/><span>{String(selected.length).padStart(2,'0')}</span></div><h3>{copy.selected[locale]}</h3>
-        <p className="sr-only" role="status">{copy.selected[locale]}: {selected.length ? selected.map(id=>turkishPlaces.find(p=>p.slug===id)!.name[locale]).join(' → ') : copy.empty[locale]}</p>
-        {selected.length ? <ol>{selected.map((id, index) => <li key={id} data-stop={id}><span className="route-stop">{String(index + 1).padStart(2,'0')}</span><strong>{turkishPlaces.find(p => p.slug === id)!.name[locale]}</strong><div>
-          <button type="button" data-move="-1" disabled={index === 0} aria-label={`${copy.earlier[locale]}: ${turkishPlaces.find(p=>p.slug===id)!.name[locale]}`} onClick={()=>move(index,-1)}><ArrowUp size={16}/></button>
-          <button type="button" data-move="1" disabled={index === selected.length-1} aria-label={`${copy.later[locale]}: ${turkishPlaces.find(p=>p.slug===id)!.name[locale]}`} onClick={()=>move(index,1)}><ArrowDown size={16}/></button>
-          <button type="button" aria-label={`${copy.remove[locale]}: ${turkishPlaces.find(p=>p.slug===id)!.name[locale]}`} onClick={()=>remove(id)}><X size={16}/></button>
-        </div></li>)}</ol> : <p className="builder-empty">{copy.empty[locale]}</p>}
-        <input type="hidden" name="journey" value={selected.join(',')}/><input type="hidden" name="destination" value={selected[0] || ''}/>
-        <div className="builder-summary"><span>{services.find(s=>s.slug===service)!.title[locale]}</span>{dates&&<span>{dates}</span>}{travelers&&<span>{ui.travelers[locale]}: {travelers}</span>}</div>
-        <button className="button dark-button" type="submit">{copy.plan[locale]}<ArrowUpRight size={18}/></button><p className="source-note">{ui.formBody[locale]}</p>
+  function move(id: string, offset: number) { pendingFocus.current = { id, offset }; moveDestination(id, offset); }
+  function remove(id: string) { removeDestination(id); host.current?.querySelector<HTMLInputElement>(`input[value="${id}"]`)?.focus(); }
+  const labels = [t('Where', 'أين', 'Nereye'), t('Journey type', 'نوع الرحلة', 'Yolculuk türü'), t('When', 'متى', 'Ne zaman'), t('Who', 'من يرافقك', 'Kimlerle')];
+  const flexibleLabel = t('My dates are flexible', 'مواعيدي مرنة', 'Tarihlerim esnek')[locale];
+  return <section ref={host} className="rh-builder" id="journey-builder" data-chapter="12" aria-labelledby="builder-title"><div className="rh-wrap">
+    <div className="rh-section-heading"><span className="rh-kicker">12 / {t('Build your line', 'ارسم مسارك', 'Rotanı oluştur')[locale]}</span><h2 id="builder-title">{copy.builder[locale]}</h2><p>{copy.builderBody[locale]}</p></div>
+    <form action={href(locale, 'contact')} method="get" className="rh-builder-layout">
+      <div className="rh-builder-inputs">
+        <fieldset className="rh-builder-places"><legend><span>01</span>{labels[0][locale]}</legend><div>{turkishPlaces.map(place => <label key={place.slug}><input type="checkbox" value={place.slug} checked={selected.includes(place.slug)} onChange={event => event.currentTarget.checked ? addDestination(place.slug) : removeDestination(place.slug)} /><span>{place.name[locale]}</span></label>)}</div></fieldset>
+        <fieldset className="rh-builder-type"><legend><span>02</span>{labels[1][locale]}</legend><label className="sr-only" htmlFor="builder-service">{labels[1][locale]}</label><select id="builder-service" name="service" value={service} onChange={event => setJourneyType(event.target.value)}>{services.map(item => <option key={item.slug} value={item.slug}>{item.title[locale]}</option>)}</select></fieldset>
+        <div className="rh-builder-time-who"><fieldset><legend><span>03</span>{labels[2][locale]}</legend><label className="rh-flexible"><input type="checkbox" checked={flexible} onChange={event => { setFlexible(event.target.checked); if (event.target.checked) setDates(''); }}/>{flexibleLabel}</label><label htmlFor="builder-dates">{ui.dates[locale]} ({ui.optional[locale]})</label><input id="builder-dates" maxLength={150} value={dates} placeholder={flexible ? flexibleLabel : undefined} onChange={event => { setDates(event.target.value); if (event.target.value) setFlexible(false); }}/></fieldset><fieldset><legend><span>04</span>{labels[3][locale]}</legend><label htmlFor="builder-travelers">{ui.travelers[locale]} ({ui.optional[locale]})</label><input id="builder-travelers" name="travelers" type="number" min="1" max="999" value={travelers} onChange={event => setTravelers(event.target.value)}/></fieldset></div>
+      </div>
+      <div className="rh-builder-route"><div className="rh-builder-preview" aria-hidden="true"><Photo file={selected.length ? turkishPlaces.find(place => place.slug === selected[selected.length - 1])!.image : 'turkiye.jpg'}/><span>{String(selected.length).padStart(2, '0')}</span></div><h3>{copy.selected[locale]}</h3>
+        <p className="sr-only" role="status">{copy.selected[locale]}: {selected.length ? selected.map(id => turkishPlaces.find(place => place.slug === id)!.name[locale]).join(' → ') : copy.empty[locale]}</p>
+        {selected.length ? <ol>{selected.map((id, index) => { const name = turkishPlaces.find(place => place.slug === id)!.name[locale]; return <li key={id} data-stop={id}><span className="rh-stop-number">{String(index + 1).padStart(2, '0')}</span><strong>{name}</strong><div><button type="button" data-move="-1" disabled={index === 0} aria-label={`${copy.earlier[locale]}: ${name}`} onClick={() => move(id, -1)}><ArrowUp size={16}/></button><button type="button" data-move="1" disabled={index === selected.length - 1} aria-label={`${copy.later[locale]}: ${name}`} onClick={() => move(id, 1)}><ArrowDown size={16}/></button><button type="button" aria-label={`${copy.remove[locale]}: ${name}`} onClick={() => remove(id)}><X size={16}/></button></div></li>; })}</ol> : <p className="rh-builder-empty">{copy.empty[locale]}</p>}
+        <input type="hidden" name="dates" value={flexible ? flexibleLabel : dates}/><input type="hidden" name="journey" value={selected.join(',')}/><input type="hidden" name="destination" value={selected[0] || ''}/>
+        <div className="rh-builder-summary" aria-live="polite"><span>{services.find(item => item.slug === service)!.title[locale]}</span><span>{dates || (flexible ? flexibleLabel : ui.dates[locale])}</span>{travelers && <span>{ui.travelers[locale]}: {travelers}</span>}</div>
+        <button className="journey-action journey-action-primary" type="submit">{copy.plan[locale]}<ArrowUpRight size={18}/></button><p className="rh-source">{ui.formBody[locale]}</p>
       </div>
     </form>
   </div></section>;

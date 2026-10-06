@@ -1,6 +1,10 @@
 import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs';
 import path from 'node:path';
+if (process.env.QA_STAGE === 'static') {
+ await (await import('./verify-recovery-static.mjs')).verifyRecoveryStatic('public');
+ process.exit(0);
+}
 const base=process.env.QA_URL||'http://localhost:3003';
 const out=path.resolve('..','tmp','frontend-qa');fs.mkdirSync(out,{recursive:true});
 const places=['istanbul','trabzon','rize-ayder','uzungol','antalya','bodrum','fethiye','marmaris','sapanca','bursa','yalova','cappadocia'];

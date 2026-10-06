@@ -1,37 +1,25 @@
 'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
-import { href, ui, type Locale } from '@/lib/i18n';
+import { ArrowUpRight, Check } from 'lucide-react';
+import { href, t, ui, type Locale } from '@/lib/i18n';
 import { turkeyCopy } from '@/lib/turkiye';
-import { services } from '@/lib/travel-content';
-import { Photo, Action } from '../travel/Sections';
+import { useJourney } from '../experience/JourneyStore';
+import { Photo } from '../travel/Sections';
 
 export function ServiceWorldsV3({ locale }: { locale: Locale }) {
-  const [active, setActive] = useState(0);
+  const { journeyType, setJourneyType } = useJourney();
   const worlds = [
-    { title: turkeyCopy.domestic, body: ui.travelBody, image: 'cappadocia.png', path: 'destinations/turkiye' },
-    { title: ui.pilgrimage, body: ui.pilgrimageBody, image: 'saudi-arabia.jpg', path: 'services/hajj-umrah' },
-    { title: ui.business, body: ui.businessBody, image: 'business.jpg', path: 'business' },
+    { id: 'tours', title: t('Explore & holiday', 'اكتشاف وعطلات', 'Keşif ve tatil'), body: turkeyCopy.homeBody, image: 'cappadocia.png', path: 'destinations/turkiye' },
+    { id: 'hajj-umrah', title: ui.pilgrimage, body: ui.pilgrimageBody, image: 'saudi-arabia.jpg', path: 'services/hajj-umrah' },
+    { id: 'corporate', title: ui.business, body: ui.businessBody, image: 'business.jpg', path: 'business' },
   ];
-  const world = worlds[active];
-  return <section className="service-worlds sand" id="service-worlds" data-world={active}>
-    <div className="wrap">
-      <div className="world-heading"><span className="eyebrow">03 / {ui.services[locale]}</span><h2>{ui.worldsTitle[locale]}</h2><p>{ui.worldsBody[locale]}</p></div>
-      <div className="world-stage">
-        <div className="world-choices" role="group" aria-label={ui.services[locale]}>
-          {worlds.map((item, i) => <button key={item.path} aria-pressed={active === i} aria-controls="world-description"
-            onClick={() => setActive(i)} onFocus={() => setActive(i)} onPointerEnter={e => { if (e.pointerType === 'mouse') setActive(i); }}
-            onKeyDown={e => { if (['ArrowDown','ArrowUp','Home','End'].includes(e.key)) { e.preventDefault(); const next=e.key==='Home'?0:e.key==='End'?2:(i+(e.key==='ArrowDown'?1:2))%3; e.currentTarget.parentElement?.querySelectorAll('button')[next]?.focus(); } }}>
-            <span className="world-number">0{i + 1}</span><span>{item.title[locale]}</span><ArrowUpRight aria-hidden="true"/>
-          </button>)}
-        </div>
-        <div className="world-media" aria-hidden="true">{worlds.map((item,i)=><div className="world-image" data-active={i===active} key={item.image}><Photo file={item.image}/></div>)}<span className="world-media-number">0{active+1}</span></div>
-        <div id="world-description" className="world-description" aria-live="polite" aria-atomic="true"><p key={world.path}>{world.body[locale]}</p><Action locale={locale} path={world.path} secondary>{ui.more[locale]}</Action></div>
-        <svg className="world-route" viewBox="0 0 1000 500" aria-hidden="true"><path d="M-20 420 H350 C550 420 400 50 680 80 S850 450 1020 360"/></svg>
-      </div>
-      <details className="service-route-directory services-journey"><summary>{ui.allServices[locale]}<span aria-hidden="true">09 ↗</span></summary><div>{services.map((s,i)=><Link className="service-milestone" onFocus={e=>e.currentTarget.scrollIntoView({block:"nearest",behavior:"instant"})} key={s.slug} href={href(locale,`services/${s.slug}`)}><span className="index">{String(i+1).padStart(2,'0')}</span><span>{s.title[locale]}</span><ArrowUpRight size={20}/></Link>)}</div></details>
+  return <section className="rh-worlds" id="service-worlds" data-chapter="02" aria-labelledby="worlds-title"><div className="rh-wrap">
+    <div className="rh-section-heading"><span className="rh-kicker">02 / {ui.services[locale]}</span><h2 id="worlds-title">{t('What brings you here?', 'ما الذي يدعوك للسفر؟', 'Seni buraya getiren ne?')[locale]}</h2><p>{ui.worldsBody[locale]}</p></div>
+    <div className="rh-world-stage"><svg className="rh-world-route" viewBox="0 0 1200 900" preserveAspectRatio="none" aria-hidden="true"><path d="M-30 180 C270 10 650 310 640 530 S1190 870 1240 690"/></svg>
+      {worlds.map((world, i) => <article className={`rh-world-plane rh-world-${i}`} key={world.id} data-selected={journeyType === world.id}>
+        <div className="rh-world-photo"><Photo file={world.image} alt={world.title[locale]} /><span className="rh-world-number" aria-hidden="true">0{i + 1}</span></div>
+        <div className="rh-world-copy"><h3>{world.title[locale]}</h3><p>{world.body[locale]}</p><div className="rh-world-controls"><button type="button" className="rh-intent" aria-pressed={journeyType === world.id} onClick={() => setJourneyType(world.id)}>{t('Select this journey', 'اختر هذه الرحلة', 'Bu yolculuğu seç')[locale]}{journeyType === world.id ? <Check size={16}/> : <span aria-hidden="true">+</span>}</button><Link className="journey-text-link" href={href(locale, world.path)}>{t('Explore', 'اكتشف', 'Keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div>
+      </article>)}
     </div>
-  </section>;
+  </div></section>;
 }
