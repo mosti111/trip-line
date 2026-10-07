@@ -5,7 +5,9 @@ import { useTravel } from '../travel/SiteShell';
 const Scene = dynamic(() => import('./BronzeJourneyScene'), { ssr: false });
 function subscribe(callback: () => void) {
   const query = matchMedia('(min-width: 1024px) and (pointer: fine)'); query.addEventListener('change', callback);
-  return () => query.removeEventListener('change', callback);
+  const connection = (navigator as Navigator & { connection?: Partial<Pick<EventTarget, 'addEventListener' | 'removeEventListener'>> }).connection;
+  if (typeof connection?.addEventListener === 'function') connection.addEventListener('change', callback);
+  return () => { query.removeEventListener('change', callback); if (typeof connection?.removeEventListener === 'function') connection.removeEventListener('change', callback); };
 }
 function eligible() {
   return matchMedia('(min-width: 1024px) and (pointer: fine)').matches && !(navigator as Navigator & {connection?:{saveData?:boolean}}).connection?.saveData;

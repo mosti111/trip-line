@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-10-07T10:37:44.094Z",
+  "browser": "Chromium",
+  "stage": "full",
+  "status": "passed",
+  "checks": [
+    "Decoded chapter06 film is visibly opaque with full lifecycle; height-relative opening captures retain arrival, framing/camera change and readable route departure",
+    "A delayed destination image retains previous media until loaded; only active and previous photos mount"
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-07T10:38:02.364Z"
+}

@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-07T15:37:14.0473874Z",
+  "base": "http://localhost:3043",
+  "revision": "b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184 plus frozen M03/M03-R1 source, root session18243",
+  "status": "auxiliary completed; source frozen; runtime window released",
+  "aggregateSha256": "5aa0236d84b5a2ec60316f365d5c4f1384be0d329606240c91633c94998d9cd3",
+  "canonicalAggregateInput": "ordered path + space + sha256 + LF",
+  "scripts": [
+    {
+      "path": "frontend-v2/scripts/verify-public.mjs",
+      "sha256": "b34bedf04d2e2d0ef9a6abf33dab388624f14ce0f5784d5e4a77534a90b3cb79"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-v3.mjs",
+      "sha256": "dd612cfce453f751967bd0c721191b0fb023da325b78ab8e35ba80cd346ca7b6"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-v3-resilience.mjs",
+      "sha256": "666ec3d7ac14e75c3a874ec2f026e0ee22737b08c7a6a2a66f73ee52852afa2c"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-reconstruction.mjs",
+      "sha256": "cbd0fe3c644c6225ed05ed8d7ec60116b225b082449c78b0cac27e78f5683a6b"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-reconstruction-media.mjs",
+      "sha256": "f1905c3b59913fad93869ebc0628dd74d5c0b1cf733b0ada00e2a3da112baf45"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-planner-throttled.mjs",
+      "sha256": "f7134c2065f266572af51ed9ad09ca4b12afcf390f92a52c2ab92a559f1c6e56"
+    },
+    {
+      "path": "frontend-v2/scripts/verify-recovery-motion.mjs",
+      "sha256": "1883773d6d1f3db1c8248d2da38826946152ec555527db7878822cb14ca44251"
+    }
+  ],
+  "results": [
+    {
+      "name": "resilience",
+      "status": "passed",
+      "startedAt": "2026-10-07T10:23:51.567Z",
+      "finishedAt": "2026-10-07T10:24:55.454Z",
+      "cases": null,
+      "groups": 9,
+      "errors": 0
+    },
+    {
+      "name": "motion",
+      "status": "passed",
+      "startedAt": "2026-10-07T10:33:41.942Z",
+      "finishedAt": "2026-10-07T10:36:11.538Z",
+      "cases": 2,
+      "groups": 2,
+      "errors": 0
+    },
+    {
+      "name": "media",
+      "status": "passed",
+      "startedAt": "2026-10-07T10:37:44.094Z",
+      "finishedAt": "2026-10-07T10:38:02.364Z",
+      "cases": null,
+      "groups": 2,
+      "errors": 0
+    },
+    {
+      "name": "planner",
+      "status": "passed",
+      "startedAt": "2026-10-07T15:22:19.861Z",
+      "finishedAt": null,
+      "cases": 9,
+      "groups": null,
+      "errors": 0
+    },
+    {
+      "name": "reconstruction",
+      "status": "passed",
+      "startedAt": "2026-10-07T15:24:39.115Z",
+      "finishedAt": "2026-10-07T15:35:18.955Z",
+      "cases": 21,
+      "groups": 1,
+      "errors": 0
+    }
+  ],
+  "checks": {
+    "sevenSyntax": "passed",
+    "scopedESLint": "passed",
+    "contractedGitDiffCheck": "passed",
+    "playwrightBrowserProcesses": 0
+  },
+  "evidence": [
+    {
+      "path": "docs/orchestration/recovery/TL-003-QM03-delivery.md",
+      "sha256": "98000c10ed70b5f14230a07c4070d19a072e33f35b4d2378e23282144121044d"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/resilience-report.json",
+      "sha256": "963d8b5282822db9a5acf15d8fd9d8259c1de9da71cfe7d491cae33fa946d72a"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/resilience.log",
+      "sha256": "73f2b1483f870a1531a4b7c75a33e46784825d2ea03570ea35734c3201d1e753"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/motion-report.json",
+      "sha256": "469978e5ce3b6645d1728b7839110ffa19fb698233885e752c90f73ea6965b7a"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/motion-r1.log",
+      "sha256": "6b2bf8c09c3356352891160c7c3f9d300ef3414eeffb2164c87ce9a1b9a42a74"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/media-report.json",
+      "sha256": "da318316b2892d63ff52268c679297b8a9a5f129c491bb2f4b2c0d6e6f07a766"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/media.log",
+      "sha256": "3c53dffdc1b69b42412b98145fdc2ff669cccc7d5c5249f29a7d7a4459f25e81"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/planner-report.json",
+      "sha256": "174bb8ec9c9f48d23a95b30dee9226d3ded49f3a334b3ba5604723017d96e4de"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/planner.log",
+      "sha256": "bd5446d646a34eae3ffcd1b6910428ac0acf9780e8b639ab81c4e192ee1a40a7"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/reconstruction-report.json",
+      "sha256": "34515a09dc49f04eecb64e87eeae3dc6be77b5570d84b90fe23db4b915a998fb"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/reconstruction.log",
+      "sha256": "37868c35e019d17cafbbd01f2e25c24f27a7a89202f047c3be5afa705c9f0630"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/final-source-checks.log",
+      "sha256": "a0750e9141ca7f1b1e8c6d3363da93f3a6daeb16e73c392741b7cf484f7aca96"
+    },
+    {
+      "path": "tmp/frontend-qa/recovery-motion/auxiliary-2026-10-07/final-eslint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "limitations": [
+    "Independent lead approval and supplemental navigation/high-DPI remain lead-owned",
+    "Final Q12 and subsequent page-family coverage remain required",
+    "No deployment, Safari/Firefox, physical device, AT or field-performance certification"
+  ]
+}

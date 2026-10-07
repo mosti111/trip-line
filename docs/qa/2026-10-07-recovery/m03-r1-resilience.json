@@ -1,0 +1,29 @@
+{
+  "startedAt": "2026-10-07T10:23:51.567Z",
+  "browser": "Chromium",
+  "stage": "full",
+  "status": "passed",
+  "checks": [
+    "Measured zero WebGL draws while idle, hidden and offscreen; mouse invalidates, touch does not",
+    "Actual WebGL context loss/restoration via Chromium extension recovers sculpture",
+    "Hero/departure copy sequenced without overlapping messages; hero keyboard focus restores readable arrival",
+    "Exactly one Lenis; both real navigation and journey dialogs pause wheel travel and restore it after close",
+    "WebGL unavailable at initialization: expected renderer errors contained; SVG/content/planner survive",
+    "Undecodable chapter06 film retains poster/content/manual control; retry actually decodes and plays restored media",
+    "EN/AR/TR live preference toggle tears down/recreates scenes and removes actual map-focus/builder-highlight tween residue; leaving home removes pins and Lenis",
+    "Resize desktop→native tablet→short fine desktop cleans and recreates exactly one pin/Lenis/canvas",
+    "Arabic enlarged base text: menu footer reachable without document overflow (not browser text-zoom certification)"
+  ],
+  "errors": [],
+  "expectedWebGLErrors": [
+    "THREE.WebGLRenderer: Error creating WebGL context.",
+    "Error: Error creating WebGL context.\n    at new co (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:232:20342)\n    at h (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18625)\n    at Object.configure (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18748)\n    at http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:42215\n    at iw (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:118597)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128692)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:130953)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128716)"
+  ],
+  "rendering": {
+    "canvasDPR": 1,
+    "idleDraws": 0,
+    "hiddenDraws": 0,
+    "offscreenDraws": 0
+  },
+  "finishedAt": "2026-10-07T10:24:55.454Z"
+}

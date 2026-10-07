@@ -180,3 +180,144 @@ homepage/shared explorer; later integrations must retain this baseline.
 Final decision: H02 including R1 APPROVED. QH02 verification adapter APPROVED.
 Allow M03 after exact scoped checkpoint; this is not final TL-003 completion, user
 creative acceptance, permission to merge main or deploy.
+
+## M03 / QM03 — review opened 6 October 2026, 19:47 UTC
+
+Reviewer: selected Astra lead/reviewer `/root/astra_resume`; same selected Sol
+implementation and QA workers are independent of this reviewer. Status: REVIEWING,
+not approved. Base `b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184` plus ten frozen motion
+source files fingerprinted in M03 delivery. Root independently confirmed all hashes.
+
+Source review confirms stable server composition with independent lazy enhancement,
+actual camera movement along a stationary spatial curve, scoped native adaptations,
+one demand canvas and one desktop wheel clock, all-dialog/mega pause, and explicit
+observer-tween cleanup. The identified residual map transform after reduced motion
+was reproduced, corrected and positively retested; final production resilience
+must still repeat it. No source/content/store/dependency broadening was found.
+
+Actual preliminary development wheel frames at1440×900 show departure copy fading,
+passing geographic coordinates, a strongly foreshortened reflective bronze foreground
+and receding Istanbul plane. Service-exit captures show thickness/shadow fading to
+the thin graphic route over Türkiye. Corrected EN/AR/TR1280×600 initial images keep
+title, supporting proposition and both actions readable. AR390 native/reduced and
+TR768 native images preserve connected text, photo orientation, route identity and
+clear vertical hierarchy. These are preliminary visual findings, not final pacing
+or production acceptance. The mislabeled early short initial frame is excluded.
+
+Root production build, final typecheck, lint and32tests PASS. The first build failed
+on an existing malformed ignored development validator; exact generated file removal
+and rebuild resolved it without application/config changes. next-env regenerated to
+baseline. Default public/V3 and auxiliary realGL/media/motion/CPU/browser coverage
+remain pending. Full timed production sequence and independent rendered judgment
+are mandatory before approval. No next-phase implementation is dispatched yet.
+
+### M03-R1 correction requested — 7 October 2026
+
+Result: FAIL pending correction. Root V3 R2 completed all60 normal responsive
+captures and3 reduced captures, then the Save Data context crashed with
+`addEventListener is not a function`, showing the error boundary. A partial
+`navigator.connection` exposing saveData but not event methods is sufficient to
+trigger this. HomeMotion and Bronze subscription guard object presence rather than
+method capability. This is an application compatibility defect, not a selector or
+precision failure; its console error must remain visible to verification.
+
+Required correction: guard subscription and cleanup method capabilities in the two
+affected files, preserving initial Save Data suppression and complete EventTarget
+changes. Exact [M03-R1 contract](../orchestration/recovery/TL-003-M03-R1.md) reserves
+only those two source files and the delivery report for the same selected Sol.
+Root stopped production before correction. Fresh build/required checks, targeted
+partial/complete connection proof, default full suites and outstanding auxiliaries
+remain necessary. No full-suite or motion approval is claimed.
+
+## M03 / M03-R1 / QM03 — final independent review,7October2026
+
+REVIEW
+Task/contracts: TL-003-M03, its narrowly scoped M03-R1 correction, and QM03.
+Reviewer: Astra lead/reviewer, explicitly selected gpt-6-astra,
+`/root/astra_resume`, session `TL-003-2026-10-05-recovery`. Implementation and QA
+were performed by two separately selected gpt-6.1-sol workers; reviewer did not
+write application or verifier source. Exposed selection support is not independent
+backend model attestation. Root supplied independent production checks/supplement.
+Result: PASS. Tested revision: b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184 plus the
+ten frozen app files in the dated source fingerprint, including R1's two superseding
+hashes, and seven frozen QA scripts. Review date7October2026, local production3043.
+
+Visual fidelity / hierarchy: the actual initial view remains a clear proposition,
+Istanbul setting and two legible actions. Bronze carries the identity through a
+reflective spatial foreground, three unequal photographic intent planes, the thin
+Türkiye graphic, conceptual itinerary and final conversation node. Desktop and
+short-height initial copy remain readable; connected Arabic, natural photos and
+real unmirrored map geometry persist. Existing static15-chapter hierarchy is retained.
+Actual AR390/EN768 settled navigation is complete and typographically coherent.
+
+Motion: independently decoded five short camera checkpoints, tall initial/mid/exit
+and timestamped small-wheel tall0012/0024/0036/0045 and short0006/0030/0036 frames,
+with measured camera/target/curve-parameter progression. The viewpoint travels along
+a stationary spatial ribbon while Istanbul recedes and coordinates pass; this is
+not the former scaled/translated graphic substitute. The180vh tall and120vh short
+travel ranges preserve initial reading, departure, close-up and native-flow release.
+The thick shadowed intent route resolves into the original2px SVG at the Türkiye
+threshold; actual graphic opacity remains>.8 at handoff. The89 timestamped frames
+support scroll relationship and continuity; reviewer did not claim WebM playback.
+Finite map/selected-route/builder feedback and scoped film/signature treatments
+preserve control/readability. Reduced/touch adaptation retains useful native content.
+
+UX / accessibility: global Add/order/type/query flow, keyboard reorder/remove focus,
+menu/drawer traps and focus return, invalid-ID/traveler handling, prepared inquiry
+and stale edit invalidation pass. Short desktop mega pauses the only scroll clock;
+actual menu wheel scrolls224px while page position stays fixed, Escape resumes and
+returns focus. Device and persistent reduced motion, noJS, SaveData, noWebGL,
+real film error/retry and real context loss/restoration retain content. All nine
+service links pass focus plus numeric viewport/header clearance, including short
+height. No external message was sent and no server submission is implied.
+
+Responsive: root full V3 passes60 normal cases across three locales, home widths
+360/390/430/768/1024/1280/1440 and public template/tablet/landscape cases. Additional
+reconstruction checks18 normal plus3 reduced cases/all15 chapters. Actual AR390
+intent/signature/arrival and TR768 Beyond/FAQ samples confirm deliberate vertical
+and tablet composition; sticky action is hidden at final arrival. Short1280×600
+fine input intentionally pins with compressed travel; coarse1280 remains native.
+
+Performance: production build/typecheck/lint/32tests pass. Root deviceScaleFactor3
+measures actual canvasDPR1.5, one canvas and one Lenis. Actual intercepted GL draws
+are0 at idle/hidden/offscreen; real loss restores reflective rendering. Resize,
+route and reduced-preference teardown remove pins, observers and map/builder/film
+styles, including the async observer-tween regression. Delayed2500ms Yalova media
+retains the last decoded preview and no more than two mounted images. Initial
+SaveData suppresses automatic film loading and enhancement. Root partial connection
+object plus real EventTarget two-cycle proof passes. Fresh legal navigation's11
+actual JS response bodies contain no GSAP/R3F/Three/Lenis runtime markers. 4×CPU
+planner passes9 attempts. These are laboratory observations, not field guarantees.
+
+Architecture / scope: stable server composition with a small null-rendering lazy
+motion boundary; no new dependency or persistent whole-site WebGL. Existing global
+journey storage and source facts remain unchanged. Exact application/QA paths match
+contracts; generated next-env returns to baseline. Mixed setup/shared docs remain
+separate. Historical static adapter remains reproducible at b89 checkpoint and is
+not used to fake current motion acceptance.
+
+Problems and required corrections: none remaining. Earlier malformed ignored dev
+validator build failure, observer tween residue, numeric ratio assertion, obsolete
+menu image selector, actual partial-connection crash and cloned-route QA selector
+failure are preserved in delivery/history. Each has a bounded correction with final
+positive evidence; no unexpected error was suppressed. The transitional menu image
+is explicitly superseded by settled captures. Optional improvements: none opened.
+Regression risk: future hub/detail/service integrations must preserve these shared
+navigation, journey and cleanup boundaries; Q12 still checks the final combined site.
+
+Evidence reviewed: docs/qa/2026-10-07-recovery/README.md and its actual reports,
+source/QA fingerprints, required-command logs and selected decoded PNGs; strict M03
+and QM03 deliveries; full relevant source/QA diffs; ignored tall/short timestamped
+sequences and actual media/context captures. Root default public PASS120routes,
+6screens/5groups/0errors; root default V3 PASS60normal/16groups/0errors; resilience
+PASS9groups; motion/legal PASS2cases/89frames; media PASS2groups; planner PASS9cases;
+reconstruction PASS21cases; independent navigation supplement PASS6cases. Supplement
+records page errors only; full core verifies console errors separately.
+Missing coverage/capability limits: no Safari/Firefox, physical-device, software
+keyboard, assistive-technology or real-user field measurement claimed. Full later
+page-family and final Q12 scope remains pending, not silently waived.
+
+Final decision: M03 including M03-R1 APPROVED; QM03 APPROVED. No blocking correction
+or mandatory phase3 gate remains. Save the exact scoped checkpoint, then dispatch
+T04/QT04. This is engineering/design-conformance review, not user creative approval,
+full TL-003 completion, main merge authorization or deployment.

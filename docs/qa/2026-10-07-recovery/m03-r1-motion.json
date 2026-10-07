@@ -1,0 +1,918 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-07T10:33:41.942Z",
+  "browser": "Chromium",
+  "checks": [
+    "Tall and short fine desktop pin: initial/25/50/75/exit camera/target/route-space movement, Istanbul recession, timed small-wheel continuous capture and metallic→graphic handoff",
+    "Fresh legal navigation: actual requested JavaScript chunk bodies inspected for GSAP/R3F/Three/Lenis runtime absence"
+  ],
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "input": "fine",
+      "motion": "normal",
+      "pin": {
+        "start": -0.001,
+        "end": 1620
+      },
+      "frames": 52,
+      "sequence": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-sequence\\frames.json",
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\recordings\\page@c78b3657a9d79c1a5328757cffc310ca.webm"
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 600,
+      "input": "fine",
+      "motion": "normal",
+      "pin": {
+        "start": -0.001,
+        "end": 720
+      },
+      "frames": 37,
+      "sequence": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-sequence\\frames.json",
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\recordings\\page@a21b0a15838d05bd5bdf946182c12a8c.webm"
+    }
+  ],
+  "errors": [],
+  "screens": [
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-0.png",
+      "width": 1440,
+      "height": 900,
+      "progress": 0,
+      "state": {
+        "time": 5352.899999856949,
+        "scrollY": 0,
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "scrollX": 0,
+          "documentScrollWidth": 1440
+        },
+        "headerPlan": {
+          "x": 1229.3125,
+          "y": 23.5,
+          "width": 138.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0,
+        "stage": "arrive",
+        "cameraPosition": "-3.000,4.000,28.000",
+        "cameraTarget": "-3.000,6.000,-4.000",
+        "routeParameter": 0.2,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -1.3278579711914062,
+          "y": 2971.33984375,
+          "width": 1442.65576171875,
+          "height": 1289.43505859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        "copy": {
+          "x": 80,
+          "y": 218.203125,
+          "width": 1280,
+          "height": 503.59375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 80,
+          "y": 2892.625,
+          "width": 1280,
+          "height": 1301.484375,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 4294.109375,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-25.png",
+      "width": 1440,
+      "height": 900,
+      "progress": 0.25,
+      "state": {
+        "time": 6927.399999856949,
+        "scrollY": 405,
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "scrollX": 0,
+          "documentScrollWidth": 1440
+        },
+        "headerPlan": {
+          "x": 1229.3125,
+          "y": 13.890625,
+          "width": 138.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.2499,
+        "stage": "depart",
+        "cameraPosition": "-3.000,4.000,28.000",
+        "cameraTarget": "-3.000,6.000,-4.000",
+        "routeParameter": 0.2,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -1.3278579711914062,
+          "y": 2566.33984375,
+          "width": 1442.65576171875,
+          "height": 1289.43505859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -18.244873046875,
+          "y": -8.14501953125,
+          "width": 1466.0640869140625,
+          "height": 916.2900390625,
+          "opacity": "1",
+          "transform": "matrix(1.0181, 0, 0, 1.0181, 0, 0)"
+        },
+        "copy": {
+          "x": 80,
+          "y": 218.203125,
+          "width": 1280,
+          "height": 503.59375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 80,
+          "y": 2487.625,
+          "width": 1280,
+          "height": 1301.484375,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 3889.109375,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-50.png",
+      "width": 1440,
+      "height": 900,
+      "progress": 0.5,
+      "state": {
+        "time": 9057.700000047684,
+        "scrollY": 810,
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "scrollX": 0,
+          "documentScrollWidth": 1440
+        },
+        "headerPlan": {
+          "x": 1229.3125,
+          "y": 13.5,
+          "width": 138.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.5,
+        "stage": "travel",
+        "cameraPosition": "9.246,3.744,-4.165",
+        "cameraTarget": "1.249,4.457,-14.356",
+        "routeParameter": 0.4058,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -1.3278579711914062,
+          "y": 2161.33984375,
+          "width": 1442.65576171875,
+          "height": 1289.43505859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -114.32861328125,
+          "y": -50.55949401855469,
+          "width": 1403.1671142578125,
+          "height": 923.1729736328125,
+          "opacity": "0.7875",
+          "transform": "matrix3d(0.943138, 0, -0.0908138, 0, 0, 0.9475, 0, 0, 0.0958458, 0, 0.995396, 0, -108, -36, 0, 1)"
+        },
+        "copy": {
+          "x": 80,
+          "y": 218.203125,
+          "width": 1280,
+          "height": 503.59375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 80,
+          "y": 2082.625,
+          "width": 1280,
+          "height": 1301.484375,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 3484.109375,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-75.png",
+      "width": 1440,
+      "height": 900,
+      "progress": 0.75,
+      "state": {
+        "time": 10745.099999904633,
+        "scrollY": 1215,
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "scrollX": 0,
+          "documentScrollWidth": 1440
+        },
+        "headerPlan": {
+          "x": 1229.3125,
+          "y": 13.5,
+          "width": 138.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.75,
+        "stage": "transform",
+        "cameraPosition": "-2.235,4.986,-16.746",
+        "cameraTarget": "-1.460,-1.639,-27.659",
+        "routeParameter": 0.6293,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -1.3278579711914062,
+          "y": 1756.33984375,
+          "width": 1442.65576171875,
+          "height": 1289.43505859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -75.749755859375,
+          "y": -23.436901092529297,
+          "width": 866.7801513671875,
+          "height": 598.598388671875,
+          "opacity": "0.15",
+          "transform": "matrix3d(0.509951, 0, -0.206034, 0, 0, 0.55, 0, 0, 0.374607, 0, 0.927184, 0, -432, -144, 0, 1)"
+        },
+        "copy": {
+          "x": 80,
+          "y": 218.203125,
+          "width": 1280,
+          "height": 503.59375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 80,
+          "y": 1677.625,
+          "width": 1280,
+          "height": 1301.484375,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 3079.109375,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-100.png",
+      "width": 1440,
+      "height": 900,
+      "progress": 1,
+      "state": {
+        "time": 12053.200000047684,
+        "scrollY": 1620,
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "scrollX": 0,
+          "documentScrollWidth": 1440
+        },
+        "headerPlan": {
+          "x": 1229.3125,
+          "y": 13.5,
+          "width": 138.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 1,
+        "stage": "transform",
+        "cameraPosition": "-2.217,-0.239,-26.068",
+        "cameraTarget": "3.032,-1.689,-37.575",
+        "routeParameter": 0.78,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -1.3278579711914062,
+          "y": 1351.33984375,
+          "width": 1442.65576171875,
+          "height": 1289.43505859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -75.749755859375,
+          "y": -23.4359130859375,
+          "width": 866.7801513671875,
+          "height": 598.5985107421875,
+          "opacity": "0.15",
+          "transform": "matrix3d(0.509951, 0, -0.206034, 0, 0, 0.55, 0, 0, 0.374607, 0, 0.927184, 0, -432, -144, 0, 1)"
+        },
+        "copy": {
+          "x": 80,
+          "y": 218.2041015625,
+          "width": 1280,
+          "height": 503.59375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 80,
+          "y": 1272.625,
+          "width": 1280,
+          "height": 1301.484375,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 2674.109375,
+          "width": 1440,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-film-framed.png",
+      "width": 1440,
+      "height": 900,
+      "chapter": "film",
+      "name": "framed",
+      "geometry": {
+        "width": 989.1787109375,
+        "height": 487.199951171875,
+        "transform": "matrix(0.84, 0, 0, 0.84, 0, 0)"
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-film-expanded.png",
+      "width": 1440,
+      "height": 900,
+      "chapter": "film",
+      "name": "expanded",
+      "geometry": {
+        "width": 1342.45703125,
+        "height": 661.199951171875,
+        "transform": "matrix(1.14, 0, 0, 1.14, 0, 0)"
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-signature.png",
+      "width": 1440,
+      "height": 900,
+      "chapter": "signature"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-services.png",
+      "width": 1440,
+      "height": 900,
+      "chapter": "services"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1440x900-arrival.png",
+      "width": 1440,
+      "height": 900,
+      "chapter": "arrival"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-0.png",
+      "width": 1280,
+      "height": 600,
+      "progress": 0,
+      "state": {
+        "time": 5417,
+        "scrollY": 0,
+        "viewport": {
+          "width": 1280,
+          "height": 600,
+          "scrollX": 0,
+          "documentScrollWidth": 1280
+        },
+        "headerPlan": {
+          "x": 1111.3125,
+          "y": 23.5,
+          "width": 104.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0,
+        "stage": "arrive",
+        "cameraPosition": "-3.000,4.000,28.000",
+        "cameraTarget": "-3.000,6.000,-4.000",
+        "routeParameter": 0.2,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -8.520317077636719,
+          "y": 1761.224365234375,
+          "width": 1297.04052734375,
+          "height": 1278.609130859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 600,
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        "copy": {
+          "x": 64,
+          "y": 148,
+          "width": 1152,
+          "height": 337.984375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 64,
+          "y": 1683.625,
+          "width": 1152,
+          "height": 1290.828125,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 3074.453125,
+          "width": 1280,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-25.png",
+      "width": 1280,
+      "height": 600,
+      "progress": 0.25,
+      "state": {
+        "time": 6662.100000143051,
+        "scrollY": 180,
+        "viewport": {
+          "width": 1280,
+          "height": 600,
+          "scrollX": 0,
+          "documentScrollWidth": 1280
+        },
+        "headerPlan": {
+          "x": 1111.3125,
+          "y": 13.5,
+          "width": 104.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.25,
+        "stage": "depart",
+        "cameraPosition": "-3.000,4.000,28.000",
+        "cameraTarget": "-3.000,6.000,-4.000",
+        "routeParameter": 0.2,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -8.520317077636719,
+          "y": 1581.224365234375,
+          "width": 1297.04052734375,
+          "height": 1278.609130859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -16.3072509765625,
+          "y": -5.46002197265625,
+          "width": 1303.2960205078125,
+          "height": 610.9200439453125,
+          "opacity": "1",
+          "transform": "matrix(1.0182, 0, 0, 1.0182, 0, 0)"
+        },
+        "copy": {
+          "x": 64,
+          "y": 148,
+          "width": 1152,
+          "height": 337.984375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 64,
+          "y": 1503.625,
+          "width": 1152,
+          "height": 1290.828125,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 2894.453125,
+          "width": 1280,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-50.png",
+      "width": 1280,
+      "height": 600,
+      "progress": 0.5,
+      "state": {
+        "time": 7841.100000143051,
+        "scrollY": 360,
+        "viewport": {
+          "width": 1280,
+          "height": 600,
+          "scrollX": 0,
+          "documentScrollWidth": 1280
+        },
+        "headerPlan": {
+          "x": 1111.3125,
+          "y": 13.5,
+          "width": 104.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.5,
+        "stage": "travel",
+        "cameraPosition": "9.245,3.742,-4.159",
+        "cameraTarget": "1.251,4.457,-14.353",
+        "routeParameter": 0.4058,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -8.520317077636719,
+          "y": 1401.224365234375,
+          "width": 1297.04052734375,
+          "height": 1278.609130859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -94.894775390625,
+          "y": -30.67698860168457,
+          "width": 1242.416015625,
+          "height": 609.8952026367188,
+          "opacity": "0.7876",
+          "transform": "matrix3d(0.943243, 0, -0.0907691, 0, 0, 0.9476, 0, 0, 0.0957884, 0, 0.995402, 0, -95.9424, -23.9856, 0, 1)"
+        },
+        "copy": {
+          "x": 64,
+          "y": 148,
+          "width": 1152,
+          "height": 337.984375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 64,
+          "y": 1323.625,
+          "width": 1152,
+          "height": 1290.828125,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 2714.453125,
+          "width": 1280,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-75.png",
+      "width": 1280,
+      "height": 600,
+      "progress": 0.75,
+      "state": {
+        "time": 9137.5,
+        "scrollY": 540,
+        "viewport": {
+          "width": 1280,
+          "height": 600,
+          "scrollX": 0,
+          "documentScrollWidth": 1280
+        },
+        "headerPlan": {
+          "x": 1111.3125,
+          "y": 13.5,
+          "width": 104.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 0.75,
+        "stage": "transform",
+        "cameraPosition": "-3.107,4.516,-17.183",
+        "cameraTarget": "-0.994,-1.852,-28.242",
+        "routeParameter": 0.6397,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -8.520317077636719,
+          "y": 1221.224365234375,
+          "width": 1297.04052734375,
+          "height": 1278.609130859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -51.25831604003906,
+          "y": -8.451739311218262,
+          "width": 754.8845825195312,
+          "height": 389.9964599609375,
+          "opacity": "0.15",
+          "transform": "matrix3d(0.509951, 0, -0.206034, 0, 0, 0.55, 0, 0, 0.374607, 0, 0.927184, 0, -384, -96, 0, 1)"
+        },
+        "copy": {
+          "x": 64,
+          "y": 148,
+          "width": 1152,
+          "height": 337.984375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 64,
+          "y": 1143.625,
+          "width": 1152,
+          "height": 1290.828125,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 2534.453125,
+          "width": 1280,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-100.png",
+      "width": 1280,
+      "height": 600,
+      "progress": 1,
+      "state": {
+        "time": 9953.900000095367,
+        "scrollY": 720,
+        "viewport": {
+          "width": 1280,
+          "height": 600,
+          "scrollX": 0,
+          "documentScrollWidth": 1280
+        },
+        "headerPlan": {
+          "x": 1111.3125,
+          "y": 13.5,
+          "width": 104.6875,
+          "height": 44,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "progress": 1,
+        "stage": "transform",
+        "cameraPosition": "-2.217,-0.239,-26.068",
+        "cameraTarget": "3.032,-1.689,-37.575",
+        "routeParameter": 0.78,
+        "context": "ready",
+        "handoff": "metallic",
+        "handoffProgress": 0,
+        "metallicStroke": "16px",
+        "metallic": {
+          "x": -8.520317077636719,
+          "y": 1041.224365234375,
+          "width": 1297.04052734375,
+          "height": 1278.609130859375,
+          "opacity": "0.85",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.978148, 0.207912, 0, 0, -0.207912, 0.978148, 0, 0, 0, 0, 1)"
+        },
+        "photo": {
+          "x": -51.25831604003906,
+          "y": -8.45074462890625,
+          "width": 754.8845825195312,
+          "height": 389.99639892578125,
+          "opacity": "0.15",
+          "transform": "matrix3d(0.509951, 0, -0.206034, 0, 0, 0.55, 0, 0, 0.374607, 0, 0.927184, 0, -384, -96, 0, 1)"
+        },
+        "copy": {
+          "x": 64,
+          "y": 148.0009765625,
+          "width": 1152,
+          "height": 337.984375,
+          "opacity": "1",
+          "transform": "none"
+        },
+        "route": {
+          "x": 64,
+          "y": 963.625,
+          "width": 1152,
+          "height": 1290.828125,
+          "opacity": "0.2",
+          "transform": "none"
+        },
+        "threshold": {
+          "x": 0,
+          "y": 2354.453125,
+          "width": 1280,
+          "height": 900,
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-film-framed.png",
+      "width": 1280,
+      "height": 600,
+      "chapter": "film",
+      "name": "framed",
+      "geometry": {
+        "width": 890.255615234375,
+        "height": 487.199951171875,
+        "transform": "matrix(0.84, 0, 0, 0.84, 0, 0)"
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-film-expanded.png",
+      "width": 1280,
+      "height": 600,
+      "chapter": "film",
+      "name": "expanded",
+      "geometry": {
+        "width": 1208.2041015625,
+        "height": 661.199951171875,
+        "transform": "matrix(1.14, 0, 0, 1.14, 0, 0)"
+      }
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-signature.png",
+      "width": 1280,
+      "height": 600,
+      "chapter": "signature"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-services.png",
+      "width": 1280,
+      "height": 600,
+      "chapter": "services"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-motion\\1280x600-arrival.png",
+      "width": 1280,
+      "height": 600,
+      "chapter": "arrival"
+    }
+  ],
+  "gaps": [
+    "Independent rendered frame/playback judgment is required; automated geometry does not certify creative acceptance."
+  ],
+  "legalNetwork": [
+    {
+      "url": "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+      "bytes": 34004,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+      "bytes": 9688,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+      "bytes": 14378,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+      "bytes": 26963,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+      "bytes": 748,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/256vca4onmbvc.js",
+      "bytes": 73221,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+      "bytes": 7165,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+      "bytes": 166217,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+      "bytes": 228919,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+      "bytes": 123118,
+      "markers": []
+    },
+    {
+      "url": "http://localhost:3043/_next/static/chunks/34ysitat8cgg1.js",
+      "bytes": 125709,
+      "markers": []
+    }
+  ],
+  "finishedAt": "2026-10-07T10:36:11.538Z"
+}
