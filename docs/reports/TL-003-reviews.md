@@ -321,3 +321,143 @@ Final decision: M03 including M03-R1 APPROVED; QM03 APPROVED. No blocking correc
 or mandatory phase3 gate remains. Save the exact scoped checkpoint, then dispatch
 T04/QT04. This is engineering/design-conformance review, not user creative approval,
 full TL-003 completion, main merge authorization or deployment.
+
+## T04 internal static composition review — 8 October 2026
+
+Reviewer: independent selected Astra `/root/astra_hub_resume`; fresh Sol successors
+`/root/astra_hub_resume/sol_hub` and `/root/astra_hub_resume/sol_hub_qa` were accepted
+with explicit `gpt-6.1-sol`, high effort and no inherited context. Root runtime remains
+unverified. The original partial static source was written by absent earlier Sol;
+the reviewer made no application edits. This is the pre-enhancement internal gate,
+not formal T04 approval or production acceptance.
+
+Static base: `39f7e7edc6b80a73be8774c4b15fbead10cb4133` plus four contracted source
+files. SHA256 at review: TurkeyHub `5753661544e41222308dd942372cd1f3c2fe1a9dd43ad9fa520100fb75b8dc00`,
+recovery-hub.css `7fcbc7f60e5a9404b6fb457ec1ff53f14680a22ae518e36f18883cdf50f1153d`,
+Pages `5c6c6940cbb992b43d786d2b4842f0b88c0ddf8d3a861ea3a2017b7c6ea2a7fe`,
+JourneyBuilder `e1753083a4e021c5ca2acf3e7091d044633f11ed1961fa440142dd5849b93bd6`.
+
+Actually decoded and inspected saved Chromium dev3053 PNGs under
+`tmp/frontend-qa/t04-worker/`: EN1440 chapters01/02/04/05/08/09, complete selected
+explorer and builder, complete Black Sea/nature scenes and final ordered itinerary;
+EN390 chapters03/05/06; AR390 chapters01/07/08/09 and coast filter; TR1280
+chapters01/03/07. Static-worker.json records four direct-navigation ten-chapter
+compositions and behavior-worker.json records keyboard/order/Contact/locale plus
+Arabic no-JS/reduced checks. Those worker assertions are preliminary evidence,
+not a substitute for the final production helper/core verification.
+
+Visual/hierarchy: the oversized editorial opening, four category rows, dark three-part
+explorer, concise add explanation/count, compact grouped directory, unequal source
+scenes, shared builder, sourced trust, deliberately smaller international chapter
+and contextual final arrival form a clear journey. Readable mobile and connected
+Arabic layouts preserve the hierarchy. Geography and photographs retain orientation.
+The hero caption correctly says Türkiye / Trip Line; generic source media is not
+given an unsupported location assertion. Source2019 and Company Profile2025 labels
+are explicit. The source image/scenes and controls avoid twelve equal large cards.
+
+Architecture/scope: Pages changes only Türkiye dispatch; builder adds optional
+presentation props with homepage defaults intact. Hub explicitly imports reused
+styles, reads validated global itinerary and leaves dates/travelers in the shared
+local form. No new dependency, backend claim, publication or data authority.
+Existing full builder element crop contains sticky-header/skip-link capture artifacts;
+fresh clean EN/AR heading/controls evidence is requested before finalizing this
+internal gate. No visual redesign or broad implementation correction is requested.
+Production, timing/cleanup, small-bound matrix and full core acceptance remain pending.
+
+Internal gate finalized 8 October 02:10 UTC: PASS. Fresh
+`resume-static-worker.json` confirms those unchanged four hashes and native
+EN1440x900 / AR390x844 captures. Reviewer actually decoded
+`resume-static-en-1440-builder-heading.png`,
+`resume-static-ar-390-builder-heading.png` and supplemental
+`resume-static-ar-390-builder-complete-clean.png`: heading sits clear below the
+header; all twelve controls, type, dates/flex, travelers, ordered summary and Plan
+are readable. The extended Arabic capture is explicitly a1851px section crop from
+a2092px viewport, not the normal phone viewport proof; native heading/controls
+captures supply that context. Root independently checked native Arabic heading.
+No blocking static composition correction remains. Permit only contracted native
+enhancement: finite550ms selected-pin feedback without coordinate transforms,
+one-time1000ms route drawing/final node and800ms editorial media mask reveal,
+with calm/reduced/SaveData final-state bypass and lifecycle cleanup. Formal T04 and
+QT04 stay IN_PROGRESS pending exact frozen-source production checks and independent
+actual timing/rendered review. This internal gate does not approve the full task.
+
+### T04 enhanced-source review in progress — 8 October, 09:30 UTC
+
+The same reviewer inspected the final source/CSS and strict T04 delivery, and
+independently matched all four hashes. Native observer/WeakSet logic runs each
+artwork once, disconnects on cleanup, removes capability-guarded connection listeners
+and restores visited elements without replay. Pin feedback uses a finite box shadow,
+leaving geography and44px targets unchanged. Text/actions are never hidden by the
+new layer. There is no new scroll clock, canvas, dependency or frame-based React state.
+
+Actually decoded dev enhanced-side initial/moving/settled, final moving/settled and
+pin-moving images with enhancement-worker.json performance samples: the photo mask
+opens without moving source imagery, the selection pulse is restrained and the final
+bronze line resolves coherently behind readable content. All transitions finish;
+reduced, runtime SaveData, restored preference and route-unmount evidence is explicit.
+The dev final-moving frame is already1066ms into the1000ms draw, so it cannot prove
+intermediate drawing pace. Production helper now records real rAF intermediate values
+and actual browser videos for that final review. No source correction is requested.
+
+Root independently built the exact frozen source and reported fresh typecheck/lint/
+32tests PASS; default public JSON independently read PASS120routes/6screens/5groups/
+zeroerrors. This includes new ordered hub→Contact service/first destination/full
+itinerary/message plus validation, stale edits and locale preservation. Fresh
+production fullpage hub EN1280/AR390 images were actually decoded for overall ten-part
+rhythm; their extreme full heights reduce text resolution, so they do not replace
+native chapter captures. Root default V3 and QT04 production helper remain pending.
+T04 is REVIEWING with released application ownership; no final approval yet.
+
+### Final T04 / QT04 review — 8 October 2026, 14:36 UTC
+
+REVIEW — T04 Türkiye hub and QT04 verifier, exact contracts and frozen delivery
+hashes above. Independent reviewer: selected Astra `/root/astra_hub_resume`;
+selected Sol workers `/root/astra_hub_resume/sol_hub` and `sol_hub_qa` implemented.
+Result: PASS. Final source remains `39f7e7ed` plus exact six frozen app/QA files;
+same hashes independently confirmed after the interruption. No lead app edits.
+
+Evidence: [dated manifest](../qa/2026-10-08-recovery/README.md), required command
+logs, default public120routes/6screens/5groups and V3 sixty normal captures/16groups,
+all PASS with zero unexpected errors. First production hub helper PASS12cases/
+72screens/4groups at09:39:54–09:41:34UTC; eight source/shared/QA hashes match.
+Actual selected production EN map, AR map, EN phone builder, TR ordered local-field
+builder, Arabic source scene and EN sourced proof captures were decoded and examined.
+They confirm layout hierarchy, readable native controls, connected Arabic, natural
+geography, finite selected feedback and honest sourced facts. Complete static
+gate and clean heading evidence remain applicable; no composition changed afterward.
+
+Motion review: the actually decoded corrected R3 EN/AR33frame sheets show different
+recorded scenes and partial-to-complete route states at real0.25s intervals; their
+recordings are preserved. The reviewer checked decode metadata and actual distinct
+frames. The route progresses in about1s without displacing text/actions, the550ms
+selection pulse directs attention once, and800ms media masks preserve photo framing.
+EN rAF route time0/233/417/667/1000ms corresponds to offset1/.414/.166/.037/0;
+Arabic actual samples confirm the same restrained native behavior. Dynamic reduced
+mode has zero hub animations, unmasked photos and complete routes; seen artwork
+does not replay after normal mode returns. No geographic transforms, hub pin,
+Lenis/canvas, offscreen frame loop or new framework was introduced.
+
+Accessibility/responsive/UX: native44px map targets, DOM index/directory alternatives,
+all twelve actual selections and four filters, real filtered Explore, global Add/
+dedupe/reorder/remove with focus, drawer, local dates/travelers reset, flexible dates,
+session/locale/query preservation and complete Contact output/stale edits pass.
+Mobile builder/final sticky suppression,360/430/768 bounds, reduced EN/AR and no-JS
+EN/AR/TR directory navigation pass. Root public/V3 confirms shared home defaults,
+short/coarse/fallback navigation and prepared-message behavior remain coherent.
+
+Architecture/performance: scoped imports support fresh direct navigation; shared
+builder defaults stay intact. Source facts/counts/taxonomy/related data untouched.
+Native observer/listener cleanup and finite animations are appropriate; no field
+performance or browser certification is inferred. No blocking findings remain.
+
+Preserved failures: temporary video decoder stalls/AbortError and invalid repeated
+R1/R2 frames are explicitly excluded. Corrected R3 completed before interruption
+and was recovered without rerunning the passing helper. Same QA handle confirmed
+errored/quiescent at14:33UTC, final delivery says browser released, expired ownership
+explicitly reconciled/released. No application/QA source changed during extraction.
+Missing limits: Safari/Firefox, physical devices, software keyboard, assistive
+technology and real-user performance remain unclaimed; final Q12 remains pending.
+
+Final decision: T04 APPROVED; QT04 APPROVED. Save the exact scoped checkpoint,
+then dispatch D05/QD05 under their existing contracts. No optional work opened,
+no user creative acceptance, main merge or deployment authorized by this review.

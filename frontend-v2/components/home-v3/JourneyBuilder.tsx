@@ -9,7 +9,7 @@ import { useJourney } from '../experience/JourneyStore';
 import { Photo } from '../travel/Sections';
 import '@/styles/recovery-home.css';
 
-export function JourneyBuilder({ locale, initial = [] }: { locale: Locale; initial?: string[] }) {
+export function JourneyBuilder({ locale, initial = [], chapter = '12', title }: { locale: Locale; initial?: string[]; chapter?: string; title?: string }) {
   const { destinations: selected, journeyType: service, addDestination, removeDestination, moveDestination, setJourneyType } = useJourney();
   const [dates, setDates] = useState('');
   const [flexible, setFlexible] = useState(true);
@@ -30,8 +30,8 @@ export function JourneyBuilder({ locale, initial = [] }: { locale: Locale; initi
   function remove(id: string) { removeDestination(id); host.current?.querySelector<HTMLInputElement>(`input[value="${id}"]`)?.focus(); }
   const labels = [t('Where', 'أين', 'Nereye'), t('Journey type', 'نوع الرحلة', 'Yolculuk türü'), t('When', 'متى', 'Ne zaman'), t('Who', 'من يرافقك', 'Kimlerle')];
   const flexibleLabel = t('My dates are flexible', 'مواعيدي مرنة', 'Tarihlerim esnek')[locale];
-  return <section ref={host} className="rh-builder" id="journey-builder" data-chapter="12" aria-labelledby="builder-title"><div className="rh-wrap">
-    <div className="rh-section-heading"><span className="rh-kicker">12 / {t('Build your line', 'ارسم مسارك', 'Rotanı oluştur')[locale]}</span><h2 id="builder-title">{copy.builder[locale]}</h2><p>{copy.builderBody[locale]}</p></div>
+  return <section ref={host} className="rh-builder" id="journey-builder" data-chapter={chapter} aria-labelledby="builder-title"><div className="rh-wrap">
+    <div className="rh-section-heading"><span className="rh-kicker">{chapter} / {title || t('Build your line', 'ارسم مسارك', 'Rotanı oluştur')[locale]}</span><h2 id="builder-title">{title || copy.builder[locale]}</h2><p>{copy.builderBody[locale]}</p></div>
     <form action={href(locale, 'contact')} method="get" className="rh-builder-layout">
       <div className="rh-builder-inputs">
         <fieldset className="rh-builder-places"><legend><span>01</span>{labels[0][locale]}</legend><div>{turkishPlaces.map(place => <label key={place.slug}><input type="checkbox" value={place.slug} checked={selected.includes(place.slug)} onChange={event => event.currentTarget.checked ? addDestination(place.slug) : removeDestination(place.slug)} /><span>{place.name[locale]}</span></label>)}</div></fieldset>

@@ -1,0 +1,294 @@
+{
+  "source": "Actual frozen-production Playwright recordings; seek/decode only, no application interaction or synthetic animation seeking",
+  "browser": "153.0.8010.12",
+  "videos": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\recordings\\page@301880e5a84ea262e8573409f6740d59.webm",
+      "contactSheet": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-actual-native-frames-r3.png",
+      "duration": 24.68,
+      "videoWidth": 1440,
+      "videoHeight": 900,
+      "frames": [
+        {
+          "requestedSeconds": 0,
+          "videoCurrentTime": 0.001
+        },
+        {
+          "requestedSeconds": 0.25,
+          "videoCurrentTime": 0.251
+        },
+        {
+          "requestedSeconds": 0.5,
+          "videoCurrentTime": 0.501
+        },
+        {
+          "requestedSeconds": 0.75,
+          "videoCurrentTime": 0.751
+        },
+        {
+          "requestedSeconds": 1,
+          "videoCurrentTime": 1.000999
+        },
+        {
+          "requestedSeconds": 1.25,
+          "videoCurrentTime": 1.251
+        },
+        {
+          "requestedSeconds": 1.5,
+          "videoCurrentTime": 1.501
+        },
+        {
+          "requestedSeconds": 1.75,
+          "videoCurrentTime": 1.751
+        },
+        {
+          "requestedSeconds": 2,
+          "videoCurrentTime": 2.001
+        },
+        {
+          "requestedSeconds": 2.25,
+          "videoCurrentTime": 2.251
+        },
+        {
+          "requestedSeconds": 2.5,
+          "videoCurrentTime": 2.501
+        },
+        {
+          "requestedSeconds": 2.75,
+          "videoCurrentTime": 2.751
+        },
+        {
+          "requestedSeconds": 3,
+          "videoCurrentTime": 3.001
+        },
+        {
+          "requestedSeconds": 3.25,
+          "videoCurrentTime": 3.251
+        },
+        {
+          "requestedSeconds": 3.5,
+          "videoCurrentTime": 3.501
+        },
+        {
+          "requestedSeconds": 3.75,
+          "videoCurrentTime": 3.751
+        },
+        {
+          "requestedSeconds": 4,
+          "videoCurrentTime": 4.001
+        },
+        {
+          "requestedSeconds": 4.25,
+          "videoCurrentTime": 4.251
+        },
+        {
+          "requestedSeconds": 4.5,
+          "videoCurrentTime": 4.501
+        },
+        {
+          "requestedSeconds": 4.75,
+          "videoCurrentTime": 4.751
+        },
+        {
+          "requestedSeconds": 5,
+          "videoCurrentTime": 5.001
+        },
+        {
+          "requestedSeconds": 5.25,
+          "videoCurrentTime": 5.251
+        },
+        {
+          "requestedSeconds": 5.5,
+          "videoCurrentTime": 5.501
+        },
+        {
+          "requestedSeconds": 5.75,
+          "videoCurrentTime": 5.751
+        },
+        {
+          "requestedSeconds": 6,
+          "videoCurrentTime": 6.001
+        },
+        {
+          "requestedSeconds": 6.25,
+          "videoCurrentTime": 6.251
+        },
+        {
+          "requestedSeconds": 6.5,
+          "videoCurrentTime": 6.501
+        },
+        {
+          "requestedSeconds": 6.75,
+          "videoCurrentTime": 6.751
+        },
+        {
+          "requestedSeconds": 7,
+          "videoCurrentTime": 7.001
+        },
+        {
+          "requestedSeconds": 7.25,
+          "videoCurrentTime": 7.251
+        },
+        {
+          "requestedSeconds": 7.5,
+          "videoCurrentTime": 7.501
+        },
+        {
+          "requestedSeconds": 7.75,
+          "videoCurrentTime": 7.751
+        },
+        {
+          "requestedSeconds": 8,
+          "videoCurrentTime": 8.000999
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\recordings\\page@3289d3c36d15b5966f683c085694c24e.webm",
+      "contactSheet": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-actual-native-frames-r3.png",
+      "duration": 18.56,
+      "videoWidth": 390,
+      "videoHeight": 844,
+      "frames": [
+        {
+          "requestedSeconds": 0,
+          "videoCurrentTime": 0.001
+        },
+        {
+          "requestedSeconds": 0.25,
+          "videoCurrentTime": 0.251
+        },
+        {
+          "requestedSeconds": 0.5,
+          "videoCurrentTime": 0.501
+        },
+        {
+          "requestedSeconds": 0.75,
+          "videoCurrentTime": 0.751
+        },
+        {
+          "requestedSeconds": 1,
+          "videoCurrentTime": 1.000999
+        },
+        {
+          "requestedSeconds": 1.25,
+          "videoCurrentTime": 1.251
+        },
+        {
+          "requestedSeconds": 1.5,
+          "videoCurrentTime": 1.501
+        },
+        {
+          "requestedSeconds": 1.75,
+          "videoCurrentTime": 1.751
+        },
+        {
+          "requestedSeconds": 2,
+          "videoCurrentTime": 2.001
+        },
+        {
+          "requestedSeconds": 2.25,
+          "videoCurrentTime": 2.251
+        },
+        {
+          "requestedSeconds": 2.5,
+          "videoCurrentTime": 2.501
+        },
+        {
+          "requestedSeconds": 2.75,
+          "videoCurrentTime": 2.751
+        },
+        {
+          "requestedSeconds": 3,
+          "videoCurrentTime": 3.001
+        },
+        {
+          "requestedSeconds": 3.25,
+          "videoCurrentTime": 3.251
+        },
+        {
+          "requestedSeconds": 3.5,
+          "videoCurrentTime": 3.501
+        },
+        {
+          "requestedSeconds": 3.75,
+          "videoCurrentTime": 3.751
+        },
+        {
+          "requestedSeconds": 4,
+          "videoCurrentTime": 4.001
+        },
+        {
+          "requestedSeconds": 4.25,
+          "videoCurrentTime": 4.251
+        },
+        {
+          "requestedSeconds": 4.5,
+          "videoCurrentTime": 4.501
+        },
+        {
+          "requestedSeconds": 4.75,
+          "videoCurrentTime": 4.751
+        },
+        {
+          "requestedSeconds": 5,
+          "videoCurrentTime": 5.001
+        },
+        {
+          "requestedSeconds": 5.25,
+          "videoCurrentTime": 5.251
+        },
+        {
+          "requestedSeconds": 5.5,
+          "videoCurrentTime": 5.501
+        },
+        {
+          "requestedSeconds": 5.75,
+          "videoCurrentTime": 5.751
+        },
+        {
+          "requestedSeconds": 6,
+          "videoCurrentTime": 6.001
+        },
+        {
+          "requestedSeconds": 6.25,
+          "videoCurrentTime": 6.251
+        },
+        {
+          "requestedSeconds": 6.5,
+          "videoCurrentTime": 6.501
+        },
+        {
+          "requestedSeconds": 6.75,
+          "videoCurrentTime": 6.751
+        },
+        {
+          "requestedSeconds": 7,
+          "videoCurrentTime": 7.001
+        },
+        {
+          "requestedSeconds": 7.25,
+          "videoCurrentTime": 7.251
+        },
+        {
+          "requestedSeconds": 7.5,
+          "videoCurrentTime": 7.501
+        },
+        {
+          "requestedSeconds": 7.75,
+          "videoCurrentTime": 7.751
+        },
+        {
+          "requestedSeconds": 8,
+          "videoCurrentTime": 8.000999
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "startedAt": "2026-10-07T21:08:29.740Z",
+  "base": "http://localhost:3053",
+  "screens": [
+    {
+      "file": "en-1440-chapter-01.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "01",
+      "scrollY": 0
+    },
+    {
+      "file": "en-1440-chapter-02.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "02",
+      "scrollY": 765
+    },
+    {
+      "file": "en-1440-chapter-03.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "03",
+      "scrollY": 1371
+    },
+    {
+      "file": "en-1440-chapter-04.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "04",
+      "scrollY": 2751
+    },
+    {
+      "file": "en-1440-chapter-05.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "05",
+      "scrollY": 3169
+    },
+    {
+      "file": "en-1440-chapter-06.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "06",
+      "scrollY": 4962
+    },
+    {
+      "file": "en-1440-chapter-07.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "07",
+      "scrollY": 8635
+    },
+    {
+      "file": "en-1440-chapter-08.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "08",
+      "scrollY": 9882
+    },
+    {
+      "file": "en-1440-chapter-09.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "09",
+      "scrollY": 10502
+    },
+    {
+      "file": "en-1440-chapter-10.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapter": "10",
+      "scrollY": 10892
+    },
+    {
+      "file": "en-390-chapter-01.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "01",
+      "scrollY": 0
+    },
+    {
+      "file": "en-390-chapter-02.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "02",
+      "scrollY": 835
+    },
+    {
+      "file": "en-390-chapter-03.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "03",
+      "scrollY": 1635
+    },
+    {
+      "file": "en-390-chapter-04.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "04",
+      "scrollY": 3331
+    },
+    {
+      "file": "en-390-chapter-05.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "05",
+      "scrollY": 3973
+    },
+    {
+      "file": "en-390-chapter-06.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "06",
+      "scrollY": 6227
+    },
+    {
+      "file": "en-390-chapter-07.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "07",
+      "scrollY": 9638
+    },
+    {
+      "file": "en-390-chapter-08.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "08",
+      "scrollY": 11279
+    },
+    {
+      "file": "en-390-chapter-09.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "09",
+      "scrollY": 12272
+    },
+    {
+      "file": "en-390-chapter-10.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapter": "10",
+      "scrollY": 12840
+    },
+    {
+      "file": "ar-390-chapter-01.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "01",
+      "scrollY": 0
+    },
+    {
+      "file": "ar-390-chapter-02.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "02",
+      "scrollY": 835
+    },
+    {
+      "file": "ar-390-chapter-03.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "03",
+      "scrollY": 1601
+    },
+    {
+      "file": "ar-390-chapter-04.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "04",
+      "scrollY": 3282
+    },
+    {
+      "file": "ar-390-chapter-05.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "05",
+      "scrollY": 3949
+    },
+    {
+      "file": "ar-390-chapter-06.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "06",
+      "scrollY": 6255
+    },
+    {
+      "file": "ar-390-chapter-07.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "07",
+      "scrollY": 9544
+    },
+    {
+      "file": "ar-390-chapter-08.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "08",
+      "scrollY": 11213
+    },
+    {
+      "file": "ar-390-chapter-09.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "09",
+      "scrollY": 12144
+    },
+    {
+      "file": "ar-390-chapter-10.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "chapter": "10",
+      "scrollY": 12700
+    },
+    {
+      "file": "tr-1280-chapter-01.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "01",
+      "scrollY": 0
+    },
+    {
+      "file": "tr-1280-chapter-02.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "02",
+      "scrollY": 765
+    },
+    {
+      "file": "tr-1280-chapter-03.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "03",
+      "scrollY": 1371
+    },
+    {
+      "file": "tr-1280-chapter-04.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "04",
+      "scrollY": 2652
+    },
+    {
+      "file": "tr-1280-chapter-05.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "05",
+      "scrollY": 3070
+    },
+    {
+      "file": "tr-1280-chapter-06.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "06",
+      "scrollY": 4747
+    },
+    {
+      "file": "tr-1280-chapter-07.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "07",
+      "scrollY": 8393
+    },
+    {
+      "file": "tr-1280-chapter-08.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "08",
+      "scrollY": 9605
+    },
+    {
+      "file": "tr-1280-chapter-09.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "09",
+      "scrollY": 10250
+    },
+    {
+      "file": "tr-1280-chapter-10.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "chapter": "10",
+      "scrollY": 10640
+    }
+  ],
+  "checks": [
+    "en 1440x900: fresh direct styles, ten chapters, 12 index/directory, zero canvas, no overflow, Add ordered count/builder/final, coast filter4",
+    "en 390x844: fresh direct styles, ten chapters, 12 index/directory, zero canvas, no overflow, Add ordered count/builder/final, coast filter4, mobile sticky suppressed at builder/final",
+    "ar 390x844: fresh direct styles, ten chapters, 12 index/directory, zero canvas, no overflow, Add ordered count/builder/final, coast filter4, mobile sticky suppressed at builder/final",
+    "tr 1280x800: fresh direct styles, ten chapters, 12 index/directory, zero canvas, no overflow, Add ordered count/builder/final, coast filter4"
+  ],
+  "errors": [],
+  "status": "passed"
+}

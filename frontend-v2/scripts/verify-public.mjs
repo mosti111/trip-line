@@ -1,7 +1,7 @@
 import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs';
 import path from 'node:path';
-import { watchRuntime, assertRecoveryHome, openingStage, filmLifecycle } from './verify-recovery-motion.mjs';
+import { watchRuntime, assertRecoveryHome, openingStage, filmLifecycle, resetJourney } from './verify-recovery-motion.mjs';
 if (process.env.QA_STAGE === 'static') {
  await (await import('./verify-recovery-static.mjs')).verifyRecoveryStatic('public');
  process.exit(0);
@@ -23,6 +23,7 @@ try {
  const page=await browser.newPage({viewport:{width:1440,height:1000}});
  watchRuntime(page,report,'public');
  await page.goto(base+'/en',{waitUntil:'networkidle'});
+ await resetJourney(page);
  await expect(page.locator('.ribbon-ready canvas')).toBeVisible({timeout:15000});
  await assertRecoveryHome(page,'en');await openingStage(page,.4);await expect.poll(()=>page.locator('.rh-arrival-photo').evaluate(el=>getComputedStyle(el).transform)).not.toBe('none');
  await filmLifecycle(page);
@@ -31,12 +32,14 @@ try {
  await expect(page.locator('.rh-beyond .journey-text-link')).toHaveAttribute('href','/en/destinations');await page.locator('.rh-beyond .journey-text-link').click();await page.waitForURL('**/destinations');await expect(page.locator('h1')).toBeVisible();
  report.checks.push('Actual WebGL, fifteen chapters, decoded chapter06 film/play/pause/visibility/offscreen, opening motion, synchronized Türkiye Explore/global Add ordered context, secondary Beyond navigation');
  await page.goto(base+'/en/destinations/turkiye');await page.locator('.rt-filters').getByRole('button',{name:'The Black Sea',exact:true}).click();await expect(page.locator('.rt-directory-row')).toHaveCount(3);
- await page.locator('.brief-fields select[name=destination]').selectOption('uzungol');await page.locator('.brief-fields button').click();await page.waitForURL('**/contact?**');await expect(page.locator('#inquiry-service')).toHaveCount(1);await expect(page.locator('#inquiry-destination')).toHaveValue('uzungol');await expect(page.locator('#inquiry-service')).toHaveValue('tours');
+ const hubExplorer=page.locator('.recovery-hub .rt-explorer');await hubExplorer.locator('.rt-index button').filter({hasText:'Uzungöl'}).click();await expect(hubExplorer.locator('h3')).toHaveText('Uzungöl');await hubExplorer.locator('.rt-preview-actions button').click();
+ const hubBuilder=page.locator('.recovery-hub #journey-builder');await expect(hubBuilder.locator('input[name=journey]')).toHaveValue('rize-ayder,uzungol');await hubBuilder.locator('#builder-service').selectOption('tours');await hubBuilder.locator('button[type=submit]').click();await page.waitForURL('**/contact?**');
+ expect(new URL(page.url()).searchParams.get('journey')).toBe('rize-ayder,uzungol');expect(new URL(page.url()).searchParams.get('destination')).toBe('rize-ayder');expect(new URL(page.url()).searchParams.get('service')).toBe('tours');await expect(page.locator('#inquiry-service')).toHaveCount(1);await expect(page.locator('#inquiry-destination')).toHaveValue('rize-ayder');await expect(page.locator('#inquiry-service')).toHaveValue('tours');await expect(page.locator('#inquiry-message')).toHaveValue('Places I would like to visit: Rize & Ayder → Uzungöl');
  await page.getByRole('button',{name:'Prepare my inquiry'}).click();await expect(page.locator('#inquiry-name')).toBeFocused();
  await page.locator('#inquiry-name').fill('Frontend QA');await page.locator('#inquiry-email').fill('qa@example.com');await page.locator('#inquiry-message').fill('Please help us plan Uzungöl and Trabzon.');await page.locator('#inquiry-consent').check();await page.getByRole('button',{name:'Prepare my inquiry'}).click();await expect(page.locator('.inquiry-result')).toBeVisible();const message=new URL(await page.locator('.inquiry-result a').first().getAttribute('href')).searchParams.get('text');expect(message).toContain('Uzungöl');expect(message).toContain('Frontend QA');
  await page.locator('#inquiry-message').fill('Updated request');await expect(page.locator('.inquiry-result')).toHaveCount(0);
- report.checks.push('Regional filter, planner selection handoff, validation focus, accurate WhatsApp message, stale message cleared on edit');
- await page.locator('.header .languages a[lang=ar]').click();await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('#inquiry-destination')).toHaveValue('uzungol');await page.goto(base+'/');expect(new URL(page.url()).pathname).toBe('/ar');
+ report.checks.push('Regional filter, shared hub builder retains ordered context and hands service/first destination/full journey to Contact, validation focus, accurate WhatsApp message, stale message cleared on edit');
+ await page.locator('.header .languages a[lang=ar]').click();await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('#inquiry-destination')).toHaveValue('rize-ayder');await expect(page.locator('#inquiry-service')).toHaveValue('tours');expect(new URL(page.url()).searchParams.get('journey')).toBe('rize-ayder,uzungol');await page.goto(base+'/');expect(new URL(page.url()).pathname).toBe('/ar');
  await page.setViewportSize({width:390,height:844});await page.locator('.menu-button').click();await expect(page.locator('.nav-dialog')).toBeVisible();await page.keyboard.press('Escape');await expect(page.locator('.nav-dialog')).not.toBeVisible();await expect(page.locator('.menu-button')).toBeFocused();
  report.checks.push('Language preserves context and persists cookie, Arabic RTL, modal Escape and focus return');
  for(const [name,url,width,height] of [['home-final','/en',1440,1000],['turkiye-desktop','/en/destinations/turkiye',1280,900],['turkiye-arabic','/ar/destinations/turkiye',390,844],['rize-mobile','/ar/destinations/turkiye/rize-ayder',360,800],['antalya-tablet','/tr/destinations/turkiye/antalya',768,1024],['contact-final','/en/contact?destination=trabzon',430,932]]){

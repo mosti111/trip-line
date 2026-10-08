@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "results": [
+    "keyboard selection, reorder focus, builder dates/travelers/service/ordered Contact query, locale preserves query",
+    "{\"javaScriptEnabled\":false} Arabic native10chapters/12inventory/nooverflow/nocanvas",
+    "{\"reducedMotion\":\"reduce\"} Arabic native10chapters/12inventory/nooverflow/nocanvas"
+  ],
+  "initialAttempts": [
+    "ambiguous language selector corrected to header",
+    "dev navigation exceeded 5-second html assertion; explicit URL/load waits added"
+  ]
+}
