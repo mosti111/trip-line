@@ -1,0 +1,386 @@
+{
+  "startedAt": "2026-10-09T00:49:19.808Z",
+  "base": "http://localhost:3043",
+  "cases": [
+    {
+      "label": "application",
+      "snapshots": [
+        {
+          "step": "focused overview",
+          "hash": "#place-overview",
+          "scrollY": 660,
+          "active": {
+            "tag": "SELECT",
+            "id": "destination-chapter",
+            "class": "",
+            "text": "OverviewExperiencePlanTrip LineContinue",
+            "top": 253,
+            "bottom": 297
+          },
+          "value": "place-overview",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 3100.7999999970198
+            }
+          ]
+        },
+        {
+          "step": "after ArrowDown/native hash",
+          "hash": "#place-experience",
+          "scrollY": 2180,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "",
+            "text": "Skip to contentDiscover TürkiyeTÜRKİYE / 12Twelve places to begin.Featured placesIstanbulCappadociaR",
+            "top": -2180,
+            "bottom": 8864.75
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 3100.7999999970198
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 3136.7000000029802
+            }
+          ]
+        },
+        {
+          "step": "after Enter",
+          "hash": "#place-experience",
+          "scrollY": 2180,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "",
+            "text": "Skip to contentDiscover TürkiyeTÜRKİYE / 12Twelve places to begin.Featured placesIstanbulCappadociaR",
+            "top": -2180,
+            "bottom": 8864.75
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 3100.7999999970198
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 3136.7000000029802
+            }
+          ]
+        },
+        {
+          "step": "Tab continuation",
+          "hash": "#place-experience",
+          "scrollY": 5025,
+          "active": {
+            "tag": "BUTTON",
+            "id": "",
+            "class": "journey-action journey-action-outline ",
+            "text": "Add to journey",
+            "top": 442.234375,
+            "bottom": 490.234375
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 3100.7999999970198
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 3136.7000000029802
+            },
+            {
+              "type": "focusin",
+              "tag": "BUTTON",
+              "id": "",
+              "class": "journey-action journey-action-outline ",
+              "hash": "#place-experience",
+              "at": 4175.899999991059
+            }
+          ]
+        },
+        {
+          "step": "reverse Tab",
+          "hash": "#place-experience",
+          "scrollY": 1564,
+          "active": {
+            "tag": "A",
+            "id": "",
+            "class": "journey-text-link",
+            "text": "Explore Türkiye",
+            "top": 444.21875,
+            "bottom": 488.21875
+          },
+          "value": "place-plan",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 3100.7999999970198
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 3136.7000000029802
+            },
+            {
+              "type": "focusin",
+              "tag": "BUTTON",
+              "id": "",
+              "class": "journey-action journey-action-outline ",
+              "hash": "#place-experience",
+              "at": 4175.899999991059
+            },
+            {
+              "type": "focusout",
+              "tag": "BUTTON",
+              "id": "",
+              "class": "journey-action journey-action-outline ",
+              "hash": "#place-experience",
+              "at": 4205.399999991059
+            },
+            {
+              "type": "focusin",
+              "tag": "A",
+              "id": "",
+              "class": "journey-text-link",
+              "hash": "#place-experience",
+              "at": 4207.20000000298
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native baseline",
+      "snapshots": [
+        {
+          "step": "focused overview",
+          "hash": "#place-overview",
+          "scrollY": 815,
+          "active": {
+            "tag": "SELECT",
+            "id": "destination-chapter",
+            "class": "",
+            "text": "OverviewExperiencePlan",
+            "top": 85,
+            "bottom": 104
+          },
+          "value": "place-overview",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 685.9000000059605
+            }
+          ]
+        },
+        {
+          "step": "after ArrowDown/native hash",
+          "hash": "#place-experience",
+          "scrollY": 1815,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "",
+            "text": "Native baselineChaptersOverviewExperiencePlanOverviewContinueExperienceNext actionable contentPlan",
+            "top": -1815,
+            "bottom": 2155
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 685.9000000059605
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 695.2999999970198
+            }
+          ]
+        },
+        {
+          "step": "after Enter",
+          "hash": "#place-experience",
+          "scrollY": 1815,
+          "active": {
+            "tag": "BODY",
+            "id": "",
+            "class": "",
+            "text": "Native baselineChaptersOverviewExperiencePlanOverviewContinueExperienceNext actionable contentPlan",
+            "top": -1815,
+            "bottom": 2155
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 685.9000000059605
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 695.2999999970198
+            }
+          ]
+        },
+        {
+          "step": "Tab continuation",
+          "hash": "#place-experience",
+          "scrollY": 1815,
+          "active": {
+            "tag": "BUTTON",
+            "id": "experience-next",
+            "class": "",
+            "text": "Next actionable content",
+            "top": 222,
+            "bottom": 243
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 685.9000000059605
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 695.2999999970198
+            },
+            {
+              "type": "focusin",
+              "tag": "BUTTON",
+              "id": "experience-next",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 1566.4000000059605
+            }
+          ]
+        },
+        {
+          "step": "reverse Tab",
+          "hash": "#place-experience",
+          "scrollY": 624,
+          "active": {
+            "tag": "A",
+            "id": "",
+            "class": "",
+            "text": "Continue",
+            "top": 413,
+            "bottom": 430
+          },
+          "value": "place-experience",
+          "events": [
+            {
+              "type": "focusin",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-overview",
+              "at": 685.9000000059605
+            },
+            {
+              "type": "focusout",
+              "tag": "SELECT",
+              "id": "destination-chapter",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 695.2999999970198
+            },
+            {
+              "type": "focusin",
+              "tag": "BUTTON",
+              "id": "experience-next",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 1566.4000000059605
+            },
+            {
+              "type": "focusout",
+              "tag": "BUTTON",
+              "id": "experience-next",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 1576.4000000059605
+            },
+            {
+              "type": "focusin",
+              "tag": "A",
+              "id": "",
+              "class": "",
+              "hash": "#place-experience",
+              "at": 1577.0999999940395
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T00:49:27.018Z"
+}
