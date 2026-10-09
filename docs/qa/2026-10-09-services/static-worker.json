@@ -1,0 +1,1223 @@
+{
+  "startedAt": "2026-10-09T01:17:09.340Z",
+  "base": "http://localhost:3053",
+  "source": {
+    "components/services/TravelServicesHub.tsx": "a5314c0f7ab73a9221c59c593795a8ed3a460725467eadc9f74fff5bcf027911",
+    "components/services/ServiceExperience.tsx": "705a4ef40c027b30ec8f82f2e49309f545809021806acfb589ee5723ca542985",
+    "components/services/ServicePrimitives.tsx": "120d1f389d3e990eb126562ffe1bf4232c452679ed7efacbef8ff7e15a788968",
+    "components/travel/Pages.tsx": "b91dfc445fac1e16a63e0053fb631fbb38d6045d260e9177aaf6e5e764b2d659",
+    "styles/recovery-services.css": "8f0d02f980785d8a08e2ec31c3a19df89f68b9af8cafd00f628a2d475c3acf56"
+  },
+  "cases": [
+    {
+      "locale": "en",
+      "slug": "hub",
+      "width": 1440,
+      "height": 900,
+      "chapters": [
+        {
+          "name": "needs",
+          "top": 850,
+          "height": 1044.453125
+        },
+        {
+          "name": "inspiration",
+          "top": 1894.453125,
+          "height": 1203.625
+        },
+        {
+          "name": "secondary",
+          "top": 3098.078125,
+          "height": 887.84375
+        },
+        {
+          "name": "final",
+          "top": 3985.921875,
+          "height": 620
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "hub",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "needs",
+          "top": 890,
+          "height": 1574.734375
+        },
+        {
+          "name": "inspiration",
+          "top": 2464.734375,
+          "height": 1736.53125
+        },
+        {
+          "name": "secondary",
+          "top": 4201.265625,
+          "height": 1172.125
+        },
+        {
+          "name": "final",
+          "top": 5373.390625,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "tours",
+      "width": 1440,
+      "height": 900,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 850,
+          "height": 337.828125
+        },
+        {
+          "name": "points",
+          "top": 1187.828125,
+          "height": 625.8125
+        },
+        {
+          "name": "inspiration",
+          "top": 1813.640625,
+          "height": 1203.625
+        },
+        {
+          "name": "process",
+          "top": 3017.265625,
+          "height": 645.390625
+        },
+        {
+          "name": "plan",
+          "top": 3662.65625,
+          "height": 492.171875
+        },
+        {
+          "name": "related",
+          "top": 4154.828125,
+          "height": 657.1875
+        },
+        {
+          "name": "final",
+          "top": 4812.015625,
+          "height": 664.15625
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "tours",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 890,
+          "height": 592.140625
+        },
+        {
+          "name": "points",
+          "top": 1482.140625,
+          "height": 756.90625
+        },
+        {
+          "name": "inspiration",
+          "top": 2239.046875,
+          "height": 1736.53125
+        },
+        {
+          "name": "process",
+          "top": 3975.578125,
+          "height": 824.03125
+        },
+        {
+          "name": "plan",
+          "top": 4799.609375,
+          "height": 695.328125
+        },
+        {
+          "name": "related",
+          "top": 5494.9375,
+          "height": 728.109375
+        },
+        {
+          "name": "final",
+          "top": 6223.046875,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "visa-assistance",
+      "width": 1440,
+      "height": 900,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 850,
+          "height": 337.828125
+        },
+        {
+          "name": "points",
+          "top": 1187.828125,
+          "height": 625.8125
+        },
+        {
+          "name": "process",
+          "top": 1813.640625,
+          "height": 645.390625
+        },
+        {
+          "name": "plan",
+          "top": 2459.03125,
+          "height": 518.0625
+        },
+        {
+          "name": "related",
+          "top": 2977.09375,
+          "height": 657.1875
+        },
+        {
+          "name": "final",
+          "top": 3634.28125,
+          "height": 664.15625
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "visa-assistance",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 890,
+          "height": 615.53125
+        },
+        {
+          "name": "points",
+          "top": 1505.53125,
+          "height": 756.90625
+        },
+        {
+          "name": "process",
+          "top": 2262.4375,
+          "height": 824.03125
+        },
+        {
+          "name": "plan",
+          "top": 3086.46875,
+          "height": 774.984375
+        },
+        {
+          "name": "related",
+          "top": 3861.453125,
+          "height": 779.28125
+        },
+        {
+          "name": "final",
+          "top": 4640.734375,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "corporate",
+      "width": 1440,
+      "height": 900,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 887.859375,
+          "height": 337.828125
+        },
+        {
+          "name": "points",
+          "top": 1225.6875,
+          "height": 625.8125
+        },
+        {
+          "name": "inspiration",
+          "top": 1851.5,
+          "height": 1203.625
+        },
+        {
+          "name": "process",
+          "top": 3055.125,
+          "height": 645.390625
+        },
+        {
+          "name": "plan",
+          "top": 3700.515625,
+          "height": 492.171875
+        },
+        {
+          "name": "related",
+          "top": 4192.6875,
+          "height": 657.1875
+        },
+        {
+          "name": "final",
+          "top": 4849.875,
+          "height": 664.15625
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "slug": "corporate",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 890,
+          "height": 592.140625
+        },
+        {
+          "name": "points",
+          "top": 1482.140625,
+          "height": 756.90625
+        },
+        {
+          "name": "inspiration",
+          "top": 2239.046875,
+          "height": 1713.140625
+        },
+        {
+          "name": "process",
+          "top": 3952.1875,
+          "height": 824.03125
+        },
+        {
+          "name": "plan",
+          "top": 4776.21875,
+          "height": 695.328125
+        },
+        {
+          "name": "related",
+          "top": 5471.546875,
+          "height": 808.859375
+        },
+        {
+          "name": "final",
+          "top": 6280.40625,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "ar",
+      "slug": "hub",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "needs",
+          "top": 890,
+          "height": 1549.421875
+        },
+        {
+          "name": "inspiration",
+          "top": 2439.421875,
+          "height": 1666.578125
+        },
+        {
+          "name": "secondary",
+          "top": 4106,
+          "height": 1155.25
+        },
+        {
+          "name": "final",
+          "top": 5261.25,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "rtl"
+      }
+    },
+    {
+      "locale": "ar",
+      "slug": "visa-assistance",
+      "width": 390,
+      "height": 844,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 890,
+          "height": 543.5625
+        },
+        {
+          "name": "points",
+          "top": 1433.5625,
+          "height": 693.640625
+        },
+        {
+          "name": "process",
+          "top": 2127.203125,
+          "height": 783.328125
+        },
+        {
+          "name": "plan",
+          "top": 2910.53125,
+          "height": 701.40625
+        },
+        {
+          "name": "related",
+          "top": 3611.9375,
+          "height": 736.015625
+        },
+        {
+          "name": "final",
+          "top": 4347.953125,
+          "height": 590
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "rtl"
+      }
+    },
+    {
+      "locale": "tr",
+      "slug": "hub",
+      "width": 1280,
+      "height": 800,
+      "chapters": [
+        {
+          "name": "needs",
+          "top": 850,
+          "height": 984.109375
+        },
+        {
+          "name": "inspiration",
+          "top": 1834.109375,
+          "height": 1194.984375
+        },
+        {
+          "name": "secondary",
+          "top": 3029.09375,
+          "height": 879.203125
+        },
+        {
+          "name": "final",
+          "top": 3908.296875,
+          "height": 620
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "tr",
+      "slug": "corporate",
+      "width": 1280,
+      "height": 800,
+      "chapters": [
+        {
+          "name": "summary",
+          "top": 850,
+          "height": 337.828125
+        },
+        {
+          "name": "points",
+          "top": 1187.828125,
+          "height": 625.8125
+        },
+        {
+          "name": "inspiration",
+          "top": 1813.640625,
+          "height": 1169.09375
+        },
+        {
+          "name": "process",
+          "top": 2982.734375,
+          "height": 645.390625
+        },
+        {
+          "name": "plan",
+          "top": 3628.125,
+          "height": 492.171875
+        },
+        {
+          "name": "related",
+          "top": 4120.296875,
+          "height": 612.8125
+        },
+        {
+          "name": "final",
+          "top": 4733.109375,
+          "height": 648.6875
+        }
+      ],
+      "measure": {
+        "overflow": false,
+        "canvas": 0,
+        "images": true,
+        "dir": "ltr"
+      }
+    },
+    {
+      "audience": "travel",
+      "anchor": true
+    },
+    {
+      "audience": "business",
+      "anchor": true
+    },
+    {
+      "audience": "pilgrimage",
+      "anchor": true
+    },
+    {
+      "flow": "service Plan→Contact",
+      "url": "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+      "storedTypeUnchanged": true
+    },
+    {
+      "mode": "nojs",
+      "content": true
+    }
+  ],
+  "audit": [
+    {
+      "slug": "tours",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "tours",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "visa-assistance",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "visa-assistance",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "corporate",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "corporate",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "visa-assistance",
+      "locale": "ar",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/ar/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/ar/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/ar/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "corporate",
+      "locale": "tr",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/tr/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/tr/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/tr/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "tours",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tours&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "hajj-umrah",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "camps",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=camps&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=camps&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=camps&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "corporate",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=corporate&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "flights-hotels",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=flights-hotels&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=flights-hotels&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=flights-hotels&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "tailor-made",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=tailor-made&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tailor-made&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=tailor-made&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "events",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=events&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=events&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=events&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "training",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=training&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=training&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=training&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    },
+    {
+      "slug": "visa-assistance",
+      "locale": "en",
+      "sourceExact": true,
+      "plans": [
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya",
+        "http://localhost:3053/en/contact?service=visa-assistance&journey=antalya%2Cistanbul&destination=antalya"
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "file": "static-en-hub-1440-hero.png",
+      "at": "2026-10-09T01:17:17.096Z"
+    },
+    {
+      "file": "static-en-hub-1440-needs.png",
+      "at": "2026-10-09T01:17:17.732Z"
+    },
+    {
+      "file": "static-en-hub-1440-needs-lower.png",
+      "at": "2026-10-09T01:17:18.110Z"
+    },
+    {
+      "file": "static-en-hub-1440-inspiration.png",
+      "at": "2026-10-09T01:17:18.555Z"
+    },
+    {
+      "file": "static-en-hub-1440-inspiration-lower.png",
+      "at": "2026-10-09T01:17:18.953Z"
+    },
+    {
+      "file": "static-en-hub-1440-secondary.png",
+      "at": "2026-10-09T01:17:19.198Z"
+    },
+    {
+      "file": "static-en-hub-1440-secondary-lower.png",
+      "at": "2026-10-09T01:17:19.453Z"
+    },
+    {
+      "file": "static-en-hub-1440-final.png",
+      "at": "2026-10-09T01:17:19.718Z"
+    },
+    {
+      "file": "static-en-hub-390-hero.png",
+      "at": "2026-10-09T01:17:22.839Z"
+    },
+    {
+      "file": "static-en-hub-390-needs.png",
+      "at": "2026-10-09T01:17:23.190Z"
+    },
+    {
+      "file": "static-en-hub-390-needs-lower.png",
+      "at": "2026-10-09T01:17:23.374Z"
+    },
+    {
+      "file": "static-en-hub-390-inspiration.png",
+      "at": "2026-10-09T01:17:23.621Z"
+    },
+    {
+      "file": "static-en-hub-390-inspiration-lower.png",
+      "at": "2026-10-09T01:17:23.802Z"
+    },
+    {
+      "file": "static-en-hub-390-secondary.png",
+      "at": "2026-10-09T01:17:23.981Z"
+    },
+    {
+      "file": "static-en-hub-390-secondary-lower.png",
+      "at": "2026-10-09T01:17:24.173Z"
+    },
+    {
+      "file": "static-en-hub-390-final.png",
+      "at": "2026-10-09T01:17:24.382Z"
+    },
+    {
+      "file": "static-en-tours-1440-hero.png",
+      "at": "2026-10-09T01:17:28.228Z"
+    },
+    {
+      "file": "static-en-tours-1440-summary.png",
+      "at": "2026-10-09T01:17:28.805Z"
+    },
+    {
+      "file": "static-en-tours-1440-points.png",
+      "at": "2026-10-09T01:17:29.065Z"
+    },
+    {
+      "file": "static-en-tours-1440-inspiration.png",
+      "at": "2026-10-09T01:17:29.521Z"
+    },
+    {
+      "file": "static-en-tours-1440-inspiration-lower.png",
+      "at": "2026-10-09T01:17:29.897Z"
+    },
+    {
+      "file": "static-en-tours-1440-process.png",
+      "at": "2026-10-09T01:17:30.148Z"
+    },
+    {
+      "file": "static-en-tours-1440-plan.png",
+      "at": "2026-10-09T01:17:30.477Z"
+    },
+    {
+      "file": "static-en-tours-1440-related.png",
+      "at": "2026-10-09T01:17:30.866Z"
+    },
+    {
+      "file": "static-en-tours-1440-final.png",
+      "at": "2026-10-09T01:17:31.136Z"
+    },
+    {
+      "file": "static-en-tours-390-hero.png",
+      "at": "2026-10-09T01:17:35.602Z"
+    },
+    {
+      "file": "static-en-tours-390-summary.png",
+      "at": "2026-10-09T01:17:35.925Z"
+    },
+    {
+      "file": "static-en-tours-390-points.png",
+      "at": "2026-10-09T01:17:36.084Z"
+    },
+    {
+      "file": "static-en-tours-390-points-lower.png",
+      "at": "2026-10-09T01:17:36.245Z"
+    },
+    {
+      "file": "static-en-tours-390-inspiration.png",
+      "at": "2026-10-09T01:17:36.450Z"
+    },
+    {
+      "file": "static-en-tours-390-inspiration-lower.png",
+      "at": "2026-10-09T01:17:36.605Z"
+    },
+    {
+      "file": "static-en-tours-390-process.png",
+      "at": "2026-10-09T01:17:36.774Z"
+    },
+    {
+      "file": "static-en-tours-390-process-lower.png",
+      "at": "2026-10-09T01:17:36.950Z"
+    },
+    {
+      "file": "static-en-tours-390-plan.png",
+      "at": "2026-10-09T01:17:37.141Z"
+    },
+    {
+      "file": "static-en-tours-390-plan-lower.png",
+      "at": "2026-10-09T01:17:37.313Z"
+    },
+    {
+      "file": "static-en-tours-390-related.png",
+      "at": "2026-10-09T01:17:37.505Z"
+    },
+    {
+      "file": "static-en-tours-390-related-lower.png",
+      "at": "2026-10-09T01:17:37.696Z"
+    },
+    {
+      "file": "static-en-tours-390-final.png",
+      "at": "2026-10-09T01:17:37.864Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-hero.png",
+      "at": "2026-10-09T01:17:41.061Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-summary.png",
+      "at": "2026-10-09T01:17:41.437Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-points.png",
+      "at": "2026-10-09T01:17:41.672Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-process.png",
+      "at": "2026-10-09T01:17:41.887Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-plan.png",
+      "at": "2026-10-09T01:17:42.129Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-related.png",
+      "at": "2026-10-09T01:17:42.338Z"
+    },
+    {
+      "file": "static-en-visa-assistance-1440-final.png",
+      "at": "2026-10-09T01:17:42.567Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-hero.png",
+      "at": "2026-10-09T01:17:45.081Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-summary.png",
+      "at": "2026-10-09T01:17:45.432Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-points.png",
+      "at": "2026-10-09T01:17:45.614Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-points-lower.png",
+      "at": "2026-10-09T01:17:45.787Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-process.png",
+      "at": "2026-10-09T01:17:45.979Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-process-lower.png",
+      "at": "2026-10-09T01:17:46.170Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-plan.png",
+      "at": "2026-10-09T01:17:46.373Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-plan-lower.png",
+      "at": "2026-10-09T01:17:46.565Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-related.png",
+      "at": "2026-10-09T01:17:46.753Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-related-lower.png",
+      "at": "2026-10-09T01:17:46.919Z"
+    },
+    {
+      "file": "static-en-visa-assistance-390-final.png",
+      "at": "2026-10-09T01:17:47.083Z"
+    },
+    {
+      "file": "static-en-corporate-1440-hero.png",
+      "at": "2026-10-09T01:17:50.625Z"
+    },
+    {
+      "file": "static-en-corporate-1440-summary.png",
+      "at": "2026-10-09T01:17:51.040Z"
+    },
+    {
+      "file": "static-en-corporate-1440-points.png",
+      "at": "2026-10-09T01:17:51.315Z"
+    },
+    {
+      "file": "static-en-corporate-1440-inspiration.png",
+      "at": "2026-10-09T01:17:51.770Z"
+    },
+    {
+      "file": "static-en-corporate-1440-inspiration-lower.png",
+      "at": "2026-10-09T01:17:52.201Z"
+    },
+    {
+      "file": "static-en-corporate-1440-process.png",
+      "at": "2026-10-09T01:17:52.450Z"
+    },
+    {
+      "file": "static-en-corporate-1440-plan.png",
+      "at": "2026-10-09T01:17:52.700Z"
+    },
+    {
+      "file": "static-en-corporate-1440-related.png",
+      "at": "2026-10-09T01:17:52.982Z"
+    },
+    {
+      "file": "static-en-corporate-1440-final.png",
+      "at": "2026-10-09T01:17:53.240Z"
+    },
+    {
+      "file": "static-en-corporate-390-hero.png",
+      "at": "2026-10-09T01:17:56.635Z"
+    },
+    {
+      "file": "static-en-corporate-390-summary.png",
+      "at": "2026-10-09T01:17:56.980Z"
+    },
+    {
+      "file": "static-en-corporate-390-points.png",
+      "at": "2026-10-09T01:17:57.156Z"
+    },
+    {
+      "file": "static-en-corporate-390-points-lower.png",
+      "at": "2026-10-09T01:17:57.327Z"
+    },
+    {
+      "file": "static-en-corporate-390-inspiration.png",
+      "at": "2026-10-09T01:17:57.594Z"
+    },
+    {
+      "file": "static-en-corporate-390-inspiration-lower.png",
+      "at": "2026-10-09T01:17:57.770Z"
+    },
+    {
+      "file": "static-en-corporate-390-process.png",
+      "at": "2026-10-09T01:17:57.942Z"
+    },
+    {
+      "file": "static-en-corporate-390-process-lower.png",
+      "at": "2026-10-09T01:17:58.123Z"
+    },
+    {
+      "file": "static-en-corporate-390-plan.png",
+      "at": "2026-10-09T01:17:58.298Z"
+    },
+    {
+      "file": "static-en-corporate-390-plan-lower.png",
+      "at": "2026-10-09T01:17:58.459Z"
+    },
+    {
+      "file": "static-en-corporate-390-related.png",
+      "at": "2026-10-09T01:17:58.630Z"
+    },
+    {
+      "file": "static-en-corporate-390-related-lower.png",
+      "at": "2026-10-09T01:17:58.831Z"
+    },
+    {
+      "file": "static-en-corporate-390-final.png",
+      "at": "2026-10-09T01:17:59.011Z"
+    },
+    {
+      "file": "static-ar-hub-390-hero.png",
+      "at": "2026-10-09T01:18:01.755Z"
+    },
+    {
+      "file": "static-ar-hub-390-needs.png",
+      "at": "2026-10-09T01:18:02.063Z"
+    },
+    {
+      "file": "static-ar-hub-390-needs-lower.png",
+      "at": "2026-10-09T01:18:02.232Z"
+    },
+    {
+      "file": "static-ar-hub-390-inspiration.png",
+      "at": "2026-10-09T01:18:02.448Z"
+    },
+    {
+      "file": "static-ar-hub-390-inspiration-lower.png",
+      "at": "2026-10-09T01:18:02.607Z"
+    },
+    {
+      "file": "static-ar-hub-390-secondary.png",
+      "at": "2026-10-09T01:18:02.777Z"
+    },
+    {
+      "file": "static-ar-hub-390-secondary-lower.png",
+      "at": "2026-10-09T01:18:02.955Z"
+    },
+    {
+      "file": "static-ar-hub-390-final.png",
+      "at": "2026-10-09T01:18:03.124Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-hero.png",
+      "at": "2026-10-09T01:18:05.455Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-summary.png",
+      "at": "2026-10-09T01:18:05.727Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-points.png",
+      "at": "2026-10-09T01:18:05.903Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-points-lower.png",
+      "at": "2026-10-09T01:18:06.072Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-process.png",
+      "at": "2026-10-09T01:18:06.258Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-process-lower.png",
+      "at": "2026-10-09T01:18:06.416Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-plan.png",
+      "at": "2026-10-09T01:18:06.589Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-plan-lower.png",
+      "at": "2026-10-09T01:18:06.755Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-related.png",
+      "at": "2026-10-09T01:18:06.911Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-related-lower.png",
+      "at": "2026-10-09T01:18:07.062Z"
+    },
+    {
+      "file": "static-ar-visa-assistance-390-final.png",
+      "at": "2026-10-09T01:18:07.212Z"
+    },
+    {
+      "file": "static-tr-hub-1280-hero.png",
+      "at": "2026-10-09T01:18:10.115Z"
+    },
+    {
+      "file": "static-tr-hub-1280-needs.png",
+      "at": "2026-10-09T01:18:10.473Z"
+    },
+    {
+      "file": "static-tr-hub-1280-needs-lower.png",
+      "at": "2026-10-09T01:18:10.744Z"
+    },
+    {
+      "file": "static-tr-hub-1280-inspiration.png",
+      "at": "2026-10-09T01:18:11.024Z"
+    },
+    {
+      "file": "static-tr-hub-1280-inspiration-lower.png",
+      "at": "2026-10-09T01:18:11.293Z"
+    },
+    {
+      "file": "static-tr-hub-1280-secondary.png",
+      "at": "2026-10-09T01:18:11.516Z"
+    },
+    {
+      "file": "static-tr-hub-1280-secondary-lower.png",
+      "at": "2026-10-09T01:18:11.768Z"
+    },
+    {
+      "file": "static-tr-hub-1280-final.png",
+      "at": "2026-10-09T01:18:11.980Z"
+    },
+    {
+      "file": "static-tr-hub-1280-final-lower.png",
+      "at": "2026-10-09T01:18:12.203Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-hero.png",
+      "at": "2026-10-09T01:18:14.810Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-summary.png",
+      "at": "2026-10-09T01:18:15.122Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-points.png",
+      "at": "2026-10-09T01:18:15.347Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-points-lower.png",
+      "at": "2026-10-09T01:18:15.574Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-inspiration.png",
+      "at": "2026-10-09T01:18:15.925Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-inspiration-lower.png",
+      "at": "2026-10-09T01:18:16.255Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-process.png",
+      "at": "2026-10-09T01:18:16.450Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-process-lower.png",
+      "at": "2026-10-09T01:18:16.691Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-plan.png",
+      "at": "2026-10-09T01:18:16.905Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-related.png",
+      "at": "2026-10-09T01:18:17.114Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-related-lower.png",
+      "at": "2026-10-09T01:18:17.333Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-final.png",
+      "at": "2026-10-09T01:18:17.549Z"
+    },
+    {
+      "file": "static-tr-corporate-1280-final-lower.png",
+      "at": "2026-10-09T01:18:17.753Z"
+    },
+    {
+      "file": "static-en-1440-audience-travel.png",
+      "at": "2026-10-09T01:18:35.607Z"
+    },
+    {
+      "file": "static-en-1440-audience-business.png",
+      "at": "2026-10-09T01:18:37.073Z"
+    },
+    {
+      "file": "static-en-1440-audience-pilgrimage.png",
+      "at": "2026-10-09T01:18:38.562Z"
+    },
+    {
+      "file": "static-ar-visa-390-nojs-plan.png",
+      "at": "2026-10-09T01:18:41.915Z"
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "finalSource": {
+    "components/services/TravelServicesHub.tsx": "a5314c0f7ab73a9221c59c593795a8ed3a460725467eadc9f74fff5bcf027911",
+    "components/services/ServiceExperience.tsx": "705a4ef40c027b30ec8f82f2e49309f545809021806acfb589ee5723ca542985",
+    "components/services/ServicePrimitives.tsx": "120d1f389d3e990eb126562ffe1bf4232c452679ed7efacbef8ff7e15a788968",
+    "components/travel/Pages.tsx": "b91dfc445fac1e16a63e0053fb631fbb38d6045d260e9177aaf6e5e764b2d659",
+    "styles/recovery-services.css": "8f0d02f980785d8a08e2ec31c3a19df89f68b9af8cafd00f628a2d475c3acf56"
+  },
+  "finishedAt": "2026-10-09T01:18:41.926Z"
+}

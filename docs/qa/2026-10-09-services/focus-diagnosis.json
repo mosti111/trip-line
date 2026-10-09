@@ -1,0 +1,701 @@
+{
+  "startedAt": "2026-10-09T19:05:01.028Z",
+  "base": "http://localhost:3043",
+  "cases": [
+    {
+      "audience": "travel",
+      "states": [
+        {
+          "step": "before",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "BODY",
+            "class": ""
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 343.96875,
+            "width": 279.96875,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "focus",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 343.96875,
+            "width": 279.96875,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "Tab",
+          "scrollY": 980,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-need-dominant"
+          },
+          "control": {
+            "top": -347.59375,
+            "bottom": -288.203125,
+            "left": 64,
+            "right": 343.96875,
+            "width": 279.96875,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "reverse Tab",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 343.96875,
+            "width": 279.96875,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "settled",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 343.96875,
+            "width": 279.96875,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "native activation",
+          "hash": "#services-travel",
+          "scrollY": 866,
+          "targetTop": 253.1875
+        }
+      ]
+    },
+    {
+      "audience": "pilgrimage",
+      "states": [
+        {
+          "step": "before",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "BODY",
+            "class": ""
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 308.78125,
+            "width": 244.78125,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "focus",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 308.78125,
+            "width": 244.78125,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "Tab",
+          "scrollY": 980,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-need-dominant"
+          },
+          "control": {
+            "top": -347.59375,
+            "bottom": -288.203125,
+            "left": 64,
+            "right": 308.78125,
+            "width": 244.78125,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "reverse Tab",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 308.78125,
+            "width": 244.78125,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "settled",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 308.78125,
+            "width": 244.78125,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "native activation",
+          "hash": "#services-pilgrimage",
+          "scrollY": 3050,
+          "targetTop": 253.28125
+        }
+      ]
+    },
+    {
+      "audience": "business",
+      "states": [
+        {
+          "step": "before",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "BODY",
+            "class": ""
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 307.15625,
+            "width": 243.15625,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "focus",
+          "scrollY": 0,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 632.40625,
+            "bottom": 691.796875,
+            "left": 64,
+            "right": 307.15625,
+            "width": 243.15625,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": false,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": true
+        },
+        {
+          "step": "Tab",
+          "scrollY": 980,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-need-dominant"
+          },
+          "control": {
+            "top": -347.59375,
+            "bottom": -288.203125,
+            "left": 64,
+            "right": 307.15625,
+            "width": 243.15625,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": false,
+          "outline": "rgb(255, 253, 248) none 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "reverse Tab",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 307.15625,
+            "width": 243.15625,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "settled",
+          "scrollY": 218,
+          "viewport": 800,
+          "active": {
+            "tag": "A",
+            "class": "rs-audience-context"
+          },
+          "control": {
+            "top": 414.40625,
+            "bottom": 473.796875,
+            "left": 64,
+            "right": 307.15625,
+            "width": 243.15625,
+            "height": 59.390625
+          },
+          "header": {
+            "top": 0,
+            "bottom": 72,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 72
+          },
+          "sticky": {
+            "visibleAttribute": true,
+            "display": "none",
+            "visibility": "visible",
+            "pointerEvents": "auto",
+            "opacity": "1",
+            "clientRects": 0,
+            "rect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "focusVisible": true,
+          "outline": "rgb(200, 144, 57) solid 3px",
+          "oldPredicate": false
+        },
+        {
+          "step": "native activation",
+          "hash": "#services-business",
+          "scrollY": 3050,
+          "targetTop": 253.28125
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T19:05:13.513Z"
+}
