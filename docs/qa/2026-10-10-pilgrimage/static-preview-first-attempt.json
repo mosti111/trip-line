@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-10T00:06:51.807Z",
+  "source": {
+    "components/services/PilgrimageExperience.tsx": "39ab2653b80a291ff0838ebfdf9896f64b3b247cd193d102fbaad458f38467cc",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "3f586cdd81dbfb5aa40a822071dac93beea1551bb47fd3ac0d297c424a8f4071"
+  },
+  "base": "http://localhost:3053",
+  "cases": [],
+  "messages": [],
+  "captures": [],
+  "errors": [],
+  "status": "FAIL",
+  "failure": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3053/en/services/hajj-umrah\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3053/en/services/hajj-umrah\", waiting until \"networkidle\"\u001b[22m\n\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\p07-worker\\capture-static.cjs:8:473",
+  "finalSource": {
+    "components/services/PilgrimageExperience.tsx": "39ab2653b80a291ff0838ebfdf9896f64b3b247cd193d102fbaad458f38467cc",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "3f586cdd81dbfb5aa40a822071dac93beea1551bb47fd3ac0d297c424a8f4071"
+  },
+  "finishedAt": "2026-10-10T00:07:04.434Z"
+}

@@ -1,0 +1,793 @@
+{
+  "startedAt": "2026-10-10T13:30:38.689Z",
+  "browser": "Chromium",
+  "stage": "full",
+  "status": "passed",
+  "base": "http://localhost:3043",
+  "checks": [
+    "Ordered journey, reorder, dates/travelers, localized query handoff, preparation, stale output invalidation",
+    "Unknown/duplicate destination IDs and invalid traveler count sanitized",
+    "Keyboard reorder at boundary and removal restore usable focus; itinerary status updates",
+    "Global quickview Add and visible shell-menu Add on a destination detail route, drawer keyboard reorder/remove, route/reload/locale session persistence stores IDs/type only, and drawer→contact ordered context; D05 body Add remains a later gate",
+    "Destination shared-element navigation, direct refresh, browser back/forward",
+    "Three simultaneous spatial intent planes explicitly activate by keyboard; stored type persists reload, builder syncs, and all nine grouped links remain reachable EN/AR/TR",
+    "Menu Escape/focus return, simulated document visibility and offscreen video pause",
+    "Device reduced motion, native static composition, no automatic video or WebGL on data saver",
+    "WebGL context-loss event restores static SVG",
+    "No-JS visible fifteen-chapter homepage in all locales, service/destination/contact content and destination links",
+    "Emulated coarse touch at 390/1280: native vertical layout, static sculpture, planner and menu",
+    "Short-height 1280×600 EN/AR/TR: compressed pin, readable hero keyboard restoration, reachable last service and journey drawer planning action",
+    "Arabic and English geography paths/orientation identical",
+    "Manual atlas choice survives guided scroll updates",
+    "Simulated media error exposes the existing photo fallback",
+    "4× CPU-throttled mobile navigation and planner interaction"
+  ],
+  "screens": [
+    {
+      "name": "home-en-360",
+      "url": "/en",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-390",
+      "url": "/en",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-430",
+      "url": "/en",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-768",
+      "url": "/en",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1024",
+      "url": "/en",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1280",
+      "url": "/en",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-en-1440",
+      "url": "/en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-360",
+      "url": "/ar",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-390",
+      "url": "/ar",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-430",
+      "url": "/ar",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-768",
+      "url": "/ar",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1024",
+      "url": "/ar",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1280",
+      "url": "/ar",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-ar-1440",
+      "url": "/ar",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-360",
+      "url": "/tr",
+      "width": 360,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-390",
+      "url": "/tr",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-430",
+      "url": "/tr",
+      "width": 430,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-768",
+      "url": "/tr",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1024",
+      "url": "/tr",
+      "width": 1024,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1280",
+      "url": "/tr",
+      "width": 1280,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "home-tr-1440",
+      "url": "/tr",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-en-390",
+      "url": "/en/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-en-1440",
+      "url": "/en/destinations/turkiye",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-en-390",
+      "url": "/en/destinations/turkiye/rize-ayder",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-en-1440",
+      "url": "/en/destinations/turkiye/rize-ayder",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-en-390",
+      "url": "/en/services/hajj-umrah",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-en-1440",
+      "url": "/en/services/hajj-umrah",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "international-en-390",
+      "url": "/en/destinations",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "international-en-1440",
+      "url": "/en/destinations",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-en-390",
+      "url": "/en/contact",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-en-1440",
+      "url": "/en/contact",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-en-390",
+      "url": "/en/not-a-page",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-en-1440",
+      "url": "/en/not-a-page",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-ar-390",
+      "url": "/ar/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-ar-1440",
+      "url": "/ar/destinations/turkiye",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-ar-390",
+      "url": "/ar/destinations/turkiye/rize-ayder",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-ar-1440",
+      "url": "/ar/destinations/turkiye/rize-ayder",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-ar-390",
+      "url": "/ar/services/hajj-umrah",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-ar-1440",
+      "url": "/ar/services/hajj-umrah",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "international-ar-390",
+      "url": "/ar/destinations",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "international-ar-1440",
+      "url": "/ar/destinations",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-ar-390",
+      "url": "/ar/contact",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-ar-1440",
+      "url": "/ar/contact",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-ar-390",
+      "url": "/ar/not-a-page",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-ar-1440",
+      "url": "/ar/not-a-page",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-tr-390",
+      "url": "/tr/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "discovery-tr-1440",
+      "url": "/tr/destinations/turkiye",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-tr-390",
+      "url": "/tr/destinations/turkiye/rize-ayder",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-tr-1440",
+      "url": "/tr/destinations/turkiye/rize-ayder",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-tr-390",
+      "url": "/tr/services/hajj-umrah",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "pilgrimage-tr-1440",
+      "url": "/tr/services/hajj-umrah",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "international-tr-390",
+      "url": "/tr/destinations",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "international-tr-1440",
+      "url": "/tr/destinations",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-tr-390",
+      "url": "/tr/contact",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-tr-1440",
+      "url": "/tr/contact",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-tr-390",
+      "url": "/tr/not-a-page",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    {
+      "name": "missing-tr-1440",
+      "url": "/tr/not-a-page",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "business",
+      "url": "/en/business",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "destination-tablet",
+      "url": "/tr/destinations/turkiye/antalya",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    },
+    {
+      "name": "inquiry-tablet",
+      "url": "/ar/contact",
+      "width": 768,
+      "height": 1000,
+      "mode": "normal"
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "mobile4xNavigationAndSelectionMs": 3346
+  },
+  "serviceKeyboardBounds": [
+    {
+      "locale": "en",
+      "href": "/en/services/tours",
+      "left": 82.5811996459961,
+      "right": 567.815544128418,
+      "top": 455.151123046875,
+      "bottom": 504.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/tailor-made",
+      "left": 82.5811996459961,
+      "right": 567.815544128418,
+      "top": 504.151123046875,
+      "bottom": 553.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/flights-hotels",
+      "left": 82.5811996459961,
+      "right": 567.815544128418,
+      "top": 553.151123046875,
+      "bottom": 602.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/visa-assistance",
+      "left": 82.5811996459961,
+      "right": 567.815544128418,
+      "top": 602.151123046875,
+      "bottom": 651.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/corporate",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 505.151123046875,
+      "bottom": 554.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/events",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 554.151123046875,
+      "bottom": 603.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/training",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 603.151123046875,
+      "bottom": 652.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/camps",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 652.151123046875,
+      "bottom": 701.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en",
+      "href": "/en/services/hajj-umrah",
+      "left": 1046.8563232421875,
+      "right": 1357.4188232421875,
+      "top": 555.151123046875,
+      "bottom": 604.151123046875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/tours",
+      "left": 877.246826171875,
+      "right": 1362.481201171875,
+      "top": 432.1145935058594,
+      "bottom": 481.1145935058594,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/tailor-made",
+      "left": 877.5740966796875,
+      "right": 1362.8084716796875,
+      "top": 480.5692138671875,
+      "bottom": 529.5692138671875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/flights-hotels",
+      "left": 877.612548828125,
+      "right": 1362.846923828125,
+      "top": 529.5051879882812,
+      "bottom": 578.5051879882812,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/visa-assistance",
+      "left": 877.6156005859375,
+      "right": 1362.8499755859375,
+      "top": 578.4998779296875,
+      "bottom": 627.4998779296875,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/corporate",
+      "left": 438.5625,
+      "right": 826.765625,
+      "top": 481.49969482421875,
+      "bottom": 530.4996948242188,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/events",
+      "left": 438.5625,
+      "right": 826.765625,
+      "top": 530.4996948242188,
+      "bottom": 579.4996948242188,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/training",
+      "left": 438.5625,
+      "right": 826.765625,
+      "top": 579.4996948242188,
+      "bottom": 628.4996948242188,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/camps",
+      "left": 438.5625,
+      "right": 826.765625,
+      "top": 628.4996948242188,
+      "bottom": 677.4996948242188,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar",
+      "href": "/ar/services/hajj-umrah",
+      "left": 77.1498031616211,
+      "right": 387.7123031616211,
+      "top": 531.4996948242188,
+      "bottom": 580.4996948242188,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/tours",
+      "left": 82.5469970703125,
+      "right": 567.7813720703125,
+      "top": 455.7082214355469,
+      "bottom": 504.7082214355469,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/tailor-made",
+      "left": 82.5469970703125,
+      "right": 567.7813720703125,
+      "top": 504.7082214355469,
+      "bottom": 553.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/flights-hotels",
+      "left": 82.5469970703125,
+      "right": 567.7813720703125,
+      "top": 553.708251953125,
+      "bottom": 602.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/visa-assistance",
+      "left": 82.5469970703125,
+      "right": 567.7813720703125,
+      "top": 602.708251953125,
+      "bottom": 651.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/corporate",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 505.7082214355469,
+      "bottom": 554.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/events",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 554.708251953125,
+      "bottom": 603.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/training",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 603.708251953125,
+      "bottom": 652.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/camps",
+      "left": 613.234375,
+      "right": 1001.4375,
+      "top": 652.708251953125,
+      "bottom": 701.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr",
+      "href": "/tr/services/hajj-umrah",
+      "left": 1046.8905029296875,
+      "right": 1357.4530029296875,
+      "top": 555.708251953125,
+      "bottom": 604.708251953125,
+      "width": 1440,
+      "height": 1000,
+      "headerBottom": 72
+    },
+    {
+      "locale": "en short",
+      "href": "/en/services/hajj-umrah",
+      "left": 932.5473022460938,
+      "right": 1209.53173828125,
+      "top": 248.37567138671875,
+      "bottom": 297.37567138671875,
+      "width": 1280,
+      "height": 600,
+      "headerBottom": 72
+    },
+    {
+      "locale": "ar short",
+      "href": "/ar/services/hajj-umrah",
+      "left": 57.95330047607422,
+      "right": 334.9376754760742,
+      "top": 225.60968017578125,
+      "bottom": 274.60968017578125,
+      "width": 1280,
+      "height": 600,
+      "headerBottom": 72
+    },
+    {
+      "locale": "tr short",
+      "href": "/tr/services/hajj-umrah",
+      "left": 932.604248046875,
+      "right": 1209.588623046875,
+      "top": 248.62680053710938,
+      "bottom": 297.6268005371094,
+      "width": 1280,
+      "height": 600,
+      "headerBottom": 72
+    }
+  ],
+  "tabletMenu": {
+    "width": 768,
+    "height": 1000,
+    "primaryLinks": 8,
+    "languageLinks": 3,
+    "planningHref": "/en/contact?service=corporate&journey=antalya&destination=antalya",
+    "journeyAction": true,
+    "decodedImageCount": 0
+  },
+  "finishedAt": "2026-10-10T13:37:09.031Z"
+}

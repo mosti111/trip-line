@@ -1,0 +1,22 @@
+{
+  "startedAt": "2026-10-10T00:13:58.673Z",
+  "cases": [
+    {
+      "locale": "en",
+      "choice": {
+        "top": 247.984375,
+        "header": 72
+      },
+      "plan": {
+        "top": 248.015625,
+        "header": 72
+      },
+      "nativeRadioArrowDown": "umrah",
+      "contact": "http://localhost:3053/en/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya",
+      "globalType": "corporate"
+    }
+  ],
+  "status": "FAIL",
+  "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(await p.locator('input[value=umrah]').isChecked())\n\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\p07-worker\\capture-anchors.cjs:1:1083",
+  "finishedAt": "2026-10-10T00:14:06.230Z"
+}

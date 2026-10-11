@@ -1,0 +1,661 @@
+{
+  "startedAt": "2026-10-10T00:16:10.629Z",
+  "source": {
+    "components/services/PilgrimageExperience.tsx": "c03b51b2139d751a33bef3a0caabd406cda3c814b2cf857c30398bcfbedeadd2",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "8aad03f977ce1d4e3343aa5ec417cc381f0f4913ab5e32771412beb5ab12ebe9"
+  },
+  "cases": [
+    {
+      "mode": "normal",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:18.454Z",
+          "now": 7062.800000011921,
+          "motion": "enhanced",
+          "opacity": "0.7",
+          "reveal": "pending",
+          "animations": [],
+          "attrs": [
+            {
+              "state": "pending",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:18.609Z",
+          "now": 7211.5999999940395,
+          "motion": "enhanced",
+          "opacity": "0.736106",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "running",
+              "time": 66.66200000359711,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:19.507Z",
+          "now": 8109.0999999940395,
+          "motion": "enhanced",
+          "opacity": "1",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "finished",
+              "time": 900,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:20.302Z",
+          "now": 8904.300000011921,
+          "motion": "enhanced",
+          "opacity": "1",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "finished",
+              "time": 900,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:20.511Z",
+          "now": 9113.699999988079,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:20.809Z",
+          "now": 9411.199999988079,
+          "motion": "enhanced",
+          "opacity": "1",
+          "reveal": "settled",
+          "animations": [],
+          "attrs": [
+            {
+              "state": "settled",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:20.912Z",
+          "now": 9514.40000000596,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [
+            {
+              "state": "running",
+              "time": 0,
+              "duration": 0.01
+            },
+            {
+              "state": "running",
+              "time": 0,
+              "duration": 0.01
+            },
+            {
+              "state": "running",
+              "time": 0,
+              "duration": 0.01
+            },
+            {
+              "state": "running",
+              "time": 0,
+              "duration": 0.01
+            }
+          ],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 3,
+            "remove": 2
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:20.996Z",
+          "now": 9598.5,
+          "motion": "enhanced",
+          "opacity": "1",
+          "reveal": "settled",
+          "animations": [],
+          "attrs": [
+            {
+              "state": "settled",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 4,
+            "remove": 3
+          }
+        },
+        {
+          "afterUnmountCalls": {
+            "add": 6,
+            "remove": 5
+          },
+          "note": "one balanced surviving services page listener after P07 unmount"
+        }
+      ]
+    },
+    {
+      "mode": "system-reduced",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:24.961Z",
+          "now": 3153.0999999940395,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        }
+      ]
+    },
+    {
+      "mode": "site-calm",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:28.748Z",
+          "now": 3442.9000000059605,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 2,
+            "remove": 1
+          }
+        }
+      ]
+    },
+    {
+      "mode": "saveData",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:32.741Z",
+          "now": 3594.199999988079,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 3,
+            "remove": 2
+          }
+        }
+      ]
+    },
+    {
+      "mode": "partial-add-only",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:35.879Z",
+          "now": 2813.800000011921,
+          "motion": "enhanced",
+          "opacity": "0.7",
+          "reveal": "pending",
+          "animations": [],
+          "attrs": [
+            {
+              "state": "pending",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 0,
+            "remove": 0
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:35.958Z",
+          "now": 2892.300000011921,
+          "motion": "enhanced",
+          "opacity": "0.71841",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "running",
+              "time": 33.32999999150621,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 0,
+            "remove": 0
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:36.466Z",
+          "now": 3400.800000011921,
+          "motion": "enhanced",
+          "opacity": "0.938627",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "running",
+              "time": 550.0159999915062,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 0,
+            "remove": 0
+          }
+        },
+        {
+          "at": "2026-10-10T00:16:37.224Z",
+          "now": 4159.0999999940395,
+          "motion": "enhanced",
+          "opacity": "1",
+          "reveal": "visible",
+          "animations": [
+            {
+              "name": "rp-kicker-arrival",
+              "state": "finished",
+              "time": 900,
+              "duration": 900
+            }
+          ],
+          "attrs": [
+            {
+              "state": "visible",
+              "text": "01 / Hajj & Umrah"
+            },
+            {
+              "state": "pending",
+              "text": "02 / Thoughtful arrangements"
+            },
+            {
+              "state": "pending",
+              "text": "03 / Tell us about your plans"
+            },
+            {
+              "state": "pending",
+              "text": "04 / How it works"
+            },
+            {
+              "state": "pending",
+              "text": "05 / Company Profile 2025"
+            }
+          ],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 0,
+            "remove": 0
+          }
+        }
+      ]
+    },
+    {
+      "mode": "partial-saveData",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:40.637Z",
+          "now": 3122.9000000059605,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 0,
+            "remove": 0
+          }
+        }
+      ]
+    },
+    {
+      "mode": "noIO",
+      "states": [
+        {
+          "at": "2026-10-10T00:16:44.613Z",
+          "now": 3570.199999988079,
+          "motion": null,
+          "opacity": "1",
+          "reveal": null,
+          "animations": [],
+          "attrs": [],
+          "canvas": 0,
+          "image": "none",
+          "heading": "none",
+          "connectionCalls": {
+            "add": 3,
+            "remove": 2
+          }
+        }
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "file": "motion-normal-arrival.png",
+      "at": "2026-10-10T00:16:19.153Z"
+    },
+    {
+      "file": "motion-normal-middle.png",
+      "at": "2026-10-10T00:16:19.687Z"
+    },
+    {
+      "file": "motion-normal-settled.png",
+      "at": "2026-10-10T00:16:20.483Z"
+    },
+    {
+      "file": "motion-runtime-saveData-final.png",
+      "at": "2026-10-10T00:16:20.718Z"
+    },
+    {
+      "file": "motion-system-reduced-final.png",
+      "at": "2026-10-10T00:16:25.128Z"
+    },
+    {
+      "file": "motion-site-calm-final.png",
+      "at": "2026-10-10T00:16:28.953Z"
+    },
+    {
+      "file": "motion-saveData-final.png",
+      "at": "2026-10-10T00:16:32.906Z"
+    },
+    {
+      "file": "motion-partial-add-only-arrival.png",
+      "at": "2026-10-10T00:16:36.107Z"
+    },
+    {
+      "file": "motion-partial-add-only-middle.png",
+      "at": "2026-10-10T00:16:36.607Z"
+    },
+    {
+      "file": "motion-partial-add-only-settled.png",
+      "at": "2026-10-10T00:16:37.351Z"
+    },
+    {
+      "file": "motion-partial-saveData-final.png",
+      "at": "2026-10-10T00:16:40.843Z"
+    },
+    {
+      "file": "motion-noIO-final.png",
+      "at": "2026-10-10T00:16:44.791Z"
+    }
+  ],
+  "errors": [
+    {
+      "mode": "normal",
+      "error": "Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <HTTPAccessFallbackErrorBoundary pathname=\"/en/servic...\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\n      <RedirectBoundary>\n        <RedirectErrorBoundary router={{...}}>\n          <Head>\n          <__next_root_layout_boundary__>\n            <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n              <SegmentTrieNode>\n              <link>\n              <RootLayout>\n                <html lang=\"en\" dir=\"ltr\" className=\"__variable...\">\n                  <body>\n                    <SiteShell locale=\"en\" nonce=\"MzUyN2M3Mj...\">\n                      <JourneyProvider>\n                        <ShellContent locale=\"en\" nonce=\"MzUyN2M3Mj...\">\n                          <MotionConfig reducedMotion=\"always\" nonce=\"MzUyN2M3Mj...\">\n                            <div\n+                             className=\"travel-site recovery-shell shell-secondary reduce-motion\"\n-                             className={null}\n-                             hidden=\"\"\n                            >\n+                             <a className=\"skip-link\" href=\"#main\">\n-                             <Suspense>\n                              ...\n          ...\n"
+    }
+  ],
+  "status": "FAIL",
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\p07-worker\\capture-motion.cjs:5:53",
+  "finalSource": {
+    "components/services/PilgrimageExperience.tsx": "c03b51b2139d751a33bef3a0caabd406cda3c814b2cf857c30398bcfbedeadd2",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "8aad03f977ce1d4e3343aa5ec417cc381f0f4913ab5e32771412beb5ab12ebe9"
+  },
+  "finishedAt": "2026-10-10T00:16:44.809Z"
+}

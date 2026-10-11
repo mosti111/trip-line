@@ -499,3 +499,62 @@ The preserved failure was a verifier counting desktop display:none zero-client-r
 Actual EN29frames/7.2s and AR20frames/4.76s at250ms intervals show image mask/depth and route partial→complete with stable text. EN initial3white prepaint frames are excluded from readability proof. Distinct seeked/currentTime frames agree with raw five rAF sequences:700ms image,950ms route,1050ms node,120ms arrow. Dynamic site/system reduced and SaveData reset, no seen replay, detached root disconnected/datasetnull/reveals0/animations0, listener removal/remount1, partial/add-only/absent IO and pilgrimage opt-out pass. Source native imports plus request metadata support isolation; opaque chunk names alone are not bundle certification.
 
 S06 APPROVED and QS06 APPROVED, independent of selected Sol implementers. Browser released. Durable evidence: docs/qa/2026-10-09-services/README.md. Chromium emulation only; no Safari/Firefox, physical-device, assistive-technology or field-performance claim. Final Q12 remains required. No deployment, main merge or user creative acceptance. Save exact services checkpoint before P07/QP07 dispatch.
+
+## P07 internal static gate — 2026-10-10T00:13:41.651Z
+
+Selected Astra /root/astra_hub_resume independently reviewed actual three-file source and decoded12 native PNGs across EN1440/390, AR1440/390 and TR1280. Calm wide sourcephoto, source Hajj/Umrah radio distinctions, three coordination points, discussion-only dates/availability answer, honest process, Profile2025 attributed trust and local prepared intent/message are coherent and readable. Arabic is connected; photographs remain natural. Clean heading and lower captures complement one another; cropped adjacent content is not full-heading or focused-control proof. Actual Arabic Umrah message contains chosen intent, service, ordered Antalya→Istanbul and optional details; no-send disclosure/action links clear. NoJS keeps source content and honest Contact fallback, hides inert form/choice controls. Whole dedicated component is a client boundary with prerendered source, not an isolated small island or server-only RSC.
+
+Worker static dev manifest PASS10cases70captures10exactdecodedmessages0errors00:10:55.118–00:12:05.081UTC, unchanged three source hashes; globalorder/type edit thenrestore permanently invalidates stale output. This is static dev evidence, not production acceptance. Initial connectionrefused0case attempt is preserved: native SWC blocked by Windows Application Control, documented dev --webpack used WASM successfully without security/dependency/config changes.
+
+INTERNAL STATIC GATE PASS. Authorize only900ms once-only opacity0.7→1 on nonessential chapter kickers01–05; no image/essential text/action hiding or movement. Default final, reduced/sitecalm/SaveData final, no seen replay, balanced cleanup/partial API handling. Root final frozen production/core and QP07 actual native/focus/fallback proof still required. Shared Photo comes through Sections client module; source/request evidence must disclose this boundary and cannot infer complete bundle isolation from URL names.
+
+## P07 / QP07 final independent review — 11 October 2026
+
+Reviewer: selected Astra `/root/astra_pilgrimage_resume`, session
+TL-003-2026-10-05-recovery; independent from both selected Sol implementer and QA.
+Accepted explicit model routing is recorded, not independent backend attestation.
+Tested services HEAD6a2885e plus three frozen application paths and final helper
+213689924642725a7560ebf248278890cc720f2c21797ed05a6d222c8d3ddfd2.
+
+Visual/hierarchy/UX: actual source review and nine final native PNGs show the
+respectful wide-photo hero, generous editorial choice, three source coordination
+points, discussion brief, honest process and Profile2025 trust. Native Hajj/Umrah
+intent survives into exact decoded prepared messages with ordered global places.
+Arabic connected typography, natural photos, visible bronze native focus and clear
+no-send wording pass. Mobile reflows deliberately; noJS exposes truthful content
+and native Contact without inert controls. Source data/noindex boundaries preserved.
+
+Motion/performance: internal static gate preceded enhancement. Only five small
+kickers fade0.7→1 once/900ms. Both actual recorded sheets inspected, EN19frames/4.68s
+and AR20/4.96s with verified250ms seek times; first two EN blank prepaint frames are
+not readability evidence. Essential photos/copy/actions remain static. Five rAF
+sequences establish intermediate opacity and timing, beyond subtle sheet thumbnails.
+Runtime site/system/SaveData cleanup, seen non-replay, detached root cleanup and
+one-listener remount pass. Partial/add-only/absent-IO fallbacks pass. Entire dedicated
+component is a prerendered client boundary through shared Photo/Sections; no claim
+of a smaller island or complete bundle isolation from opaque request names.
+
+Automated/regression: root typecheck,32 tests, final full lint PASS. Required default
+build failed due Windows AppControl blocking native SWC; CLI-documented Webpack/WASM
+build passed without config/dependency/security changes. Production public120routes/
+6captures/5groups/0errors and V3 60captures/16groups/0errors PASS. Fresh dedicated
+20case/63capture/0error full run18:54:30.660–18:55:49.051UTC PASS, immutable application
+and shared/source hashes match. No inheritance from earlier failed runs.
+
+Two earlier verifier failures retained with independent diagnosis: native drawer
+close rAF stole premature next-control focus, now synchronized on actual close/return;
+shared reduced-motion0.01ms opacity CSSTransition sampled before finished, now awaited
+only when exact constructor/property/timing/keyframes match. Strict visible painted
+focus/viewport clearance and five final opacity1/zeroanimations assertions remain.
+Prior dev hydration mismatch remains cause-undetermined; retries and final production
+are zero-error, with no invented HMR explanation. No app correction needed.
+
+Problems/required corrections: none. Optional improvements: none dispatched.
+Evidence: docs/qa/2026-10-10-pilgrimage/README.md, production-final.json, selected
+production PNGs/recordings, root logs/reports and both strict deliveries.
+Missing coverage: Chromium emulation only; no Safari/Firefox/physical/AT/field
+certification. Final Q12 cross-family integration still required. Review supports
+P07 and QP07 engineering approval after final delivery recording; user creative
+acceptance, main merge and deployment remain separate.
+
+Final decision 2026-10-11T18:57:52.407Z: P07 APPROVED and QP07 APPROVED. Strict final delivery and root final full lint inspected; zero blocking corrections. Save exact checkpoint before B08/QB08.

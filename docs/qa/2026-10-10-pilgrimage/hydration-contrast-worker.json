@@ -1,0 +1,48 @@
+{
+  "startedAt": "2026-10-10T00:18:09.615Z",
+  "cases": [
+    {
+      "navigation": "full-document",
+      "states": [
+        {
+          "phase": "fresh-pilgrimage",
+          "url": "http://localhost:3053/en/services/hajj-umrah",
+          "pilgrimage": 1
+        },
+        {
+          "phase": "services-unmount",
+          "url": "http://localhost:3053/en/services",
+          "services": 1
+        },
+        {
+          "phase": "pilgrimage-return",
+          "url": "http://localhost:3053/en/services/hajj-umrah",
+          "pilgrimage": 1
+        }
+      ]
+    },
+    {
+      "navigation": "native-link-and-back",
+      "states": [
+        {
+          "phase": "fresh-pilgrimage",
+          "url": "http://localhost:3053/en/services/hajj-umrah",
+          "pilgrimage": 1
+        },
+        {
+          "phase": "services-unmount",
+          "url": "http://localhost:3053/en/services",
+          "services": 1
+        },
+        {
+          "phase": "pilgrimage-return",
+          "url": "http://localhost:3053/en/services/hajj-umrah",
+          "pilgrimage": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "finishedAt": "2026-10-10T00:18:27.626Z"
+}

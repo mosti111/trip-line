@@ -1,0 +1,2247 @@
+{
+  "at": "2026-10-10T13:39:21.074Z",
+  "traces": [
+    {
+      "phase": "immediate-after-Escape",
+      "time": 1109.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 4543.375,
+        "bottom": 4591.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 1136.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 1184.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 1207.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 1302.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 1323.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 1388.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 1408.800000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 1504,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 1526.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 1596.4000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 1623.199999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 1718.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 1741.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 1785.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 1820.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 1949.199999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 1971.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2039.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 2060,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 2166.199999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 2185.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2242.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 2264.199999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 2363.5,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 2384.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2428.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 2446.800000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 2543.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 2560.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2612.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 2634.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 2740.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 2761.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2810.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 2828.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-after-Escape",
+      "time": 2923,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "immediate-keyboard-cycle",
+      "time": 2941.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "two-rAF-after-cycle",
+      "time": 2989.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "settled-keyboard-cycle",
+      "time": 3017.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    }
+  ],
+  "events": [
+    {
+      "phase": "focusin",
+      "time": 976,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 4543.375,
+        "bottom": 4591.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1006.3000000119209,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 4543.375,
+        "bottom": 4591.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1105,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 4543.375,
+        "bottom": 4591.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1123.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1127.0999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1132,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 1144.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1145.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 1146.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1194.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1197.4000000059605,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1202.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1235.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1248.199999988079,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1299.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1312.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1315.0999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1319.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 1365,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1365.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 1365.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1396.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1399.199999988079,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1404.0999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1433.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1444.5,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1500.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1515,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1518.0999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1522.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 1565.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1566.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 1566.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1606.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1612.5999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1618.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1649.199999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1659.9000000059605,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1713.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1729.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1732.4000000059605,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1737.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 1774.800000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1775.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 1775.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1798,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1801.4000000059605,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1812.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1882.199999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1894.9000000059605,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1946,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1958.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1961.5999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 1966.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2012.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2013.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2013.699999988079,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2048.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2051.199999988079,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2056,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2098.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2109.9000000059605,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2162.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2176,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2178.0999999940395,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2181.800000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2214.800000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2215.5,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2215.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2251.0999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2254.4000000059605,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2259.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2297.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2309.300000011921,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2359.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2373.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2376.699999988079,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2381.199999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2421.199999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2421.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2422,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2437.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2439.800000011921,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2443.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2480.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2490.4000000059605,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2539.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2550.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2553.199999988079,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2556.5999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2603.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2604.0999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2604.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2622.0999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2625.300000011921,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2629.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2682,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2692.800000011921,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2737.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2750.699999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2753.699999988079,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2758.0999999940395,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2802.199999988079,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2802.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2802.9000000059605,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2818.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2821,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2824.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2863.800000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2873.4000000059605,
+      "active": "<button type=\"button\" class=\"journey-close\" aria-label=\"أغلق الرحلة\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"",
+      "dialogOpen": true,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2920.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2931.5,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2933.9000000059605,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2937.9000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close",
+      "time": 2979.4000000059605,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 2980.300000011921,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "close-rAF",
+      "time": 2980.5999999940395,
+      "active": "<button type=\"button\" class=\"header-journey\">الرحلة · 3</button>",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 3002.300000011921,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 3005.5,
+      "active": "<a data-related-service=\"flights-hotels\" href=\"/ar/services/flights-hotels\"><span>ترتيبات الطيران والفنادق</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill",
+      "dialogOpen": false,
+      "button": {
+        "focused": false,
+        "focusVisible": false,
+        "outline": "rgb(7, 31, 32) none 3px",
+        "top": -89.625,
+        "bottom": -41.625,
+        "headerBottom": 72
+      }
+    },
+    {
+      "phase": "focusin",
+      "time": 3010,
+      "active": "<button class=\"journey-action journey-action-primary\" type=\"submit\" data-pilgrimage-prepare=\"true\">جهّز استفساري<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=",
+      "dialogOpen": false,
+      "button": {
+        "focused": true,
+        "focusVisible": true,
+        "outline": "rgb(200, 144, 57) solid 3px",
+        "top": 470.375,
+        "bottom": 518.375,
+        "headerBottom": 72
+      }
+    }
+  ]
+}

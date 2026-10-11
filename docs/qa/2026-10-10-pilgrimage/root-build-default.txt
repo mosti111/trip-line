@@ -1,0 +1,21 @@
+$ next build
+▲ Next.js 16.3.6 (Turbopack)
+- Environments: .env.local
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Running next.config.ts took 9.4s
+  Skipping creating a lockfile at C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\.next\lock because we're using WASM bindings
+
+  Creating an optimized production build ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+
+> Build error occurred
+Error: Turbopack is not supported on this platform (win32/x64) because native bindings are not available. Only WebAssembly (WASM) bindings were loaded, and Turbopack requires native bindings.
+
+To build on this platform, use Webpack instead:
+  next build --webpack
+
+For more information, see: https://nextjs.org/docs/app/api-reference/turbopack#supported-platforms
+    at ignore-listed frames
+[ELIFECYCLE] Command failed with exit code 1.
