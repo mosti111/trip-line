@@ -558,3 +558,38 @@ P07 and QP07 engineering approval after final delivery recording; user creative
 acceptance, main merge and deployment remain separate.
 
 Final decision 2026-10-11T18:57:52.407Z: P07 APPROVED and QP07 APPROVED. Strict final delivery and root final full lint inspected; zero blocking corrections. Save exact checkpoint before B08/QB08.
+
+## B08 internal static gate — 12 October 2026
+
+Selected Astra /root/astra_business_resume independently reviewed four unchanged
+application hashes, source records, strict dated delivery and12 actual native PNGs
+atEN1440/390 AR390 TR1280 (all900px tall). Architectural source hero, compact
+numbered objectives, loaded correct camps photo/capabilities, unequal sourceTürkiye
+inspiration, connected Arabic and honest editable local brief pass internal static
+composition review. Original fullpage lazy-image/readability gaps and absent exact
+runtime timestamps are disclosed; native filesystem times are not runtime claims.
+Repeated typecheck/lint/32tests pass per strict delivery. Native globaljourney/noJS/
+production/motion checks remain pending. Approve internalstaticgate only; authorize
+one1050ms stepped decorativeSVG aboveplanheading with staticfallback/cleanup/no-replay.
+Evidence: docs/qa/2026-10-12-business/README.md andstatic-source.json,12nativePNGs.
+Formal B08/QB08 and new completed-productVISUAL remain unapproved.
+
+## 13 October final independent Business review — PASS
+
+Selected Astra independently read strict deliveries, frozen source and fresh production report (09:17:40.897–09:19:13.601 UTC): 25 cases, 75 native captures, zero unexpected errors. Root default build/typecheck/32 tests/public/V3 passed; final full lint passed against helper 975abcc13434325d8c8a29a16df299685a967a28cf8c7f94eb99ecfb23a9f0a1. No application changes or rebuild followed the freeze.
+
+Actually decoded nine final native views retained here: EN1440 arrival/training capabilities, EN390 prepared, AR390 prepared/camps context/noJS, AR768x1024 and1280x600 brief, TR1280 process. Editorial hierarchy, readable source capabilities, connected RTL, natural source imagery, useful noJS links, clear optional fields, ordered Istanbul/Sapanca and honest unsent editable message are visible. Mobile is naturally stacked with usable actions. Short laptop content continues below viewport without hidden information.
+
+Actually decoded both recorded frame sheets: EN23 frames/4.44s and AR22/4.36s show the stepped bronze line growing to its final shape while essential text/form stay fixed. Initial three EN/two AR prepaint white frames are not readability evidence. Native stills support text review; rAF metadata supplements observed motion. Exact1050ms one-shot line, preferences/static fallbacks and cleanup passed.
+
+First failure and both native diagnoses remain preserved. The correction only awaits the four exactly identified selected-events200ms CSS transitions and rejects unknown motion; fresh full acceptance inherits no pass from the failed run. No blocking corrections remain for B08/QB08. This internal family approval does not approve the completed-product VISUAL gate, finalQ12, deployment or user creative acceptance. Browser released; physical devices, Safari/Firefox, assistive technology and field performance are not certified.
+
+REVIEW — B08/QB08 final, 13 October 2026
+
+Reviewer: explicitly selected gpt-6-astra, /root/astra_business_resume, TL-003-2026-10-05-recovery. Result: PASS. Contract: recovery/TL-003-B08.md and TL-003-QB08.md. Tested revision: HEAD79487d9 plus four frozen Business application files and helper975abcc; complete hashes in strict deliveries and production-final.json.
+
+Visual fidelity / hierarchy: source architectural hero, compact indexed objective choices and unequal editorial chapter layouts preserve teal/sand/bronze identity; purposeful business composition, readable source capability rows and natural imagery. UX: objective selection visibly changes content; optional local brief and explicitly unsent editable message display current type and ordered places. Responsive: readable EN/AR390 single-column result/actions, AR768 two-column brief and1280x600 scrolling form, no compressed desktop navigation. Motion: actual EN/AR recorded sheets show one1050ms decorative step drawing while essential content stays stable; preference/lifecycle checks pass.
+
+Performance: no unexpected browser errors across25 cases; source media decoding and cleanup/listener assertions passed, no new heavy homepage component boundary; no field-performance claim. Accessibility: connected Arabic, unmirrored source photos, useful noJS source links, native controls and visible result focus; keyboard/error bounds validated. Architecture: source content authority and bounded client island preserved, no extra dependencies or backend submission; immutable source/global-journey hashes held. Regression risk: shared Pages change confined to Business route; root public120routes and fullV3 regression passed.
+
+Problems / required corrections: none remaining. First verifier failure retained with exact CSSTransition diagnosis; final helper waits only identified events-selection transitions, then requires static invariants and zero running animations. Optional improvements: none dispatched. Evidence reviewed: nine production PNGs and both actual-native-frames sheets listed in dated README; complete recordings, fresh report, strict deliveries and root logs including final lint. Limits: Chromium only, no physical device/AT or field performance certification, opaque bundle URLs do not prove full isolation. Decision: approve B08/QB08 internal family milestone, retain VISUAL and finalQ12 pending.

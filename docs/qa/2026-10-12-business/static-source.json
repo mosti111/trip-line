@@ -1,0 +1,26 @@
+{
+  "reviewRecordedAt": "2026-10-12T11:03:09.305Z",
+  "head": "79487d982ea436f6f655d247332ca57a60589f13",
+  "hashes": {
+    "frontend-v2/components/services/BusinessExperience.tsx": "97079b35cb611044d81e5b7c20d816efa3c468fa979ce39154ce7866fae18d26",
+    "frontend-v2/components/services/BusinessBrief.tsx": "623ab7b643fe8fc45925b30925e6fb82fdb758673d2600b8a8c7d625cda89ea9",
+    "frontend-v2/components/travel/Pages.tsx": "be719d4502d70a2d0d29e6c44fd545de94f7da622fa13e3591c91406f927c1e0",
+    "frontend-v2/styles/recovery-business.css": "a67be4cb9d5ee2ddee57df5f0a477b4ea10d6c32f83d47bcf821161a8a856b42"
+  },
+  "captures": [
+    "static-en1440-hero.png",
+    "static-en1440-objectives.png",
+    "static-en1440-capabilities.png",
+    "static-en390-hero.png",
+    "static-ar390-hero.png",
+    "static-ar390-camps-preview.png",
+    "static-ar390-capabilities.png",
+    "static-ar390-prepared.png",
+    "static-tr1280-objectives.png",
+    "static-tr1280-plan.png",
+    "static-en390-inspiration.png",
+    "static-en390-plan.png"
+  ],
+  "viewportHeights": 900,
+  "limits": "Original static development evidence; no production acceptance. Capture source/meaning read independently. Fullpage lazy-image/readability gaps preserved in worker delivery."
+}

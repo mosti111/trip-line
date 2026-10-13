@@ -1,0 +1,1372 @@
+{
+  "at": "2026-10-13T09:16:03.976Z",
+  "results": [
+    {
+      "cycle": 0,
+      "initial": {
+        "at": 1791882965389,
+        "animations": [
+          {
+            "constructor": "CSSTransition",
+            "property": "background-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(228, 215, 193, 0.333)",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-x",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-y",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "border-bottom-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgba(7, 31, 32, 0.267)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgb(168, 121, 45)",
+                "computedOffset": 1
+              }
+            ]
+          }
+        ]
+      },
+      "settled": {
+        "at": 1791882965507,
+        "animations": 0,
+        "rootState": null,
+        "lineState": null,
+        "offset": "0px",
+        "focused": "<div class=\"rb-prepared\" data-business-prepared=\"true\" data-prepared-service=\"events\" tabindex=\"-1\"><h3>Your inquiry is ready to send.</h3><p>Nothing has been sent yet. Open your preferred app, review the message and send it there.</p><label for=\"business-message\">Tell us what you have in mind<textarea id=\"business-message\" data-business-message=\"true\" rows=\"12\">Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences &amp; event management\nCurrent journey type: Domestic &amp; international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.</textarea></label><div class=\"rb-prepared-actions\"><a data-business-whatsapp=\"true\" class=\"journey-action journey-action-primary\" href=\"https://wa.me/905541072202?text=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a><a data-business-email=\"true\" class=\"journey-text-link\" href=\"mailto:info@triplinetravel.net?subject=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line&amp;body=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg>Open email</a></div></div>",
+        "essential": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 1,
+      "initial": {
+        "at": 1791882966603,
+        "animations": [
+          {
+            "constructor": "CSSTransition",
+            "property": "background-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(228, 215, 193, 0.333)",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-x",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-y",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "border-bottom-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgba(7, 31, 32, 0.267)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgb(168, 121, 45)",
+                "computedOffset": 1
+              }
+            ]
+          }
+        ]
+      },
+      "settled": {
+        "at": 1791882966740,
+        "animations": 0,
+        "rootState": null,
+        "lineState": null,
+        "offset": "0px",
+        "focused": "<div class=\"rb-prepared\" data-business-prepared=\"true\" data-prepared-service=\"events\" tabindex=\"-1\"><h3>Your inquiry is ready to send.</h3><p>Nothing has been sent yet. Open your preferred app, review the message and send it there.</p><label for=\"business-message\">Tell us what you have in mind<textarea id=\"business-message\" data-business-message=\"true\" rows=\"12\">Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences &amp; event management\nCurrent journey type: Domestic &amp; international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.</textarea></label><div class=\"rb-prepared-actions\"><a data-business-whatsapp=\"true\" class=\"journey-action journey-action-primary\" href=\"https://wa.me/905541072202?text=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a><a data-business-email=\"true\" class=\"journey-text-link\" href=\"mailto:info@triplinetravel.net?subject=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line&amp;body=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg>Open email</a></div></div>",
+        "essential": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    {
+      "cycle": 2,
+      "initial": {
+        "at": 1791882967791,
+        "animations": [
+          {
+            "constructor": "CSSTransition",
+            "property": "background-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundColor": "rgba(228, 215, 193, 0.333)",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-x",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionX": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "background-position-y",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0px",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "backgroundPositionY": "0%",
+                "computedOffset": 1
+              }
+            ]
+          },
+          {
+            "constructor": "CSSTransition",
+            "property": "border-bottom-color",
+            "state": "running",
+            "target": {
+              "html": "<button type=\"button\" data-business-objective=\"events\" aria-pressed=\"true\"><span>02</span><strong>Events</strong><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></button>",
+              "objective": "events",
+              "selected": "true"
+            },
+            "timing": {
+              "delay": 0,
+              "direction": "normal",
+              "duration": 200,
+              "easing": "ease",
+              "endDelay": 0,
+              "fill": "backwards",
+              "iterationStart": 0,
+              "iterations": 1
+            },
+            "keyframes": [
+              {
+                "offset": 0,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgba(7, 31, 32, 0.267)",
+                "computedOffset": 0
+              },
+              {
+                "offset": 1,
+                "easing": "linear",
+                "composite": "auto",
+                "borderBottomColor": "rgb(168, 121, 45)",
+                "computedOffset": 1
+              }
+            ]
+          }
+        ]
+      },
+      "settled": {
+        "at": 1791882967923,
+        "animations": 0,
+        "rootState": null,
+        "lineState": null,
+        "offset": "0px",
+        "focused": "<div class=\"rb-prepared\" data-business-prepared=\"true\" data-prepared-service=\"events\" tabindex=\"-1\"><h3>Your inquiry is ready to send.</h3><p>Nothing has been sent yet. Open your preferred app, review the message and send it there.</p><label for=\"business-message\">Tell us what you have in mind<textarea id=\"business-message\" data-business-message=\"true\" rows=\"12\">Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences &amp; event management\nCurrent journey type: Domestic &amp; international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.</textarea></label><div class=\"rb-prepared-actions\"><a data-business-whatsapp=\"true\" class=\"journey-action journey-action-primary\" href=\"https://wa.me/905541072202?text=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a><a data-business-email=\"true\" class=\"journey-text-link\" href=\"mailto:info@triplinetravel.net?subject=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line&amp;body=Send%20an%20inquiry%20%E2%80%94%20Trip%20Line%0AObjective%3A%20Events%0AService%20of%20interest%3A%20Conferences%20%26%20event%20management%0ACurrent%20journey%20type%3A%20Domestic%20%26%20international%20tours%0ANo%20T%C3%BCrkiye%20places%20added%20yet.%0A%0AOur%20team%20will%20discuss%20your%20needs%20and%20the%20possible%20arrangements%20with%20you.%20An%20inquiry%20is%20the%20beginning%20of%20a%20conversation%3B%20arrangements%20and%20conditions%20are%20confirmed%20separately.\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg>Open email</a></div></div>",
+        "essential": [
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H1",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "IMG",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H2",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "INPUT",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "H3",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "P",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "TEXTAREA",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "tag": "A",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceCSS": [
+    "styles/travel.css:4 a,button transition:color .2s,background .2s,border-color .2s,transform .2s",
+    "styles/recovery-business.css:2 selected objective border-bottom-color:#A8792D;background:#e4d7c155"
+  ],
+  "fingerprints": {
+    "components/services/BusinessExperience.tsx": "97079b35cb611044d81e5b7c20d816efa3c468fa979ce39154ce7866fae18d26",
+    "components/services/BusinessBrief.tsx": "c6cc370ef57972cf0867a59a121b1f47d589d13e390efa4480c28ae450c6de7e",
+    "components/travel/Pages.tsx": "be719d4502d70a2d0d29e6c44fd545de94f7da622fa13e3591c91406f927c1e0",
+    "styles/recovery-business.css": "19106dbab4f750e236b09e0f85b4045c9b7b75b2a0357c110f06e08464ecdc27",
+    "scripts/verify-recovery-business.mjs": "f5f3e6445a4289d2d295b25d087bb674c8741091ba200d5e5c797f5ffa258f90"
+  }
+}
