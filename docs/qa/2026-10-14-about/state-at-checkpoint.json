@@ -5,8 +5,8 @@
   "currentMilestone": "TL-003",
   "stateWriter": "/root/astra_about_checkpoint",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "About A09 including R1 and QA09 APPROVED;19of25tasks approved. Save exact About checkpoint then STOP per14October direct user instruction. C10/QC10/I11/QI11/VISUAL/Q12 remain PLANNED; fullTL003 incomplete. No merge/deploy/usercreativeacceptance.",
-  "nextAction": "STOP after saving the exact About checkpoint and dated state snapshot. Do not dispatch Contact or later work; await new explicit user continuation.",
+  "applicationStatus": "About A09/R1 and QA09 APPROVED and exact78file checkpoint4b77150e19d12f8d8592670e07fb8d6c8a289f1e saved.19of25tasks approved; C10/QC10/I11/QI11/VISUAL/Q12 remain PLANNED/noowners. STOP per user. FullTL003 incomplete; no merge/deploy/usercreativeacceptance.",
+  "nextAction": "STOP. About checkpoint4b77150e19d12f8d8592670e07fb8d6c8a289f1e is saved; await new explicit user continuation before Contact or any later work.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
@@ -230,6 +230,13 @@
         "at": "2026-10-14T23:51:53.772Z",
         "actor": "/root/astra_about_checkpoint",
         "reason": "About family independently approved19of25; six later tasks remainPLANNED/noowners. Current user stop boundary wins over historical fullcontinuation. Save scoped application/evidence/report/state snapshot; preserve unrelated local setup. No nextdispatch/merge/deploy."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-14T23:53:45.698Z",
+        "actor": "/root/astra_about_checkpoint",
+        "reason": "Root saved and verified exact78file About checkpoint4b77150e19d12f8d8592670e07fb8d6c8a289f1e; frontend/indexclean. Only narrow metadata documentation save remains, thenSTOP. All six later tasks PLANNED/noowners. Mixed unrelated local setup retained explicitly."
       }
     ]
   },

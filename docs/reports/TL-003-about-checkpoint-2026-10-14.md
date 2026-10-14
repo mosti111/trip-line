@@ -106,5 +106,4 @@ only; no Safari/Firefox, physical-device, assistive-technology or field-performa
 certification. Full completed-product VISUAL, finalQ12 and user creative acceptance
 remain separate. No Contact/next-family implementation, merge or deployment occurred.
 
-Application checkpoint SHA will be recorded by root's immediate narrow documentation
-save after the exact About commit. No source or QA rerun is needed for that metadata.
+Application checkpoint saved: 4b77150e19d12f8d8592670e07fb8d6c8a289f1e (78 exact files). Root verified committed paths equal the manifest, clean frontend and empty index. This final metadata save records that checkpoint; STOP now. No next-family work, source changes or QA rerun.
