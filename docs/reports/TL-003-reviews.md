@@ -593,3 +593,96 @@ Visual fidelity / hierarchy: source architectural hero, compact indexed objectiv
 Performance: no unexpected browser errors across25 cases; source media decoding and cleanup/listener assertions passed, no new heavy homepage component boundary; no field-performance claim. Accessibility: connected Arabic, unmirrored source photos, useful noJS source links, native controls and visible result focus; keyboard/error bounds validated. Architecture: source content authority and bounded client island preserved, no extra dependencies or backend submission; immutable source/global-journey hashes held. Regression risk: shared Pages change confined to Business route; root public120routes and fullV3 regression passed.
 
 Problems / required corrections: none remaining. First verifier failure retained with exact CSSTransition diagnosis; final helper waits only identified events-selection transitions, then requires static invariants and zero running animations. Optional improvements: none dispatched. Evidence reviewed: nine production PNGs and both actual-native-frames sheets listed in dated README; complete recordings, fresh report, strict deliveries and root logs including final lint. Limits: Chromium only, no physical device/AT or field performance certification, opaque bundle URLs do not prove full isolation. Decision: approve B08/QB08 internal family milestone, retain VISUAL and finalQ12 pending.
+
+# About static rendered gate — 13 October
+
+Selected Astra /root/astra_business_resume independently reviewed source, strict A09 delivery and13 actual native900px-high PNGs copied here. EN1440/390 AR1440/390 TR1280 composition, mobile story/qualified source claims, large non-card differentiators and tighter continuation, unequal attributed figures, distinct entertainment/hotel labels, connected Arabic, source photos, focusable horizontally scrolled partner middle/end and final planning action inspected. Native continuation captures are used for readable rows; fullpage thumbnails are not readability proof. Photos remain physically oriented.
+
+Internal static gate PASS for static-source.json hashes matching delivery. Typecheck/lint32tests worker pass; root production and independent QA09 remain mandatory. No full-product VISUAL/user creative acceptance implied. Supplied partner strips have source raster softness; readable organization identities and image alts remain, no new logos/claims.
+
+Authorize one small decorative900ms ease-out stroke dash line above final Plan heading, default final, with reduced/sitecalm/SaveData/noIO/partialAPI final fallback and cleanup/once-only behavior. Essential text/figures/photos must not animate. Exact new client island AboutMotion.tsx is added before writes; AboutExperience remains server composed.
+
+A09 production review CHANGES_REQUESTED: genuine AR768 clients figure overflow, actual native768image/geometry inspected. Source98px nowrap clients value plus leaves277px column, document778px. Narrow A09-R1 CSS typography/reflow correction reserved beforewrites; no clipping allowed. First16case88capture failure preserved; formal approval blocked until rebuilt fresh acceptance.
+
+## A09-R1 bounded correction review — 14 October 2026
+
+Selected Astra `/root/astra_about_checkpoint` independently read all four application
+files, Pages integration diff, immutable company-profile source/audit, exact contracts,
+strict deliveries and complete QA09 helper. No new source-fact, scope or lifecycle
+blocker. R1 only changes the761–900 figure grid to one column and responsive clients
+scale; it neither clips values nor changes source content. Other three application
+hashes match the prior freeze, helper9482eaaa unchanged.
+
+Recovered complete21case development report (09:54:46.119–09:56:00.501UTC) and84PNGs
+survived interruption. Independent report recheck confirms eight complete text Ranges
+including plus fit columns at all three locales and761/768/820/901/1024/390/1440,
+with exact document widths and zero pageerrors. Actually decoded seven native images:
+AR768/901/390/1024 clients, EN761 clients, TR768 clients andTR820 pilgrims, retained
+in docs/qa/2026-10-14-about. Full values remain readable, editorial scale unequal and
+901 boundary safely returns two columns. All images are height1024/default desktop
+input; touch emulation is not inferred. Prior static source images were also decoded
+for source hierarchy and natural imagery, not substituted for fresh production QA.
+
+Bounded R1 responsive gate PASS. A09 remains REVIEWING; fresh root production/core/
+public/V3 and full QA09 plus final native/recorded review are still mandatory.
+Current direct user instruction requires About-only checkpoint then STOP; all later
+C10/QC10/I11/QI11/VISUAL/Q12 remain unstarted.
+
+## Final About A09 / QA09 independent review — PASS
+
+Recorded 15 October 2026 Europe/Istanbul (UTC timestamp in state history).
+Reviewer: explicitly selected gpt-6-astra, `/root/astra_about_checkpoint`, session
+TL-003-2026-10-05-recovery. Contracts: A09, A09-R1 and QA09. Result: PASS.
+Tested base794bc0304b062e540f576fcaff0e39dd17e5030a plus frozen four About application
+files and unchanged helper9482eaaa; full fingerprints in14October frozen-source.json
+and production-final.json. After interruption, current fingerprints were rechecked
+and match every final source/helper fingerprint. Approval is recorded now, not
+backdated to the14October test or visual inspection.
+
+Visual fidelity / hierarchy: source-led editorial hero, qualified2019/profile2025
+story, mission/vision, seven indexed differentiators with unequal rhythm, eight
+attributed figures and supplied partner strips preserve the approved teal/ivory/
+bronze language. No seven-card layout or invented chronology/claims. Actual native
+EN1440 hero, AR390 story, TR1280 differentiators and AR1440 figures were decoded.
+R1's seven independently inspected native images show full numbers plus suffixes,
+readable tablet reflow and safe901px two-column boundary. No clipping fix.
+
+UX / responsive / accessibility: fresh EN390 noJS Plan, AR768 focused Plan,
+EN1280x600 focused Plan and AR390 final line/action views were actually decoded.
+Connected Arabic, natural source imagery, clear native links, visible focus and
+mobile vertical composition are retained. Source assertions, partner keyboard
+scroll, focus/header/CTA clearance and ordered Istanbul/Sapanca corporate handoff
+pass across the dedicated matrix. R1 uses default desktop input at21sizes/locales;
+these screenshots do not claim physical touch testing.
+
+Motion: actually decoded both complete recorded-frame sheets, EN26frames/5.16s and
+AR24frames/4.8s at0.2s intervals. EN around2.0–2.8s and AR1.6–2.4s show the bronze
+line drawing once while essential copy/actions remain stable. Five initial EN and
+three initial AR prepaint white frames are excluded from readability judgment.
+Native stills govern text readability; rAF/native Animation metadata supplements
+observed pacing and confirms900ms ease-out/one iteration. Reduced/sitecalm/SaveData,
+partialAPI/noIO, seen non-replay, detached cleanup and listener0→1 remount pass.
+
+Architecture / performance / regression: About remains server composition with a
+small decorative client island; typed profile is single fact authority. No dependency,
+backend, publication, source-media or security changes. No heavy canvas/pin observed;
+opaque bundle URLs do not prove complete bundle isolation. Frozen default production
+build, typecheck, full lint and32tests/twofiles PASS; public120routes/6captures/5groups/
+0errors and V3 60captures/16groups/0errors PASS. Fresh dedicated Chromium153.0.8010.12
+run15:03:16.389–15:04:44.292UTC14October PASS25cases/96captures/0errors with unchanged
+initial/final hashes. No acceptance inherited from earlier failed QA.
+
+Problems / required corrections: none remaining. Original AR768 overflow failure,
+geometry, native image and dev cache/cold-compile failures remain preserved.
+Optional improvements: none dispatched. Evidence reviewed: docs/qa/2026-10-14-about
+README, production-final.json, eight selected production native PNGs, two actual
+frame sheets, two original WebM recordings, R1 native report/sevenPNGs, root checks
+and both strict deliveries. Limits: Chromium emulation; no Safari/Firefox, physical
+hardware, assistive-technology or field-performance certification.
+
+Decision: APPROVE A09 including R1 and QA09 as the internal About family milestone.
+This is independent of Sol implementation and QA preparation. It does not approve
+completed-product VISUAL, Q12, full TL-003 completion or user creative acceptance.
+All workers are quiescent and runtime released. Save the exact About checkpoint and
+state snapshot, then STOP as instructed. C10/QC10/I11/QI11/VISUAL/Q12 remain PLANNED
+without owners; no next-family dispatch, merge or deployment.

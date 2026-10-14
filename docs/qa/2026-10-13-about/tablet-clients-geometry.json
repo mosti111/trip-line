@@ -1,0 +1,74 @@
+{
+  "width": 768,
+  "documentWidth": 778,
+  "figure": {
+    "tag": "DIV",
+    "class": "rc-figure rc-figure-clients",
+    "text": "25,000+عملاء راضون",
+    "rect": {
+      "left": 38.421875,
+      "right": 315.765625,
+      "width": 277.34375
+    },
+    "font": "16px",
+    "grid": "none",
+    "whiteSpace": "normal",
+    "minWidth": "0px"
+  },
+  "strong": {
+    "tag": "STRONG",
+    "class": "",
+    "text": "25,000+",
+    "rect": {
+      "left": 38.421875,
+      "right": 315.765625,
+      "width": 277.34375
+    },
+    "font": "98px",
+    "grid": "none",
+    "whiteSpace": "nowrap",
+    "minWidth": "0px"
+  },
+  "suffix": {
+    "tag": "SPAN",
+    "class": "",
+    "text": "+",
+    "rect": {
+      "left": -10.0625,
+      "right": 17.34375,
+      "width": 27.40625
+    },
+    "font": "49px",
+    "grid": "none",
+    "whiteSpace": "nowrap",
+    "minWidth": "0px"
+  },
+  "grid": {
+    "tag": "DIV",
+    "class": "rc-figure-route",
+    "text": "5,000+حجاج ومعتمرون2,000+شراكات استراتيجية15,000+جولات25,000+عملاء راضون10,000+برامج ترفيهية18,000+ط",
+    "rect": {
+      "left": 38.40625,
+      "right": 729.59375,
+      "width": 691.1875
+    },
+    "font": "16px",
+    "grid": "332.828px 277.344px",
+    "whiteSpace": "normal",
+    "minWidth": "0px"
+  },
+  "wrap": {
+    "tag": "DIV",
+    "class": "rc-wrap",
+    "text": "03 / ملف الشركة لعام ٢٠٢٥أرقام من ملف أعمالنا.أرقام واردة في ملف الشركة لعام ٢٠٢٥.5,000+حجاج ومعتمرو",
+    "rect": {
+      "left": 38.40625,
+      "right": 729.59375,
+      "width": 691.1875
+    },
+    "font": "16px",
+    "grid": "none",
+    "whiteSpace": "normal",
+    "minWidth": "0px"
+  }
+}

@@ -1,0 +1,2044 @@
+{
+  "start": "2026-10-14T09:54:46.119Z",
+  "finish": "2026-10-14T09:56:00.501Z",
+  "browser": "Chromium Playwright",
+  "results": [
+    {
+      "locale": "en",
+      "width": 761,
+      "geometry": {
+        "docWidth": 761,
+        "viewport": 761,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 74.046875,
+            "right": 246.28125,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 74.046875,
+            "right": 221.6875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 74.046875,
+            "right": 252.671875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 74.046875,
+            "right": 311.90625,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "79.905px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 74.046875,
+            "right": 252.671875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 74.046875,
+            "right": 282.4375,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 74.046875,
+            "right": 252.671875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 74.046875,
+            "right": 200.453125,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-761-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-761-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-761-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-761-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "geometry": {
+        "docWidth": 768,
+        "viewport": 768,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 74.40625,
+            "right": 246.640625,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 74.40625,
+            "right": 222.046875,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 74.40625,
+            "right": 253.03125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 74.40625,
+            "right": 314.46875,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "80.64px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 74.40625,
+            "right": 253.03125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 74.40625,
+            "right": 282.796875,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 74.40625,
+            "right": 253.03125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 74.40625,
+            "right": 200.8125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-768-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-768-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-768-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-768-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 820,
+      "geometry": {
+        "docWidth": 820,
+        "viewport": 820,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 77,
+            "right": 249.234375,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 77,
+            "right": 224.640625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 77,
+            "right": 255.625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 77,
+            "right": 333.3125,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "86.1px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 77,
+            "right": 255.625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 77,
+            "right": 285.390625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 77,
+            "right": 255.625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 77,
+            "right": 203.40625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-820-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-820-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-820-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-820-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 901,
+      "geometry": {
+        "docWidth": 901,
+        "viewport": 901,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 81.046875,
+            "right": 253.28125,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 524.15625,
+            "right": 671.796875,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 81.046875,
+            "right": 259.671875,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 524.15625,
+            "right": 815.890625,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 81.046875,
+            "right": 259.671875,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 524.15625,
+            "right": 732.546875,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 81.046875,
+            "right": 259.671875,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 524.15625,
+            "right": 650.5625,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-901-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-901-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-901-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-901-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "geometry": {
+        "docWidth": 1024,
+        "viewport": 1024,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 87.203125,
+            "right": 271.125,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 590.703125,
+            "right": 746.890625,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 87.203125,
+            "right": 276.171875,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 590.703125,
+            "right": 882.4375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 87.203125,
+            "right": 276.171875,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 590.703125,
+            "right": 813.234375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 87.203125,
+            "right": 276.171875,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 590.703125,
+            "right": 717.109375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1024-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1024-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1024-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1024-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "geometry": {
+        "docWidth": 390,
+        "viewport": 390,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 48,
+            "right": 244.84375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 48,
+            "right": 215.3125,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 48,
+            "right": 250.4375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 48,
+            "right": 315.921875,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "90px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 48,
+            "right": 250.4375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 48,
+            "right": 286.15625,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 48,
+            "right": 250.4375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 48,
+            "right": 153.34375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-390-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-390-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-390-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-390-events.png"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "geometry": {
+        "docWidth": 1440,
+        "viewport": 1440,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 116,
+            "right": 374.34375,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 840,
+            "right": 1059.671875,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 116,
+            "right": 381.78125,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 840,
+            "right": 1197.234375,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "120px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 116,
+            "right": 381.78125,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 840,
+            "right": 1152.578125,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 116,
+            "right": 381.78125,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 840,
+            "right": 966.40625,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1440-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1440-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1440-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\en-1440-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 761,
+      "geometry": {
+        "docWidth": 761,
+        "viewport": 761,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 493.34375,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 521,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 487.46875,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 421.3125,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "79.905px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 487.46875,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 454.21875,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 487.46875,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 546.078125,
+            "right": 686.953125,
+            "columnLeft": 38.0625,
+            "columnRight": 686.953125,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-761-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-761-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-761-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-761-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "geometry": {
+        "docWidth": 768,
+        "viewport": 768,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 499.984375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 527.640625,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 494.109375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 425.484375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "80.64px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 494.109375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 460.859375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 494.109375,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 552.71875,
+            "right": 693.59375,
+            "columnLeft": 38.40625,
+            "columnRight": 693.59375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-768-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-768-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-768-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-768-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 820,
+      "geometry": {
+        "docWidth": 820,
+        "viewport": 820,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 549.390625,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 577.046875,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 543.515625,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 456.734375,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "86.1px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 543.515625,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 510.265625,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 543.515625,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 602.125,
+            "right": 743,
+            "columnLeft": 41,
+            "columnRight": 743,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-820-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-820-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-820-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-820-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 901,
+      "geometry": {
+        "docWidth": 901,
+        "viewport": 901,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 626.34375,
+            "right": 819.953125,
+            "columnLeft": 421.84375,
+            "columnRight": 819.953125,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 210.890625,
+            "right": 376.84375,
+            "columnLeft": 45.0625,
+            "columnRight": 376.84375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 620.46875,
+            "right": 819.953125,
+            "columnLeft": 421.84375,
+            "columnRight": 819.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 51.015625,
+            "right": 376.84375,
+            "columnLeft": 45.0625,
+            "columnRight": 376.84375,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 620.46875,
+            "right": 819.953125,
+            "columnLeft": 421.84375,
+            "columnRight": 819.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 144.109375,
+            "right": 376.84375,
+            "columnLeft": 45.0625,
+            "columnRight": 376.84375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 620.46875,
+            "right": 819.953125,
+            "columnLeft": 421.84375,
+            "columnRight": 819.953125,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 235.96875,
+            "right": 376.84375,
+            "columnLeft": 45.0625,
+            "columnRight": 376.84375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-901-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-901-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-901-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-901-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "geometry": {
+        "docWidth": 1024,
+        "viewport": 1024,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 730.0625,
+            "right": 936.796875,
+            "columnLeft": 478.296875,
+            "columnRight": 936.796875,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 257.734375,
+            "right": 433.296875,
+            "columnLeft": 51.203125,
+            "columnRight": 433.296875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 725.75,
+            "right": 936.796875,
+            "columnLeft": 478.296875,
+            "columnRight": 936.796875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 107.46875,
+            "right": 433.296875,
+            "columnLeft": 51.203125,
+            "columnRight": 433.296875,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 725.75,
+            "right": 936.796875,
+            "columnLeft": 478.296875,
+            "columnRight": 936.796875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 184.78125,
+            "right": 433.296875,
+            "columnLeft": 51.203125,
+            "columnRight": 433.296875,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 725.75,
+            "right": 936.796875,
+            "columnLeft": 478.296875,
+            "columnRight": 936.796875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 292.421875,
+            "right": 433.296875,
+            "columnLeft": 51.203125,
+            "columnRight": 433.296875,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1024-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1024-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1024-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1024-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "geometry": {
+        "docWidth": 390,
+        "viewport": 390,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 120.734375,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 153.921875,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 115.921875,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 42.78125,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "90px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 115.921875,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 76.015625,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 115.921875,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 224.59375,
+            "right": 342,
+            "columnLeft": 22,
+            "columnRight": 342,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-390-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-390-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-390-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-390-events.png"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "geometry": {
+        "docWidth": 1440,
+        "viewport": 1440,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5,000+",
+            "left": 1033.609375,
+            "right": 1324,
+            "columnLeft": 700,
+            "columnRight": 1324,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2,000+",
+            "left": 353.078125,
+            "right": 600,
+            "columnLeft": 80,
+            "columnRight": 600,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15,000+",
+            "left": 1027.171875,
+            "right": 1324,
+            "columnLeft": 700,
+            "columnRight": 1324,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25,000+",
+            "left": 201.046875,
+            "right": 600,
+            "columnLeft": 80,
+            "columnRight": 600,
+            "size": "120px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10,000+",
+            "left": 1027.171875,
+            "right": 1324,
+            "columnLeft": 700,
+            "columnRight": 1324,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18,000+",
+            "left": 250.90625,
+            "right": 600,
+            "columnLeft": 80,
+            "columnRight": 600,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10,000+",
+            "left": 1027.171875,
+            "right": 1324,
+            "columnLeft": 700,
+            "columnRight": 1324,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 459.125,
+            "right": 600,
+            "columnLeft": 80,
+            "columnRight": 600,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1440-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1440-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1440-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\ar-1440-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 761,
+      "geometry": {
+        "docWidth": 761,
+        "viewport": 761,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 74.046875,
+            "right": 245.6875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 74.046875,
+            "right": 221.171875,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 74.046875,
+            "right": 252.15625,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 74.046875,
+            "right": 311.234375,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "79.905px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 74.046875,
+            "right": 252.15625,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 74.046875,
+            "right": 281.828125,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 74.046875,
+            "right": 252.15625,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 74.046875,
+            "right": 200.453125,
+            "columnLeft": 74.046875,
+            "columnRight": 722.9375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-761-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-761-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-761-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-761-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "geometry": {
+        "docWidth": 768,
+        "viewport": 768,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 74.40625,
+            "right": 246.046875,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 74.40625,
+            "right": 221.53125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 74.40625,
+            "right": 252.515625,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 74.40625,
+            "right": 313.78125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "80.64px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 74.40625,
+            "right": 252.515625,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 74.40625,
+            "right": 282.1875,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 74.40625,
+            "right": 252.515625,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 74.40625,
+            "right": 200.8125,
+            "columnLeft": 74.40625,
+            "columnRight": 729.59375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-768-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-768-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-768-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-768-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 820,
+      "geometry": {
+        "docWidth": 820,
+        "viewport": 820,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 77,
+            "right": 248.640625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 77,
+            "right": 224.125,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 77,
+            "right": 255.109375,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 77,
+            "right": 332.578125,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "86.1px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 77,
+            "right": 255.109375,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 77,
+            "right": 284.78125,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 77,
+            "right": 255.109375,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 77,
+            "right": 203.40625,
+            "columnLeft": 77,
+            "columnRight": 779,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-820-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-820-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-820-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-820-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 901,
+      "geometry": {
+        "docWidth": 901,
+        "viewport": 901,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 81.046875,
+            "right": 252.6875,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 524.15625,
+            "right": 671.28125,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 81.046875,
+            "right": 259.15625,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 524.15625,
+            "right": 815.0625,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 81.046875,
+            "right": 259.15625,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 524.15625,
+            "right": 731.9375,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "70px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 81.046875,
+            "right": 259.15625,
+            "columnLeft": 81.046875,
+            "columnRight": 479.15625,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 524.15625,
+            "right": 650.5625,
+            "columnLeft": 524.15625,
+            "columnRight": 855.9375,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-901-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-901-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-901-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-901-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "geometry": {
+        "docWidth": 1024,
+        "viewport": 1024,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 87.203125,
+            "right": 270.484375,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 590.703125,
+            "right": 746.34375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 87.203125,
+            "right": 275.640625,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 590.703125,
+            "right": 881.609375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "98px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 87.203125,
+            "right": 275.640625,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 590.703125,
+            "right": 812.59375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "74.752px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 87.203125,
+            "right": 275.640625,
+            "columnLeft": 87.203125,
+            "columnRight": 545.703125,
+            "size": "63.488px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 590.703125,
+            "right": 717.109375,
+            "columnLeft": 590.703125,
+            "columnRight": 972.796875,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1024-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1024-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1024-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1024-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "geometry": {
+        "docWidth": 390,
+        "viewport": 390,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 48,
+            "right": 244.15625,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 48,
+            "right": 214.734375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 48,
+            "right": 249.859375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 48,
+            "right": 315.15625,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "90px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 48,
+            "right": 249.859375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 48,
+            "right": 285.46875,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "80px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 48,
+            "right": 249.859375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "68px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 48,
+            "right": 153.34375,
+            "columnLeft": 48,
+            "columnRight": 368,
+            "size": "60px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-390-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-390-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-390-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-390-events.png"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "geometry": {
+        "docWidth": 1440,
+        "viewport": 1440,
+        "figures": [
+          {
+            "id": "pilgrims",
+            "text": "5.000+",
+            "left": 116,
+            "right": 373.453125,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "partnerships",
+            "text": "2.000+",
+            "left": 840,
+            "right": 1058.90625,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "tours",
+            "text": "15.000+",
+            "left": 116,
+            "right": 381.015625,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "clients",
+            "text": "25.000+",
+            "left": 840,
+            "right": 1196.203125,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "120px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "entertainment",
+            "text": "10.000+",
+            "left": 116,
+            "right": 381.015625,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "visas",
+            "text": "18.000+",
+            "left": 840,
+            "right": 1151.671875,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "105px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "hotels",
+            "text": "10.000+",
+            "left": 116,
+            "right": 381.015625,
+            "columnLeft": 116,
+            "columnRight": 740,
+            "size": "89.28px",
+            "whiteSpace": "nowrap"
+          },
+          {
+            "id": "events",
+            "text": "200+",
+            "left": 840,
+            "right": 966.40625,
+            "columnLeft": 840,
+            "columnRight": 1360,
+            "size": "72px",
+            "whiteSpace": "nowrap"
+          }
+        ]
+      },
+      "errors": [],
+      "captures": [
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1440-clients.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1440-pilgrims.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1440-visas.png",
+        "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\about-r1-2026-10-14\\tr-1440-events.png"
+      ]
+    }
+  ]
+}

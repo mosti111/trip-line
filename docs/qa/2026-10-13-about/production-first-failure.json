@@ -1,0 +1,6347 @@
+{
+  "status": "fail",
+  "startedAt": "2026-10-13T20:23:15.529Z",
+  "artifacts": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z",
+  "base": "http://localhost:3043",
+  "revision": "794bc0304b062e540f576fcaff0e39dd17e5030a",
+  "sourceFingerprints": {
+    "components/company/AboutExperience.tsx": "cc313c554897b4a16abe4da236a89d26c8f63fc001328bde975df6f07f574121",
+    "components/company/AboutMotion.tsx": "f75b8c2827844d96608f10e9c876dbd57da063c1abecbe1e7842209fc7b0e20a",
+    "components/travel/Pages.tsx": "045c1e76f4c6b8078081cb861cb2e954bf102b64cfc2546b770c245608d56f59",
+    "styles/recovery-company.css": "6f77b6523072291d4e02b161f5f7f123e1d07ff565d33b0bca9781e54cbf10f6",
+    "lib/company-profile.ts": "4886718185b3574e6ab88c0f4ee62604c8b1cc04fad42739437c63b2ec8b543e",
+    "lib/i18n.ts": "5d26f3e9b19ec3d0c2086799af00b608a2c1bcce2159832e17e42829d72aac71",
+    "scripts/verify-recovery-about.mjs": "9482eaaa971163b6847a747139bdf21ec0bf311aea715bcd44fcf5c722cfe473"
+  },
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "source/native links",
+      "content": {
+        "sourceFacts": {
+          "established": "Established in 2019.",
+          "licensed": "Licensed Turkish tourism company, according to Company Profile 2025.",
+          "accreditation": "TÜRSAB accreditation, according to Company Profile 2025.",
+          "mission": "We aim to be a trusted travel companion through reliable, high-quality travel services.",
+          "vision": "We aim to offer innovative, comprehensive travel solutions and meaningful experiences for individuals and businesses."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "105px",
+          "89.28px",
+          "89.28px",
+          "120px",
+          "89.28px",
+          "105px",
+          "89.28px",
+          "72px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=1920&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=1920&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=1920&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "brokenImages": []
+        }
+      },
+      "partnerFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 87.96875,
+          "bottom": 353.625
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "partnerScroll": {
+        "left": 0,
+        "width": 1280,
+        "content": 1280
+      },
+      "planFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 594.265625,
+          "bottom": 642.265625
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ],
+      "mutations": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "source/native links",
+      "content": {
+        "sourceFacts": {
+          "established": "Established in 2019.",
+          "licensed": "Licensed Turkish tourism company, according to Company Profile 2025.",
+          "accreditation": "TÜRSAB accreditation, according to Company Profile 2025.",
+          "mission": "We aim to be a trusted travel companion through reliable, high-quality travel services.",
+          "vision": "We aim to offer innovative, comprehensive travel solutions and meaningful experiences for individuals and businesses."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "partnerFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 88.0625,
+          "bottom": 310.328125
+        },
+        "headerBottom": 72,
+        "mobileCTA": {
+          "top": 771,
+          "bottom": 844
+        }
+      },
+      "partnerScroll": {
+        "left": 40,
+        "width": 346,
+        "content": 1050
+      },
+      "planFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 692.203125,
+          "bottom": 740.203125
+        },
+        "headerBottom": 72,
+        "mobileCTA": {
+          "top": 771,
+          "bottom": 844
+        }
+      },
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ],
+      "mutations": []
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "mode": "source/native links",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "105px",
+          "89.28px",
+          "89.28px",
+          "120px",
+          "89.28px",
+          "105px",
+          "89.28px",
+          "72px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=1920&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=1920&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=1920&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "brokenImages": []
+        }
+      },
+      "partnerFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 113.1875,
+          "bottom": 378.84375
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "partnerScroll": {
+        "left": 0,
+        "width": 1280,
+        "content": 1280
+      },
+      "planFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 593.21875,
+          "bottom": 641.21875
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ],
+      "mutations": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "source/native links",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "partnerFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 87.53125,
+          "bottom": 309.796875
+        },
+        "headerBottom": 72,
+        "mobileCTA": {
+          "top": 803.072509765625,
+          "bottom": 876.072509765625
+        }
+      },
+      "partnerScroll": {
+        "left": 40,
+        "width": 346,
+        "content": 1050
+      },
+      "planFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 658.984375,
+          "bottom": 706.984375
+        },
+        "headerBottom": 72,
+        "mobileCTA": {
+          "top": 771.930419921875,
+          "bottom": 844.930419921875
+        }
+      },
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ],
+      "mutations": []
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 900,
+      "mode": "source/native links",
+      "content": {
+        "sourceFacts": {
+          "established": "2019 yılında kuruldu.",
+          "licensed": "2025 Şirket Profili’ne göre lisanslı bir Türk turizm şirketi.",
+          "accreditation": "2025 Şirket Profili’ne göre TÜRSAB akreditasyonu.",
+          "mission": "Güvenilir ve kaliteli seyahat hizmetleriyle güven duyulan bir yol arkadaşı olmayı amaçlıyoruz.",
+          "vision": "Bireylere ve işletmelere yenilikçi, kapsamlı seyahat çözümleri ve anlamlı deneyimler sunmayı amaçlıyoruz."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "93.44px",
+          "79.36px",
+          "79.36px",
+          "107.52px",
+          "79.36px",
+          "93.44px",
+          "79.36px",
+          "72px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=1920&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=1920&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=1920&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 1280,
+          "documentWidth": 1280,
+          "brokenImages": []
+        }
+      },
+      "partnerFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 98.9375,
+          "bottom": 343.53125
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "partnerScroll": {
+        "left": 0,
+        "width": 1152,
+        "content": 1152
+      },
+      "planFocus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 575.875,
+          "bottom": 623.875
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      },
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ],
+      "mutations": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "content": {
+        "sourceFacts": {
+          "established": "Established in 2019.",
+          "licensed": "Licensed Turkish tourism company, according to Company Profile 2025.",
+          "accreditation": "TÜRSAB accreditation, according to Company Profile 2025.",
+          "mission": "We aim to be a trusted travel companion through reliable, high-quality travel services.",
+          "vision": "We aim to offer innovative, comprehensive travel solutions and meaningful experiences for individuals and businesses."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "content": {
+        "sourceFacts": {
+          "established": "2019 yılında kuruldu.",
+          "licensed": "2025 Şirket Profili’ne göre lisanslı bir Türk turizm şirketi.",
+          "accreditation": "2025 Şirket Profili’ne göre TÜRSAB akreditasyonu.",
+          "mission": "Güvenilir ve kaliteli seyahat hizmetleriyle güven duyulan bir yol arkadaşı olmayı amaçlıyoruz.",
+          "vision": "Bireylere ve işletmelere yenilikçi, kapsamlı seyahat çözümleri ve anlamlı deneyimler sunmayı amaçlıyoruz."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "content": {
+        "sourceFacts": {
+          "established": "Established in 2019.",
+          "licensed": "Licensed Turkish tourism company, according to Company Profile 2025.",
+          "accreditation": "TÜRSAB accreditation, according to Company Profile 2025.",
+          "mission": "We aim to be a trusted travel companion through reliable, high-quality travel services.",
+          "vision": "We aim to offer innovative, comprehensive travel solutions and meaningful experiences for individuals and businesses."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "content": {
+        "sourceFacts": {
+          "established": "2019 yılında kuruldu.",
+          "licensed": "2025 Şirket Profili’ne göre lisanslı bir Türk turizm şirketi.",
+          "accreditation": "2025 Şirket Profili’ne göre TÜRSAB akreditasyonu.",
+          "mission": "Güvenilir ve kaliteli seyahat hizmetleriyle güven duyulan bir yol arkadaşı olmayı amaçlıyoruz.",
+          "vision": "Bireylere ve işletmelere yenilikçi, kapsamlı seyahat çözümleri ve anlamlı deneyimler sunmayı amaçlıyoruz."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "SaveData",
+      "content": {
+        "sourceFacts": {
+          "established": "Established in 2019.",
+          "licensed": "Licensed Turkish tourism company, according to Company Profile 2025.",
+          "accreditation": "TÜRSAB accreditation, according to Company Profile 2025.",
+          "mission": "We aim to be a trusted travel companion through reliable, high-quality travel services.",
+          "vision": "We aim to offer innovative, comprehensive travel solutions and meaningful experiences for individuals and businesses."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "SaveData",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "SaveData",
+      "content": {
+        "sourceFacts": {
+          "established": "2019 yılında kuruldu.",
+          "licensed": "2025 Şirket Profili’ne göre lisanslı bir Türk turizm şirketi.",
+          "accreditation": "2025 Şirket Profili’ne göre TÜRSAB akreditasyonu.",
+          "mission": "Güvenilir ve kaliteli seyahat hizmetleriyle güven duyulan bir yol arkadaşı olmayı amaçlıyoruz.",
+          "vision": "Bireylere ve işletmelere yenilikçi, kapsamlı seyahat çözümleri ve anlamlı deneyimler sunmayı amaçlıyoruz."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        }
+      },
+      "staticArtwork": {
+        "offset": "0px",
+        "transform": "none",
+        "animations": 0,
+        "awaitedNativeTransitions": 0,
+        "isolation": {
+          "animations": [],
+          "essential": [
+            {
+              "tag": "H1",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H3",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "STRONG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "SMALL",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "P",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "IMG",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "H2",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            },
+            {
+              "tag": "A",
+              "opacity": "1",
+              "transform": "none",
+              "animations": 0
+            }
+          ]
+        }
+      },
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/2j11mgr62wilu.js"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 360,
+      "height": 800,
+      "mode": "responsive/short bounds",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=384&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 360,
+          "documentWidth": 360,
+          "brokenImages": []
+        }
+      },
+      "focus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 419.546875,
+          "bottom": 467.546875
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "height": 844,
+      "mode": "responsive/short bounds",
+      "content": {
+        "sourceFacts": {
+          "established": "تأسست عام ٢٠١٩.",
+          "licensed": "شركة سياحة تركية مرخصة، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "accreditation": "اعتماد TÜRSAB، وفقاً لملف الشركة لعام ٢٠٢٥.",
+          "mission": "نسعى إلى أن نكون رفيق سفر موثوقاً من خلال خدمات سفر عالية الجودة يمكن الاعتماد عليها.",
+          "vision": "نسعى إلى تقديم حلول سفر مبتكرة وشاملة وتجارب ذات معنى للأفراد والشركات."
+        },
+        "differentiators": [
+          "experience-reliability",
+          "comprehensive-services",
+          "customized-experiences",
+          "professional-team",
+          "strategic-partnerships",
+          "attention-to-detail",
+          "quality-standards"
+        ],
+        "figures": [
+          {
+            "id": "pilgrims",
+            "value": 5000
+          },
+          {
+            "id": "partnerships",
+            "value": 2000
+          },
+          {
+            "id": "tours",
+            "value": 15000
+          },
+          {
+            "id": "clients",
+            "value": 25000
+          },
+          {
+            "id": "entertainment",
+            "value": 10000
+          },
+          {
+            "id": "visas",
+            "value": 18000
+          },
+          {
+            "id": "hotels",
+            "value": 10000
+          },
+          {
+            "id": "events",
+            "value": 200
+          }
+        ],
+        "figureSizes": [
+          "80px",
+          "68px",
+          "68px",
+          "90px",
+          "68px",
+          "80px",
+          "68px",
+          "60px"
+        ],
+        "partnerFiles": [
+          "partners-1.png",
+          "partners-2.png"
+        ],
+        "headingLevels": [
+          1,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-1.png&w=640&q=75",
+            "natural": true
+          },
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fpartners-2.png&w=640&q=75",
+            "natural": true
+          }
+        ],
+        "bounds": {
+          "width": 430,
+          "documentWidth": 430,
+          "brokenImages": []
+        }
+      },
+      "focus": {
+        "unobscured": true,
+        "focusVisible": true,
+        "outline": true,
+        "shadow": false,
+        "rect": {
+          "top": 442.125,
+          "bottom": 490.125
+        },
+        "headerBottom": 72,
+        "mobileCTA": null
+      }
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-hero.png",
+      "at": "2026-10-13T20:23:20.121Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-1440-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-story.png",
+      "at": "2026-10-13T20:23:20.279Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-1440-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-differentiators.png",
+      "at": "2026-10-13T20:23:20.516Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-1440-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-figures.png",
+      "at": "2026-10-13T20:23:20.670Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-1440-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-partners.png",
+      "at": "2026-10-13T20:23:20.857Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-1440-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-1440-plan.png",
+      "at": "2026-10-13T20:23:21.039Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-390-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-hero.png",
+      "at": "2026-10-13T20:23:23.850Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-story.png",
+      "at": "2026-10-13T20:23:23.954Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-differentiators.png",
+      "at": "2026-10-13T20:23:24.060Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-figures.png",
+      "at": "2026-10-13T20:23:24.167Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-partners.png",
+      "at": "2026-10-13T20:23:24.270Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-plan.png",
+      "at": "2026-10-13T20:23:24.368Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-1440-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-hero.png",
+      "at": "2026-10-13T20:23:27.526Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-1440-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-story.png",
+      "at": "2026-10-13T20:23:27.698Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-1440-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-differentiators.png",
+      "at": "2026-10-13T20:23:27.948Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-1440-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-figures.png",
+      "at": "2026-10-13T20:23:28.090Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-1440-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-partners.png",
+      "at": "2026-10-13T20:23:28.254Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-1440-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-1440-plan.png",
+      "at": "2026-10-13T20:23:28.433Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "ar-390-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-hero.png",
+      "at": "2026-10-13T20:23:30.914Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-story.png",
+      "at": "2026-10-13T20:23:31.019Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-differentiators.png",
+      "at": "2026-10-13T20:23:31.121Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-figures.png",
+      "at": "2026-10-13T20:23:31.214Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-partners.png",
+      "at": "2026-10-13T20:23:31.321Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-plan.png",
+      "at": "2026-10-13T20:23:31.424Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-1280-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-hero.png",
+      "at": "2026-10-13T20:23:34.409Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "tr-1280-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-story.png",
+      "at": "2026-10-13T20:23:34.553Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "tr-1280-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-differentiators.png",
+      "at": "2026-10-13T20:23:34.761Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "tr-1280-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-figures.png",
+      "at": "2026-10-13T20:23:34.892Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "tr-1280-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-partners.png",
+      "at": "2026-10-13T20:23:35.016Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "tr-1280-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-1280-plan.png",
+      "at": "2026-10-13T20:23:35.203Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "name": "en-390-noJS-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-hero.png",
+      "at": "2026-10-13T20:23:37.373Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-noJS-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-story.png",
+      "at": "2026-10-13T20:23:37.455Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-noJS-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-differentiators.png",
+      "at": "2026-10-13T20:23:37.555Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-noJS-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-figures.png",
+      "at": "2026-10-13T20:23:37.661Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-noJS-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-partners.png",
+      "at": "2026-10-13T20:23:37.751Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-noJS-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-noJS-plan.png",
+      "at": "2026-10-13T20:23:37.847Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-hero.png",
+      "at": "2026-10-13T20:23:39.849Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-story.png",
+      "at": "2026-10-13T20:23:39.929Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-differentiators.png",
+      "at": "2026-10-13T20:23:40.036Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-figures.png",
+      "at": "2026-10-13T20:23:40.135Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-partners.png",
+      "at": "2026-10-13T20:23:40.234Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-noJS-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-noJS-plan.png",
+      "at": "2026-10-13T20:23:40.338Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-hero.png",
+      "at": "2026-10-13T20:23:42.209Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-story.png",
+      "at": "2026-10-13T20:23:42.298Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-differentiators.png",
+      "at": "2026-10-13T20:23:42.404Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-figures.png",
+      "at": "2026-10-13T20:23:42.501Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-partners.png",
+      "at": "2026-10-13T20:23:42.601Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-noJS-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-noJS-plan.png",
+      "at": "2026-10-13T20:23:42.698Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-hero.png",
+      "at": "2026-10-13T20:23:45.073Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-story.png",
+      "at": "2026-10-13T20:23:45.161Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-differentiators.png",
+      "at": "2026-10-13T20:23:45.237Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-figures.png",
+      "at": "2026-10-13T20:23:45.313Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-partners.png",
+      "at": "2026-10-13T20:23:45.412Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-reduced-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-reduced-plan.png",
+      "at": "2026-10-13T20:23:45.475Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-hero.png",
+      "at": "2026-10-13T20:23:47.821Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-story.png",
+      "at": "2026-10-13T20:23:47.902Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-differentiators.png",
+      "at": "2026-10-13T20:23:47.985Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-figures.png",
+      "at": "2026-10-13T20:23:48.069Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-partners.png",
+      "at": "2026-10-13T20:23:48.170Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-reduced-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-reduced-plan.png",
+      "at": "2026-10-13T20:23:48.286Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-hero.png",
+      "at": "2026-10-13T20:23:50.475Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-story.png",
+      "at": "2026-10-13T20:23:50.554Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-differentiators.png",
+      "at": "2026-10-13T20:23:50.638Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-figures.png",
+      "at": "2026-10-13T20:23:50.730Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-partners.png",
+      "at": "2026-10-13T20:23:50.834Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-reduced-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-reduced-plan.png",
+      "at": "2026-10-13T20:23:50.933Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-hero.png",
+      "at": "2026-10-13T20:23:53.180Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-story.png",
+      "at": "2026-10-13T20:23:53.283Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-differentiators.png",
+      "at": "2026-10-13T20:23:53.393Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-figures.png",
+      "at": "2026-10-13T20:23:53.516Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-partners.png",
+      "at": "2026-10-13T20:23:53.611Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "en-390-SaveData-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\en-390-SaveData-plan.png",
+      "at": "2026-10-13T20:23:53.699Z",
+      "url": "http://localhost:3043/en/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-hero.png",
+      "at": "2026-10-13T20:23:55.958Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-story.png",
+      "at": "2026-10-13T20:23:56.048Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-differentiators.png",
+      "at": "2026-10-13T20:23:56.147Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-figures.png",
+      "at": "2026-10-13T20:23:56.247Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-partners.png",
+      "at": "2026-10-13T20:23:56.354Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-390-SaveData-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-390-SaveData-plan.png",
+      "at": "2026-10-13T20:23:56.461Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-hero.png",
+      "at": "2026-10-13T20:23:58.610Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-story",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-story.png",
+      "at": "2026-10-13T20:23:58.701Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-differentiators",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-differentiators.png",
+      "at": "2026-10-13T20:23:58.802Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-figures",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-figures.png",
+      "at": "2026-10-13T20:23:58.893Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-partners",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-partners.png",
+      "at": "2026-10-13T20:23:58.969Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "tr-390-SaveData-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\tr-390-SaveData-plan.png",
+      "at": "2026-10-13T20:23:59.061Z",
+      "url": "http://localhost:3043/tr/about",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-360x800-hero-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-360x800-hero-bounds.png",
+      "at": "2026-10-13T20:24:01.323Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    },
+    {
+      "name": "ar-360x800-plan-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-360x800-plan-bounds.png",
+      "at": "2026-10-13T20:24:01.429Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    },
+    {
+      "name": "ar-430x844-hero-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-430x844-hero-bounds.png",
+      "at": "2026-10-13T20:24:03.548Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 430,
+        "height": 844
+      }
+    },
+    {
+      "name": "ar-430x844-plan-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-about\\2026-10-13T20-23-15-529Z\\ar-430x844-plan-bounds.png",
+      "at": "2026-10-13T20:24:03.669Z",
+      "url": "http://localhost:3043/ar/about",
+      "viewport": {
+        "width": 430,
+        "height": 844
+      }
+    }
+  ],
+  "errors": [],
+  "gaps": [
+    "Independent rendered Astra review required; no Safari/Firefox, physical-device, assistive-technology or field-performance certification."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "activeCase": {
+    "locale": "ar",
+    "width": 768,
+    "height": 1024,
+    "mode": "normal"
+  },
+  "failure": {
+    "message": "expect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 769\nReceived:    778",
+    "stack": "Error: expect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 769\nReceived:    778\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBeLessThanOrEqual (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at bounds (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-about.mjs:46:305)\n    at async sourceContent (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-about.mjs:64:334)\n    at async fallbackMatrix (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-about.mjs:74:182)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery-about.mjs:126:154",
+    "activeCase": {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "mode": "normal"
+    },
+    "at": "2026-10-13T20:24:05.716Z"
+  },
+  "finishedAt": "2026-10-13T20:24:05.918Z"
+}
