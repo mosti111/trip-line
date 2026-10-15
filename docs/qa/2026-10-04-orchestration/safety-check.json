@@ -1,0 +1,92 @@
+[
+  {
+    "Path": "TODO.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/AI_HANDOFF.md",
+    "ExactHashUnchanged": false,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+    "ExactHashUnchanged": false,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/README.md",
+    "ExactHashUnchanged": false,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/TESTING.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/V3_BRONZE_JOURNEY.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/V3_FRONTEND_DELIVERY.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/reports/README.md",
+    "ExactHashUnchanged": false,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/tasks/README.md",
+    "ExactHashUnchanged": false,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/tasks/TL-002-bronze-reconstruction.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/README.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/captures.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/media.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/planner-throttled.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/public-verification.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/reconstruction-verification.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/qa/2026-10-03-reconstruction/resilience.json",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  },
+  {
+    "Path": "docs/reports/TL-002-report.md",
+    "ExactHashUnchanged": true,
+    "OriginalContentPreserved": true
+  }
+]

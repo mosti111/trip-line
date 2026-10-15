@@ -1,5 +1,21 @@
 # Trip Line decisions
 
+## TL-DEC-011 — Persistent Astra/Sol orchestration
+
+Date: 2026-10-04. Status: Authorized by the current TL-SYS-002 user request.
+
+Decision: extend the existing operating map with Astra-led specification and
+review, narrowly scoped Sol implementation, exclusive ownership, durable state
+and mandatory rendered frontend acceptance. Existing product/design authorities
+stay in force; creative leadership does not grant permission to replace them.
+Reason: maintain quality across sessions while reserving Astra for judgment.
+Consequences: routine work is delegated; implementation and approval are distinct;
+failed review produces a narrow correction contract. The setup does not authorize
+frontend reconstruction, user aesthetic acceptance or publication. Runtime model
+capabilities and honest fallback belong in [model routing](orchestration/MODEL_ROUTING.md).
+Evidence: [authorized setup task](tasks/TL-SYS-002-orchestration.md),
+[protocol](orchestration/README.md), [pilot review](reports/TL-SYS-002-pilot-review.md).
+
 Lightweight accepted-decision log, consolidated 3 October 2026. Record material changes to
 product direction, information architecture, visual identity, architecture, dependency strategy,
 localization, motion, API boundaries, deployment, security or data model. Skip trivial details.
@@ -149,3 +165,45 @@ eligibility, not preservation of the superseded composition.
 Evidence: [full user specification](tasks/TL-002-reconstruction-instructions.md),
 [task](tasks/TL-002-bronze-reconstruction.md). TL-001 is a historical engineering
 baseline; it does not establish aesthetic approval of this reconstruction.
+
+## TL-DEC-012 — Full UX and Bronze Journey recovery
+
+Date: 2026-10-05. Status: Authorized by explicit current user request.
+
+Decision: execute all phases 0–14 on feat/v3-ux-motion-recovery from 0ba5a97;
+static final homepage must pass rendered review before advanced motion. Current
+[exact specification](tasks/TL-003-recovery-instructions.md) replaces the TL-002
+restrained selector/section composition with fifteen ordered homepage chapters,
+spatial service worlds, flagship Türkiye hub/details and session-wide journey.
+The earlier stop/wait instructions remain historical; this is new authorization.
+
+New explicit direction supersedes prior conflicting defaults: editorial Newsreader
+and connected Arabic display alongside existing UI fonts; no 800px minimum-height
+desktop enhancement gate; short fine-pointer desktop uses compressed travel;
+Türkiye explorer never uses equal international tabs. Global sessionStorage retains
+only validated destination IDs/order and journey type, never personal contact data.
+Preserve source facts, nine services, twelve places, three locales, secondary
+international directory, noindex and honest prepared-message handoff. No merge or
+deployment. The source audit reads the actual available four-page Company Profile
+2025; all figures retain attribution and 12+ experience is never company age.
+
+Evidence: [TL-003 task](tasks/TL-003-ux-motion-recovery.md),
+[content audit](qa/2026-10-05-recovery/content-authority.md),
+[live report](reports/TL-003-report.md). Creative acceptance remains with the user.
+
+## TL-DEC-013 — bounded execution and corrected root routing
+
+Date:2026-10-15. Status: authorized by direct user instruction.
+Decision: Root Astra owns decomposition, state and single acceptance; one primary
+selected Sol implements and verifies. No nested Astra or outer coordinator. At
+most one additional QA worker needs a concrete recorded need. One milestone per
+run, maximum two correction cycles, no scope expansion without a new task; targeted
+checks during work, broad once at milestone boundary, full product only final QA.
+Reason: the historical delegated Astra rule and unknown-root fallback created an
+unrequested lead layer and repeated checks. User identifies root as Astra; this
+is not backend model attestation. Preserve old routing as dated history.
+Consequences: five prepared runs separate VISUAL inspection completeness from
+VISUAL-CLOSE zero-blocker product approval; no dependency deadlock or weakened QA.
+Current hardening stops after commit; no frontend work is dispatched.
+Evidence: [task](tasks/TL-SYS-003-orchestration-hardening.md),
+[routing](orchestration/MODEL_ROUTING.md), [run plan](orchestration/RUN_PLAN.md).

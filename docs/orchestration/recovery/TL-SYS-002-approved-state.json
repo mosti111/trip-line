@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "session": "TL-SYS-002-2026-10-05-final",
+  "baseRevision": "13b5afecde31cb0078c7980da2055a3b3edbaba8",
+  "currentMilestone": "TL-SYS-002",
+  "stateWriter": "/root/astra_final",
+  "lockedDecisions": "docs/DECISIONS.md",
+  "applicationStatus": "TL-002 engineering evidence is separate; this setup grants no aesthetic approval or deployment authorization.",
+  "nextAction": "Stop: TL-SYS-002 setup is APPROVED. Await a newly authorized milestone; do not resume TL-002 or begin frontend reconstruction, publication or follow-up implementation.",
+  "milestone": {
+    "id": "TL-SYS-002",
+    "kind": "documentation",
+    "status": "APPROVED",
+    "contract": "docs/tasks/TL-SYS-002-orchestration.md",
+    "taskIds": [
+      "TL-SYS-002-DOCS",
+      "TL-SYS-002-PILOT-001"
+    ],
+    "evidence": [
+      {
+        "kind": "automated",
+        "path": "docs/reports/TL-SYS-002-pilot-review.md",
+        "result": "PASS"
+      },
+      {
+        "kind": "automated",
+        "path": "docs/qa/2026-10-04-orchestration/link-check.json",
+        "result": "PASS"
+      },
+      {
+        "kind": "rendered",
+        "path": "docs/qa/2026-10-04-orchestration/README.md",
+        "result": "PASS"
+      },
+      {
+        "kind": "scope",
+        "path": "docs/qa/2026-10-04-orchestration/final-safety-check.json",
+        "result": "PASS"
+      },
+      {
+        "kind": "routing",
+        "path": "docs/reports/TL-SYS-002-pilot-review.md",
+        "result": "PASS"
+      }
+    ],
+    "review": {
+      "role": "Astra lead/reviewer",
+      "model": "gpt-6-astra",
+      "result": "PASS",
+      "report": "docs/reports/TL-SYS-002-pilot-review.md",
+      "blockingCorrections": []
+    },
+    "history": [
+      {
+        "from": null,
+        "to": "PLANNED",
+        "at": "2026-10-04T10:38:31Z",
+        "actor": "/root",
+        "reason": "User authorized setup-only milestone."
+      },
+      {
+        "from": "PLANNED",
+        "to": "READY",
+        "at": "2026-10-04T10:38:31Z",
+        "actor": "/root",
+        "reason": "System task written before implementation."
+      },
+      {
+        "from": "READY",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-04T10:38:31Z",
+        "actor": "/root/astra_lead",
+        "reason": "Explicit Astra lead defines bounded Sol contract."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-04T15:37:42Z",
+        "actor": "/root/astra_resume",
+        "reason": "User-authorized second resumption; prior agents absent from live tree, preserved partial R1 inspected, single state-writer transferred to selected Astra /root/astra_resume."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-04T15:39:00Z",
+        "actor": "/root/astra_resume",
+        "reason": "Direct-edit exception5: lead owns bounded routing-history addition to docs/orchestration/MODEL_ROUTING.md after second recovery; delegation less efficient for administrative fact recording. Scope/source/link and parent integration checks required; no protocol behavior change."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IMPLEMENTED",
+        "at": "2026-10-04T15:46:10Z",
+        "actor": "/root/astra_resume",
+        "reason": "Protocol and separate pilot approved; integration review checks existing application/browser evidence and awaits final parent link/scope consistency."
+      },
+      {
+        "from": "IMPLEMENTED",
+        "to": "REVIEW_REQUIRED",
+        "at": "2026-10-04T15:46:10Z",
+        "actor": "/root/astra_resume",
+        "reason": "Protocol and separate pilot approved; integration review checks existing application/browser evidence and awaits final parent link/scope consistency."
+      },
+      {
+        "from": "REVIEW_REQUIRED",
+        "to": "REVIEWING",
+        "at": "2026-10-04T15:46:10Z",
+        "actor": "/root/astra_resume",
+        "reason": "Protocol and separate pilot approved; integration review checks existing application/browser evidence and awaits final parent link/scope consistency."
+      },
+      {
+        "from": "REVIEWING",
+        "to": "REVIEWING",
+        "at": "2026-10-04T21:51:24Z",
+        "actor": "/root/astra_final",
+        "reason": "User continued on 5 October Europe/Istanbul after account-limit interruptions. Live tree contains only root and fresh selected Astra /root/astra_final; prior reviewers/workers absent, both task owners already null. Preserved Git status/reports inspected; single state-writer transferred from /root/astra_resume for final integration review only. No implementation resumed."
+      },
+      {
+        "from": "REVIEWING",
+        "to": "APPROVED",
+        "at": "2026-10-04T21:52:23Z",
+        "actor": "/root/astra_final",
+        "reason": "Final independent integration PASS: both tasks approved; prior actual nine-image Astra review and unchanged-app validation preserved; fresh two-task validator and 33 self-tests pass; root final 230-link/20-document and scope checks pass. No blocking corrections or task owners. Stop pending newly authorized milestone; no TL-002 aesthetic/QA or publication approval."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "TL-SYS-002-DOCS",
+      "kind": "documentation",
+      "status": "APPROVED",
+      "contract": "docs/orchestration/TL-SYS-002-DOCS.md",
+      "dependsOn": [],
+      "filesAllowed": [
+        "docs/orchestration/validate-state.mjs",
+        "docs/orchestration/STATE_PROTOCOL.md"
+      ],
+      "owner": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/reports/TL-SYS-002-pilot-review.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-SYS-002-pilot-review.md",
+        "blockingCorrections": []
+      },
+      "history": [
+        {
+          "from": null,
+          "to": "PLANNED",
+          "at": "2026-10-04T10:38:31Z",
+          "actor": "/root/astra_lead",
+          "reason": "Bounded contract drafted."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-04T10:38:31Z",
+          "actor": "/root/astra_lead",
+          "reason": "Authority and exclusive scope inspected."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-04T10:38:31Z",
+          "actor": "/root/astra_lead",
+          "reason": "Explicit Sol dispatch accepted; returned /root/astra_lead/sol_protocol. Requested gpt-6.1-sol, high, fresh context; no backend model attestation returned."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "BLOCKED",
+          "at": "2026-10-04T15:20:30Z",
+          "actor": "/root/astra_lead",
+          "reason": "Sol turn failed with usage limit after five protocol documents; validator absent. On user-authorized resumption, list_agents confirms worker errored/quiescent; inspected and preserved its partial files and unrelated Git work. Expired 15:00Z lease reconciled and released."
+        },
+        {
+          "from": "BLOCKED",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-04T15:20:30Z",
+          "actor": "/root/astra_lead",
+          "reason": "User explicitly resumed setup. Same bounded six-file contract retained; fresh lease reserved for same explicit Sol worker via followup_task. Validator absent, so gate unavailable until worker completes it; no conflicting writer present."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-04T15:28:24Z",
+          "actor": "/root/astra_lead",
+          "reason": "Sol delivered six files; live validator and 31 synthetic checks passed; owner released."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-04T15:28:24Z",
+          "actor": "/root/astra_lead",
+          "reason": "Complete delivery available for independent lead review."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-04T15:28:24Z",
+          "actor": "/root/astra_lead",
+          "reason": "Astra inspected protocol and validator source plus parent review finding."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "CHANGES_REQUESTED",
+          "at": "2026-10-04T15:28:24Z",
+          "actor": "/root/astra_lead",
+          "reason": "Blocking R1: internal symlink/junction aliases can bypass exclusive textual ownership. See TL-SYS-002-DOCS-R1.md; no approval granted."
+        },
+        {
+          "from": "CHANGES_REQUESTED",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-04T15:28:24Z",
+          "actor": "/root/astra_lead",
+          "reason": "Narrow R1 correction contract issued; only validator and STATE_PROTOCOL write scope reserved for same selected Sol worker."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "BLOCKED",
+          "at": "2026-10-04T15:37:42Z",
+          "actor": "/root/astra_resume",
+          "reason": "Second usage-limit recovery: list_agents reports only root and new explicitly selected Astra resume lead; prior lead/worker are no longer live. Inspected preserved R1 writes: canonical identity check and two resolver cases exist. Previous lease had not expired; release is based on confirmed absent old agents, not time expiry. State-writer transfer from /root/astra_lead recorded."
+        },
+        {
+          "from": "BLOCKED",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-04T15:38:03Z",
+          "actor": "/root/astra_resume",
+          "reason": "Reserve existing two-file R1 scope for fresh explicitly selected Sol /root/astra_resume/sol_r1; inspect and verify preserved implementation, correct only if needed. No prior writer remains live."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-04T15:41:19Z",
+          "actor": "/root/astra_resume",
+          "reason": "Fresh Sol /root/astra_resume/sol_r1 delivered read-only verification of preserved R1: live validation,33 cases,syntax pass; no edits; release owner."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-04T15:41:19Z",
+          "actor": "/root/astra_resume",
+          "reason": "R1 delivery available; prior blocking review retained in report."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-04T15:41:19Z",
+          "actor": "/root/astra_resume",
+          "reason": "Selected Astra /root/astra_resume independently reviewed source/protocol and reran live,33-case,syntax,whitespace checks."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-04T15:41:19Z",
+          "actor": "/root/astra_resume",
+          "reason": "R1 closes internal alias bypass; no blocking corrections; independent PASS in pilot-review. Concurrent external docs-only HEAD0ba5a97 inspected/preserved; application trees match original13b5afe."
+        }
+      ]
+    },
+    {
+      "id": "TL-SYS-002-PILOT-001",
+      "kind": "documentation",
+      "status": "APPROVED",
+      "contract": "docs/orchestration/pilot/TL-SYS-002-PILOT-001.md",
+      "dependsOn": [
+        "TL-SYS-002-DOCS"
+      ],
+      "filesAllowed": [
+        "docs/orchestration/pilot/TL-SYS-002-PILOT-001-delivery.md"
+      ],
+      "owner": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/orchestration/pilot/TL-SYS-002-PILOT-001-delivery.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-SYS-002-pilot-review.md",
+        "blockingCorrections": []
+      },
+      "history": [
+        {
+          "from": null,
+          "to": "PLANNED",
+          "at": "2026-10-04T15:41:39Z",
+          "actor": "/root/astra_resume",
+          "reason": "Separate harmless resumption walkthrough contracted before dispatch."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-04T15:41:39Z",
+          "actor": "/root/astra_resume",
+          "reason": "Protocol dependency APPROVED; inspected current docs-only HEAD0ba5a97 and preserved application baseline13b5afe."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-04T15:41:39Z",
+          "actor": "/root/astra_resume",
+          "reason": "Reserve sole delivery path for fresh selected Sol /root/astra_resume/sol_pilot; no overlapping owner; explicit dispatch follows gate."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-04T15:46:10Z",
+          "actor": "/root/astra_resume",
+          "reason": "Selected Sol /root/astra_resume/sol_pilot delivered exactly one Markdown walkthrough; live validator and33 tests exit0,6 links pass; owner released."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-04T15:46:10Z",
+          "actor": "/root/astra_resume",
+          "reason": "Bounded pilot delivery available for independent review."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-04T15:46:10Z",
+          "actor": "/root/astra_resume",
+          "reason": "Selected Astra /root/astra_resume read full delivery, contract, current state and rejection cases; verified narrow scope and stop condition."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-04T15:46:10Z",
+          "actor": "/root/astra_resume",
+          "reason": "Independent pilot PASS recorded; all required recovery walkthroughs and checks complete; no blocking corrections."
+        }
+      ]
+    }
+  ],
+  "historyTimeConvention": "History at values are recording times. Initial ordered events were reconstructed at the first recorded timestamp; actual event times were not captured."
+}

@@ -31,6 +31,11 @@
 
 ## Agent workflow
 
+- [Persistent orchestration](orchestration/README.md), [model routing](orchestration/MODEL_ROUTING.md)
+  and [live state](orchestration/state.json): Astra direction/review, bounded Sol work,
+  ownership and resumption. Setup [task](tasks/TL-SYS-002-orchestration.md) /
+  [report](reports/TL-SYS-002-report.md).
+
 - [Tasks](tasks/README.md) and [task template](tasks/TASK_TEMPLATE.md): approved outcomes before implementation.
 - [Reports](reports/README.md) and [report template](reports/REPORT_TEMPLATE.md): actual results and deviations.
 - [TL-SYS-001 task](tasks/TL-SYS-001-agent-operating-system.md) /
@@ -50,3 +55,6 @@
 ## Historical research and exploration
 
 [Previous design handoff](NEW_CHAT_PROJECT_HANDOFF.md), dated design/research documents, `design-preview/`, `references/design-direction/`, `references/section-studies/`, [journal concept](LIVING_TRAVEL_JOURNAL.md), [V1 QA](DEMO_QA.md), and [earlier atlas direction](PROFILE_ATLAS_DIRECTION.md). Preserve them as context; current handoff, client steering and approved design take precedence over their older next-step instructions.
+
+Current bounded system hardening: [TL-SYS-003](tasks/TL-SYS-003-orchestration-hardening.md).
+Future execution: [five bounded runs](orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.

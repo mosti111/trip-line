@@ -1,5 +1,35 @@
 # Trip Line — agent operating map
 
+## Persistent frontend orchestration
+
+For “Continue Trip Line orchestration”, read the normal authority documents below,
+then [orchestration entry](docs/orchestration/README.md) and
+[live state](docs/orchestration/state.json). Inspect Git status and linked reports
+before choosing the next valid action. Do not restart planning or infer permission
+to reconstruct the frontend from a completed setup milestone.
+
+The user-selected GPT-6 Astra lead directs, specifies and reviews; explicitly
+selected GPT-6.1 Sol workers perform narrowly contracted implementation whenever
+the current tools support it. Follow [model routing](docs/orchestration/MODEL_ROUTING.md)
+and report the actual topology; repository instructions cannot switch the running
+model. The lead role extends implementation governance within approved authority,
+never overrides locked product/design decisions. Routine implementation is delegated;
+direct lead edits require a recorded exception under the orchestration protocol.
+Exclusive file ownership, dependency/state gates and actual rendered frontend review
+are mandatory. `IMPLEMENTED` is not `APPROVED`. This extends the rules below.
+
+Current execution budget: one bounded milestone per run; one primary Sol worker
+handles implementation and QA by default; at most one additional QA worker needs
+a recorded concrete justification. Root Astra owns decomposition, state and final acceptance; bounded selected Sol
+workers implement and verify. Root Astra -> bounded Sol -> the same Root Astra
+acceptance. Do not create a nested Astra, outer coordinator or second review layer. Maximum two
+correction cycles, then stop and report. No scope expansion without a new task.
+Read relevant authority and the current family only; do not reopen unrelated page
+families or approved planning. Use targeted implementation checks, broad regression
+once at the milestone boundary, and full product regression only at final QA.
+Stop when acceptance passes. [Five bounded future runs](docs/orchestration/RUN_PLAN.md)
+are preparation only; the hardening commit is the current stop boundary.
+
 ## Role
 
 Codex acts primarily as an implementation engineer here. Follow approved product,
@@ -104,7 +134,10 @@ For public behavior changes, run a production preview and
 For V3 flows also run `node scripts/verify-v3.mjs`. Use Playwright/available browser
 verification for visual/interaction changes. Fresh machines may need
 `pnpm exec playwright install chromium`. Record actual widths, locales and modes.
-For documentation-only work, typecheck/lint and link/diff consistency checks suffice;
+For TL-SYS-003 orchestration-only work, the explicit user check boundary is Node
+syntax/self-tests, live/archive state, link/manifest and Git scope/whitespace checks;
+do not run frontend typecheck/lint/test/build/browser for that administrative task.
+For other documentation-only work, typecheck/lint and link/diff consistency checks suffice;
 run tests/build as well if application source/config is touched.
 Never claim checks that were not run or treat local preview as deployment.
 

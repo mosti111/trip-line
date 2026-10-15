@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "files": 20,
+  "checked": 234,
+  "failures": [],
+  "note": "Local Markdown target existence; manual authority/status/diff consistency review remains required. Fragment anchors not programmatically checked."
+}

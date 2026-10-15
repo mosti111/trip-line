@@ -1,5 +1,12 @@
 # Task workflow
 
+Current orchestration setup: [TL-SYS-002](TL-SYS-002-orchestration.md).
+System tasks may use TL-SYS identifiers. Delegated tasks use the
+[worker contract](../orchestration/TASK_CONTRACT.md); their live state and status
+mapping are governed by [state protocol](../orchestration/STATE_PROTOCOL.md).
+The task/report conventions below remain in effect. The current frontend task
+listed below is separate from orchestration setup.
+
 Write a task BEFORE significant implementation. Use TL-###-short-description.md and
 [TASK_TEMPLATE.md](TASK_TEMPLATE.md). Keep the provided TL-SYS-001 identifier for this
 system task; system IDs are an explicit exception to normal numeric feature filenames.
@@ -19,3 +26,8 @@ Follow-up suggestions do not authorize new work.
 Current task: [TL-002 — Bronze Journey reconstruction](TL-002-bronze-reconstruction.md).
 Prior frontend task: [TL-001 — Bronze Journey continuation](TL-001-bronze-journey-continuation.md).
 Prior system task: [TL-SYS-001](TL-SYS-001-agent-operating-system.md).
+
+Current authorized frontend: [TL-003 — UX/motion recovery](TL-003-ux-motion-recovery.md); [full request](TL-003-recovery-instructions.md).
+
+Current bounded system hardening: [TL-SYS-003](TL-SYS-003-orchestration-hardening.md).
+Future execution: [five bounded runs](../orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.
