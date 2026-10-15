@@ -1,0 +1,273 @@
+{
+  "status": "failed",
+  "stage": "production",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-15T22:04:11.356Z",
+  "revision": "2989f28e006c1c2284ee36d53d03f5ee1452aa1d",
+  "fingerprints": {
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2",
+    "components/travel/Pages.tsx": "1b658cddb2c45ce9abaf56325a980ebf83fcc79cc7735529b0f5d0d38a2fbba6",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "ad17177c7ba19da3d207dd81df158a66e97685954bd1551fa49db457575d5651",
+    "scripts/verify-recovery-contact.mjs": "6cd83fd27d03aeafc44d35fcb04ceebe8bccd249e2e128d24862a4188bfdb495",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  },
+  "cases": [
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1440x900",
+      "at": "2026-10-15T22:04:14.289Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1280x600",
+      "at": "2026-10-15T22:04:16.578Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 768x1024",
+      "at": "2026-10-15T22:04:18.377Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 390x844",
+      "at": "2026-10-15T22:04:20.696Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 1440x900",
+      "at": "2026-10-15T22:04:23.203Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 1280x600",
+      "at": "2026-10-15T22:04:25.225Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 768x1024",
+      "at": "2026-10-15T22:04:27.171Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 390x844",
+      "at": "2026-10-15T22:04:29.657Z"
+    },
+    {
+      "name": "parity tr 1280",
+      "at": "2026-10-15T22:04:31.231Z"
+    },
+    {
+      "name": "parity en 360",
+      "at": "2026-10-15T22:04:32.621Z"
+    },
+    {
+      "name": "parity ar 430",
+      "at": "2026-10-15T22:04:34.272Z"
+    },
+    {
+      "name": "precedence journey=istanbul,sapanca&destination=bursa&service=tours",
+      "at": "2026-10-15T22:04:35.530Z"
+    },
+    {
+      "name": "precedence journey=&service=",
+      "at": "2026-10-15T22:04:36.441Z"
+    },
+    {
+      "name": "precedence journey=invalid&service=invalid",
+      "at": "2026-10-15T22:04:37.232Z"
+    },
+    {
+      "name": "precedence journey=istanbul&journey=sapanca&service=tours&service=corporate",
+      "at": "2026-10-15T22:04:38.111Z"
+    },
+    {
+      "name": "precedence destination=istanbul",
+      "at": "2026-10-15T22:04:38.998Z"
+    },
+    {
+      "name": "precedence destination=invalid",
+      "at": "2026-10-15T22:04:39.890Z"
+    },
+    {
+      "name": "precedence destination=",
+      "at": "2026-10-15T22:04:40.726Z"
+    },
+    {
+      "name": "precedence destination=istanbul&destination=sapanca",
+      "at": "2026-10-15T22:04:41.525Z"
+    },
+    {
+      "name": "precedence journey=fake,antalya,antalya,istanbul&travelers=-1",
+      "at": "2026-10-15T22:04:42.358Z"
+    },
+    {
+      "name": "precedence absent stored restore",
+      "at": "2026-10-15T22:04:43.194Z"
+    },
+    {
+      "name": "country plus ordered Turkish journey serialized once",
+      "at": "2026-10-15T22:04:44.276Z"
+    },
+    {
+      "name": "query beats hydrate/drawer notifications; actual global reorder/remove supersedes query, personal edits do not detach, query service override stays",
+      "at": "2026-10-15T22:04:46.492Z"
+    },
+    {
+      "name": "local append/reorder/remove detaches itinerary, focus restored; later global update invalidates result without replacing local route",
+      "at": "2026-10-15T22:04:47.424Z"
+    },
+    {
+      "name": "global-owned service follows real type action and invalidates; local service override remains",
+      "at": "2026-10-15T22:04:50.516Z"
+    },
+    {
+      "name": "all local output fields, phone validation without email, travelers bounds and permanent invalidation",
+      "at": "2026-10-15T22:04:53.701Z"
+    },
+    {
+      "name": "actual deferred clipboard stale resolution and rejection guarded; current copy succeeds",
+      "at": "2026-10-15T22:04:54.290Z"
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-1440x900-ordered.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1440-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-1440-prepared.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1280x600-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-1280x600-ordered.png",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "name": "en-768x1024-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-768x1024-ordered.png",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "en-390x844-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-390x844-ordered.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-errors-keyboard",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-390-errors-keyboard.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-390-prepared.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-1440x900-ordered.png",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "ar-1440-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-1440-prepared.png",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "ar-1280x600-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-1280x600-ordered.png",
+      "locale": "ar",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "name": "ar-768x1024-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-768x1024-ordered.png",
+      "locale": "ar",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "ar-390x844-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-390x844-ordered.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-390-errors-keyboard",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-390-errors-keyboard.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-390-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-390-prepared.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "tr-1280-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\tr-1280-parity.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "name": "en-360-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\en-360-parity.png",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "name": "ar-430-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T22-04-11.356Z\\ar-430-parity.png",
+      "locale": "ar",
+      "width": 430,
+      "height": 932
+    }
+  ],
+  "errors": [],
+  "mutations": [],
+  "gaps": [
+    "Chromium only; no physical device, Safari/Firefox, assistive technology or field performance certification. Chunk URL observation does not prove opaque bundle internals. Independent Root Astra rendered review pending."
+  ],
+  "failure": {
+    "message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/ar/contact?**\" until \"load\"\n  navigated to \"http://localhost:3043/ar/contact\"\n============================================================",
+    "stack": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/ar/contact?**\" until \"load\"\n  navigated to \"http://localhost:3043/ar/contact\"\n============================================================\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-contact.mjs:67:56",
+    "url": "http://localhost:3043/ar/contact"
+  },
+  "finishedAt": "2026-10-15T22:05:24.983Z",
+  "finalFingerprints": {
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2",
+    "components/travel/Pages.tsx": "1b658cddb2c45ce9abaf56325a980ebf83fcc79cc7735529b0f5d0d38a2fbba6",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "ad17177c7ba19da3d207dd81df158a66e97685954bd1551fa49db457575d5651",
+    "scripts/verify-recovery-contact.mjs": "0c1064d7f0dfd7f13bd2503f11abe73bb6b5747ef15a2aecd5c6191cecbc8857",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  }
+}

@@ -5,8 +5,8 @@
   "currentMilestone": "TL-003",
   "stateWriter": "/root",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "About A09/R1 and QA09 independently APPROVED; application4b77150 and checkpoint8ac5715 preserved.19of25 original TL003 tasks approved. Contact/Journey and later runs unstarted; extra VISUAL-CLOSE future gate separates inspection from product approval. Hardening only; no merge/deploy/user creative acceptance.",
-  "nextAction": "STOP after TL-SYS-003 hardening commit. Next authorized continuation is Run1: TL-003-C10 Contact / Journey only plus TL-003-QC10 scoped QA; implement, actual visual review, targeted QA, Root Astra acceptance, checkpoint and STOP. No future worker dispatched.",
+  "applicationStatus": "C10 and QC10 APPROVED;21of25 original TL003 tasks approved, full TL003 incomplete. Root Astra -> one selected Sol -> same Root acceptance. No next milestone, merge or deployment. Implementation checkpoint dfacf248755f5fc6646417f2da0ed558261043ca; local runtime stopped; final metadata save then STOP.",
+  "nextAction": "STOP after C10 implementation/checkpoint commits. Next only on new user continuation: TL-003-I11 and TL-003-QI11 International/FAQ/Legal. VISUAL/VISUAL-CLOSE/Q12 unstarted.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
@@ -2677,7 +2677,7 @@
     {
       "id": "TL-003-C10",
       "kind": "frontend",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-C10.md",
       "dependsOn": [
         "TL-003-A09",
@@ -2692,8 +2692,30 @@
         "frontend-v2/app/[locale]/[[...slug]]/page.tsx"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-15-contact/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-15-contact/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+        "blockingCorrections": []
+      },
       "history": [
         {
           "from": null,
@@ -2708,6 +2730,62 @@
           "at": "2026-10-13T14:58:49.930Z",
           "actor": "/root/astra_business_resume",
           "reason": "Read-only C10 design identifies repeated-query presence loss. Add exact contact-only route queryPresence plumbing before future dispatch; no implementation/lease yet, fiveappfuturefreeze. A09/QA09 approval dependency unchanged."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-15T11:33:27.535Z",
+          "actor": "/root",
+          "reason": "Direct user C10/QC10 authorization, exact scope reserved for /root/sol_contact; approved dependencies; one primary worker and root acceptance."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T11:33:27.535Z",
+          "actor": "/root",
+          "reason": "Direct user C10/QC10 authorization, exact scope reserved for /root/sol_contact; approved dependencies; one primary worker and root acceptance."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T11:34:22.961Z",
+          "actor": "/root",
+          "reason": "collaboration.spawn_agent accepted model:gpt-6.1-sol fork:none and returned /root/sol_contact; one implementation/QA worker. Root user-selected Astra; no backend attestation. Full user EN/AR four-size matrix added to current contracts."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T16:51:57.011Z",
+          "actor": "/root",
+          "reason": "User continue after usage interruption; same selected Sol confirmed errored/quiescent in live inventory. Expired exact leases explicitly renewed; partial app/verifier changes and dev-generated next-env preserved. No approval or new milestone."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-15T17:00:56.581Z",
+          "actor": "/root",
+          "reason": "Sol five app files frozen and dev/browser released; strict delivery and actual Root static rendered review completed. Root production/core/public/V3 and full QC10 pending; no approval."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-15T17:00:56.581Z",
+          "actor": "/root",
+          "reason": "Sol five app files frozen and dev/browser released; strict delivery and actual Root static rendered review completed. Root production/core/public/V3 and full QC10 pending; no approval."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-15T17:00:56.581Z",
+          "actor": "/root",
+          "reason": "Sol five app files frozen and dev/browser released; strict delivery and actual Root static rendered review completed. Root production/core/public/V3 and full QC10 pending; no approval."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-15T22:10:01.850Z",
+          "actor": "/root",
+          "reason": "Direct Sol final delivery; same Root actual rendered/source/integration review PASS. Frozen build/core/public/V3 plus full37caseQC10/18captures/0errors/0nonGET; helper readiness failures preserved/resolved. No blockers; save two commits and STOP."
         }
       ],
       "bounded": true,
@@ -2901,7 +2979,7 @@
     {
       "id": "TL-003-QC10",
       "kind": "verification",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-QC10.md",
       "dependsOn": [
         "TL-003-A09",
@@ -2914,8 +2992,30 @@
         "frontend-v2/scripts/verify-v3.mjs"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-15-contact/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-15-contact/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+        "blockingCorrections": []
+      },
       "history": [
         {
           "from": null,
@@ -2930,6 +3030,76 @@
           "at": "2026-10-13T20:21:33.362Z",
           "actor": "/root/astra_business_resume",
           "reason": "Before C10 dispatch reserve two mandatory integration verifiers for narrowly replacing old itinerary-in-free-text assumptions with visible ordered summary and decoded prepared message assertions. Preserve meaningful coverage; no writes/owner yet, not finalQ12."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-15T11:33:27.535Z",
+          "actor": "/root",
+          "reason": "Direct user C10/QC10 authorization, exact scope reserved for /root/sol_contact; approved dependencies; one primary worker and root acceptance."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T11:33:27.535Z",
+          "actor": "/root",
+          "reason": "Direct user C10/QC10 authorization, exact scope reserved for /root/sol_contact; approved dependencies; one primary worker and root acceptance."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T11:34:22.961Z",
+          "actor": "/root",
+          "reason": "collaboration.spawn_agent accepted model:gpt-6.1-sol fork:none and returned /root/sol_contact; one implementation/QA worker. Root user-selected Astra; no backend attestation. Full user EN/AR four-size matrix added to current contracts."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T16:51:57.011Z",
+          "actor": "/root",
+          "reason": "User continue after usage interruption; same selected Sol confirmed errored/quiescent in live inventory. Expired exact leases explicitly renewed; partial app/verifier changes and dev-generated next-env preserved. No approval or new milestone."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-15T22:01:28.479Z",
+          "actor": "/root",
+          "reason": "16 October user continuation; same Sol confirmed errored/quiescent after usage limit. Expired QC10 lease renewed unchanged. Five app hashes match freeze; completed root V3 recovered PASS60screens16groups0errors. Core/build/public retained; runtime restart only, no repeated checks."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-15T22:10:01.850Z",
+          "actor": "/root",
+          "reason": "Direct Sol final delivery; same Root actual rendered/source/integration review PASS. Frozen build/core/public/V3 plus full37caseQC10/18captures/0errors/0nonGET; helper readiness failures preserved/resolved. No blockers; save two commits and STOP."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-15T22:10:01.850Z",
+          "actor": "/root",
+          "reason": "Direct Sol final delivery; same Root actual rendered/source/integration review PASS. Frozen build/core/public/V3 plus full37caseQC10/18captures/0errors/0nonGET; helper readiness failures preserved/resolved. No blockers; save two commits and STOP."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-15T22:10:01.850Z",
+          "actor": "/root",
+          "reason": "Direct Sol final delivery; same Root actual rendered/source/integration review PASS. Frozen build/core/public/V3 plus full37caseQC10/18captures/0errors/0nonGET; helper readiness failures preserved/resolved. No blockers; save two commits and STOP."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-15T22:10:01.850Z",
+          "actor": "/root",
+          "reason": "Direct Sol final delivery; same Root actual rendered/source/integration review PASS. Frozen build/core/public/V3 plus full37caseQC10/18captures/0errors/0nonGET; helper readiness failures preserved/resolved. No blockers; save two commits and STOP."
+        },
+        {
+          "from": "APPROVED",
+          "to": "APPROVED",
+          "at": "2026-10-15T22:10:41.524Z",
+          "actor": "/root",
+          "reason": "Exception4 before direct root edit: final staged whitespace check found one extra EOF blank line in frontend-v2/scripts/verify-recovery-contact.mjs. All worker owners released. Root owns exact helper for removal of trailing blank only; preserve semantic bytes via trimEnd equality, Node syntax and Git whitespace checks; no runtime change or QA rerun. Same-agent review limited to whitespace."
         }
       ],
       "bounded": true,
@@ -3158,22 +3328,28 @@
   ],
   "policyVersion": 2,
   "activeRun": {
-    "id": "TL-SYS-003",
-    "kind": "documentation",
+    "id": "TL-003-C10-RUN",
+    "kind": "frontend",
     "status": "APPROVED",
-    "contract": "docs/tasks/TL-SYS-003-orchestration-hardening.md",
+    "contract": "docs/orchestration/recovery/TL-003-C10.md",
     "taskIds": [
-      "TL-SYS-003-VALIDATOR"
+      "TL-003-C10",
+      "TL-003-QC10"
     ],
     "evidence": [
       {
         "kind": "automated",
-        "path": "docs/qa/2026-10-15-orchestration/checks.json",
+        "path": "docs/qa/2026-10-15-contact/README.md",
+        "result": "PASS"
+      },
+      {
+        "kind": "rendered",
+        "path": "docs/qa/2026-10-15-contact/README.md",
         "result": "PASS"
       },
       {
         "kind": "scope",
-        "path": "docs/qa/2026-10-15-orchestration/commit-manifest.json",
+        "path": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
         "result": "PASS"
       }
     ],
@@ -3181,7 +3357,7 @@
       "role": "Astra lead/reviewer",
       "model": "gpt-6-astra",
       "result": "PASS",
-      "report": "docs/reports/TL-SYS-003-report.md",
+      "report": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
       "blockingCorrections": []
     },
     "closed": true,
@@ -3196,51 +3372,58 @@
       {
         "from": null,
         "to": "PLANNED",
-        "at": "2026-10-15T00:03:04.171Z",
+        "at": "2026-10-15T11:33:27.535Z",
         "actor": "/root",
-        "reason": "Current user scope is orchestration hardening only; preserve overarching TL003."
+        "reason": "Direct user continuation from 2989f28 authorizes C10/QC10 only; root administrative exception5 recorded in contact checkpoint report."
       },
       {
         "from": "PLANNED",
         "to": "READY",
-        "at": "2026-10-15T00:03:04.171Z",
+        "at": "2026-10-15T11:33:27.535Z",
         "actor": "/root",
-        "reason": "Written SYS003 contract and exact scope; user corrected root topology."
+        "reason": "Clean baseline, valid state, approved A09/QA09 and exact written contracts inspected."
       },
       {
         "from": "READY",
         "to": "IN_PROGRESS",
-        "at": "2026-10-15T00:03:04.171Z",
+        "at": "2026-10-15T11:33:27.535Z",
         "actor": "/root",
-        "reason": "Root Astra direct selected Sol implementation; no application work."
+        "reason": "Reserve one direct Sol implementation/QA worker; no other milestone dispatched."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IMPLEMENTED",
-        "at": "2026-10-15T11:28:03.219Z",
+        "at": "2026-10-15T22:10:01.850Z",
         "actor": "/root",
-        "reason": "Sol delivered and stopped writes; root evidence and scope acceptance recorded in SYS003 report."
+        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
       },
       {
         "from": "IMPLEMENTED",
         "to": "REVIEW_REQUIRED",
-        "at": "2026-10-15T11:28:03.219Z",
+        "at": "2026-10-15T22:10:01.850Z",
         "actor": "/root",
-        "reason": "Sol delivered and stopped writes; root evidence and scope acceptance recorded in SYS003 report."
+        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
       },
       {
         "from": "REVIEW_REQUIRED",
         "to": "REVIEWING",
-        "at": "2026-10-15T11:28:03.219Z",
+        "at": "2026-10-15T22:10:01.850Z",
         "actor": "/root",
-        "reason": "Sol delivered and stopped writes; root evidence and scope acceptance recorded in SYS003 report."
+        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
       },
       {
         "from": "REVIEWING",
         "to": "APPROVED",
-        "at": "2026-10-15T11:28:03.219Z",
+        "at": "2026-10-15T22:10:01.850Z",
         "actor": "/root",
-        "reason": "Single Root Astra acceptance PASS: exact bounded hardening, recorded checks and no application change; stop after commit."
+        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
+      },
+      {
+        "from": "APPROVED",
+        "to": "APPROVED",
+        "at": "2026-10-15T22:11:20.206Z",
+        "actor": "/root",
+        "reason": "Implementation dfacf248755f5fc6646417f2da0ed558261043ca saved exactly eight app/verifier files; root exception4 EOF-only helper normalization recorded and syntax/whitespace PASS. Runtime stopped; metadata checkpoint then STOP."
       }
     ]
   }

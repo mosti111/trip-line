@@ -26,3 +26,5 @@ Current recovery: [TL-003 live report](TL-003-report.md).
 
 Current bounded system hardening: [TL-SYS-003](TL-SYS-003-report.md).
 Future execution: [five bounded runs](../orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.
+
+Current bounded Contact checkpoint: [C10/QC10 acceptance,16October2026](TL-003-contact-checkpoint-2026-10-15.md). STOP; next I11/QI11 requires new continuation.

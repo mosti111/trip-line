@@ -1,0 +1,85 @@
+{
+  "status": "failed",
+  "stage": "residual-dev",
+  "base": "http://localhost:3053",
+  "startedAt": "2026-10-15T16:55:28.879Z",
+  "revision": "2989f28e006c1c2284ee36d53d03f5ee1452aa1d",
+  "fingerprints": {
+    "components/travel/Inquiry.tsx": "823c4c7936b7c4480f362cc8575540b6b6add3e5b8e73964673e04a16c6c5d34",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "820734319a9c020f990f84c8899e1af984b45b728628e33d633099bffbc08cac",
+    "scripts/verify-recovery-contact.mjs": "47d8274da8de28229603e663ca852d6c6e2a4036b77732d79460d355c32fba78",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  },
+  "cases": [
+    {
+      "name": "locale/query preservation, browser back/forward, no sensitive persistence",
+      "at": "2026-10-15T16:55:35.328Z"
+    },
+    {
+      "name": "cross-locale flexible My dates are flexible",
+      "at": "2026-10-15T16:55:36.998Z"
+    },
+    {
+      "name": "cross-locale flexible مواعيدي مرنة",
+      "at": "2026-10-15T16:55:38.637Z"
+    },
+    {
+      "name": "cross-locale flexible Tarihlerim esnek",
+      "at": "2026-10-15T16:55:40.178Z"
+    },
+    {
+      "name": "noJS fallback",
+      "at": "2026-10-15T16:55:41.910Z"
+    },
+    {
+      "name": "reduced fallback",
+      "at": "2026-10-15T16:55:43.922Z"
+    },
+    {
+      "name": "saveData fallback",
+      "at": "2026-10-15T16:55:45.917Z"
+    },
+    {
+      "name": "storageUnavailable fallback",
+      "at": "2026-10-15T16:55:50.209Z"
+    }
+  ],
+  "screens": [
+    {
+      "name": "ar390-noJS",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T16-55-28.879Z\\ar390-noJS.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "mutations": [],
+  "gaps": [
+    "Chromium only; no physical device, Safari/Firefox, assistive technology or field performance certification. Chunk URL observation does not prove opaque bundle internals. Independent Root Astra rendered review pending."
+  ],
+  "failure": {
+    "message": "expect(received).toContain(expected) // indexOf\n\nExpected value: \"sapanca\"\nReceived array: [\"antalya\"]",
+    "stack": "Error: expect(received).toContain(expected) // indexOf\n\nExpected value: \"sapanca\"\nReceived array: [\"antalya\"]\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toContain (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\contact-dev\\residual.mjs:42:547",
+    "url": "http://localhost:3053/en/contact"
+  },
+  "finishedAt": "2026-10-15T16:55:52.552Z",
+  "finalFingerprints": {
+    "components/travel/Inquiry.tsx": "823c4c7936b7c4480f362cc8575540b6b6add3e5b8e73964673e04a16c6c5d34",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "820734319a9c020f990f84c8899e1af984b45b728628e33d633099bffbc08cac",
+    "scripts/verify-recovery-contact.mjs": "47d8274da8de28229603e663ca852d6c6e2a4036b77732d79460d355c32fba78",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  }
+}

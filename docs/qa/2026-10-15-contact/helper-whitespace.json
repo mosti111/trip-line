@@ -1,0 +1,5 @@
+{
+  "reason": "One final EOF blank removed by recorded root exception4; trimEnd content identical; passing QA still describes same executable helper.",
+  "testedHash": "aa0dfd1f9be74c288df387407abae5fad3b67068cfcd0ebf67c94ae34b1710f9",
+  "committedHash": "c7962c046417898b6369fc41b62467d764baa27365ca57b8d244b8fdd178492b"
+}

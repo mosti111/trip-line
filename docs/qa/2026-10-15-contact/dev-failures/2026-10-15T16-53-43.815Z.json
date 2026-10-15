@@ -1,0 +1,105 @@
+{
+  "status": "failed",
+  "stage": "targeted-dev",
+  "base": "http://localhost:3053",
+  "startedAt": "2026-10-15T16:53:43.815Z",
+  "revision": "2989f28e006c1c2284ee36d53d03f5ee1452aa1d",
+  "fingerprints": {
+    "components/travel/Inquiry.tsx": "823c4c7936b7c4480f362cc8575540b6b6add3e5b8e73964673e04a16c6c5d34",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "8ae42cc6ab55271a715fd0ae9d78b21b5e0981b01a02b72dc0340d2facfff7f4",
+    "scripts/verify-recovery-contact.mjs": "c88252ee3665e4d09ef50a76c13f8e08c5e4a3ec687f643a1cec35b430b43abe",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  },
+  "cases": [
+    {
+      "name": "precedence journey=istanbul,sapanca&destination=bursa&service=tours",
+      "at": "2026-10-15T16:53:48.174Z"
+    },
+    {
+      "name": "precedence journey=&service=",
+      "at": "2026-10-15T16:53:50.423Z"
+    },
+    {
+      "name": "precedence journey=invalid&service=invalid",
+      "at": "2026-10-15T16:53:52.403Z"
+    },
+    {
+      "name": "precedence journey=istanbul&journey=sapanca&service=tours&service=corporate",
+      "at": "2026-10-15T16:53:54.136Z"
+    },
+    {
+      "name": "precedence destination=istanbul",
+      "at": "2026-10-15T16:53:55.880Z"
+    },
+    {
+      "name": "precedence destination=invalid",
+      "at": "2026-10-15T16:53:57.862Z"
+    },
+    {
+      "name": "precedence destination=",
+      "at": "2026-10-15T16:53:59.982Z"
+    },
+    {
+      "name": "precedence destination=istanbul&destination=sapanca",
+      "at": "2026-10-15T16:54:03.520Z"
+    },
+    {
+      "name": "precedence journey=fake,antalya,antalya,istanbul&travelers=-1",
+      "at": "2026-10-15T16:54:05.013Z"
+    },
+    {
+      "name": "precedence absent stored restore",
+      "at": "2026-10-15T16:54:06.792Z"
+    },
+    {
+      "name": "country plus ordered Turkish journey serialized once",
+      "at": "2026-10-15T16:54:08.987Z"
+    },
+    {
+      "name": "query beats hydrate/drawer notifications; actual global reorder/remove supersedes query, personal edits do not detach, query service override stays",
+      "at": "2026-10-15T16:54:13.458Z"
+    },
+    {
+      "name": "local append/reorder/remove detaches itinerary, focus restored; later global update invalidates result without replacing local route",
+      "at": "2026-10-15T16:54:14.753Z"
+    },
+    {
+      "name": "all local output fields, phone validation without email, travelers bounds and permanent invalidation",
+      "at": "2026-10-15T16:54:19.815Z"
+    },
+    {
+      "name": "actual deferred clipboard stale resolution and rejection guarded; current copy succeeds",
+      "at": "2026-10-15T16:54:21.033Z"
+    }
+  ],
+  "screens": [],
+  "errors": [],
+  "mutations": [],
+  "gaps": [
+    "Chromium only; no physical device, Safari/Firefox, assistive technology or field performance certification. Chunk URL observation does not prove opaque bundle internals. Independent Root Astra rendered review pending."
+  ],
+  "failure": {
+    "message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/tr/contact?**\" until \"load\"\n  navigated to \"http://localhost:3053/ar/contact?journey=istanbul,sapanca&service=tours\"\n============================================================",
+    "stack": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/tr/contact?**\" until \"load\"\n  navigated to \"http://localhost:3053/ar/contact?journey=istanbul,sapanca&service=tours\"\n============================================================\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-contact.mjs:65:318",
+    "url": "http://localhost:3053/ar/contact?journey=istanbul,sapanca&service=tours"
+  },
+  "finishedAt": "2026-10-15T16:54:53.896Z",
+  "finalFingerprints": {
+    "components/travel/Inquiry.tsx": "823c4c7936b7c4480f362cc8575540b6b6add3e5b8e73964673e04a16c6c5d34",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "820734319a9c020f990f84c8899e1af984b45b728628e33d633099bffbc08cac",
+    "scripts/verify-recovery-contact.mjs": "8a71529c1483984e4e3a40dc614388c4cb28adb3cf28b9498b3899f26c561c6c",
+    "scripts/verify-public.mjs": "bd4f7a674e35ab4bffb29bf3fd00ddc96d4d029fe88497178e276f0da7b4c65a",
+    "scripts/verify-v3.mjs": "0740c846252f4bcec43860f9ae002d39aa8035921bdcdb5bb59ea6af56473833",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  }
+}
