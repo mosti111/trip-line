@@ -1,3 +1,6 @@
+import { InternationalExperience, CountryExperience } from '../secondary/InternationalExperience';
+import { FAQExperience } from '../secondary/FAQExperience';
+import { LegalExperience } from '../secondary/LegalExperience';
 import { AboutExperience } from '../company/AboutExperience';
 import { BusinessExperience } from '../services/BusinessExperience';
 import { PilgrimageExperience } from '../services/PilgrimageExperience';
@@ -8,25 +11,22 @@ import { TurkeyHub } from '../turkiye/TurkeyHub';
 import { DestinationJourney } from '../home-v3/DestinationJourney';
 import { ContactExperience } from '../contact/ContactExperience';
 import type { InquiryProps } from './Inquiry';
-import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
-import { href, t, ui, type Locale } from '@/lib/i18n';
-import { countries, type Country, type Service } from '@/lib/travel-content';
-import { Action, Eyebrow, FAQs, Hero, Invitation, Photo, PlanningBrief, Reveal, ServiceIndex, WhatsApp } from './Sections';
+import { ui, type Locale } from '@/lib/i18n';
+import { type Country, type Service } from '@/lib/travel-content';
+import { Action } from './Sections';
 import { Ribbon } from './Ribbon';
-import { TurkeyDiscovery as Atlas, TurkeyDirectory } from './TurkeyDiscovery';
-import { turkeyCopy, type TurkishPlace } from '@/lib/turkiye';
+import { type TurkishPlace } from '@/lib/turkiye';
 
 export function HomePage({locale}:{locale:Locale}) {return <HomeJourney locale={locale}/>;}
 export function ServicesPage({locale,audience}:{locale:Locale;audience?:string}) {return <TravelServicesHub locale={locale} audience={audience}/>;}
 export function ServicePage({locale,service}:{locale:Locale;service:Service}) {return service.slug==='hajj-umrah'?<PilgrimageExperience locale={locale} service={service}/>:<ServiceExperience locale={locale} service={service}/>;}
-export function DestinationsPage({locale}:{locale:Locale}) {return <><section className="compact-intro teal"><div className="wrap"><Eyebrow>{ui.destinations[locale]}</Eyebrow><h1>{turkeyCopy.title[locale]}</h1><p>{turkeyCopy.intro[locale]}</p></div></section><Atlas locale={locale} full/><TurkeyDirectory locale={locale}/><section className="country-directory sand"><div className="wrap"><Eyebrow>{ui.allCountries[locale]}</Eyebrow><h2>{ui.inspiration[locale]}</h2><div className="directory-list">{countries.map((c,i)=><Link key={c.slug} href={href(locale,`destinations/${c.slug}`)}><span className="index">{String(i+1).padStart(2,'0')}</span><h3>{c.name[locale]}</h3><p>{c.note[locale]}</p><ArrowUpRight/></Link>)}</div></div></section><Invitation locale={locale}/></>;}
-export function CountryPage({locale,country:c}:{locale:Locale;country:Country}) {if(c.slug==='turkiye')return <TurkeyHub locale={locale}/>;return <><Hero locale={locale} title={t(`${c.name.en}, your way.`,`${c.name.ar}، بطريقتك.`,`${c.name.tr}, senin yolculuğun.`)[locale]} body={c.note[locale]} image={`${c.slug}.jpg`} label={ui.destinations[locale]} context={`destination=${c.slug}`} respectful={c.slug==='saudi-arabia'}/><section className="country-story sand"><div className="wrap"><div className="breadcrumb"><Link href={href(locale,'destinations')}>{ui.destinations[locale]}</Link><span>/</span><span>{c.name[locale]}</span></div><div className="section-head"><div><Eyebrow>{c.name[locale]}</Eyebrow><h2>{ui.inspiration[locale]}</h2></div><p>{ui.inspirationNote[locale]}</p></div><div className="country-interests">{c.interests.map((interest,i)=><Reveal key={i}><span className="index">0{i+1}</span><h3>{interest[locale]}</h3></Reveal>)}</div></div></section><section className="country-panorama"><Photo file={`${c.slug}.jpg`} alt={c.name[locale]}/><span dir="ltr">{c.coordinate}</span></section><PlanningBrief locale={locale} text={ui.practicalBody} context={`destination=${c.slug}`}/><ServiceIndex locale={locale} filter={c.slug==='saudi-arabia'?['hajj-umrah','flights-hotels','visa-assistance']:['tours','tailor-made','flights-hotels']}/><section className="next-destinations paper"><div className="wrap"><Action secondary locale={locale} path="destinations">{ui.back[locale]}</Action><h2>{ui.allCountries[locale]}</h2><div>{countries.filter(d=>d.slug!==c.slug).map(d=><Link key={d.slug} href={href(locale,`destinations/${d.slug}`)}>{d.name[locale]}<ArrowUpRight size={17}/></Link>)}</div></div></section><Invitation locale={locale} context={`destination=${c.slug}`}/></>;}
+export function DestinationsPage({locale}:{locale:Locale}) {return <InternationalExperience locale={locale}/>;}
+export function CountryPage({locale,country}:{locale:Locale;country:Country}) {return country.slug==='turkiye'?<TurkeyHub locale={locale}/>:<CountryExperience locale={locale} country={country}/>;}
 export function BusinessPage({locale}:{locale:Locale}) {return <BusinessExperience locale={locale}/>;}
 export function AboutPage({locale}:{locale:Locale}) {return <AboutExperience locale={locale}/>;}
 export function ContactPage(props:InquiryProps) {return <ContactExperience {...props}/>;}
-export function FAQPage({locale}:{locale:Locale}) {return <><Hero locale={locale} title={ui.questions[locale]} body={ui.questionsBody[locale]} label={ui.faq[locale]} image="turkiye.jpg" action="faq#questions"/><div id="questions"><FAQs locale={locale} full/></div><Invitation locale={locale}/></>;}
-export function LegalPage({locale,kind}:{locale:Locale;kind:'privacy'|'terms'}) {const sections=kind==='privacy'?[t('Information and choices','المعلومات والخيارات','Bilgiler ve tercihler'),t('Use of information','استخدام المعلومات','Bilgilerin kullanımı'),t('Your questions','أسئلتك','Soruların')]:[t('Using this website','استخدام هذا الموقع','Bu siteyi kullanma'),t('Inquiries','الاستفسارات','Talepler'),t('Travel arrangements','ترتيبات السفر','Seyahat düzenlemeleri')];return <><section className="compact-intro teal"><div className="wrap"><Eyebrow>Trip Line</Eyebrow><h1>{ui[kind][locale]}</h1><p>{ui.legalPending[locale]}</p></div></section><section className="legal-page paper"><div className="wrap legal-grid"><nav aria-label={ui.contents[locale]}><h2>{ui.contents[locale]}</h2>{sections.map((s,i)=><a href={`#legal-${i}`} key={i}>{s[locale]}</a>)}<a href="#preferences">{ui.preferences[locale]}</a><Link href={href(locale,'contact')}>{ui.contact[locale]}</Link></nav><div><p className="legal-notice">{ui.legalBody[locale]}</p>{sections.map((s,i)=><article id={`legal-${i}`} key={i}><span className="index">0{i+1}</span><h2>{s[locale]}</h2><p>{ui.legalPending[locale]}</p></article>)}<article id="preferences"><h2>{ui.preferences[locale]}</h2><p>{ui.preferencesBody[locale]}</p></article><WhatsApp locale={locale}/></div></div></section></>;}
+export function FAQPage({locale}:{locale:Locale}) {return <FAQExperience locale={locale}/>;}
+export function LegalPage({locale,kind}:{locale:Locale;kind:'privacy'|'terms'}) {return <LegalExperience locale={locale} kind={kind}/>;}
 export function NotFoundPage({locale}:{locale:Locale}) {return <section className="not-found teal"><div className="wrap"><span className="not-found-number">404</span><h1>{ui.notFound[locale]}</h1><p>{ui.notFoundBody[locale]}</p><div className="actions"><Action locale={locale} path="">{ui.returnHome[locale]}</Action><Action locale={locale} path="destinations" secondary>{ui.allCountries[locale]}</Action></div></div><Ribbon/></section>;}
 
 export function TurkishPlacePage({locale,place}:{locale:Locale;place:TurkishPlace}) {return <DestinationJourney locale={locale} place={place}/>;}
