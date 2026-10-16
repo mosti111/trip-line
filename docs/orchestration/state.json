@@ -5,8 +5,8 @@
   "currentMilestone": "TL-003",
   "stateWriter": "/root",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "C10 and QC10 APPROVED;21of25 original TL003 tasks approved, full TL003 incomplete. Root Astra -> one selected Sol -> same Root acceptance. No next milestone, merge or deployment. Implementation checkpoint dfacf248755f5fc6646417f2da0ed558261043ca; local runtime stopped; final metadata save then STOP.",
-  "nextAction": "STOP after C10 implementation/checkpoint commits. Next only on new user continuation: TL-003-I11 and TL-003-QI11 International/FAQ/Legal. VISUAL/VISUAL-CLOSE/Q12 unstarted.",
+  "applicationStatus": "I11/QI11 APPROVED;23of25 original TL003 tasks approved. Implementation 1cc0f2e2c5c5455bf0ec5b9fd9942e4ddb97e484; runtime stopped. Metadata checkpoint then STOP; no VISUAL/Q12/merge/deployment.",
+  "nextAction": "STOP. Exact next task only after new user continuation: TL-003-VISUAL inspection only. VISUAL-CLOSE and final Q12 remain unstarted.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
@@ -2802,7 +2802,7 @@
     {
       "id": "TL-003-I11",
       "kind": "frontend",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-I11.md",
       "dependsOn": [
         "TL-003-C10",
@@ -2818,8 +2818,30 @@
         "docs/orchestration/recovery/TL-003-I11-delivery.md"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-16-secondary/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-16-secondary/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+        "blockingCorrections": []
+      },
       "history": [
         {
           "from": null,
@@ -2827,6 +2849,55 @@
           "at": "2026-10-12T11:00:22.495Z",
           "actor": "/root/astra_business_resume",
           "reason": "Prepared dependency graph only; no dispatch. Direct user12October completed-product visual gate precedes final comprehensive QA."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-16T11:50:52.277Z",
+          "actor": "/root",
+          "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T11:50:52.277Z",
+          "actor": "/root",
+          "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T11:51:25.674Z",
+          "actor": "/root",
+          "reason": "collaboration.spawn_agent accepted explicit gpt-6.1-sol fork:none and returned /root/sol_secondary; one direct implementation/QA worker. Root user-selected Astra, no backend attestation."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-16T12:01:59.999Z",
+          "actor": "/root",
+          "reason": "Sol six-file static delivery frozen, exact hashes and reports received; root actual static gate PASS, worker dev/browser released. Final production/core and QI11 pending; no approval."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-16T12:01:59.999Z",
+          "actor": "/root",
+          "reason": "Sol six-file static delivery frozen, exact hashes and reports received; root actual static gate PASS, worker dev/browser released. Final production/core and QI11 pending; no approval."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-16T12:01:59.999Z",
+          "actor": "/root",
+          "reason": "Sol six-file static delivery frozen, exact hashes and reports received; root actual static gate PASS, worker dev/browser released. Final production/core and QI11 pending; no approval."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-16T18:14:33.281Z",
+          "actor": "/root",
+          "reason": "Same Root independent source/rendered acceptance PASS; frozen core/public/V3 and QI11 production185cases158captures plus19supplement checks pass, no blockers. Save two commits then STOP."
         }
       ],
       "bounded": true,
@@ -3116,7 +3187,7 @@
     {
       "id": "TL-003-QI11",
       "kind": "verification",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-QI11.md",
       "dependsOn": [
         "TL-003-C10",
@@ -3127,8 +3198,30 @@
         "docs/orchestration/recovery/TL-003-QI11-delivery.md"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-16-secondary/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-16-secondary/README.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+        "blockingCorrections": []
+      },
       "history": [
         {
           "from": null,
@@ -3136,6 +3229,69 @@
           "at": "2026-10-12T11:05:16.019Z",
           "actor": "/root/astra_business_resume",
           "reason": "Prepared disjoint dedicated verification contract only; no dispatch. Approved dependencies and frozen root runtime gates required."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-16T11:50:52.277Z",
+          "actor": "/root",
+          "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T11:50:52.277Z",
+          "actor": "/root",
+          "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T11:51:25.674Z",
+          "actor": "/root",
+          "reason": "collaboration.spawn_agent accepted explicit gpt-6.1-sol fork:none and returned /root/sol_secondary; one direct implementation/QA worker. Root user-selected Astra, no backend attestation."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T18:04:49.654Z",
+          "actor": "/root",
+          "reason": "User continue after interruption; live inventory confirms old Sol absent, expired lease reconciled, frozen six app hashes unchanged. Fresh direct Sol resumes exact QI11 two-file ownership; completed V3 recovered, no rebuild."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T18:05:30.603Z",
+          "actor": "/root",
+          "reason": "Fresh direct spawn accepted explicit gpt-6.1-sol fork:none, returned /root/sol_secondary_resume; predecessor absent, sequential replacement not extra QA worker. Exclusive production3043 granted after recovered V3 PASS60captures16groups0errors."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-16T18:14:33.281Z",
+          "actor": "/root",
+          "reason": "Same Root independent source/rendered acceptance PASS; frozen core/public/V3 and QI11 production185cases158captures plus19supplement checks pass, no blockers. Save two commits then STOP."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-16T18:14:33.281Z",
+          "actor": "/root",
+          "reason": "Same Root independent source/rendered acceptance PASS; frozen core/public/V3 and QI11 production185cases158captures plus19supplement checks pass, no blockers. Save two commits then STOP."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-16T18:14:33.281Z",
+          "actor": "/root",
+          "reason": "Same Root independent source/rendered acceptance PASS; frozen core/public/V3 and QI11 production185cases158captures plus19supplement checks pass, no blockers. Save two commits then STOP."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-16T18:14:33.281Z",
+          "actor": "/root",
+          "reason": "Same Root independent source/rendered acceptance PASS; frozen core/public/V3 and QI11 production185cases158captures plus19supplement checks pass, no blockers. Save two commits then STOP."
         }
       ],
       "bounded": true,
@@ -3328,28 +3484,28 @@
   ],
   "policyVersion": 2,
   "activeRun": {
-    "id": "TL-003-C10-RUN",
+    "id": "TL-003-I11-RUN",
     "kind": "frontend",
     "status": "APPROVED",
-    "contract": "docs/orchestration/recovery/TL-003-C10.md",
+    "contract": "docs/orchestration/recovery/TL-003-I11.md",
     "taskIds": [
-      "TL-003-C10",
-      "TL-003-QC10"
+      "TL-003-I11",
+      "TL-003-QI11"
     ],
     "evidence": [
       {
         "kind": "automated",
-        "path": "docs/qa/2026-10-15-contact/README.md",
+        "path": "docs/qa/2026-10-16-secondary/README.md",
         "result": "PASS"
       },
       {
         "kind": "rendered",
-        "path": "docs/qa/2026-10-15-contact/README.md",
+        "path": "docs/qa/2026-10-16-secondary/README.md",
         "result": "PASS"
       },
       {
         "kind": "scope",
-        "path": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+        "path": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
         "result": "PASS"
       }
     ],
@@ -3357,7 +3513,7 @@
       "role": "Astra lead/reviewer",
       "model": "gpt-6-astra",
       "result": "PASS",
-      "report": "docs/reports/TL-003-contact-checkpoint-2026-10-15.md",
+      "report": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
       "blockingCorrections": []
     },
     "closed": true,
@@ -3372,58 +3528,58 @@
       {
         "from": null,
         "to": "PLANNED",
-        "at": "2026-10-15T11:33:27.535Z",
+        "at": "2026-10-16T11:50:52.277Z",
         "actor": "/root",
-        "reason": "Direct user continuation from 2989f28 authorizes C10/QC10 only; root administrative exception5 recorded in contact checkpoint report."
+        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
       },
       {
         "from": "PLANNED",
         "to": "READY",
-        "at": "2026-10-15T11:33:27.535Z",
+        "at": "2026-10-16T11:50:52.277Z",
         "actor": "/root",
-        "reason": "Clean baseline, valid state, approved A09/QA09 and exact written contracts inspected."
+        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
       },
       {
         "from": "READY",
         "to": "IN_PROGRESS",
-        "at": "2026-10-15T11:33:27.535Z",
+        "at": "2026-10-16T11:50:52.277Z",
         "actor": "/root",
-        "reason": "Reserve one direct Sol implementation/QA worker; no other milestone dispatched."
+        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IMPLEMENTED",
-        "at": "2026-10-15T22:10:01.850Z",
+        "at": "2026-10-16T18:14:33.281Z",
         "actor": "/root",
-        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
+        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
       },
       {
         "from": "IMPLEMENTED",
         "to": "REVIEW_REQUIRED",
-        "at": "2026-10-15T22:10:01.850Z",
+        "at": "2026-10-16T18:14:33.281Z",
         "actor": "/root",
-        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
+        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
       },
       {
         "from": "REVIEW_REQUIRED",
         "to": "REVIEWING",
-        "at": "2026-10-15T22:10:01.850Z",
+        "at": "2026-10-16T18:14:33.281Z",
         "actor": "/root",
-        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
+        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
       },
       {
         "from": "REVIEWING",
         "to": "APPROVED",
-        "at": "2026-10-15T22:10:01.850Z",
+        "at": "2026-10-16T18:14:33.281Z",
         "actor": "/root",
-        "reason": "C10/QC10 independently accepted by same Root; exact frozen evidence and scoped integration complete. No next milestone; checkpoint and STOP."
+        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
       },
       {
         "from": "APPROVED",
         "to": "APPROVED",
-        "at": "2026-10-15T22:11:20.206Z",
+        "at": "2026-10-16T18:16:18.805Z",
         "actor": "/root",
-        "reason": "Implementation dfacf248755f5fc6646417f2da0ed558261043ca saved exactly eight app/verifier files; root exception4 EOF-only helper normalization recorded and syntax/whitespace PASS. Runtime stopped; metadata checkpoint then STOP."
+        "reason": "Implementation 1cc0f2e2c5c5455bf0ec5b9fd9942e4ddb97e484 saved exact seven app/verifier files; same frozen evidence passes. Runtime stopped; checkpoint metadata then STOP."
       }
     ]
   }

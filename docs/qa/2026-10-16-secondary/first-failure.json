@@ -1,0 +1,51 @@
+{
+  "status": "failed",
+  "stage": "targeted-dev",
+  "base": "http://localhost:3053",
+  "startedAt": "2026-10-16T11:55:48.617Z",
+  "revision": "162215a935b7935b74fcebed90ab69c43cc96aa9",
+  "fingerprints": {
+    "components/secondary/InternationalExperience.tsx": "57148bb5338094a58175f47db9dc5769f7052de1e135aaebcdc51a94e296f178",
+    "components/secondary/FAQExperience.tsx": "9d40e1e64fe6afb1873430d953d469ce825dd65deda9696747b743249f005ad5",
+    "components/secondary/LegalExperience.tsx": "653e76b621b71ef3fe26f893e11809210f58de48f5ae646c8ed64c10e7931be0",
+    "components/secondary/CountryPlan.tsx": "ba825db376dd36477b92da28fad81759141843a064a7006f5288b3a641f5afa4",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "styles/recovery-secondary.css": "9cb35983600bc1eab35e7f9e18cf1767c0fded5860be7073a0487d6701e98a11",
+    "scripts/verify-recovery-secondary.mjs": "1023e607a4dccc13391e6a2b58c265cc0088ab1df47d171bd174706a539cc399",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/i18n.ts": "5d26f3e9b19ec3d0c2086799af00b608a2c1bcce2159832e17e42829d72aac71",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d",
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2"
+  },
+  "cases": [],
+  "screens": [],
+  "errors": [],
+  "requests": [],
+  "gaps": [
+    "Chromium only; no Safari, Firefox, physical device or assistive technology certification. Chunk names cannot prove opaque bundle isolation. Root Astra source/rendered acceptance pending."
+  ],
+  "failure": {
+    "message": "expect(locator).toHaveCount(expected) failed\n\nLocator:  locator('.recovery-secondary svg[viewBox],.atlas,.rt-map')\nExpected: 0\nReceived: 10\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" locator('.recovery-secondary svg[viewBox],.atlas,.rt-map') with timeout 5000ms\n  - waiting for locator('.recovery-secondary svg[viewBox],.atlas,.rt-map')\n    14 × locator resolved to 10 elements\n       - unexpected value \"10\"\n",
+    "stack": "Error: expect(locator).toHaveCount(expected) failed\n\nLocator:  locator('.recovery-secondary svg[viewBox],.atlas,.rt-map')\nExpected: 0\nReceived: 10\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" locator('.recovery-secondary svg[viewBox],.atlas,.rt-map') with timeout 5000ms\n  - waiting for locator('.recovery-secondary svg[viewBox],.atlas,.rt-map')\n    14 × locator resolved to 10 elements\n       - unexpected value \"10\"\n\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveCount (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at family (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-secondary.mjs:59:83)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery-secondary.mjs:83:112",
+    "at": "2026-10-16T11:56:10.636Z",
+    "url": "http://localhost:3053/en/destinations"
+  },
+  "finishedAt": "2026-10-16T11:56:11.129Z",
+  "finalFingerprints": {
+    "components/secondary/InternationalExperience.tsx": "57148bb5338094a58175f47db9dc5769f7052de1e135aaebcdc51a94e296f178",
+    "components/secondary/FAQExperience.tsx": "9d40e1e64fe6afb1873430d953d469ce825dd65deda9696747b743249f005ad5",
+    "components/secondary/LegalExperience.tsx": "653e76b621b71ef3fe26f893e11809210f58de48f5ae646c8ed64c10e7931be0",
+    "components/secondary/CountryPlan.tsx": "ba825db376dd36477b92da28fad81759141843a064a7006f5288b3a641f5afa4",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "styles/recovery-secondary.css": "9cb35983600bc1eab35e7f9e18cf1767c0fded5860be7073a0487d6701e98a11",
+    "scripts/verify-recovery-secondary.mjs": "1023e607a4dccc13391e6a2b58c265cc0088ab1df47d171bd174706a539cc399",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/i18n.ts": "5d26f3e9b19ec3d0c2086799af00b608a2c1bcce2159832e17e42829d72aac71",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d",
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2"
+  }
+}
