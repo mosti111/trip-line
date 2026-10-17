@@ -30,3 +30,5 @@ Future execution: [five bounded runs](../orchestration/RUN_PLAN.md); preparation
 Current bounded Contact checkpoint: [C10/QC10 acceptance,16October2026](TL-003-contact-checkpoint-2026-10-15.md). STOP; next I11/QI11 requires new continuation.
 
 - [TL-003 International/FAQ/Legal checkpoint — 16 October](TL-003-secondary-checkpoint-2026-10-16.md): I11/QI11 approved; implementation/checkpoint and STOP before VISUAL.
+
+- [TL-003 visual inspection,16–17October2026](TL-003-visual-inspection-2026-10-16.md): inspection complete; product FAIL, one P1 and three P2; no application changes.

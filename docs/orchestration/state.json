@@ -5,8 +5,8 @@
   "currentMilestone": "TL-003",
   "stateWriter": "/root",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "I11/QI11 APPROVED;23of25 original TL003 tasks approved. Implementation 1cc0f2e2c5c5455bf0ec5b9fd9942e4ddb97e484; runtime stopped. Metadata checkpoint then STOP; no VISUAL/Q12/merge/deployment.",
-  "nextAction": "STOP. Exact next task only after new user continuation: TL-003-VISUAL inspection only. VISUAL-CLOSE and final Q12 remain unstarted.",
+  "applicationStatus": "VISUAL inspection completeness APPROVED; product visual FAIL with V-01 P1 open and three P2.24of25 original tasks approved; full TL003 incomplete. No application changes. Runtime stopped; inspection checkpoint then STOP.",
+  "nextAction": "STOP. Only on new user authorization: TL-003-VISUAL-CLOSE, narrowly contract V-01 homepage bronze handoffs, affected rendered re-review. Optional P2 not silently included. Q12 remains gated; no merge/deploy.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
@@ -2915,7 +2915,7 @@
     {
       "id": "TL-003-VISUAL",
       "kind": "verification",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-VISUAL.md",
       "dependsOn": [
         "TL-003-I11",
@@ -2943,12 +2943,34 @@
         "TL-003-QI11"
       ],
       "filesAllowed": [
-        "frontend-v2/scripts/verify-recovery-visual.mjs",
         "docs/orchestration/recovery/TL-003-VISUAL-delivery.md"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-16-visual/manifest.json",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS",
+        "report": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
+        "blockingCorrections": [],
+        "scope": "Inspection completeness only; product FAIL is recorded separately, not approved."
+      },
       "history": [
         {
           "from": null,
@@ -2970,12 +2992,68 @@
           "at": "2026-10-15T11:22:34.902Z",
           "actor": "/root",
           "reason": "User five-run plan: Run3 accepts inspection completeness and precise blocker list, not zero-blocker product approval. No application writes; separate VISUAL-CLOSE gate for Run4."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-16T18:23:38.750Z",
+          "actor": "/root",
+          "reason": "Direct user authorizes VISUAL inspection only from ed67d53; expanded explicit page/viewport matrix and no tracked verifier edits. Root exception5 recorded. Prior workers completed; reserve one direct Sol evidence report only."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T18:23:38.750Z",
+          "actor": "/root",
+          "reason": "Direct user authorizes VISUAL inspection only from ed67d53; expanded explicit page/viewport matrix and no tracked verifier edits. Root exception5 recorded. Prior workers completed; reserve one direct Sol evidence report only."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-16T18:26:47.555Z",
+          "actor": "/root",
+          "reason": "Explicit gpt-6.1-sol fork:none accepted /root/sol_visual; single evidence worker, Root final judgment. Only delivery report tracked writable; temporary capture orchestration ignored, existing verifiers untouched."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-17T01:49:54.618Z",
+          "actor": "/root",
+          "reason": "User continue17October: confirmed same Sol worker errored on usage limit, no capture/preview process remains. Preserved partial evidence and administrative diff; reconcile expired lease and renew same worker for remaining inspection only. No source edits."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-17T03:17:13.934Z",
+          "actor": "/root",
+          "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-17T03:17:13.934Z",
+          "actor": "/root",
+          "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-17T03:17:13.934Z",
+          "actor": "/root",
+          "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-17T03:17:13.934Z",
+          "actor": "/root",
+          "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
         }
       ],
       "bounded": true,
       "scope": {
-        "maxFiles": 2,
-        "maxPageFamilies": 8,
+        "maxFiles": 1,
+        "maxPageFamilies": 11,
         "pageFamilies": [
           "Homepage",
           "Turkiye hub",
@@ -2984,7 +3062,10 @@
           "Hajj",
           "Business",
           "About",
-          "Contact"
+          "Contact",
+          "International",
+          "FAQ",
+          "Legal"
         ]
       },
       "deliveryReport": "docs/orchestration/recovery/TL-003-VISUAL-delivery.md"
@@ -3484,28 +3565,27 @@
   ],
   "policyVersion": 2,
   "activeRun": {
-    "id": "TL-003-I11-RUN",
-    "kind": "frontend",
+    "id": "TL-003-VISUAL-RUN",
+    "kind": "verification",
     "status": "APPROVED",
-    "contract": "docs/orchestration/recovery/TL-003-I11.md",
+    "contract": "docs/orchestration/recovery/TL-003-VISUAL.md",
     "taskIds": [
-      "TL-003-I11",
-      "TL-003-QI11"
+      "TL-003-VISUAL"
     ],
     "evidence": [
       {
         "kind": "automated",
-        "path": "docs/qa/2026-10-16-secondary/README.md",
+        "path": "docs/qa/2026-10-16-visual/manifest.json",
         "result": "PASS"
       },
       {
         "kind": "rendered",
-        "path": "docs/qa/2026-10-16-secondary/README.md",
+        "path": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
         "result": "PASS"
       },
       {
         "kind": "scope",
-        "path": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+        "path": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
         "result": "PASS"
       }
     ],
@@ -3513,8 +3593,9 @@
       "role": "Astra lead/reviewer",
       "model": "gpt-6-astra",
       "result": "PASS",
-      "report": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
-      "blockingCorrections": []
+      "report": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
+      "blockingCorrections": [],
+      "scope": "Inspection completeness only; product FAIL is recorded separately, not approved."
     },
     "closed": true,
     "budget": {
@@ -3528,59 +3609,66 @@
       {
         "from": null,
         "to": "PLANNED",
-        "at": "2026-10-16T11:50:52.277Z",
+        "at": "2026-10-16T18:23:38.750Z",
         "actor": "/root",
-        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        "reason": "Direct user authorizes VISUAL inspection only from ed67d53; expanded explicit page/viewport matrix and no tracked verifier edits. Root exception5 recorded. Prior workers completed; reserve one direct Sol evidence report only."
       },
       {
         "from": "PLANNED",
         "to": "READY",
-        "at": "2026-10-16T11:50:52.277Z",
+        "at": "2026-10-16T18:23:38.750Z",
         "actor": "/root",
-        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        "reason": "Direct user authorizes VISUAL inspection only from ed67d53; expanded explicit page/viewport matrix and no tracked verifier edits. Root exception5 recorded. Prior workers completed; reserve one direct Sol evidence report only."
       },
       {
         "from": "READY",
         "to": "IN_PROGRESS",
-        "at": "2026-10-16T11:50:52.277Z",
+        "at": "2026-10-16T18:23:38.750Z",
         "actor": "/root",
-        "reason": "Direct user I11/QI11 continuation from162215a; exception5 root administrative scope recorded before edits; approved C10/QC10 and clean baseline. Reserve one direct selected Sol, no other milestone."
+        "reason": "Direct user authorizes VISUAL inspection only from ed67d53; expanded explicit page/viewport matrix and no tracked verifier edits. Root exception5 recorded. Prior workers completed; reserve one direct Sol evidence report only."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IMPLEMENTED",
-        "at": "2026-10-16T18:14:33.281Z",
+        "at": "2026-10-17T03:17:13.934Z",
         "actor": "/root",
-        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
+        "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
       },
       {
         "from": "IMPLEMENTED",
         "to": "REVIEW_REQUIRED",
-        "at": "2026-10-16T18:14:33.281Z",
+        "at": "2026-10-17T03:17:13.934Z",
         "actor": "/root",
-        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
+        "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
       },
       {
         "from": "REVIEW_REQUIRED",
         "to": "REVIEWING",
-        "at": "2026-10-16T18:14:33.281Z",
+        "at": "2026-10-17T03:17:13.934Z",
         "actor": "/root",
-        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
+        "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
       },
       {
         "from": "REVIEWING",
         "to": "APPROVED",
-        "at": "2026-10-16T18:14:33.281Z",
+        "at": "2026-10-17T03:17:13.934Z",
         "actor": "/root",
-        "reason": "I11/QI11 independently accepted, zero blockers. Implementation/checkpoint commits and STOP; no next milestone."
-      },
-      {
-        "from": "APPROVED",
-        "to": "APPROVED",
-        "at": "2026-10-16T18:16:18.805Z",
-        "actor": "/root",
-        "reason": "Implementation 1cc0f2e2c5c5455bf0ec5b9fd9942e4ddb97e484 saved exact seven app/verifier files; same frozen evidence passes. Runtime stopped; checkpoint metadata then STOP."
+        "reason": "Same Root approves inspection completeness only after actual timed/native rendered review and frozen source verification. Product verdict FAIL: V-01 P1 bronze handoff continuity open; V-02/V-03/V-04 P2. No corrections or Q12 dispatched. Save inspection checkpoint and STOP."
       }
     ]
+  },
+  "visualAcceptance": {
+    "result": "FAIL",
+    "report": "docs/reports/TL-003-visual-inspection-2026-10-16.md",
+    "openBlockers": [
+      "V-01"
+    ],
+    "nonBlocking": [
+      "V-02",
+      "V-03",
+      "V-04"
+    ],
+    "closureTask": "TL-003-VISUAL-CLOSE",
+    "applicationRevision": "ed67d53a0743acdc94291a5e644b0feca6abdb7e"
   }
 }

@@ -109,3 +109,227 @@ convert them into creative acceptance. Root/lead actually inspect evidence. No
 production comprehensive Q12 scripts run under this evidence preparation contract.
 If final visual review requires app corrections, those need separate exact-path
 contracts and fresh affected evidence before VISUAL-CLOSE product approval.
+
+## Current user scope — 16 October 2026
+
+The current request below expands inspection coverage only. User prohibits modifying application, tests or verifier behavior; therefore prepared tracked helper path is NOT authorized. Worker owns only delivery report and creates read-only browser capture orchestration under ignored tmp/frontend-qa/visual-inspection/. No existing scripts edited or comprehensive QA run. All11families with EN/AR complete matrix at1440x900,1280x600,1024x768,768x1024,430x932,390x844,360x800; landscape844x390 for homepage/menu/Journey/Contact/Hajj/Business. TR spot checks allfamilies. Motion continuous recordings plus readable sequential frames and actual timing. Record inspection completeness separately from product verdict, classify every issueP0–P3 with exact evidence; recommend only next correction scope, no dispatch.
+
+### Exact current user request
+
+Continue Trip Line from checkpoint ed67d53a0743acdc94291a5e644b0feca6abdb7e.
+Execute TL-003-VISUAL — whole-product visual acceptance only.
+Follow the committed orchestration protocol:
+Root Astra → Sol visual-inspection worker if needed → Root Astra acceptance
+Do not spawn another Astra lead.
+This task is inspection only. Do not modify application code, CSS, content, tests, routes, or verifier behavior.
+The goal is to determine whether the completed V3 experience actually matches the approved UX, visual and motion direction before final QA.
+Review the actual running product, not only source code.
+Inspect at minimum:
+- Homepage
+- Türkiye Hub
+- Istanbul
+- Cappadocia
+- one Black Sea destination
+- one coastal destination
+- Travel Services hub
+- one individual travel service
+- Hajj & Umrah
+- Business & Groups
+- About
+- Contact / Journey
+- /destinations / Beyond Türkiye
+- one international destination
+- FAQ
+- Legal
+- menu / mega navigation
+- Journey drawer / bottom sheet
+Review these viewport classes:
+- 1440 desktop
+- 1280×600 short laptop
+- 1024 laptop/tablet boundary
+- 768 tablet
+- 430 mobile
+- 390 mobile
+- 360 mobile
+- 844×390 landscape where relevant
+Languages:
+- EN complete pass
+- AR complete visual/RTL pass
+- TR parity spot-check across all page families
+Acceptance criteria
+1. Türkiye prominence
+Verify that a first-time visitor cannot reasonably miss that Türkiye is the primary website focus.
+Check:
+- hero
+- navigation
+- first half of homepage
+- Türkiye Hub
+- services cross-links
+- global destinations page
+- footer
+International travel must remain clearly secondary.
+2. UX organization
+Judge whether each page has obvious hierarchy and a clear next action.
+Flag:
+- equal-weight sections
+- excessive cards
+- duplicated content
+- unclear CTAs
+- weak grouping
+- awkward page order
+- unnecessary sections
+- confusing navigation
+- planner/contact discontinuity
+3. Static visual quality
+Before judging motion, judge screenshots as still compositions.
+Check:
+- typography
+- spacing
+- grid
+- image hierarchy
+- alignment
+- visual rhythm
+- button hierarchy
+- bronze/teal/sand balance
+- generic SaaS/template appearance
+- repetitive section composition
+- oversized empty areas
+- cramped short-laptop layouts
+The product should already feel premium if all animation is frozen.
+4. Homepage motion
+Inspect actual scrolling.
+Do not judge from screenshots alone.
+Specifically evaluate the first ~10 seconds.
+Confirm whether:
+- hero visibly departs
+- camera/ribbon travel is unmistakable
+- Bronze Journey has real depth
+- Service Worlds feel spatial rather than tab-like
+- 3D bronze clearly transforms into 2D route language
+- Türkiye entrance feels like an arrival
+- explorer motion is obvious but usable
+- destination portals feel connected
+- film transition has cinematic impact
+- services progression feels intentional
+- final route visibly arrives
+If a reasonable reviewer could still ask “where is the motion?”, mark it as a blocker.
+5. Motion rhythm
+Ensure the site alternates:
+high-motion → calm → high-motion → calm
+Flag constant movement or animation fatigue.
+Also flag motion so subtle that it has no experiential effect.
+6. Short laptop
+This is a dedicated gate.
+At 1280×600:
+- motion must still exist
+- no old 800px-height static fallback behavior
+- pinned chapters must remain usable
+- header must not consume excessive viewport
+- primary content must remain visible
+7. Mobile
+Mobile must feel deliberately designed, not like compressed desktop.
+Check:
+- vertical Bronze Line
+- image treatment
+- section order
+- Journey controls
+- sticky CTA
+- navigation
+- destination explorer
+- Contact
+- Hajj
+- Business
+Flag:
+- desktop leftovers
+- awkward horizontal layouts
+- unnecessary pins
+- excessive scroll length
+- tiny controls
+- clipped type
+8. Arabic
+Inspect visual quality, not only logical RTL correctness.
+Check:
+- line wrapping
+- type scale
+- headline balance
+- navigation
+- buttons
+- journey ordering
+- forms
+- maps/photos remain unmirrored
+- coordinates remain LTR
+- no broken Arabic shaping
+9. Journey continuity
+Visually walk:
+Türkiye explorer
+→ Add destination
+→ destination page
+→ add/reorder another destination
+→ Journey drawer
+→ Journey Builder
+→ Contact
+→ prepared message
+Judge whether it feels like one product experience rather than separate features.
+10. Page-family differentiation
+Verify:
+- leisure feels inspirational
+- Hajj feels calm/respectful
+- Business feels purposeful/professional
+- About feels editorial and credible
+- Contact feels functional
+- legal feels intentionally simple
+They should share one brand without looking cloned.
+11. Content visual integrity
+Ensure Company Profile 2025 figures are visibly attributed.
+Confirm the 12+ years figure is not visually presented as “company founded 12+ years ago.”
+Confirm legal pending status is visible.
+Do not fact-check externally in this task.
+Evidence
+Capture enough screenshots/video evidence to support every major conclusion.
+For motion, use actual scroll capture or sequential visual evidence.
+Do not hide failures.
+Blocker classification
+Every issue must be classified:
+P0
+experience fundamentally broken / unusable
+P1
+violates approved design/UX direction and must be fixed before delivery
+P2
+meaningful polish issue but not delivery-blocking
+P3
+optional refinement
+Each blocker must contain:
+- page
+- viewport
+- locale
+- exact observed problem
+- expected behavior
+- likely component/file area if identifiable
+- recommended correction
+- whether shared/global or page-specific
+Do not use vague findings like:
+“motion needs improvement.”
+Use:
+“At 1280×600, homepage Departure completes before the bronze ribbon meaningfully approaches camera; headline fades instead of feeling spatial. Extend travel phase and reduce premature text opacity.”
+Final output
+Produce:
+1. overall acceptance status:
+   - PASS
+   - PASS WITH P2/P3
+   - FAIL — correction pass required
+2. executive visual assessment
+3. blocker table sorted P0 → P3
+4. homepage motion assessment
+5. Türkiye prominence assessment
+6. desktop assessment
+7. short-laptop assessment
+8. tablet/mobile assessment
+9. Arabic assessment
+10. Journey continuity assessment
+11. page-family assessment
+12. evidence locations
+13. exact recommended scope for the next correction milestone
+Do not fix anything.
+Do not start final QA.
+Do not merge or deploy.
+Save the inspection report/checkpoint if required by the orchestration protocol and stop.
