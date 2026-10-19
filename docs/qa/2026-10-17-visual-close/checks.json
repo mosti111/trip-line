@@ -1,0 +1,39 @@
+{
+  "finalBuildId": "V2OPHLUlT5-L0-Ql6AKCz",
+  "checks": [
+    {
+      "command": "pnpm typecheck",
+      "outcome": "PASS",
+      "note": "Final cycle1 explicit tsc --noEmit completed exit0."
+    },
+    {
+      "command": "pnpm lint",
+      "outcome": "PASS",
+      "note": "After exact stage z-index correction, completed exit0."
+    },
+    {
+      "command": "pnpm test",
+      "outcome": "PASS",
+      "tests": 32,
+      "files": 2,
+      "note": "lib/turkiye.test.ts25 and lib/journey.test.ts7; later fixes only presentation geometry/CSS."
+    },
+    {
+      "command": "pnpm build",
+      "outcome": "PASS",
+      "note": "Final cycle1 default Turbopack, TypeScript, static generation and optimization completed exit0."
+    },
+    {
+      "command": "git diff --check -- frontend-v2",
+      "outcome": "PASS",
+      "note": "Seven allowed application paths; no manifest/lockfile/generated tracked change."
+    }
+  ],
+  "buildHistory": [
+    "Initial build interrupted during TypeScript after compilation for React immutability lint correction.",
+    "Successful build superseded after removing asynchronous mesh visibility substitution.",
+    "Successful frozen build BbEzTF4zD7N_lIHYN4Jfp superseded by actual production service layering defect; evidence preserved under production-superseded-layering.",
+    "Cycle1 final frozen build V2OPHLUlT5-L0-Ql6AKCz; all final capture uses this artifact."
+  ],
+  "excluded": "No whole-product public/V3/finalQ12 suite, no merge or deployment."
+}

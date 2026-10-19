@@ -37,3 +37,7 @@ Hajj/Umrah, Business, About and Contact/Journey as actually affected. A complete
 inspection or automated checks alone cannot satisfy product visual approval.
 Q12 depends on both VISUAL and this gate. Stop on acceptance; no Q12 dispatch
 without the next user continuation, no merge/deployment/user creative acceptance.
+
+## Authorized17October2026
+
+Direct user continuation from5474cdf authorizes closure now, including isolated P2 landscape/image investigation/RTL arrow. [VC01 exact correction contract](../../tasks/TL-003-visual-close-corrections.md) governs application writes. Current affected-states-only review supersedes generic broad regression text above; no final comprehensive QA. Root exception5 administrative ownership recorded in VC01. Stop after implementation and checkpoint commits.

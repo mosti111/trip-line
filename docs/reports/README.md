@@ -32,3 +32,5 @@ Current bounded Contact checkpoint: [C10/QC10 acceptance,16October2026](TL-003-c
 - [TL-003 International/FAQ/Legal checkpoint — 16 October](TL-003-secondary-checkpoint-2026-10-16.md): I11/QI11 approved; implementation/checkpoint and STOP before VISUAL.
 
 - [TL-003 visual inspection,16–17October2026](TL-003-visual-inspection-2026-10-16.md): inspection complete; product FAIL, one P1 and three P2; no application changes.
+
+- [TL-003 VISUAL-CLOSE acceptance — 19 October 2026](TL-003-visual-close-2026-10-17.md): continuous bronze handoff and isolated P2 corrections; implementation/checkpoint stop, Q12 unstarted.

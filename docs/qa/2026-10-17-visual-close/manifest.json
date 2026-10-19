@@ -1,0 +1,116 @@
+{
+  "baseline": "5474cdf066c61443990842daf2ba0a405b2cef29",
+  "buildId": "V2OPHLUlT5-L0-Ql6AKCz",
+  "accepted": true,
+  "reviewDate": "2026-10-19T02:45:55.621Z",
+  "note": "Selected durable evidence. Full raw 307-frame/10-video inventory is preserved locally; only listed files are copied. Root inspected selected native images and actual uncut EN1440 playback, plus live reduced-motion browser. Final report owns acceptance.",
+  "sourceHashes": {
+    "frontend-v2/components/experience/BronzeJourneyScene.tsx": "019343e5a478b2df439218f34d149c23f1578969f1f42685620a761985658626",
+    "frontend-v2/components/experience/ScrollScene.tsx": "af85959e345747ea93741b913ad503bc2e712d08f29fa79c53b6bc4110c33c96",
+    "frontend-v2/components/home-v3/HomeEditorial.tsx": "7ead79e52bb7f1a2fe14d1201614b8e35b8c213d50bdd31535ee207a5eb99560",
+    "frontend-v2/components/home-v3/HomeJourney.tsx": "4687702ef149382562fb359d486ea5866ebf68ef47444305c23e076f603b5789",
+    "frontend-v2/components/travel/Inquiry.tsx": "788e0119234d86af35026a06b3d2ceea31bfa97fab7492b62f01d101fc7a1953",
+    "frontend-v2/components/travel/Sections.tsx": "a1a13c6c0d2e6ec6c63ec478f41293aa82ede578a8bedf146f87238012a5d658",
+    "frontend-v2/styles/recovery-motion.css": "98b47198e20ab3ca322f5b8bb2251bcc61fa0172679ef0c32d1fd1833e5fdffa"
+  },
+  "files": [
+    {
+      "file": "en-1440x900-f-0_95.png",
+      "sha256": "c5cd162fb7f91bb231346fc4d3b5803269939eb01302e074005d6e477392c187"
+    },
+    {
+      "file": "en-1440x900-f-0_985.png",
+      "sha256": "681b5e2b4d07cae3ec7df1c62681f7571e74b81e4da4786b74e1e624e970fba3"
+    },
+    {
+      "file": "en-1440x900-f-1_04.png",
+      "sha256": "2585ad0c80735cb0f7a707dfed597099570326c23d064bd85726b8e383bded50"
+    },
+    {
+      "file": "en-1440x900-worlds-f-02.png",
+      "sha256": "5bf1bdc036f2365d33d72cc336174b59b7ce3e6c48072863360c7a003a22826b"
+    },
+    {
+      "file": "en-1440x900-worlds-f-03.png",
+      "sha256": "1062d5dab394156ff1e576c7d5ee001d38d97ab4a8759a37dad2022bda8ee1a0"
+    },
+    {
+      "file": "en-1440x900-r-0_97.png",
+      "sha256": "3c478a19fc845a11e1cc00376b231fb0ad57fb314a452d7939dd559d51cc55c1"
+    },
+    {
+      "file": "en-1280x600-f-0_95.png",
+      "sha256": "5b1f577d578f116831487650bddc595ce154afd76eb70c217f62e0426757046f"
+    },
+    {
+      "file": "en-1024x768-f-1_04.png",
+      "sha256": "f515544646cb3144ac454b68547a2081b21ccf2e70f2c447f252176f9278b94e"
+    },
+    {
+      "file": "ar-1440x900-f-1_04.png",
+      "sha256": "b5b8a6c4726af2877c1f5cfa5899eb6313256438e57910fe73b46a1640fda242"
+    },
+    {
+      "file": "ar-1280x600-worlds-f-06.png",
+      "sha256": "c71cd2490a0cabd8dae905156d40c610189f1f66ad4718af8a19440346693c01"
+    },
+    {
+      "file": "en-390x844-top.png",
+      "sha256": "7ebb0b7924aba6cca7bc3b0034ccadefb6f06e0b5d7f947c087fc864e61b6302"
+    },
+    {
+      "file": "en-390x844-worlds-f-01.png",
+      "sha256": "76898abcdad2868109824abe72295e076a8f9932b20461bc728bd24c2f9d1210"
+    },
+    {
+      "file": "ar-390x844-prepared.png",
+      "sha256": "e4f8e505c0fa9fe8bb935abbd2952958358fe69010913102fbdbcd2c100cf1c3"
+    },
+    {
+      "file": "en-1440x900-antalya-actual.png",
+      "sha256": "e50300817177199be8a1cb2b8e17fbda1671866876164eed231c8bd654ac01d6"
+    },
+    {
+      "file": "antalya-enlargement-before-50vw.png",
+      "sha256": "21cdf6d48767507ad7ded9561ccd6076872209e14bfd7df71f542974cc2d10a7"
+    },
+    {
+      "file": "antalya-enlargement-after-95vw.png",
+      "sha256": "650319df457116d86d28060ba2fffe0a62a31a57d25dc7f0b015936f8df65423"
+    },
+    {
+      "file": "en-1440x900-reduced-worlds-f-00.png",
+      "sha256": "951797c89501d19ec74209e465f0016d5c7dc9d0fc2610d4c1743b7a8be320fb"
+    },
+    {
+      "file": "ar-1440x900-reduced-worlds-f-02.png",
+      "sha256": "b31ee0ee8bd5c68bf867e8678cb75a3851c66a9ac7e6ff280ce71b490ab06437"
+    },
+    {
+      "file": "en-844x390-landscape.png",
+      "sha256": "5749772764675689d0eed7db861872cbb4dc785fb25455903603eb6ca4b67aee"
+    },
+    {
+      "file": "ar-844x390-landscape.png",
+      "sha256": "193cd6428f05b899d26a61556bbf3abf1545bd0797ea7a8a20901ac43818b8a8"
+    },
+    {
+      "file": "service-keyboard.json",
+      "sha256": "e233fd594aa5b1d32735fd53d2c7b4c91fe7cd4bb33cd1610d6d3d263548a566"
+    },
+    {
+      "file": "en-1440-timed-forward-reverse.webm",
+      "sha256": "88e29128f7ac26be79a5bb118c73df73f8c71057ed444e3ad13761d2c2982a35"
+    },
+    {
+      "file": "production-capture-inventory.json",
+      "sha256": "80ac8885b291614e4ece75585bc1161260a066a71492e78238a9af474c69fe24"
+    },
+    {
+      "file": "checks.json",
+      "sha256": "f3a8db1a3e0f3dec322559ea47300bf7433fe02499415fe5921602904d3350b2"
+    }
+  ],
+  "reviewReport": "docs/reports/TL-003-visual-close-2026-10-17.md",
+  "implementationSha": "5af9e3a4fda650b39a43b01aca7398cb3f26ffab"
+}

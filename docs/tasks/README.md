@@ -31,3 +31,5 @@ Current authorized frontend: [TL-003 — UX/motion recovery](TL-003-ux-motion-re
 
 Current bounded system hardening: [TL-SYS-003](TL-SYS-003-orchestration-hardening.md).
 Future execution: [five bounded runs](../orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.
+
+- [TL-003 visual closure corrections](TL-003-visual-close-corrections.md): bounded V01 and isolated P2 corrections,17October2026.
