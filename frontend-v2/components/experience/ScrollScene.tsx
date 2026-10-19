@@ -54,24 +54,43 @@ export function ScrollScene({ mode }: { mode: 'desktop' | 'native' }) {
           gsap.to('.rh-sculpture', { xPercent: -14, yPercent: -12, rotation: -8, ease: 'none', scrollTrigger: { trigger: arrival, start: 'top top', end: 'bottom top', scrub: true } });
         }
         const worlds = root.querySelector<HTMLElement>('.rh-worlds')!;
-        const stage = root.querySelector('.rh-world-stage')!;
-        const route = root.querySelector<SVGSVGElement>('.rh-world-route')!;
-        const metal = route.cloneNode(true) as SVGSVGElement;
-        metal.classList.add('rh-world-metal'); metal.setAttribute('aria-hidden', 'true'); stage.prepend(metal);
-        cleanup.push(() => { metal.remove(); delete worlds.dataset.handoffProgress; delete worlds.dataset.handoffState; });
         const spatial = mode === 'desktop';
         [0,1,2].forEach(index => {
           const plane = root.querySelector(`.rh-world-${index}`)!;
           gsap.fromTo(plane, { y: spatial ? [110,55,85][index] : 24, rotationY: spatial ? [-9,5,-6][index] : 0, z: spatial ? [-70,-130,-40][index] : 0 }, { y: spatial ? [-70,-20,-45][index] : -12, rotationY: spatial ? [5,-2,3][index] : 0, z: spatial ? [80,-20,40][index] : 0, ease: 'none', scrollTrigger: { trigger: plane, start: 'top bottom', end: 'bottom 15%', scrub: spatial ? .4 : true } });
         });
-        const handoff = gsap.timeline({ scrollTrigger: { trigger: worlds, start: 'bottom 105%', end: 'bottom 20%', scrub: .3,
-          onUpdate: self => { worlds.dataset.handoffProgress = self.progress.toFixed(4); worlds.dataset.handoffState = self.progress < .15 ? 'metallic' : self.progress < .85 ? 'flattening' : 'graphic'; } } });
-        worlds.dataset.handoffState = 'metallic'; worlds.dataset.handoffProgress = '0';
-        handoff.fromTo(metal.querySelector('path'), { strokeWidth: spatial ? 16 : 5 }, { strokeWidth: 1.5, duration: .85, ease: 'none' }, 0)
-          .to(metal, { opacity: 0, rotationX: 0, y: 60, duration: 1, ease: 'none' }, 0)
-          .fromTo(route, { opacity: .2 }, { opacity: 1, duration: 1, ease: 'none' }, 0);
-        const threshold = root.querySelector('.rh-threshold')!;
-        pathDraw('.rh-threshold-route path', threshold, 'top bottom', 'center 35%');
+        const threshold = root.querySelector<HTMLElement>('.rh-threshold')!;
+        if (spatial) {
+          // One measured centerline crosses both section boundaries. It is never mirrored.
+          const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+          const line = document.createElementNS(svg.namespaceURI,'path');
+          svg.classList.add('rh-continuous-route'); svg.setAttribute('aria-hidden','true');
+          line.setAttribute('fill','none'); line.setAttribute('stroke','#a8792d'); line.setAttribute('stroke-width','2');
+          svg.append(line); root.append(svg);
+          const layout = () => {
+            const origin = root.getBoundingClientRect().top + scrollY;
+            const end = threshold.getBoundingClientRect().top + scrollY - origin;
+            const h = arrival.offsetHeight, w = root.clientWidth;
+            const pinEnd = Number(arrival.dataset.pinEnd ?? 0);
+            const a = pinEnd - origin;
+            const b = worlds.getBoundingClientRect().top + scrollY - origin;
+            const height = end + threshold.offsetHeight;
+            svg.setAttribute('viewBox',`0 0 ${w} ${height}`); svg.style.height = `${height}px`;
+            line.setAttribute('d',`M${w*.64} ${a+h*.5} C${w*.84} ${a+h*.55} ${w*.72} ${a+h*.8} ${w*.72} ${a+h} C${w*.72} ${b+220} ${w*.88} ${b+360} ${w*.8} ${b+650} S${w*.2} ${end-250} ${w*.3} ${end} C${w*.4} ${end+250} ${w*.88} ${end+300} ${w*.73} ${end+500} S${w*.12} ${end+650} ${w*.23} ${height}`);
+          };
+          const update = () => {
+            const p = Number(arrival.dataset.motionProgress ?? 0);
+            // Geometric substitution at the fully collapsed endpoint; no opacity mask.
+            svg.style.visibility = p >= .999 ? 'visible' : 'hidden';
+            worlds.dataset.handoffState = p >= .999 ? 'graphic' : p >= .78 ? 'flattening' : 'metallic';
+          };
+          const observer = new MutationObserver(update); observer.observe(arrival,{attributes:true,attributeFilter:['data-motion-progress']});
+          ScrollTrigger.addEventListener('refresh',layout); layout(); update();
+          cleanup.push(() => { observer.disconnect(); ScrollTrigger.removeEventListener('refresh',layout); svg.remove(); delete worlds.dataset.handoffState; });
+        } else {
+          pathDraw('.rh-threshold-route path', threshold, 'top bottom', 'center 35%');
+          pathDraw('.rh-world-route path', worlds);
+        }
         gsap.fromTo('.rh-threshold h2', { y: spatial ? 60 : 20 }, { y: spatial ? -35 : -10, ease: 'none', scrollTrigger: { trigger: threshold, start: 'top bottom', end: 'bottom top', scrub: .4 } });
         if (spatial) gsap.fromTo('.rh-threshold > .photo img', { scale: 1.12, y: -25 }, { scale: 1, y: 25, ease: 'none', scrollTrigger: { trigger: threshold, start: 'top bottom', end: 'bottom top', scrub: .4 } });
         const explorer = root.querySelector('.rt-explorer')!;

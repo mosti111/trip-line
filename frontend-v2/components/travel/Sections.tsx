@@ -15,7 +15,7 @@ import { DestinationPortal } from '../experience/DestinationPortal';
 import { HeroVideo } from './HeroVideo';
 import { turkeyCopy, turkishPlaces } from '@/lib/turkiye';
 
-export function Photo({file,alt='',className='',priority=false}:{file:string;alt?:string;className?:string;priority?:boolean}) {return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={priority?'100vw':'(max-width: 760px) 100vw, 50vw'} preload={priority} quality={85}/></div>;}
+export function Photo({file,alt='',className='',priority=false,sizes}:{file:string;alt?:string;className?:string;priority?:boolean;sizes?:string}) {return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={sizes??(priority?'100vw':'(max-width: 760px) 100vw, 50vw')} preload={priority} quality={85}/></div>;}
 export function Eyebrow({children}:{children:React.ReactNode}) {return <span className="eyebrow">{children}<span aria-hidden="true"/></span>;}
 export function Reveal({children,className=''}:{children:React.ReactNode;className?:string}) {const {calm}=useTravel();return <motion.div className={className} initial={false} whileInView={calm?undefined:{y:[18,0]}} viewport={{once:true,amount:.12}} transition={{duration:.65,ease:[.22,1,.36,1]}}>{children}</motion.div>;}
 export function Action({locale,path,children,secondary=false}:{locale:Locale;path:string;children:React.ReactNode;secondary?:boolean}) {return <Link className={secondary?'text-link':'button'} href={href(locale,path)}>{children}<ArrowUpRight size={18} className="directional"/></Link>;}

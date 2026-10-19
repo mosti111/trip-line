@@ -68,7 +68,7 @@ export function Inquiry({locale,service,destination,journey,orderedIds,message='
   function editIds(next:string[],focus?:{id:string;offset:number}|true){itineraryOwner.current='local';setIds(next);invalidate();if(focus)requestAnimationFrame(()=>{if(focus===true)document.getElementById("inquiry-destination")?.focus();else{const row=document.querySelector(`[data-contact-edit-stop="${focus.id}"]`);(row?.querySelector<HTMLButtonElement>(`[data-move="${focus.offset}"]:not(:disabled)`)||row?.querySelector<HTMLButtonElement>("button:not(:disabled)"))?.focus();}});}
   const places=ids.map(id=>turkishPlaces.find(p=>p.slug===id)!);
   const requestedCountry=countries.find(c=>c.slug===country);
-  const route=places.map(p=>p.name[locale]).join(' → ');
+  const route=places.map(p=>p.name[locale]).join(locale==='ar'?' ← ':' → ');
   const selectedService=services.find(s=>s.slug===fields.service)?.title[locale]||ui.unsure[locale];
   function submit(e:FormEvent<HTMLFormElement>){
     e.preventDefault();const issues:typeof errors={};

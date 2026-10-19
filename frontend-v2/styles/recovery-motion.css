@@ -57,3 +57,19 @@
 }
 @media(prefers-reduced-motion:reduce){.rh-flight-coordinates,.rh-departure{display:none!important}.recovery-home .rt-preview-image{transition:none}}
 .reduce-motion .rh-flight-coordinates,.reduce-motion .rh-departure{display:none!important}
+
+/* One geographic stroke bridges the released pin, service planes and Türkiye. */
+.recovery-home[data-home-motion=desktop]{position:relative;isolation:isolate}
+.rh-continuous-route{position:absolute;inset:0 0 auto;width:100%;pointer-events:none;z-index:1;overflow:visible}
+.recovery-home[data-home-motion=desktop] .rh-world-route,.recovery-home[data-home-motion=desktop] .rh-threshold-route{visibility:hidden}
+.recovery-home[data-home-motion=desktop] .rh-world-plane,.recovery-home[data-home-motion=desktop] .rh-section-heading,.recovery-home[data-home-motion=desktop] .rh-threshold>.rh-wrap{position:relative;z-index:2}
+@media(min-width:768px) and (max-width:1023px) and (max-height:500px) and (orientation:landscape){
+ .recovery-home .rh-arrival{min-height:640px;align-items:flex-start;padding-block:118px 80px}
+ .recovery-home .rh-arrival h1{font-size:58px;line-height:.95;max-width:680px}
+ .rh-arrival-copy>.rh-kicker{margin-bottom:12px}
+ .rh-arrival-copy>p{font-size:13px;line-height:1.55;margin-block:14px 16px;max-width:560px}
+ .rh-arrival-copy .journey-action{min-height:44px;padding-block:10px}
+ html[lang=ar] .recovery-home .rh-arrival h1{font-size:48px;line-height:1.12}
+}
+.recovery-home[data-home-motion=desktop] .rh-world-copy{position:relative;background:#E4D7C1}
+.recovery-home[data-home-motion=desktop] .rh-world-stage{z-index:2}
