@@ -7,7 +7,7 @@ if (process.env.QA_STAGE === 'static') {
  process.exit(0);
 }
 const base=process.env.QA_URL||'http://localhost:3003';
-const out=path.resolve('../tmp/frontend-qa/v3');fs.mkdirSync(out,{recursive:true});
+const out=path.resolve(process.env.QA_OUT||'../tmp/frontend-qa/v3');fs.mkdirSync(out,{recursive:true});
 const report={ startedAt: new Date().toISOString(), browser: 'Chromium', stage: 'full', status:'running',base,checks:[],screens:[],errors:[],performance:{}};
 const browser=await chromium.launch({headless:true});
 function watch(page){watchRuntime(page,report,'v3');}
@@ -41,7 +41,7 @@ try{
  await page.locator('.header a[lang=ar]').click();await expect(page.locator('html')).toHaveAttribute('dir','rtl');
  await expect(page.locator('[data-contact-stop]')).toHaveText(['01إسطنبول','02أنطاليا','03كابادوكيا']);await expect(page.locator('#inquiry-message')).toHaveValue('');
  await page.locator('#inquiry-name').fill('V3 QA');await page.locator('#inquiry-email').fill('v3@example.com');await page.locator('#inquiry-message').fill('Please discuss these arrangements.');await page.locator('#inquiry-consent').check();
- await page.locator('form button[type=submit]').click();await expect(page.locator('.inquiry-result')).toBeVisible();const contactText=new URL(await page.locator('.inquiry-result a').first().getAttribute('href')).searchParams.get('text');expect(contactText.split('إسطنبول → أنطاليا → كابادوكيا').length-1).toBe(1);expect(new URL(await page.locator('.inquiry-result a[href^="mailto:"]').getAttribute('href')).searchParams.get('body')).toBe(contactText);
+ await page.locator('form button[type=submit]').click();await expect(page.locator('.inquiry-result')).toBeVisible();const contactText=new URL(await page.locator('.inquiry-result a').first().getAttribute('href')).searchParams.get('text');expect(contactText.split('إسطنبول ← أنطاليا ← كابادوكيا').length-1).toBe(1);expect(new URL(await page.locator('.inquiry-result a[href^="mailto:"]').getAttribute('href')).searchParams.get('body')).toBe(contactText);
  await page.locator('#inquiry-dates').fill('June 2027');await expect(page.locator('.inquiry-result')).toHaveCount(0);
  report.checks.push('Ordered journey, reorder, dates/travelers, localized query handoff, preparation, stale output invalidation');
  await page.goto(base+'/en/contact?journey=fake,antalya,antalya,istanbul&travelers=-1');

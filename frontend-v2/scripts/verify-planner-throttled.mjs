@@ -4,7 +4,7 @@ import path from 'node:path';
 import { watchRuntime, resetJourney } from './verify-recovery-motion.mjs';
 
 const base = process.env.QA_URL || 'http://localhost:3003';
-const out = path.resolve('../tmp/v3-reconstruction/qa');
+const out = path.resolve(process.env.QA_OUT || '../tmp/v3-reconstruction/qa');
 fs.mkdirSync(out, { recursive: true });
 const report = { startedAt: new Date().toISOString(), browser: 'Chromium', stage: 'full',  status: 'running', cpuThrottle: 4, cases: [], errors: [] };
 const browser = await chromium.launch();
@@ -27,8 +27,21 @@ try {
       await first.check();
       await expect(builder.locator('input[name=journey]')).toHaveValue('antalya,istanbul');
       await expect(builder.locator('.rh-builder-preview>span')).toHaveText('02');
-      report.cases.push({ locale, attempt, selected: 'antalya,istanbul' });
+      const earlier=builder.locator('[data-stop=istanbul] [data-move="-1"]');
+      await earlier.focus();await page.keyboard.press('Enter');
+      await expect(builder.locator('input[name=journey]')).toHaveValue('istanbul,antalya');
+      await expect(builder.locator('[data-stop=istanbul] [data-move="1"]')).toBeFocused();
+      await builder.locator('[data-stop=istanbul] button').last().focus();await page.keyboard.press('Enter');
+      await expect(first).toBeFocused();await expect(builder.locator('input[name=journey]')).toHaveValue('antalya');
+      report.cases.push({ locale, attempt, selectedBeforeKeyboard: 'antalya,istanbul', afterKeyboard: 'antalya', boundaryFocus: true, removalFocus: true });
     }
+  }
+  report.persistence=[];
+  for(const locale of ['en','ar','tr']){
+    await page.goto(`${base}/${locale}`,{waitUntil:'networkidle'});await resetJourney(page);
+    const builder=page.locator('#journey-builder');await builder.locator('input[value=istanbul]').check();await builder.locator('input[value=antalya]').check();await builder.locator('#builder-service').selectOption('corporate');await page.reload({waitUntil:'networkidle'});
+    await expect(builder.locator('input[name=journey]')).toHaveValue('istanbul,antalya');await expect(builder.locator('#builder-service')).toHaveValue('corporate');
+    expect(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('tripline-journey')))).toEqual({destinations:['istanbul','antalya'],journeyType:'corporate'});report.persistence.push({locale,ordered:'istanbul,antalya',journeyType:'corporate',cpuThrottle:4});
   }
   expect(report.errors).toEqual([]);
   report.status = 'passed';

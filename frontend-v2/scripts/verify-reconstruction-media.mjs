@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { watchRuntime, openingStage, filmLifecycle } from './verify-recovery-motion.mjs';
 const base=process.env.QA_URL||'http://localhost:3003';
-const out=path.resolve('../tmp/v3-reconstruction/qa');fs.mkdirSync(out,{recursive:true});
+const out=path.resolve(process.env.QA_OUT||'../tmp/v3-reconstruction/qa');fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch();
 const report={ startedAt: new Date().toISOString(), browser: 'Chromium', stage: 'full', status:'running',checks:[],errors:[]};
 try{

@@ -7,7 +7,7 @@ if (process.env.QA_STAGE === 'static') {
  process.exit(0);
 }
 const base=process.env.QA_URL||'http://localhost:3003';
-const out=path.resolve('..','tmp','frontend-qa');fs.mkdirSync(out,{recursive:true});
+const out=path.resolve(process.env.QA_OUT||'../tmp/frontend-qa');fs.mkdirSync(out,{recursive:true});
 const places=['istanbul','trabzon','rize-ayder','uzungol','antalya','bodrum','fethiye','marmaris','sapanca','bursa','yalova','cappadocia'];
 const services=['tours','hajj-umrah','camps','corporate','flights-hotels','tailor-made','events','training','visa-assistance'];
 const countries=['turkiye','georgia','egypt','saudi-arabia','oman','qatar','uae','maldives','malaysia','indonesia'];

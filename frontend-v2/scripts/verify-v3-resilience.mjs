@@ -4,7 +4,7 @@ import path from 'node:path';
 import { watchRuntime, assertRecoveryHome, openingStage } from './verify-recovery-motion.mjs';
 
 const base=process.env.QA_URL||'http://localhost:3003';
-const out=path.resolve('../tmp/frontend-qa/v3');fs.mkdirSync(out,{recursive:true});
+const out=path.resolve(process.env.QA_OUT||'../tmp/frontend-qa/v3');fs.mkdirSync(out,{recursive:true});
 const report={ startedAt: new Date().toISOString(), browser: 'Chromium', stage: 'full', status:'running',checks:[],errors:[],expectedWebGLErrors:[],rendering:{}};
 const browser=await chromium.launch({headless:true});
 const watch=page=>watchRuntime(page,report,'resilience');

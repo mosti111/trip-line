@@ -8,7 +8,7 @@ import { watchRuntime } from './verify-recovery-motion.mjs';
 const base=process.env.QA_URL||'http://localhost:3003';
 const stage=process.env.QA_CONTACT_STAGE||'production';
 const startedAt=new Date().toISOString();
-const out=path.resolve('../tmp/frontend-qa/recovery-contact',startedAt.replaceAll(':','-'));
+const out=path.resolve(process.env.QA_OUT||'../tmp/frontend-qa/recovery-contact',startedAt.replaceAll(':','-'));
 fs.mkdirSync(out,{recursive:true});
 const files=['components/travel/Inquiry.tsx','components/travel/Pages.tsx','components/contact/ContactExperience.tsx','styles/recovery-contact.css','app/[locale]/[[...slug]]/page.tsx','scripts/verify-recovery-contact.mjs','scripts/verify-public.mjs','scripts/verify-v3.mjs','lib/journey.ts','components/experience/JourneyStore.tsx'];
 const fingerprints=()=>Object.fromEntries(files.map(file=>[file,createHash('sha256').update(fs.readFileSync(file)).digest('hex')]));
@@ -40,7 +40,7 @@ try{
   const s=await fresh(locale,width,height);await go(s);await route(s.page,['istanbul','sapanca']);await expect(s.page.locator('#inquiry-message')).toHaveValue('');await bounds(s.page);await shot(s,`${locale}-${width}x${height}-ordered`);
   await s.page.locator('button[type=submit]').click();await expect(s.page.locator('#inquiry-name')).toBeFocused();await focusedBounds(s.page);
   if(width===390)await shot(s,`${locale}-390-errors-keyboard`);
-  await fill(s.page,locale==='ar');const text=await prepare(s.page);once(text,locale==='ar'?'إسطنبول → صبانجا':'Istanbul → Sapanca');once(text,'May 2027');expect(text).toContain('4');await bounds(s.page);
+  await fill(s.page,locale==='ar');const text=await prepare(s.page);once(text,locale==='ar'?'إسطنبول ← صبانجا':'Istanbul → Sapanca');once(text,'May 2027');expect(text).toContain('4');await bounds(s.page);
   if(width===390||width===1440)await shot(s,`${locale}-${width}-prepared`);
   await s.page.locator('#inquiry-message').fill('Changed');await expect(s.page.locator('.inquiry-result')).toHaveCount(0);await s.page.locator('#inquiry-message').fill('Please discuss these arrangements.');await expect(s.page.locator('.inquiry-result')).toHaveCount(0);
   pass(`native ordered/form/error/prepared/invalidation ${locale} ${width}x${height}`);await s.context.close();
