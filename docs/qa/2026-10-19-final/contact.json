@@ -1,0 +1,315 @@
+{
+  "status": "passed",
+  "stage": "production",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-19T22:35:20.580Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "fingerprints": {
+    "components/travel/Inquiry.tsx": "788e0119234d86af35026a06b3d2ceea31bfa97fab7492b62f01d101fc7a1953",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "ad17177c7ba19da3d207dd81df158a66e97685954bd1551fa49db457575d5651",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  },
+  "cases": [
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1440x900",
+      "at": "2026-10-19T22:35:24.829Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1280x600",
+      "at": "2026-10-19T22:35:27.554Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 768x1024",
+      "at": "2026-10-19T22:35:29.962Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 390x844",
+      "at": "2026-10-19T22:35:33.043Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 1440x900",
+      "at": "2026-10-19T22:35:36.204Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 1280x600",
+      "at": "2026-10-19T22:35:38.508Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 768x1024",
+      "at": "2026-10-19T22:35:40.765Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation ar 390x844",
+      "at": "2026-10-19T22:35:43.742Z"
+    },
+    {
+      "name": "parity tr 1280",
+      "at": "2026-10-19T22:35:45.524Z"
+    },
+    {
+      "name": "parity en 360",
+      "at": "2026-10-19T22:35:47.181Z"
+    },
+    {
+      "name": "parity ar 430",
+      "at": "2026-10-19T22:35:48.872Z"
+    },
+    {
+      "name": "precedence journey=istanbul,sapanca&destination=bursa&service=tours",
+      "at": "2026-10-19T22:35:50.335Z"
+    },
+    {
+      "name": "precedence journey=&service=",
+      "at": "2026-10-19T22:35:51.384Z"
+    },
+    {
+      "name": "precedence journey=invalid&service=invalid",
+      "at": "2026-10-19T22:35:52.269Z"
+    },
+    {
+      "name": "precedence journey=istanbul&journey=sapanca&service=tours&service=corporate",
+      "at": "2026-10-19T22:35:53.137Z"
+    },
+    {
+      "name": "precedence destination=istanbul",
+      "at": "2026-10-19T22:35:54.052Z"
+    },
+    {
+      "name": "precedence destination=invalid",
+      "at": "2026-10-19T22:35:54.998Z"
+    },
+    {
+      "name": "precedence destination=",
+      "at": "2026-10-19T22:35:55.936Z"
+    },
+    {
+      "name": "precedence destination=istanbul&destination=sapanca",
+      "at": "2026-10-19T22:35:56.789Z"
+    },
+    {
+      "name": "precedence journey=fake,antalya,antalya,istanbul&travelers=-1",
+      "at": "2026-10-19T22:35:57.695Z"
+    },
+    {
+      "name": "precedence absent stored restore",
+      "at": "2026-10-19T22:35:58.623Z"
+    },
+    {
+      "name": "country plus ordered Turkish journey serialized once",
+      "at": "2026-10-19T22:35:59.837Z"
+    },
+    {
+      "name": "query beats hydrate/drawer notifications; actual global reorder/remove supersedes query, personal edits do not detach, query service override stays",
+      "at": "2026-10-19T22:36:02.199Z"
+    },
+    {
+      "name": "local append/reorder/remove detaches itinerary, focus restored; later global update invalidates result without replacing local route",
+      "at": "2026-10-19T22:36:02.788Z"
+    },
+    {
+      "name": "global-owned service follows real type action and invalidates; local service override remains",
+      "at": "2026-10-19T22:36:05.866Z"
+    },
+    {
+      "name": "all local output fields, phone validation without email, travelers bounds and permanent invalidation",
+      "at": "2026-10-19T22:36:07.764Z"
+    },
+    {
+      "name": "actual deferred clipboard stale resolution and rejection guarded; current copy succeeds",
+      "at": "2026-10-19T22:36:08.331Z"
+    },
+    {
+      "name": "locale/query preservation, browser back/forward, no sensitive persistence",
+      "at": "2026-10-19T22:36:13.010Z"
+    },
+    {
+      "name": "cross-locale flexible My dates are flexible",
+      "at": "2026-10-19T22:36:14.248Z"
+    },
+    {
+      "name": "cross-locale flexible مواعيدي مرنة",
+      "at": "2026-10-19T22:36:15.553Z"
+    },
+    {
+      "name": "cross-locale flexible Tarihlerim esnek",
+      "at": "2026-10-19T22:36:16.787Z"
+    },
+    {
+      "name": "noJS fallback",
+      "at": "2026-10-19T22:36:18.215Z"
+    },
+    {
+      "name": "reduced fallback",
+      "at": "2026-10-19T22:36:19.844Z"
+    },
+    {
+      "name": "saveData fallback",
+      "at": "2026-10-19T22:36:21.443Z"
+    },
+    {
+      "name": "storageUnavailable fallback",
+      "at": "2026-10-19T22:36:24.068Z"
+    },
+    {
+      "name": "earliest mounted local edits survive restoration; prehydration native input is outside mounted guarantee",
+      "at": "2026-10-19T22:36:25.530Z"
+    },
+    {
+      "name": "actual cross-route Add/reorder/drawer Plan to Contact serializer",
+      "at": "2026-10-19T22:36:29.748Z"
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-1440x900-ordered.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1440-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-1440-prepared.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1280x600-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-1280x600-ordered.png",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "name": "en-768x1024-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-768x1024-ordered.png",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "en-390x844-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-390x844-ordered.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-errors-keyboard",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-390-errors-keyboard.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-390-prepared.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-1440x900-ordered.png",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "ar-1440-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-1440-prepared.png",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "ar-1280x600-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-1280x600-ordered.png",
+      "locale": "ar",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "name": "ar-768x1024-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-768x1024-ordered.png",
+      "locale": "ar",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "ar-390x844-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-390x844-ordered.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-390-errors-keyboard",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-390-errors-keyboard.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-390-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-390-prepared.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "tr-1280-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\tr-1280-parity.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "name": "en-360-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\en-360-parity.png",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "name": "ar-430-parity",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar-430-parity.png",
+      "locale": "ar",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "name": "ar390-noJS",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\contact\\2026-10-19T22-35-20.580Z\\ar390-noJS.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "mutations": [],
+  "gaps": [
+    "Chromium only; no physical device, Safari/Firefox, assistive technology or field performance certification. Chunk URL observation does not prove opaque bundle internals. Independent Root Astra rendered review pending."
+  ],
+  "finishedAt": "2026-10-19T22:36:29.765Z",
+  "finalFingerprints": {
+    "components/travel/Inquiry.tsx": "788e0119234d86af35026a06b3d2ceea31bfa97fab7492b62f01d101fc7a1953",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "ad17177c7ba19da3d207dd81df158a66e97685954bd1551fa49db457575d5651",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  }
+}

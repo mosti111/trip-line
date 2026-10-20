@@ -1,0 +1,3700 @@
+{
+  "status": "passed",
+  "phase": "motion",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-20T17:27:29.958Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "cases": [
+    {
+      "name": "continuous wheel forward/reverse bronze en 1440x900"
+    },
+    {
+      "name": "continuous wheel forward/reverse bronze ar 1440x900"
+    },
+    {
+      "name": "continuous wheel forward/reverse bronze en 1280x600"
+    },
+    {
+      "name": "continuous wheel forward/reverse bronze tr 1280x600"
+    }
+  ],
+  "screens": [
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-opening-0.png",
+      "sha256": "a2d76651d7b2dd778c28f5cd1e3c7739b3a1f4ecbb1940d80338fa4a2ac48404",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-opening-0.25.png",
+      "sha256": "61ab3e457a3d5ee5fdcc07bcc1e98bb2a5379cdeba23f80af27848d01cb18d01",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-opening-0.5.png",
+      "sha256": "d135ca6aa53967e043df6a833eaa3c522aaaa4571e2bc7fe036b09f14684c6a4",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-opening-0.75.png",
+      "sha256": "2c635c4c44510f1ba180c24e9ef9a0f2c0b1e53395e5737f51c2fe283e4566c5",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-opening-1.png",
+      "sha256": "1c8c8011f915de64c256a560ae7ee13973dece5a42b170da4f717049f2ad41ee",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-0.png",
+      "sha256": "dc8d25372d8e3163bc296199be70182235e49fe3de9180cc3d8f226ea70d54c5",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-8.png",
+      "sha256": "1490b0ee55b3f15ff3ea55924cbc29b9d29a0cb9fd4ea21be9b774edde9e4f4e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-16.png",
+      "sha256": "47260374e3141c07512fb507708260d37141a998ccc2ff20cd47a70e8d0d4af4",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-24.png",
+      "sha256": "a10fd2f88442ecfcd5f796cd4b321b30e5788f92103d736f9f354570c129afe4",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-32.png",
+      "sha256": "ac4278ae651c1ffa4a8c247fa3ec22b44d8079798386e4c7ab7f24c49bb26a86",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-40.png",
+      "sha256": "fff228bbb4e4bd2655dcc8ec44a1aae9f8ec79ff8de025c1ec802af027bbb95c",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440-1-frame-48.png",
+      "sha256": "e29f36effa6026c2aff8c98f8399d48327211cb4481c8146c51fd298f8376e5a",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-0.png",
+      "sha256": "dbfc8435978aaef7a58196b32ca988bf439b02b7173809a941539d449f66fad6",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-8.png",
+      "sha256": "9006c1f5074f19da654d9738b90bf1146c2731bc1756874476ebbeea304cda08",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-16.png",
+      "sha256": "3d51e32eb0dffcf4e735ad20a8e8351cb50be2491b3a839b98ce70b50d668f4e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-24.png",
+      "sha256": "00cacc3a95049801ae09a2be114be9815fc7485e57cabe21fcf38d242d0d0f2d",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-32.png",
+      "sha256": "3e95d75bf363ec2040891b777baa5a3b475950175f9a223a8eb92aaffb59d0ef",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-40.png",
+      "sha256": "b83463e60ad734c93a0c0aa0fb0b1afc6291fe485f98dace56cba1582aaa2667",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1440--1-frame-48.png",
+      "sha256": "75870e3f4f8e1aa8209d89fc6ef9c250b571b85eecff15dedf83269875c401e9",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-opening-0.png",
+      "sha256": "33438ba4417120217dbf210ed9d4134cf193f4c28fc12b63e565d2550aa47793",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-opening-0.25.png",
+      "sha256": "d6a6d52a05448d11e559248a2430edf74960dee7508e3f9bc3ea9228c22785ba",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-opening-0.5.png",
+      "sha256": "678def871156a8a33a96ef598857f6261830c98390c8063c46823d50c5b73a2e",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-opening-0.75.png",
+      "sha256": "f91648944c113814295d354b3d194fe292ce470b98de610add55de0e986708de",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-opening-1.png",
+      "sha256": "3b2a02d60bd01024d958e410b25f6f986e9577f939ee7657bb6aea65ee762a75",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-0.png",
+      "sha256": "cd4f15226178a540e6fc14c3c129a3cc7fb9ed687e8821a741411f5d6908e825",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-8.png",
+      "sha256": "f095292f404f4fcbec9f3e1983919491d1b1adcee037cf0a985882a85975f82e",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-16.png",
+      "sha256": "4a3d58b0db1043040ab60b30152a659bfe904daecdc3046f370746e86a2f67bb",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-24.png",
+      "sha256": "642eeb4d0aa25932cb370c7fee0a83c170406718e83711e2813e96bf23c68a1b",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-32.png",
+      "sha256": "37c045a8fcde6f5627c94c45f0b375779fc62322d5bad720d8c99a245c7c843e",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-40.png",
+      "sha256": "fe03c0323c4c4a32802c3742b6156bb51c381dc9dfbffdbb8d7eca21e9810e36",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440-1-frame-48.png",
+      "sha256": "8099866aa52d3b96df77f304ae16f45809062e1b10d81e24e8fd815bd59340f8",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-0.png",
+      "sha256": "5a84a530203bc709b2bb01b8649295f6c0afba50892ffd00cbd95f4c14bee42a",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-8.png",
+      "sha256": "16d28a6f9943311a61c3f870e901a7148530c487a61d400d857f72fa3d1a7566",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-16.png",
+      "sha256": "9b22bef8460afe926b11855fe1ed1463e5e0ab2a5a1127adabc2197ce9893186",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-24.png",
+      "sha256": "1b5fde5b3097a8dcf59af33e4cb3856b8b7e82c021507a792e49df2a08cca063",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-32.png",
+      "sha256": "ec86c02d508b9081a62c6aa4db3c9e1737973de3e4209292f275e948b7d80344",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-40.png",
+      "sha256": "dce9f213bbd285483f70fa2bb5d12e7d0934279bcb81d4b98051507054ed1fdf",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\ar-1440--1-frame-48.png",
+      "sha256": "124fbbc9e4544f053426c2335353fe21c8a6d658f68f4e17780c277bb38ec0af",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-opening-0.png",
+      "sha256": "adfee249e522464cfb99132b52ce6569e497e0c29846abf4541469b66e031e2a",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-opening-0.25.png",
+      "sha256": "101a98727d1ee0fafe5608a1acfd0e3016a2ccf30bb80006b041ce38d7827d80",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-opening-0.5.png",
+      "sha256": "b20072a6f7f0b81491179432d5149b6dee2321b1c9a628a4a2959e1fd8533ed1",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-opening-0.75.png",
+      "sha256": "8fe06b7a030610de2f6718823bf9ac1c85b0f77e7303bd7542a3c8e25439ef5f",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-opening-1.png",
+      "sha256": "7284152811304494c1b3712406381bd9856ef5b94cc656bc28e2ed6e48808957",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-1-frame-0.png",
+      "sha256": "cd0532a17ffc19a4135414c4cb467c89f819472bf3b8626ad48bbc7594cf3d0d",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-1-frame-8.png",
+      "sha256": "1df43bf5d1a53dfb9ee963961fe9ed2732ed53756d8e05c3bc5d4e5960dd226a",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-1-frame-16.png",
+      "sha256": "ea24a94d167e40da0f4260db239032d8e99ac7ae6e7e0f7a90edda3ddc90075c",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-1-frame-24.png",
+      "sha256": "d7fa14a04c125edfa79d17fbe5407bf8608dbc08478eb10a04415b9fae2f2f21",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280-1-frame-32.png",
+      "sha256": "350e8f5d34facffb1a92a71be0057b8891c3212a358fe7c8b306e60e049707c8",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280--1-frame-0.png",
+      "sha256": "7a3032486b746c81cc809dbd8bddc31b4981b6978b05407078df7440552e607a",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280--1-frame-8.png",
+      "sha256": "1464193b28d7c3f6012439d93e4c856fc85b2b67c5d3aca35979b93e996722e5",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280--1-frame-16.png",
+      "sha256": "3bad2193234108aa79b9bcf41d124ee81bf7931bb8ac342d6d442d81d208531d",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280--1-frame-24.png",
+      "sha256": "a3b4cd25f0d24e7f65acd78d0f1cb5574555a30a986eb64b62b9f9a5bebacaeb",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\en-1280--1-frame-32.png",
+      "sha256": "e09fbc1d35bba2696e716382b2bc1c2dc31f08566b04d7f07623b52d2a66d670",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-opening-0.png",
+      "sha256": "9b1aa2eef6d2adbda7691dd33729c6b49e3942b9c582ca532bb68b93063c2b89",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-opening-0.25.png",
+      "sha256": "12ec8aa6e9276b89abf560f80761f845e13d56d760b588bf3a7552fd6413b286",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-opening-0.5.png",
+      "sha256": "cbbfcc30af6af338435915c7fce0d11c3125232a6f610826469d35f5c64e6482",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-opening-0.75.png",
+      "sha256": "1f05cd1fb6f8d367d199e50605af841e3bcad88635828823d54370dd84125151",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-opening-1.png",
+      "sha256": "82f18c9416b750298667182ba642413ec296fadef4dfc77e3ead1a282a96a6b2",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-1-frame-0.png",
+      "sha256": "c94d2d8766cdcbcc21827ecc6d2b294327de5bdb08657d47cc25b5f893785f35",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-1-frame-8.png",
+      "sha256": "8829362dfb56991d7bdd92bf0d26e8e160a1bab8f1e056008d7596a11644d900",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-1-frame-16.png",
+      "sha256": "d293e71cef1aaacd4db8eb41a1d1d9e71dbc0846c0c1ef91bcb985f893925de4",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-1-frame-24.png",
+      "sha256": "47ec3be81c3d7f698aef2cf02a0f662f73ae9d2141ef26934e53a028e4916f4d",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280-1-frame-32.png",
+      "sha256": "3499b4519f6386919ddc21ab5e25abb135feed1a04b9b61144e49b47ed283991",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280--1-frame-0.png",
+      "sha256": "1eec241624ea677d7c77d162d416b4f7b72e2116a77be2c484362ddd65343d26",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280--1-frame-8.png",
+      "sha256": "ec9f1530636c671fc1e822c27f0b2b576482be88403d8bd1bc81ad4ed013a4da",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280--1-frame-16.png",
+      "sha256": "894c0bcea143793c67db061240f084ac2c055fda3a351e2b01a31a172ca47d04",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280--1-frame-24.png",
+      "sha256": "58a9864683a9dc02872c420d89558c9bcb0d774d023354aa550d047a2f5e76e2",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\tr-1280--1-frame-32.png",
+      "sha256": "230a94f0c56b6c638a96ccc6710100074147c76a933c3e54b782c4b6733e2cb4",
+      "locale": "tr",
+      "width": 1280,
+      "height": 600
+    }
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "states": [
+        {
+          "progress": 0,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "2",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.25,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "6",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.5,
+          "contextState": "ready",
+          "cameraPosition": "9.245,3.742,-4.159",
+          "cameraTarget": "1.251,4.457,-14.353",
+          "routeParameter": "0.4058",
+          "renderCount": "9",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.75,
+          "contextState": "ready",
+          "cameraPosition": "-3.107,4.516,-17.183",
+          "cameraTarget": "-0.994,-1.852,-28.242",
+          "routeParameter": "0.6397",
+          "renderCount": "13",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 1,
+          "contextState": "ready",
+          "cameraPosition": "-5.440,3.464,-19.196",
+          "cameraTarget": "0.258,-2.333,-29.867",
+          "routeParameter": "0.6677",
+          "renderCount": "17",
+          "sceneVisible": "true"
+        }
+      ],
+      "frames": [
+        {
+          "y": 59,
+          "time": 10560.5,
+          "progress": 0.0199,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 146,
+          "time": 11935.799999952316,
+          "progress": 0.0728,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 240,
+          "time": 12183.600000023842,
+          "progress": 0.1229,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 359,
+          "time": 12464.699999928474,
+          "progress": 0.2015,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 456,
+          "time": 12819.399999976158,
+          "progress": 0.2569,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 557,
+          "time": 13131.899999976158,
+          "progress": 0.3189,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 654,
+          "time": 13476.699999928474,
+          "progress": 0.3805,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 760,
+          "time": 13860.5,
+          "progress": 0.4489,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 835,
+          "time": 14333.799999952316,
+          "progress": 0.4902,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 945,
+          "time": 16077.299999952316,
+          "progress": 0.5645,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1067,
+          "time": 16563.899999976158,
+          "progress": 0.6395,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1141,
+          "time": 16912,
+          "progress": 0.6727,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1260,
+          "time": 17362.899999976158,
+          "progress": 0.7556,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1364,
+          "time": 17724.100000023842,
+          "progress": 0.8157,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1452,
+          "time": 18042.299999952316,
+          "progress": 0.8718,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1542,
+          "time": 18325.699999928474,
+          "progress": 0.9271,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1644,
+          "time": 18638.899999976158,
+          "progress": 0.9918,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1766,
+          "time": 19498.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1862,
+          "time": 19823.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1957,
+          "time": 20107.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2050,
+          "time": 20339.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2135,
+          "time": 20541.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2222,
+          "time": 20724.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2327,
+          "time": 20914.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2437,
+          "time": 21107.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2549,
+          "time": 21634,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2640,
+          "time": 21849.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2736,
+          "time": 22049.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2818,
+          "time": 22237.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2932,
+          "time": 22442.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3036,
+          "time": 22674.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3151,
+          "time": 22919.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3236,
+          "time": 23126.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3356,
+          "time": 23742,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3439,
+          "time": 23965,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3530,
+          "time": 24162.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3630,
+          "time": 24363.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3725,
+          "time": 24519.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3852,
+          "time": 24767.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3943,
+          "time": 25015.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4041,
+          "time": 25232.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4164,
+          "time": 26313.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4240,
+          "time": 26589.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4352,
+          "time": 26843.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4460,
+          "time": 27102,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4546,
+          "time": 27353.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4644,
+          "time": 27585.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4742,
+          "time": 27823.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4845,
+          "time": 28088.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4951,
+          "time": 28834.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5040,
+          "time": 29055.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5132,
+          "time": 29231.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5123,
+          "time": 29470.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 5049,
+          "time": 29984.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4951,
+          "time": 30222.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4865,
+          "time": 30447.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4764,
+          "time": 30664.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4665,
+          "time": 30885.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4568,
+          "time": 31086.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4456,
+          "time": 31349.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4360,
+          "time": 31572.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4250,
+          "time": 32822.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4157,
+          "time": 33082.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4057,
+          "time": 33335.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3971,
+          "time": 33555.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3856,
+          "time": 33786.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3763,
+          "time": 34018.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3668,
+          "time": 34225.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3569,
+          "time": 34425.10000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3447,
+          "time": 35094.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3361,
+          "time": 35300.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3264,
+          "time": 35510.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3169,
+          "time": 35712.89999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3071,
+          "time": 35905.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2967,
+          "time": 36100.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2865,
+          "time": 36343,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2770,
+          "time": 36542.89999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2646,
+          "time": 37181.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2555,
+          "time": 37403.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2458,
+          "time": 37617.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2353,
+          "time": 37847.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2260,
+          "time": 38062.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2159,
+          "time": 38257.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2058,
+          "time": 38476.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1968,
+          "time": 38680.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1839,
+          "time": 39212.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1749,
+          "time": 39470.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1655,
+          "time": 39753.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1562,
+          "time": 40003.199999928474,
+          "progress": 0.9867,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1469,
+          "time": 40207.299999952316,
+          "progress": 0.9351,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1330,
+          "time": 40614,
+          "progress": 0.8391,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1238,
+          "time": 41010.10000002384,
+          "progress": 0.7847,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1144,
+          "time": 41516.199999928474,
+          "progress": 0.7434,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1038,
+          "time": 42861.10000002384,
+          "progress": 0.6601,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 941,
+          "time": 43250.39999997616,
+          "progress": 0.6027,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 855,
+          "time": 43608.89999997616,
+          "progress": 0.5631,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 752,
+          "time": 43986.60000002384,
+          "progress": 0.4958,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 661,
+          "time": 44307.39999997616,
+          "progress": 0.4407,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 538,
+          "time": 44685.299999952316,
+          "progress": 0.355,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 441,
+          "time": 45138.39999997616,
+          "progress": 0.2932,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 375,
+          "time": 45466,
+          "progress": 0.2553,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 263,
+          "time": 46856,
+          "progress": 0.1817,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 141,
+          "time": 47120.699999928474,
+          "progress": 0.1062,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 57,
+          "time": 47401.39999997616,
+          "progress": 0.0606,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        }
+      ],
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\recordings\\page@6df6f440ce1790aef04b76439f77717a.webm"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "states": [
+        {
+          "progress": 0,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "2",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.25,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "6",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.5,
+          "contextState": "ready",
+          "cameraPosition": "9.245,3.743,-4.163",
+          "cameraTarget": "1.250,4.457,-14.355",
+          "routeParameter": "0.4058",
+          "renderCount": "9",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.75,
+          "contextState": "ready",
+          "cameraPosition": "-3.107,4.516,-17.183",
+          "cameraTarget": "-0.994,-1.852,-28.242",
+          "routeParameter": "0.6397",
+          "renderCount": "13",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 1,
+          "contextState": "ready",
+          "cameraPosition": "-5.440,3.464,-19.196",
+          "cameraTarget": "0.258,-2.333,-29.867",
+          "routeParameter": "0.6677",
+          "renderCount": "17",
+          "sceneVisible": "true"
+        }
+      ],
+      "frames": [
+        {
+          "y": 56,
+          "time": 11029.5,
+          "progress": 0.0155,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 149,
+          "time": 12599.399999976158,
+          "progress": 0.0743,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 245,
+          "time": 12872.799999952316,
+          "progress": 0.1269,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 341,
+          "time": 13114.100000023842,
+          "progress": 0.1842,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 458,
+          "time": 13469.899999976158,
+          "progress": 0.2584,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 561,
+          "time": 13959.5,
+          "progress": 0.3256,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 660,
+          "time": 14360.5,
+          "progress": 0.3862,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 757,
+          "time": 14829.899999976158,
+          "progress": 0.4464,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 847,
+          "time": 15267,
+          "progress": 0.4919,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 944,
+          "time": 16777.600000023842,
+          "progress": 0.5605,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1067,
+          "time": 17174,
+          "progress": 0.636,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1146,
+          "time": 17623.799999952316,
+          "progress": 0.6781,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1250,
+          "time": 18001.5,
+          "progress": 0.7397,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1366,
+          "time": 18408.100000023842,
+          "progress": 0.8219,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1457,
+          "time": 18753.899999976158,
+          "progress": 0.8782,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1552,
+          "time": 19052.199999928474,
+          "progress": 0.9346,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1619,
+          "time": 19253.199999928474,
+          "progress": 0.9723,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1759,
+          "time": 20224.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1839,
+          "time": 20486.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1947,
+          "time": 20752.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2038,
+          "time": 20998,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2147,
+          "time": 21248.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2243,
+          "time": 21497.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2348,
+          "time": 21749.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2444,
+          "time": 21966.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2545,
+          "time": 22481.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2636,
+          "time": 22708.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2737,
+          "time": 22918,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2836,
+          "time": 23135.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2936,
+          "time": 23348.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3039,
+          "time": 23573,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3144,
+          "time": 23803.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3240,
+          "time": 24019.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3359,
+          "time": 24562.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3446,
+          "time": 24797,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3555,
+          "time": 25063.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3637,
+          "time": 25251,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3739,
+          "time": 25466.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3845,
+          "time": 25715.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3957,
+          "time": 26006.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4043,
+          "time": 26206.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4161,
+          "time": 27238,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4255,
+          "time": 27537,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4347,
+          "time": 27796.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4441,
+          "time": 28008.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4551,
+          "time": 28258.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4648,
+          "time": 28522.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4697,
+          "time": 28707.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4834,
+          "time": 28925.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 4953,
+          "time": 29654.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5043,
+          "time": 29873.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5137,
+          "time": 30060.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5239,
+          "time": 30267.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 5230,
+          "time": 30480.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 5147,
+          "time": 31022.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 5055,
+          "time": 31217.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4971,
+          "time": 31420.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4854,
+          "time": 31689.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4766,
+          "time": 31885.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4668,
+          "time": 32092.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4547,
+          "time": 32377.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4453,
+          "time": 32625.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4347,
+          "time": 33756.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4254,
+          "time": 33986.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4160,
+          "time": 34204,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 4067,
+          "time": 34410.10000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3966,
+          "time": 34618.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3864,
+          "time": 34847.89999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3758,
+          "time": 35058.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3677,
+          "time": 35261.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3546,
+          "time": 35929.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3465,
+          "time": 36126.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3355,
+          "time": 36339.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3268,
+          "time": 36555.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3165,
+          "time": 36742.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3070,
+          "time": 36950.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2946,
+          "time": 37212.10000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2860,
+          "time": 37428.89999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2756,
+          "time": 38010.10000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2658,
+          "time": 38240.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2544,
+          "time": 38504.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2466,
+          "time": 38718,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2355,
+          "time": 38928,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2266,
+          "time": 39151.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2160,
+          "time": 39349.60000002384,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2061,
+          "time": 39565.39999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1968,
+          "time": 40065.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1847,
+          "time": 40350.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1760,
+          "time": 40592.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1662,
+          "time": 40840.89999997616,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1547,
+          "time": 41092.10000002384,
+          "progress": 0.9735,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1462,
+          "time": 41370.10000002384,
+          "progress": 0.9265,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1348,
+          "time": 41693.60000002384,
+          "progress": 0.8525,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1238,
+          "time": 42033.39999997616,
+          "progress": 0.7909,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1140,
+          "time": 43564.199999928474,
+          "progress": 0.7197,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1034,
+          "time": 44006.10000002384,
+          "progress": 0.6616,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 956,
+          "time": 44333,
+          "progress": 0.6177,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 857,
+          "time": 44669.699999928474,
+          "progress": 0.5636,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 732,
+          "time": 45123.5,
+          "progress": 0.4724,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 636,
+          "time": 45558.299999952316,
+          "progress": 0.4124,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 538,
+          "time": 45935,
+          "progress": 0.3527,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 444,
+          "time": 46371,
+          "progress": 0.2951,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 361,
+          "time": 47893.299999952316,
+          "progress": 0.2398,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 252,
+          "time": 48146.699999928474,
+          "progress": 0.1814,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 127,
+          "time": 48497.39999997616,
+          "progress": 0.0936,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 54,
+          "time": 48786.60000002384,
+          "progress": 0.0577,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        }
+      ],
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\recordings\\page@661dc44d07a2092541bafae36123b535.webm"
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 600,
+      "states": [
+        {
+          "progress": 0,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "2",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.25,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "7",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.5,
+          "contextState": "ready",
+          "cameraPosition": "9.246,3.744,-4.165",
+          "cameraTarget": "1.249,4.457,-14.356",
+          "routeParameter": "0.4058",
+          "renderCount": "11",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.75,
+          "contextState": "ready",
+          "cameraPosition": "-3.107,4.516,-17.183",
+          "cameraTarget": "-0.994,-1.852,-28.242",
+          "routeParameter": "0.6397",
+          "renderCount": "15",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 1,
+          "contextState": "ready",
+          "cameraPosition": "-5.440,3.464,-19.196",
+          "cameraTarget": "0.258,-2.333,-29.867",
+          "routeParameter": "0.6677",
+          "renderCount": "20",
+          "sceneVisible": "true"
+        }
+      ],
+      "frames": [
+        {
+          "y": 50,
+          "time": 8945.100000023842,
+          "progress": 0.0367,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 161,
+          "time": 9868.100000023842,
+          "progress": 0.1925,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 250,
+          "time": 10125.799999952316,
+          "progress": 0.3026,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 352,
+          "time": 10451.199999928474,
+          "progress": 0.4499,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 438,
+          "time": 10755.699999928474,
+          "progress": 0.5352,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 522,
+          "time": 10993.299999952316,
+          "progress": 0.6676,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 644,
+          "time": 11320.399999976158,
+          "progress": 0.8382,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 750,
+          "time": 11546.799999952316,
+          "progress": 0.9886,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 840,
+          "time": 11762.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 952,
+          "time": 12275.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1041,
+          "time": 12477.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1137,
+          "time": 12651,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1230,
+          "time": 12838.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1333,
+          "time": 13026.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1420,
+          "time": 13190.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1527,
+          "time": 13377.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1629,
+          "time": 13547,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1753,
+          "time": 14015.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1843,
+          "time": 14230.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1929,
+          "time": 14417.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2034,
+          "time": 14602.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2134,
+          "time": 14791.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2227,
+          "time": 14961,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2329,
+          "time": 15133.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2421,
+          "time": 15304.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2536,
+          "time": 15592.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2639,
+          "time": 15775.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2715,
+          "time": 15957.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2828,
+          "time": 16144.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2927,
+          "time": 16328.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3028,
+          "time": 16512.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3134,
+          "time": 16716.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3214,
+          "time": 16872.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3362,
+          "time": 17664.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3451,
+          "time": 17916.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3536,
+          "time": 18125.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3634,
+          "time": 18308.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3726,
+          "time": 18487.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3829,
+          "time": 18665.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3927,
+          "time": 18844.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3923,
+          "time": 19027.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3851,
+          "time": 19350.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3765,
+          "time": 19524.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3666,
+          "time": 19712.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3576,
+          "time": 19898.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3473,
+          "time": 20075.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3381,
+          "time": 20288.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3261,
+          "time": 20492.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3164,
+          "time": 20694.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3051,
+          "time": 21523.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2958,
+          "time": 21733.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2864,
+          "time": 21918.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2777,
+          "time": 22081,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2673,
+          "time": 22271.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2571,
+          "time": 22472,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2476,
+          "time": 22646.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2375,
+          "time": 22821.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2254,
+          "time": 23240,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2172,
+          "time": 23410.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2067,
+          "time": 23611.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1971,
+          "time": 23815.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1872,
+          "time": 24004.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1766,
+          "time": 24206.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1674,
+          "time": 24393.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1561,
+          "time": 24612.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1449,
+          "time": 25132.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1362,
+          "time": 25315.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1266,
+          "time": 25499.299999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1174,
+          "time": 25666.199999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1079,
+          "time": 25809.799999952316,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 982,
+          "time": 25980.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 874,
+          "time": 26167.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 787,
+          "time": 26308.699999928474,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 651,
+          "time": 26869.299999952316,
+          "progress": 0.9418,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 556,
+          "time": 27073.699999928474,
+          "progress": 0.8224,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 461,
+          "time": 27342.199999928474,
+          "progress": 0.7016,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 329,
+          "time": 27689.899999976158,
+          "progress": 0.493,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 241,
+          "time": 28043.600000023842,
+          "progress": 0.3926,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 149,
+          "time": 28332.299999952316,
+          "progress": 0.2509,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 53,
+          "time": 28575.100000023842,
+          "progress": 0.1353,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        }
+      ],
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\recordings\\page@424cbf2a3e823ba57a60fb5abc068b08.webm"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 600,
+      "states": [
+        {
+          "progress": 0,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "2",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.25,
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "6",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.5,
+          "contextState": "ready",
+          "cameraPosition": "9.246,3.744,-4.165",
+          "cameraTarget": "1.249,4.457,-14.356",
+          "routeParameter": "0.4058",
+          "renderCount": "11",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 0.75,
+          "contextState": "ready",
+          "cameraPosition": "-3.107,4.516,-17.183",
+          "cameraTarget": "-0.994,-1.852,-28.242",
+          "routeParameter": "0.6397",
+          "renderCount": "15",
+          "sceneVisible": "true"
+        },
+        {
+          "progress": 1,
+          "contextState": "ready",
+          "cameraPosition": "-5.440,3.464,-19.196",
+          "cameraTarget": "0.258,-2.333,-29.867",
+          "routeParameter": "0.6677",
+          "renderCount": "21",
+          "sceneVisible": "true"
+        }
+      ],
+      "frames": [
+        {
+          "y": 51,
+          "time": 9154.5,
+          "progress": 0.0388,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 161,
+          "time": 10147.200000047684,
+          "progress": 0.1906,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 251,
+          "time": 10426.700000047684,
+          "progress": 0.3054,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 350,
+          "time": 10746.800000071526,
+          "progress": 0.4421,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 472,
+          "time": 11182.600000023842,
+          "progress": 0.6229,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 560,
+          "time": 11438.300000071526,
+          "progress": 0.7228,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 635,
+          "time": 11672.300000071526,
+          "progress": 0.8083,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 745,
+          "time": 11906.100000023842,
+          "progress": 0.9826,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 835,
+          "time": 12130.100000023842,
+          "progress": 0.9999,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 951,
+          "time": 12606.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1035,
+          "time": 12776.800000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1134,
+          "time": 12962.300000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1226,
+          "time": 13130.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1323,
+          "time": 13296.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1430,
+          "time": 13465.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1531,
+          "time": 13650.300000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1634,
+          "time": 13839.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1754,
+          "time": 14329.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1834,
+          "time": 14500.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 1944,
+          "time": 14720.700000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2041,
+          "time": 14908.800000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2132,
+          "time": 15110.800000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2235,
+          "time": 15295.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2327,
+          "time": 15483.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2426,
+          "time": 15658,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2543,
+          "time": 15977,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2633,
+          "time": 16180.300000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2727,
+          "time": 16365.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2824,
+          "time": 16534.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 2929,
+          "time": 16740,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3029,
+          "time": 16924.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3127,
+          "time": 17105,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3235,
+          "time": 17288.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3348,
+          "time": 17967.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3435,
+          "time": 18154,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3533,
+          "time": 18324.300000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3622,
+          "time": 18511.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3735,
+          "time": 18697.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3829,
+          "time": 18885.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3924,
+          "time": 19057.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": 1
+        },
+        {
+          "y": 3923,
+          "time": 19229.700000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3850,
+          "time": 19597.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3760,
+          "time": 19777.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3669,
+          "time": 19941.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3579,
+          "time": 20114.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3480,
+          "time": 20279.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3375,
+          "time": 20460,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3264,
+          "time": 20649.600000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3169,
+          "time": 20847.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 3047,
+          "time": 21598.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2951,
+          "time": 21832.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2860,
+          "time": 22034.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2762,
+          "time": 22248.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2667,
+          "time": 22421.700000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2577,
+          "time": 22577.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2470,
+          "time": 22763.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2365,
+          "time": 22968.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2255,
+          "time": 23324.700000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2164,
+          "time": 23494.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 2066,
+          "time": 23682.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1975,
+          "time": 23864,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1867,
+          "time": 24053.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1769,
+          "time": 24238.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1671,
+          "time": 24441.399999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1564,
+          "time": 24642.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1449,
+          "time": 25078.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1367,
+          "time": 25249.800000071526,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1276,
+          "time": 25405.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1180,
+          "time": 25568.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 1073,
+          "time": 25733.200000047684,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 972,
+          "time": 25905.5,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 873,
+          "time": 26092.100000023842,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 776,
+          "time": 26278.899999976158,
+          "progress": 1,
+          "handoff": "graphic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 653,
+          "time": 26706.5,
+          "progress": 0.9468,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 565,
+          "time": 26942.600000023842,
+          "progress": 0.8338,
+          "handoff": "flattening",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 443,
+          "time": 27308.399999976158,
+          "progress": 0.6634,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 356,
+          "time": 27575.200000047684,
+          "progress": 0.5468,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 260,
+          "time": 27855.300000071526,
+          "progress": 0.4079,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 155,
+          "time": 28144.600000023842,
+          "progress": 0.2595,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        },
+        {
+          "y": 45,
+          "time": 28408.300000071526,
+          "progress": 0.1053,
+          "handoff": "metallic",
+          "context": "ready",
+          "direction": -1
+        }
+      ],
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\motion\\2026-10-20T17-27-29.956Z\\recordings\\page@178ec428fa859289f66980f67a337646.webm"
+    }
+  ],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "sourceHashes": {
+    "styles/recovery-shell.css": "e4aae0120062057286103e5a1fb9c4096fe97429cfdb4ddffeec7a9bad28cea5",
+    "scripts/verify-recovery.mjs": "c2280bd5b7203f514a48f5da2f02ed1f399a1cff2931579c554064c04dccca4a",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "scripts/verify-v3-resilience.mjs": "f50b4d53310ba3f9ae4e637231bd0c92a5a612e413088bbada3f6d155b64530b",
+    "scripts/verify-reconstruction.mjs": "4eaaf55295e373e3f40c45a9d03def517a8f27269788c35d4f288ab50c4c3a4b",
+    "scripts/verify-reconstruction-media.mjs": "1d741f2aec85a590b87a77902c7025c4b73a007f9d68a62825efb193eddccdb8",
+    "scripts/verify-planner-throttled.mjs": "d48be8aff5d9f5fe8bda4bb9fab519b1c7a23a76b49564e0c919887ea339ce77"
+  },
+  "applicationDiffSha256": "4ccb5b1150a7508db7815f75da01138e396dd6202dc33e4b06c21e0483ca02c9",
+  "browserVersion": "153.0.8010.12",
+  "finishedAt": "2026-10-20T17:30:07.577Z"
+}

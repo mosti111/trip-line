@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "phase": "briefs",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-20T17:30:52.320Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "cases": [
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale en normal"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale en reduced"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale en saveData"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale tr normal"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale tr reduced"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale tr saveData"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale ar normal"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale ar reduced"
+    },
+    {
+      "name": "Business objective/brief and Hajj intent/prepared/stale ar saveData"
+    },
+    {
+      "name": "source exact related links istanbul"
+    },
+    {
+      "name": "source exact related links trabzon"
+    },
+    {
+      "name": "source exact related links rize-ayder"
+    },
+    {
+      "name": "source exact related links uzungol"
+    },
+    {
+      "name": "source exact related links antalya"
+    },
+    {
+      "name": "source exact related links bodrum"
+    },
+    {
+      "name": "source exact related links fethiye"
+    },
+    {
+      "name": "source exact related links marmaris"
+    },
+    {
+      "name": "source exact related links sapanca"
+    },
+    {
+      "name": "source exact related links bursa"
+    },
+    {
+      "name": "source exact related links yalova"
+    },
+    {
+      "name": "source exact related links cappadocia"
+    }
+  ],
+  "screens": [],
+  "errors": [],
+  "measurements": [],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "sourceHashes": {
+    "styles/recovery-shell.css": "e4aae0120062057286103e5a1fb9c4096fe97429cfdb4ddffeec7a9bad28cea5",
+    "scripts/verify-recovery.mjs": "c2280bd5b7203f514a48f5da2f02ed1f399a1cff2931579c554064c04dccca4a",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "scripts/verify-v3-resilience.mjs": "f50b4d53310ba3f9ae4e637231bd0c92a5a612e413088bbada3f6d155b64530b",
+    "scripts/verify-reconstruction.mjs": "4eaaf55295e373e3f40c45a9d03def517a8f27269788c35d4f288ab50c4c3a4b",
+    "scripts/verify-reconstruction-media.mjs": "1d741f2aec85a590b87a77902c7025c4b73a007f9d68a62825efb193eddccdb8",
+    "scripts/verify-planner-throttled.mjs": "d48be8aff5d9f5fe8bda4bb9fab519b1c7a23a76b49564e0c919887ea339ce77"
+  },
+  "applicationDiffSha256": "4ccb5b1150a7508db7815f75da01138e396dd6202dc33e4b06c21e0483ca02c9",
+  "browserVersion": "153.0.8010.12",
+  "finishedAt": "2026-10-20T17:31:34.161Z"
+}

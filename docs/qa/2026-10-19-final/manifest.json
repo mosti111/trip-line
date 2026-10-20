@@ -1,0 +1,653 @@
+{
+  "status": "PASS WITH FOLLOW-UP",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "entries": [
+    {
+      "path": "docs/qa/2026-10-19-final/typecheck.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/typecheck.log",
+      "sha256": "8366207267355d3e3d5bf3bf6e8c94c5f93f6078c34f08973fa2b38cdda6cc92",
+      "bytes": 15,
+      "kind": "core",
+      "sourceSha256": "5a3973f79ed9becd5f23c4feff467513814de7ea381d75a4d2e339aa8b8edca9",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/lint.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/lint.log",
+      "sha256": "050c69da23536758722729aeda55a8d0fb9d557495ef6d33d70873a3b64a71c1",
+      "bytes": 11,
+      "kind": "core",
+      "sourceSha256": "cc5a0b39c7052d24c24888403c48018b4fcccc9d799f81be6c9c30c9e19c85fc",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/tests.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/tests.log",
+      "sha256": "63b3fc196d2b916737b72980c96ee7830a33af9ff33bf05283d830f6d7ab654d",
+      "bytes": 367,
+      "kind": "core",
+      "sourceSha256": "492deaa5863b0c63cfe463da0e1ff97fbaef98ef441a62d7a87944f822f77954",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/build.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/build-clean.log",
+      "sha256": "e6d28c94e49613a52ec06e634de41083ff23f5316fe21d30038f2d0e1b4179bf",
+      "bytes": 981,
+      "kind": "core",
+      "sourceSha256": "6a585e413fcaf5b771a40903a43ed43a9fa27119142932e375b3bc8dea5f42c8",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/final-lint.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/lint-final-timer-fixed.log",
+      "sha256": "050c69da23536758722729aeda55a8d0fb9d557495ef6d33d70873a3b64a71c1",
+      "bytes": 11,
+      "kind": "core",
+      "sourceSha256": "cc5a0b39c7052d24c24888403c48018b4fcccc9d799f81be6c9c30c9e19c85fc",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/application-frozen.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/application-frozen.json",
+      "sha256": "9950b855c6554b377e5dda7a4b093510ede2d28961dd7ae70cbf31e2cdb4771d",
+      "bytes": 17785,
+      "kind": "core"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/public.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/public/production-check.json",
+      "sha256": "29e4774e224257ed0dfe5b940c81c2bf8394d04ae5187cc5d770889e1a9440d3",
+      "bytes": 5143,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/v3.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/v3/verification.json",
+      "sha256": "f87d3f58b7c120e0100e99bf8d0db0883904e956c58b758cf09b956f0c3ecc29",
+      "bytes": 18899,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/resilience.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/resilience/resilience.json",
+      "sha256": "f1763b41c0b141be50dde2ce81f188b54355decfd9336aa740196fcd1bafddfc",
+      "bytes": 2293,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/media.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/media/media.json",
+      "sha256": "ae56e11c98c39c4a12f6d027932050d21fdb210a2f5977d6deea1480f0a2508b",
+      "bytes": 468,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/reconstruction.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/report.json",
+      "sha256": "8785e80e1ac8cdeb284a304188af1cd8af3be42a60e94aa362bcc42beeeddb6c",
+      "bytes": 3000,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/throttled.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/throttled/planner-throttled.json",
+      "sha256": "6660107a0121b15a09d67a19b4b04ea4e7566d6ea2aa84c260bc3033d2df797b",
+      "bytes": 2347,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/targets.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/targets/2026-10-19T13-25-12.464Z/report.json",
+      "sha256": "6a48a3e63c333450c9f32f494f4935b6b137514f36d9addee4345f4a5c11306a",
+      "bytes": 14421,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/accessibility.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/accessibility/2026-10-19T13-26-26.981Z/report.json",
+      "sha256": "99f7cc302e99e3a08a3f34c0d123a35447a141e6c453db9e170494fca3b3360c",
+      "bytes": 7054,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/matrix.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/report.json",
+      "sha256": "f59773b2002384bc7c6d13508b4924989929a4e0dba966fed1f2e93bbed0194b",
+      "bytes": 215514,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/journey.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/journey/2026-10-20T17-26-42.402Z/report.json",
+      "sha256": "f397f29f68e47ad97aae5ae02b1df734afa8076a53c100877380b8a5f6a5f3d7",
+      "bytes": 3291,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/motion.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/motion/2026-10-20T17-27-29.956Z/report.json",
+      "sha256": "957113ffb2f412914f60964d85b1bdbf6e637c095b47cf460dc1ad5f6c981645",
+      "bytes": 103221,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/integrity.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/integrity/2026-10-20T17-30-09.030Z/report.json",
+      "sha256": "ad0c5aa43e1f49b1418c38c1439a0d5c0d0e0da180210a643c2595ccb6513952",
+      "bytes": 26755,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/briefs.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/briefs/2026-10-20T17-30-52.318Z/report.json",
+      "sha256": "dabb2136aeb08c968ded141b37e64bc7549746ce035db72b0f56514a3dbe9613",
+      "bytes": 3259,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/fallbacks.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/fallbacks/2026-10-20T22-15-51.434Z/report.json",
+      "sha256": "38543fc7372e141aeea12e82469a6b38e89ee69295f648fd603cd34adfb329db",
+      "bytes": 11224,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/resources.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/resources/2026-10-20T22-16-56.017Z/report.json",
+      "sha256": "4d2059d9cc4dfd0925064368d59b4707441a14fcd1efaebd9c6feaaa4b54e8e5",
+      "bytes": 215522,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/contact.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/contact/2026-10-19T22-35-20.580Z/report.json",
+      "sha256": "e7e2b866dab52a4f4f9c217d8324fbc57c4ae6b42246ad0f139cdfa8f0d624ad",
+      "bytes": 12386,
+      "kind": "report"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/01-target-en-360x800.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/targets/2026-10-19T13-25-12.464Z/target-en-360x800.png",
+      "sha256": "37c9aae8844f40cbd3c6f521ffa79da7c109d741c540590e79e091f211f341e6",
+      "bytes": 266374,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/02-target-ar-390x844.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/targets/2026-10-19T13-25-12.464Z/target-ar-390x844.png",
+      "sha256": "94f06af07b05cb77e9aeb6ca006a8ae69d45d95bdf077e1770bdef75d2d0c5e0",
+      "bytes": 335661,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/03-target-ar-844x390.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/targets/2026-10-19T13-25-12.464Z/target-ar-844x390.png",
+      "sha256": "193cd6428f05b899d26a61556bbf3abf1545bd0797ea7a8a20901ac43818b8a8",
+      "bytes": 431743,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/04-settled-menu-ar-390.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/accessibility/2026-10-19T13-26-26.981Z/settled-menu-ar-390.png",
+      "sha256": "6c364b7665c57669c7e278a5e27f732f0f1f9b9a638c681d43c271a3b840acc4",
+      "bytes": 41401,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/05-settled-menu-tr-768.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/accessibility/2026-10-19T13-26-26.981Z/settled-menu-tr-768.png",
+      "sha256": "8e2eda1e983805fc4447fccfdb32443025cf41d99dc42c4860da2c4552619dab",
+      "bytes": 71612,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/06-text200-ar-390.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/accessibility/2026-10-19T13-26-26.981Z/text200-ar-390.png",
+      "sha256": "3633fcb20982bd18edcfc9be15f25ea11df55095dba1448a93d47aff3dc3a07e",
+      "bytes": 31364,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/07-services-keyboard-ar.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/v3/services-keyboard-ar.png",
+      "sha256": "f286dafe006c0b2c73bcd80c8ec60e468be581b9a7388b3b149470f509b440a0",
+      "bytes": 460499,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/08-ar-390-06.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/ar-390-06.png",
+      "sha256": "06b5f99a9bb04b4ba1230e52e226cfd35a7b51c5b91fc4dafe760d124541c9c4",
+      "bytes": 205233,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/09-ar-768-04.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/ar-768-04.png",
+      "sha256": "7fcc722b7f73c40dab98fe4731314a4c919cd5f48c9d09da7ec44dc5e47562a9",
+      "bytes": 273214,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/10-ar-390-15.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/ar-390-15.png",
+      "sha256": "3efe06bddc33c936094fafe01fad6e7ceb8970ed658e45d9cd5f351b187a1b92",
+      "bytes": 327591,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/11-tr-390-11.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/tr-390-11.png",
+      "sha256": "612b4fcaf32ac4211cec108ee45acb515d5765b46ff6ce7b9fde63e9307833ab",
+      "bytes": 121444,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/12-tr-768-12.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/tr-768-12.png",
+      "sha256": "ed324af9366ef13321d7f635329c425915cb47463d6c25d4cd1347995f167522",
+      "bytes": 146828,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/13-en-390-02.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/en-390-02.png",
+      "sha256": "e929cf742de8bd3af463c68c0033eefd90fe4225dddedadfc7c537b050dec635",
+      "bytes": 251930,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/14-en-390-planner-selected.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/reconstruction/en-390-planner-selected.png",
+      "sha256": "d4cbf9aba346097b012dcffb3e8446f0648e408b4fb9ec6dce23fdaa299f3324",
+      "bytes": 115630,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/15-home-en-360x800-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-en-360x800-viewport.png",
+      "sha256": "37c9aae8844f40cbd3c6f521ffa79da7c109d741c540590e79e091f211f341e6",
+      "bytes": 266374,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/16-home-en-768x1024-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-en-768x1024-viewport.png",
+      "sha256": "1095be8b8ecd6aaefc93aa4dae5fcecc3f41f518ba6df6a4f4cc8cba821d22af",
+      "bytes": 726859,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/17-home-en-844x390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-en-844x390-viewport.png",
+      "sha256": "5749772764675689d0eed7db861872cbb4dc785fb25455903603eb6ca4b67aee",
+      "bytes": 413273,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/18-home-en-1280x600-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-en-1280x600-viewport.png",
+      "sha256": "adfee249e522464cfb99132b52ce6569e497e0c29846abf4541469b66e031e2a",
+      "bytes": 888900,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/19-en-destinations-turkiye-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/en-destinations-turkiye-390-viewport.png",
+      "sha256": "4d6dea0a2f4c6d99e54bf447068204d187dc83b12e29d31880cb9543c13611c5",
+      "bytes": 181615,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/20-en-services-hajj-umrah-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/en-services-hajj-umrah-390-viewport.png",
+      "sha256": "f8b055c202236a0ba0ba2876fccbfe865835ee1484c311ab6ae3f9dc6a778a3d",
+      "bytes": 173974,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/21-en-business-1440-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/en-business-1440-viewport.png",
+      "sha256": "cd144974d4c1d3e7a87a550c3b5ec66bc9d9f2113a8b5f8c3bf7c936d45803c5",
+      "bytes": 256957,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/22-en-not-a-page-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/en-not-a-page-390-viewport.png",
+      "sha256": "c831d6409203101676ffe5c0c0f077074dab4ba8fa1f38a686c38e77924f3b8c",
+      "bytes": 40269,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/23-home-tr-360x800-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-tr-360x800-viewport.png",
+      "sha256": "e791ec0e718bffc90c9be7a136a032304e2c3ec8cda430a54fc770c7b7c5263b",
+      "bytes": 261853,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/24-tr-destinations-turkiye-antalya-1440-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/tr-destinations-turkiye-antalya-1440-viewport.png",
+      "sha256": "88a5857d82450973118f5762bf1677f44a5852a96bb5c7a6ba53492a2dc2bd1d",
+      "bytes": 1322614,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/25-home-ar-390x844-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-ar-390x844-viewport.png",
+      "sha256": "94f06af07b05cb77e9aeb6ca006a8ae69d45d95bdf077e1770bdef75d2d0c5e0",
+      "bytes": 335661,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/26-home-ar-1024x768-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/home-ar-1024x768-viewport.png",
+      "sha256": "ed2df46909de6609ce0d4bec7e21d79a9dc68e507eac3895f7e686d2fbdb9c23",
+      "bytes": 969212,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/27-ar-about-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/ar-about-390-viewport.png",
+      "sha256": "3244fcb510d9ff4ec1ec00b63351b7657151cca2895e623f9a90958a95db689e",
+      "bytes": 214643,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/28-ar-destinations-georgia-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/ar-destinations-georgia-390-viewport.png",
+      "sha256": "4be0efd6b46fa3ebd33f9bd7e551ddd8f5c5882f47d6f8d9d60d71142239731d",
+      "bytes": 238674,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/29-ar-privacy-390-viewport.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/matrix/2026-10-20T17-15-54.527Z/ar-privacy-390-viewport.png",
+      "sha256": "42793a74d1de8ee9c6225ebe39ef0975960eb6a8add42f5d847416a6e34adbcf",
+      "bytes": 35095,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/30-ar390-prepared-open-message.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/integrity/2026-10-20T17-30-09.030Z/ar390-prepared-open-message.png",
+      "sha256": "0d394b5924e1a5558ce85b5fa2bfadb77cb0c413cd5c2b75655251f36cf3218d",
+      "bytes": 49337,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/native/31-antalya-enlargement-en.png",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery/integrity/2026-10-20T17-30-09.030Z/antalya-enlargement-en.png",
+      "sha256": "f164beac5cd815f11081ed2342663d7428606027a7727acf00db8c56cbb3d8c5",
+      "bytes": 1367800,
+      "kind": "root-reviewed-native"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/motion/en-1440x900.webm",
+      "source": "C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/tmp/frontend-qa/final-q12/corrected/recovery/motion/2026-10-20T17-27-29.956Z/recordings/page@6df6f440ce1790aef04b76439f77717a.webm",
+      "sha256": "54fdeee7a1c35c02c51413463b20172ad2606151825805c60ded663c8bafe957",
+      "bytes": 7031416,
+      "kind": "continuous-recording"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/motion/ar-1440x900.webm",
+      "source": "C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/tmp/frontend-qa/final-q12/corrected/recovery/motion/2026-10-20T17-27-29.956Z/recordings/page@661dc44d07a2092541bafae36123b535.webm",
+      "sha256": "8176cdf82f526c1edc1c7b929721c26641c5fa5e2f280755fcee0237411ff094",
+      "bytes": 6739029,
+      "kind": "continuous-recording"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/motion/en-1280x600.webm",
+      "source": "C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/tmp/frontend-qa/final-q12/corrected/recovery/motion/2026-10-20T17-27-29.956Z/recordings/page@424cbf2a3e823ba57a60fb5abc068b08.webm",
+      "sha256": "16fd789233a8e9c0411bdefa923a0f0472fc7548d197b50e5f3ea1223c22adca",
+      "bytes": 3623391,
+      "kind": "continuous-recording"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/motion/tr-1280x600.webm",
+      "source": "C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/tmp/frontend-qa/final-q12/corrected/recovery/motion/2026-10-20T17-27-29.956Z/recordings/page@178ec428fa859289f66980f67a337646.webm",
+      "sha256": "8f6d4ddd91db87b0b82bd8bd43232c1b71b4f4ed3877b55fcd500168f369870f",
+      "bytes": 3604129,
+      "kind": "continuous-recording"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/final-freeze-check.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/final-freeze-check.json",
+      "sha256": "3a4eb82cc781ef87f060838a5e1dfa7589a4a32bd50eb476abd8ab7e9c9e1b88",
+      "bytes": 121,
+      "kind": "diagnostic"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/fallback-nojs-timer-diagnostic.json",
+      "source": "tmp/frontend-qa/final-q12/corrected/fallback-nojs-timer-diagnostic.json",
+      "sha256": "750975d18fab1ec0fc3535e4eaf740364fe1633f653fcc465e8141786147b234",
+      "bytes": 181,
+      "kind": "diagnostic"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/build-first.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/build.log",
+      "sha256": "481d887a6bbad43307381cd7b22533490b78cccd362dbbb2777d087fb0888dfe",
+      "bytes": 562,
+      "kind": "resolved-environment-failure",
+      "sourceSha256": "0d2b229f4fc7d22a9f89e249a3e8426d079743fa113d8b1c8124b4386f318272",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/build-retry1.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/build-retry1.log",
+      "sha256": "1b34abe2e85539c4a8689ad645dd5ea4302197a7d08678d7d04b18d1e0b2ab41",
+      "bytes": 562,
+      "kind": "resolved-environment-failure",
+      "sourceSha256": "96b4fd072894b6d538542a1315cab2df5fd62fa2f78ff63530a0869647059b60",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/nojs-stalled.log",
+      "source": "tmp/frontend-qa/final-q12/corrected/recovery-fallbacks-resume.log",
+      "sha256": "909d240e44c128b4efee7e5c75affc886db8e419b341eecfc2d0a56489e91d3a",
+      "bytes": 130,
+      "kind": "resolved-harness-stall",
+      "sourceSha256": "72567c574b8ecac3d33ee3335fdfa8d804561248e8fa8dc4da56214d403ade08",
+      "normalization": "Durable text log strips trailing whitespace/blank EOF only; original raw log retained at source."
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/root-review.json",
+      "sha256": "491a1f2bb3451b2c918d380091586c08015d6bcb013d29f898653cd4fe15401b",
+      "bytes": 3436,
+      "kind": "independent-root-review"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/touch-target-before.json",
+      "sha256": "2db070104dbcf027294df4b2f15ece10fedb80024b02943dd9a93d6a3e59f605",
+      "bytes": 963,
+      "kind": "resolved-historical-failure"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/touch-target-before.png",
+      "sha256": "5cd12f3cecf888bcf9f3b34e0483863dd9d624cbb5768ed451834ada5fd834e0",
+      "bytes": 335564,
+      "kind": "resolved-historical-failure"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/antalya-density-diagnostic.json",
+      "sha256": "f02faa1f7e311fbdd8dd6e7ea0fa731edf8b8f26099377b5266533972d4f67aa",
+      "bytes": 277,
+      "kind": "resolved-historical-failure"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/journey-harness-first-failure.json",
+      "sha256": "23ca5b79e10a330dc6f8c4588a8696ebfc4275c55c7079546dd1420634a408fe",
+      "bytes": 2797,
+      "kind": "resolved-historical-failure"
+    },
+    {
+      "path": "docs/qa/2026-10-19-final/failures/matrix-harness-first-failure.json",
+      "sha256": "755be8025983e2c09770fefc672bfb629561e8a3be694dd598db2de8fed4f197",
+      "bytes": 63211,
+      "kind": "resolved-historical-failure"
+    }
+  ],
+  "results": [
+    {
+      "suite": "public",
+      "status": "passed",
+      "checks": 5,
+      "screens": 6,
+      "routes": 120,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:27:34.496Z",
+      "finishedAt": "2026-10-19T13:28:43.624Z"
+    },
+    {
+      "suite": "v3",
+      "status": "passed",
+      "checks": 16,
+      "screens": 60,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:29:27.412Z",
+      "finishedAt": "2026-10-19T13:35:59.640Z"
+    },
+    {
+      "suite": "resilience",
+      "status": "passed",
+      "checks": 9,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:20:34.838Z",
+      "finishedAt": "2026-10-19T22:21:57.634Z"
+    },
+    {
+      "suite": "media",
+      "status": "passed",
+      "checks": 2,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:22:00.440Z",
+      "finishedAt": "2026-10-19T22:22:19.448Z"
+    },
+    {
+      "suite": "reconstruction",
+      "status": "passed",
+      "cases": 21,
+      "checks": 1,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:22:22.232Z",
+      "finishedAt": "2026-10-19T22:33:28.146Z"
+    },
+    {
+      "suite": "throttled",
+      "status": "passed",
+      "cases": 9,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:33:30.446Z"
+    },
+    {
+      "suite": "targets",
+      "status": "passed",
+      "cases": 15,
+      "screens": 30,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:25:12.468Z",
+      "finishedAt": "2026-10-19T13:26:12.923Z"
+    },
+    {
+      "suite": "accessibility",
+      "status": "passed",
+      "cases": 7,
+      "screens": 12,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:26:26.983Z",
+      "finishedAt": "2026-10-19T13:26:50.776Z"
+    },
+    {
+      "suite": "matrix",
+      "status": "passed",
+      "cases": 165,
+      "screens": 276,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:15:54.530Z",
+      "finishedAt": "2026-10-20T17:26:40.492Z"
+    },
+    {
+      "suite": "journey",
+      "status": "passed",
+      "cases": 6,
+      "screens": 3,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:26:42.405Z",
+      "finishedAt": "2026-10-20T17:27:28.600Z"
+    },
+    {
+      "suite": "motion",
+      "status": "passed",
+      "cases": 4,
+      "screens": 68,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:27:29.958Z",
+      "finishedAt": "2026-10-20T17:30:07.577Z"
+    },
+    {
+      "suite": "integrity",
+      "status": "passed",
+      "cases": 5,
+      "screens": 4,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:30:09.032Z",
+      "finishedAt": "2026-10-20T17:30:50.763Z"
+    },
+    {
+      "suite": "briefs",
+      "status": "passed",
+      "cases": 21,
+      "screens": 0,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:30:52.320Z",
+      "finishedAt": "2026-10-20T17:31:34.161Z"
+    },
+    {
+      "suite": "fallbacks",
+      "status": "passed",
+      "cases": 15,
+      "screens": 15,
+      "errors": 0,
+      "startedAt": "2026-10-20T22:15:51.436Z",
+      "finishedAt": "2026-10-20T22:16:54.333Z"
+    },
+    {
+      "suite": "resources",
+      "status": "passed",
+      "cases": 13,
+      "screens": 0,
+      "errors": 0,
+      "startedAt": "2026-10-20T22:16:56.020Z",
+      "finishedAt": "2026-10-20T22:17:12.313Z"
+    },
+    {
+      "suite": "contact",
+      "status": "passed",
+      "cases": 37,
+      "screens": 18,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:35:20.580Z",
+      "finishedAt": "2026-10-19T22:36:29.765Z"
+    }
+  ],
+  "testedBase": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "applicationCommit": "6dd8a6a29efaf883619fa152e8b095773d196c29",
+  "browser": "Chromium153.0.8010.12",
+  "locales": [
+    "en",
+    "tr",
+    "ar"
+  ],
+  "independentReview": "root-review.json",
+  "limits": [
+    "Physical devices unverified",
+    "Safari unverified",
+    "Firefox unverified",
+    "Field performance unmeasured",
+    "No formal accessibility/AT certification",
+    "Accepted original Antalya source-image softness"
+  ],
+  "testedApplication": "Only min-width44px scoped menu CSS differs from visual-close checkpoint;153file freeze verified"
+}

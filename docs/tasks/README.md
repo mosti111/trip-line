@@ -33,3 +33,4 @@ Current bounded system hardening: [TL-SYS-003](TL-SYS-003-orchestration-hardenin
 Future execution: [five bounded runs](../orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.
 
 - [TL-003 visual closure corrections](TL-003-visual-close-corrections.md): bounded V01 and isolated P2 corrections,17October2026.
+- [TL-003 final QA](TL-003-final-qa.md): authorized Q12 only,19October2026; fresh comprehensive verification and final delivery, no merge/deploy.

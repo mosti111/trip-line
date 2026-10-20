@@ -5,12 +5,12 @@
   "currentMilestone": "TL-003",
   "stateWriter": "/root",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "VISUAL-CLOSE and VC01 APPROVED19October2026. P1 continuity visually closed; landscape/RTL closed; Antalya delivery sizing fixed with source limit retained. Original24of25 tasks approved, fullTL003 incomplete. Implementation 5af9e3a4fda650b39a43b01aca7398cb3f26ffab saved; checkpoint metadata then STOP; no Q12/merge/deploy.",
-  "nextAction": "STOP after VISUAL-CLOSE implementation and checkpoint commits. Exact next task TL-003-Q12 only on separate user continuation; remains PLANNED and unowned.",
+  "applicationStatus": "TL-003 complete:25of25originaltasks,Q12 and R1 APPROVED21October2026. Corrected final gates and Root rendered review passed; implementation6dd8a6a29efaf883619fa152e8b095773d196c29. Accepted Antalya source limit; publication prerequisites/noindex retained.",
+  "nextAction": "STOP after final Q12 report/evidence/state checkpoint. Ready for user/client review and technically ready to merge within documented scope; no merge/deploy/push/publication authorized.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
-    "status": "IN_PROGRESS",
+    "status": "APPROVED",
     "contract": "docs/tasks/TL-003-ux-motion-recovery.md",
     "taskIds": [
       "TL-003-F01",
@@ -39,8 +39,30 @@
       "TL-003-QC10",
       "TL-003-QI11"
     ],
-    "evidence": [],
-    "review": null,
+    "evidence": [
+      {
+        "kind": "automated",
+        "path": "docs/qa/2026-10-19-final/checks.json",
+        "result": "PASS"
+      },
+      {
+        "kind": "rendered",
+        "path": "docs/qa/2026-10-19-final/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "kind": "scope",
+        "path": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+        "result": "PASS"
+      }
+    ],
+    "review": {
+      "role": "Astra lead/reviewer",
+      "model": "gpt-6-astra",
+      "result": "PASS WITH FOLLOW-UP",
+      "report": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+      "blockingCorrections": []
+    },
     "history": [
       {
         "to": "PLANNED",
@@ -251,6 +273,34 @@
         "at": "2026-10-15T00:03:04.171Z",
         "actor": "/root",
         "reason": "Hardening-only run tracked separately. Preserve all 19 approvals; next product work Contact/Journey only after hardening stop; future five bounded runs."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IMPLEMENTED",
+        "at": "2026-10-20T22:23:39.375Z",
+        "actor": "/root",
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
+      },
+      {
+        "from": "IMPLEMENTED",
+        "to": "REVIEW_REQUIRED",
+        "at": "2026-10-20T22:23:39.375Z",
+        "actor": "/root",
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
+      },
+      {
+        "from": "REVIEW_REQUIRED",
+        "to": "REVIEWING",
+        "at": "2026-10-20T22:23:39.375Z",
+        "actor": "/root",
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
+      },
+      {
+        "from": "REVIEWING",
+        "to": "APPROVED",
+        "at": "2026-10-20T22:23:39.375Z",
+        "actor": "/root",
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
       }
     ]
   },
@@ -3073,7 +3123,7 @@
     {
       "id": "TL-003-Q12",
       "kind": "verification",
-      "status": "PLANNED",
+      "status": "APPROVED",
       "contract": "docs/orchestration/recovery/TL-003-Q12.md",
       "dependsOn": [
         "TL-003-VISUAL",
@@ -3087,11 +3137,34 @@
         "frontend-v2/scripts/verify-reconstruction-media.mjs",
         "frontend-v2/scripts/verify-planner-throttled.mjs",
         "frontend-v2/scripts/verify-recovery.mjs",
-        "docs/orchestration/recovery/TL-003-Q12-delivery.md"
+        "docs/orchestration/recovery/TL-003-Q12-delivery.md",
+        "frontend-v2/scripts/verify-recovery-contact.mjs"
       ],
       "owner": null,
-      "evidence": [],
-      "review": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-19-final/checks.json",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-19-final/manifest.json",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS WITH FOLLOW-UP",
+        "report": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+        "blockingCorrections": []
+      },
       "history": [
         {
           "from": null,
@@ -3106,12 +3179,103 @@
           "at": "2026-10-15T11:22:34.902Z",
           "actor": "/root",
           "reason": "FinalQA waits for complete visual inspection AND separately approved zero-blocker closure. Original TL003 task history retained."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-19T12:43:48.781Z",
+          "actor": "/root",
+          "reason": "Direct user19October authorizes final Q12 only from clean40ac8b9 checkpoint. Prior run closed, no retained owners. Root exception5 administrative scope recorded in docs/tasks/TL-003-final-qa.md; one selected Sol QA worker, no nested lead; all app files read-only pending exact defect contract."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T12:44:14.148Z",
+          "actor": "/root",
+          "reason": "Explicit spawn_agent model:gpt-6.1-sol fork:none accepted /root/sol_final_qa; sole QA/build/browser owner. Tool selection not backend attestation. Root owns same final acceptance; no extra lead/worker."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T12:45:32.228Z",
+          "actor": "/root",
+          "reason": "Exact helper amendment before writes: sole Sol may update verify-recovery-contact.mjs approved Arabic left-arrow expectation and output-directory override only; preserve37case assertions. No application scope expansion."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T13:17:30.454Z",
+          "actor": "/root",
+          "reason": "Declared verification-family inventory clarified to include branded404 explicitly (12 labels). Already required by direct user and original Q12 contract before dispatch; no new outcome, application write or scope expansion. Responsive165case matrix PASS; remaining gates/acceptance pending."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "BLOCKED",
+          "at": "2026-10-19T13:20:04.199Z",
+          "actor": "/root",
+          "reason": "Genuine P2 menu target36x44 atAR390 confirmed by Root actual screenshot/geometry. Reserve exact R1 CSS+delivery to same Sol; no redesign. Original application evidence superseded for final acceptance after fix; required final gates rerun. Correctioncycle1of2."
+        },
+        {
+          "from": "BLOCKED",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T13:27:06.468Z",
+          "actor": "/root",
+          "reason": "R1 exactCSS correction frozen; clean defaultbuild/typecheck/lint32testsPASS. Targeted15cases30nativesPASS44x44alllocales, Root inspected actual EN360/AR390/AR844landscape: coherent header/actions, no regression. Resume final comprehensive gates on corrected artifactSoQy-aoR26IuNSvso9BsX; R1/Q12 approval still pending."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T22:19:48.183Z",
+          "actor": "/root",
+          "reason": "20 October explicit continuation: same Sol confirmed errored/quiescent after usage limit; preserve corrected frozen build SoQy-aoR26IuNSvso9BsX and completed gates. Renew same exact Q12/R1 ownership before resuming remaining checks; no new worker or scope."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-20T17:14:25.568Z",
+          "actor": "/root",
+          "reason": "20 October17:14UTC explicit continuation: previous Sol absent from live tree after usage interruption; no remaining verifier/preview process found. Preserve corrected build and completed reconstruction21,Contact37,throttled9+3 passes. Release absent owner, reserve sequential replacement primary Sol for exact same remaining Q12/R1 scope; no concurrent/additional QA worker."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-20T22:15:21.812Z",
+          "actor": "/root",
+          "reason": "21 October Istanbul explicit continuation after usage interruption. Same replacement Sol confirmed errored/quiescent; renew exact ownership, retain corrected build and all passes through integrity/briefs. Only stalled noJS harness and resources remain before Root rendered acceptance; no new application scope."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-20T22:19:01.079Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-20T22:19:01.082Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-20T22:19:01.082Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-20T22:23:39.373Z",
+          "actor": "/root",
+          "reason": "Same Root independent acceptance: corrected final technical gates, source/scope/freeze, actual native renders and timed playback of four fresh recordings PASS;44pxP2closed, no P0/P1 or new visual regression. Accepted Antalya source limitation and publication prerequisites documented."
         }
       ],
       "bounded": true,
       "scope": {
-        "maxFiles": 8,
-        "maxPageFamilies": 11,
+        "maxFiles": 9,
+        "maxPageFamilies": 12,
         "pageFamilies": [
           "Homepage",
           "Turkiye hub",
@@ -3123,7 +3287,8 @@
           "Contact",
           "International",
           "FAQ",
-          "Legal"
+          "Legal",
+          "Not found"
         ]
       },
       "deliveryReport": "docs/orchestration/recovery/TL-003-Q12-delivery.md"
@@ -3758,32 +3923,151 @@
         ]
       },
       "deliveryReport": "docs/orchestration/recovery/TL-003-VC01-delivery.md"
+    },
+    {
+      "id": "TL-003-Q12-R1",
+      "kind": "frontend",
+      "status": "APPROVED",
+      "contract": "docs/tasks/TL-003-Q12-touch-target.md",
+      "dependsOn": [
+        "TL-003-VISUAL-CLOSE"
+      ],
+      "filesAllowed": [
+        "frontend-v2/styles/recovery-shell.css",
+        "docs/orchestration/recovery/TL-003-Q12-R1-delivery.md"
+      ],
+      "owner": null,
+      "evidence": [
+        {
+          "kind": "automated",
+          "path": "docs/qa/2026-10-19-final/checks.json",
+          "result": "PASS"
+        },
+        {
+          "kind": "rendered",
+          "path": "docs/qa/2026-10-19-final/manifest.json",
+          "result": "PASS"
+        },
+        {
+          "kind": "scope",
+          "path": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+          "result": "PASS"
+        }
+      ],
+      "review": {
+        "role": "Astra lead/reviewer",
+        "model": "gpt-6-astra",
+        "result": "PASS WITH FOLLOW-UP",
+        "report": "docs/reports/TL-003-final-delivery-2026-10-19.md",
+        "blockingCorrections": []
+      },
+      "history": [
+        {
+          "from": null,
+          "to": "PLANNED",
+          "at": "2026-10-19T13:20:04.199Z",
+          "actor": "/root",
+          "reason": "Genuine P2 menu target36x44 atAR390 confirmed by Root actual screenshot/geometry. Reserve exact R1 CSS+delivery to same Sol; no redesign. Original application evidence superseded for final acceptance after fix; required final gates rerun. Correctioncycle1of2."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-19T13:20:04.199Z",
+          "actor": "/root",
+          "reason": "Genuine P2 menu target36x44 atAR390 confirmed by Root actual screenshot/geometry. Reserve exact R1 CSS+delivery to same Sol; no redesign. Original application evidence superseded for final acceptance after fix; required final gates rerun. Correctioncycle1of2."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T13:20:04.199Z",
+          "actor": "/root",
+          "reason": "Genuine P2 menu target36x44 atAR390 confirmed by Root actual screenshot/geometry. Reserve exact R1 CSS+delivery to same Sol; no redesign. Original application evidence superseded for final acceptance after fix; required final gates rerun. Correctioncycle1of2."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-19T22:19:48.183Z",
+          "actor": "/root",
+          "reason": "20 October explicit continuation: same Sol confirmed errored/quiescent after usage limit; preserve corrected frozen build SoQy-aoR26IuNSvso9BsX and completed gates. Renew same exact Q12/R1 ownership before resuming remaining checks; no new worker or scope."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-20T17:14:25.568Z",
+          "actor": "/root",
+          "reason": "20 October17:14UTC explicit continuation: previous Sol absent from live tree after usage interruption; no remaining verifier/preview process found. Preserve corrected build and completed reconstruction21,Contact37,throttled9+3 passes. Release absent owner, reserve sequential replacement primary Sol for exact same remaining Q12/R1 scope; no concurrent/additional QA worker."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-20T22:15:21.812Z",
+          "actor": "/root",
+          "reason": "21 October Istanbul explicit continuation after usage interruption. Same replacement Sol confirmed errored/quiescent; renew exact ownership, retain corrected build and all passes through integrity/briefs. Only stalled noJS harness and resources remain before Root rendered acceptance; no new application scope."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IMPLEMENTED",
+          "at": "2026-10-20T22:19:01.082Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "REVIEW_REQUIRED",
+          "at": "2026-10-20T22:19:01.082Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "REVIEW_REQUIRED",
+          "to": "REVIEWING",
+          "at": "2026-10-20T22:19:01.082Z",
+          "actor": "/root",
+          "reason": "Selected Sol delivery complete, corrected final technical gates PASS; exclusive browser released. Root independent actual rendered/source/evidence acceptance in progress, no approval yet."
+        },
+        {
+          "from": "REVIEWING",
+          "to": "APPROVED",
+          "at": "2026-10-20T22:23:39.375Z",
+          "actor": "/root",
+          "reason": "Same Root independent acceptance: corrected final technical gates, source/scope/freeze, actual native renders and timed playback of four fresh recordings PASS;44pxP2closed, no P0/P1 or new visual regression. Accepted Antalya source limitation and publication prerequisites documented."
+        }
+      ],
+      "bounded": true,
+      "scope": {
+        "maxFiles": 2,
+        "maxPageFamilies": 1,
+        "pageFamilies": [
+          "Shared navigation"
+        ]
+      },
+      "deliveryReport": "docs/orchestration/recovery/TL-003-Q12-R1-delivery.md"
     }
   ],
   "policyVersion": 2,
   "activeRun": {
-    "id": "TL-003-VISUAL-CLOSE-RUN",
-    "kind": "frontend",
+    "id": "TL-003-Q12-RUN",
+    "kind": "verification",
     "status": "APPROVED",
-    "contract": "docs/tasks/TL-003-visual-close-corrections.md",
+    "contract": "docs/tasks/TL-003-final-qa.md",
     "taskIds": [
-      "TL-003-VC01",
-      "TL-003-VISUAL-CLOSE"
+      "TL-003-Q12",
+      "TL-003-Q12-R1"
     ],
     "evidence": [
       {
         "kind": "automated",
-        "path": "docs/qa/2026-10-17-visual-close/checks.json",
+        "path": "docs/qa/2026-10-19-final/checks.json",
         "result": "PASS"
       },
       {
         "kind": "rendered",
-        "path": "docs/qa/2026-10-17-visual-close/manifest.json",
+        "path": "docs/qa/2026-10-19-final/manifest.json",
         "result": "PASS"
       },
       {
         "kind": "scope",
-        "path": "docs/reports/TL-003-visual-close-2026-10-17.md",
+        "path": "docs/reports/TL-003-final-delivery-2026-10-19.md",
         "result": "PASS"
       }
     ],
@@ -3791,7 +4075,7 @@
       "role": "Astra lead/reviewer",
       "model": "gpt-6-astra",
       "result": "PASS WITH FOLLOW-UP",
-      "report": "docs/reports/TL-003-visual-close-2026-10-17.md",
+      "report": "docs/reports/TL-003-final-delivery-2026-10-19.md",
       "blockingCorrections": []
     },
     "closed": true,
@@ -3806,65 +4090,93 @@
       {
         "from": null,
         "to": "PLANNED",
-        "at": "2026-10-17T13:41:54.471Z",
+        "at": "2026-10-19T12:43:48.781Z",
         "actor": "/root",
-        "reason": "Direct user17October authorizes only VISUAL-CLOSE from5474cdf; isolated V01/V02/V03/V04 corrections. Clean baseline; previous workers absent. Root exception5 exact administrative scope recorded before writes. One Sol implementation/QA worker, no final comprehensive suite."
+        "reason": "Direct user19October authorizes final Q12 only from clean40ac8b9 checkpoint. Prior run closed, no retained owners. Root exception5 administrative scope recorded in docs/tasks/TL-003-final-qa.md; one selected Sol QA worker, no nested lead; all app files read-only pending exact defect contract."
       },
       {
         "from": "PLANNED",
         "to": "READY",
-        "at": "2026-10-17T13:41:54.471Z",
+        "at": "2026-10-19T12:43:48.781Z",
         "actor": "/root",
-        "reason": "Direct user17October authorizes only VISUAL-CLOSE from5474cdf; isolated V01/V02/V03/V04 corrections. Clean baseline; previous workers absent. Root exception5 exact administrative scope recorded before writes. One Sol implementation/QA worker, no final comprehensive suite."
+        "reason": "Direct user19October authorizes final Q12 only from clean40ac8b9 checkpoint. Prior run closed, no retained owners. Root exception5 administrative scope recorded in docs/tasks/TL-003-final-qa.md; one selected Sol QA worker, no nested lead; all app files read-only pending exact defect contract."
       },
       {
         "from": "READY",
         "to": "IN_PROGRESS",
-        "at": "2026-10-17T13:41:54.471Z",
+        "at": "2026-10-19T12:44:14.148Z",
         "actor": "/root",
-        "reason": "Direct user17October authorizes only VISUAL-CLOSE from5474cdf; isolated V01/V02/V03/V04 corrections. Clean baseline; previous workers absent. Root exception5 exact administrative scope recorded before writes. One Sol implementation/QA worker, no final comprehensive suite."
+        "reason": "Explicit spawn_agent model:gpt-6.1-sol fork:none accepted /root/sol_final_qa; sole QA/build/browser owner. Tool selection not backend attestation. Root owns same final acceptance; no extra lead/worker."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IN_PROGRESS",
-        "at": "2026-10-18T21:38:01.193Z",
+        "at": "2026-10-19T13:20:04.199Z",
         "actor": "/root",
-        "reason": "Frozen production review exposed service stage stacking: bronze route overlays image plane because child layers cannot escape isolated stage. Exact existing CSS scope correction cycle1; preserve superseded evidence, rebuild only because rendered defect requires source change. Root acceptance remains pending."
+        "reason": "Genuine P2 menu target36x44 atAR390 confirmed by Root actual screenshot/geometry. Reserve exact R1 CSS+delivery to same Sol; no redesign. Original application evidence superseded for final acceptance after fix; required final gates rerun. Correctioncycle1of2."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-19T13:27:06.468Z",
+        "actor": "/root",
+        "reason": "R1 exactCSS correction frozen; clean defaultbuild/typecheck/lint32testsPASS. Targeted15cases30nativesPASS44x44alllocales, Root inspected actual EN360/AR390/AR844landscape: coherent header/actions, no regression. Resume final comprehensive gates on corrected artifactSoQy-aoR26IuNSvso9BsX; R1/Q12 approval still pending."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-19T22:19:48.183Z",
+        "actor": "/root",
+        "reason": "20 October explicit continuation: same Sol confirmed errored/quiescent after usage limit; preserve corrected frozen build SoQy-aoR26IuNSvso9BsX and completed gates. Renew same exact Q12/R1 ownership before resuming remaining checks; no new worker or scope."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-20T17:14:25.568Z",
+        "actor": "/root",
+        "reason": "20 October17:14UTC explicit continuation: previous Sol absent from live tree after usage interruption; no remaining verifier/preview process found. Preserve corrected build and completed reconstruction21,Contact37,throttled9+3 passes. Release absent owner, reserve sequential replacement primary Sol for exact same remaining Q12/R1 scope; no concurrent/additional QA worker."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-20T17:15:01.455Z",
+        "actor": "/root",
+        "reason": "spawn_agent explicitly requested gpt-6.1-sol fork:none; accepted /root/sol_final_resume as sequential replacement for absent primary. No added concurrent worker; same Root acceptance, routing not backend attestation."
+      },
+      {
+        "from": "IN_PROGRESS",
+        "to": "IN_PROGRESS",
+        "at": "2026-10-20T22:15:21.812Z",
+        "actor": "/root",
+        "reason": "21 October Istanbul explicit continuation after usage interruption. Same replacement Sol confirmed errored/quiescent; renew exact ownership, retain corrected build and all passes through integrity/briefs. Only stalled noJS harness and resources remain before Root rendered acceptance; no new application scope."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IMPLEMENTED",
-        "at": "2026-10-19T02:48:32.443Z",
+        "at": "2026-10-20T22:23:39.375Z",
         "actor": "/root",
-        "reason": "Bounded VISUAL-CLOSE accepted after one correction cycle; all run tasks approved, no next milestone authorized."
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
       },
       {
         "from": "IMPLEMENTED",
         "to": "REVIEW_REQUIRED",
-        "at": "2026-10-19T02:48:32.443Z",
+        "at": "2026-10-20T22:23:39.375Z",
         "actor": "/root",
-        "reason": "Bounded VISUAL-CLOSE accepted after one correction cycle; all run tasks approved, no next milestone authorized."
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
       },
       {
         "from": "REVIEW_REQUIRED",
         "to": "REVIEWING",
-        "at": "2026-10-19T02:48:32.443Z",
+        "at": "2026-10-20T22:23:39.375Z",
         "actor": "/root",
-        "reason": "Bounded VISUAL-CLOSE accepted after one correction cycle; all run tasks approved, no next milestone authorized."
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
       },
       {
         "from": "REVIEWING",
         "to": "APPROVED",
-        "at": "2026-10-19T02:48:32.443Z",
+        "at": "2026-10-20T22:23:39.375Z",
         "actor": "/root",
-        "reason": "Bounded VISUAL-CLOSE accepted after one correction cycle; all run tasks approved, no next milestone authorized."
-      },
-      {
-        "from": "APPROVED",
-        "to": "APPROVED",
-        "at": "2026-10-19T02:50:34.956Z",
-        "actor": "/root",
-        "reason": "Implementation committed 5af9e3a4fda650b39a43b01aca7398cb3f26ffab; exact7application files. Selected evidence hashes verified; owned previews stopped. Checkpoint metadata commit next then STOP; Q12 remains unstarted."
+        "reason": "All original25tasks approved; final corrected product integration and sameRoot rendered acceptance PASS WITH FOLLOW-UP. One application correction cycle; no merge/push/deploy. Final evidence/report/state checkpoint then STOP."
       }
     ]
   },
