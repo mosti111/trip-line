@@ -1,12 +1,32 @@
 /* Homepage enhancement overrides stay local to the approved static composition. */
-.rh-title-block{display:inline-block}
+.recovery-home .rh-arrival h1{display:flex;flex-direction:column}
+@media(min-width:1024px){html[lang=tr] .recovery-home .rh-arrival h1{font-size:clamp(60px,6.4vw,91px);max-width:1100px}}
+.rh-title-block{display:block;width:fit-content;max-width:100%;padding-block:.26em .19em;padding-inline:.08em;margin-block:-.26em -.19em;margin-inline:-.08em;overflow:clip}
+.rh-title-ink{display:block}
+/* Eager finite entrance owns inner surfaces only. ScrollScene owns their outer
+   wrappers. Final styles are the default, including SSR, failed JS and cleanup. */
+@keyframes rh-photo-arrive{from{transform:scale(1.045)}to{transform:scale(1)}}
+@keyframes rh-line-arrive{from{transform:translateY(112%)}to{transform:translateY(0)}}
+@keyframes rh-content-arrive{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes rh-bronze-arrive{from{transform:translate(12px,9px) rotate(-1.4deg) scale(.985)}to{transform:none}}
+@media(prefers-reduced-motion:no-preference){
+ .rh-arrival[data-entry=play] .rh-photo-settle{animation:rh-photo-arrive 1.5s cubic-bezier(.16,1,.3,1) both}
+ .rh-arrival[data-entry=play] .rh-title-ink{animation:rh-line-arrive 1.05s cubic-bezier(.16,1,.3,1) .06s both}
+ .rh-arrival[data-entry=play] .rh-title-block:last-child .rh-title-ink{animation-delay:.2s}
+ .rh-arrival[data-entry=play] .rh-support-reveal{animation:rh-content-arrive .72s cubic-bezier(.22,1,.36,1) .4s both}
+ .rh-arrival[data-entry=play] .rh-actions-reveal{animation:rh-content-arrive .65s cubic-bezier(.22,1,.36,1) .54s both}
+ .rh-arrival[data-entry=play] .rh-links-reveal{animation:rh-content-arrive .6s cubic-bezier(.22,1,.36,1) .66s both}
+ .rh-arrival[data-entry=play] .rh-bronze-settle{transform-origin:70% 60%;animation:rh-bronze-arrive 1.45s cubic-bezier(.16,1,.3,1) both}
+}
+.reduce-motion .rh-arrival [class*=-reveal],.reduce-motion .rh-arrival .rh-title-ink,.reduce-motion .rh-arrival .rh-photo-settle,.reduce-motion .rh-arrival .rh-bronze-settle{animation:none}
 .rh-flight-slot{position:absolute;inset:0;pointer-events:none;z-index:1}
 .recovery-home .rh-flight-slot .bronze-journey{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
 .recovery-home .rh-flight-slot .bronze-journey>svg{display:none}
 .recovery-home .rh-flight-slot .bronze-journey>div{position:absolute!important;inset:0}
-.recovery-home .rh-flight-slot canvas{opacity:0!important}
+.recovery-home .rh-flight-slot canvas{opacity:0!important;transition:opacity .35s ease}
 .recovery-home .rh-flight-slot .ribbon-ready canvas{opacity:1!important}
-.rh-arrival:has(.ribbon-ready)>.rh-sculpture{visibility:hidden}
+.rh-bronze-settle{transition:opacity .35s ease}
+.rh-arrival:has(.ribbon-ready) .rh-bronze-settle{opacity:0}
 .rh-flight-coordinates,.rh-departure{display:none}
 .recovery-home[data-home-motion=desktop] .rh-arrival{min-height:100svh;height:100svh;padding-block:140px 100px;perspective:1200px}
 .recovery-home[data-home-motion=desktop] .rh-arrival-copy{perspective:900px}
@@ -53,7 +73,9 @@
  .recovery-home[data-home-motion=native] .rh-world-route{display:block;inset:0 auto 0 5px;width:calc(100% - 5px);opacity:.5}
  .recovery-home[data-home-motion=native] .rh-world-plane{border-inline-start:1px solid #a8792d55;padding-inline-start:16px}
  .recovery-home[data-home-motion=native] .rh-world-metal{display:none}
- .rh-title-block{display:inline}
+ .recovery-home .rh-arrival h1{font-size:clamp(42px,13vw,62px)}
+ html[lang=tr] .recovery-home .rh-arrival h1{font-size:clamp(25px,7.4vw,43px);line-height:1.15;letter-spacing:-.04em}
+ html[lang=ar] .recovery-home .rh-arrival h1{font-size:clamp(45px,14vw,64px);line-height:1.25}
 }
 @media(prefers-reduced-motion:reduce){.rh-flight-coordinates,.rh-departure{display:none!important}.recovery-home .rt-preview-image{transition:none}}
 .reduce-motion .rh-flight-coordinates,.reduce-motion .rh-departure{display:none!important}

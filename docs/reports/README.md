@@ -36,3 +36,6 @@ Current bounded Contact checkpoint: [C10/QC10 acceptance,16October2026](TL-003-c
 - [TL-003 VISUAL-CLOSE acceptance — 19 October 2026](TL-003-visual-close-2026-10-17.md): continuous bronze handoff and isolated P2 corrections; implementation/checkpoint stop, Q12 unstarted.
 
 - [TL-003 final Q12 delivery and acceptance —21October2026](TL-003-final-delivery-2026-10-19.md):25of25complete; final corrected gates/rendered acceptance pass, local checkpoint and STOP; publication blockers remain.
+# Motion V4
+
+- [TL-004 homepage hero prototype](TL-004-motion-v4-hero.md), 23 October 2026: partial prototype; passing regressions, P1 desktop timing blocker, two-cycle stop; user creative acceptance pending.

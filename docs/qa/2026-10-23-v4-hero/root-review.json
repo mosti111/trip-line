@@ -1,0 +1,75 @@
+{
+  "reviewer": "/root",
+  "model": "unverified",
+  "independentFrom": "/root/sol_v4_hero",
+  "date": "2026-10-23T00:55:40.903Z",
+  "verdict": "FAIL_ACCEPTANCE",
+  "formalAstraApproval": false,
+  "userCreativeAcceptance": false,
+  "blockingCorrections": [
+    "V4-P1-TIMING"
+  ],
+  "correctionCycles": 2,
+  "maxCorrectionCycles": 2,
+  "nativeReviewed": [
+    "before-desktop.png",
+    "before-mobile.png",
+    "desktop-load-start.png",
+    "en-1440x900-normal-opening.png",
+    "en-1920x1080-normal-opening.png",
+    "en-390x844-normal-opening.png",
+    "en-844x390-normal-opening.png",
+    "ar-1440x900-normal-opening.png",
+    "ar-390x844-normal-opening.png",
+    "tr-390x844-normal-opening.png",
+    "ar-1440x900-reduced-opening.png",
+    "en-390x844-reduced-opening.png",
+    "en-1440x900-normal-service-handoff.png",
+    "en-1440x900-normal-reverse.png"
+  ],
+  "recordingsReviewed": [
+    {
+      "file": "desktop-load-1440x900.webm",
+      "samplesSeconds": [
+        0.2,
+        2.65,
+        5.77
+      ],
+      "note": "Earlyrevealathalfspeedandsettled; noexhaustiveframeclaim."
+    },
+    {
+      "file": "ar-1440x900-normal.webm",
+      "samplesSeconds": [
+        0.23,
+        12.62,
+        20.05,
+        25.68
+      ],
+      "note": "Connectedtext,unmirroredroute,departure/endpoint/reverse."
+    },
+    {
+      "file": "en-1440x900-normal.webm",
+      "samplesSeconds": [
+        12.013,
+        19.031,
+        21.613,
+        31.318
+      ],
+      "note": "ActualIABplaybackandnativescrubber,decodedframeschecked;bronze/departure/route/services/restoredopening."
+    },
+    {
+      "file": "en-390x844-normal.webm",
+      "samplesSeconds": [
+        0.18,
+        5.76
+      ],
+      "note": "Mobileplaybackplusnativeopeningstill;lastframeactualservicecontinuation."
+    }
+  ],
+  "findings": [
+    "Settledhierarchy/identity,unclippedconnectedtext,actions,routehandoffandreversecoherentinsamples.",
+    "Actualtimingeventsconflictwithdesktopcompletiontarget; configuredCSSdurationandsuitePASSarenotacceptance.",
+    "Causeofcancel/restartnotproven; norepairaftertwocyclebudget."
+  ],
+  "stop": "Savepartialprototypecheckpoint; no thirdrepair,nextmilestone,merge,pushordeploy."
+}

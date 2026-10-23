@@ -21,7 +21,7 @@ export function ScrollScene({ mode }: { mode: 'desktop' | 'native' }) {
         };
         if (mode === 'desktop') {
           arrival.classList.add('rh-arrival-pinned');
-          const range = () => innerHeight * (innerHeight >= 900 ? 1.8 : innerHeight >= 700 ? 1.5 : 1.2);
+          const range = () => innerHeight * (innerHeight >= 900 ? 1.05 : innerHeight >= 700 ? .95 : .85);
           const progress = (value: number) => {
             arrival.dataset.motionProgress = value.toFixed(4);
             arrival.dataset.motionStage = value < .2 ? 'arrive' : value < .45 ? 'depart' : value < .7 ? 'travel' : 'transform';
@@ -32,10 +32,10 @@ export function ScrollScene({ mode }: { mode: 'desktop' | 'native' }) {
           timeline.to({}, { duration: 1 })
             .to('.rh-arrival-copy > .rh-kicker', { y: -22, opacity: .25, duration: .28, ease: 'none' }, .16)
             .to('.rh-arrival-copy > p,.rh-arrival-copy > .rh-actions,.rh-small-links', { y: -75, opacity: 0, duration: .23, ease: 'none' }, .22)
-            .to('.rh-title-block:first-child', { xPercent: -20, y: -75, rotationY: -14, opacity: 0, duration: .3, ease: 'none' }, .32)
-            .to('.rh-title-block:last-child', { xPercent: 24, y: 65, rotationY: 16, opacity: 0, duration: .3, ease: 'none' }, .35)
-            .to('.rh-arrival-photo', { scale: 1.08, duration: .22, ease: 'none' }, .2)
-            .to('.rh-arrival-photo', { scale: .55, xPercent: -30, yPercent: -16, rotationY: 22, opacity: .15, duration: .32, ease: 'none' }, .42)
+            .to('.rh-title-block:first-child', { y: -48, opacity: 0, duration: .3, ease: 'none' }, .32)
+            .to('.rh-title-block:last-child', { y: -48, opacity: 0, duration: .3, ease: 'none' }, .35)
+            .to('.rh-arrival-photo', { scale: .97, duration: .22, ease: 'none' }, .2)
+            .to('.rh-arrival-photo', { scale: .91, yPercent: -5, opacity: .32, duration: .32, ease: 'none' }, .42)
             .to('.rh-arrival-shade', { opacity: .35, duration: .3, ease: 'none' }, .4)
             .to('.rh-arrival-foot', { y: 50, opacity: 0, duration: .2, ease: 'none' }, .25)
             .fromTo('.rh-departure', { autoAlpha: 0, y: 60 }, { autoAlpha: 1, y: 0, duration: .18, ease: 'none' }, .72);

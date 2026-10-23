@@ -1,0 +1,136 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "errors": [],
+    "samples": [
+      {
+        "t": 3005.6999999284744,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 3286.600000023842,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 4004,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 4762.799999952316,
+        "mode": "desktop",
+        "title": "matrix(1, 0, 0, 1, 0, 0)",
+        "photo": "matrix(1, 0, 0, 1, 0, 0)",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01",
+          "motionProgress": "0.0000",
+          "motionStage": "arrive",
+          "pinStart": "-0.001",
+          "pinEnd": "1620"
+        }
+      },
+      {
+        "t": 7095.600000023842,
+        "mode": "desktop",
+        "title": "matrix(1, 0, 0, 1, 0, 0)",
+        "photo": "matrix(1, 0, 0, 1, 0, 0)",
+        "bronze": {
+          "contextState": "ready",
+          "cameraPosition": "-3.000,4.000,28.000",
+          "cameraTarget": "-3.000,6.000,-4.000",
+          "routeParameter": "0.2000",
+          "renderCount": "1"
+        },
+        "pin": {
+          "arrival": "true",
+          "chapter": "01",
+          "motionProgress": "0.0000",
+          "motionStage": "arrive",
+          "pinStart": "-0.001",
+          "pinEnd": "1620"
+        }
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "samples": [
+      {
+        "t": 2464.899999976158,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 2730,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 3256.899999976158,
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 4014.5,
+        "mode": "native",
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      },
+      {
+        "t": 5532.5,
+        "mode": "native",
+        "title": "none",
+        "photo": "none",
+        "bronze": {},
+        "pin": {
+          "arrival": "true",
+          "chapter": "01"
+        }
+      }
+    ]
+  }
+]

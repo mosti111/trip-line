@@ -13,7 +13,7 @@
 .recovery-home [data-chapter]{scroll-margin-top:90px}
 .rh-arrival{position:relative;isolation:isolate;min-height:max(900px,100svh);padding-top:190px;padding-bottom:100px;background:#071F20;color:#FFFDF8;overflow:hidden;display:flex;align-items:center}
 .rh-arrival-photo,.rh-arrival-shade{position:absolute;inset:0;z-index:-2}
-.rh-arrival-photo>.photo{width:100%;height:100%}
+.rh-photo-settle,.rh-photo-settle>.photo{width:100%;height:100%}
 .rh-arrival-photo img{object-position:65% 45%}
 .rh-arrival-shade{z-index:-1;background:linear-gradient(90deg,#071f20e6 5%,#071f208c 49%,#071f2030 100%),linear-gradient(0deg,#071f20a1,transparent 45%)}
 .rh-arrival-copy{position:relative;z-index:2}

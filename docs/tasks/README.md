@@ -1,5 +1,7 @@
 # Task workflow
 
+Current authorized milestone: [TL-004 Motion V4 homepage hero](TL-004-motion-v4-hero.md), 23 October 2026; isolated prototype, then user acceptance before further work.
+
 Current orchestration setup: [TL-SYS-002](TL-SYS-002-orchestration.md).
 System tasks may use TL-SYS identifiers. Delegated tasks use the
 [worker contract](../orchestration/TASK_CONTRACT.md); their live state and status

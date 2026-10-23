@@ -1,5 +1,13 @@
 # Trip Line decisions
 
+## TL-DEC-014 — Motion V4 hero prototype
+
+Date: 2026-10-23. Status: Authorized by direct current user specification; creative acceptance pending.
+
+Decision: build only the first Motion V4 cinematic homepage hero on an isolated branch from the newest local `feat/v3-ux-motion-recovery` baseline. “The Journey Feels Touchable” adds immediate 1.3–1.6 second entrance choreography and permits justified hero typography/composition changes, plus a shorter scroll comparison and continuous bronze route handoff. Existing identity, localized business functionality, static/reduced/touch/WebGL fallbacks and noindex remain required. Reason: the opening should communicate motion before scrolling. Consequences: this new task supersedes older hero timing/composition constraints within its bounded scope; it does not authorize unrelated pages, mega menu, galleries, builder, site-wide rollout or publication. Root model metadata is unverified; one explicitly selected Sol implements and verifies, same Root independently reviews without inventing model attestation.
+
+Evidence: [TL-004 specification](tasks/TL-004-motion-v4-hero.md). User acceptance of this prototype is required before the next milestone.
+
 ## TL-DEC-011 — Persistent Astra/Sol orchestration
 
 Date: 2026-10-04. Status: Authorized by the current TL-SYS-002 user request.
