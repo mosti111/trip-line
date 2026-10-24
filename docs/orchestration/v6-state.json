@@ -39,6 +39,7 @@
     "scheduledAt": "2026-10-24T21:50:00Z",
     "automationId": "resume-trip-line-v6-after-limit-reset",
     "checkpoint": "P4 in-progress checkpoint, not phase completion",
-    "next": "Read checkpoint report; inspect latest long task and evidence completeness; finish P4 verification/artifact manifest/report. No feature expansion or publication."
+    "next": "Read checkpoint report; inspect latest long task and evidence completeness; finish P4 verification/artifact manifest/report. No feature expansion or publication.",
+    "sha": "af3981aeb3ebfe65fabb201329cf76252fc7d2aa"
   }
 }
