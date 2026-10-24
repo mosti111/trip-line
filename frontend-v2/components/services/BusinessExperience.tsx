@@ -13,7 +13,7 @@ export function BusinessExperience({ locale }: { locale: Locale }) {
       <Link className="rb-back" href={href(locale, 'services')}>{ui.services[locale]}<ArrowUpRight size={17}/></Link>
       <span className="rb-kicker">{ui.business[locale]} / TRIP LINE</span>
       <div className="rb-arrival-copy"><h1>{t('Bring people. Begin with purpose.','اجمعوا الناس حول هدف.','İnsanları bir amaçla buluşturun.')[locale]}</h1><div><p>{t('Corporate travel, events, camps, conferences and training — coordinated around what you came to do.','سفر الشركات والفعاليات والمخيمات والمؤتمرات والتدريب، بتنسيق يناسب ما جئتم لتحقيقه.','Kurumsal seyahat, etkinlik, kamp, konferans ve eğitim — geliş amacınıza göre koordine edilir.')[locale]}</p><a className="journey-action journey-action-primary" href="#business-objectives">{journeyPlan(locale)}<ArrowUpRight size={18}/></a></div></div>
-      <div className="rb-hero-photo photo"><Image src="/media/business.jpg" alt={ui.business[locale]} fill sizes="100vw" preload quality={85}/></div>
+      <div className="rb-hero-photo photo"><Image src="/media/corporate-v5.jpg" alt={ui.business[locale]} fill sizes="100vw" preload quality={85}/></div>
       <div className="rb-hero-caption"><span>{t('PEOPLE / PLACE / PURPOSE','الأشخاص / المكان / الهدف','İNSANLAR / MEKÂN / AMAÇ')[locale]}</span><span>TÜRKİYE</span></div>
     </div></section>
     <BusinessBrief locale={locale}>

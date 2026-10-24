@@ -347,3 +347,55 @@ html[lang=ar] .rh-arrival>.flight-trace{left:-75%;width:100%;max-width:none}
 
 .rh-world-copy{position:relative;z-index:1;background:#F8EFE0}
 .rh-world-copy .rh-world-controls{position:relative;background:#F8EFE0}
+
+/* V5 editorial acts: paper, source-attributed proof, clear route and invitation. */
+.travel-site .rh-story{padding-block:90px;background:#F8EFE0}
+.travel-site .rh-story-layout{grid-template-columns:4fr 6fr;gap:8%}
+.travel-site .rh-story-image{height:470px}
+.travel-site .rh-story-copy h2,.travel-site .rh-proof h2{font-size:clamp(42px,4.8vw,70px)}
+.travel-site .rh-proof{padding-block:85px}
+.travel-site .rh-proof-layout{gap:75px}
+.travel-site .rh-differentiators h3{font-size:30px}
+.travel-site .rh-numbers{padding-block:80px 65px}
+.travel-site .rh-figure-route{min-height:0;padding-block:65px 30px;align-items:center}
+.travel-site .rh-figure{align-self:center;margin:0;font-weight:700}
+.travel-site .rh-figure strong{font-family:var(--display-type);font-weight:700}
+.travel-site .rh-services{padding-block:90px;background:#E4D7C1}
+.travel-site .rh-service-group-1{margin-top:40px}
+.travel-site .rh-service-group-2{margin-top:80px}
+.travel-site .rh-service-group>.photo{height:185px}
+.travel-site .rh-service-group h3{font-size:30px}
+.travel-site .rh-builder{padding-block:95px}
+.travel-site .rh-builder-layout{gap:8%}
+.travel-site .rh-builder-route{padding:32px;background:#F8EFE0;border-top:2px solid #C89039;min-width:0}
+.travel-site .rh-builder-route li>strong{font-family:var(--control-type);font-size:22px;font-weight:650}
+.travel-site .rh-beyond{padding-block:65px}
+.travel-site .rh-faq{padding-block:75px}
+.travel-site .rh-faq h2{font-size:clamp(38px,4.3vw,62px)}
+.travel-site .rh-final{min-height:700px;padding-block:100px 120px}
+.travel-site .rh-final h2{font-size:clamp(55px,6.2vw,92px);max-width:980px}
+.rh-final>.rh-wrap{position:relative;z-index:1}
+.rh-final>.flight-trace{left:20%;width:80%;opacity:.8}
+html[lang=ar] .rh-final>.flight-trace{left:-65%;width:100%}
+@media(max-width:1023px){.travel-site .rh-proof-layout{gap:35px}.travel-site .rh-builder-layout{gap:35px}.travel-site .rh-builder-route{padding:24px}}
+@media(max-width:767px){
+ .travel-site .rh-story{padding-block:60px}
+ .travel-site .rh-story-image{height:290px;margin-bottom:30px}
+ .travel-site .rh-story-copy h2,.travel-site .rh-proof h2{font-size:39px}
+ .travel-site .rh-proof{padding-block:55px}
+ .travel-site .rh-numbers{padding-block:55px}
+ .travel-site .rh-figure-route{padding-block:35px 20px;row-gap:35px}
+ .travel-site .rh-figure strong{font-size:clamp(31px,9vw,42px)}
+ .travel-site .rh-services{padding-block:60px}
+ .travel-site .rh-service-group-1,.travel-site .rh-service-group-2{margin-top:0}
+ .travel-site .rh-service-group>.photo{height:140px}
+ .travel-site .rh-builder{padding-block:65px}
+ .travel-site .rh-builder-route{padding:22px;margin-top:30px}
+ .travel-site .rh-builder-route li>strong{font-size:21px}
+ .travel-site .rh-beyond{padding-block:50px}
+ .travel-site .rh-faq{padding-block:55px}
+ .travel-site .rh-faq h2{font-size:39px}
+ .travel-site .rh-final{min-height:650px;padding-block:80px 120px}
+ .travel-site .rh-final h2{font-size:48px}
+ .rh-final>.flight-trace{left:20%;width:100%}
+}

@@ -1,5 +1,7 @@
 'use client';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { motion } from 'motion/react';
+import { useTravel } from '../travel/SiteShell';
 import { ArrowUp, ArrowDown, X, ArrowUpRight } from 'lucide-react';
 import { href, t, ui, type Locale } from '@/lib/i18n';
 import { journeyCopy as copy } from '@/lib/journey';
@@ -10,6 +12,7 @@ import { Photo } from '../travel/Sections';
 import '@/styles/recovery-home.css';
 
 export function JourneyBuilder({ locale, initial = [], chapter = '12', title }: { locale: Locale; initial?: string[]; chapter?: string; title?: string }) {
+  const { calm } = useTravel();
   const { destinations: selected, journeyType: service, addDestination, removeDestination, moveDestination, setJourneyType } = useJourney();
   const [dates, setDates] = useState('');
   const [flexible, setFlexible] = useState(true);
@@ -40,7 +43,7 @@ export function JourneyBuilder({ locale, initial = [], chapter = '12', title }: 
       </div>
       <div className="rh-builder-route"><div className="rh-builder-preview" aria-hidden="true"><Photo file={selected.length ? turkishPlaces.find(place => place.slug === selected[selected.length - 1])!.image : 'turkiye.jpg'}/><span>{String(selected.length).padStart(2, '0')}</span></div><h3>{copy.selected[locale]}</h3>
         <p className="sr-only" role="status">{copy.selected[locale]}: {selected.length ? selected.map(id => turkishPlaces.find(place => place.slug === id)!.name[locale]).join(' → ') : copy.empty[locale]}</p>
-        {selected.length ? <ol>{selected.map((id, index) => { const name = turkishPlaces.find(place => place.slug === id)!.name[locale]; return <li key={id} data-stop={id}><span className="rh-stop-number">{String(index + 1).padStart(2, '0')}</span><strong>{name}</strong><div><button type="button" data-move="-1" disabled={index === 0} aria-label={`${copy.earlier[locale]}: ${name}`} onClick={() => move(id, -1)}><ArrowUp size={16}/></button><button type="button" data-move="1" disabled={index === selected.length - 1} aria-label={`${copy.later[locale]}: ${name}`} onClick={() => move(id, 1)}><ArrowDown size={16}/></button><button type="button" aria-label={`${copy.remove[locale]}: ${name}`} onClick={() => remove(id)}><X size={16}/></button></div></li>; })}</ol> : <p className="rh-builder-empty">{copy.empty[locale]}</p>}
+        {selected.length ? <ol>{selected.map((id, index) => { const name = turkishPlaces.find(place => place.slug === id)!.name[locale]; return <motion.li layout={calm ? false : 'position'} transition={{duration:calm ? 0 : .28,ease:[.22,1,.36,1]}} key={id} data-stop={id}><span className="rh-stop-number">{String(index + 1).padStart(2, '0')}</span><strong>{name}</strong><div><button type="button" data-move="-1" disabled={index === 0} aria-label={`${copy.earlier[locale]}: ${name}`} onClick={() => move(id, -1)}><ArrowUp size={16}/></button><button type="button" data-move="1" disabled={index === selected.length - 1} aria-label={`${copy.later[locale]}: ${name}`} onClick={() => move(id, 1)}><ArrowDown size={16}/></button><button type="button" aria-label={`${copy.remove[locale]}: ${name}`} onClick={() => remove(id)}><X size={16}/></button></div></motion.li>; })}</ol> : <p className="rh-builder-empty">{copy.empty[locale]}</p>}
         <input type="hidden" name="dates" value={flexible ? flexibleLabel : dates}/><input type="hidden" name="journey" value={selected.join(',')}/><input type="hidden" name="destination" value={selected[0] || ''}/>
         <div className="rh-builder-summary" aria-live="polite"><span>{services.find(item => item.slug === service)!.title[locale]}</span><span>{dates || (flexible ? flexibleLabel : ui.dates[locale])}</span>{travelers && <span>{ui.travelers[locale]}: {travelers}</span>}</div>
         <button className="journey-action journey-action-primary" type="submit">{copy.plan[locale]}<ArrowUpRight size={18}/></button><p className="rh-source">{ui.formBody[locale]}</p>
