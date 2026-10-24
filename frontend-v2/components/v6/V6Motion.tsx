@@ -44,21 +44,37 @@ export function V6Motion() {
         const rtl=getComputedStyle(root).direction==='rtl';const lane=rtl?340:1100;const approach=x+(rtl?-190:190);
         return `M${rtl?0:1440} 0 C${lane} 140 ${lane} ${y-40} ${approach} ${y-50} S${x} ${y+70} ${x} ${y}`;
       };
-      const calibrateRoutes=()=>{if(finalPath)finalPath.setAttribute('d',finalRoute());if(processPath)processPath.setAttribute('d',processRoute());};
+      type RawRoute = ReturnType<typeof MotionPathPlugin.getRawPath>;
+      const measuredRoutes=new WeakMap<SVGPathElement,{sx:number;sy:number;shape:string;raw:RawRoute}>();
+      const measureRoute=(path:SVGPathElement)=>{
+        const svg=path.ownerSVGElement;if(!svg)return;
+        const bounds=svg.getBoundingClientRect(),view=svg.viewBox.baseVal;
+        if(!bounds.width||!bounds.height)return;
+        const shape=path.getAttribute('d')||'';
+        const previous=measuredRoutes.get(path);
+        const raw=previous?.shape===shape?previous.raw:MotionPathPlugin.getRawPath(shape);
+        if(previous?.raw!==raw)MotionPathPlugin.cacheRawPathMeasurements(raw,24);
+        measuredRoutes.set(path,{sx:bounds.width/view.width,sy:bounds.height/view.height,shape,raw});
+      };
+      const calibrateRoutes=()=>{
+        if(finalPath)finalPath.setAttribute('d',finalRoute());
+        if(processPath)processPath.setAttribute('d',processRoute());
+        root.querySelectorAll<SVGPathElement>('.flight-trace [data-flight-path]').forEach(path=>{if(path.parentElement?.querySelector('[data-flight-plane]'))measureRoute(path);});
+      };
       // The route may stretch to a portrait section; the brand aircraft must not.
       const placePlane=(plane:Element,path:SVGPathElement,progress:number)=>{
-        const svg=path.ownerSVGElement;if(!svg)return;
-        const bounds=svg.getBoundingClientRect();const view=svg.viewBox.baseVal;
-        if(!bounds.width||!bounds.height)return;
-        const sx=bounds.width/view.width,sy=bounds.height/view.height,length=path.getTotalLength();
-        const point=path.getPointAtLength(length*progress);
-        const before=path.getPointAtLength(Math.max(0,length*progress-1));
-        const after=path.getPointAtLength(Math.min(length,length*progress+1));
+        const route=measuredRoutes.get(path);if(!route)return;
+        const {sx,sy,raw}=route;
+        const cursor=Math.max(0,Math.min(1,progress));
+        const point=MotionPathPlugin.getPositionOnPath(raw,cursor);
+        const before=MotionPathPlugin.getPositionOnPath(raw,Math.max(0,cursor-.001));
+        const after=MotionPathPlugin.getPositionOnPath(raw,Math.min(1,cursor+.001));
         const angle=Math.atan2((after.y-before.y)*sy,(after.x-before.x)*sx)+Math.PI/4;
         const cosine=Math.cos(angle),sine=Math.sin(angle);
         gsap.set(plane,{attr:{transform:`matrix(${cosine/sx} ${sine/sy} ${-sine/sx} ${cosine/sy} ${point.x} ${point.y})`},opacity:1});
       };
       const context = gsap.context(() => {
+        calibrateRoutes();
         if(finalPath)gsap.set(finalPath,{attr:{d:finalRoute()}});
         if(processPath)gsap.set(processPath,{attr:{d:processRoute()}});
         if (arrival && !entered.current) {
@@ -130,12 +146,18 @@ export function V6Motion() {
       }, root);
       // Recompute on layout/image changes without a continuous render loop.
       let frame = 0;
+      let refreshTimer = 0;
       let pendingRefresh=false;
       let width=root.clientWidth,height=root.clientHeight;
       const refreshWhenIdle=()=>{
         frame=0;
-        if(!pendingRefresh||ScrollTrigger.isScrolling())return;
-        pendingRefresh=false;ScrollTrigger.refresh();
+        clearTimeout(refreshTimer);
+        // scrollEnd can fire inside a wheel update; never refresh in that stack.
+        if(!pendingRefresh)return;
+        refreshTimer=window.setTimeout(()=>{
+          if(!pendingRefresh||ScrollTrigger.isScrolling())return;
+          pendingRefresh=false;ScrollTrigger.refresh();
+        },160);
       };
       const resize = new ResizeObserver(([entry]) => {
         const next=entry.contentRect;
@@ -146,7 +168,7 @@ export function V6Motion() {
       resize.observe(root);
       ScrollTrigger.addEventListener('refreshInit',calibrateRoutes);
       ScrollTrigger.addEventListener('scrollEnd',refreshWhenIdle);
-      dispose = () => { removeIntroListeners(); ScrollTrigger.removeEventListener('scrollEnd',refreshWhenIdle);ScrollTrigger.removeEventListener('refreshInit',calibrateRoutes);cancelAnimationFrame(frame); resize.disconnect(); context.revert(); };
+      dispose = () => { removeIntroListeners(); ScrollTrigger.removeEventListener('scrollEnd',refreshWhenIdle);ScrollTrigger.removeEventListener('refreshInit',calibrateRoutes);cancelAnimationFrame(frame);clearTimeout(refreshTimer); resize.disconnect(); context.revert(); };
     });
     return () => { cancelled = true; dispose(); };
   }, [calm,small]);

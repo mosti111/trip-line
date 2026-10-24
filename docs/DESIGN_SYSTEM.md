@@ -1,3 +1,5 @@
+Current V6 retains the V5 Manrope/Noto Sans Arabic, source-faithful stacked identity and exact teal/ivory/paper/sand/bronze palette. Motion ownership and current proof are in [TL-007 delivery](reports/TL-007-v6.md); this is engineering verification, not user creative approval.
+
 Current V5: Manrope/Noto Sans Arabic, exact teal/ivory/paper/sand/bronze tokens, source-faithful SVG logo and modular thin Flight Trace. [TL-006](tasks/TL-006-v5.md) supersedes earlier serif/sculpture composition. Historical rationale follows.
 
 # Design system

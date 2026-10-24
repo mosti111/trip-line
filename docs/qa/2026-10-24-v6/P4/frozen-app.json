@@ -1,5 +1,5 @@
 {
-  "build": "EBigX6N_DFk5KTM0gu4qh",
+  "build": "K0DVtH_TRdqIu8z6rhnip",
   "baseP3": "81010dfce9d1daae942b440feca4a20695aba08a",
   "core": {
     "typecheck": "passed",
@@ -34,11 +34,12 @@
     },
     {
       "path": "frontend-v2/components/v6/V6Motion.tsx",
-      "sha256": "c73ea9b4ba4a84d53cbd5ef258ee797a53a2b144eb48834fb69fc6542c269acb"
+      "sha256": "822c27f3d138fdb670817b530daf2271ccb59f0f50a1a6cca8393b4d728d52d2"
     },
     {
       "path": "frontend-v2/styles/v6-motion.css",
       "sha256": "e69c329d1b8b4c9fbde751fcc01bf1e496442e7944fe84abfd97122559095aea"
     }
-  ]
+  ],
+  "verificationStatus": "Core checks and release production public/V3/matrix/accessibility checks passed"
 }

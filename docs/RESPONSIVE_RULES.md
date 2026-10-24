@@ -1,3 +1,5 @@
+Current V6 engineering verification: six required sizes × EN/TR/AR × normal/reduced pass, with selected internal-page, coarse-input, short-height, no-JS and SaveData checks. Native scrolling at all sizes; lighter phone depth and geographic orientation retained. Exact coverage/limitations: [TL-007 delivery](reports/TL-007-v6.md).
+
 Current V5 uses native scrolling at every width and no height-dependent hero pin. Final six-size EN/TR/AR matrix is in [TL-006 report](reports/TL-006-v5.md). Keep the mobile/RTL/accessibility principles below; historical Lenis/3D eligibility describes superseded homepage implementation.
 
 # Trip Line responsive rules

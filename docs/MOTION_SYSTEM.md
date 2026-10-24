@@ -1,3 +1,5 @@
+Current V6 uses native scrolling, scoped GSAP/ScrollTrigger/MotionPath for scene motion, Motion for UI state/layout and CSS for bounded interaction. No new scroller, mandatory WebGL or runtime dependency. [V6 ownership/timings](qa/2026-10-24-v6/MOTION_OWNERSHIP.md) and [delivery](reports/TL-007-v6.md) supersede conflicting historical choreography below.
+
 Current V5: native scroll at all breakpoints; no active Lenis, long hero pin or mandatory homepage Three scene. Read [TL-006](tasks/TL-006-v5.md), [solo workflow](orchestration/TRIP_LINE_V5_SOLO.md) and [verification](reports/TL-006-v5.md). CSS owns finite arrival, GSAP selected direct route strokes, Motion interactions/list layout. Older implementation snapshots below remain historical.
 
 # Trip Line motion system

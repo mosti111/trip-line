@@ -53,5 +53,10 @@ movement. Encoding rate is never used as browser frame-rate evidence.
 P4 checkpoint update: selected Atlas camera translates within6px horizontal/3px
 vertical and scales1.02 after300ms over460ms; reduced/static remains still.
 Process route is calibrated to actual step centers, preserving RTL reading order.
-Resize refresh is deferred until scrollEnd when required; latest trace still has
-one83ms long task and is pending analysis. P4 is paused, not complete.
+Resize refresh queues a160ms idle check after scrollEnd and never runs in its wheel
+callback. Flight geometry uses existing MotionPathPlugin pure-JS measurements and
+reuses unchanged path data; scroll updates perform no native SVG path sampling.
+Final build K0DVtH_TRdqIu8z6rhnip: zero observed LongTasks; JavaScript maximum
+10.397ms. Earlier native lookup-table attempt regressed and is preserved separately.
+P4 engineering verification is complete; creative acceptance and field performance
+certification remain separate. See P4/release/trace-analysis.json for scoped evidence.

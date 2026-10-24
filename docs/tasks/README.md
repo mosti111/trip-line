@@ -1,4 +1,7 @@
-Current authorized scope: [TL-007 V6 Motion Maxxed Türkiye](TL-007-v6.md), all five phases sequentially with one implementation agent. Prior scopes below are historical.
+Current delivered scope: [TL-007 V6 Motion Maxxed Türkiye](TL-007-v6.md), all five
+phases engineering verified 25 October 2026 by one implementation agent. User
+creative acceptance pending; no follow-up or publication started. Prior scopes
+below are historical.
 
 Current authorized scope: [TL-006 V5 full reconstruction](TL-006-v5.md), superseding older bounded V4 scope for this task.
 

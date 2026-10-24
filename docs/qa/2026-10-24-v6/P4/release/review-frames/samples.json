@@ -1,0 +1,65 @@
+{
+  "method": "Unmodified frames decoded from natural complete-scroll recordings; no animation or timing altered",
+  "samples": [
+    {
+      "source": "../desktop-wheel.webm",
+      "durationSeconds": 33.72,
+      "timeSeconds": 1.686,
+      "file": "desktop-5.png"
+    },
+    {
+      "source": "../desktop-wheel.webm",
+      "durationSeconds": 33.72,
+      "timeSeconds": 8.43,
+      "file": "desktop-25.png"
+    },
+    {
+      "source": "../desktop-wheel.webm",
+      "durationSeconds": 33.72,
+      "timeSeconds": 16.86,
+      "file": "desktop-50.png"
+    },
+    {
+      "source": "../desktop-wheel.webm",
+      "durationSeconds": 33.72,
+      "timeSeconds": 25.29,
+      "file": "desktop-75.png"
+    },
+    {
+      "source": "../desktop-wheel.webm",
+      "durationSeconds": 33.72,
+      "timeSeconds": 32.034,
+      "file": "desktop-95.png"
+    },
+    {
+      "source": "../arabic-touch.webm",
+      "durationSeconds": 36.4,
+      "timeSeconds": 1.82,
+      "file": "arabic-touch-5.png"
+    },
+    {
+      "source": "../arabic-touch.webm",
+      "durationSeconds": 36.4,
+      "timeSeconds": 9.1,
+      "file": "arabic-touch-25.png"
+    },
+    {
+      "source": "../arabic-touch.webm",
+      "durationSeconds": 36.4,
+      "timeSeconds": 18.2,
+      "file": "arabic-touch-50.png"
+    },
+    {
+      "source": "../arabic-touch.webm",
+      "durationSeconds": 36.4,
+      "timeSeconds": 27.299999999999997,
+      "file": "arabic-touch-75.png"
+    },
+    {
+      "source": "../arabic-touch.webm",
+      "durationSeconds": 36.4,
+      "timeSeconds": 34.58,
+      "file": "arabic-touch-95.png"
+    }
+  ]
+}

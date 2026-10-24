@@ -1,0 +1,1081 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3006",
+  "startedAt": "2026-10-24T21:58:16.429Z",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1920,
+      "height": 1080,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 379.1015625,
+        "y": 376.7500004174974,
+        "targetX": 379.1015625,
+        "targetY": 376.75
+      },
+      "aircraft": {
+        "width": 37.2642822265625,
+        "height": 37.3970947265625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 322,
+          "y": -4538.249999046326
+        },
+        "end": {
+          "x": 1238.6562377929688,
+          "y": -4538.249999046326
+        },
+        "first": {
+          "x": 322,
+          "y": -4538.25
+        },
+        "last": {
+          "x": 1238.65625,
+          "y": -4538.25
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 142.4765625,
+        "y": 16534.593736436633,
+        "targetX": 142.4765625,
+        "targetY": 16534.59375
+      },
+      "aircraft": {
+        "width": 37.4111328125,
+        "height": 37.53118896484375
+      },
+      "processGeometry": {
+        "start": {
+          "x": 85.35937589950859,
+          "y": 11731.203125953674
+        },
+        "end": {
+          "x": 997.5312339337668,
+          "y": 11731.203125953674
+        },
+        "first": {
+          "x": 85.359375,
+          "y": 11731.203125
+        },
+        "last": {
+          "x": 997.53125,
+          "y": 11731.203125
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "height": 768,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 124.1640625,
+        "y": -109.78125,
+        "targetX": 124.1640625,
+        "targetY": -109.78125
+      },
+      "aircraft": {
+        "width": 37.60626220703125,
+        "height": 37.70684814453125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 67.06250007728735,
+          "y": -4655.140624046326
+        },
+        "end": {
+          "x": 726.3125041643779,
+          "y": -4655.140624046326
+        },
+        "first": {
+          "x": 67.0625,
+          "y": -4655.140625
+        },
+        "last": {
+          "x": 726.3125,
+          "y": -4655.140625
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 112.8984375,
+        "y": -101.87501356336804,
+        "targetX": 112.8984375,
+        "targetY": -101.875
+      },
+      "aircraft": {
+        "width": 37.921630859375,
+        "height": 37.9786376953125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 55.79687433511019,
+          "y": -4853.421874046326
+        },
+        "end": {
+          "x": 559.3906197261811,
+          "y": -4853.421874046326
+        },
+        "first": {
+          "x": 55.796875,
+          "y": -4853.421875
+        },
+        "last": {
+          "x": 559.390625,
+          "y": -4853.421875
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 101.10155932108562,
+        "y": 17493.343738497628,
+        "targetX": 101.1015625,
+        "targetY": 17493.34375
+      },
+      "aircraft": {
+        "width": 38.018096923828125,
+        "height": 38.0533447265625
+      },
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 116.24218355814617,
+        "y": -735.140638563368,
+        "targetX": 116.2421875,
+        "targetY": -735.140625
+      },
+      "aircraft": {
+        "width": 37.642333984375,
+        "height": 37.73883056640625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 59.140624107718466,
+          "y": -5462.640624046326
+        },
+        "end": {
+          "x": 608.9531226205826,
+          "y": -5462.640624046326
+        },
+        "first": {
+          "x": 59.140625,
+          "y": -5462.640625
+        },
+        "last": {
+          "x": 608.953125,
+          "y": -5462.640625
+        }
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1920,
+      "height": 1080,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 389.5703125,
+        "y": 349.65623643663196,
+        "targetX": 389.5703125,
+        "targetY": 349.65625
+      },
+      "aircraft": {
+        "width": 37.2642822265625,
+        "height": 37.3970947265625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 322,
+          "y": -4270.749999046326
+        },
+        "end": {
+          "x": 1238.6562377929688,
+          "y": -4270.749999046326
+        },
+        "first": {
+          "x": 322,
+          "y": -4270.75
+        },
+        "last": {
+          "x": 1238.65625,
+          "y": -4270.75
+        }
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 152.9453125,
+        "y": 166.96872965494788,
+        "targetX": 152.9453125,
+        "targetY": 166.96875
+      },
+      "aircraft": {
+        "width": 37.4111328125,
+        "height": 37.53118896484375
+      },
+      "processGeometry": {
+        "start": {
+          "x": 85.35937589950859,
+          "y": -4433.046874046326
+        },
+        "end": {
+          "x": 997.5312339337668,
+          "y": -4433.046874046326
+        },
+        "first": {
+          "x": 85.359375,
+          "y": -4433.046875
+        },
+        "last": {
+          "x": 997.53125,
+          "y": -4433.046875
+        }
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 134.6328125,
+        "y": -123.29688178168408,
+        "targetX": 134.6328125,
+        "targetY": -123.296875
+      },
+      "aircraft": {
+        "width": 37.60626220703125,
+        "height": 37.70684814453125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 67.06250007728735,
+          "y": -4662.390624046326
+        },
+        "end": {
+          "x": 726.3125041643779,
+          "y": -4662.390624046326
+        },
+        "first": {
+          "x": 67.0625,
+          "y": -4662.390625
+        },
+        "last": {
+          "x": 726.3125,
+          "y": -4662.390625
+        }
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 123.3671875,
+        "y": -115.93752034505206,
+        "targetX": 123.3671875,
+        "targetY": -115.9375
+      },
+      "aircraft": {
+        "width": 37.921630859375,
+        "height": 37.9786376953125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 55.79687433511019,
+          "y": -4801.812499046326
+        },
+        "end": {
+          "x": 559.3906197261811,
+          "y": -4801.812499046326
+        },
+        "first": {
+          "x": 55.796875,
+          "y": -4801.8125
+        },
+        "last": {
+          "x": 559.390625,
+          "y": -4801.8125
+        }
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 111.57031567891438,
+        "y": -571.3593580457899,
+        "targetX": 111.5703125,
+        "targetY": -571.359375
+      },
+      "aircraft": {
+        "width": 38.018096923828125,
+        "height": 38.0533447265625
+      },
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 844,
+      "height": 390,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 126.71093326144748,
+        "y": -749.500020345052,
+        "targetX": 126.7109375,
+        "targetY": -749.5
+      },
+      "aircraft": {
+        "width": 37.642333984375,
+        "height": 37.73883056640625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 59.140624107718466,
+          "y": -5435.374999046326
+        },
+        "end": {
+          "x": 608.9531226205826,
+          "y": -5435.374999046326
+        },
+        "first": {
+          "x": 59.140625,
+          "y": -5435.375
+        },
+        "last": {
+          "x": 608.953125,
+          "y": -5435.375
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "height": 1080,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 1554.4921875,
+        "y": 373.7499828338623,
+        "targetX": 1554.4921875,
+        "targetY": 373.75
+      },
+      "aircraft": {
+        "width": 37.2642822265625,
+        "height": 37.3970947265625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 1598,
+          "y": -4397.796874046326
+        },
+        "end": {
+          "x": 681.3437622070312,
+          "y": -4397.796874046326
+        },
+        "first": {
+          "x": 1598,
+          "y": -4397.796875
+        },
+        "last": {
+          "x": 681.34375,
+          "y": -4397.796875
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 1311.1171875,
+        "y": 16267.578104654947,
+        "targetX": 1311.1171875,
+        "targetY": 16267.578125
+      },
+      "aircraft": {
+        "width": 37.4111328125,
+        "height": 37.53118896484375
+      },
+      "processGeometry": {
+        "start": {
+          "x": 1354.6406470616657,
+          "y": 11584.250000953674
+        },
+        "end": {
+          "x": 442.46876606623334,
+          "y": 11584.250000953674
+        },
+        "first": {
+          "x": 1354.640625,
+          "y": 11584.25
+        },
+        "last": {
+          "x": 442.46875,
+          "y": 11584.25
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "height": 768,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 913.4296875,
+        "y": -149.95313856336804,
+        "targetX": 913.4296875,
+        "targetY": -149.953125
+      },
+      "aircraft": {
+        "width": 37.60626220703125,
+        "height": 37.70684814453125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 956.9375162506104,
+          "y": -4619.921874046326
+        },
+        "end": {
+          "x": 297.68749583562214,
+          "y": -4619.921874046326
+        },
+        "first": {
+          "x": 956.9375,
+          "y": -4619.921875
+        },
+        "last": {
+          "x": 297.6875,
+          "y": -4619.921875
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 668.6953125,
+        "y": -145.640625,
+        "targetX": 668.6953125,
+        "targetY": -145.640625
+      },
+      "aircraft": {
+        "width": 37.921630859375,
+        "height": 37.9786376953125
+      },
+      "processGeometry": {
+        "start": {
+          "x": 712.2031412506103,
+          "y": -4790.390624046326
+        },
+        "end": {
+          "x": 208.60938027381897,
+          "y": -4790.390624046326
+        },
+        "first": {
+          "x": 712.203125,
+          "y": -4790.390625
+        },
+        "last": {
+          "x": 208.609375,
+          "y": -4790.390625
+        }
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 302.49220275878906,
+        "y": 17256.265618218316,
+        "targetX": 302.4921875,
+        "targetY": 17256.265625
+      },
+      "aircraft": {
+        "width": 38.018096923828125,
+        "height": 38.0533447265625
+      },
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 844,
+      "height": 390,
+      "reduced": false,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": {
+        "x": 741.3515679253472,
+        "y": -780,
+        "targetX": 741.3515625,
+        "targetY": -780
+      },
+      "aircraft": {
+        "width": 37.642333984375,
+        "height": 37.73883056640625
+      },
+      "processGeometry": {
+        "start": {
+          "x": 784.8593905735016,
+          "y": -5424.749999046326
+        },
+        "end": {
+          "x": 235.04687737941742,
+          "y": -5424.749999046326
+        },
+        "first": {
+          "x": 784.859375,
+          "y": -5424.75
+        },
+        "last": {
+          "x": 235.046875,
+          "y": -5424.75
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "height": 1080,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 1920,
+      "height": 1080,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "height": 900,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "tr",
+      "width": 844,
+      "height": 390,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "height": 1080,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    },
+    {
+      "locale": "ar",
+      "width": 844,
+      "height": 390,
+      "reduced": true,
+      "overflow": false,
+      "brokenImages": 0,
+      "finalRoute": null,
+      "aircraft": null,
+      "processGeometry": null
+    }
+  ],
+  "errors": [],
+  "recordings": [
+    {
+      "kind": "complete-desktop-wheel",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\page@15da63246d855bbf0ae55c776c0a6edf.webm",
+      "end": {
+        "y": 16354,
+        "max": 16354
+      }
+    },
+    {
+      "kind": "complete-Arabic-mobile-menu-and-touch-scroll",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\page@376d6ed4a7162720dd8bd6cbb0c1fdd5.webm",
+      "end": {
+        "y": 17860,
+        "max": 17860
+      }
+    }
+  ],
+  "performance": {
+    "scope": "headless Chromium1440x900, real continuous wheel, video+trace enabled; interval data is not FPS or field-device certification",
+    "samples": 965,
+    "frameIntervalsMs": {
+      "median": 33.29999999999927,
+      "p95": 50.100000000000364,
+      "p99": 66.80000000000018,
+      "max": 266.59999999999854
+    },
+    "longTasks": [
+      {
+        "start": 18049.799999952316,
+        "duration": 268
+      }
+    ]
+  },
+  "browser": "153.0.8010.12",
+  "entrance": [
+    {
+      "state": "play",
+      "time": 1027.4000000953674
+    },
+    {
+      "state": "done",
+      "time": 2138.9000000953674
+    }
+  ],
+  "finishedAt": "2026-10-24T22:03:54.404Z",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\desktop-end.png",
+      "bytes": 578718,
+      "sha256": "36e77a3e403a38930fb5a20bb3dd18e46cdfba998d34becd03a1586b292fa8be"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\desktop-trace.json",
+      "bytes": 8796176,
+      "sha256": "4ad64fde2ef29f8193eb416b35c3dfb64b5ec989738d42a4df4ee4808576643d"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1024x768-motion.png",
+      "bytes": 927087,
+      "sha256": "ab216b98d8b5a69361b4a54a7bc92e0c20d34652161d738a458d772bfcfea239"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1024x768-reduced.png",
+      "bytes": 927153,
+      "sha256": "19f4265f875e33e2196fe01c42cfea8e5a5a0e0b2cd2fe80787650fe14e2dce9"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1440x900-motion.png",
+      "bytes": 1523808,
+      "sha256": "74ccdbf67a9b5002cfa9d3a7cd95b33d36f8127495d3ef19c3dd028d0cb2c615"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1440x900-reduced.png",
+      "bytes": 1523855,
+      "sha256": "80ea3ee44b00e6ca11301b63125ead22ea6edbda73abc4fd00b881414de9d572"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1920x1080-motion.png",
+      "bytes": 2355159,
+      "sha256": "d0cd1385a519315db0ed0270aed032d568f6330d43d2595845f606169fc597f0"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-1920x1080-reduced.png",
+      "bytes": 2359832,
+      "sha256": "4e94f5d2d80fb66cdb953f97e85645f9b765dea3baf4b3ec36fa98e587618363"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-390x844-motion.png",
+      "bytes": 369574,
+      "sha256": "1de9b13908f10b03e727a35a1573dd5cc3e63b6738b85be78a800be95eb8f382"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-390x844-reduced.png",
+      "bytes": 369663,
+      "sha256": "df6544436c798ca54f576959999cf5296542fe6a4b5cd13fdde86cf2cc31c82f"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-768x1024-motion.png",
+      "bytes": 866662,
+      "sha256": "5f684265a3c5b3a34556a215a3c7c44c975aa8eb14c074de0f46488b757a42fa"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-768x1024-reduced.png",
+      "bytes": 866837,
+      "sha256": "c27554a761ec0de9faa3ac017bf6b9771db8d448a1b1ae6d97df08e83ffac863"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-844x390-motion.png",
+      "bytes": 341215,
+      "sha256": "6b2017ae66fbc003c2d35a42ee4eef015f5d007efba9250b6f57acdfe1845719"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-ar-844x390-reduced.png",
+      "bytes": 341245,
+      "sha256": "16cfa0d29db6101fa24fb04c59d6076f12a071532322cd09ee457fe1a5382e52"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1024x768-motion.png",
+      "bytes": 887529,
+      "sha256": "fdf2b83477efcf95118eae6e9586661b23f6b4217adeffb164522bbf0aebccf7"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1024x768-reduced.png",
+      "bytes": 887759,
+      "sha256": "9e55ed761d4890cd041ab6f13d72db4b950c61d9aeb61c524d6fbb30e16310e8"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1440x900-motion.png",
+      "bytes": 1465944,
+      "sha256": "fb65030967d36bcd7f710970a1d38565b8823f53ed0eee27b73ef2aa0b522d4e"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1440x900-reduced.png",
+      "bytes": 1465920,
+      "sha256": "1e705b87611d5bc6783952e29839515cbeefa8177a9cc66cbb08aa9146bfc92e"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1920x1080-motion.png",
+      "bytes": 2273486,
+      "sha256": "35c2e50021133b8bcb2824960b5d258c31f13fc3340e15bed9c2bd6c2a8da049"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-1920x1080-reduced.png",
+      "bytes": 2278351,
+      "sha256": "2f80097b6bb5605bcce21c69df643e7aadac53eabeb3be067253bfb6da3ae7d4"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-390x844-motion.png",
+      "bytes": 332324,
+      "sha256": "760bbebf5f2076a215616177a203acafb934d3f85060fffc1c04dfbbc517e8e0"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-390x844-reduced.png",
+      "bytes": 332257,
+      "sha256": "093406b0bff1b60e3ab9bcef2b73857c53a70b478c5b6e10fbeb5a64b6f061e9"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-768x1024-motion.png",
+      "bytes": 821606,
+      "sha256": "99d5e1c4ddd85ac2c426100ca8979511bfc3cdfa7c5acefd331cc8ab58cc58af"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-768x1024-reduced.png",
+      "bytes": 822197,
+      "sha256": "3bbe6679ce9e4e5de43547043cbaf981aa2d6cb717a76298b0bc206d9a4d879b"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-844x390-motion.png",
+      "bytes": 338714,
+      "sha256": "d0a6c8fed327660b3c5f8bd968532a30f3d56adda326ded80568382347ae953b"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-en-844x390-reduced.png",
+      "bytes": 338813,
+      "sha256": "c474a64624144544b91ed1df237354d51866165df8a7a1323d47bd403ef0cda6"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-full-ar-1440.png",
+      "bytes": 7700819,
+      "sha256": "3ba9a1ccb9b579b12ec7290d8188c676b57c066abeda0407aca552a1311a25a5"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-full-ar-390.png",
+      "bytes": 2808841,
+      "sha256": "01d7e105244006fac073687cadb8b0c9afec0f35289ce970cdb382997252e6f6"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-full-en-1440.png",
+      "bytes": 7837372,
+      "sha256": "87f03fbaa1212429c65389a860ef1fb1a30d9ce7f9d0127c21b9d96d53517bc3"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-full-en-390.png",
+      "bytes": 2842383,
+      "sha256": "dbc33f8e37924af4f3a3d756df34b40a95426f85f0c3d0689b3e78843bb31bb5"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1024x768-motion.png",
+      "bytes": 896011,
+      "sha256": "65e6886a003c5bef0e4294024d925d2cd4134defaf98fbce616e9cb8cbb40d33"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1024x768-reduced.png",
+      "bytes": 896024,
+      "sha256": "22b89563e3d41716eddef14ba391e85878adbdd051c0840af3c52638b6b2d5bd"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1440x900-motion.png",
+      "bytes": 1476565,
+      "sha256": "610aa5098bb183ec626381e4e4e04c0fe108751ddd9173757b3c077429063724"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1440x900-reduced.png",
+      "bytes": 1476799,
+      "sha256": "8ff78c6733d8e412908968084d2de7dcb9d2ba0e97c70ba5c5294a5a11ded318"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1920x1080-motion.png",
+      "bytes": 2283030,
+      "sha256": "13661d6ac91c3d5734f8fec8d97c023812581a39b5dc5408c2f48c2881e56b16"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-1920x1080-reduced.png",
+      "bytes": 2287471,
+      "sha256": "b0424430719e104e591b2cd7449920b9e990c5a216dabe992a0c798fdb2b2d5f"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-390x844-motion.png",
+      "bytes": 339378,
+      "sha256": "506bd473b8c40e660c5e49392253d920918057a67919845a381f8c5c1eb8593c"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-390x844-reduced.png",
+      "bytes": 339350,
+      "sha256": "71992cb31e1d5c3162d47c0ad795b2d10ea6e2c797ccf1963aaa0e86f9760726"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-768x1024-motion.png",
+      "bytes": 827062,
+      "sha256": "e9b54bd3fce13432658c933dd9af7dcda67cb52bec28a24bfab5fe43a7c08130"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-768x1024-reduced.png",
+      "bytes": 827516,
+      "sha256": "c74f0e4307728e6aa36e6bc7fa15fd0cc981d026190f430269fc87ce047ace68"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-844x390-motion.png",
+      "bytes": 343666,
+      "sha256": "b98466d985ac2ad0838ffc6a08776d668c2453359bc45efe2975fdd332fd7bd8"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\home-tr-844x390-reduced.png",
+      "bytes": 343716,
+      "sha256": "91e4c9babe332f59b063f337c5a015fd2c6e01e26be797302ceb3a1709ea3509"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\menu-ar-mobile.png",
+      "bytes": 163618,
+      "sha256": "4eedb577d5b6149ecd2f4dd638b6a02c7e4e7ea996b34dffb0babfea5127291b"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\mobile-interaction.png",
+      "bytes": 27856,
+      "sha256": "51b6b7ea0c0c806cb65ce85b053b5805b904b08eebd8305416b488e20464f6da"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\page@15da63246d855bbf0ae55c776c0a6edf.webm",
+      "bytes": 7119940,
+      "sha256": "6b689b4a825aaaae0e3ad700b7ad000a968f630c896b6a3d44d09c77d0ec493e"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-cache-final\\page@376d6ed4a7162720dd8bd6cbb0c1fdd5.webm",
+      "bytes": 4488329,
+      "sha256": "f35c7657ec3d3494238d2322b0bba94e7601f2611d1ac5da84a58ed3415d6cb6"
+    }
+  ]
+}

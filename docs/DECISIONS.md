@@ -7,7 +7,8 @@ Decision: execute complete V5 across five phases with one current agent. Native 
 
 ## TL-DEC-017 — V6 Motion Maxxed Türkiye
 
-24 October 2026. Status: directly authorized; implementation and creative review pending.
+24 October 2026. Status: directly authorized; engineering verified 25 October 2026
+([delivery](reports/TL-007-v6.md)); user creative acceptance remains pending.
 Decision: retain V5 functional foundation and native scrolling; upgrade motion with
 mandatory working hero/Atlas/network lab, then integrated opening/navigation,
 homepage, internal pages and final QA. Single current agent, sequential phases;

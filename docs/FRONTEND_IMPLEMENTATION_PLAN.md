@@ -41,11 +41,13 @@ Current 24 October 2026: [V5 full five-phase solo reconstruction](tasks/TL-006-v
 
 # Trip Line frontend implementation
 
-## V6 continuation — 24 October 2026
+## V6 delivery — 25 October 2026
 
 [TL-007](tasks/TL-007-v6.md): V6-P0 Motion Lab, P1 opening/navigation, P2 homepage
-and P3 internal pages verified. P4 production QA in progress; final full verification,
-recordings and performance acceptance remain pending.
+and P3 internal pages verified. P4 core/public/V3, 36-case motion/layout matrix,
+nine-surface accessibility, complete wheel/touch recordings and scoped performance
+verification complete. Zero LongTasks in final recorded scroll; field performance
+and user creative acceptance are not certified. All five phases complete in scope.
 Full five-phase solo scope directly authorized. V5 preserved on codex/v5-before-v6;
 no merge/push/deploy or user creative acceptance. [Report](reports/TL-007-v6.md).
 

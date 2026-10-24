@@ -1,3 +1,5 @@
+Current V6 adds isolated localized Motion Lab routes and scoped scene/UI controllers under components/v6. V5 routing, content, translations, planner, inquiry and native scroll remain. Existing Motion/GSAP only; cached MotionPath geometry and idle layout refresh avoid native path reads during scroll. [TL-007 delivery](reports/TL-007-v6.md) records verified scope; no backend/deployment change.
+
 Current V5 homepage architecture: native scroll, server-visible localized content, thin SVG FlightTrace, finite CSS entrance, scoped GSAP decorative strokes and Motion interaction/layout. Old homepage Lenis/pin/sculpture modules are inactive historical recovery source. Stack/API/inquiry/publication boundaries stay unchanged. [TL-006 delivery](reports/TL-006-v5.md).
 
 # Architecture

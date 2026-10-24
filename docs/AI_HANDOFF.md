@@ -1,3 +1,27 @@
+## V6 engineering complete — 25 October 2026
+
+TL-007 P0–P4 complete in the authorized solo scope. Branch codex/trip-line-v6;
+frozen build K0DVtH_TRdqIu8z6rhnip. Final checkpoint SHA is in
+[V6 state](orchestration/v6-state.json). Core checks/32 tests/build, 120 public
+routes, full V3 regression (16 groups/60 captures), 36 homepage locale/size/motion
+cases and nine-surface axe scan pass. No exercised browser errors. Complete native
+wheel/Arabic touch recordings and durable hashed evidence are in the
+[delivery report](reports/TL-007-v6.md) and [evidence index](qa/2026-10-24-v6/README.md).
+Final trace: zero LongTasks, maximum JavaScript callback10.397ms. Recorded frame
+intervals do not certify field FPS or V5 parity; report includes exact observations.
+Native SVG point sampling and synchronous refresh were replaced with existing
+MotionPathPlugin calculations and an idle refresh queue; failed attempts preserved.
+
+Local production preview remains available at http://localhost:3006/en (also/ar,/tr);
+Motion Lab at /en/motion-lab (also/ar/motion-lab,/tr/motion-lab).
+Ready for user/client creative review; creative acceptance remains pending.
+Single current implementation agent, no subagents or runtime model-switch claim.
+V5 preserved on codex/v5-before-v6. No merge/push/deploy/publication; noindex/legal
+defaults and honest prepared-message inquiry remain. Nineteen profile-derived marks
+retain pending client clearance and separate institutional classification.
+The user-requested reset continuation has run; no further work is started.
+Historical pause and earlier deliveries follow.
+
 ## V6 paused at checkpoint — 24 October 2026
 
 User requested a checkpoint and automatic continuation after the five-hour limit reset.

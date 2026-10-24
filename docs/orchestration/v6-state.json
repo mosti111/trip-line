@@ -5,7 +5,7 @@
   "recoveryBranch": "codex/v5-before-v6",
   "topology": "single implementation agent; sequential; no subagents",
   "phase": "V6-P4",
-  "status": "PAUSED",
+  "status": "ENGINEERING_COMPLETE",
   "checkpoints": [
     {
       "phase": "V6-P0",
@@ -31,7 +31,7 @@
   ],
   "clientCreativeAcceptance": "pending",
   "publication": "not authorized",
-  "build": "EBigX6N_DFk5KTM0gu4qh",
+  "build": "K0DVtH_TRdqIu8z6rhnip",
   "pause": {
     "requestedAt": "2026-10-24T20:12:00Z",
     "reason": "User requested a checkpoint and continuation after the five-hour usage limit resets",
@@ -40,6 +40,38 @@
     "automationId": "resume-trip-line-v6-after-limit-reset",
     "checkpoint": "P4 in-progress checkpoint, not phase completion",
     "next": "Read checkpoint report; inspect latest long task and evidence completeness; finish P4 verification/artifact manifest/report. No feature expansion or publication.",
-    "sha": "af3981aeb3ebfe65fabb201329cf76252fc7d2aa"
+    "sha": "af3981aeb3ebfe65fabb201329cf76252fc7d2aa",
+    "resumedAt": "2026-10-24T21:50:27Z"
+  },
+  "resume": {
+    "source": "authorized one-shot heartbeat",
+    "startedAt": "2026-10-24T21:50:27Z",
+    "phase": "V6-P4",
+    "status": "Completed final verification after authorized reset continuation",
+    "automationStatus": "PAUSED after completed one-shot continuation"
+  },
+  "completedAt": "2026-10-24T22:21:18.469Z",
+  "verification": {
+    "build": "K0DVtH_TRdqIu8z6rhnip",
+    "typecheck": "passed",
+    "lint": "passed",
+    "tests": "32/32 passed",
+    "productionBuild": "passed",
+    "publicRoutes": 120,
+    "v3Checks": 16,
+    "v3Captures": 60,
+    "matrixCases": 36,
+    "accessibilitySurfaces": 9,
+    "longTasksInFinalRecordedScroll": 0,
+    "creativeAcceptance": "pending",
+    "limitations": "Instrumented Windows Chromium only; no field-device or V5 frame-interval parity claim"
+  },
+  "evidence": {
+    "manifest": "docs/qa/2026-10-24-v6/manifest.json",
+    "durableArtifacts": 514,
+    "logoAssets": 19,
+    "hashValidation": "passed",
+    "linksAndWhitespace": "passed",
+    "sourceFreeze": "docs/qa/2026-10-24-v6/P4/frozen-app.json"
   }
 }
