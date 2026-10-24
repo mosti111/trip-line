@@ -27,6 +27,13 @@
       "phase": "V6-P3",
       "sha": "81010dfce9d1daae942b440feca4a20695aba08a",
       "evidence": "docs/qa/2026-10-24-v6/P3/report.json"
+    },
+    {
+      "phase": "V6-P4",
+      "sha": "6b64b167f678abaa2292cda2b3220eed17f0cb73",
+      "evidence": "docs/qa/2026-10-24-v6/manifest.json",
+      "build": "K0DVtH_TRdqIu8z6rhnip",
+      "verdict": "Engineering verification complete; user creative acceptance pending"
     }
   ],
   "clientCreativeAcceptance": "pending",

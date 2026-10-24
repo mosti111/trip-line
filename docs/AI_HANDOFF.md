@@ -1,7 +1,7 @@
 ## V6 engineering complete — 25 October 2026
 
 TL-007 P0–P4 complete in the authorized solo scope. Branch codex/trip-line-v6;
-frozen build K0DVtH_TRdqIu8z6rhnip. Final checkpoint SHA is in
+frozen build K0DVtH_TRdqIu8z6rhnip. P4 checkpoint 6b64b16; full SHA is in
 [V6 state](orchestration/v6-state.json). Core checks/32 tests/build, 120 public
 routes, full V3 regression (16 groups/60 captures), 36 homepage locale/size/motion
 cases and nine-surface axe scan pass. No exercised browser errors. Complete native
