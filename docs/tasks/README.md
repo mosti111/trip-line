@@ -1,3 +1,5 @@
+Current authorized milestone: [TL-005 Motion V4 M01 navigation](TL-005-motion-v4-m01.md); M01 only, prior hero timing blocker preserved.
+
 # Task workflow
 
 Current authorized milestone: [TL-004 Motion V4 homepage hero](TL-004-motion-v4-hero.md), 23 October 2026; isolated prototype, then user acceptance before further work.

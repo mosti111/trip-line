@@ -3,7 +3,7 @@ html:has(.recovery-shell){scroll-padding-top:88px}
 .recovery-shell{--max:1280px;--visual-max:1440px;--gutter:clamp(32px,5vw,80px);--display-type:var(--font-display),Georgia,serif;--control-type:var(--font-body),sans-serif;--shell-ivory:#FFFDF8;--shell-sand:#E4D7C1;--shell-deep:#071F20;--shell-bronze:#C89039}
 html[lang=ar] .recovery-shell{--display-type:var(--font-arabic-display),serif;--control-type:var(--font-arabic),sans-serif}
 .recovery-display{font-family:var(--display-type);font-weight:400;letter-spacing:-.035em}
-.recovery-shell .recovery-header{position:fixed;inset:0 0 auto;width:100%;height:92px;margin:0;padding:0;border:0;border-bottom:1px solid #e4d7c12e;background:transparent;display:block;color:var(--shell-ivory);transition:height .2s,background .2s,backdrop-filter .2s;z-index:40}
+.recovery-shell .recovery-header{position:fixed;inset:0 0 auto;width:100%;height:92px;margin:0;padding:0;border:0;border-bottom:1px solid #e4d7c12e;background:transparent;display:block;color:var(--shell-ivory);transition:height 260ms cubic-bezier(.22,1,.36,1),background 260ms,backdrop-filter 260ms;z-index:40}
 .recovery-header-inner{width:min(calc(100% - var(--gutter)*2),var(--visual-max));height:100%;margin-inline:auto;display:flex;align-items:center;gap:24px}
 .recovery-shell .recovery-header .brand{width:66px;height:58px}
 .recovery-shell .recovery-header.is-scrolled,.recovery-shell.shell-secondary .recovery-header{height:72px;background:#071f20ed;backdrop-filter:blur(14px)}
@@ -92,3 +92,28 @@ html[lang=ar] .mega-directory h2,html[lang=ar] .mega-preview-copy h3,html[lang=a
 @media(max-width:767px){.recovery-shell{--gutter:22px}.recovery-shell .recovery-header{height:80px}.recovery-shell .recovery-header.is-scrolled,.recovery-shell.shell-secondary .recovery-header{height:72px}.recovery-header-inner{gap:12px}.recovery-shell .recovery-header .brand{width:58px;height:52px}.recovery-shell .header-tools{gap:12px}.recovery-shell .languages a{min-width:44px;font-size:10px}.recovery-shell .recovery-menu{max-width:none;padding-inline:22px}.recovery-shell .recovery-menu nav>a,.recovery-shell .recovery-menu .mobile-menu-plan{font-size:28px;min-height:61px}.recovery-shell .recovery-menu .dialog-footer{padding-bottom:12px}.journey-drawer,html[dir=rtl] .journey-drawer{inset:auto 0 0;width:100%;height:min(86dvh,760px);border-radius:12px 12px 0 0}.journey-drawer-heading{padding-top:24px}.journey-drawer-heading h2{font-size:32px}.journey-stops li>a{font-size:24px}.journey-drawer-content{padding-inline:22px}.mobile-plan{display:block;position:fixed;inset:auto 0 0;z-index:35;padding:12px 22px max(12px,env(safe-area-inset-bottom));background:#071f20f2;border-top:1px solid #e4d7c133;visibility:hidden;pointer-events:none;transform:translateY(100%);transition:transform .2s,visibility .2s}.mobile-plan[data-visible]{visibility:visible;pointer-events:auto;transform:none}.mobile-plan>div{max-width:540px;margin-inline:auto}.mobile-plan .journey-action{width:100%;justify-content:space-between}}
 @media(max-width:380px){.recovery-shell .header-tools{gap:6px}.recovery-shell .recovery-header .brand{width:52px}.recovery-shell .recovery-menu nav>a,.recovery-shell .recovery-menu .mobile-menu-plan{font-size:25px}}
 @media(max-height:500px){.recovery-shell .recovery-menu nav>a,.recovery-shell .recovery-menu .mobile-menu-plan{min-height:52px;font-size:25px}.journey-drawer,html[dir=rtl] .journey-drawer{height:100dvh}.journey-drawer-heading{padding-block:16px}.journey-drawer-bottom{padding-block:12px}}
+
+/* TL-005 M01: CSS owns indicators/native dialog; Motion owns mega/photo transforms. */
+.recovery-shell .desktop-nav>a,.recovery-shell .nav-turkiye-link>a{position:relative}
+.recovery-shell .desktop-nav>a::after,.recovery-shell .nav-turkiye-link>a::after{content:"";position:absolute;inset-inline:0;bottom:5px;height:1px;background:var(--shell-bronze);transform:scaleX(0);transform-origin:bottom left;transition:transform 180ms cubic-bezier(.22,1,.36,1)}
+html[dir=rtl] .recovery-shell .desktop-nav>a::after,html[dir=rtl] .recovery-shell .nav-turkiye-link>a::after{transform-origin:bottom right}
+.recovery-shell .desktop-nav>a:is(:hover,:focus-visible,[aria-current=page])::after,.recovery-shell .nav-turkiye-link>a:is(:hover,:focus-visible,[aria-current=page])::after{transform:scaleX(1)}
+.recovery-shell .turkiye-mega{visibility:hidden;pointer-events:none;transition:visibility 0s 220ms}
+.recovery-shell .turkiye-mega[data-open=true]{visibility:visible;pointer-events:auto;transition-delay:0s}
+.mega-preview-layer{position:absolute;inset:0}
+.recovery-shell .desktop-nav .mega-groups a,.recovery-shell .desktop-nav .mega-featured a{position:relative;transition:color 180ms}
+.recovery-shell .desktop-nav .mega-groups a::before{content:"";position:absolute;inset-inline-start:-12px;width:4px;height:4px;border-radius:50%;background:var(--shell-bronze);opacity:0;transition:opacity 180ms}
+.recovery-shell .desktop-nav .mega-groups a[data-active=true]::before{opacity:1}
+.recovery-shell .desktop-nav .mega-featured a[data-active=true]{color:#D7AA4D}
+.recovery-shell .recovery-menu{transition:opacity 220ms cubic-bezier(.22,1,.36,1),transform 220ms cubic-bezier(.22,1,.36,1),display 220ms allow-discrete,overlay 220ms allow-discrete;padding-top:max(24px,env(safe-area-inset-top))}
+.recovery-shell .recovery-menu[open]{transition-duration:300ms;transition-timing-function:cubic-bezier(.22,1,.36,1)}
+.recovery-shell .recovery-menu::backdrop{transition-duration:220ms}
+.recovery-shell .recovery-menu[open]::backdrop{transition-duration:300ms}
+.recovery-shell .recovery-menu[open] nav>a,.recovery-shell .recovery-menu[open] .mobile-menu-plan-row{animation-name:navigation-item-arrive;animation-timing-function:cubic-bezier(.22,1,.36,1);animation-fill-mode:both}
+@keyframes navigation-item-arrive{from{opacity:.96;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.recovery-shell.navigation-reduced .recovery-header,.recovery-shell.navigation-reduced .turkiye-mega,.recovery-shell.navigation-reduced .desktop-nav a,.recovery-shell.navigation-reduced .desktop-nav a::before,.recovery-shell.navigation-reduced .desktop-nav a::after,.recovery-shell.navigation-reduced .recovery-menu,.recovery-shell.navigation-reduced .recovery-menu::backdrop{transition:none}
+.recovery-shell.navigation-reduced .recovery-menu[open] nav>a,.recovery-shell.navigation-reduced .recovery-menu[open] .mobile-menu-plan-row{animation:none}
+
+.recovery-shell .desktop-nav>a,.recovery-shell .nav-turkiye-link>a{border-bottom-color:transparent}
+.recovery-shell.navigation-reduced .recovery-menu[open]{transform:none;opacity:1}
+.recovery-shell.navigation-reduced .recovery-menu[open]::backdrop{opacity:1}

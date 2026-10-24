@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "session": "TL-004-2026-10-23-v4-hero",
+  "session": "TL-005-2026-10-23-v4-m01",
   "baseRevision": "0ba5a97254e08d8d621dba4add4045604df5aa7a",
   "currentMilestone": "TL-003",
   "stateWriter": "/root",
   "lockedDecisions": "docs/DECISIONS.md",
-  "applicationStatus": "TL004 partial hero checkpoint; acceptance FAIL P1 desktop cold entrance timing. Frozen R2 build hI7nYfD8fZMLt9uxc68g_ and passing regression suites preserved. TL003 historical approval remains unchanged.",
-  "nextAction": "STOP: two correction cycles exhausted. New narrowly authorized desktop startup timing repair and a duration assertion detecting cancel/restarts are required before acceptance. No further application edits, next milestone, merge, push or deployment.",
+  "applicationStatus": "M01 navigation only authorized by new direct V4 contract; newest local ce166e2 preserved. TL004 hero timing FAIL remains isolated and unrepaired; TL003 historical approval unchanged.",
+  "nextAction": "Dispatch one selected Sol for exact M01 scope, then same Root rendered acceptance; stop after M01. No M02+, hero repair, merge/push/deployment.",
   "milestone": {
     "id": "TL-003",
     "kind": "frontend",
@@ -4153,98 +4153,148 @@
         ]
       },
       "deliveryReport": "docs/reports/TL-004-motion-v4-worker.md"
+    },
+    {
+      "id": "TL-005-M01",
+      "kind": "frontend",
+      "status": "IN_PROGRESS",
+      "contract": "docs/tasks/TL-005-motion-v4-m01.md",
+      "dependsOn": [],
+      "filesAllowed": [
+        "frontend-v2/components/travel/SiteShell.tsx",
+        "frontend-v2/styles/recovery-shell.css",
+        "docs/reports/TL-005-motion-v4-m01-worker.md"
+      ],
+      "owner": {
+        "agent": "/root/sol_v4_m01",
+        "model": "gpt-6.1-sol",
+        "session": "TL-005-2026-10-23-v4-m01",
+        "leaseUntil": "2026-10-23T07:49:49.672Z"
+      },
+      "evidence": [],
+      "review": null,
+      "history": [
+        {
+          "from": null,
+          "to": "PLANNED",
+          "at": "2026-10-23T01:49:49.661Z",
+          "actor": "/root",
+          "reason": "New direct user V4 contract explicitly authorizes M01 only despite prior hero partial stop; exact contract saved before implementation. Clean newest local ce166e2 preserved on codex/motion-v4-m01. Root administrative exception5 recorded before writes; prior ownerless TL004 activeRun archived intact."
+        },
+        {
+          "from": "PLANNED",
+          "to": "READY",
+          "at": "2026-10-23T01:49:49.661Z",
+          "actor": "/root",
+          "reason": "Exact M01 contract and references exist; independent authorization, no hero dependency. One selected Sol, no extra QA."
+        },
+        {
+          "from": "READY",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-23T01:49:49.661Z",
+          "actor": "/root",
+          "reason": "Reserve exact three paths for /root/sol_v4_m01 before explicit fresh gpt-6.1-sol dispatch. Root runtime model metadata unverified; no nested lead or attestation claim."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-23T01:52:19.898Z",
+          "actor": "/root",
+          "reason": "spawn_agent accepted model gpt-6.1-sol, fork_turns none, returned /root/sol_v4_m01. One primary implementation/QA worker; Root unverified metadata, no nested review. Required 5 Motion sources downloaded pinned; Taste source cloned pinned. Root inspected actual production baseline native menu via IAB; no application edits."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-23T02:00:44.148Z",
+          "actor": "/root",
+          "reason": "Selected Sol freezes exact two app files; type/lint/32tests PASS. Default build initial EPERM on OneDrive reparse output before compile; exact old production29744 identified/owned and stopped. Generated output preserved under ignored QA, dev3002 retained. Root source review during implementation corrected arbitrary exit ease and duplicate old underline before delivery; no correction cycle used."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-23T02:16:52.929Z",
+          "actor": "/root",
+          "reason": "R1 correction1of2: actual scoped rAF trace and Root inspection show mega y snaps while opacity animates, likely conservative SSR MotionConfig caching. Exact SiteShell+worker-report correction appended before writes, same sole Sol lease; CSS/otherappfrozen. Explicit navigationCalm must still enforce static reduced/site/SaveData. Preserve failing artifact/trace; separate programmatic Lenis/action-latency harness failures. Rebuild/affected gates and same Root rendered re-review required."
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "IN_PROGRESS",
+          "at": "2026-10-23T02:26:15.851Z",
+          "actor": "/root",
+          "reason": "R2 correction2of2: actual wheel on frozen R1 Ob4omaGnyRXcGLVE-lGNA reveals persistent missing hidden attr keeps existing ExperienceProvider selector pausing Lenis. Root independently inspected controller lines22/observer. Exact SiteShell+report adapter restore hidden semantic signal with retained exit display; no ExperienceProvider/CSS writes. Earlier1920 scroll failures now genuine integration evidence, not dismissed as harness artifacts. Preserve failed runs. Final corrected gates/rendered review; no third correction."
+        }
+      ],
+      "bounded": true,
+      "scope": {
+        "maxFiles": 3,
+        "maxPageFamilies": 1,
+        "pageFamilies": [
+          "Shared header and navigation"
+        ]
+      },
+      "deliveryReport": "docs/reports/TL-005-motion-v4-m01-worker.md"
     }
   ],
   "policyVersion": 2,
   "activeRun": {
-    "id": "TL-004-HERO-RUN",
+    "id": "TL-005-M01-RUN",
     "kind": "frontend",
-    "status": "BLOCKED",
-    "contract": "docs/tasks/TL-004-motion-v4-hero.md",
+    "status": "IN_PROGRESS",
+    "contract": "docs/tasks/TL-005-motion-v4-m01.md",
     "taskIds": [
-      "TL-004-HERO"
+      "TL-005-M01"
     ],
-    "evidence": [
-      {
-        "kind": "automated",
-        "path": "docs/qa/2026-10-23-v4-hero/checks.json",
-        "result": "FAIL"
-      },
-      {
-        "kind": "rendered",
-        "path": "docs/qa/2026-10-23-v4-hero/root-review.json",
-        "result": "FAIL"
-      },
-      {
-        "kind": "scope",
-        "path": "docs/reports/TL-004-motion-v4-hero.md",
-        "result": "PASS"
-      }
-    ],
+    "evidence": [],
     "review": null,
     "history": [
       {
         "from": null,
         "to": "PLANNED",
-        "at": "2026-10-22T22:05:27.471Z",
+        "at": "2026-10-23T01:49:49.661Z",
         "actor": "/root",
-        "reason": "Direct user23October authorizes only MotionV4 hero from clean newest e0d5538. Root administrative exception5 recorded in TL004 task. Historical TL003 remains closed."
+        "reason": "New direct user V4 contract explicitly authorizes M01 only despite prior hero partial stop; exact contract saved before implementation. Clean newest local ce166e2 preserved on codex/motion-v4-m01. Root administrative exception5 recorded before writes; prior ownerless TL004 activeRun archived intact."
       },
       {
         "from": "PLANNED",
         "to": "READY",
-        "at": "2026-10-22T22:05:27.471Z",
+        "at": "2026-10-23T01:49:49.661Z",
         "actor": "/root",
-        "reason": "Hero contract written, isolated codex/motion-v4-hero branch; exact nine paths reserved to single selected Sol. Root model unverified; no nested lead."
+        "reason": "Exact M01 contract and references exist; independent authorization, no hero dependency. One selected Sol, no extra QA."
       },
       {
         "from": "READY",
         "to": "IN_PROGRESS",
-        "at": "2026-10-22T22:05:27.471Z",
+        "at": "2026-10-23T01:49:49.661Z",
         "actor": "/root",
-        "reason": "Reserve /root/sol_v4_hero before explicit fresh gpt-6.1-sol dispatch; one primary implementation/QA worker, no additional QA."
+        "reason": "Reserve exact three paths for /root/sol_v4_m01 before explicit fresh gpt-6.1-sol dispatch. Root runtime model metadata unverified; no nested lead or attestation claim."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IN_PROGRESS",
-        "at": "2026-10-22T22:06:06.934Z",
+        "at": "2026-10-23T01:52:19.898Z",
         "actor": "/root",
-        "reason": "spawn_agent accepted explicit model:gpt-6.1-sol fork:none, handle /root/sol_v4_hero. One primary, no extra QA or nested lead. Root actual model unverified; review will not forge required Astra attestation."
+        "reason": "spawn_agent accepted model gpt-6.1-sol, fork_turns none, returned /root/sol_v4_m01. One primary implementation/QA worker; Root unverified metadata, no nested review. Required 5 Motion sources downloaded pinned; Taste source cloned pinned. Root inspected actual production baseline native menu via IAB; no application edits."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IN_PROGRESS",
-        "at": "2026-10-22T22:26:49.406Z",
+        "at": "2026-10-23T02:00:44.148Z",
         "actor": "/root",
-        "reason": "Correctioncycle1of2: finalV3 SaveData mock exposes connection.saveData without listener methods; new eager HomeMotion called missing method. Same owner exact HomeMotion+delivery correction under taskR1; targeted capability check before rebuild/finalgates, preservefailure. No scope expansion."
+        "reason": "Selected Sol freezes exact two app files; type/lint/32tests PASS. Default build initial EPERM on OneDrive reparse output before compile; exact old production29744 identified/owned and stopped. Generated output preserved under ignored QA, dev3002 retained. Root source review during implementation corrected arbitrary exit ease and duplicate old underline before delivery; no correction cycle used."
       },
       {
         "from": "IN_PROGRESS",
         "to": "IN_PROGRESS",
-        "at": "2026-10-22T22:31:46.544Z",
+        "at": "2026-10-23T02:16:52.929Z",
         "actor": "/root",
-        "reason": "Correctioncycle2of2: Root actual rendered EN1440/1920 review and worker pixel comparison confirm headline masks clip Ü/İ accent tops. Exact recovery-motion.css upperclearance+equalnegativemargin fix, scopedV4 clearance+report; preservebaseline andpreR2 evidence, targetedEN/TR/AR thenfinalbuild/gates. No thirdcycle or optionalpolish."
+        "reason": "R1 correction1of2: actual scoped rAF trace and Root inspection show mega y snaps while opacity animates, likely conservative SSR MotionConfig caching. Exact SiteShell+worker-report correction appended before writes, same sole Sol lease; CSS/otherappfrozen. Explicit navigationCalm must still enforce static reduced/site/SaveData. Preserve failing artifact/trace; separate programmatic Lenis/action-latency harness failures. Rebuild/affected gates and same Root rendered re-review required."
       },
       {
         "from": "IN_PROGRESS",
-        "to": "BLOCKED",
-        "at": "2026-10-22T22:43:35.943Z",
-        "actor": "/root",
-        "reason": "User explicitly pauses until5husagewindowreset. Worker /root/sol_v4_hero interrupted/quiescent; stop owned verify-public7216 and evidence-server7808, preserve uncommittedR2/finalV4PASS26 and raw evidence. Release ownership for explicit resumption reconciliation. Final corrected public/V3,timingevents,Root finalreview/report/commit pending; no new appchanges, correctionbudget2/2."
-      },
-      {
-        "from": "BLOCKED",
         "to": "IN_PROGRESS",
-        "at": "2026-10-23T00:32:22.106Z",
+        "at": "2026-10-23T02:26:15.851Z",
         "actor": "/root",
-        "reason": "Scheduledresume23October03:28Istanbul; confirmed5hwindowused0percent. SameSolinterrupted/quiescent, noQAprocessleft, unchangedfrozenR2/buildconfirmed. Renewsameprimarylease forpendingexactartifactpublic/V3,timingdiagnosis,deliveryonly; no appedits,2of2correctioncyclesused."
-      },
-      {
-        "from": "IN_PROGRESS",
-        "to": "BLOCKED",
-        "at": "2026-10-23T00:57:57.501Z",
-        "actor": "/root",
-        "reason": "Final worker PARTIAL and same Root acceptance FAIL: required type/lint/32tests/build, public120routes, V3 and V4 suites PASS on frozen R2; supplemental cold timing shows desktop CSS cancel/restarts EN2973ms/AR3549ms versus mobile1502ms. P1 violates1.3–1.6s target. Two correction cycles exhausted; release quiescent owner and STOP with reviewable partial checkpoint. No third repair or next milestone."
+        "reason": "R2 correction2of2: actual wheel on frozen R1 Ob4omaGnyRXcGLVE-lGNA reveals persistent missing hidden attr keeps existing ExperienceProvider selector pausing Lenis. Root independently inspected controller lines22/observer. Exact SiteShell+report adapter restore hidden semantic signal with retained exit display; no ExperienceProvider/CSS writes. Earlier1920 scroll failures now genuine integration evidence, not dismissed as harness artifacts. Preserve failed runs. Final corrected gates/rendered review; no third correction."
       }
     ],
     "closed": false,

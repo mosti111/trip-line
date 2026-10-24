@@ -1,5 +1,15 @@
 # Trip Line decisions
 
+## TL-DEC-015 — Motion V4 Mediterranean direction and bounded M01
+
+Date: 2026-10-23. Status: Authorized by direct supplied user contract; implementation and user acceptance pending.
+
+Decision: adopt **The Bronze Journey — Mediterranean Edition** interaction/motion contract; start only M01 navigation and mega menu on the newest local V4 checkpoint `ce166e2`, preserved on `codex/motion-v4-m01`. The new contract explicitly authorizes this independent navigation milestone despite the earlier hero stop; it does not accept or repair the hero timing defect. M02–M08 remain unstarted. Preserve actual existing brand, typography, section composition, content and behavior. Locked V4 timings/capability/engine ownership supersede older conflicting defaults within current scope; no rebrand or reconstruction.
+
+Reason: bring the existing experience to life through bounded, rendered, interruptible motion. Consequences: exact two application paths, optional helper only after need/scope confirmation, one selected Sol implementation/QA worker and same Root review, maximum two corrections, no merge/push/deployment/publication. Taste inspection is supplementary with explicit project-style exceptions, pinned at `6010f91a9935f1c167dfc500fb1a475681892e6b`; Motion example source pinned at `99e7f5aa31e5f55e024b6553cbb3906248eac8de`, installed dependency unchanged. Existing 80px phone header composition is retained; the supplied “existing 92px” describes the desktop baseline and is not treated as permission to enlarge the phone header.
+
+Evidence: [exact contract](tasks/TL-005-motion-v4-instructions.md), [M01 task](tasks/TL-005-motion-v4-m01.md), [prior hero result](reports/TL-004-motion-v4-hero.md). Root model identity is unverified; explicit worker selection is tool routing evidence, not backend attestation or user aesthetic approval.
+
 ## TL-DEC-014 — Motion V4 hero prototype
 
 Date: 2026-10-23. Status: Authorized by direct current user specification; creative acceptance pending.

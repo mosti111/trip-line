@@ -1,3 +1,5 @@
+Current bounded milestone: [TL-005 Motion V4 M01](TL-005-motion-v4-m01.md), navigation only; prior hero blocker preserved.
+
 # Completion reports
 
 Orchestration setup: [TL-SYS-002 report](TL-SYS-002-report.md) and
