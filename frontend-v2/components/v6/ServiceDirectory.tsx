@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { ArrowUpRight } from 'lucide-react';
-import { href, t, ui, type Locale } from '@/lib/i18n';
+import { href, ui, type Locale } from '@/lib/i18n';
 import { services } from '@/lib/travel-content';
 import { journeyCopy } from '@/lib/journey';
 import { useTravel } from '../travel/SiteShell';
@@ -44,7 +44,7 @@ export function ServiceDirectory({ locale }: { locale: Locale }) {
         <motion.div key={active.slug} className="v6-directory-incoming" initial={{ clipPath: calm ? 'inset(0)' : 'inset(0 100% 0 0)', opacity: 0 }} animate={{ clipPath: ready === active.slug ? 'inset(0 0% 0 0)' : 'inset(0 100% 0 0)', opacity: ready === active.slug ? 1 : 0 }} transition={{ duration: calm ? 0 : .65, ease: [.22,1,.36,1] }} onAnimationComplete={() => { if (ready === active.slug && latest.current === active.slug) setSettled(active); }}>
           <Image src={`/media/${active.image}`} alt={active.title[locale]} fill loading="eager" sizes="(max-width:767px) 100vw,40vw" onLoad={event => { const image=event.currentTarget;void image.decode().then(() => { if(latest.current===active.slug)setReady(active.slug); }).catch(() => {}); }}/>
         </motion.div><span aria-hidden="true">{String(services.indexOf(active) + 1).padStart(2,'0')} / 09</span>
-      </div><div className="v6-directory-caption" aria-live="polite"><h3>{active.title[locale]}</h3><p>{active.summary[locale]}</p><Link className="journey-text-link" href={href(locale, `services/${active.slug}`)}>{t('Explore this service','اكتشف هذه الخدمة','Bu hizmeti keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div></div>
+      </div><div className="v6-directory-caption" aria-live="polite"><h3>{active.title[locale]}</h3><p>{active.summary[locale]}</p></div></div></div>
     </div>
   </div></section>;
 }

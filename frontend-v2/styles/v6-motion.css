@@ -1,5 +1,7 @@
 /* V6 property owners: GSAP scene wrappers; CSS atlas/UI; Motion menu/planner. */
 .v6-home{--v6-ease:cubic-bezier(.22,1,.36,1)}
+::view-transition-group(.bronze-portal){animation-duration:800ms;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+@media(prefers-reduced-motion:reduce){::view-transition-group(.bronze-portal){animation-duration:0s!important}}
 .v6-home .rh-arrival *{animation:none!important}
 .v6-home .rh-title-block{overflow:hidden;padding-block:.08em;margin-block:-.08em}
 .v6-home .rh-title-ink{display:block}
