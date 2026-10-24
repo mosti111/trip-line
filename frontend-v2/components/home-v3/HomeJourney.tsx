@@ -13,9 +13,9 @@ import { HomeArrival } from './HomeArrival';
 import { HomeStory, HomeProof, HomeNumbers, HomeProcess, HomeServices, HomeBeyond, HomeFAQ, HomeFinal } from './HomeEditorial';
 import { JourneyBuilder } from './JourneyBuilder';
 import { ServiceWorldsV3 } from './ServiceWorlds';
-import { HomeMotion } from './HomeMotion';
+import { V6Motion } from '../v6/V6Motion';
 import '@/styles/recovery-home.css';
-import '@/styles/recovery-motion.css';
+import '@/styles/v6-motion.css';
 
 export function SignaturePlaces({ locale, exclude }: { locale: Locale; exclude?: string }) {
   const places = ['cappadocia', 'rize-ayder', 'antalya'].map(id => turkishPlaces.find(p => p.slug === id)!).filter(p => p.slug !== exclude);
@@ -28,11 +28,11 @@ export function SignaturePlaces({ locale, exclude }: { locale: Locale; exclude?:
   </div></section>;
 }
 export function HomeJourney({ locale }: { locale: Locale }) {
-  return <div className="bronze-home recovery-home"><HomeArrival locale={locale}/><ServiceWorldsV3 locale={locale}/>
+  return <div className="bronze-home recovery-home v6-home"><HomeArrival locale={locale}/><ServiceWorldsV3 locale={locale}/>
     <section className="rh-threshold" data-chapter="03" aria-labelledby="threshold-title"><Photo file="rize-ayder.jpg" alt={turkishPlaces.find(p => p.slug === 'rize-ayder')!.name[locale]}/><div className="rh-threshold-shade"/><div className="rh-wrap"><span className="rh-kicker">03 / TÜRKİYE</span><h2 id="threshold-title">{t('Find your Türkiye.', 'اكتشف تركيا التي تشبهك.', 'Kendi Türkiye’ni bul.')[locale]}</h2><div className="rh-threshold-note"><strong aria-hidden="true">12</strong><div><p>{turkeyCopy.intro[locale]}</p><a className="journey-text-link" href="#turkiye">{turkeyCopy.choose[locale]}<ArrowDown size={18}/></a></div></div></div><FlightTrace scene="threshold"/></section>
     <section className="rh-explorer-chapter" data-chapter="04" aria-labelledby="explorer-chapter-title"><div className="rh-wrap rh-section-heading"><span className="rh-kicker">04 / {turkeyCopy.domestic[locale]}</span><h2 id="explorer-chapter-title">{turkeyCopy.title[locale]}</h2><p>{turkeyCopy.intro[locale]}</p></div><TurkeyDiscovery locale={locale}/></section>
     <SignaturePlaces locale={locale}/>
     <section className="rh-film" data-chapter="06" aria-labelledby="film-title"><div className="rh-wrap"><span className="rh-kicker">06 / İSTANBUL</span><h2 id="film-title">{journeyCopy.film[locale]}</h2><div className="rh-film-frame"><Photo file="turkiye.jpg" alt={t('The Istanbul waterfront', 'واجهة إسطنبول البحرية', 'İstanbul kıyıları')[locale]}/><HeroVideo/><span className="rh-film-caption" dir="ltr">BOSPHORUS / 41.01° N · 28.98° E</span></div></div></section>
-    <HomeStory locale={locale}/><HomeProof locale={locale}/><HomeNumbers locale={locale}/><HomeProcess locale={locale}/><HomeServices locale={locale}/><JourneyBuilder locale={locale}/><HomeBeyond locale={locale}/><HomeFAQ locale={locale}/><HomeFinal locale={locale}/><HomeMotion/>
+    <HomeStory locale={locale}/><HomeProof locale={locale}/><HomeNumbers locale={locale}/><HomeProcess locale={locale}/><HomeServices locale={locale}/><JourneyBuilder locale={locale}/><HomeBeyond locale={locale}/><HomeFAQ locale={locale}/><HomeFinal locale={locale}/><V6Motion/>
   </div>;
 }

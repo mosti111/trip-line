@@ -15,7 +15,7 @@ import { DestinationPortal } from '../experience/DestinationPortal';
 import { HeroVideo } from './HeroVideo';
 import { turkeyCopy, turkishPlaces } from '@/lib/turkiye';
 
-export function Photo({file,mobileFile,alt='',className='',priority=false,sizes}:{file:string;mobileFile?:string;alt?:string;className?:string;priority?:boolean;sizes?:string}) {
+export function Photo({file,mobileFile,alt='',className='',priority=false,eager=false,sizes}:{file:string;mobileFile?:string;alt?:string;className?:string;priority?:boolean;eager?:boolean;sizes?:string}) {
   if (mobileFile) {
     const common = {alt,fill:true,sizes:sizes??'100vw',quality:85};
     const desktop = getImageProps({...common,src:`/media/${file}`}).props;
@@ -23,7 +23,7 @@ export function Photo({file,mobileFile,alt='',className='',priority=false,sizes}
     return <div className={`photo ${className}`}><picture><source media="(max-width:767px)" srcSet={mobile.srcSet}/>{/* getImageProps supplies Next's optimized source set for the native picture element. */}
       <img {...desktop} alt={alt} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':'auto'} /></picture></div>;
   }
-  return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={sizes??(priority?'100vw':'(max-width:760px) 100vw,50vw')} preload={priority} quality={85}/></div>;
+  return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={sizes??(priority?'100vw':'(max-width:760px) 100vw,50vw')} preload={priority} loading={eager ? 'eager' : undefined} quality={85}/></div>;
 }
 export function Eyebrow({children}:{children:React.ReactNode}) {return <span className="eyebrow">{children}<span aria-hidden="true"/></span>;}
 export function Reveal({children,className=''}:{children:React.ReactNode;className?:string}) {const {calm}=useTravel();return <motion.div className={className} initial={false} whileInView={calm?undefined:{y:[18,0]}} viewport={{once:true,amount:.12}} transition={{duration:.65,ease:[.22,1,.36,1]}}>{children}</motion.div>;}

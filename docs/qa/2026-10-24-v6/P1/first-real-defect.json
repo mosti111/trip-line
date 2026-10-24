@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "cases": [],
+  "errors": [],
+  "failure": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.mega-preview-photo')\nExpected: \"antalya\"\nReceived: \"istanbul\"\nTimeout:  6000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.mega-preview-photo') with timeout 6000ms\n  - waiting for locator('.mega-preview-photo')\n    15 × locator resolved to <div class=\"mega-preview-photo\" data-preview-request=\"antalya\" data-preview-settled=\"istanbul\">…</div>\n       - unexpected value \"istanbul\"\n"
+}

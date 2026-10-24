@@ -4,9 +4,16 @@
   "preserved": "a499c5066c54f668aa70d4bc15d53b98189befc7",
   "recoveryBranch": "codex/v5-before-v6",
   "topology": "single implementation agent; sequential; no subagents",
-  "phase": "V6-P0",
-  "status": "IN_PROGRESS",
-  "checkpoints": [],
+  "phase": "V6-P1",
+  "status": "VERIFIED",
+  "checkpoints": [
+    {
+      "phase": "V6-P0",
+      "sha": "ea3500b",
+      "evidence": "docs/qa/2026-10-24-v6/P0/report.json",
+      "correction": "P1/media verifies decoded image transitions after P0 harness gap"
+    }
+  ],
   "clientCreativeAcceptance": "pending",
   "publication": "not authorized"
 }

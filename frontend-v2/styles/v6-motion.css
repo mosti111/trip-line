@@ -9,6 +9,14 @@
 .v6-home .rh-arrival>.flight-trace{left:0;right:auto;inset-inline-start:auto;width:100%;z-index:1}
 html[lang=ar] .v6-home>.rh-arrival>.flight-trace{left:-74%;right:auto}
 .v6-home .rh-world-photo{transform-origin:50% 80%}
+/* Motion owns mega transform/opacity/clip. Native dialog owns its CSS mask. */
+.recovery-shell .turkiye-mega{transition:visibility 0s 280ms}
+.recovery-shell .recovery-menu{clip-path:inset(0 0 100% 0);transition:clip-path 280ms cubic-bezier(.76,0,.24,1),opacity 280ms,transform 280ms,display 280ms allow-discrete,overlay 280ms allow-discrete}
+.recovery-shell .recovery-menu[open]{clip-path:inset(0 0 0% 0);transition-duration:600ms}
+@starting-style{.recovery-shell .recovery-menu[open]{clip-path:inset(0 0 100% 0)}}
+.recovery-shell .recovery-menu[open] nav>a,.recovery-shell .recovery-menu[open] .mobile-menu-plan-row{animation-name:v6-menu-item}
+@keyframes v6-menu-item{from{opacity:.2;transform:translateY(25px);clip-path:inset(0 0 100% 0)}to{opacity:1;transform:translateY(0);clip-path:inset(0)}}
+.navigation-reduced.recovery-shell .recovery-menu{clip-path:none;transition:none}
 .v6-lab-note{position:fixed;bottom:10px;left:10px;z-index:30;background:#071f20;color:#fffdf8;padding:8px 12px;font-size:9px;letter-spacing:.1em;pointer-events:none}
 .v6-network{background:#f8efe0;color:#194244;padding-block:65px;overflow:hidden}
 .v6-network-heading{display:flex;justify-content:space-between;align-items:end;gap:24px}
@@ -20,7 +28,7 @@ html[lang=ar] .v6-home>.rh-arrival>.flight-trace{left:-74%;right:auto}
 .v6-network-track{display:flex;width:max-content;animation:v6-marquee linear infinite;animation-play-state:paused}
 .v6-network-track ul{list-style:none;margin:0;padding:0;display:flex;width:max-content}
 .v6-network-track li{width:210px;height:120px;padding:22px;display:flex;align-items:center;justify-content:center}
-.v6-network-track img{width:170px;height:74px;object-fit:contain;transition:scale 220ms var(--v6-ease)}
+.v6-network-track img{width:auto;height:auto;max-width:170px;max-height:74px;object-fit:contain;transition:scale 220ms var(--v6-ease)}
 .v6-network[data-running=true] .v6-network-track{animation-play-state:running}
 .v6-network-tracks:is(:hover,:focus-within) .v6-network-track{animation-play-state:paused}
 .v6-network-row-1 .v6-network-track{animation-direction:reverse}
@@ -29,7 +37,7 @@ html[lang=ar] .v6-home>.rh-arrival>.flight-trace{left:-74%;right:auto}
 .v6-institutions p{font-size:11px;line-height:1.7}
 .v6-institutions ul{display:flex;gap:30px;flex-wrap:wrap;list-style:none;margin:22px 0 0;padding:0}
 .v6-institutions li{display:flex;flex-direction:column;align-items:center;gap:8px}
-.v6-institutions img{height:66px;width:120px;object-fit:contain;background:white}
+.v6-institutions img{height:auto;width:auto;max-height:66px;max-width:120px;object-fit:contain;background:white}
 .v6-institutions small{font-size:9px}
 @keyframes v6-marquee{to{transform:translateX(-50%)}}
 /* Loaded outgoing imagery stays opaque below the latest decoded image. */

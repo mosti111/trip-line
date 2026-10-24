@@ -162,12 +162,12 @@
     },
     {
       "id": "bike-hotel",
-      "brand": "Bike Hotel",
+      "brand": "Büke Hotel",
       "profilePage": 4,
       "classification": "hotel",
       "officialSource": null,
       "localAsset": "/brand/network/bike-hotel.png",
-      "verificationStatus": "recognized",
+      "verificationStatus": "recognized-profile-lettering",
       "publicationApprovalStatus": "pending-client-clearance",
       "source": "Original supplied Company Profile 2025; unaltered raster crop",
       "cropReferenceBox": [
