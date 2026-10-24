@@ -1,10 +1,14 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useSyncExternalStore } from 'react';
 import { useTravel } from '../travel/SiteShell';
+
+const smallViewport=()=>matchMedia('(max-width: 767px)').matches;
+const observeViewport=(notify:()=>void)=>{const query=matchMedia('(max-width: 767px)');query.addEventListener('change',notify);return()=>query.removeEventListener('change',notify);};
 
 /** GSAP owns these scene wrappers only; CSS and Motion own their nested UI. */
 export function V6Motion() {
   const { calm } = useTravel();
+  const small=useSyncExternalStore(observeViewport,smallViewport,()=>false);
   const anchor = useRef<HTMLSpanElement>(null);
   const entered = useRef(false);
   useEffect(() => {
@@ -19,9 +23,44 @@ export function V6Motion() {
       if (cancelled) return;
       gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
       const arrival = root.querySelector<HTMLElement>('.rh-arrival');
-      const mobile = matchMedia('(max-width: 767px)').matches;
+      const mobile = small;
       let removeIntroListeners = () => {};
+      const finalPath=root.querySelector<SVGPathElement>('.flight-trace-final [data-flight-path]');
+      const processPath=root.querySelector<SVGPathElement>('.flight-trace-process [data-flight-path]');
+      const processRoute=()=>{
+        const bounds=processPath?.ownerSVGElement?.getBoundingClientRect();
+        const nodes=[...root.querySelectorAll<HTMLElement>('.rh-process-node')];
+        if(!bounds?.width||!bounds.height||nodes.length!==3)return processPath?.getAttribute('d')||'';
+        const points=nodes.map(node=>{const b=node.getBoundingClientRect();return{x:(b.left+b.width/2-bounds.left)/bounds.width*1200,y:(b.top+b.height/2-bounds.top)/bounds.height*200};});
+        const [a,b,c]=points;
+        return `M${a.x} ${a.y} C${a.x+(b.x-a.x)/3} ${a.y-55} ${b.x-(b.x-a.x)/3} ${b.y+55} ${b.x} ${b.y} S${c.x-(c.x-b.x)/3} ${c.y-55} ${c.x} ${c.y}`;
+      };
+      const finalRoute=()=>{
+        const svg=finalPath?.ownerSVGElement;const action=root.querySelector<HTMLElement>('.rh-final .rh-actions .journey-action-primary');
+        if(!svg||!action)return finalPath?.getAttribute('d')||'';
+        const bounds=svg.getBoundingClientRect();const button=action.getBoundingClientRect();
+        const x=(button.left+button.width/2-bounds.left)/bounds.width*1440;
+        const y=(button.bottom+16-bounds.top)/bounds.height*900;
+        const rtl=getComputedStyle(root).direction==='rtl';const lane=rtl?340:1100;const approach=x+(rtl?-190:190);
+        return `M${rtl?0:1440} 0 C${lane} 140 ${lane} ${y-40} ${approach} ${y-50} S${x} ${y+70} ${x} ${y}`;
+      };
+      const calibrateRoutes=()=>{if(finalPath)finalPath.setAttribute('d',finalRoute());if(processPath)processPath.setAttribute('d',processRoute());};
+      // The route may stretch to a portrait section; the brand aircraft must not.
+      const placePlane=(plane:Element,path:SVGPathElement,progress:number)=>{
+        const svg=path.ownerSVGElement;if(!svg)return;
+        const bounds=svg.getBoundingClientRect();const view=svg.viewBox.baseVal;
+        if(!bounds.width||!bounds.height)return;
+        const sx=bounds.width/view.width,sy=bounds.height/view.height,length=path.getTotalLength();
+        const point=path.getPointAtLength(length*progress);
+        const before=path.getPointAtLength(Math.max(0,length*progress-1));
+        const after=path.getPointAtLength(Math.min(length,length*progress+1));
+        const angle=Math.atan2((after.y-before.y)*sy,(after.x-before.x)*sx)+Math.PI/4;
+        const cosine=Math.cos(angle),sine=Math.sin(angle);
+        gsap.set(plane,{attr:{transform:`matrix(${cosine/sx} ${sine/sy} ${-sine/sx} ${cosine/sy} ${point.x} ${point.y})`},opacity:1});
+      };
       const context = gsap.context(() => {
+        if(finalPath)gsap.set(finalPath,{attr:{d:finalRoute()}});
+        if(processPath)gsap.set(processPath,{attr:{d:processRoute()}});
         if (arrival && !entered.current) {
           entered.current = true;
           arrival.dataset.entry = 'play';
@@ -34,11 +73,9 @@ export function V6Motion() {
           if (path) {
             intro.fromTo(path, { strokeDashoffset: 1, strokeDasharray: 1 }, { strokeDashoffset: 0, duration: .65, ease: 'power2.inOut' }, .35);
             if (plane) {
-              const position = { value: 0 }; const length = path.getTotalLength();
+              const position = { value: 0 };
               intro.to(position, { value: .76, duration: .65, ease: 'power2.inOut', onUpdate: () => {
-                const point = path.getPointAtLength(length * position.value);
-                const ahead = path.getPointAtLength(Math.min(length, length * position.value + 2));
-                gsap.set(plane, { x: point.x, y: point.y, rotation: Math.atan2(ahead.y - point.y, ahead.x - point.x) * 180 / Math.PI + 45, transformOrigin: '0 0', opacity: 1 });
+                placePlane(plane,path,position.value);
               } }, .35);
             }
           }
@@ -57,11 +94,9 @@ export function V6Motion() {
           gsap.fromTo(path, { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', scrollTrigger: { trigger: path.closest('section'), start: 'top 80%', end: 'bottom 65%', scrub: true } });
           const plane = path.parentElement?.querySelector('[data-flight-plane]');
           if (plane && !(mobile && path.closest('.flight-trace-process'))) {
-            const position = { value: 0 }; const length = path.getTotalLength();
+            const position = { value: 0 };
             gsap.to(position, { value: 1, ease: 'none', scrollTrigger: { trigger: path.closest('section'), start: 'top 70%', end: 'bottom 65%', scrub: true }, onUpdate: () => {
-              const point = path.getPointAtLength(length * position.value);
-              const ahead = path.getPointAtLength(Math.min(length, length * position.value + 1));
-              gsap.set(plane, { x: point.x, y: point.y, rotation: Math.atan2(ahead.y-point.y,ahead.x-point.x)*180/Math.PI+45, opacity: 1, transformOrigin:'0 0' });
+              placePlane(plane,path,position.value);
             } });
           }
         });
@@ -95,11 +130,25 @@ export function V6Motion() {
       }, root);
       // Recompute on layout/image changes without a continuous render loop.
       let frame = 0;
-      const resize = new ResizeObserver(() => { cancelAnimationFrame(frame); frame = requestAnimationFrame(() => ScrollTrigger.refresh()); });
+      let pendingRefresh=false;
+      let width=root.clientWidth,height=root.clientHeight;
+      const refreshWhenIdle=()=>{
+        frame=0;
+        if(!pendingRefresh||ScrollTrigger.isScrolling())return;
+        pendingRefresh=false;ScrollTrigger.refresh();
+      };
+      const resize = new ResizeObserver(([entry]) => {
+        const next=entry.contentRect;
+        if(Math.abs(next.width-width)<.5&&Math.abs(next.height-height)<.5)return;
+        width=next.width;height=next.height;pendingRefresh=true;
+        cancelAnimationFrame(frame);frame=requestAnimationFrame(refreshWhenIdle);
+      });
       resize.observe(root);
-      dispose = () => { removeIntroListeners(); cancelAnimationFrame(frame); resize.disconnect(); context.revert(); };
+      ScrollTrigger.addEventListener('refreshInit',calibrateRoutes);
+      ScrollTrigger.addEventListener('scrollEnd',refreshWhenIdle);
+      dispose = () => { removeIntroListeners(); ScrollTrigger.removeEventListener('scrollEnd',refreshWhenIdle);ScrollTrigger.removeEventListener('refreshInit',calibrateRoutes);cancelAnimationFrame(frame); resize.disconnect(); context.revert(); };
     });
     return () => { cancelled = true; dispose(); };
-  }, [calm]);
+  }, [calm,small]);
   return <span hidden ref={anchor} data-v6-motion-anchor/>;
 }

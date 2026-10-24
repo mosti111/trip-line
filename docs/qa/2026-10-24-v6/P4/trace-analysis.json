@@ -1,0 +1,47 @@
+{
+  "scope": "Isolated Windows headless Chromium; real wheel input with video and trace enabled. Duration/interval measurements are not encoding FPS or field-device certification.",
+  "events": {
+    "UpdateLayoutTree": {
+      "count": 1064,
+      "maxMs": 6.666,
+      "p95Ms": 0.693,
+      "over50Ms": 0
+    },
+    "Layout": {
+      "count": 133,
+      "maxMs": 1.614,
+      "p95Ms": 1.09,
+      "over50Ms": 0
+    },
+    "Paint": {
+      "count": 878,
+      "maxMs": 4.489,
+      "p95Ms": 2.196,
+      "over50Ms": 0
+    },
+    "FunctionCall": {
+      "count": 7810,
+      "maxMs": 61.987,
+      "p95Ms": 0.355,
+      "over50Ms": 1
+    },
+    "EvaluateScript": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "AnimationFrame": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "FireAnimationFrame": {
+      "count": 3280,
+      "maxMs": 4.442,
+      "p95Ms": 0.698,
+      "over50Ms": 0
+    }
+  }
+}

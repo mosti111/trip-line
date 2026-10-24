@@ -1,0 +1,83 @@
+[
+  {
+    "url": "/en",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/about",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/contact",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/services/hajj-umrah",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/services/tours",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/business",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/destinations/turkiye/rize-ayder",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/motion-lab",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  }
+]

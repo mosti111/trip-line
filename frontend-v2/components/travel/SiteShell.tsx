@@ -80,6 +80,7 @@ function ShellContent({ locale, children, nonce }: { locale: Locale; children: R
   const calm = useSyncExternalStore(subscribe, snapshot, () => true);
   const navigationCalm = useSyncExternalStore(subscribe, navigationSnapshot, () => true);
   const choice = useSyncExternalStore(subscribe, preference, () => 'system');
+  useEffect(() => { document.documentElement.dataset.motionLayout = snapshot() ? 'static' : 'motion'; }, [calm, choice]);
   const journey = useJourney();
   const menuId = useId(), megaId = useId();
   const preview = turkishPlaces.find(place => place.slug === previewId) || turkishPlaces[0];

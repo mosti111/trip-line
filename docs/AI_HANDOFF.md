@@ -1,13 +1,22 @@
-## V6 in progress — 24 October 2026
+## V6 paused at checkpoint — 24 October 2026
 
-Direct [TL-007 request](tasks/TL-007-v6-instructions.md) authorizes five sequential
-solo phases on codex/trip-line-v6. Clean V5 a499c50 preserved on
-codex/v5-before-v6. P0 Motion Lab ea3500b; P1 opening/navigation2a3e22b verified,
-including corrected decoded image/mask behavior. P2 homepage underway; P3/P4
-pending. [V6 state](orchestration/v6-state.json), [report](reports/TL-007-v6.md).
-No historical worker leases, subagents, merge, push or deployment. Preserve noindex
-and legal defaults. User creative acceptance remains pending.
+User requested a checkpoint and automatic continuation after the five-hour limit reset.
+P0–P3 verified; P4 remains incomplete on branch codex/trip-line-v6.
+Latest frozen build: EBigX6N_DFk5KTM0gu4qh. Typecheck/lint, 32 tests and build passed;
+latest 120 public routes, 36 viewport/locale/motion cases and three Atlas cases passed.
+Full desktop-wheel and Arabic-touch recordings reach the actual page bottom.
+Earlier full V3, nine-surface accessibility, interaction and 4x CPU evidence is retained
+with its original scope. Performance closure is pending: latest recorded run contains
+one 83ms long task and a 61.987ms FunctionCall; do not claim the idle-refresh change
+eliminated long tasks. Preview stopped. No new feature work during the pause.
 
+Reset: 25 October 2026 00:48:25 Europe/Istanbul (21:48:25 UTC).
+One-shot same-chat continuation scheduled for 00:50 through automation
+resume-trip-line-v6-after-limit-reset. Resume from P4, inspect Git/state/report,
+finish performance review, evidence packaging/manifest and final reporting.
+Single implementation agent, no subagents. No merge/push/deploy/publication.
+Client creative acceptance pending. Clean V5 a499c50 preserved on codex/v5-before-v6.
+[V6 state](orchestration/v6-state.json), [report](reports/TL-007-v6.md).
 ## V5 complete — 24 October 2026
 
 All five [TL-006](tasks/TL-006-v5.md) phases are implemented and verified on codex/trip-line-v5. See [delivery report](reports/TL-006-v5.md), [V5 state](orchestration/v5-state.json) and [evidence](qa/2026-10-24-v5/manifest.json). Native scroll, faithful SVG identity, Living Atlas, preserved multilingual routes and honest inquiry are ready for client creative review. No known blocking defect in exercised scope; no merge/push/deploy/publication. No follow-up work authorized. Historical progress follows.
@@ -383,3 +392,4 @@ zero errors), restarted the existing frozen Webpack build, and runs default V3
 before exclusive QP07 browser release. No rebuild or application changes are
 implied. Final production/runtime/rendered approval remains pending. Continue the
 same full authorized phases 0–14; preserve all unrelated setup/mixed work.
+

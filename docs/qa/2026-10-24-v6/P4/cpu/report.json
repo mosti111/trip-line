@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "normal",
+      "rate": 4,
+      "navigationAndSelectionMs": 7132,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 4036.3000000715256,
+          "top": 824.09375,
+          "scroll": 13280,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 5246.900000095367,
+          "top": 824.09375,
+          "scroll": 13280,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 5416.300000071526,
+          "top": 824.09375,
+          "scroll": 13280,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    },
+    {
+      "mode": "manual-reduced",
+      "rate": 4,
+      "navigationAndSelectionMs": 5160,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 3492.1999999284744,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 4476.899999976158,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 4623.199999928474,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    },
+    {
+      "mode": "save-data",
+      "rate": 4,
+      "navigationAndSelectionMs": 4961,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 3409.7000000476837,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 4274.800000071526,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 4453.700000047684,
+          "top": 824.09375,
+          "scroll": 14680,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    }
+  ],
+  "errors": []
+}

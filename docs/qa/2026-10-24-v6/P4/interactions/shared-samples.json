@@ -1,0 +1,357 @@
+{
+  "method": "Actual native browser ViewTransition animations paused and sampled at 0/400/799ms. Natural unpaused playback is separately recorded in shared-photo.webm. Capture overhead is not animation timing.",
+  "status": "passed",
+  "samples": [
+    {
+      "name": "start",
+      "time": 0,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "height": "520px",
+              "backdropFilter": "none",
+              "width": "1155.67px",
+              "transform": "matrix3d(0.983808, 0.00301761, 0, 6.19697e-05, 0.00270036, 0.960488, 0, -8.25503e-05, 0, 0, 1, 0, 62.7895, 142.757, 0, 1.00644)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "height": "760px",
+              "backdropFilter": "none",
+              "width": "1180.81px",
+              "transform": "matrix(1, 0, 0, 1, 259, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mid",
+      "time": 400,
+      "animations": [
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "height": "520px",
+              "backdropFilter": "none",
+              "width": "1155.67px",
+              "transform": "matrix3d(0.983808, 0.00301761, 0, 6.19697e-05, 0.00270036, 0.960488, 0, -8.25503e-05, 0, 0, 1, 0, 62.7895, 142.757, 0, 1.00644)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "height": "760px",
+              "backdropFilter": "none",
+              "width": "1180.81px",
+              "transform": "matrix(1, 0, 0, 1, 259, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "end",
+      "time": 799,
+      "animations": [
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "height": "520px",
+              "backdropFilter": "none",
+              "width": "1155.67px",
+              "transform": "matrix3d(0.983808, 0.00301761, 0, 6.19697e-05, 0.00270036, 0.960488, 0, -8.25503e-05, 0, 0, 1, 0, 62.7895, 142.757, 0, 1.00644)",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "height": "760px",
+              "backdropFilter": "none",
+              "width": "1180.81px",
+              "transform": "matrix(1, 0, 0, 1, 259, 0)",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "mixBlendMode": "plus-lighter",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

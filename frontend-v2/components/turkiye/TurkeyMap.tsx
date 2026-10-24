@@ -1,4 +1,5 @@
 'use client';
+import type { CSSProperties } from 'react';
 import { t, type Locale } from '@/lib/i18n';
 import { turkishPlaces } from '@/lib/turkiye';
 import boundary from '@/lib/turkey-map.json';
@@ -12,7 +13,13 @@ export function TurkeyMap({ locale, active, onSelect, selectedIds = [], locator 
   const start = anchor('istanbul');
   const end = anchor(active || 'istanbul');
   const activeRoute = `M ${start[0]} ${start[1]} Q ${(start[0] + end[0]) / 2} ${Math.min(start[1], end[1]) - 80} ${end[0]} ${end[1]}`;
-  return <div className={`rt-map ${locator ? 'rt-map-locator' : ''}`} dir="ltr"><div className="rt-map-canvas"><svg viewBox="0 -80 825 550" aria-hidden="true"><g className="rt-boundary">{boundary.map((path, index) => <path key={index} d={path}/>)}</g>{active && active !== 'istanbul' && <path key={active} className="v6-active-route" pathLength="1" d={activeRoute}/>} {points.length > 1 && <path className="rt-itinerary" d={route}/>} {turkishPlaces.map(place => { const [x, y] = anchor(place.slug); const [cx, cy] = controls[place.slug]; return <g key={place.slug}><line className="rt-leader" x1={x} y1={y} x2={cx} y2={cy}/><circle className="rt-anchor" cx={x} cy={y} r={active === place.slug ? 5 : 3}/></g>; })}</svg>
+  const place=turkishPlaces.find(item=>item.slug===active)||turkishPlaces[0];
+  const camera={
+    '--map-camera-x':`${Math.max(-6,Math.min(6,(35-place.lon)*.65))}px`,
+    '--map-camera-y':`${Math.max(-3,Math.min(3,(place.lat-39.5)*.8))}px`,
+    '--map-camera-scale':active==='istanbul'?1:1.02,
+  } as CSSProperties;
+  return <div className={`rt-map ${locator ? 'rt-map-locator' : ''}`} style={camera} dir="ltr"><div className="rt-map-canvas"><svg viewBox="0 -80 825 550" aria-hidden="true"><g className="rt-boundary">{boundary.map((path, index) => <path key={index} d={path}/>)}</g>{active && active !== 'istanbul' && <path key={active} className="v6-active-route" pathLength="1" d={activeRoute}/>} {points.length > 1 && <path className="rt-itinerary" d={route}/>} {turkishPlaces.map(place => { const [x, y] = anchor(place.slug); const [cx, cy] = controls[place.slug]; return <g key={place.slug}><line className="rt-leader" x1={x} y1={y} x2={cx} y2={cy}/><circle className="rt-anchor" cx={x} cy={y} r={active === place.slug ? 5 : 3}/></g>; })}</svg>
     {turkishPlaces.map((place, index) => { const [x, y] = controls[place.slug]; return <button type="button" className="rt-map-pin" key={place.slug} style={{ left: `${x / 825 * 100}%`, top: `${(y + 80) / 550 * 100}%` }} aria-label={place.name[locale]} aria-pressed={active === place.slug} data-in-journey={selectedIds.includes(place.slug)} onClick={() => onSelect?.(place.slug)} disabled={!onSelect}><span>{String(index + 1).padStart(2, '0')}</span></button>; })}
   </div><p className="rt-map-caption">{t('Türkiye · geographic overview', 'تركيا · نظرة جغرافية', 'Türkiye · coğrafi görünüm')[locale]}</p>{points.length > 1 && <p className="rt-map-caption">{t('Your journey line is conceptual, not travel directions.', 'مسار رحلتك تصوّر مبدئي، وليس إرشادات تنقل.', 'Yolculuk çizgin taslak bir rotadır, yol tarifi değildir.')[locale]}</p>}</div>;
 }

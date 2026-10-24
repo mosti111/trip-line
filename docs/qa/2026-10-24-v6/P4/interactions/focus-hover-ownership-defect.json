@@ -1,0 +1,103 @@
+{
+  "status": "failed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "touch": false,
+      "samples": [
+        {
+          "world": 0,
+          "depth": "matrix3d(1.06354, 0, 0.0557378, -5.06707e-05, 0, 1.065, 0, 0, -0.052336, 0, 0.99863, -0.000907845, 8.50832, 0, 0.445902, 0.999595)"
+        },
+        {
+          "world": 1,
+          "depth": "matrix3d(1.04743, 0, -0.0732151, 6.65592e-05, 0, 1.04999, 0, 0, 0.0697296, 0, 0.997566, -0.000906878, 0, -5.24797, 0, 1)"
+        },
+        {
+          "world": 2,
+          "depth": "matrix3d(1.04499, 0, 0, 0, 0, 1.04356, 0.0546694, -4.96995e-05, 0, -0.0523158, 0.998631, -0.000907846, -8.35678, 0, 0, 1)"
+        },
+        {
+          "network": {
+            "start": "matrix(1, 0, 0, 1, -3.73168, 0)",
+            "end": "matrix(1, 0, 0, 1, -26.1317, 0)"
+          }
+        },
+        {
+          "process": "start",
+          "stroke": "1px"
+        },
+        {
+          "process": "mid",
+          "stroke": "1px"
+        },
+        {
+          "process": "end",
+          "stroke": "0px"
+        },
+        {
+          "memoryCaption": [
+            {
+              "x": 89.69115447998047,
+              "y": 540.4061889648438,
+              "width": 7.539306640625,
+              "height": 14.5618896484375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 95.76705932617188,
+              "y": 539.9978637695312,
+              "width": 5.3482513427734375,
+              "height": 14.33160400390625,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 99.65191650390625,
+              "y": 539.1746826171875,
+              "width": 9.295257568359375,
+              "height": 14.7464599609375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 89.69115447998047,
+              "y": 540.4061889648438,
+              "width": 7.539306640625,
+              "height": 14.5618896484375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 95.76705932617188,
+              "y": 539.9978637695312,
+              "width": 5.3482513427734375,
+              "height": 14.33160400390625,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 99.65191650390625,
+              "y": 539.1746826171875,
+              "width": 9.295257568359375,
+              "height": 14.7464599609375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 107.48377227783203,
+              "y": 536.4275512695312,
+              "width": 27.600669860839844,
+              "height": 16.67047119140625,
+              "owner": "v6-memory v6-memory-0"
+            }
+          ]
+        },
+        {
+          "keyboardFollower": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "slowImageLatestWins": true,
+      "manualReduced": true
+    }
+  ],
+  "errors": [],
+  "failure": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.v6-directory-photo')\nExpected: \"flights-hotels\"\nReceived: \"tours\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.v6-directory-photo') with timeout 5000ms\n  - waiting for locator('.v6-directory-photo')\n    - locator resolved to <div class=\"v6-directory-photo\" data-active-service=\"camps\" data-settled-service=\"tours\">…</div>\n    3 × unexpected value \"tours\"\n      - locator resolved to <div class=\"v6-directory-photo\" data-settled-service=\"tours\" data-active-service=\"hajj-umrah\">…</div>\n    2 × unexpected value \"tours\"\n      - locator resolved to <div class=\"v6-directory-photo\" data-active-service=\"camps\" data-settled-service=\"tours\">…</div>\n      - unexpected value \"tours\"\n      - locator resolved to <div class=\"v6-directory-photo\" data-settled-service=\"tours\" data-active-service=\"hajj-umrah\">…</div>\n    - unexpected value \"tours\"\n    - locator resolved to <div class=\"v6-directory-photo\" data-settled-service=\"tours\" data-active-service=\"hajj-umrah\">…</div>\n    2 × unexpected value \"tours\"\n      - locator resolved to <div class=\"v6-directory-photo\" data-active-service=\"camps\" data-settled-service=\"tours\">…</div>\n    - unexpected value \"tours\"\n    - locator resolved to <div class=\"v6-directory-photo\" data-settled-service=\"tours\" data-active-service=\"hajj-umrah\">…</div>\n    - unexpected value \"tours\"\n"
+}

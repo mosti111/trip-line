@@ -1,0 +1,44 @@
+{
+  "build": "EBigX6N_DFk5KTM0gu4qh",
+  "baseP3": "81010dfce9d1daae942b440feca4a20695aba08a",
+  "core": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "tests": "32/32 passed",
+    "build": "Turbopack passed"
+  },
+  "changedApplicationFiles": [
+    {
+      "path": "frontend-v2/app/layout.tsx",
+      "sha256": "9773bbbe31b8e6bcd1aec1ba6fdcaca3931d05217dc88596e66c06cafcdc8675"
+    },
+    {
+      "path": "frontend-v2/components/experience/FlightTrace.tsx",
+      "sha256": "f502598b29e156cf9f2d8b7b846ba73d54e14277121cf90f190047a6d96a50af"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeEditorial.tsx",
+      "sha256": "6969fa16848e827a770be46b74624f59f8f727b376446e4d20b03702d2e0dfc1"
+    },
+    {
+      "path": "frontend-v2/components/travel/SiteShell.tsx",
+      "sha256": "ee7d9f70e52383b825bd4d821744f250e60564375e923b53ec1b126c0c344627"
+    },
+    {
+      "path": "frontend-v2/components/turkiye/TurkeyMap.tsx",
+      "sha256": "fd4ea7ac5ec053b51431ad8a552bbfa900894d67a60ed488b7ec3bf39cae13d2"
+    },
+    {
+      "path": "frontend-v2/components/v6/ServiceDirectory.tsx",
+      "sha256": "8f265aed7e719c6f63e55983013d424e8baad50aa68fd5df570156a90d564369"
+    },
+    {
+      "path": "frontend-v2/components/v6/V6Motion.tsx",
+      "sha256": "c73ea9b4ba4a84d53cbd5ef258ee797a53a2b144eb48834fb69fc6542c269acb"
+    },
+    {
+      "path": "frontend-v2/styles/v6-motion.css",
+      "sha256": "e69c329d1b8b4c9fbde751fcc01bf1e496442e7944fe84abfd97122559095aea"
+    }
+  ]
+}

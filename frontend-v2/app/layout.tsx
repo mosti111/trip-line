@@ -12,4 +12,16 @@ import { SiteShell } from '@/components/travel/SiteShell';
 const sans=Manrope({subsets:['latin','latin-ext'],variable:'--font-body',display:'swap'});
 const arabic=Noto_Sans_Arabic({subsets:['arabic'],variable:'--font-arabic',display:'swap'});
 export const metadata:Metadata={metadataBase:new URL(siteUrl),title:{default:'Trip Line — Go somewhere meaningful.',template:'%s · Trip Line'},robots:{index:false,follow:false},icons:{icon:'/brand/mark.svg'}};
-export default async function RootLayout({children}:{children:React.ReactNode}){const lang=(await headers()).get('x-tripline-locale')||'en';const locale=isLocale(lang)?lang:'en';return <html lang={locale} dir={locale==='ar'?'rtl':'ltr'} className={`${sans.variable} ${arabic.variable}`}><body><SiteShell locale={locale} nonce={(await headers()).get('x-nonce')||undefined}>{children}</SiteShell></body></html>;}
+// Resolve layout-affecting preferences before body paint. The conservative React
+// hydration snapshot may pause motion, but must never expand/collapse logo rows.
+const motionLayout = `(()=>{let calm=matchMedia('(prefers-reduced-motion: reduce)').matches||!!navigator.connection?.saveData;try{calm=calm||localStorage.getItem('tripline-motion')==='reduced'}catch{}document.documentElement.dataset.motionLayout=calm?'static':'motion'})()`;
+export default async function RootLayout({children}:{children:React.ReactNode}){
+ const requestHeaders=await headers();
+ const lang=requestHeaders.get('x-tripline-locale')||'en';
+ const locale=isLocale(lang)?lang:'en';
+ const nonce=requestHeaders.get('x-nonce')||undefined;
+ return <html lang={locale} dir={locale==='ar'?'rtl':'ltr'} className={`${sans.variable} ${arabic.variable}`} suppressHydrationWarning>
+  <head><script id="tripline-motion-layout" nonce={nonce} dangerouslySetInnerHTML={{__html:motionLayout}}/></head>
+  <body><SiteShell locale={locale} nonce={nonce}>{children}</SiteShell></body>
+ </html>;
+}

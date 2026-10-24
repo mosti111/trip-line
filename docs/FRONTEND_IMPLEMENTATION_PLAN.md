@@ -43,8 +43,9 @@ Current 24 October 2026: [V5 full five-phase solo reconstruction](tasks/TL-006-v
 
 ## V6 continuation — 24 October 2026
 
-[TL-007](tasks/TL-007-v6.md): V6-P0 Motion Lab and P1 opening/navigation verified;
-P2 homepage in progress; P3 internal pages and P4 complete QA remain pending.
+[TL-007](tasks/TL-007-v6.md): V6-P0 Motion Lab, P1 opening/navigation, P2 homepage
+and P3 internal pages verified. P4 production QA in progress; final full verification,
+recordings and performance acceptance remain pending.
 Full five-phase solo scope directly authorized. V5 preserved on codex/v5-before-v6;
 no merge/push/deploy or user creative acceptance. [Report](reports/TL-007-v6.md).
 
@@ -234,3 +235,8 @@ final lint. Default SWC/AppControl build failure and documented Webpack pass ret
 Both verifier timing failures diagnosed/preserved without application changes.
 Exact59-file checkpoint pending root, then purpose-led B08/QB08; full remaining
 phases0–14 continue. No deployment/main merge/user creative acceptance.
+
+V6 pause checkpoint24October2026: user requested pause until five-hour reset.
+P4 incomplete; latest36-case matrix/120-route/three Atlas checks pass, performance
+closure and final evidence packaging/report remain. Resume25October00:50 Istanbul
+via same-chat one-shot automation; see TL-007 report/state. No publication.

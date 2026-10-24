@@ -16,6 +16,7 @@ export function ServiceDirectory({ locale }: { locale: Locale }) {
   const [ready, setReady] = useState('');
   const root = useRef<HTMLElement>(null);
   const latest = useRef(active.slug);
+  const interaction = useRef<'pointer' | 'focus'>('pointer');
   useEffect(() => { latest.current = active.slug; }, [active.slug]);
   useEffect(() => {
     const node = root.current;
@@ -27,7 +28,7 @@ export function ServiceDirectory({ locale }: { locale: Locale }) {
       const context = gsap.context(() => {
         const xTo = gsap.quickTo(follow, 'x', { duration: .4, ease: 'power3.out' });
         const yTo = gsap.quickTo(follow, 'y', { duration: .4, ease: 'power3.out' });
-        const move = (event: PointerEvent) => { if (event.pointerType !== 'mouse') return; const box = node.getBoundingClientRect(); xTo((event.clientX - box.left - box.width / 2) / box.width * 42); yTo((event.clientY - box.top - box.height / 2) / box.height * 28); };
+        const move = (event: PointerEvent) => { if (event.pointerType !== 'mouse' || (interaction.current === 'focus' && !event.movementX && !event.movementY)) return; const box = node.getBoundingClientRect(); xTo((event.clientX - box.left - box.width / 2) / box.width * 42); yTo((event.clientY - box.top - box.height / 2) / box.height * 28); };
         const reset = () => { xTo(0); yTo(0); };
         node.addEventListener('pointermove', move);node.addEventListener('pointerleave', reset);node.addEventListener('focusin', reset);
         dispose = () => { node.removeEventListener('pointermove', move);node.removeEventListener('pointerleave', reset);node.removeEventListener('focusin', reset);context.revert(); };
@@ -36,9 +37,14 @@ export function ServiceDirectory({ locale }: { locale: Locale }) {
     return () => { cancelled = true; dispose(); };
   }, [calm]);
   function select(service: typeof services[number]) { if (active.slug === service.slug) return; setReady('');setActive(service); }
-  return <section ref={root} className="rh-services v6-directory" data-chapter="11" aria-labelledby="services-title"><div className="rh-wrap">
+  return <section ref={root} className="rh-services v6-directory" data-chapter="11" aria-labelledby="services-title" onPointerMove={event => {
+    if(event.pointerType!=='mouse'||(!event.movementX&&!event.movementY)||!matchMedia('(hover: hover) and (pointer: fine)').matches)return;
+    interaction.current='pointer';
+    const id=(event.target as Element).closest<HTMLElement>('[data-service-preview]')?.dataset.servicePreview;
+    const service=services.find(item=>item.slug===id);if(service)select(service);
+  }}><div className="rh-wrap">
     <div className="rh-section-heading"><span className="rh-kicker">11 / {ui.services[locale]}</span><h2 id="services-title">{journeyCopy.services[locale]}</h2></div>
-    <div className="v6-directory-layout"><ol className="v6-service-index">{services.map((service, i) => <li key={service.slug} data-active={active.slug === service.slug}><Link href={href(locale, `services/${service.slug}`)} onPointerEnter={() => select(service)} onFocus={() => select(service)}><span className="v6-service-number">{String(i + 1).padStart(2, '0')}</span><strong>{service.title[locale]}</strong><ArrowUpRight size={24}/></Link></li>)}</ol>
+    <div className="v6-directory-layout"><ol className="v6-service-index">{services.map((service, i) => <li key={service.slug} data-active={active.slug === service.slug}><Link data-service-preview={service.slug} href={href(locale, `services/${service.slug}`)} onPointerEnter={event => { if(event.pointerType==='mouse'&&interaction.current==='pointer'&&matchMedia('(hover: hover) and (pointer: fine)').matches)select(service); }} onFocus={() => { interaction.current='focus';select(service); }}><span className="v6-service-number">{String(i + 1).padStart(2, '0')}</span><strong>{service.title[locale]}</strong><ArrowUpRight size={24}/></Link></li>)}</ol>
       <div className="v6-directory-stage"><div className="v6-directory-follow"><div className="v6-directory-photo" data-active-service={active.slug} data-settled-service={settled.slug}>
         <Image src={`/media/${settled.image}`} alt="" fill sizes="40vw"/>
         <motion.div key={active.slug} className="v6-directory-incoming" initial={{ clipPath: calm ? 'inset(0)' : 'inset(0 100% 0 0)', opacity: 0 }} animate={{ clipPath: ready === active.slug ? 'inset(0 0% 0 0)' : 'inset(0 100% 0 0)', opacity: ready === active.slug ? 1 : 0 }} transition={{ duration: calm ? 0 : .65, ease: [.22,1,.36,1] }} onAnimationComplete={() => { if (ready === active.slug && latest.current === active.slug) setSettled(active); }}>
