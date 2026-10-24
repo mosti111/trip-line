@@ -1,0 +1,38 @@
+[
+  {
+    "w": 1440,
+    "h": 900,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "w": 1024,
+    "h": 768,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "w": 1440,
+    "h": 900,
+    "lang": "ar",
+    "pass": true
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "lang": "ar",
+    "pass": true
+  },
+  {
+    "w": 1024,
+    "h": 768,
+    "lang": "tr",
+    "pass": true
+  }
+]

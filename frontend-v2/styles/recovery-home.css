@@ -229,3 +229,47 @@ html[lang=ar] .rh-sculpture{right:auto;left:-4%}
  .rh-figure-3 strong{font-size:clamp(31px,8.8vw,38px)}
  .rh-figure span{max-width:100%;overflow-wrap:break-word}
 }
+
+/* V5 Arrival: one viewport, deliberate photo crops, immediate native scroll. */
+.travel-site .rh-arrival{min-height:100svh;height:auto;padding-block:155px 105px;align-items:center}
+.travel-site .rh-arrival h1{font-size:clamp(64px,7.7vw,124px);line-height:1.01;max-width:1050px;letter-spacing:-.055em}
+.travel-site .rh-arrival-copy{z-index:2}
+.travel-site .rh-arrival-copy>.rh-kicker{font-size:10px;font-weight:500;letter-spacing:.15em;margin-bottom:25px}
+.travel-site .rh-arrival-copy>p{max-width:460px;font-size:15px;line-height:1.8;margin-block:26px}
+.travel-site .rh-arrival-photo img{object-position:65% 65%}
+.travel-site .rh-arrival-shade{background:linear-gradient(90deg,#071f20d9 0%,#071f207d 55%,#071f2012 100%),linear-gradient(0deg,#071f2077,transparent 40%)}
+.rh-arrival>.flight-trace{z-index:1;opacity:.85}
+.travel-site .rh-small-links{margin-top:12px}
+.travel-site .rh-arrival-foot{bottom:22px}
+html[lang=ar] .travel-site .rh-arrival h1{font-size:clamp(62px,7.1vw,110px);line-height:1.28;max-width:1000px}
+html[lang=ar] .travel-site .rh-arrival-shade{background:linear-gradient(270deg,#071f20df,#071f2075 60%,#071f2020)}
+html[lang=ar] .rh-arrival>.flight-trace{left:-70%;width:170%;max-width:none}
+html[lang=tr] .travel-site .rh-arrival h1{font-size:clamp(50px,6.2vw,95px);max-width:1150px;line-height:1.1}
+@media(min-width:768px) and (max-height:800px){
+ .travel-site .rh-arrival{padding-block:125px 84px}
+ .travel-site .rh-arrival h1{font-size:clamp(56px,7vw,92px)}
+ .travel-site .rh-arrival-copy>p{margin-block:20px;font-size:14px}
+ .travel-site .rh-arrival-copy>.rh-kicker{margin-bottom:18px}
+ html[lang=ar] .travel-site .rh-arrival h1{font-size:clamp(52px,6.5vw,82px)}
+ html[lang=tr] .travel-site .rh-arrival h1{font-size:clamp(44px,5.5vw,72px)}
+}
+@media(max-width:767px){
+ .travel-site .rh-arrival{padding-block:128px 110px;min-height:100svh;height:auto}
+ .travel-site .rh-arrival h1{font-size:clamp(42px,11.6vw,74px);line-height:1.05;letter-spacing:-.045em}
+ .travel-site .rh-arrival-copy>p{font-size:14px;max-width:340px;margin-block:24px}
+ .travel-site .rh-arrival-copy .rh-actions{max-width:310px;gap:12px}
+ .travel-site .rh-arrival-photo img{object-position:68% 65%}
+ .travel-site .rh-arrival-shade{background:linear-gradient(90deg,#071f20c9,#071f2066),linear-gradient(0deg,#071f2070,transparent)}
+ .travel-site .rh-arrival-foot{font-size:8px;gap:6px;bottom:18px}
+ html[lang=ar] .travel-site .rh-arrival{min-height:100svh}
+ html[lang=ar] .travel-site .rh-arrival h1{font-size:clamp(42px,11.6vw,65px);line-height:1.4}
+ html[lang=tr] .travel-site .rh-arrival{min-height:100svh}
+ html[lang=tr] .travel-site .rh-arrival h1{font-size:clamp(32px,8.7vw,55px);line-height:1.15}
+ .rh-arrival>.flight-trace{inset-inline-start:35%;width:80%;height:65%;top:35%;opacity:.65}
+}
+@media(max-height:500px) and (orientation:landscape){
+ .travel-site .rh-arrival{min-height:660px;padding-block:122px 110px}
+ .travel-site .rh-arrival h1{font-size:60px}
+ html[lang=ar] .travel-site .rh-arrival h1{font-size:56px}
+ html[lang=tr] .travel-site .rh-arrival h1{font-size:48px}
+}

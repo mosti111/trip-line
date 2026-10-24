@@ -1,11 +1,11 @@
 # TRIP LINE — V5 COMPLETE FRONTEND RECONSTRUCTION
 ## Single-Agent Workflow Setup + Final Art Direction + Full Implementation
 
-**Project:** Trip Line  
-**Repository:** https://github.com/mosti111/trip-line  
-**Application:** `frontend-v2`  
-**Preferred model:** GPT-6.1 Sol  
-**Recommended reasoning effort:** Medium  
+**Project:** Trip Line
+**Repository:** https://github.com/mosti111/trip-line
+**Application:** `frontend-v2`
+**Preferred model:** GPT-6.1 Sol
+**Recommended reasoning effort:** Medium
 **Target:** Complete the highest-quality achievable frontend by Sunday, October 25, 2026, afternoon, Istanbul time.
 
 You have authorization to implement the complete V5 frontend, including substantial replacement of existing design and motion systems.
