@@ -1,3 +1,5 @@
+Current 24 October 2026: [V5 full five-phase solo reconstruction](tasks/TL-006-v5.md) authorized; checkpoints in [report](reports/TL-006-v5.md). Historical phase text below is retained.
+
 > Current 23 October 2026: [TL-005 M01 navigation](tasks/TL-005-motion-v4-m01.md) is the sole authorized implementation milestone under the new V4 contract. Prior TL004 hero partial checkpoint and defect remain preserved; M02–M08 unstarted.
 
 > Current 23 October 2026: [TL-004 Motion V4 hero](tasks/TL-004-motion-v4-hero.md) is PARTIAL. Acceptance is blocked by P1 desktop entrance cancel/restart timing (EN 2973ms / AR 3549ms from first start to done; mobile 1502ms). Branch `codex/motion-v4-hero`, base `e0d5538`, frozen build `hI7nYfD8fZMLt9uxc68g_`. Typecheck, lint, 32 tests, build, public/V3 and the 26-case V4 suite pass; supplemental timing fails. Two correction cycles are exhausted, owners released: STOP after checkpoint. No third repair, next milestone, merge, push or deployment. [Report and evidence](reports/TL-004-motion-v4-hero.md). Earlier TL-003 statuses below remain historical.

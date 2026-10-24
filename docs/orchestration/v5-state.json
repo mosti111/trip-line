@@ -1,0 +1,9 @@
+{
+  "task": "TL-006",
+  "branch": "codex/trip-line-v5",
+  "topology": "single current implementation agent; no subagents",
+  "preserved": "5ae07b2aac50903dc333f1d21126710755615a2c",
+  "phase": "P1",
+  "status": "IN_PROGRESS",
+  "checkpoints": []
+}

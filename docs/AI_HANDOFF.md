@@ -1,3 +1,7 @@
+## Current V5 — 24 October 2026
+
+[TL-006](tasks/TL-006-v5.md) now authorizes full V5 solo reconstruction, all five phases sequentially on codex/trip-line-v5. Historical V4/M01 work safeguarded at 5ae07b2. [Solo workflow](orchestration/TRIP_LINE_V5_SOLO.md), [V5 state](orchestration/v5-state.json), [report](reports/TL-006-v5.md) govern this run; earlier stop/delegation rules are historical for V5 only.
+
 > Current 23 October 2026: New direct [Motion V4 contract](tasks/TL-005-motion-v4-instructions.md) authorizes [M01 navigation only](tasks/TL-005-motion-v4-m01.md). Clean newest local ce166e2 preserved on codex/motion-v4-m01. One selected Sol implements/QA, same Root reviews. Prior hero timing remains blocked; no M02+, hero repair or deployment.
 
 > Current 23 October 2026: [TL-004 Motion V4 hero](tasks/TL-004-motion-v4-hero.md) is PARTIAL. Acceptance is blocked by P1 desktop entrance cancel/restart timing (EN 2973ms / AR 3549ms from first start to done; mobile 1502ms). Branch `codex/motion-v4-hero`, base `e0d5538`, frozen build `hI7nYfD8fZMLt9uxc68g_`. Typecheck, lint, 32 tests, build, public/V3 and the 26-case V4 suite pass; supplemental timing fails. Two correction cycles are exhausted, owners released: STOP after checkpoint. No third repair, next milestone, merge, push or deployment. [Report and evidence](reports/TL-004-motion-v4-hero.md). Earlier TL-003 statuses below remain historical.

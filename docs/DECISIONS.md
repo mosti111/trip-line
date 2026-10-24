@@ -1,3 +1,8 @@
+## TL-DEC-016 — V5 Living Atlas and solo execution
+
+Date: 2026-10-24. Status: directly authorized; implementation/creative review pending.
+Decision: execute complete V5 across five phases with one current agent. Native scrolling replaces Lenis and long hero pin; thin modular bronze Flight Trace replaces sculpture; Manrope/Noto Sans Arabic replace editorial serifs; faithfully reconstruct supplied stacked logo. Preserve M01 navigation, twelve Turkish destinations, nine services, ten-country directory, languages, prepared-message inquiry and publication restrictions. User fixed art direction overrides V4 and generic skill defaults. Reason: explicit [full user brief](tasks/TL-006-v5-instructions.md). No model-switch claim, delegation, merge or deployment. Historical evidence retained. [Workflow](orchestration/TRIP_LINE_V5_SOLO.md).
+
 # Trip Line decisions
 
 ## TL-DEC-015 — Motion V4 Mediterranean direction and bounded M01
