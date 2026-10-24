@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import Image, { getImageProps } from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, Users, MapPin, BedDouble, Landmark, ChevronDown } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -15,7 +15,16 @@ import { DestinationPortal } from '../experience/DestinationPortal';
 import { HeroVideo } from './HeroVideo';
 import { turkeyCopy, turkishPlaces } from '@/lib/turkiye';
 
-export function Photo({file,alt='',className='',priority=false,sizes}:{file:string;alt?:string;className?:string;priority?:boolean;sizes?:string}) {return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={sizes??(priority?'100vw':'(max-width: 760px) 100vw, 50vw')} preload={priority} quality={85}/></div>;}
+export function Photo({file,mobileFile,alt='',className='',priority=false,sizes}:{file:string;mobileFile?:string;alt?:string;className?:string;priority?:boolean;sizes?:string}) {
+  if (mobileFile) {
+    const common = {alt,fill:true,sizes:sizes??'100vw',quality:85};
+    const desktop = getImageProps({...common,src:`/media/${file}`}).props;
+    const mobile = getImageProps({...common,src:`/media/${mobileFile}`}).props;
+    return <div className={`photo ${className}`}><picture><source media="(max-width:767px)" srcSet={mobile.srcSet}/>{/* getImageProps supplies Next's optimized source set for the native picture element. */}
+      <img {...desktop} alt={alt} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':'auto'} /></picture></div>;
+  }
+  return <div className={`photo ${className}`}><Image src={`/media/${file}`} alt={alt} fill sizes={sizes??(priority?'100vw':'(max-width:760px) 100vw,50vw')} preload={priority} quality={85}/></div>;
+}
 export function Eyebrow({children}:{children:React.ReactNode}) {return <span className="eyebrow">{children}<span aria-hidden="true"/></span>;}
 export function Reveal({children,className=''}:{children:React.ReactNode;className?:string}) {const {calm}=useTravel();return <motion.div className={className} initial={false} whileInView={calm?undefined:{y:[18,0]}} viewport={{once:true,amount:.12}} transition={{duration:.65,ease:[.22,1,.36,1]}}>{children}</motion.div>;}
 export function Action({locale,path,children,secondary=false}:{locale:Locale;path:string;children:React.ReactNode;secondary?:boolean}) {return <Link className={secondary?'text-link':'button'} href={href(locale,path)}>{children}<ArrowUpRight size={18} className="directional"/></Link>;}

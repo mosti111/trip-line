@@ -109,5 +109,37 @@
     "file": "yalova.jpg",
     "source": "https://unsplash.com/photos/DU6zGxKkLdY",
     "license": "Unsplash License; free photo verified 2026-10-02"
+  },
+  {
+    "file": "istanbul-v5.jpg",
+    "source": "https://www.pexels.com/photo/ferry-at-a-harbor-with-a-mosque-in-the-background-17786843/",
+    "creator": "Ahmed ؜",
+    "download": "https://images.pexels.com/photos/17786843/pexels-photo-17786843.jpeg?auto=compress&cs=tinysrgb&w=2560",
+    "license": "Pexels License; free commercial website use; https://www.pexels.com/license/; verified 2026-10-24",
+    "usage": "Documentary mobile Istanbul arrival; not a Trip Line-operated ferry claim"
+  },
+  {
+    "file": "cappadocia-v5.jpg",
+    "source": "https://www.pexels.com/photo/hot-air-balloons-over-cappadocia-at-sunrise-35489614/",
+    "creator": "MEHMET KAYNAR",
+    "download": "https://images.pexels.com/photos/35489614/pexels-photo-35489614.jpeg?auto=compress&cs=tinysrgb&w=2400",
+    "license": "Pexels License; free commercial website use; https://www.pexels.com/license/; verified 2026-10-24",
+    "usage": "Documentary Cappadocia dawn; no operator endorsement implied"
+  },
+  {
+    "file": "antalya-coast-v5.jpg",
+    "source": "https://www.pexels.com/photo/aerial-view-of-rugged-antalya-coastline-30642534/",
+    "creator": "emre ozqe",
+    "download": "https://images.pexels.com/photos/30642534/pexels-photo-30642534.jpeg?auto=compress&cs=tinysrgb&w=2560",
+    "license": "Pexels License https://www.pexels.com/license/; free commercial website use; verified 2026-10-24",
+    "usage": "Antalya signature and final invitation documentary coastline"
+  },
+  {
+    "file": "corporate-v5.jpg",
+    "source": "https://www.pexels.com/photo/business-meeting-28186642/",
+    "creator": "Halid Elosman",
+    "download": "https://images.pexels.com/photos/28186642/pexels-photo-28186642.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "license": "Pexels License https://www.pexels.com/license/; free commercial website use; verified 2026-10-24",
+    "usage": "Istanbul corporate meeting reference; not a Trip Line event or endorsement"
   }
 ]

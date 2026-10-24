@@ -3,7 +3,7 @@
   "branch": "codex/trip-line-v5",
   "topology": "single current implementation agent; no subagents",
   "preserved": "5ae07b2aac50903dc333f1d21126710755615a2c",
-  "phase": "P2",
+  "phase": "P3",
   "status": "IN_PROGRESS",
   "checkpoints": [
     {
@@ -11,6 +11,12 @@
       "sha": "0a2f6f4",
       "evidence": "docs/qa/2026-10-24-v5/P1-artwork.png",
       "checks": "typecheck/lint/32 tests/build PASS"
+    },
+    {
+      "phase": "P2",
+      "sha": "5711576",
+      "evidence": "docs/qa/2026-10-24-v5/P2-checks.json",
+      "checks": "core checks and six browser cases PASS"
     }
   ]
 }

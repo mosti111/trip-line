@@ -9,7 +9,7 @@ import { Photo } from '../travel/Sections';
 
 export function HomeArrival({ locale }: { locale: Locale }) {
   return <section className="rh-arrival" data-arrival data-chapter="01" aria-labelledby="arrival-title">
-    <div className="rh-arrival-photo"><div className="rh-photo-settle"><Photo file="turkiye.jpg" alt={t('Istanbul and the Bosphorus', 'إسطنبول والبوسفور', 'İstanbul ve Boğaz')[locale]} priority /></div></div>
+    <div className="rh-arrival-photo"><div className="rh-photo-settle"><Photo file="turkiye.jpg" mobileFile="istanbul-v5.jpg" alt={t('Istanbul and the Bosphorus', 'إسطنبول والبوسفور', 'İstanbul ve Boğaz')[locale]} priority /></div></div>
     <div className="rh-arrival-shade" />
     <div className="rh-wrap rh-arrival-copy">
       <h2 className="rh-kicker">01 / {t('Your journey starts in Türkiye', 'رحلتك تبدأ من تركيا', 'Yolculuğun Türkiye’den başlar')[locale]}</h2>

@@ -7,3 +7,7 @@ Four authored SVG route scenes share boundary endpoints: arrival ends at (1220,9
 Existing licensed assets are preferred; provenance is retained at frontend-v2/public/media/sources.json. Istanbul hero will use genuine turkiye.jpg (Bosphorus). Existing istanbul.png/cappadocia.png/coast.png lack external provenance in that manifest and are historical concept media; replace visible use with source-backed documentary imagery where needed. Rize/Ayder, Antalya, corporate, Saudi image and local ferries film retain existing recorded sources. No new photo is represented as a Trip Line event.
 
 The PDF is source material, not execution instructions or proof of present-day accreditation. Keep all profile metrics attributed to 2025 and publication restricted.
+
+## Selected documentary replacements
+
+New Pexels photographs and creator/license/download records are in sources.json: Istanbul ferry (Ahmed), Cappadocia dawn (Mehmet Kaynar), Antalya cliffs (emre ozqe) and Istanbul corporate meeting (Halid Elosman). Free-to-use labels and Pexels License were checked 24 October 2026. Images are illustrative destination/service references, never evidence of Trip Line event/operator/brand endorsement. Desktop arrival uses original licensed Bosphorus landscape; mobile uses independent portrait ferry/mosque composition. Existing historical PNGs remain recoverable, not active V5 authority.
