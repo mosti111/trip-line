@@ -6,8 +6,8 @@
   },
   {
     "file": "checkpoints.json",
-    "bytes": 6880,
-    "sha256": "2d69e5179fbde25c898d1e5c85af8565e0b9d27eaaa03becc3794622a2a705c8"
+    "bytes": 9137,
+    "sha256": "637853118cd1c632dc189975f149174d4ae0bb913dcbba2a53df08945affe1a3"
   },
   {
     "file": "desktop-scroll.webm",
@@ -348,5 +348,10 @@
     "file": "P5-v3-regression.json",
     "bytes": 18315,
     "sha256": "c7e8f091c4f8440f08a1b870c415d0b5ad0cce6e56c35a7920c6c937cf629d93"
+  },
+  {
+    "file": "source-fingerprint.json",
+    "bytes": 182,
+    "sha256": "d8b879b1135f65906f34172463e4994ba69a23a3e6892ce3c74c1a3b4182517d"
   }
 ]
