@@ -399,3 +399,13 @@ html[lang=ar] .rh-final>.flight-trace{left:-65%;width:100%}
  .travel-site .rh-final h2{font-size:48px}
  .rh-final>.flight-trace{left:20%;width:100%}
 }
+/* RTL keeps geography/photo orientation. Explicit physical edges avoid the
+   over-constrained inset rule choosing right:0 in an RTL formatting context. */
+html[lang=ar] .recovery-home>.rh-arrival>.flight-trace,
+html[lang=ar] .recovery-home>.rh-worlds>.flight-trace,
+html[lang=ar] .recovery-home>.rh-threshold>.flight-trace{left:-75%;right:auto;inset-inline-start:auto;width:100%}
+html[lang=ar] .recovery-home>.rh-final>.flight-trace{left:-65%;right:auto;inset-inline-start:auto;width:100%}
+.rh-worlds .rh-section-heading{position:relative;z-index:1;background:#F8EFE0}
+
+/* Selected documentary evening arrival: skyline/ferry fit the wide desktop crop. */
+@media(min-width:768px){.travel-site .rh-arrival-photo img{object-position:50% 50%}}

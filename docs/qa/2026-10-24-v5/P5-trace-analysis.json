@@ -1,0 +1,32 @@
+{
+  "UpdateLayoutTree": {
+    "count": 284,
+    "maxMs": 6.366,
+    "p95Ms": 0.506,
+    "over50Ms": 0
+  },
+  "Layout": {
+    "count": 25,
+    "maxMs": 0.792,
+    "p95Ms": 0.669,
+    "over50Ms": 0
+  },
+  "Paint": {
+    "count": 231,
+    "maxMs": 5.509,
+    "p95Ms": 2.159,
+    "over50Ms": 0
+  },
+  "FunctionCall": {
+    "count": 3644,
+    "maxMs": 3.398,
+    "p95Ms": 0.3,
+    "over50Ms": 0
+  },
+  "FireAnimationFrame": {
+    "count": 1457,
+    "maxMs": 1.374,
+    "p95Ms": 0.637,
+    "over50Ms": 0
+  }
+}

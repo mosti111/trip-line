@@ -1,3 +1,5 @@
+Current scoped exception: [TL-006 V5 solo](TRIP_LINE_V5_SOLO.md), directly authorized 24 October 2026, supersedes delegation and lead-review routing only for V5. One current agent, no model-switch attestation. Historical routing follows.
+
 # Model routing and capability evidence
 
 Repository prose cannot select or switch a runtime model. Use the actual exposed

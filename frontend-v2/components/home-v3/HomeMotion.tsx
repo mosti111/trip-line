@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import { useTravel } from '../travel/SiteShell';
 
 /** Native scrolling. CSS owns the finite arrival; GSAP owns only later route strokes. */
@@ -7,21 +7,44 @@ export function HomeMotion() {
   const { calm } = useTravel();
   const anchor = useRef<HTMLSpanElement>(null);
   const entered = useRef(false);
-  useEffect(() => {
-    const root = anchor.current?.closest<HTMLElement>('.recovery-home');
-    const arrival = root?.querySelector<HTMLElement>('.rh-arrival');
-    if (!root || !arrival) return;
-    root.dataset.homeMotion = calm ? 'static' : 'native';
+  useLayoutEffect(() => {
+    const arrival = anchor.current?.closest('.recovery-home')?.querySelector<HTMLElement>('.rh-arrival');
+    if (!arrival) return;
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+    const connection = (navigator as Navigator & { connection?: EventTarget & { saveData?: boolean } }).connection;
+    const requested = () => {
+      let manual = false;
+      try { manual = localStorage.getItem('tripline-motion') === 'reduced'; } catch { /* System preference remains authoritative. */ }
+      return reduced.matches || manual || connection?.saveData;
+    };
+    const finish = () => { arrival.dataset.entry = 'done'; };
     if (!entered.current) {
       entered.current = true;
-      arrival.dataset.entry = calm || scrollY > 40 ? 'done' : 'play';
+      // Read actual browser preference: the shell deliberately uses calm SSR HTML.
+      // Its conservative hydration snapshot must not cancel a normal cold entrance.
+      arrival.dataset.entry = requested() || scrollY > 40 ? 'done' : 'play';
     }
-    const finish = () => { arrival.dataset.entry = 'done'; };
-    if (calm) finish();
+    const preference = () => { if (requested()) finish(); };
+    const keyboard = (event: KeyboardEvent) => { if (['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(event.key)) finish(); };
     const timer = setTimeout(finish, 1100);
-    window.addEventListener('wheel', finish, { passive: true, once: true });
-    window.addEventListener('touchmove', finish, { passive: true, once: true });
+    window.addEventListener('wheel', finish, { passive: true });
+    window.addEventListener('touchmove', finish, { passive: true });
+    window.addEventListener('keydown', keyboard);
+    window.addEventListener('tripline-preference', preference);
+    window.addEventListener('storage', preference);
+    reduced.addEventListener('change', preference);
+    connection?.addEventListener?.('change', preference);
     arrival.addEventListener('focusin', finish);
+    return () => {
+      clearTimeout(timer); window.removeEventListener('wheel', finish); window.removeEventListener('touchmove', finish); window.removeEventListener('keydown', keyboard);
+      window.removeEventListener('tripline-preference', preference); window.removeEventListener('storage', preference); reduced.removeEventListener('change', preference);
+      connection?.removeEventListener?.('change', preference); arrival.removeEventListener('focusin', finish);
+    };
+  }, []);
+  useEffect(() => {
+    const root = anchor.current?.closest<HTMLElement>('.recovery-home');
+    if (!root) return;
+    root.dataset.homeMotion = calm ? 'static' : 'native';
     let cancelled = false;
     let dispose = () => {};
     const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
@@ -38,7 +61,7 @@ export function HomeMotion() {
         dispose = () => context.revert();
       });
     }
-    return () => { cancelled = true; dispose(); clearTimeout(timer); window.removeEventListener('wheel', finish); window.removeEventListener('touchmove', finish); arrival.removeEventListener('focusin', finish); };
+    return () => { cancelled = true; dispose(); };
   }, [calm]);
   return <span ref={anchor} hidden data-home-motion-anchor />;
 }

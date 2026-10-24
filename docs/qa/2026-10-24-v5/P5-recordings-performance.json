@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3003",
+  "startedAt": "2026-10-24T16:49:16.740Z",
+  "cases": [],
+  "errors": [],
+  "recordings": [
+    {
+      "kind": "complete-desktop-wheel",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\page@99e4a34f212290afc74e30d6fb4656ea.webm",
+      "end": {
+        "y": 14537,
+        "max": 14537
+      }
+    },
+    {
+      "kind": "mobile-Arabic-menu-and-touch-scroll",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\page@200c6f373538fffa9ce6ddefb4999f8a.webm"
+    }
+  ],
+  "performance": {
+    "scope": "headless Chromium1440x900, real continuous wheel, video+trace enabled; interval data is not FPS or field-device certification",
+    "samples": 551,
+    "frameIntervalsMs": {
+      "median": 16.700000000000728,
+      "p95": 33.400000000001455,
+      "p99": 50.000000000000455,
+      "max": 66.70000000000073
+    },
+    "longTasks": []
+  },
+  "browser": "153.0.8010.12",
+  "finishedAt": "2026-10-24T16:49:48.502Z",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\desktop-trace.json",
+      "bytes": 4347955,
+      "sha256": "53f02d7513f71d3bf5b7884bc905eed1d1cc044a17632697a0cc90d69246b7b6"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\final-invitation.png",
+      "bytes": 574538,
+      "sha256": "02aed69bc20137bb231d3b5b30c09412c1124cf72213b40d6d5e7491df079d22"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\menu-ar-mobile.png",
+      "bytes": 226066,
+      "sha256": "882184d25c4c8d5a8aa5ade1f9531597de91c10d98274a45068341186b8ba12a"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\mobile-interaction.png",
+      "bytes": 240876,
+      "sha256": "a02c62d24127c41c6bed3562697022f911189e952ba731a429f69791bf5918ad"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\page@200c6f373538fffa9ce6ddefb4999f8a.webm",
+      "bytes": 1563838,
+      "sha256": "ed62b5cdaf78523e9958c49df9f6edadc3852d5cdc89d3c1040a506f2733920e"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v5-recording-final\\page@99e4a34f212290afc74e30d6fb4656ea.webm",
+      "bytes": 3882226,
+      "sha256": "b33677406d034373c0e9f8e8bd893cf7f99543ab219fe3b9f0d1766767d132b6"
+    }
+  ]
+}

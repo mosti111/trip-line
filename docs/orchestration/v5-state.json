@@ -3,8 +3,8 @@
   "branch": "codex/trip-line-v5",
   "topology": "single current implementation agent; no subagents",
   "preserved": "5ae07b2aac50903dc333f1d21126710755615a2c",
-  "phase": "P4",
-  "status": "IN_PROGRESS",
+  "phase": "P5",
+  "status": "VERIFIED_PENDING_CHECKPOINT",
   "checkpoints": [
     {
       "phase": "P1",
@@ -23,6 +23,15 @@
       "sha": "4026144",
       "evidence": "docs/qa/2026-10-24-v5/P3-checks.json",
       "checks": "core checks, four browser cases, film and failed/late image PASS"
+    },
+    {
+      "phase": "P4",
+      "sha": "14825d4",
+      "evidence": "docs/qa/2026-10-24-v5/P4-checks.json",
+      "checks": "core checks,36 representative routes and full planner handoff PASS"
     }
-  ]
+  ],
+  "clientCreativeAcceptance": "pending",
+  "publication": "not authorized",
+  "evidence": "docs/qa/2026-10-24-v5/manifest.json"
 }

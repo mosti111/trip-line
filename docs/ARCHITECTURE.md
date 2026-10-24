@@ -1,3 +1,5 @@
+Current V5 homepage architecture: native scroll, server-visible localized content, thin SVG FlightTrace, finite CSS entrance, scoped GSAP decorative strokes and Motion interaction/layout. Old homepage Lenis/pin/sculpture modules are inactive historical recovery source. Stack/API/inquiry/publication boundaries stay unchanged. [TL-006 delivery](reports/TL-006-v5.md).
+
 # Architecture
 
 Updated 3 October 2026. Current source and target production architecture are separate.

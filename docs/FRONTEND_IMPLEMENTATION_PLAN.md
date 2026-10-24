@@ -1,3 +1,5 @@
+V5 status24October2026: P1–P5 engineering complete; [final delivery](reports/TL-006-v5.md). Stop at client creative review, with no publication or follow-up authorization. Historical phase planning follows.
+
 Current 24 October 2026: [V5 full five-phase solo reconstruction](tasks/TL-006-v5.md) authorized; checkpoints in [report](reports/TL-006-v5.md). Historical phase text below is retained.
 
 > Current 23 October 2026: [TL-005 M01 navigation](tasks/TL-005-motion-v4-m01.md) is the sole authorized implementation milestone under the new V4 contract. Prior TL004 hero partial checkpoint and defect remain preserved; M02–M08 unstarted.

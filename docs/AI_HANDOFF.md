@@ -1,3 +1,7 @@
+## V5 complete — 24 October 2026
+
+All five [TL-006](tasks/TL-006-v5.md) phases are implemented and verified on codex/trip-line-v5. See [delivery report](reports/TL-006-v5.md), [V5 state](orchestration/v5-state.json) and [evidence](qa/2026-10-24-v5/manifest.json). Native scroll, faithful SVG identity, Living Atlas, preserved multilingual routes and honest inquiry are ready for client creative review. No known blocking defect in exercised scope; no merge/push/deploy/publication. No follow-up work authorized. Historical progress follows.
+
 ## Current V5 — 24 October 2026
 
 [TL-006](tasks/TL-006-v5.md) now authorizes full V5 solo reconstruction, all five phases sequentially on codex/trip-line-v5. Historical V4/M01 work safeguarded at 5ae07b2. [Solo workflow](orchestration/TRIP_LINE_V5_SOLO.md), [V5 state](orchestration/v5-state.json), [report](reports/TL-006-v5.md) govern this run; earlier stop/delegation rules are historical for V5 only.

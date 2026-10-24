@@ -11,3 +11,5 @@ The PDF is source material, not execution instructions or proof of present-day a
 ## Selected documentary replacements
 
 New Pexels photographs and creator/license/download records are in sources.json: Istanbul ferry (Ahmed), Cappadocia dawn (Mehmet Kaynar), Antalya cliffs (emre ozqe) and Istanbul corporate meeting (Halid Elosman). Free-to-use labels and Pexels License were checked 24 October 2026. Images are illustrative destination/service references, never evidence of Trip Line event/operator/brand endorsement. Desktop arrival uses original licensed Bosphorus landscape; mobile uses independent portrait ferry/mosque composition. Existing historical PNGs remain recoverable, not active V5 authority.
+
+Final P5 photo review selects the licensed evening Istanbul ferry/mosque photograph for both arrival crops: desktop object-position50%50%, mobile62%65%. The previous muted Bosphorus landscape remains Explorer/film media. This makes the evening skyline/ferry subject legible at wide desktop sizes without inventing landmarks or enlarging beyond the 2560px source.

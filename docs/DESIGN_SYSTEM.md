@@ -1,3 +1,5 @@
+Current V5: Manrope/Noto Sans Arabic, exact teal/ivory/paper/sand/bronze tokens, source-faithful SVG logo and modular thin Flight Trace. [TL-006](tasks/TL-006-v5.md) supersedes earlier serif/sculpture composition. Historical rationale follows.
+
 # Design system
 
 Current active design system, consolidated 3 October 2026. The October approved direction

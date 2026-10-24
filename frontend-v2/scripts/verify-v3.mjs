@@ -1,7 +1,7 @@
 import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs';
 import path from 'node:path';
-import { watchRuntime, resetJourney, assertRecoveryHome, openingStage, filmLifecycle } from './verify-recovery-motion.mjs';
+import { watchRuntime, resetJourney, assertRecoveryHome, filmLifecycle } from './verify-recovery-motion.mjs';
 if (process.env.QA_STAGE === 'static') {
  await (await import('./verify-recovery-static.mjs')).verifyRecoveryStatic('v3');
  process.exit(0);
@@ -27,7 +27,7 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});watch(page);
  await page.goto(base+'/en',{waitUntil:'networkidle'});
  await assertRecoveryHome(page,'en');
- await expect(page.locator('.ribbon-ready canvas')).toBeVisible();
+ await expect(page.locator('canvas,.pin-spacer')).toHaveCount(0);
  const builder=page.locator('#journey-builder');
  for(const name of ['Istanbul','Cappadocia','Antalya'])await builder.getByRole('checkbox',{name,exact:true}).check();
  await builder.getByRole('button',{name:'Move earlier: Antalya',exact:true}).click();
@@ -108,9 +108,8 @@ try{
  }
  const saver=await browser.newPage();watch(saver);await saver.addInitScript(()=>Object.defineProperty(navigator,'connection',{value:{saveData:true},configurable:true}));await saver.goto(base+'/en',{waitUntil:'networkidle'});expect(await saver.locator('video[src]').count()).toBe(0);await expect(saver.locator('.ribbon canvas')).toHaveCount(0);await expect(saver.locator('.rh-arrival-copy')).toHaveCSS('opacity','1');await saver.close();
  report.checks.push('Device reduced motion, native static composition, no automatic video or WebGL on data saver');
- await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/en',{waitUntil:'networkidle'});await expect(page.locator('.ribbon-ready')).toBeVisible();
- await page.locator('.ribbon canvas').evaluate(canvas=>canvas.dispatchEvent(new Event('webglcontextlost',{cancelable:true})));await expect(page.locator('.ribbon-ready')).toHaveCount(0);await expect(page.locator('.rh-arrival>.rh-sculpture')).toBeVisible();
- report.checks.push('WebGL context-loss event restores static SVG');
+ const noWebGL=await browser.newPage({viewport:{width:1440,height:1000}});watch(noWebGL);await noWebGL.addInitScript(()=>{const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){if(String(type).includes('webgl'))return null;return original.call(this,type,...args);};});await noWebGL.goto(base+'/en',{waitUntil:'networkidle'});await expect(noWebGL.locator('canvas')).toHaveCount(0);await expect(noWebGL.locator('.flight-trace-arrival')).toBeVisible();await expect(noWebGL.locator('.rh-arrival h1')).toBeVisible();await noWebGL.close();
+ report.checks.push('Unavailable WebGL retains complete V5 SVG arrival and content without a mandatory canvas');
  const nojs=await browser.newPage({javaScriptEnabled:false});
  for(const route of ['/en','/ar','/tr','/en/services/tours','/ar/destinations/turkiye/rize-ayder','/tr/contact']){await nojs.goto(base+route);await expect(nojs.locator('h1')).toBeVisible();await clean(nojs,'no-JS '+route);}
  await nojs.goto(base+'/en');await expect(nojs.locator('.rh-arrival .rh-actions a').first()).toHaveAttribute('href','/en/destinations/turkiye');await expect(nojs.locator('.rh-intent')).toHaveCount(3);await expect(nojs.locator('.rh-services li a')).toHaveCount(9);await assertRecoveryHome(nojs,'en');for(const chapter of await nojs.locator('.recovery-home [data-chapter]').all())await expect(chapter.locator('h2').first()).toBeVisible();await nojs.screenshot({path:path.join(out,'no-js-home.png')});await nojs.close();report.checks.push('No-JS visible fifteen-chapter homepage in all locales, service/destination/contact content and destination links');
@@ -120,13 +119,13 @@ try{
   await touch.locator('#journey-builder input[value=istanbul]').tap();await expect(touch.locator('input[name=journey]')).toHaveValue('istanbul');
   if(width<1024){await touch.locator('.menu-button').tap();await expect(touch.locator('.nav-dialog')).toBeVisible();await touch.locator('.nav-dialog .dialog-header button').tap();await expect(touch.locator('.nav-dialog')).not.toBeVisible();}else{await touch.locator('.nav-turkiye-link button').tap();await expect(touch.locator('.turkiye-mega')).toBeVisible();await touch.locator('.nav-turkiye-link button').tap();await expect(touch.locator('.turkiye-mega')).not.toBeVisible();}await clean(touch,'touch '+width);await touch.close();
  }
- report.checks.push('Emulated coarse touch at 390/1280: native vertical layout, static sculpture, planner and menu');
+ report.checks.push('Emulated coarse touch at 390/1280: native vertical layout, thin SVG trace, planner and menu');
  for(const locale of ['en','ar','tr']){
-  await page.setViewportSize({width:1280,height:600});await page.goto(base+'/'+locale,{waitUntil:'networkidle'});await expect(page.locator('.pin-spacer')).toHaveCount(1);await openingStage(page,.65);await page.locator('.rh-arrival .rh-actions a').first().focus();await expect(page.locator('.rh-arrival .rh-actions a').first()).toBeInViewport({ratio:1});
+  await page.setViewportSize({width:1280,height:600});await page.goto(base+'/'+locale,{waitUntil:'networkidle'});await expect(page.locator('.pin-spacer')).toHaveCount(0);await page.locator('.rh-arrival .rh-actions a').first().focus();await expect(page.locator('.rh-arrival .rh-actions a').first()).toBeInViewport({ratio:1});
   await services.locator('a').last().focus();await fullyVisibleFocusedService(services.locator('a').last(),locale+' short');await clean(page,'short '+locale);
   await page.locator('.header-journey').click();await expect(page.locator('.journey-drawer')).toBeVisible();await page.locator('.journey-drawer-bottom a').first().focus();await expect(page.locator('.journey-drawer-bottom a').first()).toBeInViewport({ratio:1});await page.keyboard.press('Escape');await expect(page.locator('.header-journey')).toBeFocused();
  }
- report.checks.push('Short-height 1280×600 EN/AR/TR: compressed pin, readable hero keyboard restoration, reachable last service and journey drawer planning action');
+ report.checks.push('Short-height 1280×600 EN/AR/TR: native scroll, readable hero keyboard focus, reachable last service and journey drawer planning action');
  await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/en',{waitUntil:'networkidle'});
  const orientation=await page.locator('.rt-desktop-map svg').first().evaluate(svg=>({paths:[...svg.querySelectorAll('g>path')].map(p=>p.getAttribute('d')),transform:getComputedStyle(svg).transform}));
  expect(orientation.paths.length).toBeGreaterThan(0);

@@ -1,7 +1,7 @@
 import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs';
 import path from 'node:path';
-import { watchRuntime, assertRecoveryHome, openingStage, filmLifecycle, resetJourney } from './verify-recovery-motion.mjs';
+import { watchRuntime, assertRecoveryHome, filmLifecycle, resetJourney } from './verify-recovery-motion.mjs';
 if (process.env.QA_STAGE === 'static') {
  await (await import('./verify-recovery-static.mjs')).verifyRecoveryStatic('public');
  process.exit(0);
@@ -24,13 +24,13 @@ try {
  watchRuntime(page,report,'public');
  await page.goto(base+'/en',{waitUntil:'networkidle'});
  await resetJourney(page);
- await expect(page.locator('.ribbon-ready canvas')).toBeVisible({timeout:15000});
- await assertRecoveryHome(page,'en');await openingStage(page,.4);await expect.poll(()=>page.locator('.rh-arrival-photo').evaluate(el=>getComputedStyle(el).transform)).not.toBe('none');
+ await expect(page.locator('canvas,.pin-spacer')).toHaveCount(0);expect(await page.evaluate(()=>document.documentElement.dataset.lenisCount)).toBeUndefined();
+ await assertRecoveryHome(page,'en');await expect(page.locator('.flight-trace-arrival')).toBeVisible();await page.mouse.move(700,500);await page.mouse.wheel(0,400);await expect.poll(()=>page.evaluate(()=>scrollY)).toBeGreaterThan(200);
  await filmLifecycle(page);
  const atlas=page.locator('.rt-explorer');await atlas.locator('.rt-index button').filter({hasText:'Rize & Ayder'}).click();await expect(atlas.locator('h3')).toHaveText('Rize & Ayder');await expect(atlas.locator('.rt-preview-actions a')).toHaveAttribute('href','/en/destinations/turkiye/rize-ayder');
  await atlas.locator('.rt-preview-actions button').click();await expect(page.locator('#journey-builder input[name=journey]')).toHaveValue('rize-ayder');await expect(page.locator('.header-journey')).toHaveText(/1/);
  await expect(page.locator('.rh-beyond .journey-text-link')).toHaveAttribute('href','/en/destinations');await page.locator('.rh-beyond .journey-text-link').click();await page.waitForURL('**/destinations');await expect(page.locator('h1')).toBeVisible();
- report.checks.push('Actual WebGL, fifteen chapters, decoded chapter06 film/play/pause/visibility/offscreen, opening motion, synchronized Türkiye Explore/global Add ordered context, secondary Beyond navigation');
+ report.checks.push('V5 native scroll/no mandatory WebGL, fifteen chapters, decoded chapter06 film/play/pause/visibility/offscreen, thin Flight Trace, synchronized Türkiye Explore/global Add ordered context, secondary Beyond navigation');
  await page.goto(base+'/en/destinations/turkiye');await page.locator('.rt-filters').getByRole('button',{name:'The Black Sea',exact:true}).click();await expect(page.locator('.rt-directory-row')).toHaveCount(3);
  const hubExplorer=page.locator('.recovery-hub .rt-explorer');await hubExplorer.locator('.rt-index button').filter({hasText:'Uzungöl'}).click();await expect(hubExplorer.locator('h3')).toHaveText('Uzungöl');await hubExplorer.locator('.rt-preview-actions button').click();
  const hubBuilder=page.locator('.recovery-hub #journey-builder');await expect(hubBuilder.locator('input[name=journey]')).toHaveValue('rize-ayder,uzungol');await hubBuilder.locator('#builder-service').selectOption('tours');await hubBuilder.locator('button[type=submit]').click();await page.waitForURL('**/contact?**');

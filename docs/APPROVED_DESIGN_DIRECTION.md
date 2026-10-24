@@ -1,3 +1,5 @@
+Current explicit direction: [V5 Living Atlas user contract](tasks/TL-006-v5-instructions.md),24October2026, replaces V4/earlier conflicting composition and serif/sculpture rules. Engineering evidence: [TL-006 report](reports/TL-006-v5.md). Client creative review of the rendered V5 remains pending; historical approvals below are retained.
+
 # Approved visual direction
 
 ## Current interpretation — 3 October 2026

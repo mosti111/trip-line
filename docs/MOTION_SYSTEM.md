@@ -1,3 +1,5 @@
+Current V5: native scroll at all breakpoints; no active Lenis, long hero pin or mandatory homepage Three scene. Read [TL-006](tasks/TL-006-v5.md), [solo workflow](orchestration/TRIP_LINE_V5_SOLO.md) and [verification](reports/TL-006-v5.md). CSS owns finite arrival, GSAP selected direct route strokes, Motion interactions/list layout. Older implementation snapshots below remain historical.
+
 # Trip Line motion system
 
 Authority for future motion work, consolidated 3 October 2026 from the approved identity,

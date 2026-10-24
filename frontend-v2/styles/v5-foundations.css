@@ -42,3 +42,11 @@ input,textarea{caret-color:#C89039}
 @media(prefers-reduced-motion:reduce){.travel-site .journey-text-link svg{transition:none;translate:none!important}}
 
 @media(max-width:767px){.travel-site .rc-figure strong,.travel-site .rc-figure-clients strong,.travel-site .rc-figure-pilgrims strong,.travel-site .rc-figure-visas strong{font-size:clamp(48px,17vw,68px);font-weight:650}}
+/* V5 final accessibility corrections: bronze artwork retains its brand color;
+   small text uses a darker ink from the same bronze family. */
+.travel-site{--bronze-ink:#6F4D1B}
+.travel-site .rt-index button[aria-pressed=true]>span{opacity:1;color:#E4D7C1}
+.travel-site :is(.rh-builder legend>span,.rh-stop-number,.rp-process ol>li>span,.rs-process ol>li>span,.rs-point-list>li>span,.rd-interest-index a>span,.rt-directory-row>a>span:not(.sr-only)){color:var(--bronze-ink)}
+.travel-site .rd-nav-links a[aria-current=location]{color:var(--bronze-ink)}
+
+.travel-site :is(.rs-related-layout a>span,.rb-process-layout ol>li>span,.rd-process-line li>span,.rd-related-links>a>span){color:var(--bronze-ink)}

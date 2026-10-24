@@ -1,5 +1,9 @@
 # Trip Line — agent operating map
 
+## Current V5 exception — 24 October 2026
+
+The direct [TL-006 V5 request](docs/tasks/TL-006-v5-instructions.md) authorizes all five phases sequentially in one chat with one implementation agent. No subagents, mandatory Astra review, one-milestone stop or V4 composition lock applies within this task. Use [solo workflow](docs/orchestration/TRIP_LINE_V5_SOLO.md), [V5 state](docs/orchestration/v5-state.json) and [report](docs/reports/TL-006-v5.md). Runtime model cannot be changed by repository instructions. Historical orchestration state and evidence remain intact; they grant no active V5 leases. Integrity, accessibility, verification and no-publication requirements remain. This scoped exception ends with TL-006; future work needs its own authorization.
+
 ## Persistent frontend orchestration
 
 For “Continue Trip Line orchestration”, read the normal authority documents below,
