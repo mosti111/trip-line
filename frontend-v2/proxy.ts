@@ -13,7 +13,7 @@ export function proxy(request: NextRequest) {
   const media = process.env.MEDIA_ORIGIN || "";
   const policy = `default-src 'self'; script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://challenges.cloudflare.com${process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : ""}; style-src 'self' ${process.env.NODE_ENV === "development" ? "'unsafe-inline'" : `'nonce-${nonce}'`}; style-src-attr 'unsafe-inline'; img-src 'self' data: blob: ${media}; media-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'`;
   const headers = new Headers(request.headers); headers.set('x-tripline-locale',locale);headers.set("x-nonce", nonce); headers.set("Content-Security-Policy", policy);
-  const unknownPublicPage=isLocale(segment)&&!publicPaths.includes(suffix.replace(/^\//,''));
+  const unknownPublicPage=isLocale(segment)&&suffix!=='/motion-lab'&&!publicPaths.includes(suffix.replace(/^\//,''));
   const response = unknownPublicPage ? NextResponse.rewrite(new URL('/_not-found',request.url), { status:404, request:{headers} }) : NextResponse.next({ request: { headers } }); response.headers.set("Content-Security-Policy", policy);
   if (request.nextUrl.pathname.startsWith("/admin") || request.nextUrl.pathname.startsWith("/preview")) {
     response.headers.set("Cache-Control", "private, no-store"); response.headers.set("X-Robots-Tag", "noindex, nofollow");

@@ -1,0 +1,59 @@
+/* V6 property owners: GSAP scene wrappers; CSS atlas/UI; Motion menu/planner. */
+.v6-home{--v6-ease:cubic-bezier(.22,1,.36,1)}
+.v6-home .rh-arrival *{animation:none!important}
+.v6-home .rh-title-block{overflow:hidden;padding-block:.08em;margin-block:-.08em}
+.v6-home .rh-title-ink{display:block}
+.v6-home .rh-arrival-photo{transform-origin:center 65%}
+.flight-plane{opacity:0}
+.flight-trace .flight-plane path{fill:currentColor;stroke:none}
+.v6-home .rh-arrival>.flight-trace{left:0;right:auto;inset-inline-start:auto;width:100%;z-index:1}
+html[lang=ar] .v6-home>.rh-arrival>.flight-trace{left:-74%;right:auto}
+.v6-home .rh-world-photo{transform-origin:50% 80%}
+.v6-lab-note{position:fixed;bottom:10px;left:10px;z-index:30;background:#071f20;color:#fffdf8;padding:8px 12px;font-size:9px;letter-spacing:.1em;pointer-events:none}
+.v6-network{background:#f8efe0;color:#194244;padding-block:65px;overflow:hidden}
+.v6-network-heading{display:flex;justify-content:space-between;align-items:end;gap:24px}
+.v6-network-heading h2{font-size:clamp(36px,4.5vw,68px);max-width:800px;line-height:1.12}
+.v6-network button{border:1px solid #19424455;padding:12px 18px;min-height:44px;font-size:11px;flex-shrink:0}
+.v6-network-note{font-size:12px;line-height:1.8;margin-block:24px 35px;max-width:750px}
+.v6-network-tracks{direction:ltr;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.v6-network-window{overflow:hidden;background:#fff;margin-block:12px;border-block:1px solid #19424420}
+.v6-network-track{display:flex;width:max-content;animation:v6-marquee linear infinite;animation-play-state:paused}
+.v6-network-track ul{list-style:none;margin:0;padding:0;display:flex;width:max-content}
+.v6-network-track li{width:210px;height:120px;padding:22px;display:flex;align-items:center;justify-content:center}
+.v6-network-track img{width:170px;height:74px;object-fit:contain;transition:scale 220ms var(--v6-ease)}
+.v6-network[data-running=true] .v6-network-track{animation-play-state:running}
+.v6-network-tracks:is(:hover,:focus-within) .v6-network-track{animation-play-state:paused}
+.v6-network-row-1 .v6-network-track{animation-direction:reverse}
+.v6-network-track li:hover img{scale:1.06}
+.v6-institutions{margin-top:35px;padding-top:24px;border-top:1px solid #19424433}
+.v6-institutions p{font-size:11px;line-height:1.7}
+.v6-institutions ul{display:flex;gap:30px;flex-wrap:wrap;list-style:none;margin:22px 0 0;padding:0}
+.v6-institutions li{display:flex;flex-direction:column;align-items:center;gap:8px}
+.v6-institutions img{height:66px;width:120px;object-fit:contain;background:white}
+.v6-institutions small{font-size:9px}
+@keyframes v6-marquee{to{transform:translateX(-50%)}}
+/* Loaded outgoing imagery stays opaque below the latest decoded image. */
+.v6-home .rt-preview-media{border-radius:0}
+.v6-home .rt-preview-image{transition:none;clip-path:inset(0 100% 0 0)}
+.v6-home .rt-preview-image[data-previous=true]{opacity:1;clip-path:inset(0);z-index:1}
+.v6-home .rt-preview-image[data-active=true]{opacity:1;z-index:2;clip-path:inset(0);animation:v6-atlas-mask 650ms var(--v6-ease) both}
+.v6-home .rt-preview-image .photo{transition:none;transform:none}
+.v6-home .rt-preview-image[data-active=true] .photo{animation:v6-atlas-depth 720ms var(--v6-ease) both}
+.v6-home .rt-preview h3{overflow:hidden}
+.v6-home .rt-preview h3>span{display:block;animation:v6-atlas-title 720ms var(--v6-ease) both}
+.v6-home .rt-map-canvas{transition:translate 760ms var(--v6-ease);translate:0 -3px}
+.v6-home .v6-active-route{display:block;fill:none;stroke:#c89039;stroke-width:2;stroke-linecap:round;stroke-dasharray:1;animation:v6-route 220ms ease-out both}
+.rt-anchor{transition:r 220ms,fill 220ms}
+@keyframes v6-route{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes v6-atlas-mask{from{clip-path:polygon(0 0,0 0,12% 100%,0 100%)}to{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}}
+@keyframes v6-atlas-depth{from{transform:scale(1.08)}to{transform:scale(1)}}
+@keyframes v6-atlas-title{from{transform:translateY(65%);opacity:.35}to{transform:translateY(0);opacity:1}}
+@media(min-width:1024px){.v6-home .rt-explorer-layout{grid-template-columns:minmax(170px,.8fr) minmax(0,1.15fr) minmax(0,2.4fr)}.v6-home .rt-preview-media{height:540px}}
+@media(max-width:767px){.v6-network{padding-block:45px}.v6-network-heading{align-items:start;flex-direction:column}.v6-network-heading h2{font-size:38px}.v6-network-track li{width:210px;height:100px}.v6-institutions ul{gap:15px}.v6-home .rt-preview-image[data-active=true]{animation-name:v6-atlas-mobile}.v6-home .rt-preview-media{height:380px}}
+@keyframes v6-atlas-mobile{from{clip-path:inset(15% 0 0 0)}to{clip-path:inset(0)}}
+.reduce-motion .v6-home *,.v6-home[data-home-motion=static] *{animation:none!important}
+.reduce-motion .v6-network-track{animation:none;transform:none;width:100%}
+.reduce-motion .v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}
+.reduce-motion .v6-network-track ul[aria-hidden=true]{display:none}
+.reduce-motion .v6-network-tracks{mask-image:none}
+@media(prefers-reduced-motion:reduce){.v6-home *{animation:none!important;transition:none!important}.v6-network-track{animation:none;transform:none;width:100%}.v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}.v6-network-track ul[aria-hidden=true]{display:none}.v6-network-tracks{mask-image:none}}

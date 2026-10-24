@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "cases": [
+    {
+      "id": "en-1440-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.954, 0, 0, 0.954, 0, 41.4)",
+      "trackStart": "matrix(1, 0, 0, 1, -4.26579, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -26.6658, 0)"
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12",
+  "failure": "Error: expect(received).not.toBe(expected) // Object.is equality\n\nExpected: not \"matrix(1, 0, 0, 1, 0, 0)\""
+}

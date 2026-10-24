@@ -1,0 +1,334 @@
+{
+  "sourceFilename": "بروفايل-1.pdf",
+  "sourceSha256": "60d024b13e5548a63acb17693c7d486c9a031d788001317d07f53b2a4c402944",
+  "inspectedPages": [
+    1,
+    4
+  ],
+  "relationship": "Presence in 2025 profile only; no endorsement or current partnership inferred",
+  "records": [
+    {
+      "id": "saudi-hajj-umrah",
+      "brand": "Saudi Ministry of Hajj and Umrah",
+      "profilePage": 1,
+      "classification": "institution",
+      "officialSource": null,
+      "localAsset": "/brand/network/saudi-hajj-umrah.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        294,
+        1780,
+        374,
+        1867
+      ]
+    },
+    {
+      "id": "nusuk",
+      "brand": "Nusuk (provisional identification)",
+      "profilePage": 1,
+      "classification": "institutional-platform",
+      "officialSource": null,
+      "localAsset": "/brand/network/nusuk.png",
+      "verificationStatus": "uncertain-small-source",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        423,
+        1780,
+        495,
+        1867
+      ]
+    },
+    {
+      "id": "tursab",
+      "brand": "TÜRSAB",
+      "profilePage": 1,
+      "classification": "trade-association",
+      "officialSource": null,
+      "localAsset": "/brand/network/tursab.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        548,
+        1800,
+        685,
+        1864
+      ]
+    },
+    {
+      "id": "diar-al-manasik",
+      "brand": "Diar Al Manasik",
+      "profilePage": 1,
+      "classification": "travel-supplier",
+      "officialSource": null,
+      "localAsset": "/brand/network/diar-al-manasik.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        741,
+        1772,
+        824,
+        1867
+      ]
+    },
+    {
+      "id": "turkish-airlines",
+      "brand": "Turkish Airlines",
+      "profilePage": 1,
+      "classification": "airline",
+      "officialSource": null,
+      "localAsset": "/brand/network/turkish-airlines.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        886,
+        1796,
+        1051,
+        1867
+      ]
+    },
+    {
+      "id": "grand-aras",
+      "brand": "Grand Aras Hotel & Suites",
+      "profilePage": 4,
+      "classification": "hotel",
+      "officialSource": null,
+      "localAsset": "/brand/network/grand-aras.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        90,
+        1502,
+        232,
+        1599
+      ]
+    },
+    {
+      "id": "wyndham",
+      "brand": "Wyndham Hotels & Resorts",
+      "profilePage": 4,
+      "classification": "hotel-group",
+      "officialSource": null,
+      "localAsset": "/brand/network/wyndham.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        274,
+        1512,
+        449,
+        1591
+      ]
+    },
+    {
+      "id": "ndc-portal",
+      "brand": "NDC Portal",
+      "profilePage": 4,
+      "classification": "booking-system",
+      "officialSource": null,
+      "localAsset": "/brand/network/ndc-portal.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        478,
+        1513,
+        633,
+        1594
+      ]
+    },
+    {
+      "id": "yamacda",
+      "brand": "Yamaçda Suit Otel",
+      "profilePage": 4,
+      "classification": "hotel",
+      "officialSource": null,
+      "localAsset": "/brand/network/yamacda.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        656,
+        1513,
+        801,
+        1590
+      ]
+    },
+    {
+      "id": "bike-hotel",
+      "brand": "Bike Hotel",
+      "profilePage": 4,
+      "classification": "hotel",
+      "officialSource": null,
+      "localAsset": "/brand/network/bike-hotel.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        837,
+        1506,
+        933,
+        1598
+      ]
+    },
+    {
+      "id": "rezlive",
+      "brand": "RezLive.com",
+      "profilePage": 4,
+      "classification": "booking-system",
+      "officialSource": null,
+      "localAsset": "/brand/network/rezlive.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        969,
+        1514,
+        1110,
+        1592
+      ]
+    },
+    {
+      "id": "copthorne",
+      "brand": "Copthorne",
+      "profilePage": 4,
+      "classification": "hotel-brand",
+      "officialSource": null,
+      "localAsset": "/brand/network/copthorne.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        1141,
+        1513,
+        1290,
+        1596
+      ]
+    },
+    {
+      "id": "santa-ottoman",
+      "brand": "Santa Ottoman",
+      "profilePage": 4,
+      "classification": "hotel",
+      "officialSource": null,
+      "localAsset": "/brand/network/santa-ottoman.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        78,
+        1613,
+        249,
+        1697
+      ]
+    },
+    {
+      "id": "megza",
+      "brand": "Megza Bungalow",
+      "profilePage": 4,
+      "classification": "accommodation",
+      "officialSource": null,
+      "localAsset": "/brand/network/megza.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        290,
+        1623,
+        451,
+        1697
+      ]
+    },
+    {
+      "id": "ratehawk",
+      "brand": "RateHawk",
+      "profilePage": 4,
+      "classification": "booking-system",
+      "officialSource": null,
+      "localAsset": "/brand/network/ratehawk.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        490,
+        1613,
+        670,
+        1695
+      ]
+    },
+    {
+      "id": "homey",
+      "brand": "Homey (descriptor unresolved)",
+      "profilePage": 4,
+      "classification": "accommodation",
+      "officialSource": null,
+      "localAsset": "/brand/network/homey.png",
+      "verificationStatus": "uncertain-descriptor",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        705,
+        1601,
+        778,
+        1695
+      ]
+    },
+    {
+      "id": "continent",
+      "brand": "Continent Worldwide Hotels",
+      "profilePage": 4,
+      "classification": "hotel-group",
+      "officialSource": null,
+      "localAsset": "/brand/network/continent.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        810,
+        1604,
+        950,
+        1698
+      ]
+    },
+    {
+      "id": "days-inn",
+      "brand": "Days Inn by Wyndham",
+      "profilePage": 4,
+      "classification": "hotel-brand",
+      "officialSource": null,
+      "localAsset": "/brand/network/days-inn.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        989,
+        1607,
+        1107,
+        1697
+      ]
+    },
+    {
+      "id": "millennium",
+      "brand": "Millennium",
+      "profilePage": 4,
+      "classification": "hotel-brand",
+      "officialSource": null,
+      "localAsset": "/brand/network/millennium.png",
+      "verificationStatus": "recognized",
+      "publicationApprovalStatus": "pending-client-clearance",
+      "source": "Original supplied Company Profile 2025; unaltered raster crop",
+      "cropReferenceBox": [
+        1140,
+        1608,
+        1297,
+        1698
+      ]
+    }
+  ]
+}

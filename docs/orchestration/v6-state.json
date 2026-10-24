@@ -1,0 +1,12 @@
+{
+  "task": "TL-007",
+  "branch": "codex/trip-line-v6",
+  "preserved": "a499c5066c54f668aa70d4bc15d53b98189befc7",
+  "recoveryBranch": "codex/v5-before-v6",
+  "topology": "single implementation agent; sequential; no subagents",
+  "phase": "V6-P0",
+  "status": "IN_PROGRESS",
+  "checkpoints": [],
+  "clientCreativeAcceptance": "pending",
+  "publication": "not authorized"
+}
