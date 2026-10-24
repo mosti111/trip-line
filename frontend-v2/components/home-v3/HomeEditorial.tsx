@@ -2,14 +2,17 @@ import Link from 'next/link';
 import { ArrowUpRight, Plus } from 'lucide-react';
 import { href, t, ui, type Locale } from '@/lib/i18n';
 import { companyProfile, profileDifferentiators, profileFigures } from '@/lib/company-profile';
-import { countries, questions, services } from '@/lib/travel-content';
+import { questions } from '@/lib/travel-content';
 import { journeyCopy } from '@/lib/journey';
 import { Photo, WhatsApp } from '../travel/Sections';
 import { FlightTrace } from '../experience/FlightTrace';
+import { MemoryStack } from '../v6/MemoryStack';
+import { ServiceDirectory } from '../v6/ServiceDirectory';
+import { BeyondCarousel } from '../v6/BeyondCarousel';
 import { PlanJourney } from '../experience/JourneyActions';
 
 export function HomeStory({ locale }: { locale: Locale }) {
-  return <section className="rh-story" data-chapter="07" aria-labelledby="story-title"><div className="rh-wrap rh-story-layout"><div className="rh-story-image"><Photo file="bursa.jpg" alt={t('Historic architecture in Bursa, Türkiye', 'عمارة تاريخية في بورصة، تركيا', 'Bursa, Türkiye’de tarihi mimari')[locale]}/><span>{ui.since[locale]}</span></div><div className="rh-story-copy"><span className="rh-kicker">07 / TRIP LINE</span><h2 id="story-title">{ui.storyTitle[locale]}</h2><p>{ui.storyBody[locale]}</p><Link className="journey-text-link" href={href(locale, 'about')}>{t('Explore our story', 'اكتشف قصتنا', 'Hikâyemizi keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div></section>;
+  return <section className="rh-story" data-chapter="07" aria-labelledby="story-title"><div className="rh-wrap rh-story-layout"><MemoryStack locale={locale}/><div className="rh-story-copy"><span className="rh-kicker">07 / TRIP LINE</span><h2 id="story-title">{ui.storyTitle[locale]}</h2><p>{ui.storyBody[locale]}</p><Link className="journey-text-link" href={href(locale, 'about')}>{t('Explore our story', 'اكتشف قصتنا', 'Hikâyemizi keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div></section>;
 }
 export function HomeProof({ locale }: { locale: Locale }) {
   const differentiators = ['customized-experiences', 'professional-team', 'attention-to-detail'].map(id => profileDifferentiators.find(item => item.id === id)!);
@@ -25,20 +28,10 @@ export function HomeProcess({ locale }: { locale: Locale }) {
     { title: t('We coordinate', 'ننسّق', 'Birlikte planlayalım'), body: ui.step2Body },
     { title: t('You confirm', 'أنت تؤكد', 'Sen onayla'), body: ui.step3Body },
   ];
-  return <section className="rh-process" data-chapter="10" aria-labelledby="process-title"><div className="rh-wrap"><div className="rh-section-heading"><span className="rh-kicker">10 / {ui.process[locale]}</span><h2 id="process-title">{ui.processTitle[locale]}</h2></div><ol className="rh-process-line">{steps.map((step, i) => <li key={i}><span className="rh-process-node">0{i + 1}</span><h3>{step.title[locale]}</h3><p>{step.body[locale]}</p></li>)}</ol></div></section>;
+  return <section className="rh-process" data-chapter="10" aria-labelledby="process-title"><div className="rh-wrap"><div className="rh-section-heading"><span className="rh-kicker">10 / {ui.process[locale]}</span><h2 id="process-title">{ui.processTitle[locale]}</h2></div><div className="v6-process-stage"><FlightTrace scene="process"/><ol className="rh-process-line">{steps.map((step, i) => <li key={i}><span className="rh-process-node">0{i + 1}</span><h3>{step.title[locale]}</h3><p>{step.body[locale]}</p></li>)}</ol></div></div></section>;
 }
-export function HomeServices({ locale }: { locale: Locale }) {
-  const groups = [
-    { title: t('Travel', 'السفر', 'Seyahat'), image: 'antalya.jpg', ids: ['tours', 'tailor-made', 'flights-hotels', 'visa-assistance'] },
-    { title: ui.business, image: 'corporate-v5.jpg', ids: ['corporate', 'events', 'training', 'camps'] },
-    { title: ui.pilgrimage, image: 'saudi-arabia.jpg', ids: ['hajj-umrah'] },
-  ];
-  return <section className="rh-services" data-chapter="11" aria-labelledby="services-title"><div className="rh-wrap"><div className="rh-section-heading"><span className="rh-kicker">11 / {ui.services[locale]}</span><h2 id="services-title">{journeyCopy.services[locale]}</h2></div><div className="rh-service-line">{groups.map((group, i) => <div className={`rh-service-group rh-service-group-${i}`} key={i}><span className="rh-kicker">0{i + 1}</span><Photo file={group.image} alt={group.title[locale]}/><h3>{group.title[locale]}</h3><ul>{group.ids.map(id => { const service = services.find(item => item.slug === id)!; return <li key={id}><Link href={href(locale, `services/${id}`)}><span>{service.title[locale]}</span><ArrowUpRight size={17}/></Link></li>; })}</ul></div>)}</div></div></section>;
-}
-export function HomeBeyond({ locale }: { locale: Locale }) {
-  const international = countries.filter(country => country.slug !== 'turkiye');
-  return <section className="rh-beyond" data-chapter="13" aria-labelledby="beyond-title"><div className="rh-wrap rh-beyond-layout"><div><span className="rh-kicker">13 / {t('Beyond Türkiye', 'خارج تركيا', 'Türkiye’nin ötesi')[locale]}</span><h2 id="beyond-title">{t('The line continues.', 'المسار مستمر.', 'Rota devam ediyor.')[locale]}</h2><p>{t('Explore our international destinations and tell us where you would like your journey to continue.', 'اكتشف وجهاتنا الدولية وأخبرنا إلى أين ترغب أن تستمر رحلتك.', 'Uluslararası destinasyonlarımızı keşfet ve yolculuğunu nerede sürdürmek istediğini bizimle paylaş.')[locale]}</p><Link className="journey-text-link" href={href(locale, 'destinations')}>{t('Explore beyond Türkiye', 'اكتشف ما وراء تركيا', 'Türkiye’nin ötesini keşfet')[locale]}<ArrowUpRight size={18}/></Link></div><div className="rh-beyond-directory"><div className="rh-beyond-photos"><Photo file="georgia.jpg" alt={international.find(c => c.slug === 'georgia')!.name[locale]}/><Photo file="maldives.jpg" alt={international.find(c => c.slug === 'maldives')!.name[locale]}/></div><div className="rh-beyond-links">{international.map(country => <Link key={country.slug} href={href(locale, `destinations/${country.slug}`)}>{country.name[locale]}<ArrowUpRight size={14}/></Link>)}</div></div></div></section>;
-}
+export function HomeServices({ locale }: { locale: Locale }) { return <ServiceDirectory locale={locale}/>; }
+export function HomeBeyond({ locale }: { locale: Locale }) { return <BeyondCarousel locale={locale}/>; }
 export function HomeFAQ({ locale }: { locale: Locale }) {
   return <section className="rh-faq" data-chapter="14" aria-labelledby="faq-title"><div className="rh-wrap rh-faq-layout"><div><span className="rh-kicker">14 / {ui.faq[locale]}</span><h2 id="faq-title">{t('A little clarity before you go.', 'وضوح قبل أن تبدأ.', 'Yola çıkmadan önce netlik.')[locale]}</h2><Link className="journey-text-link" href={href(locale, 'faq')}>{ui.faq[locale]}<ArrowUpRight size={18}/></Link></div><div>{[questions[0], questions[1], questions[2], questions[4]].map((question, i) => <details key={i}><summary>{question.q[locale]}<Plus size={18}/></summary><p>{question.a[locale]}</p></details>)}</div></div></section>;
 }

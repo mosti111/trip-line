@@ -7,12 +7,13 @@ import type { Locale } from '@/lib/i18n';
 import { journeyHref, journeyUi } from '@/lib/journey';
 import { turkishPlaces } from '@/lib/turkiye';
 import { useJourney } from './JourneyStore';
+import { flyToJourney } from '../v6/JourneyTransfer';
 
 export function AddToJourney({ id, locale, className = '' }: { id: string; locale: Locale; className?: string }) {
   const { destinations, addDestination } = useJourney();
   const selected = destinations.includes(id);
   const place = turkishPlaces.find(place => place.slug === id);
-  return <button type="button" className={`journey-action journey-action-outline ${className}`} aria-label={place ? `${journeyUi.add[locale]}: ${place.name[locale]}` : journeyUi.add[locale]} aria-pressed={selected} onClick={() => addDestination(id)}>{journeyUi.add[locale]}{selected ? <Check size={18} /> : <Plus size={18} />}</button>;
+  return <button type="button" className={`journey-action journey-action-outline ${className}`} aria-label={place ? `${journeyUi.add[locale]}: ${place.name[locale]}` : journeyUi.add[locale]} aria-pressed={selected} onClick={event => { addDestination(id); if(!selected)flyToJourney(id,event.currentTarget); }}>{journeyUi.add[locale]}{selected ? <Check size={18} /> : <Plus size={18} />}</button>;
 }
 export function PlanJourney({ locale, id, children, className = '' }: { locale: Locale; id?: string; children?: ReactNode; className?: string }) {
   const { destinations, journeyType, addDestination, closeJourney } = useJourney();

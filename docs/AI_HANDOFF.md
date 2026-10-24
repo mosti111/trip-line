@@ -1,3 +1,13 @@
+## V6 in progress — 24 October 2026
+
+Direct [TL-007 request](tasks/TL-007-v6-instructions.md) authorizes five sequential
+solo phases on codex/trip-line-v6. Clean V5 a499c50 preserved on
+codex/v5-before-v6. P0 Motion Lab ea3500b; P1 opening/navigation2a3e22b verified,
+including corrected decoded image/mask behavior. P2 homepage underway; P3/P4
+pending. [V6 state](orchestration/v6-state.json), [report](reports/TL-007-v6.md).
+No historical worker leases, subagents, merge, push or deployment. Preserve noindex
+and legal defaults. User creative acceptance remains pending.
+
 ## V5 complete — 24 October 2026
 
 All five [TL-006](tasks/TL-006-v5.md) phases are implemented and verified on codex/trip-line-v5. See [delivery report](reports/TL-006-v5.md), [V5 state](orchestration/v5-state.json) and [evidence](qa/2026-10-24-v5/manifest.json). Native scroll, faithful SVG identity, Living Atlas, preserved multilingual routes and honest inquiry are ready for client creative review. No known blocking defect in exercised scope; no merge/push/deploy/publication. No follow-up work authorized. Historical progress follows.

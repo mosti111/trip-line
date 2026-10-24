@@ -5,6 +5,23 @@ Decision: execute complete V5 across five phases with one current agent. Native 
 
 # Trip Line decisions
 
+## TL-DEC-017 — V6 Motion Maxxed Türkiye
+
+24 October 2026. Status: directly authorized; implementation and creative review pending.
+Decision: retain V5 functional foundation and native scrolling; upgrade motion with
+mandatory working hero/Atlas/network lab, then integrated opening/navigation,
+homepage, internal pages and final QA. Single current agent, sequential phases;
+no historical one-milestone/delegation constraint or active worker leases.
+Preserve Manrope/Noto Sans Arabic, original stacked identity, exact teal/ivory/
+sand/bronze, all source content and honest prepared inquiry. No new scroll engine,
+continuous WebGL requirement, paid/trial plugins or publication. Presence of marks
+in the supplied2025 profile authorizes internal review only, never a current
+partnership or institutional endorsement claim. Every mark gets a provenance and
+approval record. Reason/evidence: [complete direct brief](tasks/TL-007-v6-instructions.md).
+Consequences: V5 rejected as creative outcome but preserved as engineering base;
+JAECO/Codrops references inform independently authored interaction concepts only.
+Runtime model cannot be changed or attested by repository instructions.
+
 ## TL-DEC-015 — Motion V4 Mediterranean direction and bounded M01
 
 Date: 2026-10-23. Status: Authorized by direct supplied user contract; implementation and user acceptance pending.

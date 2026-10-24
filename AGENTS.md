@@ -1,5 +1,16 @@
 # Trip Line — agent operating map
 
+## Current V6 exception — 24 October 2026
+
+The direct [TL-007 V6 request](docs/tasks/TL-007-v6-instructions.md) authorizes
+V6-P0 through V6-P4 sequentially with one implementation agent and no subagents.
+It supersedes prior bounded-milestone/delegation and V5 stop rules for this task.
+Validate working Motion Lab before integration; preserve V5 and all functional,
+integrity, accessibility, source/provenance and no-publication boundaries.
+Use [V6 task](docs/tasks/TL-007-v6.md), [state](docs/orchestration/v6-state.json)
+and [report](docs/reports/TL-007-v6.md). No model-switch claim. Historical state
+and evidence remain intact and grant no active leases. Exception ends with TL-007.
+
 ## Current V5 exception — 24 October 2026
 
 The direct [TL-006 V5 request](docs/tasks/TL-006-v5-instructions.md) authorizes all five phases sequentially in one chat with one implementation agent. No subagents, mandatory Astra review, one-milestone stop or V4 composition lock applies within this task. Use [solo workflow](docs/orchestration/TRIP_LINE_V5_SOLO.md), [V5 state](docs/orchestration/v5-state.json) and [report](docs/reports/TL-006-v5.md). Runtime model cannot be changed by repository instructions. Historical orchestration state and evidence remain intact; they grant no active V5 leases. Integrity, accessibility, verification and no-publication requirements remain. This scoped exception ends with TL-006; future work needs its own authorization.

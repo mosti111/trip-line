@@ -1,0 +1,26 @@
+import { chromium, expect } from '@playwright/test';import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
+const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P2/',import.meta.url));fs.mkdirSync(out,{recursive:true});const base=process.env.QA_URL||'http://localhost:3006';const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
+async function wheelTo(page,target){target=Math.max(0,target);for(let i=0;i<130;i++){const y=await page.evaluate(()=>scrollY);const delta=target-y;if(Math.abs(delta)<3)return;await page.mouse.wheel(0,Math.sign(delta)*Math.min(240,Math.abs(delta)));await page.waitForTimeout(40);}}
+if(process.env.QA_REMAINING)report.cases=JSON.parse(fs.readFileSync(path.join(out,'report.json'),'utf8')).cases;
+try{for(const [locale,width,height,reduced] of [['en',1440,900,false],['ar',390,844,false],['en',1440,900,true]]){
+ if(process.env.QA_REMAINING&&locale==='en'&&!reduced)continue;
+ const context=await browser.newContext({viewport:{width,height},reducedMotion:reduced?'reduce':'no-preference',recordVideo:{dir:out,size:{width,height}}});const page=await context.newPage();page.on('pageerror',e=>report.errors.push(String(e)));await page.goto(`${base}/${locale}`,{waitUntil:'networkidle'});await page.waitForTimeout(1400);const id=`${locale}-${width}-${reduced?'reduced':'motion'}`;
+ const states=[];
+ for(const [scene,target] of [['.rh-threshold','[data-threshold-mask]'],['.rh-signature-0','.rh-signature-0 .rh-signature-image'],['.rh-signature-1','.rh-signature-1 .rh-signature-image'],['.rh-signature-2','.rh-signature-2 .rh-signature-image'],['.rh-film','.rh-film-frame'],['.rh-story','.v6-memory-0'],['.rh-final','.rh-final>.photo']]){
+  const top=await page.locator(scene).evaluate(el=>el.getBoundingClientRect().top+scrollY);
+  for(const [label,ratio] of [['start',.9],['mid',.45],['end',.1]]){
+   await wheelTo(page,top-height*ratio);await page.waitForTimeout(scene==='.rh-film'||scene==='.rh-story'?1000:120);
+   const state=await page.locator(target).evaluate(el=>({transform:getComputedStyle(el).transform,clip:getComputedStyle(el).clipPath,d:el.getAttribute('d')}));states.push({scene,label,...state});await page.screenshot({path:path.join(out,`${id}-${scene.slice(1)}-${label}.png`)});
+  }
+ }
+ const service=page.locator('.rh-world-1');await service.scrollIntoViewIfNeeded();await service.locator('.rh-intent').focus();await page.waitForTimeout(500);await expect(service).toHaveAttribute('data-engaged','true');await service.locator('.rh-intent').click();await expect(service.locator('.rh-intent')).toHaveAttribute('aria-pressed','true');await page.screenshot({path:path.join(out,`${id}-worlds.png`)});
+ const directory=page.locator('.v6-service-index');await directory.scrollIntoViewIfNeeded();await expect(directory.locator('a')).toHaveCount(9);
+ for(const index of [0,4,8]){await directory.locator('a').nth(index).focus();await expect(page.locator('.v6-directory-photo')).toHaveAttribute('data-active-service',['tours','','','','flights-hotels','','','','visa-assistance'][index]);await page.waitForTimeout(800);}
+ if(width>1024&&!reduced){await directory.hover();await page.mouse.move(350,450);await page.waitForTimeout(500);expect(await page.locator('.v6-directory-follow').evaluate(el=>getComputedStyle(el).transform)).not.toBe('none');}
+ await page.screenshot({path:path.join(out,`${id}-directory.png`)});
+ await page.locator('#journey-builder').scrollIntoViewIfNeeded();const boxes=page.locator('.rh-builder-places input');await boxes.nth(0).check();await page.waitForTimeout(100);await page.screenshot({path:path.join(out,`${id}-journey-add.png`)});await boxes.nth(2).check();await expect(page.locator('.rh-builder-route li')).toHaveCount(2);
+ await page.locator('.rh-builder-route li').last().locator('[data-move="-1"]').click();await expect(page.locator('.rh-builder-route li').first()).toHaveAttribute('data-stop','rize-ayder');await page.locator('.rh-builder-route li').first().locator('button').last().click();await expect(page.locator('.rh-builder-route li')).toHaveCount(1);
+ await page.locator('.v6-beyond').scrollIntoViewIfNeeded();await expect(page.locator('.v6-country-index button')).toHaveCount(9);for(let i=0;i<9;i++){await page.locator('.v6-country-index button').nth(i).click();await expect(page.locator('.v6-country[data-current=true]')).toHaveCount(1);}await page.waitForTimeout(750);await page.screenshot({path:path.join(out,`${id}-beyond.png`)});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);if(!reduced)expect(states.filter(s=>s.scene==='.rh-threshold')[0].d).not.toBe(states.filter(s=>s.scene==='.rh-threshold').at(-1).d);
+ report.cases.push({id,states,services:9,countries:9,journey:'add/reorder/remove pass'});await context.close();fs.renameSync(await page.video().path(),path.join(out,`${id}.webm`));
+}expect(report.errors).toEqual([]);report.status='passed';}catch(e){report.status='failed';report.failure=String(e);throw e;}finally{fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));await browser.close();console.log(JSON.stringify({status:report.status,cases:report.cases.length,errors:report.errors,failure:report.failure},null,2));}

@@ -1,3 +1,5 @@
+Current authorized scope: [TL-007 V6 Motion Maxxed Türkiye](TL-007-v6.md), all five phases sequentially with one implementation agent. Prior scopes below are historical.
+
 Current authorized scope: [TL-006 V5 full reconstruction](TL-006-v5.md), superseding older bounded V4 scope for this task.
 
 Current authorized milestone: [TL-005 Motion V4 M01 navigation](TL-005-motion-v4-m01.md); M01 only, prior hero timing blocker preserved.

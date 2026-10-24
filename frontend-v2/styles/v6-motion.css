@@ -59,7 +59,110 @@ html[lang=ar] .v6-home>.rh-arrival>.flight-trace{left:-74%;right:auto}
 @media(min-width:1024px){.v6-home .rt-explorer-layout{grid-template-columns:minmax(170px,.8fr) minmax(0,1.15fr) minmax(0,2.4fr)}.v6-home .rt-preview-media{height:540px}}
 @media(max-width:767px){.v6-network{padding-block:45px}.v6-network-heading{align-items:start;flex-direction:column}.v6-network-heading h2{font-size:38px}.v6-network-track li{width:210px;height:100px}.v6-institutions ul{gap:15px}.v6-home .rt-preview-image[data-active=true]{animation-name:v6-atlas-mobile}.v6-home .rt-preview-media{height:380px}}
 @keyframes v6-atlas-mobile{from{clip-path:inset(15% 0 0 0)}to{clip-path:inset(0)}}
-.reduce-motion .v6-home *,.v6-home[data-home-motion=static] *{animation:none!important}
+/* Service Worlds: scene mask is GSAP; nested depth and emphasis are CSS. */
+.v6-world-depth,.v6-world-depth>.photo{height:100%;width:100%}
+.v6-world-depth{transition:transform 480ms var(--v6-ease);transform:perspective(1100px) scale(1.015)}
+.v6-home .rh-world-plane{transition:transform 480ms var(--v6-ease),opacity 350ms;transform-origin:center}
+.v6-home .rh-world-plane .rh-world-photo img{transform:none;transition:none}
+.v6-home .rh-world-stage:has([data-engaged=true]) [data-engaged=false]{opacity:.72;transform:scale(.985)}
+.v6-home .rh-world-0[data-engaged=true] .v6-world-depth{transform:perspective(1100px) rotateY(-3deg) scale(1.065) translateX(8px)}
+.v6-home .rh-world-1[data-engaged=true] .v6-world-depth{transform:perspective(1100px) rotateY(4deg) scale(1.05) translateY(-5px)}
+.v6-home .rh-world-2[data-engaged=true] .v6-world-depth{transform:perspective(1100px) rotateX(3deg) scale(1.045) translateX(-8px)}
+.v6-home .rh-world-copy h3{transition:transform 400ms var(--v6-ease),color 220ms}
+.v6-home .rh-world-plane[data-engaged=true] h3{transform:translateY(-6px);color:#6f4d1b}
+.v6-home .rh-world-controls .journey-text-link svg{transition:translate 220ms}
+.v6-home .rh-world-plane[data-engaged=true] .journey-text-link svg{translate:5px -3px}
+.v6-threshold-image{position:absolute;inset:0;overflow:hidden;z-index:-2}
+.v6-threshold-image>.photo{width:100%;height:100%}
+.v6-home .rh-threshold{isolation:isolate;background:#071f20}
+.v6-mask-defs{position:absolute;pointer-events:none}
+.v6-home .rh-signature-image{transform-origin:50% 65%;backface-visibility:hidden}
+.v6-home .rh-signature{perspective:1200px}
+.v6-home .rh-film-frame{overflow:hidden;transform-origin:50% 50%}
+/* Real destination memories; no implication that these are company team photos. */
+.v6-memories{height:540px;position:relative;min-width:0}
+.v6-memory{position:absolute;width:69%;margin:0;z-index:1}
+.v6-memory-0{left:0;top:55px}
+.v6-memory-1{right:0;top:0;width:57%;z-index:2}
+.v6-memory-2{right:0;bottom:10px;width:62%;z-index:3}
+.v6-memory-surface{display:block;background:#fffdf8;padding:12px 12px 0;box-shadow:0 14px 24px #071f201c;transition:transform 450ms var(--v6-ease)}
+.v6-memory-surface>.photo{height:260px;overflow:hidden}
+.v6-memory-1 .photo{height:200px}
+.v6-memory-2 .photo{height:210px}
+.v6-memory-0 .v6-memory-surface{transform:rotate(-6deg)}
+.v6-memory-1 .v6-memory-surface{transform:rotate(6deg)}
+.v6-memory-2 .v6-memory-surface{transform:rotate(-3deg)}
+.v6-memory-surface>span{display:block;padding-block:13px;font-size:10px;line-height:1.6;color:#194244}
+.v6-memory:is(:hover,:focus-within){z-index:5}
+.v6-memory:is(:hover,:focus-within) .v6-memory-surface{transform:translateY(-12px) rotate(0) scale(1.04)}
+.v6-home .rh-figure strong{font-size:clamp(44px,5.6vw,90px);letter-spacing:-.065em;font-weight:800}
+.v6-home .rh-figure-1 strong{color:#c89039}
+.v6-process-stage{position:relative;--route-progress:1}
+.v6-process-stage>.flight-trace{height:170px;top:-30px;overflow:visible}
+.v6-process-stage .rh-process-line:before{display:none}
+.v6-process-stage .rh-process-node{box-shadow:0 0 0 9px #f8efe0;transform:scale(calc(.96 + var(--route-progress)*.04))}
+/* Typographic service index and one bounded photographic follower. */
+.v6-directory-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:8%;align-items:start}
+.v6-service-index{list-style:none;padding:0;margin:0}
+.v6-service-index li{border-bottom:1px solid #19424440}
+.v6-service-index a{display:flex;align-items:center;gap:20px;min-height:86px;padding-block:15px}
+.v6-service-number{font-size:10px;color:#6f4d1b;flex-shrink:0}
+.v6-service-index strong{font-size:clamp(21px,2.2vw,34px);line-height:1.28;font-weight:600;flex:1;transition:transform 250ms var(--v6-ease),color 220ms}
+.v6-service-index svg{flex-shrink:0;transition:translate 220ms}
+.v6-service-index li[data-active=true] strong{color:#6f4d1b;transform:translateX(8px)}
+html[dir=rtl] .v6-service-index li[data-active=true] strong{transform:translateX(-8px)}
+.v6-service-index li[data-active=true] svg{translate:4px -4px}
+.v6-directory-stage{position:sticky;top:130px;min-width:0;padding-top:24px}
+.v6-directory-photo{position:relative;height:470px;background:#194244;overflow:hidden}
+.v6-directory-photo img{object-fit:cover}
+.v6-directory-incoming{position:absolute;inset:0}
+.v6-directory-photo>span{position:absolute;bottom:18px;inset-inline-end:22px;font-size:11px;letter-spacing:.1em;background:#071f20;color:#fffdf8;padding:8px 12px}
+.v6-directory-caption{padding-top:28px}
+.v6-directory-caption h3{font-size:28px;line-height:1.2}
+.v6-directory-caption p{font-size:13px;line-height:1.8;min-height:4em}
+.v6-directory-caption .journey-text-link{font-size:12px}
+.v6-journey-transfer{position:fixed;left:0;top:0;width:96px;height:72px;background-size:cover;background-position:center;z-index:150;pointer-events:none;border:3px solid #fffdf8;box-shadow:0 6px 20px #071f2040}
+.v6-home .rh-stop-number{transition:background 220ms,color 220ms;border-radius:50%;background:#194244;color:#fffdf8;width:28px;height:28px;display:grid;place-items:center;font-size:10px}
+/* Secondary discovery: one perspective stage, button and keyboard navigation. */
+.v6-beyond{overflow:hidden;background:#f8efe0}
+.v6-beyond-heading{display:flex;justify-content:space-between;gap:30px;align-items:end}
+.v6-beyond-heading h2{font-size:clamp(40px,5.5vw,75px);line-height:1.1;margin-bottom:24px}
+.v6-carousel-controls{display:flex;align-items:center;gap:18px;flex-shrink:0}
+.v6-carousel-controls button{height:48px;width:48px;border:1px solid #19424466;display:grid;place-items:center;transition:background 200ms,color 200ms}
+.v6-carousel-controls button:is(:hover,:focus-visible){background:#194244;color:#fffdf8}
+.v6-carousel-controls span{font-size:11px}
+.v6-country-stage{position:relative;perspective:1400px;height:580px;margin-top:40px;direction:ltr;isolation:isolate}
+.v6-country{position:absolute;width:70%;height:100%;left:15%;top:0;transform:translateX(calc(var(--offset)*100%)) rotateY(calc(var(--offset)*-9deg)) scale(.88);transform-origin:center;opacity:.55;transition:transform 700ms var(--v6-ease),opacity 550ms;overflow:hidden;background:#194244;color:#fffdf8}
+.v6-country[data-current=true]{transform:translateX(0) rotateY(0) scale(1);opacity:1;z-index:2}
+.v6-country[aria-hidden=true]{visibility:hidden}
+.v6-country>.photo{position:absolute;inset:0;height:100%;width:100%}
+.v6-country>div:not(.photo){position:absolute;inset:0;display:flex;flex-direction:column;justify-content:end;align-items:start;padding:35px;background:linear-gradient(0deg,#071f20e6,transparent 85%);direction:ltr}
+html[dir=rtl] .v6-country>div:not(.photo){direction:rtl;align-items:start;text-align:start}
+.v6-country bdi{font-size:10px;letter-spacing:.08em}
+.v6-country h3{font-size:clamp(38px,5vw,72px);line-height:1.2;margin-top:18px}
+.v6-country p{font-size:14px;max-width:440px;line-height:1.8}
+.v6-country-link{display:flex;align-items:center;gap:12px;min-height:44px;font-size:12px;border-bottom:1px solid #e4d7c188}
+.v6-country-index{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 18px;margin-top:28px}
+.v6-country-index button{font-size:11px;min-height:44px;border-bottom:1px solid transparent;transition:border-color 200ms,color 200ms}
+.v6-country-index button[aria-pressed=true]{color:#6f4d1b;border-color:#6f4d1b}
+.v6-home .rh-faq details{interpolate-size:allow-keywords}
+.v6-home .rh-faq details::details-content{height:0;overflow:clip;transition:height 250ms,content-visibility 250ms allow-discrete}
+.v6-home .rh-faq details[open]::details-content{height:auto}
+@media(max-width:1023px){.v6-directory-layout{gap:5%}.v6-directory-photo{height:390px}.v6-directory-stage{top:105px}.v6-memories{height:450px}.v6-memory-surface>.photo{height:220px}.v6-memory-1 .photo{height:170px}.v6-memory-2 .photo{height:160px}}
+@media(max-width:767px){
+ .v6-home .rh-world-stage:has([data-engaged=true]) [data-engaged=false]{opacity:1;transform:none}
+ .v6-home .rh-world-plane[data-engaged=true] .v6-world-depth{transform:scale(1.045)}
+ .v6-memories{height:450px;margin-block:15px 35px}
+ .v6-memory{width:64%}.v6-memory-1{width:55%}.v6-memory-2{width:60%}
+ .v6-memory-surface{padding:8px 8px 0}.v6-memory-surface>.photo{height:220px}.v6-memory-1 .photo{height:165px}.v6-memory-2 .photo{height:170px}
+ .v6-home .rh-figure strong{font-size:clamp(32px,9.5vw,46px)}
+ .v6-process-stage>.flight-trace{display:none}.v6-process-stage .rh-process-line:before{display:block;transform:scaleY(var(--route-progress));transform-origin:top}
+ .v6-directory-layout{display:flex;flex-direction:column-reverse;gap:25px}.v6-directory-stage{position:static;width:100%;padding:0}.v6-directory-photo{height:310px}.v6-directory-caption h3{font-size:26px}.v6-directory-caption p{min-height:0}.v6-service-index{width:100%}.v6-service-index a{min-height:74px;gap:12px}.v6-service-index strong{font-size:24px}
+ .v6-beyond-heading{flex-direction:column;align-items:start;gap:25px}.v6-country-stage{height:480px}.v6-country{width:90%;left:5%}.v6-country>div:not(.photo){padding:24px}.v6-country h3{font-size:43px}.v6-country p{font-size:13px}.v6-country-index{gap:0 16px}
+}
+.reduce-motion .v6-home *,.v6-home[data-home-motion=static] *{animation:none!important;transition:none!important}
+.reduce-motion :is(.v6-world-depth,.rh-world-plane,.rh-world-copy h3,.v6-memory-surface,.v6-country,.v6-service-index strong,.v6-service-index svg){transition:none!important}
+.reduce-motion .v6-journey-transfer{display:none}
 .reduce-motion .v6-network-track{animation:none;transform:none;width:100%}
 .reduce-motion .v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}
 .reduce-motion .v6-network-track ul[aria-hidden=true]{display:none}
