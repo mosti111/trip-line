@@ -1,5 +1,14 @@
 # Trip Line — agent operating map
 
+## Current V6.1 exception — 25 October 2026
+
+Direct [TL-008 V6.1 authority](docs/tasks/TL-008-v61-instructions.md) authorizes
+C0–C5 sequentially with one implementation agent and no subagents. It supersedes
+historical bounded/delegated workflows and completed V6 stop rules for this task.
+Preserve V6 recovery, functionality, source integrity, accessibility and no-publication
+boundaries. Use [task](docs/tasks/TL-008-v61.md), [state](docs/orchestration/v61-state.json)
+and [report](docs/reports/TL-008-v61.md). No runtime model-switch claim.
+
 ## Current V6 exception — 24 October 2026
 
 The direct [TL-007 V6 request](docs/tasks/TL-007-v6-instructions.md) authorizes

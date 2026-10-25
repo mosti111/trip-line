@@ -248,3 +248,13 @@ VISUAL-CLOSE zero-blocker product approval; no dependency deadlock or weakened Q
 Current hardening stops after commit; no frontend work is dispatched.
 Evidence: [task](tasks/TL-SYS-003-orchestration-hardening.md),
 [routing](orchestration/MODEL_ROUTING.md), [run plan](orchestration/RUN_PLAN.md).
+## TL-DEC-018 — V6.1 creative reconstruction
+
+25 October2026. Direct [TL-008 authority](tasks/TL-008-v61-instructions.md) rejects
+V6's dashboard Atlas, two-row partner grid and disconnected cinematic sections.
+Authorize C0–C5 sequential solo implementation, no subagents. Preserve functional
+foundation and V6 geometry/idle-refresh improvements. Photographic Atlas with
+geographic overlay, one commercial billboard and connected native-scroll scenes
+supersede those earlier compositions. Existing identity, data, translation,
+provenance, accessibility and no-publication boundaries remain. No model-switch
+claim or new scrolling engine. User creative acceptance remains pending.
