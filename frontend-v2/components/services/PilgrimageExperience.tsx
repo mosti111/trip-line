@@ -51,7 +51,7 @@ export function PilgrimageExperience({ locale, service: s }: { locale: Locale; s
     };
     const sync = () => {
       reset();
-      if (calm || connection?.saveData || typeof IntersectionObserver !== 'function') return;
+      if (calm || typeof IntersectionObserver !== 'function') return;
       host.dataset.pilgrimageMotion = 'enhanced';
       const current = generation;
       observer = new IntersectionObserver(entries => {

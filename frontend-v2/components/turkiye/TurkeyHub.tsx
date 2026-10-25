@@ -60,7 +60,7 @@ export function TurkeyHub({ locale }: { locale: Locale }) {
     };
     const sync = () => {
       reset();
-      if (calm || connection?.saveData || typeof IntersectionObserver !== 'function') return;
+      if (calm || typeof IntersectionObserver !== 'function') return;
       root.dataset.hubMotion = 'enhanced';
       observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {

@@ -79,4 +79,5 @@
 .atlas-stage[data-calm=true] .atlas-title-previous{display:none}
 .atlas-stage[data-calm=true] :is(.rt-preview-image,.atlas-title-incoming,.rt-map-canvas,.v6-active-route){animation:none!important;transition:none!important;clip-path:none!important;translate:none!important;scale:1!important}
 .reduce-motion .atlas-stage .atlas-title-previous{display:none}
-@media(prefers-reduced-motion:reduce),(scripting:none){.atlas-stage .atlas-title-previous{display:none}.atlas-stage *{animation:none!important;transition:none!important}.atlas-stage .rt-map-canvas{translate:none!important;scale:1!important}}
+@media(scripting:none){.atlas-stage .atlas-title-previous{display:none}.atlas-stage *{animation:none!important;transition:none!important}.atlas-stage .rt-map-canvas{translate:none!important;scale:1!important}}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .atlas-stage .atlas-title-previous{display:none}:where(html:not([data-motion-choice=full])) .atlas-stage *{animation:none!important;transition:none!important}:where(html:not([data-motion-choice=full])) .atlas-stage .rt-map-canvas{translate:none!important;scale:1!important}}

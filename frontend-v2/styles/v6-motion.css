@@ -1,7 +1,7 @@
 /* V6 property owners: GSAP scene wrappers; CSS atlas/UI; Motion menu/planner. */
 .v6-home{--v6-ease:cubic-bezier(.22,1,.36,1)}
 ::view-transition-group(.bronze-portal){animation-duration:800ms;animation-timing-function:cubic-bezier(.22,1,.36,1)}
-@media(prefers-reduced-motion:reduce){::view-transition-group(.bronze-portal){animation-duration:0s!important}}
+@media(prefers-reduced-motion:reduce){:root:not([data-motion-choice=full])::view-transition-group(.bronze-portal){animation-duration:0s!important}}
 .v6-home .rh-arrival *{animation:none!important}
 .v6-home .rh-title-block{overflow:hidden;padding-block:.08em;margin-block:-.08em}
 .v6-home .rh-title-ink{display:block}
@@ -172,4 +172,5 @@ html[data-motion-layout=static] .v6-network-track{animation:none;transform:none;
 html[data-motion-layout=static] .v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}
 html[data-motion-layout=static] .v6-network-track ul[aria-hidden=true]{display:none}
 html[data-motion-layout=static] .v6-network-tracks{mask-image:none}
-@media(prefers-reduced-motion:reduce),(scripting:none){.v6-home .rt-map-canvas{translate:none;scale:1}.v6-home *{animation:none!important;transition:none!important}.v6-network-track{animation:none;transform:none;width:100%}.v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}.v6-network-track ul[aria-hidden=true]{display:none}.v6-network-tracks{mask-image:none}}
+@media(scripting:none){.v6-home .rt-map-canvas{translate:none;scale:1}.v6-home *{animation:none!important;transition:none!important}.v6-network-track{animation:none;transform:none;width:100%}.v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}.v6-network-track ul[aria-hidden=true]{display:none}.v6-network-tracks{mask-image:none}}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .v6-home .rt-map-canvas{translate:none;scale:1}:where(html:not([data-motion-choice=full])) .v6-home *{animation:none!important;transition:none!important}:where(html:not([data-motion-choice=full])) .v6-network-track{animation:none;transform:none;width:100%}:where(html:not([data-motion-choice=full])) .v6-network-track ul{width:100%;flex-wrap:wrap;justify-content:center}:where(html:not([data-motion-choice=full])) .v6-network-track ul[aria-hidden=true]{display:none}:where(html:not([data-motion-choice=full])) .v6-network-tracks{mask-image:none}}

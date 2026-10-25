@@ -11,4 +11,4 @@
  .rh-arrival[data-entry=play] [data-flight-path]{stroke-dasharray:1;animation:v5-trace 550ms var(--v5-ease) 450ms both}
 }
 .reduce-motion .rh-arrival *{animation:none!important}
-@media(prefers-reduced-motion:reduce){.rh-arrival *{animation:none!important}}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .rh-arrival *{animation:none!important}}

@@ -1,0 +1,42 @@
+import {chromium,webkit,expect} from '@playwright/test';
+import fs from 'node:fs';import path from 'node:path';
+const base=process.env.QA_URL||'http://localhost:3011',out=path.resolve(process.env.QA_OUT||'../tmp/frontend-qa/v1-mobile/production');fs.mkdirSync(out,{recursive:true});
+const engine=process.env.QA_ENGINE||'chromium',browser=await(engine==='webkit'?webkit:chromium).launch();
+const authentication=process.env.QA_STORAGE_STATE?{storageState:path.resolve(process.env.QA_STORAGE_STATE)}:{};
+const sizes=[[320,740],[360,800],[375,812],[390,844],[430,932],[768,1024],[667,375],[844,390]];
+const places=['istanbul','trabzon','rize-ayder','uzungol','antalya','bodrum','fethiye','marmaris','sapanca','bursa','yalova','cappadocia'];
+const services=['tours','hajj-umrah','camps','corporate','flights-hotels','tailor-made','events','training','visa-assistance'];
+const countries=['turkiye','georgia','egypt','saudi-arabia','oman','qatar','uae','maldives','malaysia','indonesia'];
+const routes=['','services',...services.map(s=>'services/'+s),'destinations',...countries.map(c=>'destinations/'+c),'business','about','contact','faq','privacy','terms',...places.map(p=>'destinations/turkiye/'+p)];
+const report={status:'running',base,engine,version:browser.version(),startedAt:new Date().toISOString(),cases:[],findings:[],errors:[],recordings:[]};
+async function settle(page){await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(150);}
+async function scan(page,id){const result=await page.evaluate(()=>({width:innerWidth,documentWidth:document.documentElement.scrollWidth,broken:[...document.images].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.currentSrc),headings:[...document.querySelectorAll('main h1,main h2,main h3')].filter(e=>e.getBoundingClientRect().width>0&&e.scrollWidth>e.clientWidth+2).map(e=>({text:e.textContent,width:e.clientWidth,scrollWidth:e.scrollWidth})),robots:document.querySelector('meta[name=robots]')?.content}));result.expectedWidth=page.viewportSize().width;if(result.width>result.expectedWidth+1||result.documentWidth>result.expectedWidth+1||result.broken.length||result.headings.length||!result.robots?.includes('noindex'))report.findings.push({id,...result});return result;}
+async function loadImages(page){await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=600){scrollTo({top:y,behavior:'instant'});await new Promise(r=>setTimeout(r,30));}scrollTo({top:0,behavior:'instant'});});await page.waitForTimeout(250);}
+try{
+ for(const reduced of [false,true])for(const locale of ['en','tr','ar']){
+  const ctx=await browser.newContext({...authentication,viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:reduced?'reduce':'no-preference'}),page=await ctx.newPage();page.on('pageerror',e=>report.errors.push(String(e)));
+  const inventory=process.env.QA_ROUTES?JSON.parse(process.env.QA_ROUTES):reduced||engine==='webkit'||process.env.QA_HOME_ONLY?['']:routes;
+  for(const route of inventory){await page.setViewportSize({width:320,height:740});const response=await page.goto(base+'/'+locale+(route?'/'+route:''),{waitUntil:'networkidle'});expect(response.status()).toBe(200);await settle(page);await loadImages(page);
+   for(const[width,height]of sizes){await page.setViewportSize({width,height});await settle(page);const id=`${locale}-${route.replaceAll('/','_')||'home'}-${width}x${height}-${reduced?'reduced':'motion'}`;const result=await scan(page,id);report.cases.push({id,...result});
+    if(!route){await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(1500);await page.screenshot({path:path.join(out,id+'.png'),fullPage:true});}
+    else if(width===320&&['services','business','about','contact','faq','privacy','terms','destinations','destinations/turkiye','destinations/turkiye/rize-ayder','services/hajj-umrah','services/corporate','destinations/georgia'].includes(route)){await page.screenshot({path:path.join(out,id+'.png'),fullPage:true});}
+   }
+   fs.writeFileSync(path.join(out,'progress.json'),JSON.stringify({status:'running',cases:report.cases.length,findings:report.findings,last:{locale,route,reduced}},null,2));console.log('V1 scanned',locale,route||'home',reduced?'reduced':'motion');
+  }
+  await ctx.close();
+ }
+ // Real browser touch events: modal, all twelve Atlas destinations, map disclosure,
+ // motion pause/resume, selection/reordering and the actual inquiry handoff.
+ for(const locale of ['en','tr','ar']){
+  const ctx=await browser.newContext({...authentication,viewport:{width:390,height:844},isMobile:true,hasTouch:true,recordVideo:{dir:out,size:{width:390,height:844}}}),page=await ctx.newPage();page.on('pageerror',e=>report.errors.push(String(e)));
+  await page.goto(base+'/'+locale,{waitUntil:'networkidle'});await page.waitForTimeout(1500);
+  await page.locator('.menu-button').tap();await expect(page.locator('.nav-dialog')).toBeVisible();await page.screenshot({path:path.join(out,`${locale}-menu.png`)});await page.locator('.nav-dialog .dialog-header button').tap();await expect(page.locator('.nav-dialog')).not.toBeVisible();
+  const atlas=page.locator('.atlas-stage');for(let i=0;i<12;i++){await atlas.locator('.rt-index button').nth(i).tap();await expect(atlas.locator('.rt-index button').nth(i)).toHaveAttribute('aria-pressed','true');await expect(atlas.locator('.rt-preview-media')).toHaveAttribute('data-shown',places[i]);await page.waitForTimeout(650);}
+  await atlas.locator('.rt-mobile-map summary').tap();await expect(atlas.locator('.rt-mobile-map')).toHaveAttribute('open','');await atlas.locator('.rt-mobile-map .rt-map-pin').first().tap();await expect(atlas.locator('.rt-index button').first()).toHaveAttribute('aria-pressed','true');await atlas.locator('.rt-mobile-map summary').tap();
+  await atlas.locator('.rt-preview').scrollIntoViewIfNeeded();await page.waitForTimeout(800);await page.screenshot({path:path.join(out,`${locale}-atlas.png`)});
+  const billboard=page.locator('.v61-network');await billboard.scrollIntoViewIfNeeded();await page.waitForTimeout(400);await expect(billboard).toHaveAttribute('data-running','true');const x=()=>billboard.locator('.v61-billboard-track').evaluate(e=>new DOMMatrix(getComputedStyle(e).transform).m41);const first=await x();await page.waitForTimeout(1800);const second=await x();expect(Math.abs(second-first)).toBeGreaterThan(25);await billboard.locator('button').tap();await expect(billboard).toHaveAttribute('data-user-paused','true');const paused=await x();await page.waitForTimeout(500);expect(Math.abs(await x()-paused)).toBeLessThan(1);await billboard.locator('button').tap();await page.screenshot({path:path.join(out,`${locale}-billboard.png`)});
+  const builder=page.locator('#journey-builder');for(const id of['istanbul','cappadocia','antalya'])await builder.locator(`input[value="${id}"]`).check();await builder.locator('li').last().locator('[data-move="-1"]').tap();await expect(builder.locator('input[name=journey]')).toHaveValue('istanbul,antalya,cappadocia');await builder.locator('#builder-dates').fill('May 2027');await builder.locator('#builder-travelers').fill('4');await builder.locator('.rh-builder-route').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`${locale}-planner.png`)});await builder.locator('button[type=submit]').tap();await page.waitForURL('**/contact?**');await expect(page.locator('[data-contact-stop]')).toHaveCount(3);await expect(page.locator('#inquiry-dates')).toHaveValue('May 2027');await expect(page.locator('#inquiry-travelers')).toHaveValue('4');await page.screenshot({path:path.join(out,`${locale}-handoff.png`)});
+  await ctx.close();fs.renameSync(await page.video().path(),path.join(out,`${locale}-touch-interactions.webm`));report.recordings.push(`${locale}-touch-interactions.webm`);
+ }
+ expect(report.findings,'Rendered layout/media findings').toEqual([]);expect(report.errors).toEqual([]);report.status='passed';
+}catch(error){report.status='failed';report.failure=String(error);throw error;}finally{for(const context of browser.contexts())await context.close();await browser.close();report.finishedAt=new Date().toISOString();fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({status:report.status,cases:report.cases.length,findings:report.findings,errors:report.errors},null,2));}

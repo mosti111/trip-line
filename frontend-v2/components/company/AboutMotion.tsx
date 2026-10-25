@@ -24,7 +24,7 @@ export function AboutMotion() {
     };
     const sync = () => {
       reset();
-      if (calm || connection?.saveData || (connection && !canListen) || typeof IntersectionObserver !== 'function') return;
+      if (calm || typeof IntersectionObserver !== 'function') return;
       root.dataset.aboutMotion = 'enhanced';
       if (seen.current.has(artwork)) { artwork.dataset.aboutLine = 'settled'; return; }
       artwork.dataset.aboutLine = 'pending';

@@ -52,7 +52,7 @@ export function BusinessBrief({ locale, children }: { locale: Locale; children: 
     };
     const sync = () => {
       reset();
-      if (calm || connection?.saveData || (connection && !canListen) || typeof IntersectionObserver !== 'function') return;
+      if (calm || typeof IntersectionObserver !== 'function') return;
       root.dataset.businessMotion = 'enhanced';
       if (seenLines.current.has(artwork)) { artwork.dataset.businessLine = 'settled'; return; }
       artwork.dataset.businessLine = 'pending';

@@ -88,5 +88,5 @@ html[lang=ar] .rt-preview h3,html[lang=ar] .rt-directory h2,html[lang=ar] .rt-di
 .rt-photo-status{position:absolute;inset:auto 12px 12px;z-index:4;font-size:11px;padding:12px;background:#071f20ed;color:#FFFDF8}
 .rt-preview-image img[src*="rize-ayder"]{object-position:50% 55%}
 .rt-preview-image img[src*="antalya"]{object-position:50% 60%}
-@media(prefers-reduced-motion:reduce){.rt-preview-image,.rt-preview-image .photo{transition:none;transform:none}}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .rt-preview-image,:where(html:not([data-motion-choice=full])) .rt-preview-image .photo{transition:none;transform:none}}
 .reduce-motion .rt-preview-image,.reduce-motion .rt-preview-image .photo{transition:none;transform:none}

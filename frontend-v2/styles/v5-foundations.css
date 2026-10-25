@@ -14,7 +14,7 @@ html{scrollbar-color:#C89039 #071F20}
 input,textarea{caret-color:#C89039}
 .travel-site :focus-visible{outline:3px solid #C89039;outline-offset:5px}
 @media(max-width:767px){.travel-site.recovery-shell{--gutter:22px}.flight-trace{opacity:.65}.flight-trace path{stroke-width:1.5}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.flight-trace path{stroke-dashoffset:0!important;stroke-dasharray:none!important}}
+@media(prefers-reduced-motion:reduce){html:not([data-motion-choice=full]){scroll-behavior:auto}:where(html:not([data-motion-choice=full])) .flight-trace path{stroke-dashoffset:0!important;stroke-dasharray:none!important}}
 .reduce-motion .flight-trace path{stroke-dashoffset:0!important;stroke-dasharray:none!important}
 
 /* Complete shared editorial treatment, inherited by the existing route families. */
@@ -39,7 +39,7 @@ input,textarea{caret-color:#C89039}
  .travel-site.recovery-shell .rd-arrival-media{inset-inline-start:0}
  html[lang=ar] .travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) :is(h1,h2){line-height:1.4;letter-spacing:0}
 }
-@media(prefers-reduced-motion:reduce){.travel-site .journey-text-link svg{transition:none;translate:none!important}}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .travel-site .journey-text-link svg{transition:none;translate:none!important}}
 
 @media(max-width:767px){.travel-site .rc-figure strong,.travel-site .rc-figure-clients strong,.travel-site .rc-figure-pilgrims strong,.travel-site .rc-figure-visas strong{font-size:clamp(48px,17vw,68px);font-weight:650}}
 /* V5 final accessibility corrections: bronze artwork retains its brand color;

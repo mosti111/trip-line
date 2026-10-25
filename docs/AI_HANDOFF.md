@@ -1,3 +1,12 @@
+## V1.1 mobile creative recovery in progress — 25 October 2026
+
+[TL-011 task](tasks/TL-011-v11-mobile-recovery.md), [exact brief](tasks/TL-011-v11-instructions.md).
+Starting point9f6cfa7 retained on `codex/v1-before-v11-recovery`; active branch
+`codex/trip-line-v11-mobile-recovery`. Single implementation agent. Phase1 motion
+resolution and phase2 phone compositions implemented; production-build QA and
+rendered review in progress. Creative acceptance pending. Preview-only delivery;
+existing TL-010 production alias/deadline/automation unchanged.
+
 ## Temporary public review — 25 October 2026
 
 The user has explicitly approved publishing V1 without login for two days:

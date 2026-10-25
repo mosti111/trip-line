@@ -1,3 +1,14 @@
+## Current V1.1 mobile creative recovery — TL-011
+
+Direct [V1.1 authority](docs/tasks/TL-011-v11-instructions.md) rejects V1 mobile
+creative acceptance and authorizes four sequential phases on a separate review
+branch, one implementation agent, no subagents. Follow [task](docs/tasks/TL-011-v11-mobile-recovery.md).
+Preserve desktop, content, function and identity. Explicit System/Full/Reduced
+choice supersedes older unconditional system/SaveData motion suppression. Native
+scrolling and honest physical-Safari limits remain. Deliver a separate Vercel
+Preview; do not overwrite production aliases or merge main. TL-010 expiry and
+its automation remain intact. Stop at verified V1.1 for user creative review.
+
 # Trip Line — agent operating map
 
 ## Temporary public review — TL-010, 25 October 2026

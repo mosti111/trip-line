@@ -1,3 +1,15 @@
+## TL-DEC-021 — V1.1 phone composition and explicit motion authority
+
+25 October 2026. Direct [user brief](tasks/TL-011-v11-instructions.md) rejects V1's
+mobile creative result. Reconstruct phone composition independently while keeping
+verified desktop, content and function. System initially follows accessibility;
+explicit Full overrides it, explicit Reduced always reduces. Persist visitor
+choice and resolve it consistently before paint, in CSS, Motion and GSAP.
+SaveData remains a media/network constraint rather than a universal animation
+veto. No smooth-scroll engine, oversized pins, copied reference assets, desktop
+redesign or production alias replacement. Physical Safari requires actual device
+evidence; WebKit/Chromium results must be identified as engine tests.
+
 ## TL-DEC-020 — Two-day no-login production review
 
 25 October2026. Direct user confirmation: “it's okay make it temporary and expires

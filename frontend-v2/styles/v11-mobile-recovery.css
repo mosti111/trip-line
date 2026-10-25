@@ -1,0 +1,106 @@
+/* TL-011: independently composed phone chapters; desktop remains V1. */
+.motion-choice select{min-height:44px;font-size:16px}
+.recovery-menu .motion-choice{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%}
+@media(max-width:767px){
+ .travel-site .recovery-home.v61-home .rh-arrival{min-height:max(820px,100svh);padding:134px 0 88px;align-items:start}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy{width:calc(100% - 40px)}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy>.rh-kicker{display:none}
+ .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(40px,12vw,54px);line-height:1.02;letter-spacing:-.04em;max-width:12ch}
+ html[lang=tr] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(31px,9.6vw,44px);line-height:1.1;max-width:16ch}
+ html[lang=ar] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(38px,11.6vw,50px);line-height:1.35;max-width:12ch}
+ .travel-site .recovery-home.v61-home .rh-arrival-photo img{object-position:73% 50%}
+ .travel-site .recovery-home.v61-home .rh-arrival-shade{background:linear-gradient(180deg,#071f2070 0%,#071f2035 28%,#071f2030 48%,#071f20e8 66%,#071f20 100%)}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy>p{margin:clamp(230px,62vw,270px) 0 22px;font-size:14px;line-height:1.75;max-width:34ch}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy .rh-actions{gap:10px}
+ .travel-site .recovery-home.v61-home .rh-small-links{margin-top:10px}
+ .travel-site .recovery-home.v61-home .rh-arrival-foot{bottom:8px;letter-spacing:.02em}
+ .travel-site .recovery-home.v61-home .rh-arrival>.flight-trace{opacity:.65}
+ /* Three intents, three scales: open landscape, intimate portrait, city fragment. */
+ .travel-site .recovery-home.v61-home .rh-worlds{padding:48px 0 24px}
+ .travel-site .recovery-home.v61-home .rh-worlds .rh-section-heading{margin-bottom:30px}
+ .travel-site .recovery-home.v61-home .rh-worlds .rh-section-heading>.rh-kicker{display:none}
+ .travel-site .recovery-home.v61-home .rh-world-stage{gap:36px;display:flex}
+ .travel-site .recovery-home.v61-home .rh-world-plane{display:block;min-height:0;height:auto;background:transparent;overflow:visible}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-photo{position:relative;inset:auto;width:100%;height:330px;overflow:hidden}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-photo:after{background:linear-gradient(0deg,#071f2030,transparent 60%)}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-copy{position:relative;inset:auto;margin:0;padding:24px 0 0;color:#071f20;max-width:none}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-copy h3{font-size:clamp(30px,9vw,40px);max-width:12ch;line-height:1.12}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-copy p{font-size:14px;line-height:1.75;margin:14px 0 18px}
+ .travel-site .recovery-home.v61-home .rh-world-controls{justify-content:space-between;gap:12px}
+ .travel-site .recovery-home.v61-home .rh-world-controls .journey-text-link{color:inherit;min-height:44px;font-size:13px}
+ .travel-site .recovery-home.v61-home .rh-world-controls .rh-intent{background:#194244;color:#fffdf8;border:0;font-size:12px;min-height:48px}
+ .travel-site .recovery-home.v61-home .rh-world-plane[data-selected=true]:after{display:none}
+ .travel-site .recovery-home.v61-home .rh-world-plane[data-selected=true] .rh-intent{background:#071f20;box-shadow:inset 0 -3px #c89039}
+ .travel-site .recovery-home.v61-home .rh-world-plane[data-engaged=true] .rh-world-copy h3{color:inherit;transform:none}
+ .travel-site .recovery-home.v61-home .rh-world-plane:active .rh-world-photo{filter:brightness(.9)}
+ .travel-site .recovery-home.v61-home .rh-world-1 .rh-world-photo{width:82%;margin-inline-start:auto;height:300px}
+ .travel-site .recovery-home.v61-home .rh-world-1 .rh-world-copy{background:#194244;color:#fffdf8;margin-top:-44px;margin-inline-end:30px;padding:24px 20px}
+ .travel-site .recovery-home.v61-home .rh-world-1 .rh-intent{background:#fffdf8;color:#071f20}
+ .travel-site .recovery-home.v61-home .rh-world-2 .rh-world-photo{height:220px;width:92%}
+ .travel-site .recovery-home.v61-home .rh-world-2 .rh-world-copy{padding-inline-start:22px}
+ .travel-site .recovery-home.v61-home .v61-world-junction{display:none}
+ .travel-site .recovery-home.v61-home .v61-world-branches{opacity:.3}
+ /* A destination is a photograph first. The entire twelve-place index is compact. */
+ .travel-site .recovery-home.v61-home .rh-threshold{min-height:520px}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter{padding-top:40px}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter>.rh-section-heading{margin-bottom:24px}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter>.rh-section-heading>p{display:none}
+ .travel-site .atlas-stage .rt-wrap{width:100%}
+ .travel-site .atlas-stage .rt-explorer-layout{gap:20px}
+ .travel-site .atlas-stage .rt-preview{padding-top:360px;margin:0;min-height:0;background:#071f20}
+ .travel-site.recovery-shell .atlas-stage .rt-preview-media{height:420px}
+ .travel-site .atlas-stage .rt-preview-content{margin:0 20px;padding-bottom:12px}
+ .travel-site .atlas-stage .rt-preview h3{font-size:clamp(40px,12vw,55px);line-height:1.16}
+ .travel-site .atlas-stage .rt-preview-content>p{font-size:14px;line-height:1.75;margin:14px 0 18px}
+ .travel-site .atlas-stage .rt-preview-image[data-place=istanbul] img{object-position:73% 48%}
+ .travel-site .atlas-stage .atlas-photo-shade{background:linear-gradient(0deg,#071f20,transparent 55%)}
+ .travel-site .atlas-stage .rt-preview-actions{flex-direction:row;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+ .travel-site .atlas-stage .rt-preview-actions .journey-action{min-width:155px;font-size:12px;min-height:48px}
+ .travel-site .atlas-stage .rt-preview-actions .journey-text-link{min-height:48px;align-self:auto}
+ .travel-site .atlas-stage .rt-step-controls{position:absolute;top:304px;right:20px;margin:0;z-index:4}
+ .travel-site .atlas-stage .rt-step-controls button{background:#071f20d9;border-color:#e4d7c180;width:48px;height:48px}
+ .travel-site .atlas-stage .rt-index{width:100%;padding:0 20px 12px;display:grid;grid-auto-flow:column;grid-template-columns:none;grid-template-rows:auto 48px 48px;grid-auto-columns:minmax(136px,max-content);gap:0 18px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-padding-inline:20px;scrollbar-color:#c89039 #194244;scrollbar-width:thin}
+ .travel-site .atlas-stage .atlas-index-heading{grid-row:1;grid-column:1/7;margin-bottom:10px;max-width:calc(100vw - 40px);position:sticky;inset-inline-start:0}
+ .travel-site .atlas-stage .rt-index button{min-height:48px;width:100%;padding-inline:0;scroll-margin-inline:20px}
+ .travel-site .atlas-stage .rt-index button>strong{font-size:12px}
+ .travel-site .atlas-stage .rt-mobile-map,.travel-site .atlas-stage .rt-explorer-foot{margin-inline:20px}
+ .travel-site .atlas-stage .rt-mobile-map summary{font-size:13px;min-height:48px}
+ /* Balloon horizon, forest portrait and coast aperture have separate rhythms. */
+ .travel-site .recovery-home.v61-home .rh-signatures .rh-section-heading{padding-block:40px 30px}
+ .travel-site .recovery-home.v61-home .rh-signatures .rh-section-heading>.rh-kicker{display:none}
+ .travel-site .recovery-home.v61-home .rh-signature{min-height:700px;display:flex;align-items:end}
+ .travel-site .recovery-home.v61-home .rh-signature .rh-signature-copy{margin:380px 20px 36px;max-width:calc(100% - 40px);width:auto;inset:auto}
+ .travel-site .recovery-home.v61-home .rh-signature-copy h3{font-size:clamp(40px,12vw,56px);line-height:1.15}
+ .travel-site .recovery-home.v61-home .rh-signature-0 .v61-landscape-frame{inset:0;height:100%;width:100%}
+ .travel-site .recovery-home.v61-home .rh-signature-0 img{object-position:45% 40%}
+ .travel-site .recovery-home.v61-home .rh-signature-1{min-height:790px;background:#e4d7c1;color:#071f20;padding-top:32px}
+ .travel-site .recovery-home.v61-home .rh-signature-1 .v61-landscape-frame{inset:32px 20px auto;height:480px;width:calc(100% - 40px)}
+ .travel-site .recovery-home.v61-home .rh-signature-1 .v61-landscape-shade{background:linear-gradient(0deg,#071f2020,transparent 45%)}
+ .travel-site .recovery-home.v61-home .rh-signature-1 .rh-signature-copy{margin-top:500px}
+ .travel-site .recovery-home.v61-home .rh-signature-1 .journey-text-link{color:inherit}
+ .travel-site .recovery-home.v61-home .rh-signature-1 img{object-position:53% 44%}
+ .travel-site .recovery-home.v61-home .rh-signature-2{min-height:690px}
+ .travel-site .recovery-home.v61-home .rh-signature-2 .v61-landscape-frame{inset:0;height:100%;width:100%}
+ .travel-site .recovery-home.v61-home .rh-signature-2 img{object-position:65% 50%}
+ .travel-site .recovery-home.v61-home .rh-signature-2 .rh-signature-copy{margin-top:350px}
+ .travel-site .recovery-home.v61-home .rh-signature-copy .rh-actions{gap:12px 22px}
+ .travel-site .recovery-home.v61-home .rh-signature-copy p{line-height:1.75}
+ .travel-site .recovery-home.v61-home .rh-film-frame{height:360px}
+ .travel-site .v61-network .v61-billboard-track .v61-billboard-group{gap:36px;padding-right:36px}
+ .travel-site .v61-network .v61-billboard-track li{height:164px;flex-basis:var(--logo-width);width:var(--logo-width)}
+ .travel-site .v61-network .v61-billboard-track img{height:104px;max-height:104px}
+ html[data-motion-layout=static] .travel-site .v61-network .v61-billboard-group{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding:20px}
+ html[data-motion-layout=static] .travel-site .v61-network .v61-billboard-group li{width:100%;height:110px}
+ .travel-site .recovery-home.v61-home .rh-final{min-height:740px;padding-block:80px 110px}
+ .travel-site .recovery-home.v61-home .rh-final h2{font-size:clamp(40px,12vw,55px);max-width:11ch}
+ .travel-site .recovery-home.v61-home .rh-final>.photo img{object-position:70% 50%}
+}
+@media(max-width:767px) and (max-height:500px) and (orientation:landscape){
+ .travel-site .recovery-home.v61-home .rh-arrival{min-height:640px;padding-top:120px}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy>p{margin-top:70px;max-width:42ch}
+ .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:42px;max-width:18ch}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy .rh-actions{max-width:500px}
+}
+@supports not (clip-path:inset(0)){
+ .travel-site .v6-home .rh-title-ink,.travel-site .v6-home .rh-world-photo,.travel-site .v6-home .v61-landscape-frame{clip-path:none!important}
+}

@@ -30,6 +30,8 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
     if(next<0)return;
     manual.current=true;
     if(next!==active)setFrom(place.slug);
+    const index=host.current?.querySelector<HTMLElement>('.rt-index'),button=index?.querySelectorAll<HTMLButtonElement>('button')[next];
+    if(index&&button&&index.scrollWidth>index.clientWidth){const a=index.getBoundingClientRect(),b=button.getBoundingClientRect();if(b.left<a.left+20||b.right>a.right-20)index.scrollBy({left:b.left-a.left-20,behavior:calm?'instant':'smooth'});}
     setActive(next);setMedia(old=>({...old,requested:id,failed:''}));
   }
   useEffect(()=>{
@@ -59,7 +61,7 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
         responsive.add({phone:'(max-width:767px)',wide:'(min-width:768px)'},({conditions})=>{
           const timeline=gsap.timeline({scrollTrigger:{trigger:host.current,start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true}});
           // Phone captions and touch controls must stay complete while entering.
-          if(conditions?.phone)timeline.fromTo('.rt-preview',{y:14},{y:0,ease:'none'},0);
+          if(conditions?.phone)timeline.fromTo('.rt-preview-media',{clipPath:'inset(0 0 24% 0)',scale:1.08},{clipPath:'inset(0 0 0% 0)',scale:1,ease:'none'},0);
           else timeline.fromTo('.rt-preview',{clipPath:'polygon(9% 8%,100% 0,100% 100%,9% 92%)',scale:.93},{clipPath:'polygon(0 0,100% 0,100% 100%,0 100%)',scale:1,ease:'none'},0);
           timeline.fromTo('.rt-index',{y:conditions?.phone?8:18},{y:0,ease:'none'},0);
           timeline.fromTo('.rt-desktop-map',{y:28,opacity:.3},{y:0,opacity:1,ease:'none'},0);
@@ -80,7 +82,7 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
           {turkishPlaces.filter(item=>[media.requested,media.shown,media.previous].includes(item.slug)).map(item=><div className="rt-preview-image" key={item.slug} data-place={item.slug} data-active={item.slug===media.shown} data-previous={item.slug===media.previous} aria-hidden={item.slug!==media.shown} onLoadCapture={event=>{
             const image=event.target;if(!(image instanceof HTMLImageElement))return;
             void image.decode().then(()=>setMedia(old=>old.requested!==item.slug||old.shown===item.slug?old:{...old,previous:old.shown,shown:item.slug,failed:''})).catch(()=>setMedia(old=>old.requested===item.slug?{...old,failed:item.slug}:old));
-          }} onErrorCapture={()=>setMedia(old=>old.requested===item.slug?{...old,failed:item.slug}:old)}><Photo file={item.image} eager={item.slug===media.requested} alt={item.name[locale]} sizes="(max-width:767px) 100vw,75vw"/></div>)}
+          }} onErrorCapture={()=>setMedia(old=>old.requested===item.slug?{...old,failed:item.slug}:old)}><Photo file={item.image} mobileFile={item.slug==='istanbul'?'istanbul-v5.jpg':undefined} eager={item.slug===media.requested} alt={item.name[locale]} sizes="(max-width:767px) 100vw,75vw"/></div>)}
           <div className="atlas-photo-shade"/>
           {media.failed&&<span className="rt-photo-status" role="status">{t('Photo unavailable. Previous destination remains visible.','الصورة غير متاحة. تظهر صورة الوجهة السابقة.','Fotoğraf yüklenemedi. Önceki destinasyon gösteriliyor.')[locale]}</span>}
         </div>
