@@ -16,9 +16,11 @@ Public access must expire48 hours after this request:27 October2026 at15:22:45UT
 guard for pages and assets, failing closed on an invalid configured deadline, so
 expiry does not depend on the desktop scheduler. The absent-variable baseline
 must preserve existing routing. Keep noindex/nofollow, legal/source notes and
-prepared-message-only inquiry. Schedule a same-chat follow-up to restore prior
-protection and production mapping after expiry, guarded against unrelated newer
-deployments. Save an exact pre-change receipt without credentials.
+prepared-message-only inquiry. Schedule a same-chat follow-up to verify expiry and
+original protection after the deadline, guarded against unrelated newer
+deployments. Do not automatically roll back to older public content, which could
+reopen the client URL. Preserve that deployment and the exact pre-change receipt
+for recovery, without credentials.
 
 Verify core checks, future/expired boundaries, ordinary public routing and actual
 uncookied hosted EN/TR/AR on mobile. Deploy from the tested committed source to

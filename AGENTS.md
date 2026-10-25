@@ -8,8 +8,9 @@ boundary for this window only. Keep the V1 design, noindex and inquiry-only beha
 Server-enforced expiry:27 October2026 at18:22:45 Europe/Istanbul. Read
 `tmp/v1-public-review/state.json` for the exact deployment/protection recovery data.
 One current implementation agent; no subagents, main merge or billing change.
-The scheduled same-chat follow-up restores prior protection/production only when
-the recorded temporary deployment remains current. No V7 or further creative work.
+The scheduled same-chat follow-up verifies expiry and original protection only when
+the recorded temporary deployment remains current. Do not roll back to older
+public content and reopen the client URL. No V7 or further creative work.
 
 ## Current V1 mobile review — 25 October 2026
 

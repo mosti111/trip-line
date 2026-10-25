@@ -2,7 +2,8 @@ Temporary public review25October2026: [TL-010](tasks/TL-010-temporary-public-rev
 explicitly authorizes a no-login production window ending27October18:22:45
 Europe/Istanbul. UI/content remain the reviewed V1; optional server-side expiry
 returns410 for pages/assets at the deadline. Core37/build/128 expiry cases/public120
-pass. Scheduled restoration is guarded against unrelated future releases. No main
+pass. Scheduled expiry verification preserves unrelated future releases and never
+reopens the client URL by rolling back to older content. No main
 merge, redesign or final creative approval. See the task report and operational
 receipt `tmp/v1-public-review/state.json` for actual production binding.
 

@@ -28,12 +28,30 @@ and [public regression](../qa/2026-10-25-public-window/public.json) are retained
 Final deployment URL/SHA, uncookied hosted checks and exact prior
 production/protection snapshot are saved in `tmp/v1-public-review/state.json`.
 
-The restoration follow-up `expire-trip-line-public-client-review` is scheduled in
-this chat at the deadline. It first restores prior protection and then the previous
-production mapping `dpl_DLu3qxDJHA9d6xjBev5HqVvz7yNt`, provided the temporary
-deployment is still current; unrelated newer releases must not be overwritten.
-The hard HTTP410 expiry remains effective independently of that follow-up.
+The expiry follow-up `expire-trip-line-public-client-review` is scheduled in this
+chat at the deadline. It verifies HTTP410 and original protection if the temporary
+deployment remains current. It must not roll back to the previous production
+mapping, because older public content could reopen the client URL and defeat the
+user's expiry intent. The previous deployment remains available for recovery;
+unrelated newer releases must not be overwritten. The hard HTTP410 expiry is
+effective independently of that follow-up.
 
-Source deployment status is bound after commit in the operational state receipt;
-the final chat delivery gives the verified public URL. Original reviewed commit,
-old production deployment and prior evidence remain recoverable.
+## Verified live result
+
+Public no-login URL: https://trip-line-journal-v2.vercel.app/en .
+Production `dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5`, deployed application commit
+`1632a6b9b2fec2d7cb620c5280f1fe2772fe3b76`. All276 exported source Git blobs were
+verified before upload. The hosted production metadata matches this SHA; the
+following documentation receipt commit changes no frontend source.
+
+Uncookied HTTP requests and fresh mobile browser sessions pass for EN/TR/AR:
+33 hosted page cases, decoded film1280×720 in all3 languages, no exercised browser
+errors. HTML, media, brand mark and actual JavaScript chunks return HTTP200 and
+`X-Tripline-Review-Expires: 2026-10-27T15:22:45.000Z`. No login/sharing token or
+Vercel auth cookie was supplied. No runtime errors were found in the project over
+the inspected1-hour window. Existing SSO protection was left unchanged; only the
+production alias is public. Noindex and inquiry-only behavior remain.
+
+Actual prior state and live results are retained in `tmp/v1-public-review/state.json`.
+Original reviewed commit0a1325a, old production deployment and prior evidence remain
+recoverable. The public review window is active and ends at the deadline above.

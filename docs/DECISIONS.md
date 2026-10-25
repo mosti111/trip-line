@@ -5,8 +5,10 @@ in 2 days”, following the explicit public production/login-removal question.
 [TL-010](tasks/TL-010-temporary-public-review.md) authorizes this limited exposure
 of the existing review content, not final relationships/creative approval. Publish
 the reviewed V1 with a deployment-only HTTP410 deadline for every page/asset:
-27 October2026 at18:22:45 Europe/Istanbul. Schedule restoration of original
-protection and previous production, guarded against unrelated later releases.
+27 October2026 at18:22:45 Europe/Istanbul. Schedule verification of expiry and
+original protection, guarded against unrelated later releases. Keep the expired
+deployment current; automatically restoring older public content could reopen
+the client URL and defeat expiration. Preserve the previous deployment for recovery.
 This overrides the earlier no-production/public-access rule only for this window.
 Keep noindex, source/legal notes and inquiry-only behavior. No main merge, new
 creative features, dependencies or billing change. [Report](reports/TL-010-temporary-public-review.md).

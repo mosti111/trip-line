@@ -8,11 +8,14 @@ only an optional server request expiry guard was added. Deadline27 October2026
 and assets. Core37/build,128 active/expired cases and full public120 regression
 pass. [Report](reports/TL-010-temporary-public-review.md).
 
-The final deployment URL/SHA and previous production/protection are saved after
-commit in `tmp/v1-public-review/state.json`. Scheduled heartbeat
-`expire-trip-line-public-client-review` restores prior access settings/production
-at expiry if this temporary deployment remains current, without overwriting a
-newer unrelated release. No main merge, V7, final creative approval or billing
+Public URL: https://trip-line-journal-v2.vercel.app/en . Production deployment
+`dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5`, application SHA1632a6b9b2fec2d7cb620c5280f1fe2772fe3b76.
+Fresh no-cookie EN/TR/AR checks pass on33 hosted pages; pages/media/scripts return
+the exact expiry header. Prior protection remains unchanged. Operational details
+are in `tmp/v1-public-review/state.json` and the linked report. Scheduled heartbeat
+`expire-trip-line-public-client-review` verifies expiry if this temporary deployment
+remains current, without overwriting a newer unrelated release or rolling back to
+older public content. No main merge, V7, final creative approval or billing
 change. Noindex, legal/source qualifications and prepared-message inquiry remain.
 
 ## V1 mobile review release — 25 October 2026
