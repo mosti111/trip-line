@@ -1,0 +1,347 @@
+{
+  "originalInventorySha256": "545494be1275393b0409d415bcb5851cebda8531b4d9e90198ed2ac0515c6160",
+  "records": [
+    {
+      "id": "saudi-hajj-umrah",
+      "original": "/brand/network/saudi-hajj-umrah.png",
+      "sourceSha256": "df4d40bcd861cb0d6df53747d26f92d0bb077972bce4121a886e1fe0fae45f91",
+      "crop": [
+        8,
+        4,
+        82,
+        90
+      ],
+      "output": "/brand/network/optical/saudi-hajj-umrah.png",
+      "size": [
+        74,
+        86
+      ],
+      "sha256": "1de839f3de5db28ec0039064e73d7163b90010eef07126ed6cc47a935e6f44f6",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "nusuk",
+      "original": "/brand/network/nusuk.png",
+      "sourceSha256": "a8c90db7229e35a5e3829d9b6e69e5fc26f1ae8fd328d6ff2059bccb6d21569b",
+      "crop": [
+        10,
+        5,
+        76,
+        87
+      ],
+      "output": "/brand/network/optical/nusuk.png",
+      "size": [
+        66,
+        82
+      ],
+      "sha256": "e7d4764fc2292cc7b7a0d39b69e79fc3bc40056b653364d76d86e586178b4768",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "tursab",
+      "original": "/brand/network/tursab.png",
+      "sourceSha256": "44f6c543b3d64f0655789432f680ef3d4e54cda6cedc7921118a2c64de304bc0",
+      "crop": [
+        3,
+        11,
+        158,
+        71
+      ],
+      "output": "/brand/network/optical/tursab.png",
+      "size": [
+        155,
+        60
+      ],
+      "sha256": "38b0a09f91e64758ef4d82be3a5527ff015e0138ff388cd8177a0b0c6b6a0394",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "diar-al-manasik",
+      "original": "/brand/network/diar-al-manasik.png",
+      "sourceSha256": "aae0461ac08fa149c6291e4f4edc647d571e847d3e5cdfb07a409b36eab3803b",
+      "crop": [
+        9,
+        8,
+        92,
+        103
+      ],
+      "output": "/brand/network/optical/diar-al-manasik.png",
+      "size": [
+        83,
+        95
+      ],
+      "sha256": "0f4513549a8a601c517bab1f21c707e23b8c640b134571d277baf9309f04b469",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "turkish-airlines",
+      "original": "/brand/network/turkish-airlines.png",
+      "sourceSha256": "204bcbea033608f58ea35624e3164d781ead42118d31bdd2607ebaea0d1b42eb",
+      "crop": [
+        10,
+        7,
+        172,
+        57
+      ],
+      "output": "/brand/network/optical/turkish-airlines.png",
+      "size": [
+        162,
+        50
+      ],
+      "sha256": "b30c05e9e3cc23cd94d02e0ff0ae5fcc59f1eecd1ce109f99e58557788b0123e",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "grand-aras",
+      "original": "/brand/network/grand-aras.png",
+      "sourceSha256": "0f73ab9d2495e21e2da7e91d80eff03106a3cd504d8415803ce7f23932cf63a7",
+      "crop": [
+        6,
+        7,
+        187,
+        126
+      ],
+      "output": "/brand/network/optical/grand-aras.png",
+      "size": [
+        181,
+        119
+      ],
+      "sha256": "5dab016af941f655bfa9cada9bc1e88c23744a99cb868cc95504e755d18046c3",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "wyndham",
+      "original": "/brand/network/wyndham.png",
+      "sourceSha256": "a537bddd719a5b15938bc520b94f28ed53b83e9f348ad659106635a656dfbeaf",
+      "crop": [
+        10,
+        29,
+        231,
+        84
+      ],
+      "output": "/brand/network/optical/wyndham.png",
+      "size": [
+        221,
+        55
+      ],
+      "sha256": "7e04e6c00163209895ec93f91456eebf37e6bf69c4a7d2aa00b3e56a21b092da",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "ndc-portal",
+      "original": "/brand/network/ndc-portal.png",
+      "sourceSha256": "f3e5899a25959cecfb1060c982aed89e1579947e84024a4d7759d2084016c9d9",
+      "crop": [
+        6,
+        4,
+        196,
+        87
+      ],
+      "output": "/brand/network/optical/ndc-portal.png",
+      "size": [
+        190,
+        83
+      ],
+      "sha256": "5324de91f7a2c317e44fe18dd5de31609190a15b35defb9a997f01eaaafd1706",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "yamacda",
+      "original": "/brand/network/yamacda.png",
+      "sourceSha256": "8d2e34627871f155d8676273c5320ec25afccc0b3adc0513744efaf0c9ae17db",
+      "crop": [
+        11,
+        16,
+        187,
+        77
+      ],
+      "output": "/brand/network/optical/yamacda.png",
+      "size": [
+        176,
+        61
+      ],
+      "sha256": "ab4b5895463734b6a4d0f7152969b2d200e59d050946aa5c6e6d02a31d0aa017",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "bike-hotel",
+      "original": "/brand/network/bike-hotel.png",
+      "sourceSha256": "fba39e93c5b9a29a1183dbd8d360f4cdb070d8a1c3fb97633c10b118ea8edc09",
+      "crop": [
+        2,
+        14,
+        128,
+        104
+      ],
+      "output": "/brand/network/optical/bike-hotel.png",
+      "size": [
+        126,
+        90
+      ],
+      "sha256": "2f46482b32cabd913d6545972c4a3775e354664b22de2842077a8f9b7650320f",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "rezlive",
+      "original": "/brand/network/rezlive.png",
+      "sourceSha256": "a0da3e0924632d5e5e43b84ad47b7c24bf379c6cf493998da618edb5a602abd2",
+      "crop": [
+        6,
+        18,
+        184,
+        84
+      ],
+      "output": "/brand/network/optical/rezlive.png",
+      "size": [
+        178,
+        66
+      ],
+      "sha256": "f7a3f5ab6bd4b760eef99b12a64fad93d54c83104b1ffb8d3c9712d1b3fe3167",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "copthorne",
+      "original": "/brand/network/copthorne.png",
+      "sourceSha256": "ec4dbd8243800c3c37364019acde62a3eea6f93b61f9ea27c254188b470a5d43",
+      "crop": [
+        9,
+        23,
+        188,
+        77
+      ],
+      "output": "/brand/network/optical/copthorne.png",
+      "size": [
+        179,
+        54
+      ],
+      "sha256": "4dbcc8052b2209e2d15f6fae873aeb0e1cae1857af15edeb700029b137a3ffaf",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "santa-ottoman",
+      "original": "/brand/network/santa-ottoman.png",
+      "sourceSha256": "56497fec58795e25783ae949e2ef61375365bea808f2c52013c335b6566bec9b",
+      "crop": [
+        11,
+        9,
+        226,
+        80
+      ],
+      "output": "/brand/network/optical/santa-ottoman.png",
+      "size": [
+        215,
+        71
+      ],
+      "sha256": "b764950596fe17bff50915f0158425150c87426887166dd85ae534609c2908fd",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "megza",
+      "original": "/brand/network/megza.png",
+      "sourceSha256": "02b9b1db060b8458ace321a19a0e517fcc664434173d3341b198086e42d823d5",
+      "crop": [
+        9,
+        10,
+        216,
+        66
+      ],
+      "output": "/brand/network/optical/megza.png",
+      "size": [
+        207,
+        56
+      ],
+      "sha256": "ded871bd08ff6fabcaeebe4a6c6d1515554bf8312d682594bc8caafee214d780",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "ratehawk",
+      "original": "/brand/network/ratehawk.png",
+      "sourceSha256": "a133eb26ec754ec30996f92d6ba239186123640c4ebd33f46ce84d6dce50e7e2",
+      "crop": [
+        10,
+        9,
+        238,
+        80
+      ],
+      "output": "/brand/network/optical/ratehawk.png",
+      "size": [
+        228,
+        71
+      ],
+      "sha256": "4d49b27db9cfd9836d1abf68d4432af742801f4aba27c25dd7a11d88763d2f79",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "homey",
+      "original": "/brand/network/homey.png",
+      "sourceSha256": "df273c80d8997b46e1cdd7547000a46c568880c136360366a7552b604c983730",
+      "crop": [
+        12,
+        3,
+        89,
+        108
+      ],
+      "output": "/brand/network/optical/homey.png",
+      "size": [
+        77,
+        105
+      ],
+      "sha256": "8c6d6d2b8c4c329d9d0217f9872f713943264aec2818bfb78b6696520a670a1e",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "continent",
+      "original": "/brand/network/continent.png",
+      "sourceSha256": "7d907b60202ca95153969f305ce1096eb243ef423f911c3c08308dbac782113e",
+      "crop": [
+        11,
+        19,
+        189,
+        104
+      ],
+      "output": "/brand/network/optical/continent.png",
+      "size": [
+        178,
+        85
+      ],
+      "sha256": "99f5cde64dedc3298dafa830c4318b81550d1a84bc56da130ec514bc0eb1ff1f",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "days-inn",
+      "original": "/brand/network/days-inn.png",
+      "sourceSha256": "fded57135bbacd9518bb60d721632bbaa858187e0f2ce3896414e612bb44b281",
+      "crop": [
+        13,
+        0,
+        152,
+        89
+      ],
+      "output": "/brand/network/optical/days-inn.png",
+      "size": [
+        139,
+        89
+      ],
+      "sha256": "810b70716e29d2e29cac0efc2f020488cfbee58f5e1951b251d82dfdf7e5975e",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    },
+    {
+      "id": "millennium",
+      "original": "/brand/network/millennium.png",
+      "sourceSha256": "08e91716c47530de80828d72e09d0039a48879e6abf618d0ceec0c251c6c1d34",
+      "crop": [
+        10,
+        10,
+        189,
+        89
+      ],
+      "output": "/brand/network/optical/millennium.png",
+      "size": [
+        179,
+        79
+      ],
+      "sha256": "22155e78d830458592f5b0f2f21161801998439637fd33533379c80f6f887174",
+      "operation": "Connected outer white matte removed; optical crop; retained RGB unchanged"
+    }
+  ]
+}

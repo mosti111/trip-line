@@ -4,16 +4,21 @@
   "recovery": "229a7a2",
   "recoveryBranch": "codex/v6-before-v6-1",
   "topology": "single implementation agent; no subagents",
-  "phase": "C1",
+  "phase": "C2",
   "status": "IN_PROGRESS",
   "checkpoints": [
     {
       "phase": "C0",
       "sha": "7139243",
       "evidence": "docs/qa/2026-10-25-v61/C0/report.json"
+    },
+    {
+      "phase": "C1",
+      "sha": "ae731f1",
+      "evidence": "docs/qa/2026-10-25-v61/C1/report.json"
     }
   ],
   "creativeAcceptance": "pending",
   "publication": "not authorized",
-  "currentVerification": "C1 six browser cases passed; all twelve actual photos, failed image retention/latest wins, title/actions fit; typecheck/lint passed"
+  "currentVerification": "C2 six widths, three quantitative loops each, normal-speed/pause videos and decoded static layouts passed"
 }

@@ -1,0 +1,33 @@
+/* Web Animations exclusively owns the measured commercial track transform. */
+.v61-network{padding:36px 0 30px;background:#fffdf8;color:#194244;overflow:hidden}
+.v61-network .v6-network-heading{align-items:center;gap:20px}
+.v61-network .v6-network-heading>div{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.v61-network .v6-network-heading h2{font-size:28px;line-height:1.15;letter-spacing:-.025em;margin:0;font-weight:650}
+.v61-network .v6-network-heading .rh-kicker{font-size:9px;margin:0;color:#6e542f}
+.v61-network button{border:0;border-bottom:1px solid #19424460;padding:8px 0;min-height:44px;min-width:120px;font-size:11px;text-align:end}
+.v61-network button:disabled{opacity:.7;cursor:default}
+.v61-network .v61-billboard-window{width:100%;margin:28px 0 16px;overflow:hidden;direction:ltr;mask-image:none;border-block:1px solid #19424420;padding:0;background:#f8efe0}
+.v61-network .v61-billboard-track{display:flex;width:max-content;animation:none!important;will-change:transform}
+.v61-network .v61-billboard-track .v61-billboard-group{display:flex;flex-wrap:nowrap;align-items:center;gap:88px;padding:0 88px 0 0;margin:0;list-style:none;width:max-content}
+.v61-network .v61-billboard-track li{display:flex;align-items:center;justify-content:center;flex:0 0 var(--logo-width);width:var(--logo-width);height:172px;padding:0}
+.v61-network .v61-billboard-track img{width:auto;height:auto;max-width:100%;max-height:100px;object-fit:contain;transition:none;scale:none}
+.v61-network .v61-billboard-track li:hover img{scale:none}
+.v61-network .v6-network-note{max-width:none;font-size:10px!important;line-height:1.7!important;margin-block:0 20px}
+.v61-network .v6-institutions{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:0;padding-top:16px;border-top:1px solid #19424420}
+.v61-network .v6-institutions p{max-width:480px;font-size:10px;line-height:1.7;margin:0}
+.v61-network .v6-institutions ul{align-items:center;gap:40px;margin:0;flex-shrink:0}
+.v61-network .v6-institutions li{max-width:120px}
+.v61-network .v6-institutions img{background:none;max-height:48px;max-width:110px}
+.v61-network .v6-institutions small{font-size:8px;line-height:1.5}
+html[data-motion-layout=static] .v61-network .v61-billboard-track{width:100%;transform:none;will-change:auto}
+html[data-motion-layout=static] .v61-network .v61-billboard-group{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 45px;padding:30px 40px}
+html[data-motion-layout=static] .v61-network .v61-billboard-group[aria-hidden=true]{display:none}
+html[data-motion-layout=static] .v61-network .v61-billboard-group li{width:100%;height:116px}
+@media(max-width:767px){
+ .v61-network{padding:28px 0}.v61-network .v6-network-heading{flex-direction:row;align-items:center}.v61-network .v6-network-heading>div{display:block}.v61-network .v6-network-heading h2{font-size:23px;max-width:210px}.v61-network .v6-network-heading .rh-kicker{margin-bottom:8px}.v61-network button{min-width:90px;font-size:10px}
+ .v61-network .v61-billboard-window{margin-top:24px}.v61-network .v61-billboard-track .v61-billboard-group{gap:56px;padding-right:56px}.v61-network .v61-billboard-track li{height:140px;flex-basis:calc(var(--logo-width)*.85);width:calc(var(--logo-width)*.85)}.v61-network .v61-billboard-track img{max-height:82px}
+ .v61-network .v6-institutions{display:block}.v61-network .v6-institutions ul{gap:28px;margin-top:18px}.v61-network .v6-institutions img{max-width:85px;max-height:44px}
+ html[data-motion-layout=static] .v61-network .v61-billboard-group{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 28px;padding:24px 28px}
+}
+@media(prefers-reduced-motion:reduce),(scripting:none){.v61-network .v61-billboard-track{width:100%;transform:none;will-change:auto}.v61-network .v61-billboard-group{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:25px;padding:25px;width:100%}.v61-network .v61-billboard-group[aria-hidden=true]{display:none}.v61-network .v61-billboard-group li{width:100%;height:116px}}
+@media(max-width:767px) and (prefers-reduced-motion:reduce){.v61-network .v61-billboard-group{grid-template-columns:repeat(2,minmax(0,1fr))}}
