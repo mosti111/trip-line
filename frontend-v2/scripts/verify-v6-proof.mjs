@@ -26,7 +26,7 @@ try{for(const [locale,width,height,touch] of [['en',1440,900,false],['ar',390,84
  for(let index=0;index<9;index++){await page.locator('.v6-country-index button').nth(index).click();await expect.poll(()=>page.locator('.v6-country[data-current=true] img').evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);}
  await page.locator('.v6-country-stage').focus();await page.keyboard.press('ArrowRight');await expect(page.locator('.v6-country-index button').first()).toHaveAttribute('aria-pressed','true');await page.waitForTimeout(750);await capture('country-keyboard');
  await page.locator('.rh-final').scrollIntoViewIfNeeded();await page.waitForTimeout(200);await capture('closing-invitation');
- await page.locator('.motion-choice select').selectOption('reduced');await page.locator('.v6-network-heading').scrollIntoViewIfNeeded();await expect(track).toHaveCSS('animation-name','none');await capture('manual-reduced-network');
+ await page.locator('.footer .motion-choice select').selectOption('reduced');await page.locator('.v6-network-heading').scrollIntoViewIfNeeded();await expect(track).toHaveCSS('animation-name','none');await capture('manual-reduced-network');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);report.cases.push({locale,width,height,touch,samples,slowImageLatestWins:true,manualReduced:true});await context.close();fs.renameSync(await page.video().path(),path.join(out,`${id}.webm`));
  }
  // Capture shared morph states from transition.ready, concurrently with the click.

@@ -179,10 +179,10 @@ async function nativeFeedback(page, locale, width) {
   await expect(final.locator('circle')).toHaveCSS('opacity', '1');
   await capture(page, `${locale}-${width}-route-reveal-settled`);
 
-  await page.locator('.motion-choice select').selectOption('reduced');
+  await page.locator('.footer .motion-choice select').selectOption('reduced');
   const cleanup = await staticArtwork(page);
   await capture(page, `${locale}-${width}-native-reduced-cleanup`);
-  await page.locator('.motion-choice select').selectOption('system');
+  await page.locator('.footer .motion-choice select').selectOption('system');
   await expect(page.locator('.recovery-hub')).toHaveAttribute('data-hub-motion', 'enhanced');
   await expect(photo).toHaveAttribute('data-hub-reveal', 'settled');
   await expect(final).toHaveAttribute('data-hub-reveal', 'settled');

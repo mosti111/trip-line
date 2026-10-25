@@ -506,8 +506,8 @@ async function nativeCases(browser, report) {
   await arrowLink.hover(); expect(await arrow.evaluate(node => new DOMMatrixReadOnly(getComputedStyle(node).transform).f)).toBe(0);
   await page.evaluate(() => { window.__qaConnection.saveData = false; window.__qaConnection.dispatchEvent(new Event('change')); });
   await expect(firstPhoto).toHaveAttribute('data-service-reveal', 'settled'); expect(await firstPhoto.evaluate(node => node.getAnimations({ subtree: true }).length)).toBe(0);
-  await page.locator('.motion-choice select').selectOption('reduced'); const siteCalm = await staticArtwork(page);
-  await page.locator('.motion-choice select').selectOption('system'); await expect(firstPhoto).toHaveAttribute('data-service-reveal', 'settled');
+  await page.locator('.footer .motion-choice select').selectOption('reduced'); const siteCalm = await staticArtwork(page);
+  await page.locator('.footer .motion-choice select').selectOption('system'); await expect(firstPhoto).toHaveAttribute('data-service-reveal', 'settled');
   await page.emulateMedia({ reducedMotion: 'reduce' }); const systemCalm = await staticArtwork(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' }); await expect(firstPhoto).toHaveAttribute('data-service-reveal', 'settled');
   await page.evaluate(() => { window.__qaDetachedRoot = document.querySelector('.recovery-services'); });

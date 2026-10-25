@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "engine": "153.0.8010.12",
+  "nativeSafari": "NOT TESTED: no physical iPhone or native Safari available on this Windows host.",
+  "modes": [
+    {
+      "system": "reduce",
+      "choice": "system",
+      "effective": "reduced",
+      "saveData": true,
+      "running": "false",
+      "display": "grid",
+      "duplicate": "none"
+    },
+    {
+      "system": "reduce",
+      "choice": "full",
+      "effective": "full",
+      "saveData": true,
+      "running": "true",
+      "display": "flex",
+      "duplicate": "flex"
+    },
+    {
+      "system": "reduce",
+      "choice": "reduced",
+      "effective": "reduced",
+      "saveData": true,
+      "running": "false",
+      "display": "grid",
+      "duplicate": "none"
+    },
+    {
+      "system": "no-preference",
+      "choice": "system",
+      "effective": "full",
+      "saveData": true,
+      "running": "true",
+      "display": "flex",
+      "duplicate": "flex"
+    },
+    {
+      "system": "no-preference",
+      "choice": "full",
+      "effective": "full",
+      "saveData": true,
+      "running": "true",
+      "display": "flex",
+      "duplicate": "flex"
+    },
+    {
+      "system": "no-preference",
+      "choice": "reduced",
+      "effective": "reduced",
+      "saveData": true,
+      "running": "false",
+      "display": "grid",
+      "duplicate": "none"
+    }
+  ],
+  "effects": [
+    {
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "services",
+      "before": {
+        "clip": "inset(0% 71.1111% 0% 0%)",
+        "transform": "matrix(1, 0, 0, 1, 0, 12.8)"
+      },
+      "after": {
+        "clip": "inset(0%)",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1154%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5385%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3224% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.5027% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2295%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.5464%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    },
+    {
+      "name": "final",
+      "before": {
+        "clip": "inset(4.8711% 0%)",
+        "transform": "matrix(0.9838, 0, 0, 0.9838, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(1.2711% 0%)",
+        "transform": "matrix(0.9958, 0, 0, 0.9958, 0, 0)"
+      },
+      "input": "native Chromium touch dispatch",
+      "effective": "full with system reduced"
+    }
+  ],
+  "errors": [],
+  "viewportResize": {
+    "errors": [],
+    "method": "emulated viewport resize and orientation; physical Safari toolbar not certified"
+  },
+  "openingTouch": "pass: ordinary touchmove does not complete opening",
+  "webkit": {
+    "status": "engine available; NOT native Safari certification"
+  }
+}

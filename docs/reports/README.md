@@ -1,3 +1,5 @@
+Current: [TL-011 — V1.1 mobile creative recovery](TL-011-v11-mobile-recovery.md), rendered/mobile/motion verification and Preview delivery.
+
 Current: [TL-010 temporary public review](TL-010-temporary-public-review.md),
 explicit two-day no-login exception and server-side expiry,25 October2026.
 

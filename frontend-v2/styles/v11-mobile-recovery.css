@@ -1,6 +1,9 @@
 /* TL-011: independently composed phone chapters; desktop remains V1. */
 .motion-choice select{min-height:44px;font-size:16px}
 .recovery-menu .motion-choice{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%}
+/* The interactive geographic frame must not move its targets after touch starts.
+   Route drawing, selected markers and the photographic stage retain their motion. */
+.travel-site .atlas-stage .rt-mobile-map .rt-map-canvas{translate:none;scale:1;transition:none}
 @media(max-width:767px){
  .travel-site .recovery-home.v61-home .rh-arrival{min-height:max(820px,100svh);padding:134px 0 88px;align-items:start}
  .travel-site .recovery-home.v61-home .rh-arrival-copy{width:calc(100% - 40px)}
@@ -50,7 +53,9 @@
  .travel-site .atlas-stage .rt-preview{padding-top:360px;margin:0;min-height:0;background:#071f20}
  .travel-site.recovery-shell .atlas-stage .rt-preview-media{height:420px}
  .travel-site .atlas-stage .rt-preview-content{margin:0 20px;padding-bottom:12px}
- .travel-site .atlas-stage .rt-preview h3{font-size:clamp(40px,12vw,55px);line-height:1.16}
+ .travel-site .atlas-stage .rt-preview h3{font-size:clamp(40px,12vw,55px);line-height:1.16;min-height:2.32em;display:flex;flex-direction:column;justify-content:end}
+ html[lang=ar] .travel-site .atlas-stage .rt-preview h3{min-height:2.8em}
+ .travel-site .atlas-stage .atlas-title-previous{inset:auto 0 0}
  .travel-site .atlas-stage .rt-preview-content>p{font-size:14px;line-height:1.75;margin:14px 0 18px}
  .travel-site .atlas-stage .rt-preview-image[data-place=istanbul] img{object-position:73% 48%}
  .travel-site .atlas-stage .atlas-photo-shade{background:linear-gradient(0deg,#071f20,transparent 55%)}
@@ -64,6 +69,7 @@
  .travel-site .atlas-stage .rt-index button{min-height:48px;width:100%;padding-inline:0;scroll-margin-inline:20px}
  .travel-site .atlas-stage .rt-index button>strong{font-size:12px}
  .travel-site .atlas-stage .rt-mobile-map,.travel-site .atlas-stage .rt-explorer-foot{margin-inline:20px}
+ .travel-site .atlas-stage .rt-mobile-map{width:calc(100% - 40px)}
  .travel-site .atlas-stage .rt-mobile-map summary{font-size:13px;min-height:48px}
  /* Balloon horizon, forest portrait and coast aperture have separate rhythms. */
  .travel-site .recovery-home.v61-home .rh-signatures .rh-section-heading{padding-block:40px 30px}

@@ -1,3 +1,5 @@
+Current: [TL-011 — V1.1 mobile creative recovery](TL-011-v11-mobile-recovery.md), four phases and separate Preview; desktop/production preserved.
+
 Current authorized operation: [TL-010 two-day public review](TL-010-temporary-public-review.md),
 25 October2026. Explicit public production exception, server-side expiry and
 scheduled restoration. No creative redesign or main merge.

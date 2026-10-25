@@ -1,3 +1,5 @@
+Current25October2026: [TL-011](tasks/TL-011-v11-mobile-recovery.md) independently composes phones and corrects persistent motion authority. Preserve verified desktop and TL-010 production expiry. Separate Preview only; user creative acceptance after verified delivery.
+
 Temporary public review25October2026: [TL-010](tasks/TL-010-temporary-public-review.md)
 explicitly authorizes a no-login production window ending27October18:22:45
 Europe/Istanbul. UI/content remain the reviewed V1; optional server-side expiry

@@ -1,0 +1,119 @@
+{
+  "status": "running",
+  "cases": 312,
+  "findings": [
+    {
+      "id": "en-home-320x740-motion",
+      "width": 340,
+      "documentWidth": 340,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    },
+    {
+      "id": "en-home-360x800-motion",
+      "width": 380,
+      "documentWidth": 380,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 360
+    },
+    {
+      "id": "en-home-375x812-motion",
+      "width": 395,
+      "documentWidth": 395,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 375
+    },
+    {
+      "id": "en-home-390x844-motion",
+      "width": 410,
+      "documentWidth": 410,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 390
+    },
+    {
+      "id": "en-home-430x932-motion",
+      "width": 450,
+      "documentWidth": 450,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 430
+    },
+    {
+      "id": "en-home-667x375-motion",
+      "width": 688,
+      "documentWidth": 688,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 667
+    },
+    {
+      "id": "en-destinations_turkiye-320x740-motion",
+      "width": 340,
+      "documentWidth": 340,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    },
+    {
+      "id": "en-destinations_turkiye-360x800-motion",
+      "width": 380,
+      "documentWidth": 380,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 360
+    },
+    {
+      "id": "en-destinations_turkiye-375x812-motion",
+      "width": 395,
+      "documentWidth": 395,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 375
+    },
+    {
+      "id": "en-destinations_turkiye-390x844-motion",
+      "width": 410,
+      "documentWidth": 410,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 390
+    },
+    {
+      "id": "en-destinations_turkiye-430x932-motion",
+      "width": 450,
+      "documentWidth": 450,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 430
+    },
+    {
+      "id": "en-destinations_turkiye-667x375-motion",
+      "width": 688,
+      "documentWidth": 688,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 667
+    }
+  ],
+  "last": {
+    "locale": "en",
+    "route": "destinations/turkiye/yalova",
+    "reduced": false
+  }
+}

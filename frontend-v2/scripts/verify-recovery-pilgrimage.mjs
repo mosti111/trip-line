@@ -411,8 +411,8 @@ async function nativeMatrix(browser, report) {
   await page.evaluate(() => { window.__qaConnection.saveData = true; window.__qaConnection.dispatchEvent(new Event('change')); }); const saveData = await staticKickers(page);
   await page.evaluate(() => { window.__qaConnection.saveData = false; window.__qaConnection.dispatchEvent(new Event('change')); });
   await expect(choice).toHaveAttribute('data-pilgrimage-reveal', 'settled'); expect(await choice.evaluate(node => node.getAnimations().length)).toBe(0);
-  await page.locator('.motion-choice select').selectOption('reduced'); const siteCalm = await staticKickers(page);
-  await page.locator('.motion-choice select').selectOption('system'); await expect(choice).toHaveAttribute('data-pilgrimage-reveal', 'settled');
+  await page.locator('.footer .motion-choice select').selectOption('reduced'); const siteCalm = await staticKickers(page);
+  await page.locator('.footer .motion-choice select').selectOption('system'); await expect(choice).toHaveAttribute('data-pilgrimage-reveal', 'settled');
   await page.emulateMedia({ reducedMotion: 'reduce' }); const systemCalm = await staticKickers(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' }); await expect(choice).toHaveAttribute('data-pilgrimage-reveal', 'settled'); expect(await choice.evaluate(node => node.getAnimations().length)).toBe(0);
   await page.evaluate(() => { window.__qaDetachedRoot = document.querySelector('.recovery-pilgrimage'); });

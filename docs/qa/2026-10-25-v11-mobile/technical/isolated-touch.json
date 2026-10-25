@@ -1,0 +1,246 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3020",
+  "isolated": true,
+  "recordings": [
+    {
+      "locale": "en",
+      "video": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v11\\isolated-touch\\en-complete-touch.webm",
+      "end": {
+        "y": 17199,
+        "max": 17200
+      },
+      "longTasks": [],
+      "scope": "Chromium touch input with video and screenshots; not physical-device or field performance certification",
+      "duration": 63.88,
+      "samples": [
+        {
+          "time": 3.1940000000000004,
+          "file": "en-recording-5.png"
+        },
+        {
+          "time": 12.776000000000002,
+          "file": "en-recording-20.png"
+        },
+        {
+          "time": 22.358,
+          "file": "en-recording-35.png"
+        },
+        {
+          "time": 31.94,
+          "file": "en-recording-50.png"
+        },
+        {
+          "time": 41.522000000000006,
+          "file": "en-recording-65.png"
+        },
+        {
+          "time": 51.104000000000006,
+          "file": "en-recording-80.png"
+        },
+        {
+          "time": 60.686,
+          "file": "en-recording-95.png"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "viewports": [
+    {
+      "locale": "en",
+      "y": 441,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 882,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 1323,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 1764,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 2205,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 2646,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 3087,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 3528,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 3969,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 4410,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 4851,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 5292,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 5733,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 6174,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 6615,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 7056,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 7497,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 7938,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 8379,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 8820,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 9261,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 9702,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 10143,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 10584,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 11025,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 11466,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 11907,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 12348,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 12789,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 13230,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 13671,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 14112,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 14553,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 14994,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 15435,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 15876,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 16317,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 16758,
+      "max": 17200
+    },
+    {
+      "locale": "en",
+      "y": 17199,
+      "max": 17200
+    }
+  ]
+}

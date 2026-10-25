@@ -1,11 +1,14 @@
-## V1.1 mobile creative recovery in progress — 25 October 2026
+## V1.1 local review release — 26 October 2026
 
-[TL-011 task](tasks/TL-011-v11-mobile-recovery.md), [exact brief](tasks/TL-011-v11-instructions.md).
-Starting point9f6cfa7 retained on `codex/v1-before-v11-recovery`; active branch
-`codex/trip-line-v11-mobile-recovery`. Single implementation agent. Phase1 motion
-resolution and phase2 phone compositions implemented; production-build QA and
-rendered review in progress. Creative acceptance pending. Preview-only delivery;
-existing TL-010 production alias/deadline/automation unchanged.
+[TL-011](tasks/TL-011-v11-mobile-recovery.md): local source/rendered verification
+complete on `codex/trip-line-v11-mobile-recovery`. Recovery9f6cfa7 is on
+`codex/v1-before-v11-recovery`. Single implementation agent. Frozen build
+YcMLV8XQrru17yorEl3yd: core41/build, full V3, public120, final affected96,
+WebKit48, menus24, maps24/288 taps and axe9 pass; broad site984 also passes.
+Final continuous EN/TR/AR native Chromium touch recordings each have zero
+LongTasks. Physical iPhone Safari remains untested; checklist supplied. User
+creative acceptance pending. Separate Preview is next; no production alias,
+TL-010 expiry/automation, main or billing change. See the linked report/evidence.
 
 ## Temporary public review — 25 October 2026
 

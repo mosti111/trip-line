@@ -120,7 +120,7 @@ function ShellContent({ locale, children, nonce }: { locale: Locale; children: R
       if (progress.current) progress.current.style.transform = `scaleX(${length > 0 ? Math.min(1, window.scrollY / length) : 0})`;
       const hero = document.querySelector<HTMLElement>('#main .opening, #main .hero, #main [data-arrival]');
       const afterHero = hero ? hero.getBoundingClientRect().bottom <= 90 : window.scrollY > 200;
-        const blocked = [...document.querySelectorAll<HTMLElement>('#journey-builder, [data-journey-planner], #inquiry, .brief-fields, .rh-final, .footer')].some(node => { const rect = node.getBoundingClientRect(); return rect.top < window.innerHeight && rect.bottom > 0; });
+        const blocked = [...document.querySelectorAll<HTMLElement>('#journey-builder, [data-journey-planner], #inquiry, .brief-fields, .rt-preview-actions, .rt-mobile-map[open], .rh-world-controls, .rh-signature .rh-actions, .rh-final, .footer')].some(node => { const rect = node.getBoundingClientRect(); return rect.top < window.innerHeight && rect.bottom > 0; });
       const viewport = window.visualViewport;
       const keyboard = !!viewport && window.innerHeight - viewport.height > 140;
       sticky.current?.toggleAttribute('data-visible', afterHero && !blocked && !keyboard && !menuOpen && !journey.drawerOpen);

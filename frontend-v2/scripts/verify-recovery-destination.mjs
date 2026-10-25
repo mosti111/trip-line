@@ -537,8 +537,8 @@ async function nativeCases(browser) {
   await page.evaluate(() => { window.__qaConnection.saveData = false; window.__qaConnection.dispatchEvent(new Event('change')); });
   await expect(page.locator('#place-interest-1 .rd-interest-photo')).toHaveAttribute('data-destination-reveal', 'settled');
   expect(await page.locator('#place-interest-1 .rd-interest-photo').evaluate(node => node.getAnimations({ subtree: true }).length)).toBe(0);
-  await page.locator('.motion-choice select').selectOption('reduced'); const siteCalm = await staticArtwork(page);
-  await page.locator('.motion-choice select').selectOption('system');
+  await page.locator('.footer .motion-choice select').selectOption('reduced'); const siteCalm = await staticArtwork(page);
+  await page.locator('.footer .motion-choice select').selectOption('system');
   await expect(page.locator('#place-interest-1 .rd-interest-photo')).toHaveAttribute('data-destination-reveal', 'settled');
   await page.emulateMedia({ reducedMotion: 'reduce' }); const systemCalm = await staticArtwork(page);
   await page.emulateMedia({ reducedMotion: 'no-preference' });

@@ -17,7 +17,7 @@ try{
   report.modes.push({system,choice,effective,saveData:true,...state});await ctx.close();
  }
  // The actual accessible controls change, persist and override a reduced system.
- const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce',recordVideo:{dir:out,size:{width:390,height:844}}});const page=await ctx.newPage();
+ const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce',recordVideo:{dir:out,size:{width:390,height:844}}});const page=await ctx.newPage();page.on('pageerror',e=>report.errors.push(String(e)));
  await page.goto(base+'/en',{waitUntil:'networkidle'});await page.locator('.menu-button').tap();await page.locator('.nav-dialog .motion-choice select').selectOption('full');await expect(page.locator('html')).toHaveAttribute('data-motion-effective','full');await page.locator('.nav-dialog .dialog-header button').tap();await page.reload({waitUntil:'networkidle'});await expect(page.locator('html')).toHaveAttribute('data-motion-choice','full');await expect(page.locator('.v6-home')).toHaveAttribute('data-home-motion','native');
  const touch=await ctx.newCDPSession(page);
  const swipe=async()=>{await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:190,y:700}]});for(let i=1;i<=14;i++){await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:190,y:700-i*30}]});await page.waitForTimeout(18);}await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.waitForTimeout(250);};

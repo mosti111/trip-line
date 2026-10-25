@@ -1,0 +1,239 @@
+{
+  "status": "failed",
+  "base": "http://localhost:3020",
+  "engine": "webkit",
+  "version": "26.6",
+  "startedAt": "2026-10-25T19:39:38.320Z",
+  "cases": [
+    {
+      "id": "en-home-320x740-motion",
+      "width": 320,
+      "documentWidth": 320,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    },
+    {
+      "id": "en-home-360x800-motion",
+      "width": 360,
+      "documentWidth": 360,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 360
+    },
+    {
+      "id": "en-home-375x812-motion",
+      "width": 375,
+      "documentWidth": 375,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 375
+    },
+    {
+      "id": "en-home-390x844-motion",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 390
+    },
+    {
+      "id": "en-home-430x932-motion",
+      "width": 430,
+      "documentWidth": 430,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 430
+    },
+    {
+      "id": "en-home-768x1024-motion",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 768
+    },
+    {
+      "id": "en-home-667x375-motion",
+      "width": 667,
+      "documentWidth": 667,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 667
+    },
+    {
+      "id": "en-home-844x390-motion",
+      "width": 844,
+      "documentWidth": 844,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 844
+    },
+    {
+      "id": "tr-home-320x740-motion",
+      "width": 320,
+      "documentWidth": 320,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    },
+    {
+      "id": "tr-home-360x800-motion",
+      "width": 360,
+      "documentWidth": 360,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 360
+    },
+    {
+      "id": "tr-home-375x812-motion",
+      "width": 375,
+      "documentWidth": 375,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 375
+    },
+    {
+      "id": "tr-home-390x844-motion",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 390
+    },
+    {
+      "id": "tr-home-430x932-motion",
+      "width": 430,
+      "documentWidth": 430,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 430
+    },
+    {
+      "id": "tr-home-768x1024-motion",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 768
+    },
+    {
+      "id": "tr-home-667x375-motion",
+      "width": 667,
+      "documentWidth": 667,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 667
+    },
+    {
+      "id": "tr-home-844x390-motion",
+      "width": 844,
+      "documentWidth": 844,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 844
+    },
+    {
+      "id": "ar-home-320x740-motion",
+      "width": 320,
+      "documentWidth": 320,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    },
+    {
+      "id": "ar-home-360x800-motion",
+      "width": 360,
+      "documentWidth": 360,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 360
+    },
+    {
+      "id": "ar-home-375x812-motion",
+      "width": 375,
+      "documentWidth": 375,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 375
+    },
+    {
+      "id": "ar-home-390x844-motion",
+      "width": 390,
+      "documentWidth": 390,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 390
+    },
+    {
+      "id": "ar-home-430x932-motion",
+      "width": 430,
+      "documentWidth": 430,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 430
+    },
+    {
+      "id": "ar-home-768x1024-motion",
+      "width": 768,
+      "documentWidth": 768,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 768
+    },
+    {
+      "id": "ar-home-667x375-motion",
+      "width": 667,
+      "documentWidth": 667,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 667
+    },
+    {
+      "id": "ar-home-844x390-motion",
+      "width": 844,
+      "documentWidth": 844,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 844
+    },
+    {
+      "id": "en-home-320x740-reduced",
+      "width": 320,
+      "documentWidth": 320,
+      "broken": [],
+      "headings": [],
+      "robots": "noindex, nofollow",
+      "expectedWidth": 320
+    }
+  ],
+  "findings": [],
+  "errors": [],
+  "recordings": [],
+  "failure": "TimeoutError: page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n",
+  "finishedAt": "2026-10-25T19:46:45.392Z"
+}

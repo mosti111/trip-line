@@ -30,8 +30,10 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
     if(next<0)return;
     manual.current=true;
     if(next!==active)setFrom(place.slug);
+    // Reveal the selected index item immediately: an ongoing programmatic scroll
+    // can consume the next touch while the visitor is selecting on the map.
     const index=host.current?.querySelector<HTMLElement>('.rt-index'),button=index?.querySelectorAll<HTMLButtonElement>('button')[next];
-    if(index&&button&&index.scrollWidth>index.clientWidth){const a=index.getBoundingClientRect(),b=button.getBoundingClientRect();if(b.left<a.left+20||b.right>a.right-20)index.scrollBy({left:b.left-a.left-20,behavior:calm?'instant':'smooth'});}
+    if(index&&button&&index.scrollWidth>index.clientWidth){const a=index.getBoundingClientRect(),b=button.getBoundingClientRect();if(b.left<a.left+20||b.right>a.right-20)index.scrollBy({left:b.left-a.left-20,behavior:'instant'});}
     setActive(next);setMedia(old=>({...old,requested:id,failed:''}));
   }
   useEffect(()=>{

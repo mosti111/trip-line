@@ -1,0 +1,38 @@
+$ next build
+▲ Next.js 16.3.6 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 483ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 11.8s
+  Running TypeScript ...
+  Finished TypeScript in 23.4s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9) 
+  Generating static pages using 7 workers (4/9) 
+  Generating static pages using 7 workers (6/9) 
+✓ Generating static pages using 7 workers (9/9) in 1561ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /[locale]/[[...slug]]
+├ ƒ /[locale]/motion-lab
+├ ƒ /about
+├ ƒ /contact
+├ ƒ /journeys
+├ ƒ /journeys/[slug]
+├ ƒ /preview/[type]/[id]
+├ ○ /robots.txt
+├ ƒ /services
+├ ƒ /services/[slug]
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
