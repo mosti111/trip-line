@@ -1,6 +1,6 @@
 {
   "build": "uEobGv-Ii3wiKq7rzOY90",
-  "applicationCheckpoint": "0ba1e4c plus C5 zero-geometry guard",
+  "applicationCheckpoint": "a72a1d2",
   "changedApplicationFiles": [
     {
       "path": "frontend-v2/components/experience/FlightTrace.tsx",
@@ -151,5 +151,5 @@
       "sha256": "6008d3d0aa9c9b9e00573c18ef7ca25728358ead2e261f42b3a1b6a737e942f2"
     }
   ],
-  "status": "production regression in progress"
+  "status": "core/public120/full V3 passed; C5 incomplete and paused at usage reserve"
 }

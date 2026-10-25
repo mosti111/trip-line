@@ -5,7 +5,7 @@
   "recoveryBranch": "codex/v6-before-v6-1",
   "topology": "single implementation agent; no subagents",
   "phase": "C5",
-  "status": "IN_PROGRESS",
+  "status": "PAUSED_USAGE",
   "checkpoints": [
     {
       "phase": "C0",
@@ -35,12 +35,24 @@
   ],
   "creativeAcceptance": "pending",
   "publication": "not authorized",
-  "currentVerification": "C5 current build uEobGv-Ii3wiKq7rzOY90: typecheck/lint/32 tests/build/public120 routes passed after zero-geometry guard; full V3 running; remaining gates pending.",
+  "currentVerification": "C0-C4 verified. C5 build uEobGv-Ii3wiKq7rzOY90: typecheck/lint/32 tests/build/public120 and full V3 passed; remaining C5 gates pending. Preview stopped at usage reserve.",
   "usageGuard": {
     "authority": "User AFK instruction, 25 October 2026: save everything and pause at 5% remaining in each five-hour window; resume after reset.",
     "thresholdUsedPercent": 95,
     "windowDurationMins": 300,
     "automationId": "trip-line-usage-checkpoint-guard",
     "procedure": "Check usage during work and before expensive checks. At threshold save recoverable work/evidence and exact phase/status; pause implementation, schedule same-chat continuation after actual reset, verify reset before resuming. Retain guard across windows until TL-008 completes. No subagents or publication."
+  },
+  "usagePause": {
+    "usedPercent": 95,
+    "remainingPercent": 5,
+    "resetsAt": 1792896634,
+    "resetLocal": "2026-10-25 05:50:34 Europe/Istanbul",
+    "resumeLocal": "2026-10-25 05:52:00 Europe/Istanbul",
+    "resumeAutomationId": "resume-trip-line-v6-1-after-usage-reset",
+    "applicationCheckpoint": "a72a1d2",
+    "build": "uEobGv-Ii3wiKq7rzOY90",
+    "pending": "C5 V6 functional suites,36-case matrix,actual wheel/touch/hover/shared recordings,accessibility,isolated performance analysis,evidence packaging and final reporting",
+    "processes": "Dev and production previews stopped; V3 completed before pause."
   }
 }
