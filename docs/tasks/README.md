@@ -1,4 +1,8 @@
-Current delivered scope: [TL-008 V6.1 creative reconstruction](TL-008-v61.md),
+Current authorized scope: [TL-009 V1 mobile polish and client preview](TL-009-v1-mobile-review.md),
+25 October2026. Verified V6.1 baseline, phone polish and protected Preview only;
+review branch push authorized, no main merge or production promotion.
+
+Previous delivered scope: [TL-008 V6.1 creative reconstruction](TL-008-v61.md),
 C0–C5 engineering/rendered verification complete25October2026, one implementation
 agent and no subagents. Ready for user creative review; no publication or new scope.
 

@@ -1,0 +1,510 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 740,
+      "dialog": {
+        "x": 0,
+        "y": -0.1346839964389801,
+        "width": 320,
+        "height": 739.9999794065952
+      },
+      "contact": {
+        "x": 20,
+        "y": 611,
+        "width": 280,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "dialog": {
+        "x": 0,
+        "y": -0.17650078237056732,
+        "width": 360,
+        "height": 799.9999871104956
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 320,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "dialog": {
+        "x": 0,
+        "y": -0.10098893195390701,
+        "width": 390,
+        "height": 843.9999757483602
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 350,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "dialog": {
+        "x": 0,
+        "y": -0.17650358378887177,
+        "width": 430,
+        "height": 931.9999899119139
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 390,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "dialog": {
+        "x": 88,
+        "y": -0.10108418762683868,
+        "width": 680,
+        "height": 1024.0000099688768
+      },
+      "contact": {
+        "x": 121.78125,
+        "y": 609,
+        "width": 612.4375,
+        "height": 62
+      },
+      "logo": {
+        "x": 33.796875,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 667,
+      "height": 375,
+      "dialog": {
+        "x": 0,
+        "y": -0.17649799585342407,
+        "width": 667,
+        "height": 375.00001484155655
+      },
+      "contact": {
+        "x": 20,
+        "y": 176,
+        "width": 627,
+        "height": 52
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "dialog": {
+        "x": 164,
+        "y": -0.13458266854286194,
+        "width": 680,
+        "height": 390.0000001490116
+      },
+      "contact": {
+        "x": 201.125,
+        "y": 203,
+        "width": 605.75,
+        "height": 52
+      },
+      "logo": {
+        "x": 37.140625,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 320,
+      "height": 740,
+      "dialog": {
+        "x": 0,
+        "y": -0.2281389683485031,
+        "width": 320,
+        "height": 739.999989554286
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 280,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 360,
+      "height": 800,
+      "dialog": {
+        "x": 0,
+        "y": -0.2918491065502167,
+        "width": 360,
+        "height": 799.9999789893627
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 320,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 350,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 430,
+      "height": 932,
+      "dialog": {
+        "x": 0,
+        "y": -0.2284003645181656,
+        "width": 430,
+        "height": 932.0000068098307
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 390,
+        "height": 61
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "dialog": {
+        "x": 88,
+        "y": -0.10099253058433533,
+        "width": 680,
+        "height": 1023.9999793469906
+      },
+      "contact": {
+        "x": 121.78125,
+        "y": 609,
+        "width": 612.4375,
+        "height": 62
+      },
+      "logo": {
+        "x": 33.796875,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 667,
+      "height": 375,
+      "dialog": {
+        "x": 0,
+        "y": -0.07426206022500992,
+        "width": 667,
+        "height": 375.0000127926469
+      },
+      "contact": {
+        "x": 20,
+        "y": 176,
+        "width": 627,
+        "height": 52
+      },
+      "logo": {
+        "x": 20,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 844,
+      "height": 390,
+      "dialog": {
+        "x": 164,
+        "y": -0.025059668347239494,
+        "width": 680,
+        "height": 390.0000047367066
+      },
+      "contact": {
+        "x": 201.125,
+        "y": 203,
+        "width": 605.75,
+        "height": 52
+      },
+      "logo": {
+        "x": 37.140625,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 740,
+      "dialog": {
+        "x": 0,
+        "y": -0.016178367659449577,
+        "width": 320,
+        "height": 740.0000040512532
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 280,
+        "height": 61
+      },
+      "logo": {
+        "x": 248,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 360,
+      "height": 800,
+      "dialog": {
+        "x": 0,
+        "y": -0.17649799585342407,
+        "width": 360,
+        "height": 799.9999843239784
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 320,
+        "height": 61
+      },
+      "logo": {
+        "x": 288,
+        "y": 13.5,
+        "width": 52,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "dialog": {
+        "x": 0,
+        "y": -0.13461868464946747,
+        "width": 390,
+        "height": 843.999975129962
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 350,
+        "height": 61
+      },
+      "logo": {
+        "x": 312,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "height": 932,
+      "dialog": {
+        "x": 0,
+        "y": -0.1348033845424652,
+        "width": 430,
+        "height": 931.9999767243862
+      },
+      "contact": {
+        "x": 20,
+        "y": 590,
+        "width": 390,
+        "height": 61
+      },
+      "logo": {
+        "x": 352,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "dialog": {
+        "x": 0,
+        "y": -0.10095301270484924,
+        "width": 680,
+        "height": 1024.0000008642673
+      },
+      "contact": {
+        "x": 33.78125,
+        "y": 609,
+        "width": 612.4375,
+        "height": 62
+      },
+      "logo": {
+        "x": 668.203125,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 667,
+      "height": 375,
+      "dialog": {
+        "x": 0,
+        "y": -0.1010069027543068,
+        "width": 667,
+        "height": 374.99999371916056
+      },
+      "contact": {
+        "x": 20,
+        "y": 175,
+        "width": 627,
+        "height": 53.25
+      },
+      "logo": {
+        "x": 589,
+        "y": 13.5,
+        "width": 58,
+        "height": 52
+      },
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 844,
+      "height": 390,
+      "dialog": {
+        "x": 0,
+        "y": -0.17641420662403107,
+        "width": 680,
+        "height": 389.9999920874834
+      },
+      "contact": {
+        "x": 37.125,
+        "y": 202,
+        "width": 605.75,
+        "height": 53.25
+      },
+      "logo": {
+        "x": 740.859375,
+        "y": 16.5,
+        "width": 66,
+        "height": 58
+      },
+      "focusReturned": true
+    }
+  ],
+  "errors": []
+}

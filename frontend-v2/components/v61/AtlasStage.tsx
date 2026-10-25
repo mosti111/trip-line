@@ -54,13 +54,18 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
     void Promise.all([import('gsap'),import('gsap/ScrollTrigger')]).then(([{gsap},{ScrollTrigger}])=>{
       if(cancelled||!host.current)return;
       gsap.registerPlugin(ScrollTrigger);
+      const responsive=gsap.matchMedia();
       const context=gsap.context(()=>{
-        const timeline=gsap.timeline({scrollTrigger:{trigger:host.current,start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true}});
-        timeline.fromTo('.rt-preview',{clipPath:'polygon(9% 8%,100% 0,100% 100%,9% 92%)',scale:.93},{clipPath:'polygon(0 0,100% 0,100% 100%,0 100%)',scale:1,ease:'none'},0);
-        timeline.fromTo('.rt-index',{y:18},{y:0,ease:'none'},0);
-        timeline.fromTo('.rt-desktop-map',{y:28,opacity:.3},{y:0,opacity:1,ease:'none'},0);
+        responsive.add({phone:'(max-width:767px)',wide:'(min-width:768px)'},({conditions})=>{
+          const timeline=gsap.timeline({scrollTrigger:{trigger:host.current,start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true}});
+          // Phone captions and touch controls must stay complete while entering.
+          if(conditions?.phone)timeline.fromTo('.rt-preview',{y:14},{y:0,ease:'none'},0);
+          else timeline.fromTo('.rt-preview',{clipPath:'polygon(9% 8%,100% 0,100% 100%,9% 92%)',scale:.93},{clipPath:'polygon(0 0,100% 0,100% 100%,0 100%)',scale:1,ease:'none'},0);
+          timeline.fromTo('.rt-index',{y:conditions?.phone?8:18},{y:0,ease:'none'},0);
+          timeline.fromTo('.rt-desktop-map',{y:28,opacity:.3},{y:0,opacity:1,ease:'none'},0);
+        });
       },host);
-      dispose=()=>context.revert();
+      dispose=()=>{responsive.revert();context.revert();};
     });return()=>{cancelled=true;dispose();};
   },[calm]);
   return <section ref={host} className={`rt-explorer atlas-stage ${full?'rt-explorer-full':''}`} id="turkiye" aria-label={copy.choose[locale]} data-direction={direction} data-calm={calm}>

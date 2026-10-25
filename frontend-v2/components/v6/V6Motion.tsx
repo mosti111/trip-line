@@ -155,8 +155,8 @@ export function V6Motion() {
         const mask = root.querySelector('[data-threshold-mask]');
         if (mask) {
           gsap.set('.v6-threshold-image', { clipPath: 'url(#v6-threshold-reveal)' });
-          gsap.fromTo(mask, { attr: { d: mobile ? 'M0 0 L1 0 L1 .04 L1 .08 L1 .12 L1 .16 L0 .16 Z' : 'M0 0 L.06 0 L.18 .22 L.04 .48 L.16 .72 L.06 1 L0 1 Z' } }, { attr: { d: 'M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z' }, ease:'none', scrollTrigger:{trigger:'.rh-threshold',start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true} });
-          gsap.fromTo('.v6-threshold-image .photo', { scale: 1.12, yPercent: -4 }, { scale: 1, yPercent: 3, ease:'none',scrollTrigger:{trigger:'.rh-threshold',start:'top bottom',end:'bottom top',scrub:true} });
+          gsap.fromTo(mask, { attr: { d: mobile ? 'M0 0 L1 0 L1 .14 L1 .28 L1 .42 L1 .56 L0 .56 Z' : 'M0 0 L.06 0 L.18 .22 L.04 .48 L.16 .72 L.06 1 L0 1 Z' } }, { attr: { d: 'M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z' }, ease:'none', scrollTrigger:{trigger:'.rh-threshold',start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true} });
+          gsap.fromTo('.v6-threshold-image .photo', { scale: mobile ? 1.04 : 1.12, yPercent: mobile ? -1 : -4 }, { scale: 1, yPercent: mobile ? 1 : 3, ease:'none',scrollTrigger:{trigger:'.rh-threshold',start:'top bottom',end:'bottom top',scrub:true} });
         }
         const responsive = gsap.matchMedia();
         responsive.add({ desktop:'(min-width: 768px)', mobile:'(max-width: 767px)' }, ({conditions}) => {
@@ -165,7 +165,7 @@ export function V6Motion() {
             const photo=scene.querySelector('.rh-signature-image');const copy=scene.querySelector('.rh-signature-copy');
             if(creative){
               const frame=scene.querySelector('.v61-landscape-frame');
-              const start=index===0?'inset(48% 0% 0% 0%)':index===1?'inset(0% 0% 65% 0%)':'inset(0% 65% 0% 0%)';
+              const start=small?'inset(12% 0% 0% 0%)':index===0?'inset(48% 0% 0% 0%)':index===1?'inset(0% 0% 65% 0%)':'inset(0% 65% 0% 0%)';
               gsap.fromTo(frame,{clipPath:start,scale:small?1:.97,rotationX:small?0:index===0?3:0,rotationY:small?0:index===1?-2:0,transformPerspective:1400},{clipPath:'inset(0% 0% 0% 0%)',scale:1,rotationX:0,rotationY:0,ease:'none',scrollTrigger:{trigger:scene,start:'top 85%',end:'top 20%',scrub:true,invalidateOnRefresh:true}});
               gsap.fromTo(photo,{yPercent:index===1?-3:2},{yPercent:index===1?3:-2,ease:'none',scrollTrigger:{trigger:scene,start:'top bottom',end:'bottom top',scrub:true}});
               gsap.fromTo(copy,{y:small?18:38},{y:0,ease:'none',scrollTrigger:{trigger:scene,start:'top 75%',end:'top 20%',scrub:true}});
@@ -186,7 +186,7 @@ export function V6Motion() {
         const process=root.querySelector<HTMLElement>('.v6-process-stage');
         if(process)gsap.fromTo(process,{'--route-progress':0},{'--route-progress':1,ease:'none',scrollTrigger:{trigger:'.rh-process',start:'top 75%',end:'bottom 65%',scrub:true}});
         const final=root.querySelector('.rh-final');
-        if(final){gsap.fromTo('.rh-final>.photo',{clipPath:mobile?'inset(12% 6% 12% 6%)':creative?'inset(22% 18% 22% 18%)':'inset(15% 12% 15% 12%)',scale:creative?.98:.95},{clipPath:'inset(0% 0% 0% 0%)',scale:1,ease:'none',scrollTrigger:{trigger:final,start:'top 95%',end:'top 15%',scrub:true,invalidateOnRefresh:true}});gsap.fromTo('.rh-final h2',{y:creative?60:40},{y:0,ease:'none',scrollTrigger:{trigger:final,start:'top 85%',end:'top 30%',scrub:true}});}
+        if(final){gsap.fromTo('.rh-final>.photo',{clipPath:mobile?'inset(6% 0% 6% 0%)':creative?'inset(22% 18% 22% 18%)':'inset(15% 12% 15% 12%)',scale:creative?.98:.95},{clipPath:'inset(0% 0% 0% 0%)',scale:1,ease:'none',scrollTrigger:{trigger:final,start:'top 95%',end:'top 15%',scrub:true,invalidateOnRefresh:true}});gsap.fromTo('.rh-final h2',{y:mobile?20:creative?60:40},{y:0,ease:'none',scrollTrigger:{trigger:final,start:'top 85%',end:'top 30%',scrub:true}});}
       }, root);
       // Recompute on layout/image changes without a continuous render loop.
       let frame = 0;

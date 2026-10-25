@@ -1,5 +1,16 @@
 # Trip Line — agent operating map
 
+## Current V1 mobile review — 25 October 2026
+
+Direct user authority in [TL-009](docs/tasks/TL-009-v1-mobile-review.md) authorizes
+mobile polish on verified V6.1, one recorded direct implementation exception,
+full review, a final review-branch push and a protected Vercel Preview only.
+No V7, desktop reconstruction, main merge, production promotion or publication.
+Keep source/logo restrictions, noindex, legal defaults and inquiry-only behavior.
+V6.1 recovery remains on `codex/v61-before-v1-mobile`. Hobby was explicitly chosen
+by the user after disclosure of Vercel's commercial-use plan restriction; no billing
+change is authorized. See [report](docs/reports/TL-009-v1-mobile-review.md).
+
 ## Current V6.1 exception — 25 October 2026
 
 Direct [TL-008 V6.1 authority](docs/tasks/TL-008-v61-instructions.md) authorizes

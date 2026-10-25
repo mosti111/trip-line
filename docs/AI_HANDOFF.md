@@ -1,3 +1,27 @@
+## V1 mobile review release — 25 October 2026
+
+TL-009 on `codex/trip-line-v1-mobile-review`, baseline3442a6b preserved on
+`codex/v61-before-v1-mobile`. Phone/tablet polish only; no V7 or desktop rebuild.
+One recorded direct implementation exception, no subagents/model-switch claim.
+Final application build `ju1ZWK5Ost95uS9acXdQG`; full-site861-case CSS matrix and
+final84-case home/Atlas matrix pass, as do32 core tests/build and native EN/TR/AR
+touch interaction/complete-scroll review. Final public120/V3 sixteen groups60
+captures/axe9/Atlas resilience6/menu21 all pass. Local review is complete; the
+reviewed source commit is the immutable deployment input.
+See [task](tasks/TL-009-v1-mobile-review.md), [report](reports/TL-009-v1-mobile-review.md)
+and [evidence](qa/2026-10-25-v1-mobile/README.md).
+
+The user authorizes pushing only this reviewed branch and a protected Vercel
+Preview on the existing project, with no main merge/production promotion. Root
+`frontend-v2`, Next.js, Node24 and account/project ID verified. After disclosure,
+the user explicitly chose Hobby for temporary client review; no billing change
+was made and its commercial-use restriction remains a limitation. Keep noindex,
+legal/source/logo restrictions, geographic orientation and inquiry-only behavior.
+Hosted commit binding/share URL are post-commit receipts in
+`tmp/v1-preview-deployment-receipt.json` and the final chat delivery; do not infer
+deployment success merely from a reviewed source commit. Existing production
+`dpl_DLu3qxDJHA9d6xjBev5HqVvz7yNt` and aliases are preserved.
+
 ## V6.1 engineering complete — 25 October 2026
 
 TL-008 C0–C5 complete on codex/trip-line-v6-creative-rework. Applicationae05ab5,

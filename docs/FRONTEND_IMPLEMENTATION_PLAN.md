@@ -1,3 +1,12 @@
+V1 review release25October2026: [TL-009](tasks/TL-009-v1-mobile-review.md) polishes
+phones/tablets on verified V6.1, with no V7 or desktop reconstruction. Recovery
+`codex/v61-before-v1-mobile`; review branch `codex/trip-line-v1-mobile-review`.
+Full-site861 and final affected84-case matrices pass. Core/regression/native touch
+evidence and limitations belong to the [report](reports/TL-009-v1-mobile-review.md).
+Reviewed-branch push and protected Vercel Preview are authorized; no main merge,
+production promotion or final publication. Hosted result is bound to the source
+commit by the post-commit deployment receipt and final chat delivery.
+
 V6.1 status25October2026: TL-008 C0–C5 engineering and rendered review complete on
 codex/trip-line-v6-creative-rework; applicationae05ab5, final buildzg9w4BHJT8lgBs6oxSwGY.
 Creative acceptance pending. AFK pause/resume completed; automations disabled after

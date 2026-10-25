@@ -1,3 +1,17 @@
+## TL-DEC-019 — V1 mobile review release and protected Preview
+
+25 October2026. Direct user authority: [TL-009](tasks/TL-009-v1-mobile-review.md).
+Polish phones and tablet layouts on verified V6.1 without V7, desktop reconstruction
+or experimental features. One recorded direct implementation exception; no model
+switch or subagents. Preserve all product, source, motion/accessibility and inquiry
+boundaries. Save/push only the reviewed branch, then create a protected Vercel
+Preview using the existing project and `frontend-v2` root, never promote production.
+The user explicitly selected the connected Hobby team after its commercial-use
+restriction was disclosed; this choice does not establish plan eligibility and
+authorizes no billing change. A temporary share link is for private client review,
+not partner clearance, publication or client creative acceptance. Existing production
+deployment and aliases remain preserved. [Delivery](reports/TL-009-v1-mobile-review.md).
+
 ## TL-DEC-016 — V5 Living Atlas and solo execution
 
 Date: 2026-10-24. Status: directly authorized; implementation/creative review pending.

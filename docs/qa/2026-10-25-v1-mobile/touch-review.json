@@ -1,0 +1,717 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3013",
+  "recordings": [
+    {
+      "locale": "en",
+      "video": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v1-mobile\\release-review\\en-complete-touch.webm",
+      "end": {
+        "y": 17242,
+        "max": 17242
+      },
+      "longTasks": [],
+      "scope": "Chromium touch input with video and screenshots; not physical-device or field performance certification",
+      "duration": 60.12,
+      "samples": [
+        {
+          "time": 3.0060000000000002,
+          "file": "en-recording-5.png"
+        },
+        {
+          "time": 12.024000000000001,
+          "file": "en-recording-20.png"
+        },
+        {
+          "time": 21.041999999999998,
+          "file": "en-recording-35.png"
+        },
+        {
+          "time": 30.06,
+          "file": "en-recording-50.png"
+        },
+        {
+          "time": 39.078,
+          "file": "en-recording-65.png"
+        },
+        {
+          "time": 48.096000000000004,
+          "file": "en-recording-80.png"
+        },
+        {
+          "time": 57.114,
+          "file": "en-recording-95.png"
+        }
+      ]
+    },
+    {
+      "locale": "tr",
+      "video": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v1-mobile\\release-review\\tr-complete-touch.webm",
+      "end": {
+        "y": 16862,
+        "max": 16862
+      },
+      "longTasks": [],
+      "scope": "Chromium touch input with video and screenshots; not physical-device or field performance certification",
+      "duration": 60.6,
+      "samples": [
+        {
+          "time": 3.0300000000000002,
+          "file": "tr-recording-5.png"
+        },
+        {
+          "time": 12.120000000000001,
+          "file": "tr-recording-20.png"
+        },
+        {
+          "time": 21.21,
+          "file": "tr-recording-35.png"
+        },
+        {
+          "time": 30.3,
+          "file": "tr-recording-50.png"
+        },
+        {
+          "time": 39.39,
+          "file": "tr-recording-65.png"
+        },
+        {
+          "time": 48.480000000000004,
+          "file": "tr-recording-80.png"
+        },
+        {
+          "time": 57.57,
+          "file": "tr-recording-95.png"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "video": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v1-mobile\\release-review\\ar-complete-touch.webm",
+      "end": {
+        "y": 16719,
+        "max": 16719
+      },
+      "longTasks": [],
+      "scope": "Chromium touch input with video and screenshots; not physical-device or field performance certification",
+      "duration": 80.24,
+      "samples": [
+        {
+          "time": 4.012,
+          "file": "ar-recording-5.png"
+        },
+        {
+          "time": 16.048,
+          "file": "ar-recording-20.png"
+        },
+        {
+          "time": 28.083999999999996,
+          "file": "ar-recording-35.png"
+        },
+        {
+          "time": 40.12,
+          "file": "ar-recording-50.png"
+        },
+        {
+          "time": 52.156,
+          "file": "ar-recording-65.png"
+        },
+        {
+          "time": 64.192,
+          "file": "ar-recording-80.png"
+        },
+        {
+          "time": 76.228,
+          "file": "ar-recording-95.png"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "viewports": [
+    {
+      "locale": "en",
+      "y": 441,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 882,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 1323,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 1764,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 2205,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 2646,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 3087,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 3528,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 3969,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 4410,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 4851,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 5292,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 5733,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 6174,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 6615,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 7056,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 7497,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 7938,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 8379,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 8820,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 9261,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 9702,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 10143,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 10584,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 11025,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 11466,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 11907,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 12348,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 12789,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 13230,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 13671,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 14112,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 14553,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 14994,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 15435,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 15876,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 16317,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 16758,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 17199,
+      "max": 17242
+    },
+    {
+      "locale": "en",
+      "y": 17242,
+      "max": 17242
+    },
+    {
+      "locale": "tr",
+      "y": 441,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 882,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 1323,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 1764,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 2205,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 2646,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 3087,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 3528,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 3969,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 4410,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 4851,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 5292,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 5733,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 6174,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 6615,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 7056,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 7497,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 7938,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 8379,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 8820,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 9261,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 9702,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 10143,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 10584,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 11025,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 11466,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 11907,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 12348,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 12789,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 13230,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 13671,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 14112,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 14553,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 14994,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 15435,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 15876,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 16317,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 16758,
+      "max": 16862
+    },
+    {
+      "locale": "tr",
+      "y": 16862,
+      "max": 16862
+    },
+    {
+      "locale": "ar",
+      "y": 441,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 882,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 1323,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 1764,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 2205,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 2646,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 3087,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 3528,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 3969,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 4410,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 4851,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 5292,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 5733,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 6174,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 6615,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 7056,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 7497,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 7938,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 8379,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 8820,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 9261,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 9702,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 10143,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 10584,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 11025,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 11466,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 11907,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 12348,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 12789,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 13230,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 13671,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 14112,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 14553,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 14994,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 15435,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 15876,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 16317,
+      "max": 16719
+    },
+    {
+      "locale": "ar",
+      "y": 16719,
+      "max": 16719
+    }
+  ]
+}

@@ -1,4 +1,7 @@
-Current: [TL-008 V6.1 delivery](TL-008-v61.md), C0–C5 engineering/rendered verification
+Current: [TL-009 V1 mobile review](TL-009-v1-mobile-review.md), mobile polish and
+protected client Preview on the verified V6.1 baseline, 25 October2026.
+
+Previous: [TL-008 V6.1 delivery](TL-008-v61.md), C0–C5 engineering/rendered verification
 complete25October2026; ready for user creative review, no publication.
 
 Previous: [TL-007 V6 delivery](TL-007-v6.md), engineering verified 25 October 2026;

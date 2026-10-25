@@ -5,6 +5,7 @@ import '@/styles/experience.css';
 import '@/styles/recovery-shell.css';
 import '@/styles/v5-foundations.css';
 import '@/styles/v6-motion.css';
+import '@/styles/v1-mobile-review.css';
 import { headers } from 'next/headers';
 import { siteUrl } from '@/lib/site-url';
 import { isLocale } from '@/lib/i18n';
