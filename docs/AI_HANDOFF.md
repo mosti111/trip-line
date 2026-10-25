@@ -1,3 +1,18 @@
+## V6.1 active — 25 October 2026
+
+TL-008 on codex/trip-line-v6-creative-rework; C0–C2 verified, latest C2 ce16af9.
+C3 source/evidence in progress; reverse aperture verification failed and must be
+diagnosed before acceptance. Preserve all existing failed evidence. C4/C5 unstarted.
+Single implementation agent, no subagents; no merge/push/deploy/publication.
+User AFK instruction: at **5% remaining** (usedPercent >=95) in each 300-minute
+usage window, save everything into a recoverable honest checkpoint and pause;
+resume automatically only after the actual window resets. Quiet guard automation
+trip-line-usage-checkpoint-guard is active. Check usage during work and before long
+checks, persist exact pending state and schedule same-chat continuation after reset.
+Disable guard/resume automations after TL-008 completion. Current authority/state:
+[task](tasks/TL-008-v61.md), [state](orchestration/v61-state.json),
+[report](reports/TL-008-v61.md). V6 recovery 229a7a2 remains intact.
+
 ## V6 engineering complete — 25 October 2026
 
 TL-007 P0–P4 complete in the authorized solo scope. Branch codex/trip-line-v6;

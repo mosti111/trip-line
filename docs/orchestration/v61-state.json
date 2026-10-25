@@ -4,7 +4,7 @@
   "recovery": "229a7a2",
   "recoveryBranch": "codex/v6-before-v6-1",
   "topology": "single implementation agent; no subagents",
-  "phase": "C2",
+  "phase": "C3",
   "status": "IN_PROGRESS",
   "checkpoints": [
     {
@@ -16,9 +16,21 @@
       "phase": "C1",
       "sha": "ae731f1",
       "evidence": "docs/qa/2026-10-25-v61/C1/report.json"
+    },
+    {
+      "phase": "C2",
+      "sha": "ce16af9",
+      "evidence": "docs/qa/2026-10-25-v61/C2/report.json"
     }
   ],
   "creativeAcceptance": "pending",
   "publication": "not authorized",
-  "currentVerification": "C2 six widths, three quantitative loops each, normal-speed/pause videos and decoded static layouts passed"
+  "currentVerification": "C2 passed. C3 implementation in progress; first cinematic verification failed reverse aperture assertion and requires diagnosis before acceptance.",
+  "usageGuard": {
+    "authority": "User AFK instruction, 25 October 2026: save everything and pause at 5% remaining in each five-hour window; resume after reset.",
+    "thresholdUsedPercent": 95,
+    "windowDurationMins": 300,
+    "automationId": "trip-line-usage-checkpoint-guard",
+    "procedure": "Check usage during work and before expensive checks. At threshold save recoverable work/evidence and exact phase/status; pause implementation, schedule same-chat continuation after actual reset, verify reset before resuming. Retain guard across windows until TL-008 completes. No subagents or publication."
+  }
 }
