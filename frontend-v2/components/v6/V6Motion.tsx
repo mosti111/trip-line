@@ -23,10 +23,38 @@ export function V6Motion() {
       if (cancelled) return;
       gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
       const arrival = root.querySelector<HTMLElement>('.rh-arrival');
+      const creative = root.classList.contains('v61-home');
+      const preload=creative?new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.querySelectorAll('img').forEach(image=>{image.loading='eager';});preload?.unobserve(entry.target);}},{rootMargin:'1000px'}):null;
+      if(preload)root.querySelectorAll('.rh-world-plane,.rh-signature').forEach(scene=>preload.observe(scene));
       const mobile = small;
       let removeIntroListeners = () => {};
       const finalPath=root.querySelector<SVGPathElement>('.flight-trace-final [data-flight-path]');
       const processPath=root.querySelector<SVGPathElement>('.flight-trace-process [data-flight-path]');
+      const arrivalPath=root.querySelector<SVGPathElement>('.flight-trace-arrival [data-flight-path]');
+      const arrivalPlane=root.querySelector<SVGGElement>('.flight-trace-arrival [data-flight-plane]');
+      const arrivalPosition={value:entered.current ? .76 : 0,departure:0};
+      const openingRoutes=()=>{
+        if(!creative||!arrivalPath?.ownerSVGElement)return;
+        const receiving=root.querySelector<SVGPathElement>('.flight-trace-service-worlds [data-flight-path]');
+        const junction=root.querySelector<HTMLElement>('.v61-world-junction');
+        const branches=root.querySelector<SVGSVGElement>('.v61-world-branches');
+        if(!receiving?.ownerSVGElement||!junction||!branches)return;
+        const a=arrivalPath.ownerSVGElement.getBoundingClientRect(),b=receiving.ownerSVGElement.getBoundingClientRect(),j=junction.getBoundingClientRect();
+        if(!a.width||!b.width||!b.height)return;
+        const raw=MotionPathPlugin.getRawPath(arrivalPath.getAttribute('d')||'');
+        const tip=MotionPathPlugin.getPositionOnPath(raw,1);
+        const x=(a.left+tip.x/1440*a.width-b.left)/b.width*1440;
+        const y=(a.top+tip.y/900*a.height-b.top)/b.height*1200;
+        const jx=(j.left+j.width/2-b.left)/b.width*1440,jy=(j.top+j.height/2-b.top)/b.height*1200;
+        receiving.setAttribute('d',`M${x} ${y} C${x} ${y+130} ${jx+120} ${jy-100} ${jx} ${jy}`);
+        const bounds=branches.getBoundingClientRect();
+        const start={x:(j.left+j.width/2-bounds.left)/bounds.width*1440,y:(j.top+j.height/2-bounds.top)/bounds.height*1200};
+        branches.querySelectorAll<SVGPathElement>('[data-world-branch]').forEach((path,index)=>{
+          const photo=root.querySelectorAll<HTMLElement>('.rh-world-photo')[index].getBoundingClientRect();
+          const end={x:(photo.left+photo.width*.5-bounds.left)/bounds.width*1440,y:(photo.top+photo.height*.4-bounds.top)/bounds.height*1200};
+          path.setAttribute('d',`M${start.x} ${start.y} Q${(start.x+end.x)/2} ${start.y-80} ${end.x} ${end.y}`);
+        });
+      };
       const processRoute=()=>{
         const bounds=processPath?.ownerSVGElement?.getBoundingClientRect();
         const nodes=[...root.querySelectorAll<HTMLElement>('.rh-process-node')];
@@ -57,6 +85,7 @@ export function V6Motion() {
         measuredRoutes.set(path,{sx:bounds.width/view.width,sy:bounds.height/view.height,shape,raw});
       };
       const calibrateRoutes=()=>{
+        openingRoutes();
         if(finalPath)finalPath.setAttribute('d',finalRoute());
         if(processPath)processPath.setAttribute('d',processRoute());
         root.querySelectorAll<SVGPathElement>('.flight-trace [data-flight-path]').forEach(path=>{if(path.parentElement?.querySelector('[data-flight-plane]'))measureRoute(path);});
@@ -73,10 +102,12 @@ export function V6Motion() {
         const cosine=Math.cos(angle),sine=Math.sin(angle);
         gsap.set(plane,{attr:{transform:`matrix(${cosine/sx} ${sine/sy} ${-sine/sx} ${cosine/sy} ${point.x} ${point.y})`},opacity:1});
       };
+      const drawArrival=()=>{if(arrivalPath&&arrivalPlane)placePlane(arrivalPlane,arrivalPath,arrivalPosition.departure>0 ? .76+arrivalPosition.departure*.24 : arrivalPosition.value);};
       const context = gsap.context(() => {
         calibrateRoutes();
         if(finalPath)gsap.set(finalPath,{attr:{d:finalRoute()}});
         if(processPath)gsap.set(processPath,{attr:{d:processRoute()}});
+        if(entered.current)drawArrival();
         if (arrival && !entered.current) {
           entered.current = true;
           arrival.dataset.entry = 'play';
@@ -89,10 +120,7 @@ export function V6Motion() {
           if (path) {
             intro.fromTo(path, { strokeDashoffset: 1, strokeDasharray: 1 }, { strokeDashoffset: 0, duration: .65, ease: 'power2.inOut' }, .35);
             if (plane) {
-              const position = { value: 0 };
-              intro.to(position, { value: .76, duration: .65, ease: 'power2.inOut', onUpdate: () => {
-                placePlane(plane,path,position.value);
-              } }, .35);
+              intro.to(arrivalPosition, { value: .76, duration: .65, ease: 'power2.inOut', onUpdate: drawArrival }, .35);
             }
           }
           const finish = () => { intro.progress(1); };
@@ -103,11 +131,16 @@ export function V6Motion() {
           if (scrollY > 40) finish();
         }
         if (arrival) {
-          gsap.to('.rh-arrival-photo', { scale: mobile ? .97 : .91, yPercent: 9, clipPath: mobile ? 'inset(0 3% 0 3%)' : 'inset(0 7% 0 7%)', ease: 'none', scrollTrigger: { trigger: arrival, start: 'top top', end: 'bottom top', scrub: true, invalidateOnRefresh: true } });
-          root.querySelectorAll('.rh-world-photo').forEach((photo, index) => gsap.fromTo(photo, { clipPath: index % 2 ? 'inset(0 0 100% 0)' : 'inset(0 100% 0 0)', y: mobile ? 18 : 65 }, { clipPath: 'inset(0 0 0% 0%)', y: 0, ease: 'none', scrollTrigger: { trigger: photo, start: 'top 96%', end: 'top 48%', scrub: true, invalidateOnRefresh: true } }));
+          gsap.to('.rh-arrival-photo', { scale: mobile ? .96 : .92, yPercent: creative?5:9, clipPath: mobile ? 'inset(0 3% 0 3%)' : 'inset(0 5% 0 5%)', ease: 'none', scrollTrigger: { trigger: arrival, start: 'top top', end: creative?()=>`+=${innerHeight*.65}`:'bottom top', scrub: true, invalidateOnRefresh: true } });
+          if(creative){
+            gsap.to('.rh-arrival-copy',{y:mobile?-25:-55,ease:'none',scrollTrigger:{trigger:arrival,start:'top top',end:()=>`+=${innerHeight*.65}`,scrub:true,invalidateOnRefresh:true}});
+            gsap.to(arrivalPosition,{departure:1,ease:'none',scrollTrigger:{trigger:arrival,start:'top top',end:()=>`+=${innerHeight*.65}`,scrub:true,invalidateOnRefresh:true},onUpdate:drawArrival});
+            root.querySelectorAll('.v61-world-branches path').forEach(path=>gsap.fromTo(path,{strokeDasharray:1,strokeDashoffset:1},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'.rh-world-stage',start:'top 85%',end:'top 25%',scrub:true}}));
+          }
+          root.querySelectorAll('.rh-world-photo').forEach((photo, index) => gsap.fromTo(photo, { clipPath: index % 2 ? 'inset(0% 0% 100% 0%)' : 'inset(0% 100% 0% 0%)', y: mobile ? 18 : 65 }, { clipPath: 'inset(0% 0% 0% 0%)', y: 0, ease: 'none', scrollTrigger: { trigger: photo, start: 'top 96%', end: 'top 48%', scrub: true, invalidateOnRefresh: true } }));
         }
         root.querySelectorAll<SVGPathElement>('.flight-trace:not(.flight-trace-arrival) [data-flight-path]').forEach(path => {
-          gsap.fromTo(path, { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', scrollTrigger: { trigger: path.closest('section'), start: 'top 80%', end: 'bottom 65%', scrub: true } });
+          gsap.fromTo(path, { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', scrollTrigger: { trigger: path.closest('.rh-signature')||path.closest('section'), start: 'top 80%', end: 'bottom 65%', scrub: true } });
           const plane = path.parentElement?.querySelector('[data-flight-plane]');
           if (plane && !(mobile && path.closest('.flight-trace-process'))) {
             const position = { value: 0 };
@@ -127,6 +160,14 @@ export function V6Motion() {
           const small = conditions?.mobile;
           root.querySelectorAll<HTMLElement>('.rh-signature').forEach((scene,index) => {
             const photo=scene.querySelector('.rh-signature-image');const copy=scene.querySelector('.rh-signature-copy');
+            if(creative){
+              const frame=scene.querySelector('.v61-landscape-frame');
+              const start=index===0?'inset(48% 0% 0% 0%)':index===1?'inset(0% 0% 65% 0%)':'inset(0% 65% 0% 0%)';
+              gsap.fromTo(frame,{clipPath:start,scale:small?1:.97,rotationX:small?0:index===0?3:0,rotationY:small?0:index===1?-2:0,transformPerspective:1400},{clipPath:'inset(0% 0% 0% 0%)',scale:1,rotationX:0,rotationY:0,ease:'none',scrollTrigger:{trigger:scene,start:'top 85%',end:'top 20%',scrub:true,invalidateOnRefresh:true}});
+              gsap.fromTo(photo,{yPercent:index===1?-3:2},{yPercent:index===1?3:-2,ease:'none',scrollTrigger:{trigger:scene,start:'top bottom',end:'bottom top',scrub:true}});
+              gsap.fromTo(copy,{y:small?18:38},{y:0,ease:'none',scrollTrigger:{trigger:scene,start:'top 75%',end:'top 20%',scrub:true}});
+              return;
+            }
             const timeline=gsap.timeline({scrollTrigger:{trigger:scene,start:'top 95%',end:'bottom 15%',scrub:true,invalidateOnRefresh:true}});
             timeline.fromTo(photo,{y:small?28:90,rotationX:small?0:8,rotationY:small?0:index%2?-6:6,rotation:small?0:index%2?1.5:-1.5,scale:small?1:.94,transformPerspective:1200},{y:0,rotationX:0,rotationY:0,rotation:0,scale:1,duration:.65,ease:'none'},0);
             timeline.to(photo,{y:small?-12:-40,rotationX:small?0:-4,scale:small?1:.98,duration:.35,ease:'none'},.65);
@@ -142,7 +183,7 @@ export function V6Motion() {
         const process=root.querySelector<HTMLElement>('.v6-process-stage');
         if(process)gsap.fromTo(process,{'--route-progress':0},{'--route-progress':1,ease:'none',scrollTrigger:{trigger:'.rh-process',start:'top 75%',end:'bottom 65%',scrub:true}});
         const final=root.querySelector('.rh-final');
-        if(final){gsap.fromTo('.rh-final>.photo',{clipPath:mobile?'inset(8% 5% 8% 5%)':'inset(15% 12% 15% 12%)',scale:.95},{clipPath:'inset(0% 0% 0% 0%)',scale:1,ease:'none',scrollTrigger:{trigger:final,start:'top 95%',end:'top 15%',scrub:true,invalidateOnRefresh:true}});gsap.fromTo('.rh-final h2',{y:40},{y:0,ease:'none',scrollTrigger:{trigger:final,start:'top 85%',end:'top 30%',scrub:true}});}
+        if(final){gsap.fromTo('.rh-final>.photo',{clipPath:mobile?'inset(12% 6% 12% 6%)':creative?'inset(22% 18% 22% 18%)':'inset(15% 12% 15% 12%)',scale:creative?.98:.95},{clipPath:'inset(0% 0% 0% 0%)',scale:1,ease:'none',scrollTrigger:{trigger:final,start:'top 95%',end:'top 15%',scrub:true,invalidateOnRefresh:true}});gsap.fromTo('.rh-final h2',{y:creative?60:40},{y:0,ease:'none',scrollTrigger:{trigger:final,start:'top 85%',end:'top 30%',scrub:true}});}
       }, root);
       // Recompute on layout/image changes without a continuous render loop.
       let frame = 0;
@@ -168,7 +209,7 @@ export function V6Motion() {
       resize.observe(root);
       ScrollTrigger.addEventListener('refreshInit',calibrateRoutes);
       ScrollTrigger.addEventListener('scrollEnd',refreshWhenIdle);
-      dispose = () => { removeIntroListeners(); ScrollTrigger.removeEventListener('scrollEnd',refreshWhenIdle);ScrollTrigger.removeEventListener('refreshInit',calibrateRoutes);cancelAnimationFrame(frame);clearTimeout(refreshTimer); resize.disconnect(); context.revert(); };
+      dispose = () => { removeIntroListeners();preload?.disconnect(); ScrollTrigger.removeEventListener('scrollEnd',refreshWhenIdle);ScrollTrigger.removeEventListener('refreshInit',calibrateRoutes);cancelAnimationFrame(frame);clearTimeout(refreshTimer); resize.disconnect(); context.revert(); };
     });
     return () => { cancelled = true; dispose(); };
   }, [calm,small]);

@@ -4,7 +4,10 @@ const scenes = {
   "service-worlds": "M 1220 0 C 1030 280 1380 410 1130 730 C 970 960 1420 1050 1440 1200",
   "threshold": "M 1440 0 C 1290 190 1050 170 1120 410 C 1190 640 1390 700 1220 900",
   "process": "M 22 60 C 150 5 280 115 436 60 S 700 5 852 60",
-  "final": "M 1440 0 C 1170 100 1230 380 1110 520 C 1040 620 830 570 780 730"
+  "final": "M 1440 0 C 1170 100 1230 380 1110 520 C 1040 620 830 570 780 730",
+  "signature-horizon": "M1440 100 C1060 100 1210 450 1030 600 S980 800 1050 900",
+  "signature-mountain": "M1050 0 C910 220 1370 300 1220 570 S1100 750 1180 900",
+  "signature-coast": "M1180 0 C1300 210 870 330 1070 540 S1300 800 1440 900"
 } as const;
 export function FlightTrace({ scene, className = '', rtl = false }: { scene: keyof typeof scenes; className?: string; rtl?: boolean }) {
   const route = scene === 'final' ? (rtl ? 'M0 0 C340 120 300 500 1030 600 S1200 780 1200 650' : 'M1440 0 C1100 120 1140 500 410 600 S240 780 240 650') : scene === 'process' && rtl ? 'M1178 60 C1050 5 920 115 764 60 S500 5 348 60' : scenes[scene];

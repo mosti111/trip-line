@@ -57,7 +57,7 @@ export function AtlasStage({ locale, full=false, guided=false }: {locale:Locale;
       const context=gsap.context(()=>{
         const timeline=gsap.timeline({scrollTrigger:{trigger:host.current,start:'top 92%',end:'top 18%',scrub:true,invalidateOnRefresh:true}});
         timeline.fromTo('.rt-preview',{clipPath:'polygon(9% 8%,100% 0,100% 100%,9% 92%)',scale:.93},{clipPath:'polygon(0 0,100% 0,100% 100%,0 100%)',scale:1,ease:'none'},0);
-        timeline.fromTo('.rt-index',{x:-24},{x:0,ease:'none'},0);
+        timeline.fromTo('.rt-index',{y:18},{y:0,ease:'none'},0);
         timeline.fromTo('.rt-desktop-map',{y:28,opacity:.3},{y:0,opacity:1,ease:'none'},0);
       },host);
       dispose=()=>context.revert();
