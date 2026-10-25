@@ -1,3 +1,16 @@
+## TL-DEC-022 — Stationary interactive geographic frame
+
+26 October2026. Implementation decision within [TL-011](tasks/TL-011-v11-mobile-recovery.md);
+client creative acceptance pending. Rapid touch testing found that the optional
+map's delayed camera pan/scale could move hit targets after touch began. Keep that
+interactive geographic frame stationary, with all original boundaries/anchors and
+44px controls. Preserve animated route drawing/selected-marker feedback and the
+photographic scene's transitions, plus the desktop photographic map camera.
+Reserve a stable phone title baseline and reveal selected index items immediately.
+This is target stability for an interactive control plane, not viewport/Safari-based
+suppression of cinematic scenes. Final288 source-code touch selections across24
+size/locale configurations pass. See the task's initial/final evidence and report.
+
 ## TL-DEC-021 — V1.1 phone composition and explicit motion authority
 
 25 October 2026. Direct [user brief](tasks/TL-011-v11-instructions.md) rejects V1's

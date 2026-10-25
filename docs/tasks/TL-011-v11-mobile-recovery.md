@@ -1,6 +1,6 @@
 # TL-011 — V1.1 mobile creative recovery
 
-25 October 2026. Status: In Progress. Direct authority: user's attached
+25 October 2026. Status: Complete (engineering release for user creative review). Direct authority: user's attached
 V1.1 Mobile Creative Recovery brief, preserved alongside this task.
 
 Baseline: `9f6cfa7` on `codex/trip-line-v1-mobile-review`; recovery branch

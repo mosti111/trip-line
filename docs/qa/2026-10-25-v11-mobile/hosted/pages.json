@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "base": "https://trip-line-journal-v223-10lita4c5.vercel.app",
+  "cases": [
+    {
+      "locale": "en",
+      "route": "",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "about",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "services/tours",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "services/hajj-umrah",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "business",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "destinations/turkiye",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "destinations/turkiye/rize-ayder",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "destinations/georgia",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "contact",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "privacy",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "en",
+      "route": "terms",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "about",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "services/tours",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "services/hajj-umrah",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "business",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "destinations/turkiye",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "destinations/turkiye/rize-ayder",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "destinations/georgia",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "contact",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "privacy",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "tr",
+      "route": "terms",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "about",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "services/tours",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "services/hajj-umrah",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "business",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "destinations/turkiye",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "destinations/turkiye/rize-ayder",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "destinations/georgia",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "contact",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "privacy",
+      "status": 200,
+      "width": 320
+    },
+    {
+      "locale": "ar",
+      "route": "terms",
+      "status": 200,
+      "width": 320
+    }
+  ],
+  "errors": [],
+  "media": [
+    {
+      "locale": "en",
+      "ready": 4,
+      "width": 1280,
+      "height": 720,
+      "src": "https://trip-line-journal-v223-10lita4c5.vercel.app/media/istanbul-ferries.mp4",
+      "paused": false
+    },
+    {
+      "locale": "tr",
+      "ready": 4,
+      "width": 1280,
+      "height": 720,
+      "src": "https://trip-line-journal-v223-10lita4c5.vercel.app/media/istanbul-ferries.mp4",
+      "paused": false
+    },
+    {
+      "locale": "ar",
+      "ready": 4,
+      "width": 1280,
+      "height": 720,
+      "src": "https://trip-line-journal-v223-10lita4c5.vercel.app/media/istanbul-ferries.mp4",
+      "paused": false
+    }
+  ]
+}

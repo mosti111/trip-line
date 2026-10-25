@@ -7,8 +7,13 @@ YcMLV8XQrru17yorEl3yd: core41/build, full V3, public120, final affected96,
 WebKit48, menus24, maps24/288 taps and axe9 pass; broad site984 also passes.
 Final continuous EN/TR/AR native Chromium touch recordings each have zero
 LongTasks. Physical iPhone Safari remains untested; checklist supplied. User
-creative acceptance pending. Separate Preview is next; no production alias,
-TL-010 expiry/automation, main or billing change. See the linked report/evidence.
+creative acceptance pending. Preview READY: `dpl_45Zj8VFbRQcHjmgp2fDQXF4Qa1tm`, source
+98c44f8d05792f97c7324ce5dcbf12f73e4e8535. All284 uploaded files match reviewed Git.
+Hosted33 pages/48 mobile cases/6 fresh no-login access cases/desktop3 exact RGB
+comparisons pass. Client must use the full temporary share link from chat or
+ignored `tmp/v11-preview/state.json`; bare deployment remains protected. Windows
+WebKit font-weight rendering caveat is recorded; physical iPhone comparison is
+still required. No production alias, TL-010 expiry/automation, main or billing change. See the linked report/evidence.
 
 ## Temporary public review — 25 October 2026
 

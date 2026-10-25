@@ -60,5 +60,22 @@ map/menu interaction, public routing, full V3 and WebKit checks. Earlier failure
 and capture-tool problems are retained under initial-findings; they are not passes.
 
 No production promotion, main merge or billing change. The existing two-day public
-review window and its expiry remain intact. Preview/source receipts are added after
-immutable deployment and actual hosted verification.
+review window and its expiry remain intact. Preview/source receipts are in [hosted/receipt.json](hosted/receipt.json). The client
+share credential is deliberately kept out of Git. The protected deployment's bare
+URL may request login; use the complete client share URL from the final delivery.
+
+## Hosted verification and visual caveat
+
+[Source archive proof](hosted/remote-source-verification.json),
+[project/production preservation](hosted/project-verification.json),
+[fresh no-login access](hosted/access.json), [33 hosted pages/media](hosted/pages.json),
+[48 hosted mobile cases and interactions](hosted/mobile.json),
+[hosted desktop zero-pixel comparison](hosted/desktop-comparison.json).
+
+Windows WebKit paints the variable fonts too thin even though computed heading
+weight is800 and the Manrope face is loaded. Explicit wght800 did not correct
+this port's rendering. This is consistent with the upstream
+[Windows WebKit variable-font issue](https://github.com/microsoft/playwright/issues/43004).
+It is an observed tooling/visual-verification limitation, not a native Safari pass.
+Chromium reference screenshots show the intended typography. Physical iPhone
+verification must compare that reference before creative approval.

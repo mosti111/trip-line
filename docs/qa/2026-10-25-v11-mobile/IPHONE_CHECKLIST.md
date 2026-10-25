@@ -9,7 +9,10 @@ iOS version, Safari version, orientation, Reduce Motion setting and site motion
 choice. A continuous screen recording with the browser toolbar visible is best.
 
 1. Open in a fresh/private Safari tab. Confirm EN loads without a login, the
-   stacked logo reads clearly, Istanbul loads, and both opening CTAs work.
+   stacked logo reads clearly, Istanbul loads, and both opening CTAs work. Compare
+   heading weight with screenshots/en-after-hero.png: it should be bold. Windows
+   WebKit has an observed variable-font rendering limitation, so native iPhone
+   typography needs this explicit comparison.
 2. In the menu, select **System**. With iOS Settings → Accessibility → Motion →
    Reduce Motion enabled, reload. Opening and landscape scenes should be static;
    the partner marks should form a readable static arrangement.

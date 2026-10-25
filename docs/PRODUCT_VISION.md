@@ -1,3 +1,10 @@
+Current delivery26October2026: [TL-011 V1.1 mobile recovery](tasks/TL-011-v11-mobile-recovery.md)
+is engineering verified and delivered as a separate protected Preview. Phone art
+and explicit motion authority changed; desktop identity/content/functions remain.
+Client creative acceptance is pending. TL-010 production expiry remains unchanged.
+See the handoff/report for exact source and hosted evidence; no further work starts
+without new user authority.
+
 # Trip Line product vision
 
 Current experience direction, consolidated 3 October 2026. Read [AI_HANDOFF.md](AI_HANDOFF.md)

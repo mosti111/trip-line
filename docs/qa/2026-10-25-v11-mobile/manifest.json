@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "file": ".gitattributes",
+      "bytes": 69,
+      "sha256": "ecbade6a0257913284988dbfad67d04d84430a9d3dd42ebbc7928b364da4a0a5"
+    },
+    {
       "file": "desktop/after-desktop-ar-hero.png",
       "bytes": 1672477,
       "sha256": "501973331d719a8be69bd5e7b3a2f035d775756529e226a78c61372d79426362"
@@ -151,6 +156,156 @@
       "sha256": "a6964525707d773666ed3b2bf298c36d3797f58dfff34314111cf49b31596d0f"
     },
     {
+      "file": "hosted/access.json",
+      "bytes": 1677,
+      "sha256": "d2c46b3c71bf82480e0caf631875354c111eb4a0b537df6a1eef73064533e0bc"
+    },
+    {
+      "file": "hosted/chromium-font-before.png",
+      "bytes": 1561580,
+      "sha256": "e9a686f5e7476ea300154969902fa76d4b23f3642a5e09ff290b4ee64d4c3d18"
+    },
+    {
+      "file": "hosted/desktop-comparison.json",
+      "bytes": 218,
+      "sha256": "702aab7a494beeb6673fdef2bc42d9c92e857243d6dc90a0dda4db87785d90da"
+    },
+    {
+      "file": "hosted/desktop.json",
+      "bytes": 1181,
+      "sha256": "ea4bc81a059f77fe7007d0ed9cbec1c4db96b0e22c049207e617959d4cfdbe4b"
+    },
+    {
+      "file": "hosted/font-diagnostic.json",
+      "bytes": 3562,
+      "sha256": "52ea1180063a1d6d129e1ce30847639f7275a42bf353f6965cd596b19c9adcdb"
+    },
+    {
+      "file": "hosted/hosted-access-chromium-ar-fresh.png",
+      "bytes": 1559244,
+      "sha256": "2c64c0f078ef6bd592f26bfa3042aec114f737b84061f272963e40b1895d5d30"
+    },
+    {
+      "file": "hosted/hosted-access-chromium-en-fresh.png",
+      "bytes": 1561580,
+      "sha256": "e9a686f5e7476ea300154969902fa76d4b23f3642a5e09ff290b4ee64d4c3d18"
+    },
+    {
+      "file": "hosted/hosted-access-chromium-tr-fresh.png",
+      "bytes": 1569874,
+      "sha256": "dbf12708c016ab0dc8a864b5ad7ba377d7935536515e1c5e6d0ff083c0686f3b"
+    },
+    {
+      "file": "hosted/hosted-access-webkit-ar-fresh.png",
+      "bytes": 1249719,
+      "sha256": "43902a1d12f42ad4418f741b3456b8b8f1ca987c227bc30ed7da46470a0bd14e"
+    },
+    {
+      "file": "hosted/hosted-access-webkit-en-fresh.png",
+      "bytes": 1256103,
+      "sha256": "579e84e864b939bb0d90429c862621f383ececb824ae0942553a019320afe785"
+    },
+    {
+      "file": "hosted/hosted-access-webkit-tr-fresh.png",
+      "bytes": 1262211,
+      "sha256": "30884ee607df429b588c1c30ac99d8ecce84ccae085249e04bf31e59f36cc287"
+    },
+    {
+      "file": "hosted/hosted-ar-touch-interactions.webm",
+      "bytes": 2420349,
+      "sha256": "d3993d09f73f0bd5cb686c383ae348616f857f4ea05a9237ce6fbb33da750385"
+    },
+    {
+      "file": "hosted/hosted-desktop-ar-1440-hero.png",
+      "bytes": 1672477,
+      "sha256": "501973331d719a8be69bd5e7b3a2f035d775756529e226a78c61372d79426362"
+    },
+    {
+      "file": "hosted/hosted-desktop-en-1440-hero.png",
+      "bytes": 1600951,
+      "sha256": "c6c8f9a22c9bdca4dac8fe0e2564a99f6dba4b7ee8fc0c77aab245a84c2d35ea"
+    },
+    {
+      "file": "hosted/hosted-desktop-tr-1440-hero.png",
+      "bytes": 1610946,
+      "sha256": "2df0e8ba2161608debe687910c96731416ed9aa2a7e2bd610b33956a03fbe55e"
+    },
+    {
+      "file": "hosted/hosted-en-touch-interactions.webm",
+      "bytes": 2644367,
+      "sha256": "3b82faf8b7628bcbd14188ffeb8ea5985a4923d405ce55a6c68b8cc7b5c75dad"
+    },
+    {
+      "file": "hosted/hosted-pages-ar-hosted-film.png",
+      "bytes": 139974,
+      "sha256": "a8c30ae77e10f637ae2a57219420856a3d935096dcfe4aeda7bd35483ff3cac6"
+    },
+    {
+      "file": "hosted/hosted-pages-ar-hosted-hero.png",
+      "bytes": 224583,
+      "sha256": "799f8f7e555ab18a1d569a639b49a8576b8c4a2c9338a5af31ba50ef08d2bef4"
+    },
+    {
+      "file": "hosted/hosted-pages-en-hosted-film.png",
+      "bytes": 147759,
+      "sha256": "bafefadddab53d694251a6fec20bcdb865f0398e684a24facadc1f73014c5d4a"
+    },
+    {
+      "file": "hosted/hosted-pages-en-hosted-hero.png",
+      "bytes": 226224,
+      "sha256": "874f6a9385f04a8fffec6ee15e71c27de052e7a6eb4a019a56b82923d3f00673"
+    },
+    {
+      "file": "hosted/hosted-pages-tr-hosted-film.png",
+      "bytes": 148172,
+      "sha256": "f721b915c53c55e2a818d8aade7f537f633500cd375691e95d3aa435c016473f"
+    },
+    {
+      "file": "hosted/hosted-pages-tr-hosted-hero.png",
+      "bytes": 230365,
+      "sha256": "1138a9aa20b37f2e6b8c9826687d9bf1e0e31c149ca75e4b80f19f1e288f0a2e"
+    },
+    {
+      "file": "hosted/hosted-tr-touch-interactions.webm",
+      "bytes": 2604480,
+      "sha256": "89ea6afcef918260c6c6ceb5bc2e744f0436d25456ebf063a5b72cb78d808855"
+    },
+    {
+      "file": "hosted/mobile.json",
+      "bytes": 10275,
+      "sha256": "9597a155a92bd1852597d0ebbbfc0047ddab482d002c0dd26d944ccd8796b6cf"
+    },
+    {
+      "file": "hosted/pages.json",
+      "bytes": 4285,
+      "sha256": "716e233e8add5cc11f36c8b80302badaa501f7f2958e5647cdb2a5811ad634cf"
+    },
+    {
+      "file": "hosted/project-verification.json",
+      "bytes": 428,
+      "sha256": "1378dcbb125498d67a6e43cea79462d4a826ad01c3de5e1dc99c7819a81410cc"
+    },
+    {
+      "file": "hosted/receipt.json",
+      "bytes": 1298,
+      "sha256": "03c9eb8d07900b6d41d7321b4253a2fcf2a078b980295d8102939a9f00d7672c"
+    },
+    {
+      "file": "hosted/remote-source-verification.json",
+      "bytes": 415,
+      "sha256": "d1d2b710e73d124959f63eb5c04db981e99bd8e35e8397e03a44258fe1f5f75d"
+    },
+    {
+      "file": "hosted/webkit-font-axis.png",
+      "bytes": 1252244,
+      "sha256": "1be8d4110099db41ac3af96c8477cfb33edd917888047ae20cb37abb094c101d"
+    },
+    {
+      "file": "hosted/webkit-font-before.png",
+      "bytes": 1215791,
+      "sha256": "36535919c4eddf407d797b3bad330c2dd30345636e5c1d6fb9911360cff499a9"
+    },
+    {
       "file": "initial-findings/final-decoded-home-progress.json",
       "bytes": 132,
       "sha256": "634c7269ee70c9b10d0a7677e2f342f419025ccb65bbbe79f6385473af35b139"
@@ -187,8 +342,8 @@
     },
     {
       "file": "IPHONE_CHECKLIST.md",
-      "bytes": 2894,
-      "sha256": "5ff9896e14752f8e1884abf835a3afe68c72c8c3119bd44f02d00424a06d2a4d"
+      "bytes": 3108,
+      "sha256": "01a9a190f84f8858d2ad6af7fdee94fde96ca2cf427fd596e118f39ec8df963c"
     },
     {
       "file": "motion/antalya-after.png",
@@ -262,8 +417,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 4659,
-      "sha256": "8693bdd3dd8056a3c66a80aaa2b619f04c83690e480eaa36dac345110cf70593"
+      "bytes": 5690,
+      "sha256": "f0744fcb118d0bfca0eea7d635d11b9f02afec1b72803921c84b8a7174bedb16"
     },
     {
       "file": "recording-frames/ar-recording-20.png",
@@ -622,13 +777,13 @@
     },
     {
       "file": "technical/build-reviewed.log",
-      "bytes": 1017,
-      "sha256": "6a91571536f8bf8cc39bdf8cbaa85b760f994ca3aa30a1ee7924749464ef8c78"
+      "bytes": 979,
+      "sha256": "0c3aea664879fe682a437557285e4bbff742ce22a29544655a0a4f078edfd6a3"
     },
     {
       "file": "technical/desktop-comparison.json",
-      "bytes": 1908,
-      "sha256": "3545b3323a1bdb61639904b8a9e12d7595481a0b215b3322971bb5d60e751518"
+      "bytes": 1799,
+      "sha256": "e289e04ef94c4cb7da83299ce138b4fc5795be3731e374423d4bd66beec836a8"
     },
     {
       "file": "technical/isolated-touch.json",
@@ -637,8 +792,8 @@
     },
     {
       "file": "technical/lint-reviewed.log",
-      "bytes": 12,
-      "sha256": "cc5a0b39c7052d24c24888403c48018b4fcccc9d799f81be6c9c30c9e19c85fc"
+      "bytes": 11,
+      "sha256": "050c69da23536758722729aeda55a8d0fb9d557495ef6d33d70873a3b64a71c1"
     },
     {
       "file": "technical/map.json",
@@ -667,13 +822,13 @@
     },
     {
       "file": "technical/release-summary.json",
-      "bytes": 578,
-      "sha256": "1117938907b2b8635859ec84f278cca29da1604143444fe63c9f18079c6e8223"
+      "bytes": 549,
+      "sha256": "ff36ed65f91b80a5c16f950831e1baa6b4150ab3b558abb2c8a153ee87552355"
     },
     {
       "file": "technical/tests-reviewed.log",
-      "bytes": 472,
-      "sha256": "ba6ff4d1e9ed3e6b44f2482a4a85530497638cecf01385c5ac7ecc32010a5d50"
+      "bytes": 458,
+      "sha256": "976357b16564c5908984ebeedee3a05c4055cf2e4d58bc751c7bf6142a7a0cd0"
     },
     {
       "file": "technical/touch.json",
@@ -682,8 +837,8 @@
     },
     {
       "file": "technical/typecheck-reviewed.log",
-      "bytes": 16,
-      "sha256": "5a3973f79ed9becd5f23c4feff467513814de7ea381d75a4d2e339aa8b8edca9"
+      "bytes": 15,
+      "sha256": "8366207267355d3e3d5bf3bf6e8c94c5f93f6078c34f08973fa2b38cdda6cc92"
     },
     {
       "file": "technical/v3.json",

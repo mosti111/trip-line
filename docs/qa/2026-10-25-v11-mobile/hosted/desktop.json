@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "docWidth": 1440,
+      "hero": {
+        "x": 63.375,
+        "y": 328.53125,
+        "width": 1050,
+        "height": 223.9375,
+        "top": 328.53125,
+        "right": 1113.375,
+        "bottom": 552.46875,
+        "left": 63.375
+      },
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "docWidth": 1440,
+      "hero": {
+        "x": 63.375,
+        "y": 342.296875,
+        "width": 1150,
+        "height": 196.40625,
+        "top": 342.296875,
+        "right": 1213.375,
+        "bottom": 538.703125,
+        "left": 63.375
+      },
+      "font": "Manrope, \"Manrope Fallback\", sans-serif"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "docWidth": 1440,
+      "hero": {
+        "x": 376.625,
+        "y": 308.390625,
+        "width": 1000,
+        "height": 261.71875,
+        "top": 308.390625,
+        "right": 1376.625,
+        "bottom": 570.109375,
+        "left": 376.625
+      },
+      "font": "\"Noto Sans Arabic\", \"Noto Sans Arabic Fallback\", sans-serif"
+    }
+  ],
+  "errors": []
+}

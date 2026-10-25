@@ -1,0 +1,14 @@
+{
+  "id": "dpl_45Zj8VFbRQcHjmgp2fDQXF4Qa1tm",
+  "sha": "98c44f8d05792f97c7324ce5dcbf12f73e4e8535",
+  "branch": "codex/trip-line-v11-mobile-recovery",
+  "target": null,
+  "readyState": "READY",
+  "framework": "nextjs",
+  "nodeVersion": "24.x",
+  "alias": [],
+  "shareExpiries": [],
+  "allUploadFilesMatch": true,
+  "files": 284,
+  "archiveSha256": "04957c7aa31878f669d598357ea1a3deed6deb59a0ac3ac8de68d795b90f101a"
+}

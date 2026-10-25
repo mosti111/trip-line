@@ -1,7 +1,6 @@
 # TL-011 — V1.1 mobile creative recovery
 
-25–26 October 2026. Local release verification and rendered review complete;
-separate Preview delivery is being prepared. User creative acceptance remains
+25–26 October 2026. Engineering verification, rendered review and separate Preview delivery complete. User creative acceptance remains
 pending. [Task](../tasks/TL-011-v11-mobile-recovery.md),
 [exact brief](../tasks/TL-011-v11-instructions.md),
 [evidence](../qa/2026-10-25-v11-mobile/README.md).
@@ -101,9 +100,27 @@ Deploy only a separate Vercel Preview on the verified existing project
 Root `frontend-v2`, Next.js preset, Node24, frozen-lockfile pnpm install/build
 verified through CLI and connected account. Hobby is the user's existing chosen
 temporary-review account; no billing change or commercial-plan eligibility claim.
-The tested Git export and deployed SHA/URL will be recorded after commit/deployment.
+Deployed source: `98c44f8d05792f97c7324ce5dcbf12f73e4e8535`.
+Preview: https://trip-line-journal-v223-10lita4c5.vercel.app/en . Bare URL retains
+Vercel authentication; the complete client share URL is in the final delivery and
+ignored operational state, not public Git. New provider share links last23 hours;
+provider-reported expiry26October2026 at8:10:11PM. No production alias assigned.
+Deployment `dpl_45Zj8VFbRQcHjmgp2fDQXF4Qa1tm` is READY, from the reviewed branch.
+All285 exported files match Git blobs; all284 remotely uploaded files match the
+canonical SHA256 manifest (.gitignore is excluded by upload). Actual hosted QA:
+6 fresh-cookie-free access cases across Chromium/WebKit and EN/TR/AR,33 pages with
+all three1280×720 films decoded,48 mobile cases plus touch planner/menu/map/billboard
+flows, and3 desktop hero comparisons with zero changed RGB pixels versus V1.
+Project-level runtime-error query for the last hour reports none. Production still
+resolves to the exact original deployment ID. [Hosted receipt](../qa/2026-10-25-v11-mobile/hosted/receipt.json).
 
-Physical iPhone Safari/Android remain untested. WebKit engine results are distinct
+Physical iPhone Safari/Android remain untested. Windows WebKit paints the variable
+fonts too thin despite a loaded face and computed weight800; explicit wght800 also
+fails in this port. This observed discrepancy is consistent with the reported
+[Playwright Windows WebKit issue](https://github.com/microsoft/playwright/issues/43004).
+No browser-specific typography workaround was introduced for an unverified native
+Safari issue. Chromium/local/hosted reference typography agrees; native iPhone
+weight must be compared using the supplied reference before creative acceptance. WebKit engine results are distinct
 from native mobile Safari. The precise [iPhone checklist](../qa/2026-10-25-v11-mobile/IPHONE_CHECKLIST.md)
 requests device/iOS version, system/site motion choices, browser-toolbar behavior
 and a continuous recording before any failure. Profile-derived logo resolution,

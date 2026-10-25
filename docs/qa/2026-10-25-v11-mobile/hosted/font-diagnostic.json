@@ -1,0 +1,158 @@
+[
+  {
+    "engine": "chromium",
+    "fonts": {
+      "h1": {
+        "weight": "800",
+        "axis": "normal",
+        "family": "Manrope, \"Manrope Fallback\", sans-serif"
+      },
+      "faces": [
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope Fallback",
+          "weight": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic Fallback",
+          "weight": "normal",
+          "status": "unloaded"
+        }
+      ],
+      "check": true
+    }
+  },
+  {
+    "engine": "webkit",
+    "fonts": {
+      "h1": {
+        "weight": "800",
+        "axis": "normal",
+        "family": "Manrope, Manrope Fallback, sans-serif"
+      },
+      "faces": [
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "weight": "200 800",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope Fallback",
+          "weight": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "100 900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Noto Sans Arabic Fallback",
+          "weight": "normal",
+          "status": "unloaded"
+        }
+      ],
+      "check": true
+    }
+  }
+]

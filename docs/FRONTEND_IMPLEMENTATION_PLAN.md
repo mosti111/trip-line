@@ -1,3 +1,10 @@
+V1.1 delivered26October2026: reviewed source98c44f8d on
+`codex/trip-line-v11-mobile-recovery`, separate Preview READY; actual hosted33
+pages/48 mobile cases/6 fresh no-login access cases/desktop3 exact RGB comparisons
+pass. [Report](reports/TL-011-v11-mobile-recovery.md). Physical iPhone typography,
+Safari toolbar behavior and creative acceptance remain human-device checks.
+Production/expiry unchanged. Stop here pending user review.
+
 Current25October2026: [TL-011](tasks/TL-011-v11-mobile-recovery.md) independently composes phones and corrects persistent motion authority. Preserve verified desktop and TL-010 production expiry. Separate Preview only; user creative acceptance after verified delivery.
 
 Temporary public review25October2026: [TL-010](tasks/TL-010-temporary-public-review.md)
