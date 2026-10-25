@@ -31,6 +31,11 @@
       "phase": "C4",
       "sha": "0ba1e4c",
       "evidence": "docs/qa/2026-10-25-v61/C4/report.json"
+    },
+    {
+      "phase": "C5",
+      "sha": "b2fa5b13f038448364eb42b8eddd0eff8ba287f5",
+      "evidence": "docs/qa/2026-10-25-v61/release.json"
     }
   ],
   "creativeAcceptance": "pending user/client review",
@@ -54,12 +59,14 @@
     "applicationCheckpoint": "a72a1d2",
     "build": "uEobGv-Ii3wiKq7rzOY90",
     "pending": "C5 V6 functional suites,36-case matrix,actual wheel/touch/hover/shared recordings,accessibility,isolated performance analysis,evidence packaging and final reporting",
-    "processes": "Dev and production previews stopped; V3 completed before pause."
+    "processes": "Dev and production previews stopped; V3 completed before pause.",
+    "resolved": true
   },
   "resumedAt": "2026-10-25T02:52:02Z; usage reset confirmed at0% used",
   "applicationCheckpoint": "ae05ab504e61ef4a42057042627932a34bdf73e9",
   "build": "zg9w4BHJT8lgBs6oxSwGY",
-  "completedAt": "2026-10-25T04:11:01.6143061+00:00",
+  "completedAt": "2026-10-25T07:11:01.6143061+03:00",
   "preview": "http://localhost:3008/en",
-  "remaining": []
+  "remaining": [],
+  "deliveryCheckpoint": "b2fa5b13f038448364eb42b8eddd0eff8ba287f5"
 }

@@ -1,6 +1,7 @@
 # V6.1 evidence navigation
 
 Final application `ae05ab5`, build `zg9w4BHJT8lgBs6oxSwGY`; one implementation agent.
+Final engineering/evidence checkpoint `b2fa5b13f038448364eb42b8eddd0eff8ba287f5`.
 Engineering complete; user/client creative acceptance pending. Local preview3008;
 no merge, push, deployment or publication. Full context: [delivery report](../../reports/TL-008-v61.md).
 
