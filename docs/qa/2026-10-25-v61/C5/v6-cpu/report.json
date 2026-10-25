@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "normal",
+      "rate": 4,
+      "navigationAndSelectionMs": 7333,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 4166.300000071526,
+          "top": 455.546875,
+          "scroll": 12489,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 5764.899999976158,
+          "top": 455.546875,
+          "scroll": 12489,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 5956.300000071526,
+          "top": 455.546875,
+          "scroll": 12489,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    },
+    {
+      "mode": "manual-reduced",
+      "rate": 4,
+      "navigationAndSelectionMs": 6376,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 4508,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 5611.899999976158,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 5820.200000047684,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    },
+    {
+      "mode": "save-data",
+      "rate": 4,
+      "navigationAndSelectionMs": 5069,
+      "events": [
+        {
+          "type": "pointerdown",
+          "time": 3407.399999976158,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": false
+        },
+        {
+          "type": "pointerup",
+          "time": 4397.899999976158,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": false
+        },
+        {
+          "type": "change",
+          "time": 4580,
+          "top": 455.546875,
+          "scroll": 13430,
+          "checked": true
+        }
+      ],
+      "layoutShiftBetweenDownUp": 0
+    }
+  ],
+  "errors": []
+}

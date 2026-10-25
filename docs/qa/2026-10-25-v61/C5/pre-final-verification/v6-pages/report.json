@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "transitions": [
+        {
+          "time": 5575.800000071526,
+          "animations": [
+            {
+              "duration": 260,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 180,
+              "pseudo": "::after"
+            },
+            {
+              "duration": 250,
+              "pseudo": "::view-transition-old(root)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition-group(root)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition"
+            }
+          ]
+        }
+      ],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "transitions": [
+        {
+          "time": 4654.799999952316,
+          "animations": [
+            {
+              "duration": 260,
+              "pseudo": null
+            },
+            {
+              "duration": 250,
+              "pseudo": "::view-transition-old(root)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition-group(root)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition"
+            }
+          ]
+        }
+      ],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "transitions": [],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "fallback": true,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya-coast-v5.jpg&w=3840&q=85",
+      "transitions": [],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    }
+  ],
+  "errors": []
+}

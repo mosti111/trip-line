@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "scope": "C4 application 0ba1e4c plus C5 zero-geometry route guard; regression pending",
+  "scope": "a72a1d2 plus C5 story caption/contrast and separated map-control corrections",
   "typecheck": "passed",
   "lint": "passed",
   "tests": 32,
   "testFiles": 2,
   "build": "passed",
-  "buildId": "uEobGv-Ii3wiKq7rzOY90",
+  "buildId": "zg9w4BHJT8lgBs6oxSwGY",
   "publication": "not performed"
 }

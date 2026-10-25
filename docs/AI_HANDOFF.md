@@ -1,4 +1,20 @@
-## V6.1 paused at usage reserve — 25 October 2026
+## V6.1 engineering complete — 25 October 2026
+
+TL-008 C0–C5 complete on codex/trip-line-v6-creative-rework. Applicationae05ab5,
+final buildzg9w4BHJT8lgBs6oxSwGY; final checkpoint SHA in v61-state.json. Core32,
+public120, full V3 (16 groups/60 captures), final36-case matrix and nine-surface axe
+pass, as do Atlas/billboard and all V6 functional/interaction suites. Opening route
+joins0px; complete native wheel/Arabic touch and hover/focus/shared/reverse proof
+preserved. Two final isolated traces have zero LongTasks; recorded intervals are
+not field FPS certification. Profile logo resolution and publication/source approval
+limits remain. Ready for user/client creative review, acceptance pending. No new
+feature work or publication authorized. Usage guard/reset continuation disabled
+after completion; historical pause records below remain history.
+Preview remains http://localhost:3008/en (also/ar,/tr), noindex/nofollow. See
+[delivery](reports/TL-008-v61.md), [evidence](qa/2026-10-25-v61/README.md),
+[state](orchestration/v61-state.json). V6 recovery229a7a2 remains intact.
+
+## V6.1 usage pause history — 25 October 2026
 
 At usedPercent95 (5% remaining) saved C5 checkpoint and stopped preview. Reset
 25 October05:50:34 Europe/Istanbul; same-chat continuation scheduled05:52 via

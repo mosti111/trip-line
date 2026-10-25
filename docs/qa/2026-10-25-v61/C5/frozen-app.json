@@ -1,6 +1,6 @@
 {
-  "build": "uEobGv-Ii3wiKq7rzOY90",
-  "applicationCheckpoint": "a72a1d2",
+  "build": "zg9w4BHJT8lgBs6oxSwGY",
+  "applicationCheckpoint": "ae05ab504e61ef4a42057042627932a34bdf73e9",
   "changedApplicationFiles": [
     {
       "path": "frontend-v2/components/experience/FlightTrace.tsx",
@@ -28,7 +28,7 @@
     },
     {
       "path": "frontend-v2/components/turkiye/TurkeyMap.tsx",
-      "sha256": "99c130861e9efb98ddc8cdeb77db5ece2a5fe0a96af7faf87d727bea50856b32"
+      "sha256": "eb59a53ff9f43eaaa5733c337d9ad7a71f3a0b7658501b8553a098a7c1ea1273"
     },
     {
       "path": "frontend-v2/components/v6/TravelNetwork.tsx",
@@ -136,7 +136,7 @@
     },
     {
       "path": "frontend-v2/styles/v61-atlas.css",
-      "sha256": "b41f273fa42f9ec533e993ccb0e28ee81b69bb4dfbedfc37cc3054eb41a4a14e"
+      "sha256": "d89b74e9d241acf5373670497b5394ad90d7091c1a7476aa3d7ce907cfa01951"
     },
     {
       "path": "frontend-v2/styles/v61-billboard.css",
@@ -148,8 +148,8 @@
     },
     {
       "path": "frontend-v2/styles/v61-support.css",
-      "sha256": "6008d3d0aa9c9b9e00573c18ef7ca25728358ead2e261f42b3a1b6a737e942f2"
+      "sha256": "1472c5a1b4e2743923b6598dd8295385ccbed4c304167a8fe3e758773ad9a419"
     }
   ],
-  "status": "core/public120/full V3 passed; C5 incomplete and paused at usage reserve"
+  "status": "Final core/public/V3/matrix/interaction/accessibility/source and rendered review gates complete"
 }

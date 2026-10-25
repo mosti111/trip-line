@@ -1,4 +1,8 @@
-Current delivered scope: [TL-007 V6 Motion Maxxed Türkiye](TL-007-v6.md), all five
+Current delivered scope: [TL-008 V6.1 creative reconstruction](TL-008-v61.md),
+C0–C5 engineering/rendered verification complete25October2026, one implementation
+agent and no subagents. Ready for user creative review; no publication or new scope.
+
+Previous delivered scope: [TL-007 V6 Motion Maxxed Türkiye](TL-007-v6.md), all five
 phases engineering verified 25 October 2026 by one implementation agent. User
 creative acceptance pending; no follow-up or publication started. Prior scopes
 below are historical.

@@ -1,0 +1,28 @@
+{
+  "scope": "Isolated Windows headless Chromium1440x900, actual continuous native wheel, expanded trace categories, no video and no concurrent QA browser. Diagnostic complements rather than replaces the video-enabled trace.",
+  "build": "zg9w4BHJT8lgBs6oxSwGY",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "effective": {
+    "reduce": false,
+    "manual": "system",
+    "saveData": false,
+    "owner": "native",
+    "visibility": "visible"
+  },
+  "timing": {
+    "samples": 1133,
+    "frameIntervalsMs": {
+      "median": 16.700000000000728,
+      "p95": 50,
+      "p99": 50.100000000000364,
+      "max": 100
+    },
+    "longTasks": [],
+    "end": {
+      "y": 14657,
+      "max": 14657
+    }
+  },
+  "status": "recorded"
+}

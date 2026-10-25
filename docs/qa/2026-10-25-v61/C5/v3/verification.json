@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-25T02:14:28.237Z",
+  "startedAt": "2026-10-25T03:40:16.788Z",
   "browser": "Chromium",
   "stage": "full",
   "status": "passed",
@@ -446,7 +446,7 @@
   ],
   "errors": [],
   "performance": {
-    "mobile4xNavigationAndSelectionMs": 3583
+    "mobile4xNavigationAndSelectionMs": 4641
   },
   "serviceKeyboardBounds": [
     {
@@ -498,8 +498,8 @@
       "href": "/en/services/flights-hotels",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 881.671875,
-      "bottom": 967.671875,
+      "top": 882.671875,
+      "bottom": 968.671875,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -509,8 +509,8 @@
       "href": "/en/services/tailor-made",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 882.671875,
-      "bottom": 968.671875,
+      "top": 884.671875,
+      "bottom": 970.671875,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -520,8 +520,8 @@
       "href": "/en/services/events",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 884.671875,
-      "bottom": 970.671875,
+      "top": 882.671875,
+      "bottom": 968.671875,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -531,8 +531,8 @@
       "href": "/en/services/training",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 882.671875,
-      "bottom": 968.671875,
+      "top": 881.671875,
+      "bottom": 967.671875,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -542,8 +542,8 @@
       "href": "/en/services/visa-assistance",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 884.671875,
-      "bottom": 970.671875,
+      "top": 886.671875,
+      "bottom": 972.671875,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -553,8 +553,8 @@
       "href": "/ar/services/tours",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 702.484375,
-      "bottom": 788.484375,
+      "top": 718.484375,
+      "bottom": 804.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -564,8 +564,8 @@
       "href": "/ar/services/hajj-umrah",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 647.484375,
-      "bottom": 733.484375,
+      "top": 696.484375,
+      "bottom": 782.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -575,8 +575,8 @@
       "href": "/ar/services/camps",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 719.484375,
-      "bottom": 805.484375,
+      "top": 725.484375,
+      "bottom": 811.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -608,8 +608,8 @@
       "href": "/ar/services/tailor-made",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 884.484375,
-      "bottom": 970.484375,
+      "top": 882.484375,
+      "bottom": 968.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -619,8 +619,8 @@
       "href": "/ar/services/events",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 884.484375,
-      "bottom": 970.484375,
+      "top": 882.484375,
+      "bottom": 968.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -630,8 +630,8 @@
       "href": "/ar/services/training",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 884.484375,
-      "bottom": 970.484375,
+      "top": 882.484375,
+      "bottom": 968.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -641,8 +641,8 @@
       "href": "/ar/services/visa-assistance",
       "left": 705.421875,
       "right": 1376.640625,
-      "top": 882.484375,
-      "bottom": 968.484375,
+      "top": 884.484375,
+      "bottom": 970.484375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -652,8 +652,8 @@
       "href": "/tr/services/tours",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 702.9375,
-      "bottom": 788.9375,
+      "top": 544.9375,
+      "bottom": 630.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -663,8 +663,8 @@
       "href": "/tr/services/hajj-umrah",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 638.9375,
-      "bottom": 724.9375,
+      "top": 631.9375,
+      "bottom": 717.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -696,8 +696,8 @@
       "href": "/tr/services/flights-hotels",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 881.9375,
-      "bottom": 967.9375,
+      "top": 886.9375,
+      "bottom": 972.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -707,8 +707,8 @@
       "href": "/tr/services/tailor-made",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 881.9375,
-      "bottom": 967.9375,
+      "top": 886.9375,
+      "bottom": 972.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -718,8 +718,8 @@
       "href": "/tr/services/events",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 881.9375,
-      "bottom": 967.9375,
+      "top": 884.9375,
+      "bottom": 970.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -729,8 +729,8 @@
       "href": "/tr/services/training",
       "left": 63.359375,
       "right": 734.578125,
-      "top": 881.9375,
-      "bottom": 967.9375,
+      "top": 891.9375,
+      "bottom": 977.9375,
       "width": 1440,
       "height": 1000,
       "headerBottom": 72
@@ -762,8 +762,8 @@
       "href": "/ar/services/visa-assistance",
       "left": 627.03125,
       "right": 1223.6875,
-      "top": 345.734375,
-      "bottom": 431.734375,
+      "top": 344.734375,
+      "bottom": 430.734375,
       "width": 1280,
       "height": 600,
       "headerBottom": 72
@@ -789,5 +789,5 @@
     "journeyAction": true,
     "decodedImageCount": 0
   },
-  "finishedAt": "2026-10-25T02:20:21.676Z"
+  "finishedAt": "2026-10-25T03:46:09.446Z"
 }

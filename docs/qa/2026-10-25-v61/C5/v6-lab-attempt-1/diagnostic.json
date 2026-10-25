@@ -1,0 +1,34 @@
+{
+  "running": "true",
+  "paused": "false",
+  "visibility": "visible",
+  "focus": "<button aria-pressed=\"true\"><span>05</span><strong>أنطاليا</strong><svg xmlns=\"http://www.w3.org/200",
+  "windowHover": false,
+  "window": {
+    "x": 0,
+    "y": 516.75,
+    "width": 390,
+    "height": 142,
+    "top": 516.75,
+    "right": 390,
+    "bottom": 658.75,
+    "left": 0
+  },
+  "heading": {
+    "x": 22,
+    "y": 439.3125,
+    "width": 346,
+    "height": 53.4375,
+    "top": 439.3125,
+    "right": 368,
+    "bottom": 492.75,
+    "left": 22
+  },
+  "animation": [
+    {
+      "playState": "running",
+      "time": 383.26099997628484
+    }
+  ],
+  "sw": 390
+}

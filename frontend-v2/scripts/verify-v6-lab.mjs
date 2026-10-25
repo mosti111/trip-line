@@ -33,7 +33,8 @@ try{
   }
   await page.locator('.rt-index button').nth(2).click();await page.locator('.rt-index button').nth(11).click();await page.locator('.rt-index button').nth(4).click();
   await page.waitForTimeout(900);await expect(page.locator('.rt-preview h3')).toContainText(locale==='ar'?'أنطاليا':locale==='tr'?'Antalya':'Antalya');
-  await page.mouse.move(0,0);await page.locator('.v6-network-heading').scrollIntoViewIfNeeded();await page.waitForTimeout(300);
+  await page.locator('.v6-network-tracks').scrollIntoViewIfNeeded();await page.mouse.move(0,0);await page.waitForTimeout(300);
+  if(!reduced)await expect(page.locator('.v6-network')).toHaveAttribute('data-running','true');
   const track=page.locator('.v6-network-track').first();
   const x1=await track.evaluate(el=>getComputedStyle(el).transform);await page.waitForTimeout(650);const x2=await track.evaluate(el=>getComputedStyle(el).transform);
   if(!reduced)expect(x1).not.toBe(x2);else expect(x2).toBe('none');

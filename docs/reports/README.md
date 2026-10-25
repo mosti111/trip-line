@@ -1,4 +1,7 @@
-Current: [TL-007 V6 delivery](TL-007-v6.md), engineering verified 25 October 2026;
+Current: [TL-008 V6.1 delivery](TL-008-v61.md), C0–C5 engineering/rendered verification
+complete25October2026; ready for user creative review, no publication.
+
+Previous: [TL-007 V6 delivery](TL-007-v6.md), engineering verified 25 October 2026;
 ready for user creative review, no publication. Historical reports follow.
 
 Previous: [TL-006 V5 report](TL-006-v5.md).

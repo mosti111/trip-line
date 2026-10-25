@@ -1,0 +1,471 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "en-1440-motion",
+      "states": [
+        {
+          "scene": ".rh-threshold",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L0.0854 0 L0.2022 .22 L0.0659 .48 L0.1827 .72 L0.0854 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L0.8885 0 L0.9027 .22 L0.8861 .48 L0.9004 .72 L0.8885 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, 14.2132)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 6.65277)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, -2.77753)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, -19.2873)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, -12.2415)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.345401)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, 14.2141)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 6.61973)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 2.55672)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "start",
+          "transform": "matrix(0.94, 0, 0, 0.94, 0, 0)",
+          "clip": "inset(0px 9% round 48px)",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0px 0%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0px 0%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "start",
+          "transform": "matrix(0.987688, -0.156434, 0.156434, 0.987688, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "start",
+          "transform": "matrix(0.9813, 0, 0, 0.9813, 0, 0)",
+          "clip": "inset(20.625% 16.875%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "mid",
+          "transform": "matrix(0.9925, 0, 0, 0.9925, 0, 0)",
+          "clip": "inset(8.25% 6.75%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0%)",
+          "d": null
+        }
+      ],
+      "services": 9,
+      "countries": 9,
+      "journey": "add/reorder/remove pass"
+    },
+    {
+      "id": "ar-390-motion",
+      "states": [
+        {
+          "scene": ".rh-threshold",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 0.0449 L1 0.0909 L1 0.1363 L1 0.1829 L0 0.1829 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 0.1542 L1 0.3338 L1 0.5008 L1 0.6931 L0 0.6931 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, 13.0748)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 5.74934)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0381883)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, -19.605)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, -8.74367)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, -0.0851214)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, 13.051)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 5.76562)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.0531558)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "start",
+          "transform": "matrix(0.94, 0, 0, 0.94, 0, 0)",
+          "clip": "inset(0px 3% round 20px)",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0px 0%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0px 0%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "start",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "mid",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "start",
+          "transform": "matrix(0.9812, 0, 0, 0.9812, 0, 0)",
+          "clip": "inset(11.2533% 5.6267%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "mid",
+          "transform": "matrix(0.9925, 0, 0, 0.9925, 0, 0)",
+          "clip": "inset(4.4978% 2.2489%)",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "end",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "clip": "inset(0%)",
+          "d": null
+        }
+      ],
+      "services": 9,
+      "countries": 9,
+      "journey": "add/reorder/remove pass"
+    },
+    {
+      "id": "en-1440-reduced",
+      "states": [
+        {
+          "scene": ".rh-threshold",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-threshold",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": "M0 0 L1 0 L1 .22 L1 .48 L1 .72 L1 1 L0 1 Z"
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-0",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-1",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-signature-2",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-film",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-story",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "start",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "mid",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        },
+        {
+          "scene": ".rh-final",
+          "label": "end",
+          "transform": "none",
+          "clip": "none",
+          "d": null
+        }
+      ],
+      "services": 9,
+      "countries": 9,
+      "journey": "add/reorder/remove pass"
+    }
+  ],
+  "errors": []
+}

@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-25T02:12:26.553Z",
+  "startedAt": "2026-10-25T03:39:31.290Z",
   "browser": "Chromium",
   "stage": "full",
   "status": "passed",
@@ -166,5 +166,5 @@
     "Device and persistent reduced motion: static ribbon and no automatic video download"
   ],
   "errors": [],
-  "finishedAt": "2026-10-25T02:13:16.344Z"
+  "finishedAt": "2026-10-25T03:40:15.277Z"
 }

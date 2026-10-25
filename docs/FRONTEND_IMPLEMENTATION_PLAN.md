@@ -1,7 +1,7 @@
-V6.1 status25October2026: TL-008 C0–C4 verified on codex/trip-line-v6-creative-rework,
-latest checkpoint0ba1e4c. C5 production regression/evidence in progress; creative
-acceptance pending. User AFK guard pauses at5% remaining in each300-minute window,
-saves a recoverable checkpoint and resumes only after reset. See current
+V6.1 status25October2026: TL-008 C0–C5 engineering and rendered review complete on
+codex/trip-line-v6-creative-rework; applicationae05ab5, final buildzg9w4BHJT8lgBs6oxSwGY.
+Creative acceptance pending. AFK pause/resume completed; automations disabled after
+delivery. See current
 [state](orchestration/v61-state.json) and [report](reports/TL-008-v61.md).
 No merge/push/deploy/publication. Historical phase planning follows.
 

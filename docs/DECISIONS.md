@@ -258,3 +258,17 @@ geographic overlay, one commercial billboard and connected native-scroll scenes
 supersede those earlier compositions. Existing identity, data, translation,
 provenance, accessibility and no-publication boundaries remain. No model-switch
 claim or new scrolling engine. User creative acceptance remains pending.
+
+## TL-DEC-019 — accessible geographic controls in V6.1
+
+25 October2026. Implementation under TL-008; user creative acceptance pending.
+Rendered accessibility testing exposed collisions between44px targets positioned
+directly over close geographic anchors. Preserve the exact geographic anchors,
+boundary geometry and route endpoints, and use the existing separated callout
+positions for the controls, connected by thin leader lines. Keep7px marks, no
+numbered map circles and the integrated photographic stage. This resolves the
+task's geographic-integrity and accessible-hit-area requirements together, without
+changing destination identity, order, state or inquiry behavior. Evidence:
+[failed scan](qa/2026-10-25-v61/C5/v6-accessibility-before-map-accessibility-fix/accessibility.json),
+[corrected scan](qa/2026-10-25-v61/C5/v6-accessibility/accessibility.json),
+[final Atlas proof](qa/2026-10-25-v61/C5/atlas/report.json).

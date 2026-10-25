@@ -1,0 +1,206 @@
+[
+  {
+    "url": "/en",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".v61-story-origin"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #936629, background color: #f8efe0, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Trabzon\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 12.6px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Rize & Ayder\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 14.6px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 9.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Bodrum\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 18.5px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 4.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Fethiye\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 19px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 6.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Sapanca\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 21.9px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Bursa\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 40.9px by 13.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 5.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Yalova\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 40.9px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "/ar",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".v61-story-origin"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #936629, background color: #f8efe0, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "/ar/about",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/contact",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/services/hajj-umrah",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/services/tours",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/business",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/ar/destinations/turkiye/rize-ayder",
+    "width": 390,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": []
+  },
+  {
+    "url": "/en/motion-lab",
+    "width": 1440,
+    "engine": {
+      "name": "axe-core",
+      "version": "4.14.0"
+    },
+    "violations": [
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Trabzon\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 12.6px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 11px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Rize & Ayder\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 14.6px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 9.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Bodrum\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 18.5px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 4.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Fethiye\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 19px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 6.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Sapanca\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 21.9px by 40.9px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Bursa\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 40.9px by 13.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 5.8px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".rt-desktop-map > .rt-map.rt-map-stage[dir=\"ltr\"] > .rt-map-canvas > .rt-map-pin[aria-label=\"Yalova\"][data-in-journey=\"false\"]"
+            ],
+            "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 40.9px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0px instead of at least 24px."
+          }
+        ]
+      }
+    ]
+  }
+]
