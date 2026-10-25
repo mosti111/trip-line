@@ -1,3 +1,20 @@
+## Temporary public review — 25 October 2026
+
+The user has explicitly approved publishing V1 without login for two days:
+[TL-010](tasks/TL-010-temporary-public-review.md). This scoped exception supersedes
+the earlier preview-only boundary below. UI/content remain the reviewed0a1325a;
+only an optional server request expiry guard was added. Deadline27 October2026
+18:22:45 Europe/Istanbul (15:22:45UTC), independently enforced on Vercel for pages
+and assets. Core37/build,128 active/expired cases and full public120 regression
+pass. [Report](reports/TL-010-temporary-public-review.md).
+
+The final deployment URL/SHA and previous production/protection are saved after
+commit in `tmp/v1-public-review/state.json`. Scheduled heartbeat
+`expire-trip-line-public-client-review` restores prior access settings/production
+at expiry if this temporary deployment remains current, without overwriting a
+newer unrelated release. No main merge, V7, final creative approval or billing
+change. Noindex, legal/source qualifications and prepared-message inquiry remain.
+
 ## V1 mobile review release — 25 October 2026
 
 TL-009 on `codex/trip-line-v1-mobile-review`, baseline3442a6b preserved on

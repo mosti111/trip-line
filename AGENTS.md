@@ -1,5 +1,16 @@
 # Trip Line — agent operating map
 
+## Temporary public review — TL-010, 25 October 2026
+
+The user explicitly approved a two-day no-login production review after TL-009.
+[TL-010](docs/tasks/TL-010-temporary-public-review.md) supersedes the preview-only
+boundary for this window only. Keep the V1 design, noindex and inquiry-only behavior.
+Server-enforced expiry:27 October2026 at18:22:45 Europe/Istanbul. Read
+`tmp/v1-public-review/state.json` for the exact deployment/protection recovery data.
+One current implementation agent; no subagents, main merge or billing change.
+The scheduled same-chat follow-up restores prior protection/production only when
+the recorded temporary deployment remains current. No V7 or further creative work.
+
 ## Current V1 mobile review — 25 October 2026
 
 Direct user authority in [TL-009](docs/tasks/TL-009-v1-mobile-review.md) authorizes

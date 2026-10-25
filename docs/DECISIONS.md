@@ -1,3 +1,16 @@
+## TL-DEC-020 — Two-day no-login production review
+
+25 October2026. Direct user confirmation: “it's okay make it temporary and expires
+in 2 days”, following the explicit public production/login-removal question.
+[TL-010](tasks/TL-010-temporary-public-review.md) authorizes this limited exposure
+of the existing review content, not final relationships/creative approval. Publish
+the reviewed V1 with a deployment-only HTTP410 deadline for every page/asset:
+27 October2026 at18:22:45 Europe/Istanbul. Schedule restoration of original
+protection and previous production, guarded against unrelated later releases.
+This overrides the earlier no-production/public-access rule only for this window.
+Keep noindex, source/legal notes and inquiry-only behavior. No main merge, new
+creative features, dependencies or billing change. [Report](reports/TL-010-temporary-public-review.md).
+
 ## TL-DEC-019 — V1 mobile review release and protected Preview
 
 25 October2026. Direct user authority: [TL-009](tasks/TL-009-v1-mobile-review.md).

@@ -1,3 +1,11 @@
+Temporary public review25October2026: [TL-010](tasks/TL-010-temporary-public-review.md)
+explicitly authorizes a no-login production window ending27October18:22:45
+Europe/Istanbul. UI/content remain the reviewed V1; optional server-side expiry
+returns410 for pages/assets at the deadline. Core37/build/128 expiry cases/public120
+pass. Scheduled restoration is guarded against unrelated future releases. No main
+merge, redesign or final creative approval. See the task report and operational
+receipt `tmp/v1-public-review/state.json` for actual production binding.
+
 V1 review release25October2026: [TL-009](tasks/TL-009-v1-mobile-review.md) polishes
 phones/tablets on verified V6.1, with no V7 or desktop reconstruction. Recovery
 `codex/v61-before-v1-mobile`; review branch `codex/trip-line-v1-mobile-review`.

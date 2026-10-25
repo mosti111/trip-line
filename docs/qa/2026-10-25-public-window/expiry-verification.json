@@ -1,0 +1,640 @@
+{
+  "status": "passed",
+  "live": "http://localhost:3015",
+  "expired": "http://localhost:3016",
+  "cases": [
+    {
+      "url": "/en",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/tours",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/hajj-umrah",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/camps",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/corporate",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/flights-hotels",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/tailor-made",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/events",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/training",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/services/visa-assistance",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/georgia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/egypt",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/saudi-arabia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/oman",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/qatar",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/uae",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/maldives",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/malaysia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/indonesia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/business",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/about",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/contact",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/faq",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/privacy",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/terms",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/istanbul",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/trabzon",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/rize-ayder",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/uzungol",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/antalya",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/bodrum",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/fethiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/marmaris",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/sapanca",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/bursa",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/yalova",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/en/destinations/turkiye/cappadocia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/tours",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/hajj-umrah",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/camps",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/corporate",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/flights-hotels",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/tailor-made",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/events",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/training",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/services/visa-assistance",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/georgia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/egypt",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/saudi-arabia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/oman",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/qatar",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/uae",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/maldives",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/malaysia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/indonesia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/business",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/about",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/contact",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/faq",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/privacy",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/terms",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/istanbul",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/trabzon",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/rize-ayder",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/uzungol",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/antalya",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/bodrum",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/fethiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/marmaris",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/sapanca",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/bursa",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/yalova",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/tr/destinations/turkiye/cappadocia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/tours",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/hajj-umrah",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/camps",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/corporate",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/flights-hotels",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/tailor-made",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/events",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/training",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/services/visa-assistance",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/georgia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/egypt",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/saudi-arabia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/oman",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/qatar",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/uae",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/maldives",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/malaysia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/indonesia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/business",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/about",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/contact",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/faq",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/privacy",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/terms",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/istanbul",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/trabzon",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/rize-ayder",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/uzungol",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/antalya",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/bodrum",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/fethiye",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/marmaris",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/sapanca",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/bursa",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/yalova",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/ar/destinations/turkiye/cappadocia",
+      "live": 200,
+      "expired": 410
+    },
+    {
+      "url": "/",
+      "expired": 410
+    },
+    {
+      "url": "/media/istanbul-v5.jpg",
+      "expired": 410
+    },
+    {
+      "url": "/media/istanbul-ferries.mp4",
+      "expired": 410
+    },
+    {
+      "url": "/brand/mark.svg",
+      "expired": 410
+    },
+    {
+      "url": "/robots.txt",
+      "expired": 410
+    },
+    {
+      "url": "/sitemap.xml",
+      "expired": 410
+    },
+    {
+      "url": "/api/v1/health",
+      "expired": 410
+    },
+    {
+      "url": "/_next/static/chunks/04rru5r092yfw.js",
+      "expired": 410
+    }
+  ],
+  "errors": []
+}

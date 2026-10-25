@@ -1,4 +1,8 @@
-Current authorized scope: [TL-009 V1 mobile polish and client preview](TL-009-v1-mobile-review.md),
+Current authorized operation: [TL-010 two-day public review](TL-010-temporary-public-review.md),
+25 October2026. Explicit public production exception, server-side expiry and
+scheduled restoration. No creative redesign or main merge.
+
+Previous scope: [TL-009 V1 mobile polish and client preview](TL-009-v1-mobile-review.md),
 25 October2026. Verified V6.1 baseline, phone polish and protected Preview only;
 review branch push authorized, no main merge or production promotion.
 

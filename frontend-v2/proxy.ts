@@ -1,7 +1,24 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { isLocale, preferredLocale } from './lib/i18n';
 import { publicPaths } from './lib/travel-content';
+import { reviewHasExpired } from './lib/review-window';
 export function proxy(request: NextRequest) {
+  const deadline = process.env.TRIPLINE_REVIEW_EXPIRES_AT;
+  if (reviewHasExpired(deadline)) return new NextResponse('This client review has expired.', {
+    status: 410,
+    headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'private, no-store', 'X-Robots-Tag': 'noindex, nofollow' },
+  });
+  // These paths previously bypassed locale/CSP routing. Only the expiry gate
+  // applies to them, keeping media, fonts, scripts and API requests intact.
+  const excluded = /^\/(?:api|_next\/static|_next\/image|favicon.ico|brand\/|images\/|media\/|robots.txt|sitemap.xml)/.test(request.nextUrl.pathname);
+  const response = excluded ? NextResponse.next() : localizedProxy(request);
+  if (deadline) {
+    response.headers.set('X-Tripline-Review-Expires', new Date(deadline).toISOString());
+    response.headers.set('Cache-Control', 'private, no-store');
+  }
+  return response;
+}
+function localizedProxy(request: NextRequest) {
   const path=request.nextUrl.pathname;
   const segment=path.split('/')[1];
   const locale=isLocale(segment)?segment:preferredLocale(request.cookies.get('tripline-language')?.value,request.headers.get('accept-language'));
@@ -20,4 +37,4 @@ export function proxy(request: NextRequest) {
   }
   return response;
 }
-export const config = { matcher: ["/((?!api|_next/static|_next/image|favicon.ico|brand/|images/|media/|robots.txt|sitemap.xml).*)"] };
+export const config = { matcher: ['/:path*'] };
