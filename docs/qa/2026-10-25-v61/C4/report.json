@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "emptyPhotoAbsent": true,
+      "actualPreviewAndOrder": true,
+      "allNineServiceFocus": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "emptyPhotoAbsent": true,
+      "actualPreviewAndOrder": true,
+      "allNineServiceFocus": true
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "emptyPhotoAbsent": true,
+      "actualPreviewAndOrder": true,
+      "allNineServiceFocus": true
+    }
+  ],
+  "errors": []
+}

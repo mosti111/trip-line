@@ -13,7 +13,7 @@ import { PlanJourney } from '../experience/JourneyActions';
 import { JourneyEcho } from '../v61/JourneyEcho';
 
 export function HomeStory({ locale }: { locale: Locale }) {
-  return <section className="rh-story" data-chapter="07" aria-labelledby="story-title"><div className="rh-wrap rh-story-layout"><MemoryStack locale={locale}/><div className="rh-story-copy"><span className="rh-kicker">07 / TRIP LINE</span><h2 id="story-title">{ui.storyTitle[locale]}</h2><p>{ui.storyBody[locale]}</p><Link className="journey-text-link" href={href(locale, 'about')}>{t('Explore our story', 'اكتشف قصتنا', 'Hikâyemizi keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div></section>;
+  return <section className="rh-story" data-chapter="07" aria-labelledby="story-title"><div className="rh-wrap rh-story-layout"><MemoryStack locale={locale}/><div className="rh-story-copy"><span className="rh-kicker">07 / TRIP LINE</span><p className="v61-story-origin">{companyProfile.established[locale]}</p><h2 id="story-title">{ui.storyTitle[locale]}</h2><p>{ui.storyBody[locale]}</p><Link className="journey-text-link" href={href(locale, 'about')}>{t('Explore our story', 'اكتشف قصتنا', 'Hikâyemizi keşfet')[locale]}<ArrowUpRight size={18}/></Link></div></div></section>;
 }
 export function HomeProof({ locale }: { locale: Locale }) {
   const differentiators = ['customized-experiences', 'professional-team', 'attention-to-detail'].map(id => profileDifferentiators.find(item => item.id === id)!);

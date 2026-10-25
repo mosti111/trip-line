@@ -1,0 +1,19 @@
+/* An empty route has no destination photograph. Only actual stops form a line. */
+.rh-builder-preview[data-empty=true]{height:165px;border-radius:0;border-block:1px solid #93662955;display:flex;align-items:center;gap:24px;padding:24px 0;background:transparent}
+.rh-builder-preview[data-empty=true]>span{position:static;order:-1;font-family:var(--control-type);font-size:86px;font-weight:600;line-height:1;color:#936629}
+.rh-builder-preview[data-empty=true]>small{font-size:13px;line-height:1.7;max-width:260px;color:#194244}
+.recovery-home.v61-home .rh-builder-route ol{position:relative}
+.recovery-home.v61-home .rh-builder-route ol:before{content:'';position:absolute;inset-inline-start:13px;top:28px;bottom:65px;width:1px;background:#93662970;pointer-events:none}
+.recovery-home.v61-home .rh-builder-route .rh-stop-number{position:relative;z-index:1;outline:5px solid #f8efe0}
+.recovery-home.v61-home .v6-memories{height:580px}
+.recovery-home.v61-home .v6-memory-0{left:0;top:0;width:43%}
+.recovery-home.v61-home .v6-memory-1{left:8%;right:auto;top:100px;width:82%;z-index:2}
+.recovery-home.v61-home .v6-memory-2{right:0;bottom:0;width:45%}
+.recovery-home.v61-home .v6-memory-1 .photo{height:320px}
+.recovery-home.v61-home .v6-memory-0 .photo,.recovery-home.v61-home .v6-memory-2 .photo{height:170px}
+.recovery-home.v61-home .v6-memory-surface{transform:none;border:1px solid #93662933;box-shadow:0 8px 18px #071f2012}
+.recovery-home.v61-home .v6-memory:is(:hover,:focus-within){z-index:5}
+.recovery-home.v61-home .v61-story-origin{font-size:11px;color:#936629;margin:0 0 18px;letter-spacing:.025em}
+@media(max-width:1023px){.recovery-home.v61-home .v6-memories{height:530px}.recovery-home.v61-home .v6-memory-1 .photo{height:280px}.recovery-home.v61-home .v6-memory-0 .photo,.recovery-home.v61-home .v6-memory-2 .photo{height:150px}}
+@media(max-width:767px){.recovery-home.v61-home .v6-memories{height:480px;margin-bottom:25px}.recovery-home.v61-home .v6-memory-1{left:6%;top:85px;width:88%}.recovery-home.v61-home .v6-memory-1 .photo{height:270px}.recovery-home.v61-home .v6-memory-0,.recovery-home.v61-home .v6-memory-2{width:39%}.recovery-home.v61-home .v6-memory-0 .photo,.recovery-home.v61-home .v6-memory-2 .photo{height:125px}}
+@media(max-width:767px){.rh-builder-preview[data-empty=true]{height:140px;gap:18px}.rh-builder-preview[data-empty=true]>span{font-size:70px}.rh-builder-preview[data-empty=true]>small{font-size:12px}}
