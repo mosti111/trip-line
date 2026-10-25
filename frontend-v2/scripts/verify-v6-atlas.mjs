@@ -1,5 +1,5 @@
 import { chromium, expect } from '@playwright/test';import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
-const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P4/atlas/',import.meta.url));fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
+const out=process.env.QA_OUT?path.resolve(process.env.QA_OUT):fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P4/atlas/',import.meta.url));fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
 try{for(const [locale,width,height,reduced]of[['en',1440,900,false],['ar',1440,900,false],['ar',390,844,true]]){
  const context=await browser.newContext({viewport:{width,height},reducedMotion:reduced?'reduce':'no-preference',recordVideo:{dir:out,size:{width,height}}});const page=await context.newPage();page.on('pageerror',e=>report.errors.push(String(e)));await page.goto((process.env.QA_URL||'http://localhost:3006')+`/${locale}/motion-lab`,{waitUntil:'networkidle'});await page.locator('.rt-index').scrollIntoViewIfNeeded();const states=[];
  for(const [index,slug]of[[2,'rize-ayder'],[11,'cappadocia'],[4,'antalya']]){

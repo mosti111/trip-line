@@ -1,6 +1,6 @@
 import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
-const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P1/media/',import.meta.url));fs.mkdirSync(out,{recursive:true});
+const out=process.env.QA_OUT?path.resolve(process.env.QA_OUT):fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P1/media/',import.meta.url));fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
 try{for(const [locale,width,height] of [['en',1440,900],['ar',390,844]]){
  const page=await browser.newPage({viewport:{width,height}});page.on('pageerror',e=>report.errors.push(String(e)));await page.goto((process.env.QA_URL||'http://localhost:3006')+`/${locale}/motion-lab`,{waitUntil:'networkidle'});

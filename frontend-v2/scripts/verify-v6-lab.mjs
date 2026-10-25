@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const base=process.env.QA_URL||'http://localhost:3006';
-const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P0/',import.meta.url));fs.mkdirSync(out,{recursive:true});
+const out=process.env.QA_OUT?path.resolve(process.env.QA_OUT):fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P0/',import.meta.url));fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch();
 const prior=process.env.QA_REDUCED_ONLY?JSON.parse(fs.readFileSync(path.join(out,'report.json'),'utf8')):null;
 const report={status:'running',cases:prior?.cases||[],errors:[],browser:browser.version()};
@@ -38,10 +38,10 @@ try{
   const x1=await track.evaluate(el=>getComputedStyle(el).transform);await page.waitForTimeout(650);const x2=await track.evaluate(el=>getComputedStyle(el).transform);
   if(!reduced)expect(x1).not.toBe(x2);else expect(x2).toBe('none');
   await page.locator('.v6-network-tracks').hover();await page.waitForTimeout(120);
-  if(!reduced)expect(await track.evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused');
+  if(!reduced)expect(await track.evaluate(el=>el.getAnimations()[0]?.playState||getComputedStyle(el).animationPlayState)).toBe('paused');
   else expect(await track.evaluate(el=>getComputedStyle(el).animationName)).toBe('none');
   await page.screenshot({path:path.join(out,`${id}-network.png`)});
-  await page.locator('.v6-network-tracks').focus();if(!reduced)expect(await track.evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused');
+  await page.locator('.v6-network-tracks').focus();if(!reduced)expect(await track.evaluate(el=>el.getAnimations()[0]?.playState||getComputedStyle(el).animationPlayState)).toBe('paused');
   report.cases.push({id,heroStart:stage,heroDeparted:departed,trackStart:x1,trackEnd:x2});await context.close();
   fs.renameSync(await page.video().path(),path.join(out,`${id}.webm`));
  }

@@ -1,8 +1,14 @@
 ## V6.1 active — 25 October 2026
 
-TL-008 on codex/trip-line-v6-creative-rework; C0–C2 verified, latest C2 ce16af9.
-C3 source/evidence in progress; reverse aperture verification failed and must be
-diagnosed before acceptance. Preserve all existing failed evidence. C4/C5 unstarted.
+TL-008 on codex/trip-line-v6-creative-rework; C0–C4 verified. C3 checkpoint8fe48ca,
+C4 checkpoint0ba1e4c. Earlier C3 mask/overflow/style failures corrected and preserved.
+C5 in progress: current build uEobGv-Ii3wiKq7rzOY90 typecheck/lint/32 tests/build and
+public120 routes pass; local production preview3008. Full V3 running. Earlier
+public failure exposed zero-sized hidden scene geometry: finite positive guards
+fixed route calibration; old evidence retained. Atlas tests now check exact semantic
+headings rather than concatenating aria-hidden animation layers.
+Remaining public/V3/V6 protection,36-case matrix, actual wheel/touch, isolated trace,
+accessibility, durable packaging and reporting. Preserve all failed evidence.
 Single implementation agent, no subagents; no merge/push/deploy/publication.
 User AFK instruction: at **5% remaining** (usedPercent >=95) in each 300-minute
 usage window, save everything into a recoverable honest checkpoint and pause;

@@ -4,7 +4,7 @@
   "recovery": "229a7a2",
   "recoveryBranch": "codex/v6-before-v6-1",
   "topology": "single implementation agent; no subagents",
-  "phase": "C4",
+  "phase": "C5",
   "status": "IN_PROGRESS",
   "checkpoints": [
     {
@@ -26,11 +26,16 @@
       "phase": "C3",
       "sha": "8fe48ca",
       "evidence": "docs/qa/2026-10-25-v61/C3/report.json"
+    },
+    {
+      "phase": "C4",
+      "sha": "0ba1e4c",
+      "evidence": "docs/qa/2026-10-25-v61/C4/report.json"
     }
   ],
   "creativeAcceptance": "pending",
   "publication": "not authorized",
-  "currentVerification": "C4 browser three configurations, actual rendered story/builder review, typecheck and lint passed; checkpoint ready. C5 pending.",
+  "currentVerification": "C5 current build uEobGv-Ii3wiKq7rzOY90: typecheck/lint/32 tests/build/public120 routes passed after zero-geometry guard; full V3 running; remaining gates pending.",
   "usageGuard": {
     "authority": "User AFK instruction, 25 October 2026: save everything and pause at 5% remaining in each five-hour window; resume after reset.",
     "thresholdUsedPercent": 95,

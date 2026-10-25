@@ -39,18 +39,20 @@ export function V6Motion() {
         const junction=root.querySelector<HTMLElement>('.v61-world-junction');
         const branches=root.querySelector<SVGSVGElement>('.v61-world-branches');
         if(!receiving?.ownerSVGElement||!junction||!branches)return;
-        const a=arrivalPath.ownerSVGElement.getBoundingClientRect(),b=receiving.ownerSVGElement.getBoundingClientRect(),j=junction.getBoundingClientRect();
-        if(!a.width||!b.width||!b.height)return;
+        const a=arrivalPath.ownerSVGElement.getBoundingClientRect(),b=receiving.ownerSVGElement.getBoundingClientRect(),j=junction.getBoundingClientRect(),bounds=branches.getBoundingClientRect();
+        // Activity/route transitions can temporarily hide a retained scene.
+        // Keep its valid route until visible geometry can be measured again.
+        if(![a.width,a.height,b.width,b.height,bounds.width,bounds.height].every(size=>Number.isFinite(size)&&size>0))return;
         const raw=MotionPathPlugin.getRawPath(arrivalPath.getAttribute('d')||'');
         const tip=MotionPathPlugin.getPositionOnPath(raw,1);
         const x=(a.left+tip.x/1440*a.width-b.left)/b.width*1440;
         const y=(a.top+tip.y/900*a.height-b.top)/b.height*1200;
         const jx=(j.left+j.width/2-b.left)/b.width*1440,jy=(j.top+j.height/2-b.top)/b.height*1200;
         receiving.setAttribute('d',`M${x} ${y} C${x} ${y+130} ${jx+120} ${jy-100} ${jx} ${jy}`);
-        const bounds=branches.getBoundingClientRect();
         const start={x:(j.left+j.width/2-bounds.left)/bounds.width*1440,y:(j.top+j.height/2-bounds.top)/bounds.height*1200};
         branches.querySelectorAll<SVGPathElement>('[data-world-branch]').forEach((path,index)=>{
           const photo=root.querySelectorAll<HTMLElement>('.rh-world-photo')[index].getBoundingClientRect();
+          if(!photo.width||!photo.height)return;
           const end={x:(photo.left+photo.width*.5-bounds.left)/bounds.width*1440,y:(photo.top+photo.height*.4-bounds.top)/bounds.height*1200};
           path.setAttribute('d',`M${start.x} ${start.y} Q${(start.x+end.x)/2} ${start.y-80} ${end.x} ${end.y}`);
         });
@@ -67,6 +69,7 @@ export function V6Motion() {
         const svg=finalPath?.ownerSVGElement;const action=root.querySelector<HTMLElement>('.rh-final .rh-actions .journey-action-primary');
         if(!svg||!action)return finalPath?.getAttribute('d')||'';
         const bounds=svg.getBoundingClientRect();const button=action.getBoundingClientRect();
+        if(!bounds.width||!bounds.height)return finalPath?.getAttribute('d')||'';
         const x=(button.left+button.width/2-bounds.left)/bounds.width*1440;
         const y=(button.bottom+16-bounds.top)/bounds.height*900;
         const rtl=getComputedStyle(root).direction==='rtl';const lane=rtl?340:1100;const approach=x+(rtl?-190:190);

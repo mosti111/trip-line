@@ -1,5 +1,5 @@
 import { chromium, expect } from '@playwright/test';import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
-const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P4/',import.meta.url));fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch();const report=[];
+const out=process.env.QA_OUT?path.resolve(process.env.QA_OUT):fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P4/',import.meta.url));fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch();const report=[];
 try{for(const [url,width] of [['/en',1440],['/ar',390],['/ar/about',390],['/en/contact',1440],['/ar/services/hajj-umrah',390],['/en/services/tours',1440],['/ar/business',390],['/ar/destinations/turkiye/rize-ayder',390],['/en/motion-lab',1440]]){
  const page=await browser.newPage({viewport:{width,height:900}});await page.goto((process.env.QA_URL||'http://localhost:3006')+url,{waitUntil:'networkidle'});await page.waitForTimeout(1450);
  const source=fs.readFileSync(process.env.AXE_PATH||fileURLToPath(new URL('../../tmp/v5/tools/node_modules/axe-core/axe.min.js',import.meta.url)),'utf8');

@@ -1,3 +1,10 @@
+V6.1 status25October2026: TL-008 C0–C4 verified on codex/trip-line-v6-creative-rework,
+latest checkpoint0ba1e4c. C5 production regression/evidence in progress; creative
+acceptance pending. User AFK guard pauses at5% remaining in each300-minute window,
+saves a recoverable checkpoint and resumes only after reset. See current
+[state](orchestration/v61-state.json) and [report](reports/TL-008-v61.md).
+No merge/push/deploy/publication. Historical phase planning follows.
+
 V5 status24October2026: P1–P5 engineering complete; [final delivery](reports/TL-006-v5.md). Stop at client creative review, with no publication or follow-up authorization. Historical phase planning follows.
 
 Current 24 October 2026: [V5 full five-phase solo reconstruction](tasks/TL-006-v5.md) authorized; checkpoints in [report](reports/TL-006-v5.md). Historical phase text below is retained.

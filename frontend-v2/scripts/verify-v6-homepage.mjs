@@ -1,5 +1,5 @@
 import { chromium, expect } from '@playwright/test';import fs from 'node:fs';import path from 'node:path';import { fileURLToPath } from 'node:url';
-const out=fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P2/',import.meta.url));fs.mkdirSync(out,{recursive:true});const base=process.env.QA_URL||'http://localhost:3006';const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
+const out=process.env.QA_OUT?path.resolve(process.env.QA_OUT):fileURLToPath(new URL('../../docs/qa/2026-10-24-v6/P2/',import.meta.url));fs.mkdirSync(out,{recursive:true});const base=process.env.QA_URL||'http://localhost:3006';const browser=await chromium.launch();const report={status:'running',cases:[],errors:[]};
 async function wheelTo(page,target){target=Math.max(0,target);for(let i=0;i<130;i++){const y=await page.evaluate(()=>scrollY);const delta=target-y;if(Math.abs(delta)<3)return;await page.mouse.wheel(0,Math.sign(delta)*Math.min(240,Math.abs(delta)));await page.waitForTimeout(40);}}
 if(process.env.QA_REMAINING)report.cases=JSON.parse(fs.readFileSync(path.join(out,'report.json'),'utf8')).cases;
 try{for(const [locale,width,height,reduced] of [['en',1440,900,false],['ar',390,844,false],['en',1440,900,true]]){
