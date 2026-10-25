@@ -10,7 +10,7 @@
 .v61-network .v61-billboard-track{display:flex;width:max-content;animation:none!important;will-change:transform}
 .v61-network .v61-billboard-track .v61-billboard-group{display:flex;flex-wrap:nowrap;align-items:center;gap:88px;padding:0 88px 0 0;margin:0;list-style:none;width:max-content}
 .v61-network .v61-billboard-track li{display:flex;align-items:center;justify-content:center;flex:0 0 var(--logo-width);width:var(--logo-width);height:172px;padding:0}
-.v61-network .v61-billboard-track img{width:auto;height:auto;max-width:100%;max-height:100px;object-fit:contain;transition:none;scale:none}
+.v61-network .v61-billboard-track img{width:auto;height:100px;max-width:100%;max-height:100px;object-fit:contain;transition:none;scale:none}
 .v61-network .v61-billboard-track li:hover img{scale:none}
 .v61-network .v6-network-note{max-width:none;font-size:10px!important;line-height:1.7!important;margin-block:0 20px}
 .v61-network .v6-institutions{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:0;padding-top:16px;border-top:1px solid #19424420}
@@ -25,7 +25,7 @@ html[data-motion-layout=static] .v61-network .v61-billboard-group[aria-hidden=tr
 html[data-motion-layout=static] .v61-network .v61-billboard-group li{width:100%;height:116px}
 @media(max-width:767px){
  .v61-network{padding:28px 0}.v61-network .v6-network-heading{flex-direction:row;align-items:center}.v61-network .v6-network-heading>div{display:block}.v61-network .v6-network-heading h2{font-size:23px;max-width:210px}.v61-network .v6-network-heading .rh-kicker{margin-bottom:8px}.v61-network button{min-width:90px;font-size:10px}
- .v61-network .v61-billboard-window{margin-top:24px}.v61-network .v61-billboard-track .v61-billboard-group{gap:56px;padding-right:56px}.v61-network .v61-billboard-track li{height:140px;flex-basis:calc(var(--logo-width)*.85);width:calc(var(--logo-width)*.85)}.v61-network .v61-billboard-track img{max-height:82px}
+ .v61-network .v61-billboard-window{margin-top:24px}.v61-network .v61-billboard-track .v61-billboard-group{gap:56px;padding-right:56px}.v61-network .v61-billboard-track li{height:140px;flex-basis:calc(var(--logo-width)*.85);width:calc(var(--logo-width)*.85)}.v61-network .v61-billboard-track img{height:82px;max-height:82px}
  .v61-network .v6-institutions{display:block}.v61-network .v6-institutions ul{gap:28px;margin-top:18px}.v61-network .v6-institutions img{max-width:85px;max-height:44px}
  html[data-motion-layout=static] .v61-network .v61-billboard-group{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 28px;padding:24px 28px}
 }
