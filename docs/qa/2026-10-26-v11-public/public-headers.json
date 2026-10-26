@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/en",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/tr",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/ar",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/media/istanbul-v5.jpg",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/media/istanbul-ferries.mp4",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/brand/mark.svg",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0ql5t7nfxef9d.js",
+    "status": 200,
+    "expiry": "2026-10-27T15:22:45.000Z",
+    "cookie": false,
+    "queryToken": false
+  }
+]

@@ -1,3 +1,7 @@
+## Public V1.1 access exception — TL-012
+
+Direct user request authorizes a separate temporary public review URL without login. [Task](docs/tasks/TL-012-v11-public-client-review.md), [report](docs/reports/TL-012-v11-public-client-review.md). Source98c44f8d unchanged; original production untouched. Same27October2026 18:22:45 Istanbul expiry; no main merge or further creative work.
+
 ## Current V1.1 mobile creative recovery — TL-011
 
 Direct [V1.1 authority](docs/tasks/TL-011-v11-instructions.md) rejects V1 mobile

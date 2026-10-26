@@ -1,3 +1,5 @@
+Public V1.1 access delivered26October2026: [TL-012](reports/TL-012-v11-public-client-review.md), https://trip-line-v11-client-review.vercel.app/en . Source98c44f8d unchanged, separate temporary project, no login; existing production preserved. Server expiry27October18:22:45 Istanbul. Stop pending client review.
+
 V1.1 delivered26October2026: reviewed source98c44f8d on
 `codex/trip-line-v11-mobile-recovery`, separate Preview READY; actual hosted33
 pages/48 mobile cases/6 fresh no-login access cases/desktop3 exact RGB comparisons

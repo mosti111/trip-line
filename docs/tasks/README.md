@@ -1,3 +1,5 @@
+Current access delivery: [TL-012 public V1.1 review](TL-012-v11-public-client-review.md), separate temporary public URL, same expiry, existing production preserved.
+
 Current: [TL-011 — V1.1 mobile creative recovery](TL-011-v11-mobile-recovery.md), four phases and separate Preview; desktop/production preserved.
 
 Current authorized operation: [TL-010 two-day public review](TL-010-temporary-public-review.md),

@@ -1,3 +1,15 @@
+## Public V1.1 client review — 26 October 2026
+
+[TL-012](tasks/TL-012-v11-public-client-review.md) delivered a bare public URL:
+https://trip-line-v11-client-review.vercel.app/en . No login/share token required.
+Unchanged source98c44f8d, new isolated project, READY deployment
+`dpl_DQF8DKuSvtPMpdALsL1f37UcYrh5`. Six fresh browser sessions,33 hosted pages,
+three locale touch flows and seven plain media/page requests pass. Existing
+production remains untouched. Same server expiry27October18:22:45 Istanbul;
+existing expiry audit covers both projects. This supersedes the share-link-only
+access instruction below. [Report](reports/TL-012-v11-public-client-review.md).
+Physical iPhone Safari and creative acceptance remain human checks.
+
 ## V1.1 local review release — 26 October 2026
 
 [TL-011](tasks/TL-011-v11-mobile-recovery.md): local source/rendered verification
