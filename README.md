@@ -1,13 +1,18 @@
 # Trip Line
 
-## Current project — 3 October 2026
+## Current project — 27 October 2026
 
-**Active frontend: [`frontend-v2/`](frontend-v2/).** Forty public content pages in
-Arabic, English and Turkish, all twelve Turkish destinations, nine services, geographic
-discovery, film, scroll-driven 3D and prepared WhatsApp/email inquiry. V2 has verified
-delivery evidence. V3 [Bronze Journey](docs/V3_BRONZE_JOURNEY.md) is implemented on
-`feat/v3-bronze-journey` with refinement/QA in progress; V2 results are not V3 sign-off.
-Current V2/V3 deployment is not established; backend/CMS and publication remain.
+**Active frontend: [`frontend-v2/`](frontend-v2/).** The latest V1.1 review release
+is on `codex/trip-line-v11-mobile-recovery`, with forty public content paths in
+English, Arabic and Turkish, native-scroll cinematic scenes, twelve Turkish
+destinations, nine services and prepared WhatsApp/email inquiry. Engineering
+verification and client creative acceptance are separate; acceptance is pending.
+Backend/CMS and booking operations remain incomplete.
+
+Read [PROJECT_STATUS.md](PROJECT_STATUS.md) for the current architecture, post-V3
+history, deployment bindings, verification evidence, limitations and priorities.
+Temporary review URLs have a recorded expiry of 27 October 2026 at 18:22:45
+Europe/Istanbul; historical deployment links are not a live-access guarantee.
 
 **Start with [AGENTS.md](AGENTS.md), [handoff](docs/AI_HANDOFF.md),
 [product vision](docs/PRODUCT_VISION.md) and [decisions](docs/DECISIONS.md).**

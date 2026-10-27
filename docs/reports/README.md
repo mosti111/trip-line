@@ -1,3 +1,5 @@
+Latest administrative report: [TL-013 GitHub synchronization and handoff](TL-013-github-sync-handoff.md), fresh checks and repository handoff; application/deployments unchanged.
+
 Latest: [TL-012 public V1.1 review](TL-012-v11-public-client-review.md), bare public URL verified in fresh phone-browser sessions.
 
 Current: [TL-011 — V1.1 mobile creative recovery](TL-011-v11-mobile-recovery.md), rendered/mobile/motion verification and Preview delivery.

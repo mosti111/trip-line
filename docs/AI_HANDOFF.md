@@ -1,3 +1,13 @@
+## Repository synchronization handoff — 27 October 2026
+
+[PROJECT_STATUS.md](../PROJECT_STATUS.md) consolidates the current V1.1 architecture,
+post-TL-003 history, historical QA, deployment bindings and remaining limits.
+[TL-013](reports/TL-013-github-sync-handoff.md) records fresh verification and
+active-feature-branch synchronization. Application code and deployment resources
+are unchanged; client creative acceptance remains pending. Temporary public access
+has the recorded 27 October 18:22:45 Istanbul expiry; prior hosted checks below
+are dated evidence, not a current access guarantee.
+
 ## Public V1.1 client review — 26 October 2026
 
 [TL-012](tasks/TL-012-v11-public-client-review.md) delivered a bare public URL:

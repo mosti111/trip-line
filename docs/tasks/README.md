@@ -1,3 +1,5 @@
+Latest administrative scope: [TL-013 GitHub synchronization and handoff](TL-013-github-sync-handoff.md), 27 October 2026; documentation/checks and active-branch push only, no deployment or application changes.
+
 Current access delivery: [TL-012 public V1.1 review](TL-012-v11-public-client-review.md), separate temporary public URL, same expiry, existing production preserved.
 
 Current: [TL-011 — V1.1 mobile creative recovery](TL-011-v11-mobile-recovery.md), four phases and separate Preview; desktop/production preserved.

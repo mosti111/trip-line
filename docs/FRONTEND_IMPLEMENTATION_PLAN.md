@@ -1,3 +1,8 @@
+27 October 2026: [TL-013 synchronization/handoff](reports/TL-013-github-sync-handoff.md)
+adds [PROJECT_STATUS](../PROJECT_STATUS.md), fresh verification and active-branch
+GitHub synchronization only. No application implementation or deployment change;
+V1.1 remains pending client creative acceptance. Proposed next tasks are unstarted.
+
 Public V1.1 access delivered26October2026: [TL-012](reports/TL-012-v11-public-client-review.md), https://trip-line-v11-client-review.vercel.app/en . Source98c44f8d unchanged, separate temporary project, no login; existing production preserved. Server expiry27October18:22:45 Istanbul. Stop pending client review.
 
 V1.1 delivered26October2026: reviewed source98c44f8d on
