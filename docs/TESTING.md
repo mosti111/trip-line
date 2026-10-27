@@ -1,3 +1,5 @@
+> Historical platform testing plan and earlier frontend guidance. Current commands and release gates: [QA_RELEASE](QA_RELEASE.md); current evidence: [PROJECT_STATUS](../PROJECT_STATUS.md). The dated material below is preserved, not a claim of current QA.
+
 # Test and acceptance plan
 
 Status: current frontend verification procedure plus unfinished production acceptance plan.

@@ -1,0 +1,108 @@
+{
+  "status": "pass",
+  "date": "2026-10-28",
+  "timezone": "Europe/Istanbul",
+  "startingCommit": "d917ebd440113e31fad0eae8f9166b2a73bcbd42",
+  "mechanicalCommit": "59c462ee464d058b1ef54f227656e8fbbed79b72",
+  "branch": "codex/v1-baseline-consolidation",
+  "productionBuildId": "pjeCsyxHLNDInvBkFPnmJ",
+  "install": {
+    "command": "pnpm install --frozen-lockfile",
+    "status": "pass",
+    "scope": "Existing workspace/cache; already up to date. Not a clean-room clone."
+  },
+  "core": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "unitTests": 59,
+    "unitFiles": 4,
+    "productionBuild": "pass"
+  },
+  "renderedComparison": {
+    "status": "pass",
+    "exactPngAndSemanticMatches": 9,
+    "viewports": [
+      "390x844",
+      "768x1024",
+      "1440x1000"
+    ],
+    "locales": [
+      "en",
+      "ar",
+      "tr"
+    ],
+    "mode": "saved Reduced, OS reduce"
+  },
+  "public": {
+    "status": "passed",
+    "routes": 120,
+    "checks": 5,
+    "captures": 6,
+    "errors": 0
+  },
+  "journey": {
+    "status": "passed",
+    "checks": 16,
+    "captures": 60,
+    "errors": 0
+  },
+  "motion": {
+    "status": "passed",
+    "cases": 36,
+    "effects": 108,
+    "fallbacks": 2,
+    "errors": 0
+  },
+  "map": {
+    "status": "passed",
+    "cases": 24,
+    "touchSelections": 288,
+    "errors": 0
+  },
+  "sitemapMetadataAndAssets": {
+    "status": "pass",
+    "routes": 120,
+    "assets": 45,
+    "errors": 0
+  },
+  "limitations": [
+    "No deployment or current provider-control-plane verification.",
+    "No physical iPhone Safari or Android.",
+    "No creative acceptance, field FPS or new complete WCAG audit.",
+    "Viewport comparison certifies settled Reduced homepage only; Full behavior tested separately.",
+    "Markdown checker validates relative targets, not heading fragments or remote URL availability."
+  ],
+  "commands": [
+    "git fetch origin",
+    "git branch -avv",
+    "git worktree list",
+    "git ls-remote --tags origin",
+    "pnpm install --frozen-lockfile",
+    "pnpm typecheck",
+    "pnpm lint",
+    "pnpm test",
+    "pnpm build",
+    "pnpm start --port 3040 (baseline)",
+    "pnpm start --port 3041 (cleaned)",
+    "QA_URL=http://localhost:3040 QA_OUT=../tmp/consolidation/baseline node scripts/verify-baseline.mjs",
+    "QA_URL=http://localhost:3041 QA_OUT=../tmp/consolidation/cleaned QA_COMPARE=../tmp/consolidation/baseline/report.json node scripts/verify-baseline.mjs",
+    "QA_URL=http://localhost:3041 QA_OUT=../tmp/consolidation/public node scripts/verify-public.mjs",
+    "QA_URL=http://localhost:3041 QA_OUT=../tmp/consolidation/v3 node scripts/verify-v3.mjs",
+    "QA_URL=http://localhost:3041 QA_OUT=../tmp/consolidation/motion node scripts/verify-tl014-motion.mjs",
+    "QA_URL=http://localhost:3041 QA_OUT=../tmp/consolidation/map node scripts/verify-v11-map.mjs",
+    "node ../tmp/consolidation/verify-integrity.mjs (from frontend-v2)",
+    "node scripts/verify-docs.mjs (from repository root)",
+    "node --check scripts/verify-docs.mjs",
+    "node --check frontend-v2/scripts/verify-baseline.mjs",
+    "git diff --check",
+    "git diff --cached --check"
+  ],
+  "documentation": {
+    "status": "pass",
+    "scope": "All tracked and non-ignored Markdown: relative file/directory targets, excluding fenced examples, external URLs and anchor-only links. Heading fragments are not validated.",
+    "documents": 224,
+    "checked": 1379,
+    "missing": []
+  },
+  "commandNotation": "Environment-prefixed entries are reporting shorthand for actual PowerShell $env: assignments; commands ran from frontend-v2 unless labeled root."
+}

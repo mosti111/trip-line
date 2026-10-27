@@ -1,3 +1,5 @@
+> Historical demo evidence and unfinished target-platform plan. Current environment policy and procedures: [DEPLOYMENTS](DEPLOYMENTS.md). Commands below are historical proposals and require current explicit deployment authorization.
+
 # Deployment and recovery plan
 
 Status: historical V1 demo deployment evidence plus a target production/recovery plan.

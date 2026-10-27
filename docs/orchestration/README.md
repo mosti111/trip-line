@@ -1,3 +1,5 @@
+> Historical orchestration records retained in place. Current workflow: [AGENTS](../../AGENTS.md), [START_HERE](../START_HERE.md). No historical state, model-routing instruction or lease here authorizes new work, delegation or a runtime model change.
+
 # Trip Line orchestration
 
 This layer extends the [root operating map](../../AGENTS.md); it does not replace

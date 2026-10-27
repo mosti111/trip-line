@@ -1,0 +1,308 @@
+{
+  "status": "pass",
+  "routes": [
+    "/en",
+    "/en/services",
+    "/en/services/tours",
+    "/en/services/hajj-umrah",
+    "/en/services/camps",
+    "/en/services/corporate",
+    "/en/services/flights-hotels",
+    "/en/services/tailor-made",
+    "/en/services/events",
+    "/en/services/training",
+    "/en/services/visa-assistance",
+    "/en/destinations",
+    "/en/destinations/turkiye",
+    "/en/destinations/georgia",
+    "/en/destinations/egypt",
+    "/en/destinations/saudi-arabia",
+    "/en/destinations/oman",
+    "/en/destinations/qatar",
+    "/en/destinations/uae",
+    "/en/destinations/maldives",
+    "/en/destinations/malaysia",
+    "/en/destinations/indonesia",
+    "/en/business",
+    "/en/about",
+    "/en/contact",
+    "/en/faq",
+    "/en/privacy",
+    "/en/terms",
+    "/en/destinations/turkiye/istanbul",
+    "/en/destinations/turkiye/trabzon",
+    "/en/destinations/turkiye/rize-ayder",
+    "/en/destinations/turkiye/uzungol",
+    "/en/destinations/turkiye/antalya",
+    "/en/destinations/turkiye/bodrum",
+    "/en/destinations/turkiye/fethiye",
+    "/en/destinations/turkiye/marmaris",
+    "/en/destinations/turkiye/sapanca",
+    "/en/destinations/turkiye/bursa",
+    "/en/destinations/turkiye/yalova",
+    "/en/destinations/turkiye/cappadocia",
+    "/ar",
+    "/ar/services",
+    "/ar/services/tours",
+    "/ar/services/hajj-umrah",
+    "/ar/services/camps",
+    "/ar/services/corporate",
+    "/ar/services/flights-hotels",
+    "/ar/services/tailor-made",
+    "/ar/services/events",
+    "/ar/services/training",
+    "/ar/services/visa-assistance",
+    "/ar/destinations",
+    "/ar/destinations/turkiye",
+    "/ar/destinations/georgia",
+    "/ar/destinations/egypt",
+    "/ar/destinations/saudi-arabia",
+    "/ar/destinations/oman",
+    "/ar/destinations/qatar",
+    "/ar/destinations/uae",
+    "/ar/destinations/maldives",
+    "/ar/destinations/malaysia",
+    "/ar/destinations/indonesia",
+    "/ar/business",
+    "/ar/about",
+    "/ar/contact",
+    "/ar/faq",
+    "/ar/privacy",
+    "/ar/terms",
+    "/ar/destinations/turkiye/istanbul",
+    "/ar/destinations/turkiye/trabzon",
+    "/ar/destinations/turkiye/rize-ayder",
+    "/ar/destinations/turkiye/uzungol",
+    "/ar/destinations/turkiye/antalya",
+    "/ar/destinations/turkiye/bodrum",
+    "/ar/destinations/turkiye/fethiye",
+    "/ar/destinations/turkiye/marmaris",
+    "/ar/destinations/turkiye/sapanca",
+    "/ar/destinations/turkiye/bursa",
+    "/ar/destinations/turkiye/yalova",
+    "/ar/destinations/turkiye/cappadocia",
+    "/tr",
+    "/tr/services",
+    "/tr/services/tours",
+    "/tr/services/hajj-umrah",
+    "/tr/services/camps",
+    "/tr/services/corporate",
+    "/tr/services/flights-hotels",
+    "/tr/services/tailor-made",
+    "/tr/services/events",
+    "/tr/services/training",
+    "/tr/services/visa-assistance",
+    "/tr/destinations",
+    "/tr/destinations/turkiye",
+    "/tr/destinations/georgia",
+    "/tr/destinations/egypt",
+    "/tr/destinations/saudi-arabia",
+    "/tr/destinations/oman",
+    "/tr/destinations/qatar",
+    "/tr/destinations/uae",
+    "/tr/destinations/maldives",
+    "/tr/destinations/malaysia",
+    "/tr/destinations/indonesia",
+    "/tr/business",
+    "/tr/about",
+    "/tr/contact",
+    "/tr/faq",
+    "/tr/privacy",
+    "/tr/terms",
+    "/tr/destinations/turkiye/istanbul",
+    "/tr/destinations/turkiye/trabzon",
+    "/tr/destinations/turkiye/rize-ayder",
+    "/tr/destinations/turkiye/uzungol",
+    "/tr/destinations/turkiye/antalya",
+    "/tr/destinations/turkiye/bodrum",
+    "/tr/destinations/turkiye/fethiye",
+    "/tr/destinations/turkiye/marmaris",
+    "/tr/destinations/turkiye/sapanca",
+    "/tr/destinations/turkiye/bursa",
+    "/tr/destinations/turkiye/yalova",
+    "/tr/destinations/turkiye/cappadocia"
+  ],
+  "assets": [
+    {
+      "path": "/media/turkiye.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/istanbul-v5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/cappadocia-v5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/saudi-arabia.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/corporate-v5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/rize-ayder.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/antalya-coast-v5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/bursa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/diar-al-manasik.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/turkish-airlines.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/grand-aras.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/wyndham.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/ndc-portal.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/yamacda.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/bike-hotel.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/rezlive.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/copthorne.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/santa-ottoman.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/megza.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/ratehawk.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/homey.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/continent.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/days-inn.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/millennium.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/saudi-hajj-umrah.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/nusuk.png",
+      "status": 200
+    },
+    {
+      "path": "/brand/network/optical/tursab.png",
+      "status": 200
+    },
+    {
+      "path": "/media/georgia.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/egypt.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/oman.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/qatar.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/uae.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/maldives.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/malaysia.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/indonesia.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/antalya.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/fethiye.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/sapanca.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/partners-1.png",
+      "status": 200
+    },
+    {
+      "path": "/media/partners-2.png",
+      "status": 200
+    },
+    {
+      "path": "/media/trabzon.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/uzungol.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/bodrum.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/marmaris.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/yalova.jpg",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

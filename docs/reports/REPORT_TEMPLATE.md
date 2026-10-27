@@ -1,6 +1,6 @@
 # TL-### — Title
 
-Task: [matching specification](../tasks/TL-###-short-description.md)
+Task: replace with a link to the matching specification in `../tasks/`.
 Date: YYYY-MM-DD, Europe/Istanbul.
 
 ## Outcome

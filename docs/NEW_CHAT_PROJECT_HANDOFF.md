@@ -1,3 +1,5 @@
+> Historical handoff retained for reasoning and recovery. New sessions start at [START_HERE](START_HERE.md) and [PROJECT_STATUS](../PROJECT_STATUS.md). Earlier scope/status instructions below are not current authority.
+
 # Trip Line — complete project and design handoff
 
 > Historical design handoff from 1 October. Start with [AI_HANDOFF.md](AI_HANDOFF.md) for current code, completed work and next steps. The user subsequently approved implementation and added a Türkiye-first focus with twelve destination pages. Design-only holds and preview-generation next steps below are superseded; retained company and design context remains useful.

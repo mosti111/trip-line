@@ -1,89 +1,51 @@
-Current TL-014 policy (27 October 2026): Full is the default without a saved
-preference, including OS Reduce Motion. Explicit System follows the OS; explicit
-Reduced is preserved. Menu/footer controls remain. Prepaint and hydration defaults
-agree; saved reductions stay static before hydration. See [task](tasks/TL-014-full-motion-default.md)
-and [verification](reports/TL-014-full-motion-default.md). This supersedes older
-initial-System wording; existing animations and native scrolling are preserved.
+# Motion system — current policy and implementation
 
-Current V6 uses native scrolling, scoped GSAP/ScrollTrigger/MotionPath for scene motion, Motion for UI state/layout and CSS for bounded interaction. No new scroller, mandatory WebGL or runtime dependency. [V6 ownership/timings](qa/2026-10-24-v6/MOTION_OWNERSHIP.md) and [delivery](reports/TL-007-v6.md) supersede conflicting historical choreography below.
+28 October 2026. Native scrolling at every breakpoint. Preserve GSAP/ScrollTrigger/
+MotionPath controllers, Motion UI/layout, finite CSS entrance and SVG Flight Trace.
+Current homepage imports V6Motion; no active global Lenis clock, long hero pin or
+mandatory WebGL sculpture. Historical names do not change current architecture.
 
-Current V5: native scroll at all breakpoints; no active Lenis, long hero pin or mandatory homepage Three scene. Read [TL-006](tasks/TL-006-v5.md), [solo workflow](orchestration/TRIP_LINE_V5_SOLO.md) and [verification](reports/TL-006-v5.md). CSS owns finite arrival, GSAP selected direct route strokes, Motion interactions/list layout. Older implementation snapshots below remain historical.
+## Full / System / Reduced
 
-# Trip Line motion system
+TL-014 explicitly selected Full as first-visit default, including when the OS requests
+reduction. This is a deliberate user product decision, not an accessibility recommendation
+to disregard system preferences in other products. Explicit System follows OS changes;
+explicit Reduced always reduces; explicit Full requests authored scenes subject to
+capability/pause fallbacks. Choices remain in the menu and footer.
 
-Authority for future motion work, consolidated 3 October 2026 from the approved identity,
-[delivery baseline](FRONTEND_DELIVERY.md) and [Bronze Journey](V3_BRONZE_JOURNEY.md).
-These are requirements; code existence does not certify performance or browser QA.
-Motion creates continuity, hierarchy, anticipation, depth and narrative progression.
+lib/motion-preference.ts parses tripline-motion; missing/invalid/unreadable storage
+resolves to Full without writing a default. Saved System/Reduced remain authoritative.
+The nonce-bearing layout bootstrap sets data-motion-choice/effective/layout before paint;
+SiteShell hydration uses matching defaults. Preserve prepaint reduction guards. Do not
+add an OS/Safari/SaveData veto to explicit Full scenes. SaveData remains a film/media
+constraint. Evidence: [TL-014](reports/TL-014-full-motion-default.md), [decisions](DECISIONS.md)
+and lib/motion-preference.test.ts.
 
-## Layer 1 — ambient motion
+## Ownership and choreography
 
-Keep environmental movement very low intensity: hero media, subtle object drift,
-slow spatial movement and controlled media parallax. Never compete with text.
-Film retains a poster, explicit pause/play, visibility pausing and motion/data-saver
-fallback. Do not block first meaningful content or require autoplay to explain it.
+- HomeArrival/current CSS own finite entrance; V6Motion owns scene progression/reversal.
+- AtlasStage/discovery synchronize selection, photography, masks, routes and markers.
+- Phone interactive geography stays stationary so delayed camera motion cannot displace targets (TL-011); decorative/photo motion remains.
+- PartnerBillboard provides source-logo movement with user/focus/hover/visibility pause.
+- Page controllers and Motion own internal reveals and UI/layout response; FlightTrace preserves identity.
+- HeroVideo keeps poster, playback controls, failed-media fallback and offscreen/hidden/network handling.
 
-## Layer 2 — scroll narrative
+Use [V6 ownership/timing](qa/2026-10-24-v6/MOTION_OWNERSHIP.md) and current source for actual
+timing/amplitude. Cached geometry/idle refresh avoid repeated path/layout reads on scroll.
+Clean up contexts, observers, listeners and animation work on unmount/preference changes.
+Preserve native wheel/touch/keyboard/anchors, dialogs and query context. Pointer decoration
+cannot gate information.
 
-Use mask/text reveals, route progression, spatial transformations, section transitions
-and controlled parallax to explain relationships. Coordinate section rhythm rather than
-animating every element independently. Content is readable in DOM order before enhancement
-and remains coherent without pinning or horizontal timelines.
+## Responsive, accessibility and fallbacks
 
-Current V3 uses homepage-scoped GSAP/ScrollTrigger and one eligible desktop Lenis instance.
-Eligibility requires width >=1024px, height >=800px, fine input and no reduced-motion
-or data-saver preference; other modes keep the native vertical composition.
-Native touch, keyboard, anchors and nested inputs remain authoritative; opening the modal
-pauses smooth scrolling. Clean up media-query contexts, observers, listeners and ticker
-callbacks on route/preference changes and unmount. See [V3 architecture](V3_BRONZE_JOURNEY.md);
-do not install another scrolling clock or casually replace Motion/GSAP/Lenis.
+Viewport variants tune composition/depth; they do not suppress scenes solely by browser
+or viewport identity. Reduced preserves final content/actions and reduces large spatial
+motion. Posters/static SVG/capability fallbacks retain content without autoplay/WebGL.
+Pause and hidden/offscreen behavior remain. V3 Lenis/height thresholds are historical.
 
-## Layer 3 — interaction response
-
-Buttons, links, destination/service selectors, image previews, menu and atlas selection
-respond quickly and with restraint. Hover and focus communicate meaningful state;
-no essential information depends on hover. Keep practical touch targets and keyboard operation.
-Shared destination-image transitions preserve ordinary navigation, modified clicks
-and unsupported-browser fallback; they must not delay actions.
-
-Earlier timing references (650–850ms reveals, 900–1200ms image reveals, small lifts/arrow
-shifts) are tuning guidance, not a mandatory animation for every element. Current
-destination portals specify 450ms shared morphs, disabled for reduced motion.
-
-## Layer 4 — 3D
-
-Three.js/R3F is a storytelling layer. The bronze route/ribbon connects opening,
-services, geography and inquiry; preserve it as identity.
-
-- Dynamically load client scenes and lazily initialize expensive work.
-- Cap DPR (current V3 cap: 1.5); reuse/dispose geometry and materials appropriately.
-- Use demand rendering; stop unnecessary rendering when idle/offscreen/document hidden.
-- Supply static SVG/poster fallback and restore it on WebGL/context failure.
-- Keep content and navigation independent of WebGL.
-- Avoid huge environments, unnecessary textures, heavy post-processing and shadows.
-
-Current V3 BronzeJourney keeps SVG present and initializes on intersection at ≥1024px
-with fine input unless motion is reduced or data-saving is requested. Restored
-WebGL contexts regenerate reflection textures. Shared Ribbon is static SVG.
-Do not assume every route uses the homepage scene.
-
-## Motion accessibility
-
-Device reduced motion and the site's explicit reduction preference meaningfully reduce
-parallax, large camera movement, repeated object movement, elaborate reveals, scroll pins
-and shared-image motion. Suppress automatic film loading where appropriate. Show final
-text/figures and preserve content, reading order and actions.
-
-## Input awareness
-
-Avoid pointer-follow effects on coarse pointers. Touch must not rely on hover or precise
-pointer movement. The current contextual caption is optional and retains the system cursor.
-Simplify effects on smaller screens without losing the narrative.
-
-## Performance and verification
-
-Prefer transforms/opacity for common motion. Motion never justifies blocking first content,
-permanent high-frequency idle rendering, huge media, scroll jank, layout thrashing or
-client hydration without value. Clean up all observers/listeners/animation loops.
-Test full/reduced motion, mobile/tablet, fine/coarse input, keyboard, Arabic and WebGL
-failure against production. Record results and limitations; V2 QA does not sign off V3.
+[QA/release](QA_RELEASE.md) defines policy/interaction checks. Windows Playwright WebKit
+is not physical iPhone Safari; programmatic scrolling is not physical swipe certification.
+Screenshot injection/provider feedback historically caused CSP noise; diagnose source
+before changing CSP. Field FPS, physical touch feel and creative approval are separate.
+[Historical rules](archive/historical-material/pre-v1-consolidation/docs/MOTION_SYSTEM.md)
+preserve superseded context.

@@ -1,102 +1,60 @@
-Current V6 adds isolated localized Motion Lab routes and scoped scene/UI controllers under components/v6. V5 routing, content, translations, planner, inquiry and native scroll remain. Existing Motion/GSAP only; cached MotionPath geometry and idle layout refresh avoid native path reads during scroll. [TL-007 delivery](reports/TL-007-v6.md) records verified scope; no backend/deployment change.
+# Architecture — implemented V1.0 candidate
 
-Current V5 homepage architecture: native scroll, server-visible localized content, thin SVG FlightTrace, finite CSS entrance, scoped GSAP decorative strokes and Motion interaction/layout. Old homepage Lenis/pin/sculpture modules are inactive historical recovery source. Stack/API/inquiry/publication boundaries stay unchanged. [TL-006 delivery](reports/TL-006-v5.md).
+28 October 2026. Active root: `frontend-v2/`. Current source and unfinished
+production platform are separate. [Historical architecture/target plan](archive/historical-material/pre-v1-consolidation/docs/ARCHITECTURE.md)
+preserve earlier reasoning. Cleanup keeps the application directory and approved stack.
 
-# Architecture
+## Rendering and routing
 
-Updated 3 October 2026. Current source and target production architecture are separate.
-Read [handoff](AI_HANDOFF.md) for status and [decisions](DECISIONS.md) for authority.
+Next.js 16.3.6 App Router, React/React DOM 19.3.0, strict TypeScript and Tailwind 4.
+Node 24.x / pnpm 11.25.0 are manifest requirements; pnpm-lock.yaml governs installation.
+The root layout loads Manrope/Noto Sans Arabic, CSS, a nonce-bearing motion bootstrap
+and SiteShell. proxy.ts resolves locale/cookie/legacy redirects, sets CSP nonce/locale
+headers, handles unknown public URLs and optionally gates requests with the deployment
+review deadline. Preserve its media/API routing exclusions.
 
-## Current architecture
+app/[locale]/[[...slug]]/page.tsx dispatches allowlisted public content and metadata.
+components/travel/Pages.tsx composes server-visible content; client islands own controls
+and enhancements. Motion Lab is separate from the 120 content URLs. Historical (public)/
+preview files survive; they do not establish a working CMS. The old loading boundary
+stays scoped to (public) so localized main content remains server-visible.
 
-`frontend-v2/` is the active Next App Router frontend. V2 has dated delivery evidence;
-V3 Bronze Journey has a [TL-001 delivery baseline](V3_FRONTEND_DELIVERY.md), with
-explicit browser/test limitations. V1 `frontend/` is preserved.
+## Source map
 
-| Boundary | Actual responsibility |
+| Source under frontend-v2 | Responsibility |
 | --- | --- |
-| `app/[locale]/[[...slug]]/page.tsx` | Server route dispatch, content allowlist, localized metadata/canonical/hreflang, query context |
-| `app/layout.tsx`, `proxy.ts` | Server layout/fonts, locale/direction headers, CSP nonce, preference/legacy redirects and unknown-route handling |
-| `lib/i18n.ts`, `travel-content.ts`, `turkiye.ts` | Typed local EN/AR/TR text, nine services, ten-country directory, twelve Turkish places and 40-path public inventory |
-| `components/travel/Pages.tsx` | Server page composition; homepage delegates to HomeJourney |
-| `components/travel/SiteShell.tsx` | Client shell/context, menu, preferences and navigation; inspect actual client boundaries before extending |
-| `components/travel/` | Client interaction islands for atlas, selectors, inquiry, film and ribbon; shared editorial sections |
-| `components/home-v3/`, `components/experience/` | Reconstructed homepage, interactive worlds/planner, place-detail chapters, scroll choreography, portals and lazy client 3D |
-| `styles/travel.css`, `experience.css` | Active brand tokens, responsive/RTL and V3 composition; older journal CSS is historical |
-| `public/media/`, `sources.json` | Self-hosted photos/film, provenance and source notes |
-| `scripts/verify-public.mjs`, `verify-v3.mjs`, `verify-v3-resilience.mjs` | Production browser checks; generated evidence under ignored root `tmp/frontend-qa/` |
+| lib/i18n.ts, travel-content.ts, turkiye.ts | Typed EN/AR/TR, 40-path allowlist, nine services, ten countries, twelve places |
+| components/travel/SiteShell.tsx | Global travel context, shell/menu, locale and motion choice |
+| components/experience/JourneyStore.tsx | Validated session journey IDs/order/type; no personal contact-data persistence |
+| components/experience/JourneyDrawer.tsx, JourneyActions.tsx | Shared journey actions and button alternatives |
+| components/home-v3/HomeJourney.tsx, HomeArrival.tsx, HomeEditorial.tsx | Current native-scroll homepage; historical names retained |
+| components/travel/TurkeyDiscovery.tsx, components/v61/AtlasStage.tsx | Synchronized place/index/photo/map discovery and stable phone controls |
+| components/v6/V6Motion.tsx, page motion controllers | Scoped GSAP scenes, cached MotionPath geometry and idle refresh |
+| components/v6/TravelNetwork.tsx, components/v61/PartnerBillboard.tsx | Source-derived billboard and pause behavior |
+| components/home-v3/JourneyBuilder.tsx, components/contact/ContactExperience.tsx, components/travel/Inquiry.tsx | Journey to editable WhatsApp/email inquiry |
+| components/services/, turkiye/, company/, secondary/ | Internal page families and scoped motion |
+| public/media/, public/brand/ | Self-hosted media, source records and identity |
+| styles/travel.css, experience.css, recovery-*, v5-*, v6-*, v61-*, v1-*, v11-* | Layered implemented styles; trace actual import/cascade before edits |
 
-Server Components dispatch and compose content; client islands own state and enhancement.
-Do not assume the desired future server/client split is already implemented everywhere.
-Public localized content uses local modules without backend requests. Older journal/API
-helpers and preview routes survive; they do not prove a working authenticated CMS.
-The loading boundary is scoped to historical `(public)` routes; localized main content
-renders directly without depending on client JS to reveal a streamed hidden segment.
-Locale routes are explicit /en, /ar, /tr, with English fallback, remembered selection
-and RTL Arabic; geography keeps its orientation. See [responsive rules](RESPONSIVE_RULES.md).
+Local content needs no backend. Journey context crosses to contact through validated
+query parameters; ordinary navigation, keyboard and no-WebGL access remain functional.
+Native scroll is current. Installed Lenis/R3F/Three and historical modules do not imply
+a current global smooth scroller or mandatory homepage sculpture.
 
-Inquiry validates client-side and prepares WhatsApp/email links. JourneyBuilder uses a
-GET context handoff (known/deduplicated destinations, ordered itinerary, dates/travelers);
-it is not booking, storage, payment or backend submission.
-Homepage motion uses existing GSAP/ScrollTrigger/Lenis, Motion and lazy demand-rendered
-R3F, with SVG fallback. Follow [motion rules](MOTION_SYSTEM.md) and
-[V3 architecture](V3_BRONZE_JOURNEY.md) for visibility, cleanup and eligibility.
+## Dependencies and integration boundaries
 
-### Manifest versions at inspection
+GSAP ^3.15 / Motion 13.4.4 own scene/UI motion. React Hook Form/resolvers, Zod and
+lucide-react support forms/icons. Three ^0.180, R3F 9.8.1/Drei 10.7.9, Lenis ^1.3.26
+and TanStack Query ^5.90 remain declared; some serve historical modules/platform scaffolding.
+See [inventory](reports/TL-016-inventory.md) before pruning. Vitest/Playwright provide checks.
+These are manifest versions/ranges, not claims about globally latest releases.
 
-Source: `frontend-v2/package.json`, 3 October 2026. These are manifest pins/ranges,
-not a claim that every range resolves to its minimum or that versions are globally latest.
-Node 24.x; pnpm 11.25.0.
+next.config.ts uses standalone output locally and provider output when VERCEL is set;
+optional MEDIA_ORIGIN restricts remote images. API rewrites target INTERNAL_API_URL
+unless TRIPLINE_DEMO=true. Public content needs neither API nor demo mode. Vercel config
+enables that flag to suppress backend rewrites. No .github CI workflow exists at preflight.
 
-| Package | Manifest |
-| --- | --- |
-| Next / eslint-config-next | 16.3.6 |
-| React / React DOM | 19.3.0 |
-| TypeScript | ^5.9.2 |
-| Motion | 13.4.4 |
-| Three.js | ^0.180.0 |
-| React Three Fiber / Drei | 9.8.1 / 10.7.9 |
-| GSAP / Lenis | ^3.15.0 / ^1.3.26 |
-| TanStack Query | ^5.90.0 |
-| React Hook Form / resolvers | ^7.62.0 / ^5.2.0 |
-| Zod | ^4.1.0 |
-| Tailwind / Tailwind PostCSS | ^4.1.13 / ^4.1.13 |
-| Vitest / Playwright test | ^3.2.4 / ^1.55.0 |
-
-Preserve dependencies unless a task authorizes a justified change. Use the lockfile for
-resolved versions and bundled Next documentation before framework changes.
-
-## Target production platform — unfinished
-
-The sections below preserve the broader production plan. Backend source and Flyway files
-exist, but PostgreSQL/runtime integration, authenticated CMS and operational acceptance
-remain unverified/unfinished. They do not describe the active public inquiry implementation.
-
-### System
-
-Use a monorepo with `frontend`, `backend`, `infra`, `docs`, and `.github/workflows`. Frontend is Next.js App Router with strict TypeScript and primarily Server Components. Backend is a Java 21 Spring Boot modular monolith. PostgreSQL holds content, identity, JDBC sessions, audit events, and contact submissions. Cloudflare R2 holds media binaries. Cloudflare Turnstile protects contact submission. Separate Coolify resources host frontend, backend, and database.
-
-The requested Spring Boot 4.1.x and React 19.3+ stable availability and mutual compatibility must be verified against official sources before pinning dependencies. Use Spring dependency management and lock frontend dependencies; do not silently substitute prereleases or change the requested stack.
-
-### Backend ownership
-
-Under `com.tripline.platform`, modules are `auth`, `users`, `content`, `services`, `media`, `contacts`, `settings`, and `audit`. Each owns its domain, repositories, application services, and controllers. `shared` contains only narrowly scoped infrastructure contracts and configuration. Cross-module work goes through explicit interfaces or domain events, never another module's repository. Spring Modulith verification enforces boundaries. Keep audit writes in the same transaction as successful business mutations where practical.
-
-### Target frontend boundaries
-
-Server Components own public page shells, content fetches, metadata, static navigation structure, and footer. Client islands own menus, forms, motion, hover previews, 3D, and admin interaction. Admin server state uses TanStack Query; forms use React Hook Form and Zod. Use TanStack Table where tabular behavior warrants it and restricted TipTap only for formatted long text.
-
-### Target routing and sessions
-
-Prefer same-origin `/api/v1` reverse proxy routing to Spring, with an internal backend URL for server fetches. This keeps browser session and CSRF behavior straightforward. Forward authenticated cookies only for explicit admin/preview requests. Public cached fetches never include session credentials. If an API subdomain is selected at deployment, document and test its explicit CORS, credentials, and cookie configuration.
-
-### Target publishing and concurrency
-
-Maintain separate draft and published snapshots, including visibility, ordering, localization, relations, and SEO. Check optimistic versions on edits and publication; conflicts return 409. Publish a complete aggregate in one database transaction. Public reads use published snapshots exclusively. Preview uses no-store authenticated reads. Use a short public cache window and authenticated targeted invalidation after publishing; invalidation failure must not roll back committed content or leave content stale indefinitely.
-
-### Historical aircraft enhancement proposal
-
-JourneyLine is reusable SVG. Hero aircraft is a dynamically imported R3F enhancement with static fallback, bounded DPR, demand rendering, reduced motion, and graceful WebGL failure. Only use supported stable transition APIs. Core content and navigation remain functional without these enhancements.
-
-This aircraft direction is historical; current public identity uses the bronze ribbon.
-Retain its fallback/performance principles without replacing the approved active sculpture.
+frontend/ preserves the original demo. backend/ contains unfinished Java 21/Spring source
+and migrations; database/auth/CMS/media/Turnstile/operations are not production accepted.
+[Platform](PRODUCT.md), [API](API.md), [database](DATABASE.md), [security](SECURITY.md)
+and [target deployment](DEPLOYMENT.md) remain conditional references.
