@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "url": "https://trip-line-tl014-motion-review.vercel.app",
+  "cases": [
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "status": 200,
+      "expiry": null,
+      "initialCookies": 0,
+      "loginRequired": false,
+      "effective": "full with OS reduced"
+    }
+  ],
+  "errors": []
+}

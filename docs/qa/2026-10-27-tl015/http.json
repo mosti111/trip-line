@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://trip-line-tl014-motion-review.vercel.app/en",
+    "status": 200,
+    "expiry": null,
+    "noindex": true
+  },
+  {
+    "url": "https://trip-line-tl014-motion-review.vercel.app/ar",
+    "status": 200,
+    "expiry": null,
+    "noindex": true
+  },
+  {
+    "url": "https://trip-line-tl014-motion-review.vercel.app/tr",
+    "status": 200,
+    "expiry": null,
+    "noindex": true
+  },
+  {
+    "url": "https://trip-line-tl014-motion-review.vercel.app/media/logo-source.png",
+    "status": 200,
+    "expiry": null,
+    "noindex": []
+  },
+  {
+    "url": "https://trip-line-tl014-motion-review-bkdttufhf.vercel.app/en",
+    "status": 200,
+    "expiry": null,
+    "noindex": true
+  }
+]

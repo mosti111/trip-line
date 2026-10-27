@@ -1,3 +1,11 @@
+## Review access without expiry — TL-015
+
+Direct user instruction "don't expire the url unless i say" supersedes TL-014's
+deadline for the isolated TL-014 review project. Keep its current review access
+open without automatic expiry until the user explicitly requests closure. See
+[TL-015](docs/tasks/TL-015-review-access-no-expiry.md). Older TL-010/TL-012 projects
+and their separately scoped automation are unchanged.
+
 ## Full Motion default correction — TL-014
 
 Direct user authority in [TL-014](docs/tasks/TL-014-full-motion-default.md) makes

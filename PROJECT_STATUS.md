@@ -1,5 +1,10 @@
 # Trip Line — technical and design handoff
 
+Current review URL: https://trip-line-tl014-motion-review.vercel.app/en .
+[TL-015](docs/reports/TL-015-review-access-no-expiry.md) removes automatic expiry
+from the current review deployment under direct user instruction. Keep it open
+until explicit user closure; prior TL-014 expiry/URL receipts are historical.
+
 Latest motion-policy work: [TL-014](docs/reports/TL-014-full-motion-default.md),
 27 October 2026. Full is now the unsaved default, including with OS reduction;
 saved System/Reduced choices remain authoritative. See that report for fresh

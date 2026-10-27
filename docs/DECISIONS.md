@@ -1,3 +1,10 @@
+## TL-DEC-024 — No automatic expiry for the current review URL
+
+27 October 2026. User: "don't expire the url unless i say". Remove the deadline
+from the isolated TL-014 review project's deployment configuration and keep its
+stable no-login review alias open until explicit user closure. Older projects'
+expiry remains separately scoped. See [TL-015](tasks/TL-015-review-access-no-expiry.md).
+
 ## TL-DEC-023 — Full Motion on first visit (TL-014)
 
 27 October 2026. Direct TL-014 user instruction supersedes TL-011's initial

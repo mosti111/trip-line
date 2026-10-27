@@ -1,3 +1,13 @@
+## Current review access — TL-015, no automatic expiry
+
+27 October 2026 user instruction: "don't expire the url unless i say".
+Use https://trip-line-tl014-motion-review.vercel.app/en (also /ar and /tr).
+Isolated Preview `dpl_4ocoadtaM2bnbguyhjqybrNc5U5P`, unchanged source `1f6e453`.
+No review deadline is configured; no login required. Keep access open until the
+user explicitly requests closure. The generated URL in the historical TL-014
+delivery below is superseded. Older TL-010/TL-012 projects/automation remain scoped
+to those older deliveries. [Report](reports/TL-015-review-access-no-expiry.md).
+
 ## Full Motion default — TL-014, 27 October 2026
 
 [TL-014](reports/TL-014-full-motion-default.md) corrects unsaved initialization
