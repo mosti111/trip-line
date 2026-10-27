@@ -1,3 +1,5 @@
+Latest motion policy: [TL-014 Full Motion default](TL-014-full-motion-default.md), initialization, persisted-choice and rendered motion evidence.
+
 Latest administrative report: [TL-013 GitHub synchronization and handoff](TL-013-github-sync-handoff.md), fresh checks and repository handoff; application/deployments unchanged.
 
 Latest: [TL-012 public V1.1 review](TL-012-v11-public-client-review.md), bare public URL verified in fresh phone-browser sessions.

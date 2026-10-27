@@ -1,5 +1,11 @@
 # Trip Line — technical and design handoff
 
+Latest motion-policy work: [TL-014](docs/reports/TL-014-full-motion-default.md),
+27 October 2026. Full is now the unsaved default, including with OS reduction;
+saved System/Reduced choices remain authoritative. See that report for fresh
+verification and the isolated review deployment receipt. TL-013 below records
+the preceding synchronization audit, not the new application change.
+
 Audited 27 October 2026 (Europe/Istanbul), task [TL-013](docs/tasks/TL-013-github-sync-handoff.md).
 This is a synchronization and documentation audit; application code and deployments
 were not changed. Start here, then read [AGENTS.md](AGENTS.md), the newest entries
@@ -119,7 +125,8 @@ selection. Arabic is actual RTL; maps, photos and geographic anchors retain thei
 physical orientation. Context and semantic order survive locale changes.
 
 Current motion authority is **System / Full / Reduced**, persisted under
-`tripline-motion` with a prepaint bootstrap. System follows OS reduction; explicit
+`tripline-motion` with a prepaint bootstrap. TL-014 makes Full the default when
+no valid choice is saved. System follows OS reduction; explicit
 Full or Reduced overrides it. V1.1 supersedes older unconditional system/SaveData
 motion suppression; SaveData remains relevant to media loading. Reduced mode
 preserves readable final content and usable controls. Do not apply historical

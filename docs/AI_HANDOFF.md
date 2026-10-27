@@ -1,3 +1,12 @@
+## Full Motion default — TL-014, 27 October 2026
+
+[TL-014](reports/TL-014-full-motion-default.md) corrects unsaved initialization
+to Full even with OS reduction. Saved System/Reduced remain authoritative;
+prepaint and React defaults agree. Existing design/scenes, native scrolling,
+menu/footer selectors, pause controls and fallbacks remain. Read the report for
+fresh verification and isolated Preview delivery; no main merge or existing
+production/expiry change. Physical iPhone Safari and creative acceptance remain open.
+
 ## Repository synchronization handoff — 27 October 2026
 
 [PROJECT_STATUS.md](../PROJECT_STATUS.md) consolidates the current V1.1 architecture,

@@ -1,3 +1,17 @@
+## TL-DEC-023 — Full Motion on first visit (TL-014)
+
+27 October 2026. Direct TL-014 user instruction supersedes TL-011's initial
+System default. Missing/invalid stored choice resolves to Full independently of
+OS reduction on capable devices. Explicit System follows OS changes; explicit
+Reduced remains Reduced. No storage migration: Git history shows writes only
+in selector change handlers, not automatic default persistence. Preserve saved
+System as deliberate. Prepaint and React defaults agree; saved Reduced/System
+CSS is applied before hydration. Preserve current scenes, native scrolling,
+capability/performance safeguards and pause controls. Evidence:
+[task](tasks/TL-014-full-motion-default.md),
+[report](reports/TL-014-full-motion-default.md). Physical iPhone Safari acceptance
+and client creative approval remain separate.
+
 ## TL-DEC-022 — Stationary interactive geographic frame
 
 26 October2026. Implementation decision within [TL-011](tasks/TL-011-v11-mobile-recovery.md);

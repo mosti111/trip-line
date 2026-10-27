@@ -37,7 +37,7 @@ function subscribe(fn: () => void) {
   connection?.addEventListener?.('change', fn);
   return () => { connection?.removeEventListener?.('change', fn); media.removeEventListener('change', fn); window.removeEventListener('tripline-preference', fn); window.removeEventListener('storage', fn); };
 }
-function preference() { try { return motionChoice(localStorage.getItem('tripline-motion')); } catch { return 'system'; } }
+function preference() { try { return motionChoice(localStorage.getItem('tripline-motion')); } catch { return motionChoice(null); } }
 function snapshot() { return resolveMotion(preference(), window.matchMedia('(prefers-reduced-motion: reduce)').matches) === 'reduced'; }
 function navigationSnapshot() { return snapshot(); }
 function MotionChoiceControl({ locale, choice }: { locale: Locale; choice: string }) {
@@ -81,10 +81,12 @@ function ShellContent({ locale, children, nonce }: { locale: Locale; children: R
   const header = useRef<HTMLElement>(null);
   const sticky = useRef<HTMLDivElement>(null);
   const progress = useRef<HTMLSpanElement>(null);
-  const calm = useSyncExternalStore(subscribe, snapshot, () => true);
-  const navigationCalm = useSyncExternalStore(subscribe, navigationSnapshot, () => true);
-  const choice = useSyncExternalStore(subscribe, preference, () => 'system');
-  useEffect(() => { const root = document.documentElement; root.dataset.motionChoice = choice; root.dataset.motionEffective = calm ? 'reduced' : 'full'; root.dataset.motionLayout = calm ? 'static' : 'motion'; }, [calm, choice]);
+  const calm = useSyncExternalStore(subscribe, snapshot, () => false);
+  const navigationCalm = useSyncExternalStore(subscribe, navigationSnapshot, () => false);
+  const choice = useSyncExternalStore(subscribe, preference, () => motionChoice(null));
+  // The first hydration render uses the server default; keep the live saved choice
+  // already applied by the head bootstrap instead of briefly overwriting it.
+  useEffect(() => { const root = document.documentElement; const reduced = snapshot(); root.dataset.motionChoice = preference(); root.dataset.motionEffective = reduced ? 'reduced' : 'full'; root.dataset.motionLayout = reduced ? 'static' : 'motion'; }, [calm, choice]);
   const journey = useJourney();
   const menuId = useId(), megaId = useId();
   const preview = turkishPlaces.find(place => place.slug === previewId) || turkishPlaces[0];

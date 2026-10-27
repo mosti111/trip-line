@@ -1,3 +1,12 @@
+## Full Motion default correction — TL-014
+
+Direct user authority in [TL-014](docs/tasks/TL-014-full-motion-default.md) makes
+Full the default without a saved preference, including with OS Reduce Motion.
+Preserve explicitly selected System/Reduced, native scrolling, pause/capability
+fallbacks and current design. Single agent, no subagents. Commit/push the existing
+feature branch, then a new isolated no-login review Preview after checks. Existing
+production aliases and 27 October 18:22:45 Istanbul expiry remain unchanged.
+
 ## Public V1.1 access exception — TL-012
 
 Direct user request authorizes a separate temporary public review URL without login. [Task](docs/tasks/TL-012-v11-public-client-review.md), [report](docs/reports/TL-012-v11-public-client-review.md). Source98c44f8d unchanged; original production untouched. Same27October2026 18:22:45 Istanbul expiry; no main merge or further creative work.

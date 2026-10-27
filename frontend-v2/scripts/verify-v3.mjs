@@ -103,11 +103,11 @@ try{
  await page.setViewportSize({width:844,height:390});await page.goto(base+'/ar');await clean(page,'landscape');await page.screenshot({path:path.join(out,'arabic-landscape.png'),fullPage:true});
  await page.setViewportSize({width:390,height:844});await page.locator('.menu-button').click();await page.screenshot({path:path.join(out,'menu-arabic-mobile.png')});await page.keyboard.press('Escape');
  for(const locale of ['en','ar','tr']){
-  const calm=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});watch(calm);await calm.goto(base+'/'+locale,{waitUntil:'networkidle'});
+  const calm=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});watch(calm);await calm.addInitScript(()=>localStorage.setItem('tripline-motion','system'));await calm.goto(base+'/'+locale,{waitUntil:'networkidle'});
   await expect(calm.locator('.ribbon canvas')).toHaveCount(0);await expect(calm.locator('.pin-spacer')).toHaveCount(0);expect(await calm.locator('video[src]').count()).toBe(0);await expect(calm.locator('.rh-arrival-copy')).toHaveCSS('transform','none');await calm.screenshot({path:path.join(out,`reduced-motion-${locale}.png`),fullPage:true});await calm.close();
  }
  const saver=await browser.newPage();watch(saver);await saver.addInitScript(()=>Object.defineProperty(navigator,'connection',{value:{saveData:true},configurable:true}));await saver.goto(base+'/en',{waitUntil:'networkidle'});expect(await saver.locator('video[src]').count()).toBe(0);await expect(saver.locator('.ribbon canvas')).toHaveCount(0);await expect(saver.locator('.rh-arrival-copy')).toHaveCSS('opacity','1');await saver.close();
- report.checks.push('Device reduced motion, native static composition, no automatic video or WebGL on data saver');
+ report.checks.push('Explicit System follows device reduction, native static composition, no automatic video or WebGL on data saver');
  const noWebGL=await browser.newPage({viewport:{width:1440,height:1000}});watch(noWebGL);await noWebGL.addInitScript(()=>{const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){if(String(type).includes('webgl'))return null;return original.call(this,type,...args);};});await noWebGL.goto(base+'/en',{waitUntil:'networkidle'});await expect(noWebGL.locator('canvas')).toHaveCount(0);await expect(noWebGL.locator('.flight-trace-arrival')).toBeVisible();await expect(noWebGL.locator('.rh-arrival h1')).toBeVisible();await noWebGL.close();
  report.checks.push('Unavailable WebGL retains complete V5 SVG arrival and content without a mandatory canvas');
  const nojs=await browser.newPage({javaScriptEnabled:false});

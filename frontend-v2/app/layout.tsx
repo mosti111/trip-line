@@ -15,8 +15,8 @@ import { SiteShell } from '@/components/travel/SiteShell';
 const sans=Manrope({subsets:['latin','latin-ext'],variable:'--font-body',display:'swap'});
 const arabic=Noto_Sans_Arabic({subsets:['arabic'],variable:'--font-arabic',display:'swap'});
 export const metadata:Metadata={metadataBase:new URL(siteUrl),title:{default:'Trip Line — Go somewhere meaningful.',template:'%s · Trip Line'},robots:{index:false,follow:false},icons:{icon:'/brand/mark.svg'}};
-// Resolve layout-affecting preferences before body paint. The conservative React
-// hydration snapshot may pause motion, but must never expand/collapse logo rows.
+// Resolve saved preferences before body paint; React's server snapshot uses Full.
+// The bootstrap keeps saved Reduced/System layouts stable during hydration.
 
 export default async function RootLayout({children}:{children:React.ReactNode}){
  const requestHeaders=await headers();

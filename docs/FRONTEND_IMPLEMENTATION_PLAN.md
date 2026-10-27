@@ -1,3 +1,8 @@
+27 October 2026: [TL-014 Full Motion default](reports/TL-014-full-motion-default.md)
+is a narrow policy correction, preserving the V1.1 design and explicit saved
+preferences. Separate isolated no-login Preview after checks; no existing
+production alias or review-expiry change. Physical Safari acceptance remains open.
+
 27 October 2026: [TL-013 synchronization/handoff](reports/TL-013-github-sync-handoff.md)
 adds [PROJECT_STATUS](../PROJECT_STATUS.md), fresh verification and active-branch
 GitHub synchronization only. No application implementation or deployment change;
