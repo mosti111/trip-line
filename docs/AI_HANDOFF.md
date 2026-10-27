@@ -7,6 +7,13 @@ menu/footer selectors, pause controls and fallbacks remain. Read the report for
 fresh verification and isolated Preview delivery; no main merge or existing
 production/expiry change. Physical iPhone Safari and creative acceptance remain open.
 
+Delivered source `1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea`; 59 unit tests,
+public120, full V3, 36 motion-mode cases/108 effect checks and 12 hosted fresh
+sessions pass. New no-login Preview:
+https://trip-line-tl014-motion-review-jtprphtw8.vercel.app/en . Same expiry:
+27 October 2026 18:22:45 Istanbul. See the report for target/source/protection
+receipts, preserved failed tooling evidence and explicit WebKit/physical limits.
+
 ## Repository synchronization handoff — 27 October 2026
 
 [PROJECT_STATUS.md](../PROJECT_STATUS.md) consolidates the current V1.1 architecture,

@@ -17,8 +17,9 @@ in those documents preserve history and may describe superseded implementations.
 - Repository: https://github.com/mosti111/trip-line
 - Active branch: `codex/trip-line-v11-mobile-recovery`.
 - Pre-audit HEAD: `c55863de2ddc3b3f7720d7f041d1252170cfcfca`.
-- Latest reviewed application source: `98c44f8d05792f97c7324ce5dcbf12f73e4e8535`.
-  Later commits before this audit document deployment/access verification.
+- Latest reviewed application source (TL-014):
+  `1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea`. Prior V1.1 source was
+  `98c44f8d05792f97c7324ce5dcbf12f73e4e8535`; TL-013's initial audit remains history.
 - Initial fetch found active local/remote HEADs equal, with no modified, added,
   deleted or untracked nonignored files. No application work was stranded locally.
 - V1.1 is engineering verified within the recorded browser envelope and delivered
@@ -151,6 +152,7 @@ feel and real-device performance remain unverified; use the TL-011 device checkl
 | TL-010 public review | Optional server expiry guard `1632a6b`, operational handoff `9f6cfa7`. [Report](docs/reports/TL-010-temporary-public-review.md) |
 | TL-011 V1.1, 26 Oct | Phone compositions and explicit motion choice; checkpoint `5008ced`, reviewed app `98c44f8`, hosted receipt `5fc26b3`. [Report](docs/reports/TL-011-v11-mobile-recovery.md) |
 | TL-012, 26 Oct | Isolated public review access, same application source; documentation `c55863d`. [Report](docs/reports/TL-012-v11-public-client-review.md) |
+| TL-014, 27 Oct | Full default on first visit, preserved explicit choices; reviewed source `1f6e453`. 59 unit tests, public/V3 and Chromium/WebKit policy/motion checks pass. [Report](docs/reports/TL-014-full-motion-default.md) |
 
 Recovery branches include `codex/v61-before-v1-mobile`, `codex/v1-before-v11-recovery`,
 `codex/v5-before-v6` and `codex/v6-before-v6-1`. Preserve them and the failed QA
@@ -164,6 +166,7 @@ refresh hosted health. A Git push does not prove a deployment occurred.
 
 | URL | Recorded relationship |
 | --- | --- |
+| https://trip-line-tl014-motion-review-jtprphtw8.vercel.app/en | TL-014 isolated no-login Preview, app `1f6e453`, deployment `dpl_12ZVv7v3gaerS6Vh342Eu38vW9HN`, READY and target Preview; [current receipt](docs/reports/TL-014-full-motion-default.md) |
 | https://trip-line-journal-v2.vercel.app/en | Existing V1 temporary production review, app `1632a6b`, deployment `dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5`; older than active V1.1 |
 | https://trip-line-journal-v223-10lita4c5.vercel.app/en | Separate protected V1.1 Preview, app `98c44f8`, deployment `dpl_45Zj8VFbRQcHjmgp2fDQXF4Qa1tm`; historical share access is time-limited |
 | https://trip-line-v11-client-review.vercel.app/en | Separate TL-012 no-login review project, same `98c44f8`, deployment `dpl_DQF8DKuSvtPMpdALsL1f37UcYrh5`; manual isolated deployment, report records no Git connection |

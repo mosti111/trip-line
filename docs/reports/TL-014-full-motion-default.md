@@ -104,4 +104,49 @@ to `dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5`, source `1632a6b9`, project
 `prj_9pbqRH1MGonwCvNeQ20knZhH29Zv`; do not overwrite either project's delivery.
 Actual new Preview receipt and hosted verification are recorded after deployment.
 
+Verified source commit: `1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea`, pushed normally
+to the existing branch. All 286 exported frontend files match Git blobs; all 285
+uploaded source files match the remote SHA1 tree (`.gitignore` is excluded by the
+CLI). No local environment, dependency, cache or build-output files were uploaded.
+
+New isolated project: `trip-line-tl014-motion-review` /
+`prj_Lf4M8KHEMsLrBP5YXqn9dbsspL0g`, verified Node24/Next.js, no Git connection,
+no login protection. **READY Preview**, API `target: null`, aliases empty:
+`dpl_12ZVv7v3gaerS6Vh342Eu38vW9HN`.
+URL: https://trip-line-tl014-motion-review-jtprphtw8.vercel.app/en .
+
+Delivery correction: CLI 60.1.3 rejected `--skip-domain` with Preview, then the
+provider classified the first deployment in the brand-new project as Production
+despite `--target preview`. Only that new project was affected. A second deployment
+is verified as Preview; the initial new-project deployment
+`dpl_EDnpw4dBYuS2DcZWc7Ub3xaNSxQc` was removed and its API lookup returns 404.
+The new project now has no domains. No existing production alias was changed.
+Post-delivery read-only verification confirms the original canonical deployment
+still has exactly the preflight ID/source/aliases. Existing expiry/automation and
+billing remain unchanged. The new Preview uses the same server deadline.
+
+The first hosted run completed all 12 fresh-mode cases and six resource checks,
+but strict console validation caught Vercel's injected Preview feedback toolbar
+styles/frame being rejected by the application's CSP. Feedback injection was
+disabled **only on this new review project** (`enablePreviewFeedback: false`),
+then the identical source was rebuilt to apply that provider setting; the existing
+deployment kept its embedded toolbar until rebuilt. A fresh check on the new
+Preview has zero toolbar requests or console errors and Full active. No request
+bypass, error filter or CSP change was used to hide the provider injection. The initial
+hosted failure is preserved in the evidence directory.
+
+Final hosted result: **PASS**, 12 fresh no-cookie sessions across Chromium/WebKit,
+EN/AR/TR, 320/390/768px and both OS reduction settings; all resolve to Full without
+saved state. Six OS-reduced sessions also verify meaningful hero/billboard motion,
+billboard pause, menu selection, Reduced after reload, System OS changes and Full
+after reload/actual locale selection. Six image/film/script resource checks return
+200/206 with the exact unchanged expiry header. Zero application/console errors.
+The superseded toolbar-bearing Preview was also removed. Final source binding,
+Preview target, protection and preservation details are in
+[deployment receipt](../qa/2026-10-27-tl014/deployment-receipt.json) and
+[hosted result](../qa/2026-10-27-tl014/hosted-verification.json).
+
+Delivery complete within the stated automated/browser limits. A documentation-only
+receipt commit follows the source commit; it does not change or redeploy the app.
+
 Physical iPhone Safari and client creative acceptance remain separate requirements.

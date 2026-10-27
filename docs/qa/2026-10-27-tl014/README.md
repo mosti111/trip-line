@@ -5,7 +5,8 @@
 [report](../../reports/TL-014-full-motion-default.md).
 
 - [Core command logs](core/): typecheck, full ESLint plus final verifier ESLint,
-  59 passing Vitest tests and default Next Turbopack build.
+  59 passing Vitest tests and default Next Turbopack build. Log copies have only
+  trailing whitespace normalized; raw originals remain in ignored local evidence.
 - [Public regression](production-check.json): 120 routes, six captures, five groups.
 - [Full V3](v3-verification.json): 60 captures, 16 groups, zero runtime errors.
 - [Desktop comparison](desktop-comparison.json): settled 1440x1000 EN/AR/TR hero
@@ -20,6 +21,11 @@
 - [Selected captures](captures/) show Chromium EN hero and WebKit AR Explorer
   before/after. They were visually inspected. WebKit captures are from the separate
   diagnostic capture run, not the strict final console run.
+- [Remote source verification](remote-source-verification.json): all 285 uploaded
+  source files match the committed frontend export, with only `.gitignore` excluded.
+- [Deployment receipt](deployment-receipt.json) and [hosted checks](hosted-verification.json):
+  READY isolated no-login Preview; 12 fresh sessions and six resource requests pass,
+  zero application/console errors. Original production and expiry preserved.
 - [Failures/diagnostics](failures/) retain the viewport target/scale-unit verifier
   failures, unsupported mobile-WebKit wheel input, and screenshot-induced CSP
   errors. The report explains their diagnosis; none was hidden by a CSP change.

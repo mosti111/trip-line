@@ -1,0 +1,11 @@
+{
+  "sourceSha": "1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea",
+  "deploymentId": "dpl_12ZVv7v3gaerS6Vh342Eu38vW9HN",
+  "exportFiles": 286,
+  "uploadFiles": 285,
+  "excluded": [
+    "frontend-v2/.gitignore"
+  ],
+  "allUploadFilesMatch": true,
+  "mismatches": []
+}

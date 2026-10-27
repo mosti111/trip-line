@@ -1,5 +1,8 @@
 # TL-014 — Full Motion by default
 
+Status: Complete within recorded automated/browser limits. Physical iPhone Safari
+acceptance remains separate; see the linked delivery report.
+
 27 October 2026. Direct user authority; baseline
 `396ebdf4c9dd264d10499d76ec528120f6173bf9`, existing branch
 `codex/trip-line-v11-mobile-recovery`. One agent, no subagents.
