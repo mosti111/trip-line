@@ -4,6 +4,9 @@ Current consolidation: [TL-016](TL-016-v1-baseline-consolidation.md), with the u
 [full request](TL-016-instructions.txt). Outcome: [status](../../PROJECT_STATUS.md) and
 [report](../reports/TL-016-v1-baseline-consolidation.md).
 
+In review (approved 2 November 2026): [TL-017](TL-017-homepage-integration-reconciliation.md) homepage
+integration reconciliation plan (decisions and port plan only); [report](../reports/TL-017-homepage-integration-reconciliation.md).
+
 Before significant work, use [TASK_TEMPLATE](TASK_TEMPLATE.md) to record outcome,
 scope, constraints, acceptance and verification. Status: Planned → In Progress → Review
 → Complete; Superseded names its replacement. Completion requires evidence, a matching

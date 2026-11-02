@@ -40,6 +40,29 @@ retain append-only competing status (rejected as ambiguous), or mass rewrite/mov
 (rejected for provenance/link risk). Engineering verification remains distinct from
 client creative acceptance and physical iPhone Safari.
 
+## TL-DEC-026 — External homepage integration reconciliation
+
+2 November 2026. Answers given by the user in chat during
+[TL-017](tasks/TL-017-homepage-integration-reconciliation.md). Claims in external Codex
+session records count only where confirmed here. Details: [TL-017 report](reports/TL-017-homepage-integration-reconciliation.md).
+
+| ID | Question | User answer |
+| --- | --- | --- |
+| D1 | Integrated homepage replaces baseline composition (Signature Places, explorer, film removed) | Confirmed |
+| D2 | Newsreader serif in the integrated Atlas | Rejected; Atlas type must use Manrope/Noto Sans Arabic before porting |
+| D2b | Desktop ivory editorial Atlas scene instead of recorded photographic Atlas | Deferred |
+| D3 | Font loading | Keep `next/font`; no extracted woff2 files or integration font CSS |
+| D4 | Remediation 01 inquiry changes | Deferred; Inquiry stays at baseline |
+| D5 | Istanbul imagery accepted, Rize provisional | Deferred |
+| D6 | Stage 2A opening flight and header-logo docking | Deferred |
+| D7 | Stage 2B compact Türkiye bridge | Final creative approval remains pending |
+| D8 | External audit items A05, A06, A08–A12, A14 | Deferred |
+
+Not yet asked (raised by TL-017): D9, the integrated Atlas destination images are named and
+registered as generated prototype images, not source photography; their publication status
+is open alongside media clearance. D1 does not by itself authorize any port: D2 requires an
+Atlas typography adaptation, which is new creative work needing its own approved scope.
+
 ## Open decisions
 
 Legal text, business/partner claims, media clearance, final canonical domain, client

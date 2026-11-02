@@ -93,6 +93,12 @@ unverified. Start from `outputs\stage-2b-implementation\README.md` and
 `SOURCE-AUTHORITY.json` in the 2026-10-31 folder. Importing or porting this work needs
 an approved task; nothing here authorizes it.
 
+TL-017 (2 November, in review) recorded the user's answers as TL-DEC-026: integrated
+homepage confirmed; Newsreader in the Atlas rejected; `next/font` kept; inquiry, imagery,
+Stage 2A, ivory Atlas scene and audit items deferred; Stage 2B pending. The Atlas images are
+registered as generated prototypes (open). Next prerequisite is an Atlas typography
+adaptation task. [Port plan](docs/reports/TL-017-homepage-integration-reconciliation.md).
+
 ## Deployment status
 
 Consolidation does not deploy or modify Vercel. Repository TL-015 receipts record the

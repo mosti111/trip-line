@@ -1,5 +1,11 @@
 # Changelog
 
+## Homepage integration reconciliation plan — 2 November 2026, TL-017
+
+Documentation only. Records user decisions on the external Codex homepage/Stage 2A/2B
+work (TL-DEC-026) and a file-level port plan. No source port, release or deployment.
+[TL-017 report](reports/TL-017-homepage-integration-reconciliation.md).
+
 ## V1.0 release candidate — 28 October 2026, TL-016
 
 Forward-looking baseline selected from d917ebd on codex/trip-line-v11-mobile-recovery,
