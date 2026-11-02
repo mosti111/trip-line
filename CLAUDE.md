@@ -28,4 +28,5 @@ this file. Keep project rules there; this file only covers Claude-specific mecha
 - Permissions live in `.claude/settings.json`: read-only Git and the documented checks run
   freely; Git writes (commit, push, merge, checkout, reset, restore), installs and Vercel
   ask first; history rewrites, force
-  pushes, production Vercel operations and `.env`/`.vercel` access are denied.
+  pushes, production Vercel operations and real `.env*`/`.vercel` access are denied.
+  Tracked `.env.example` templates are readable; editing them asks first.

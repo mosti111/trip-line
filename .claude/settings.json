@@ -63,7 +63,8 @@
       "Bash(pnpm install*)",
       "Bash(pnpm add*)",
       "Bash(vercel*)",
-      "Bash(npx vercel*)"
+      "Bash(npx vercel*)",
+      "Edit(**/.env.example)"
     ],
     "deny": [
       "PowerShell(git push --force*)",
@@ -95,10 +96,24 @@
       "Bash(vercel remove*)",
       "Bash(vercel env*)",
       "Read(**/.env)",
-      "Read(**/.env.*)",
+      "Read(**/.env.local)",
+      "Read(**/.env.*.local)",
+      "Read(**/.env.development*)",
+      "Read(**/.env.production*)",
+      "Read(**/.env.test*)",
+      "Read(**/.env.staging*)",
+      "Read(**/.env.preview*)",
+      "Read(**/.env.vercel*)",
       "Read(**/.vercel/**)",
       "Edit(**/.env)",
-      "Edit(**/.env.*)",
+      "Edit(**/.env.local)",
+      "Edit(**/.env.*.local)",
+      "Edit(**/.env.development*)",
+      "Edit(**/.env.production*)",
+      "Edit(**/.env.test*)",
+      "Edit(**/.env.staging*)",
+      "Edit(**/.env.preview*)",
+      "Edit(**/.env.vercel*)",
       "Edit(**/.vercel/**)"
     ]
   }

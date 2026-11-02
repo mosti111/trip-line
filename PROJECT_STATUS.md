@@ -77,8 +77,8 @@ Recorded 2 November 2026 during Claude Code onboarding; not part of this baselin
 From 28 October to 2 November, Codex design sessions produced homepage integration,
 a sitewide audit, Audit Remediation 01, Stage 2A (opening flight, header-logo docking)
 and Stage 2B (compact Türkiye bridge) in a separate local Git repository with no remote:
-`C:\Users\mosta\Documents\Codex\2026-10-28\product-design-plugin-product-design-openai-5\outputs\homepage-remediation-01`,
-with worktrees under `C:\Users\mosta\Documents\Codex\2026-10-31\product-design-plugin-product-design-openai\outputs\`
+`%USERPROFILE%\Documents\Codex\2026-10-28\product-design-plugin-product-design-openai-5\outputs\homepage-remediation-01`,
+with worktrees under `%USERPROFILE%\Documents\Codex\2026-10-31\product-design-plugin-product-design-openai\outputs\`
 (`stage-2a-implementation\Source`, `stage-2b-implementation\Source`). Its parentless snapshot
 8856185 was derived from 7806417 and is followed by ca27a2e (remediation) and 3d3b621
 (packaged accepted Stage 2A). Stage 2B edits are uncommitted in its worktree; the Stage 2A
