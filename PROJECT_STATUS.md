@@ -71,6 +71,28 @@ and retained INVESTIGATE items. No storage/media/dependency purge is claimed.
   are retained but not all re-certified.
 - Candidate release operations and publication need explicit authorization.
 
+## Unintegrated post-baseline design work
+
+Recorded 2 November 2026 during Claude Code onboarding; not part of this baseline.
+From 28 October to 2 November, Codex design sessions produced homepage integration,
+a sitewide audit, Audit Remediation 01, Stage 2A (opening flight, header-logo docking)
+and Stage 2B (compact Türkiye bridge) in a separate local Git repository with no remote:
+`C:\Users\mosta\Documents\Codex\2026-10-28\product-design-plugin-product-design-openai-5\outputs\homepage-remediation-01`,
+with worktrees under `C:\Users\mosta\Documents\Codex\2026-10-31\product-design-plugin-product-design-openai\outputs\`
+(`stage-2a-implementation\Source`, `stage-2b-implementation\Source`). Its parentless snapshot
+8856185 was derived from 7806417 and is followed by ca27a2e (remediation) and 3d3b621
+(packaged accepted Stage 2A). Stage 2B edits are uncommitted in its worktree; the Stage 2A
+worktree also carries uncommitted changes. None of these commits exist in this repository
+and their patches do not apply to 7806417.
+
+Session records state user acceptance of the Atlas compositions, Istanbul imagery
+(Rize provisional), Remediation 01 and the Stage 2A docking, and rejection of Signature
+Places. Stage 2B final creative approval was pending; Stage 2C is undefined. Audit items
+A05, A06, A08–A12 and A14 remained open; physical devices and field performance are
+unverified. Start from `outputs\stage-2b-implementation\README.md` and
+`SOURCE-AUTHORITY.json` in the 2026-10-31 folder. Importing or porting this work needs
+an approved task; nothing here authorizes it.
+
 ## Deployment status
 
 Consolidation does not deploy or modify Vercel. Repository TL-015 receipts record the
