@@ -1,0 +1,718 @@
+{
+  "startedAt": "2026-10-08T19:39:49.920Z",
+  "source": {
+    "components/home-v3/DestinationJourney.tsx": "90c4e4f8d1176371ec937f02b1a396481cc83f1d6723988aef498dacc4041996",
+    "components/turkiye/DestinationLocalNav.tsx": "0b12e8f4eb7aeda6a856e8e01d019d54c9c46fd7b423b3e107d4701273071e85",
+    "styles/recovery-destination.css": "5cb4f1b72466baf549f0f738716c4009e3e483094997a120c8f57decdb321784"
+  },
+  "base": "http://localhost:3053",
+  "browser": "Playwright Chromium",
+  "states": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "forward",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "direction": "reverse",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "action": "native anchor",
+      "id": "place-experience",
+      "hash": "#place-experience",
+      "active": "#place-experience",
+      "target": 243.265625,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "action": "native anchor",
+      "id": "place-services",
+      "hash": "#place-services",
+      "active": "#place-services",
+      "target": 242.734375,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "action": "native anchor",
+      "id": "place-plan",
+      "hash": "#place-plan",
+      "active": "#place-plan",
+      "target": 242.890625,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "action": "native anchor",
+      "id": "place-continue",
+      "hash": "#place-continue",
+      "active": "#place-continue",
+      "target": 242.609375,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "action": "native anchor",
+      "id": "place-overview",
+      "hash": "#place-overview",
+      "active": "#place-overview",
+      "target": 243,
+      "headerBottom": 72,
+      "navTop": 178,
+      "navBottom": 243
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "forward",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "direction": "reverse",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "action": "native anchor",
+      "id": "place-experience",
+      "hash": "#place-experience",
+      "active": "#place-experience",
+      "target": 252.734375,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 143
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "action": "native anchor",
+      "id": "place-services",
+      "hash": "#place-services",
+      "active": "#place-services",
+      "target": 252.9375,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 143
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "action": "native anchor",
+      "id": "place-plan",
+      "hash": "#place-plan",
+      "active": "#place-plan",
+      "target": 253.125,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 143
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "action": "native anchor",
+      "id": "place-continue",
+      "hash": "#place-continue",
+      "active": "#place-continue",
+      "target": 253.1875,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 143
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "action": "native anchor",
+      "id": "place-overview",
+      "hash": "#place-overview",
+      "active": "#place-overview",
+      "target": 253,
+      "headerBottom": 72,
+      "navTop": 182,
+      "navBottom": 253
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "forward",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-final",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-continue",
+      "key": "#place-continue"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-plan",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-process",
+      "key": "#place-services"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-services",
+      "key": "#place-services"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-add",
+      "key": "#place-plan"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-feel",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-experience",
+      "key": "#place-experience"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-locate",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "direction": "reverse",
+      "section": "place-overview",
+      "key": "#place-overview"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "action": "native anchor",
+      "id": "place-experience",
+      "hash": "#place-experience",
+      "active": "#place-experience",
+      "target": 243.390625,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "action": "native anchor",
+      "id": "place-services",
+      "hash": "#place-services",
+      "active": "#place-services",
+      "target": 242.765625,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "action": "native anchor",
+      "id": "place-plan",
+      "hash": "#place-plan",
+      "active": "#place-plan",
+      "target": 242.90625,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "action": "native anchor",
+      "id": "place-continue",
+      "hash": "#place-continue",
+      "active": "#place-continue",
+      "target": 242.6875,
+      "headerBottom": 72,
+      "navTop": 72,
+      "navBottom": 137
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "action": "native anchor",
+      "id": "place-overview",
+      "hash": "#place-overview",
+      "active": "#place-overview",
+      "target": 243,
+      "headerBottom": 72,
+      "navTop": 178,
+      "navBottom": 243
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "mode": "noJS",
+      "selectorHidden": true,
+      "url": "http://localhost:3053/en/destinations/turkiye/istanbul#place-plan"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "mode": "noJS",
+      "selectorHidden": true,
+      "url": "http://localhost:3053/ar/destinations/turkiye/istanbul#place-plan"
+    }
+  ],
+  "captures": [
+    {
+      "file": "static-final-en-istanbul-1440-native-plan.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "static-final-en-istanbul-1440-native-services.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "static-final-en-istanbul-1440-feel.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 1080,
+      "sectionHeight": 760,
+      "supplementalExtendedSection": true
+    },
+    {
+      "file": "static-final-en-istanbul-1440-add.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 723,
+      "sectionHeight": 402.640625,
+      "supplementalExtendedSection": true
+    },
+    {
+      "file": "static-final-en-istanbul-1440-process-complete.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 1276,
+      "sectionHeight": 955.71875,
+      "supplementalExtendedSection": true
+    },
+    {
+      "file": "static-final-en-istanbul-1440-related-complete.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 1363,
+      "sectionHeight": 1042.265625,
+      "supplementalExtendedSection": true
+    },
+    {
+      "file": "static-final-ar-istanbul-390-native-plan.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "static-final-ar-istanbul-390-native-services.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "static-final-tr-rize-ayder-1280-native-plan.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "file": "static-final-tr-rize-ayder-1280-native-services.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "file": "static-final-en-390-nojs-plan.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS"
+    },
+    {
+      "file": "static-final-ar-390-nojs-plan.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-08T19:40:26.423Z",
+  "status": "passed",
+  "finalSource": {
+    "components/home-v3/DestinationJourney.tsx": "90c4e4f8d1176371ec937f02b1a396481cc83f1d6723988aef498dacc4041996",
+    "components/turkiye/DestinationLocalNav.tsx": "0b12e8f4eb7aeda6a856e8e01d019d54c9c46fd7b423b3e107d4701273071e85",
+    "styles/recovery-destination.css": "5cb4f1b72466baf549f0f738716c4009e3e483094997a120c8f57decdb321784"
+  }
+}

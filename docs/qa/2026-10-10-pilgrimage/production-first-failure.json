@@ -1,0 +1,797 @@
+{
+  "status": "fail",
+  "startedAt": "2026-10-10T13:38:03.849Z",
+  "artifacts": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z",
+  "base": "http://localhost:3043",
+  "revision": "6a2885e538d898c1c18045c8628024523da2ed2a",
+  "sourceFingerprints": {
+    "components/services/PilgrimageExperience.tsx": "c03b51b2139d751a33bef3a0caabd406cda3c814b2cf857c30398bcfbedeadd2",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "8aad03f977ce1d4e3343aa5ec417cc381f0f4913ab5e32771412beb5ab12ebe9",
+    "components/services/ServicePrimitives.tsx": "217f443001017bd413f4ffafd01b8be2b040d451bf218f7f853ad525c3f511eb",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/company-profile.ts": "4886718185b3574e6ab88c0f4ee62604c8b1cc04fad42739437c63b2ec8b543e",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "scripts/verify-recovery-pilgrimage.mjs": "e73b440095afc4c121681c903feb51c5fc8387f5f76025e3e92228eee8f8cb2a"
+  },
+  "browser": "Chromium",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "source/composition/native intents/memory/ordered Contact",
+      "facts": {
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsaudi-arabia.jpg&w=1920&q=85",
+            "natural": true,
+            "complete": true,
+            "width": 1440
+          }
+        ],
+        "bounds": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "brokenImages": []
+        },
+        "coordination": [
+          "Hajj — discuss your intended season and group needs.",
+          "Umrah — plan your dates, stay and travel companions.",
+          "Coordination — flights, accommodation and visa facilitation."
+        ],
+        "brief": "Tell us whether you are planning Hajj or Umrah, your preferred dates and the number of travelers.",
+        "trustSource": "Company Profile 2025"
+      },
+      "flow": {
+        "hajjChoice": {
+          "value": "hajj",
+          "nativeKeyboard": true,
+          "keyboard": {
+            "top": 483.0625,
+            "bottom": 505.0625,
+            "headerBottom": 72,
+            "viewportHeight": 900,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": {
+              "painted": false,
+              "display": "none",
+              "visibility": "visible",
+              "width": 0,
+              "height": 0,
+              "top": 0
+            }
+          }
+        },
+        "umrahChoice": {
+          "value": "umrah",
+          "nativeKeyboard": true,
+          "keyboard": {
+            "top": 483.0625,
+            "bottom": 505.0625,
+            "headerBottom": 72,
+            "viewportHeight": 900,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": {
+              "painted": false,
+              "display": "none",
+              "visibility": "visible",
+              "width": 0,
+              "height": 0,
+              "top": 0
+            }
+          }
+        },
+        "hajj": {
+          "intent": "hajj",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "dates": "",
+          "travelers": "",
+          "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "top": 406.15625,
+            "bottom": 454.15625,
+            "headerBottom": 72,
+            "viewportHeight": 900,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": null
+          },
+          "memoryOnly": true
+        },
+        "umrah": {
+          "intent": "umrah",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "dates": "QP07 preferred discussion dates",
+          "travelers": "7",
+          "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\nPreferred dates: QP07 preferred discussion dates\nNumber of travelers: 7\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\nPreferred dates: QP07 preferred discussion dates\nNumber of travelers: 7\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "top": 406.15625,
+            "bottom": 454.15625,
+            "headerBottom": 72,
+            "viewportHeight": 900,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": null
+          },
+          "memoryOnly": true
+        },
+        "intentAndFieldInvalidation": true,
+        "reorderAndRestoreInvalidation": true,
+        "typeAndRestoreInvalidation": true,
+        "validation": true,
+        "reloadMemoryReset": true,
+        "contact": {
+          "service": "hajj-umrah",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "firstDestination": "rize-ayder",
+          "orderedMessage": "Places I would like to visit: Rize & Ayder → Uzungöl → Cappadocia"
+        },
+        "planKeyboard": {
+          "top": 585.421875,
+          "bottom": 633.421875,
+          "headerBottom": 72,
+          "viewportHeight": 900,
+          "unobscured": true,
+          "focusVisible": true,
+          "outlineWidth": 3,
+          "outlineStyle": "solid",
+          "shadow": "none",
+          "mobileCTA": null
+        }
+      },
+      "css": [
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js",
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js",
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "source/composition/native intents/memory/ordered Contact",
+      "facts": {
+        "media": [
+          {
+            "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsaudi-arabia.jpg&w=640&q=85",
+            "natural": true,
+            "complete": true,
+            "width": 390
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "documentWidth": 390,
+          "brokenImages": []
+        },
+        "coordination": [
+          "Hajj — discuss your intended season and group needs.",
+          "Umrah — plan your dates, stay and travel companions.",
+          "Coordination — flights, accommodation and visa facilitation."
+        ],
+        "brief": "Tell us whether you are planning Hajj or Umrah, your preferred dates and the number of travelers.",
+        "trustSource": "Company Profile 2025"
+      },
+      "flow": {
+        "hajjChoice": {
+          "value": "hajj",
+          "nativeKeyboard": true,
+          "keyboard": {
+            "top": 447.578125,
+            "bottom": 469.578125,
+            "headerBottom": 72,
+            "viewportHeight": 844,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": {
+              "painted": true,
+              "display": "block",
+              "visibility": "visible",
+              "width": 390,
+              "height": 73,
+              "top": 792.480224609375
+            }
+          }
+        },
+        "umrahChoice": {
+          "value": "umrah",
+          "nativeKeyboard": true,
+          "keyboard": {
+            "top": 447.578125,
+            "bottom": 469.578125,
+            "headerBottom": 72,
+            "viewportHeight": 844,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": {
+              "painted": true,
+              "display": "block",
+              "visibility": "visible",
+              "width": 390,
+              "height": 73,
+              "top": 838.8637084960938
+            }
+          }
+        },
+        "hajj": {
+          "intent": "hajj",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "dates": "",
+          "travelers": "",
+          "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "top": 441.890625,
+            "bottom": 489.890625,
+            "headerBottom": 72,
+            "viewportHeight": 844,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": null
+          },
+          "memoryOnly": true
+        },
+        "umrah": {
+          "intent": "umrah",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "dates": "QP07 preferred discussion dates",
+          "travelers": "7",
+          "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\nPreferred dates: QP07 preferred discussion dates\nNumber of travelers: 7\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Rize & Ayder → Uzungöl → Cappadocia\nPreferred dates: QP07 preferred discussion dates\nNumber of travelers: 7\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "top": 441.890625,
+            "bottom": 489.890625,
+            "headerBottom": 72,
+            "viewportHeight": 844,
+            "unobscured": true,
+            "focusVisible": true,
+            "outlineWidth": 3,
+            "outlineStyle": "solid",
+            "shadow": "none",
+            "mobileCTA": null
+          },
+          "memoryOnly": true
+        },
+        "intentAndFieldInvalidation": true,
+        "reorderAndRestoreInvalidation": true,
+        "typeAndRestoreInvalidation": true,
+        "validation": true,
+        "reloadMemoryReset": true,
+        "contact": {
+          "service": "hajj-umrah",
+          "ids": [
+            "rize-ayder",
+            "uzungol",
+            "cappadocia"
+          ],
+          "firstDestination": "rize-ayder",
+          "orderedMessage": "Places I would like to visit: Rize & Ayder → Uzungöl → Cappadocia"
+        },
+        "planKeyboard": {
+          "top": 88.125,
+          "bottom": 136.125,
+          "headerBottom": 72,
+          "viewportHeight": 844,
+          "unobscured": true,
+          "focusVisible": true,
+          "outlineWidth": 3,
+          "outlineStyle": "solid",
+          "shadow": "none",
+          "mobileCTA": null
+        }
+      },
+      "css": [
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7adbb6a732c2791d.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/bc2561558e721ad4.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/2bdc3c0b28d90f0f.css",
+          "ownedPilgrimage": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/7f646e418aafa24e.css",
+          "ownedPilgrimage": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/css/05570c06bd44e493.css",
+          "ownedPilgrimage": false
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js",
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js",
+        "http://localhost:3043/_next/static/chunks/webpack-206ef25f1a4f197b.js",
+        "http://localhost:3043/_next/static/chunks/358ac5f3-91a0d52c1d6acac4.js",
+        "http://localhost:3043/_next/static/chunks/9504-07fde0d803a4c0fa.js",
+        "http://localhost:3043/_next/static/chunks/main-app-1771a0a315ba04d8.js",
+        "http://localhost:3043/_next/static/chunks/4034-6a756fb95caa7d2d.js",
+        "http://localhost:3043/_next/static/chunks/7994-bade3c67ec4c883b.js",
+        "http://localhost:3043/_next/static/chunks/app/layout-4e140a788f00c0b0.js",
+        "http://localhost:3043/_next/static/chunks/app/error-459a3cf1d8ccd15f.js",
+        "http://localhost:3043/_next/static/chunks/9423-f3902257deca764c.js",
+        "http://localhost:3043/_next/static/chunks/8293-db9e496fc447f3db.js",
+        "http://localhost:3043/_next/static/chunks/8815-89031ae90e9a4c7f.js",
+        "http://localhost:3043/_next/static/chunks/app/%5Blocale%5D/%5B%5B...slug%5D%5D/page-8efdeb83fd8a4d8c.js"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-hero.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:06.815Z"
+    },
+    {
+      "name": "en-1440-choice",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-choice.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:07.024Z"
+    },
+    {
+      "name": "en-1440-coordination",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-coordination.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:07.255Z"
+    },
+    {
+      "name": "en-1440-needs",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-needs.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:07.463Z"
+    },
+    {
+      "name": "en-1440-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-process.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:07.645Z"
+    },
+    {
+      "name": "en-1440-trust",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-trust.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:07.842Z"
+    },
+    {
+      "name": "en-1440-hajj-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-hajj-prepared.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:09.301Z"
+    },
+    {
+      "name": "en-1440-umrah-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-1440-umrah-prepared.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:09.723Z"
+    },
+    {
+      "name": "en-390-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-hero.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.411Z"
+    },
+    {
+      "name": "en-390-choice",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-choice.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.491Z"
+    },
+    {
+      "name": "en-390-coordination",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-coordination.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.589Z"
+    },
+    {
+      "name": "en-390-needs",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-needs.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.686Z"
+    },
+    {
+      "name": "en-390-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-process.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.791Z"
+    },
+    {
+      "name": "en-390-trust",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-trust.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:14.905Z"
+    },
+    {
+      "name": "en-390-hajj-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-hajj-prepared.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:16.058Z"
+    },
+    {
+      "name": "en-390-umrah-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\en-390-umrah-prepared.png",
+      "url": "http://localhost:3043/en/services/hajj-umrah",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "at": "2026-10-10T13:38:16.375Z"
+    },
+    {
+      "name": "ar-1440-hero",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-hero.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:22.374Z"
+    },
+    {
+      "name": "ar-1440-choice",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-choice.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:22.550Z"
+    },
+    {
+      "name": "ar-1440-coordination",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-coordination.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:22.703Z"
+    },
+    {
+      "name": "ar-1440-needs",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-needs.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:22.866Z"
+    },
+    {
+      "name": "ar-1440-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-process.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:23.006Z"
+    },
+    {
+      "name": "ar-1440-trust",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-trust.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:23.168Z"
+    },
+    {
+      "name": "ar-1440-hajj-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-hajj-prepared.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:24.443Z"
+    },
+    {
+      "name": "ar-1440-umrah-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-pilgrimage\\2026-10-10T13-38-03-849Z\\ar-1440-umrah-prepared.png",
+      "url": "http://localhost:3043/ar/services/hajj-umrah",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "at": "2026-10-10T13:38:24.813Z"
+    }
+  ],
+  "errors": [],
+  "checks": [],
+  "gaps": [
+    "Independent rendered Astra review/final Q12 remain required; no Safari/Firefox, physical-device, assistive-technology or field-performance certification."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "activeCase": {
+    "locale": "ar",
+    "width": 1440,
+    "height": 900,
+    "mode": "normal",
+    "step": "direct pilgrimage route"
+  },
+  "failure": {
+    "message": "expect(received).toMatchObject(expected)\n\n- Expected  - 1\n+ Received  + 1\n\n  Object {\n-   \"focusVisible\": true,\n+   \"focusVisible\": false,\n    \"unobscured\": true,\n  }\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+    "stack": "Error: expect(received).toMatchObject(expected)\n\n- Expected  - 1\n+ Received  + 1\n\n  Object {\n-   \"focusVisible\": true,\n+   \"focusVisible\": false,\n    \"unobscured\": true,\n  }\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toMatchObject (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at keyboardVisible (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-pilgrimage.mjs:118:55)\n    at async prepareAndDecode (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-pilgrimage.mjs:170:20)\n    at async intentFlow (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-pilgrimage.mjs:219:3)\n    at async runStaticMatrix (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-pilgrimage.mjs:239:18)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery-pilgrimage.mjs:415:5",
+    "activeCase": {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "mode": "normal",
+      "step": "direct pilgrimage route"
+    },
+    "at": "2026-10-10T13:38:30.774Z"
+  },
+  "finishedAt": "2026-10-10T13:38:31.010Z"
+}

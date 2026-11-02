@@ -1,0 +1,67 @@
+Latest motion policy: [TL-014 Full Motion default](../../../../../tasks/TL-014-full-motion-default.md), 27 October 2026; narrow initialization correction, preserved saved choices and isolated review Preview after checks.
+
+Latest administrative scope: [TL-013 GitHub synchronization and handoff](../../../../../tasks/TL-013-github-sync-handoff.md), 27 October 2026; documentation/checks and active-branch push only, no deployment or application changes.
+
+Current access delivery: [TL-012 public V1.1 review](../../../../../tasks/TL-012-v11-public-client-review.md), separate temporary public URL, same expiry, existing production preserved.
+
+Current: [TL-011 — V1.1 mobile creative recovery](../../../../../tasks/TL-011-v11-mobile-recovery.md), four phases and separate Preview; desktop/production preserved.
+
+Current authorized operation: [TL-010 two-day public review](../../../../../tasks/TL-010-temporary-public-review.md),
+25 October2026. Explicit public production exception, server-side expiry and
+scheduled restoration. No creative redesign or main merge.
+
+Previous scope: [TL-009 V1 mobile polish and client preview](../../../../../tasks/TL-009-v1-mobile-review.md),
+25 October2026. Verified V6.1 baseline, phone polish and protected Preview only;
+review branch push authorized, no main merge or production promotion.
+
+Previous delivered scope: [TL-008 V6.1 creative reconstruction](../../../../../tasks/TL-008-v61.md),
+C0–C5 engineering/rendered verification complete25October2026, one implementation
+agent and no subagents. Ready for user creative review; no publication or new scope.
+
+Previous delivered scope: [TL-007 V6 Motion Maxxed Türkiye](../../../../../tasks/TL-007-v6.md), all five
+phases engineering verified 25 October 2026 by one implementation agent. User
+creative acceptance pending; no follow-up or publication started. Prior scopes
+below are historical.
+
+Current authorized scope: [TL-006 V5 full reconstruction](../../../../../tasks/TL-006-v5.md), superseding older bounded V4 scope for this task.
+
+Current authorized milestone: [TL-005 Motion V4 M01 navigation](../../../../../tasks/TL-005-motion-v4-m01.md); M01 only, prior hero timing blocker preserved.
+
+# Task workflow
+
+Current authorized milestone: [TL-004 Motion V4 homepage hero](../../../../../tasks/TL-004-motion-v4-hero.md), 23 October 2026; isolated prototype, then user acceptance before further work.
+
+Current orchestration setup: [TL-SYS-002](../../../../../tasks/TL-SYS-002-orchestration.md).
+System tasks may use TL-SYS identifiers. Delegated tasks use the
+[worker contract](../../../../../orchestration/TASK_CONTRACT.md); their live state and status
+mapping are governed by [state protocol](../../../../../orchestration/STATE_PROTOCOL.md).
+The task/report conventions below remain in effect. The current frontend task
+listed below is separate from orchestration setup.
+
+Write a task BEFORE significant implementation. Use TL-###-short-description.md and
+[TASK_TEMPLATE.md](../../../../../tasks/TASK_TEMPLATE.md). Keep the provided TL-SYS-001 identifier for this
+system task; system IDs are an explicit exception to normal numeric feature filenames.
+
+Statuses: Planned → In Progress → Review → Complete; Superseded records replacement and reason.
+Complete means acceptance criteria met and actual checks reported, not a TODO-only result.
+Link the approved user outcome, authoritative documents and any dependencies.
+Codex chooses HOW, never silently redefines WHAT. Report a material product/design
+ambiguity before taking a dependent decision, while continuing independent authorized work.
+
+A normal feature needs one concise task. Only long, multi-stage changes need an additional
+linked execution plan with stages, dependencies and checks; no extra process for normal work.
+Record material decisions in [DECISIONS.md](../../../../../DECISIONS.md), and produce a matching
+[report](../../../../../reports/README.md). Update handoff/phase plan when status/scope changes.
+Follow-up suggestions do not authorize new work.
+
+Current task: [TL-002 — Bronze Journey reconstruction](../../../../../tasks/TL-002-bronze-reconstruction.md).
+Prior frontend task: [TL-001 — Bronze Journey continuation](../../../../../tasks/TL-001-bronze-journey-continuation.md).
+Prior system task: [TL-SYS-001](../../../../../tasks/TL-SYS-001-agent-operating-system.md).
+
+Current authorized frontend: [TL-003 — UX/motion recovery](../../../../../tasks/TL-003-ux-motion-recovery.md); [full request](../../../../../tasks/TL-003-recovery-instructions.md).
+
+Current bounded system hardening: [TL-SYS-003](../../../../../tasks/TL-SYS-003-orchestration-hardening.md).
+Future execution: [five bounded runs](../../../../../orchestration/RUN_PLAN.md); preparation only, stop after hardening commit.
+
+- [TL-003 visual closure corrections](../../../../../tasks/TL-003-visual-close-corrections.md): bounded V01 and isolated P2 corrections,17October2026.
+- [TL-003 final QA](../../../../../tasks/TL-003-final-qa.md): authorized Q12 only,19October2026; fresh comprehensive verification and final delivery, no merge/deploy.

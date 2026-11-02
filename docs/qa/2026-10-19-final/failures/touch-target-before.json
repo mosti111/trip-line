@@ -1,0 +1,42 @@
+[
+  {
+    "text": "",
+    "label": "افتح القائمة",
+    "class": "menu-button",
+    "width": 36,
+    "height": 44,
+    "padding": "0px",
+    "minHeight": "44px",
+    "transform": "none"
+  },
+  {
+    "text": "اكتشف تركيا",
+    "label": null,
+    "class": "journey-action journey-action-primary",
+    "width": 285,
+    "height": 48,
+    "padding": "12px 18px",
+    "minHeight": "48px",
+    "transform": "none"
+  },
+  {
+    "text": "خطط لرحلتي",
+    "label": null,
+    "class": "journey-action journey-action-primary rh-plan-outline",
+    "width": 285,
+    "height": 48,
+    "padding": "12px 18px",
+    "minHeight": "48px",
+    "transform": "none"
+  },
+  {
+    "text": "أضف إلى الرحلة",
+    "label": "أضف إلى الرحلة: إسطنبول",
+    "class": "journey-action journey-action-outline ",
+    "width": 128.09375,
+    "height": 44,
+    "padding": "10px 12px",
+    "minHeight": "44px",
+    "transform": "none"
+  }
+]

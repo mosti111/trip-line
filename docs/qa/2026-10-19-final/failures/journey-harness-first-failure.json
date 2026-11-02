@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "phase": "journey",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-19T12:56:30.132Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "Fij_l7JDB_TVkFA2POeOP",
+  "cases": [],
+  "screens": [],
+  "errors": [],
+  "measurements": [],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "failure": {
+    "message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.header-journey')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"header-journey\">Journey · 2</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "stack": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.header-journey')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"header-journey\">Journey · 2</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at journey (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery.mjs:52:102)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery.mjs:121:93",
+    "url": "http://localhost:3043/en"
+  },
+  "finishedAt": "2026-10-19T12:57:05.389Z"
+}

@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 740,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "height": 812,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 667,
+      "height": 375,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 320,
+      "height": 740,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 360,
+      "height": 800,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 375,
+      "height": 812,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 430,
+      "height": 932,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 667,
+      "height": 375,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "tr",
+      "width": 844,
+      "height": 390,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 740,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 360,
+      "height": 800,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "height": 812,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "height": 932,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 667,
+      "height": 375,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "ar",
+      "width": 844,
+      "height": 390,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    }
+  ],
+  "errors": []
+}

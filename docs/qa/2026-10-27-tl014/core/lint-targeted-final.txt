@@ -1,0 +1,3 @@
+Recorded command result (the command emitted no output):
+pnpm exec eslint scripts/verify-tl014-motion.mjs
+Exit code: 0

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-14T14:50:02.519Z",
+  "base": "794bc0304b062e540f576fcaff0e39dd17e5030a",
+  "hashes": {
+    "frontend-v2/components/company/AboutExperience.tsx": "cc313c554897b4a16abe4da236a89d26c8f63fc001328bde975df6f07f574121",
+    "frontend-v2/components/company/AboutMotion.tsx": "f75b8c2827844d96608f10e9c876dbd57da063c1abecbe1e7842209fc7b0e20a",
+    "frontend-v2/components/travel/Pages.tsx": "045c1e76f4c6b8078081cb861cb2e954bf102b64cfc2546b770c245608d56f59",
+    "frontend-v2/styles/recovery-company.css": "596e38c969b43998407d9e1f0791c0f2ad7debd518dc2fe9d4c888dac9e5667f",
+    "frontend-v2/scripts/verify-recovery-about.mjs": "9482eaaa971163b6847a747139bdf21ec0bf311aea715bcd44fcf5c722cfe473"
+  }
+}

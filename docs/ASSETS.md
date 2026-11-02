@@ -1,5 +1,24 @@
 # Asset provenance
 
+## Current V2/V3 asset authority
+
+The active stacked logo and fourteen partner logos were extracted from the supplied
+company profile and are under frontend-v2/public/media/ (logo-source.png and
+partners-1.png / partners-2.png). Partner presence does not
+confirm current relationships; publication sign-off remains required. Figures retain
+their 2025 profile attribution. The original PDF is outside the repository and may be
+unavailable on a fresh clone; use preserved assets and documented observations.
+
+Current photo/video provenance: [media manifest](../frontend-v2/public/media/sources.json).
+Regional/international JPGs use documented Unsplash sources; the local Istanbul film
+uses the Mixkit Stock Video Free License. Geographic vectors use public-domain Natural
+Earth boundaries. Generated Istanbul/Cappadocia/coast PNGs remain illustrative;
+the coast prompt is preserved in [frontend history](../frontend-v2/README.md).
+V3 reuses these assets; this documentation task adds no media.
+
+The sections below preserve historical V1 references, provisional logo reasoning and
+generated development prompts. The compact flight mark is not the active stacked logo.
+
 ## User references
 
 `docs/references/trip-line-logo.jpeg`: original supplied Trip Line logo. `docs/references/approved-concept.png`: original supplied visual direction. Neither composite image is used as a screenshot pretending to be a working site. The UI is real HTML/CSS/React; the compact SVG flight mark is a provisional code-derived interpretation, not a supplied production vector master.

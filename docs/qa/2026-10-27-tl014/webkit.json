@@ -1,0 +1,1307 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3039",
+  "cases": [
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "en",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "ar",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "tr",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "en",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "ar",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "tr",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "en",
+      "width": 768,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "ar",
+      "width": 768,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "locale": "tr",
+      "width": 768,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.153799%)",
+        "transform": "matrix(1.0672, 0, 0, 1.0672, 0, 0)",
+        "scalePercentX": 106.72,
+        "scalePercentY": 106.72
+      },
+      "after": {
+        "clip": "inset(0px 0px 4%)",
+        "transform": "matrix(1.0133, 0, 0, 1.0133, 0, 0)",
+        "scalePercentX": 101.33000000000001,
+        "scalePercentY": 101.33000000000001
+      },
+      "delta": 16.153799,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.317501% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.4927% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.824801,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.0803%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.8832%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.197099999999999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.2896%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.1913,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.121599%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)",
+        "scalePercentX": 106.71,
+        "scalePercentY": 106.71
+      },
+      "after": {
+        "clip": "inset(0px 0px 3.9936%)",
+        "transform": "matrix(1.0133, 0, 0, 1.0133, 0, 0)",
+        "scalePercentX": 101.33000000000001,
+        "scalePercentY": 101.33000000000001
+      },
+      "delta": 16.127999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.322399% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.5464% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.775999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.9016%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.1804,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.2896%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.1913,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.153799%)",
+        "transform": "matrix(1.0672, 0, 0, 1.0672, 0, 0)",
+        "scalePercentX": 106.72,
+        "scalePercentY": 106.72
+      },
+      "after": {
+        "clip": "inset(0px 0px 4%)",
+        "transform": "matrix(1.0133, 0, 0, 1.0133, 0, 0)",
+        "scalePercentX": 101.33000000000001,
+        "scalePercentY": 101.33000000000001
+      },
+      "delta": 16.153799,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.381401% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.5566% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.824800999999997,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.1022%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.9051%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.197099999999999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.2896%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.1913,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1154%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)",
+        "scalePercentX": 106.71,
+        "scalePercentY": 106.71
+      },
+      "after": {
+        "clip": "inset(0px 0px 3.9615%)",
+        "transform": "matrix(1.0132, 0, 0, 1.0132, 0, 0)",
+        "scalePercentX": 101.32000000000001,
+        "scalePercentY": 101.32000000000001
+      },
+      "delta": 16.1539,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.322399% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.5464% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.775999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.9016%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.1804,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.2896%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.1913,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.121599%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)",
+        "scalePercentX": 106.71,
+        "scalePercentY": 106.71
+      },
+      "after": {
+        "clip": "inset(0px 0px 3.9936%)",
+        "transform": "matrix(1.0133, 0, 0, 1.0133, 0, 0)",
+        "scalePercentX": 101.33000000000001,
+        "scalePercentY": 101.33000000000001
+      },
+      "delta": 16.127999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.381401% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.5566% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.824800999999997,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.1022%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.9051%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.197099999999999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.558399%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.3029%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.255499,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 2.2951%)",
+        "transform": "matrix(0.9694, 0, 0, 0.9694, 0, 32.283844)",
+        "scalePercentX": 96.94,
+        "scalePercentY": 96.94
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.121599%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)",
+        "scalePercentX": 106.71,
+        "scalePercentY": 106.71
+      },
+      "after": {
+        "clip": "inset(0px 0px 3.9936%)",
+        "transform": "matrix(1.0133, 0, 0, 1.0133, 0, 0)",
+        "scalePercentX": 101.33000000000001,
+        "scalePercentY": 101.33000000000001
+      },
+      "delta": 16.127999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.322399% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(5.5464% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 26.775999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 1.9016%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 9.1804,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 7.2896%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "delta": 35.1913,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 3.1532%)",
+        "transform": "matrix(0.9495, 0, 0, 0.9495, 0, 32.288769)",
+        "scalePercentX": 94.95,
+        "scalePercentY": 94.95
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "explorer",
+      "before": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9413, 0, 0, 0.9413, 0, 0)",
+        "scalePercentX": 94.13,
+        "scalePercentY": 94.13
+      },
+      "after": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9801, 0, 0, 0.9801, 0, 0)",
+        "scalePercentX": 98.00999999999999,
+        "scalePercentY": 98.00999999999999
+      },
+      "delta": 3.8799999999999955,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(44.324299% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.971164, 0.046993, -0.000034, 0, -0.048332, 0.998831, -0.000713, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.1164
+      },
+      "after": {
+        "clip": "inset(14.0541% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.991084, 0.015195, -0.000011, 0, -0.01533, 0.999882, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.1084
+      },
+      "delta": 30.270199000000005,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 0% 60.022499%)",
+        "transform": "matrix3d(0.971795, 0, 0.031334, -0.000022, 0, 0.9723, 0, 0, -0.032227, 0, 0.999481, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.17949999999999,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 0% 19.0315%)",
+        "transform": "matrix3d(0.991148, 0, 0.010131, -0.000007, 0, 0.9912, 0, 0, -0.01022, 0, 0.999948, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.1148,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 60.022499% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.9723, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 19.0315% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.9912, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "width": 768,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 3.1532%)",
+        "transform": "matrix(0.9495, 0, 0, 0.9495, 0, 32.288769)",
+        "scalePercentX": 94.95,
+        "scalePercentY": 94.95
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "explorer",
+      "before": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9413, 0, 0, 0.9413, 0, 0)",
+        "scalePercentX": 94.13,
+        "scalePercentY": 94.13
+      },
+      "after": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9801, 0, 0, 0.9801, 0, 0)",
+        "scalePercentX": 98.00999999999999,
+        "scalePercentY": 98.00999999999999
+      },
+      "delta": 3.8799999999999955,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(44.324299% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.971164, 0.046993, -0.000034, 0, -0.048332, 0.998831, -0.000713, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.1164
+      },
+      "after": {
+        "clip": "inset(14.0541% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.991084, 0.015195, -0.000011, 0, -0.01533, 0.999882, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.1084
+      },
+      "delta": 30.270199000000005,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 0% 60.022499%)",
+        "transform": "matrix3d(0.971795, 0, 0.031334, -0.000022, 0, 0.9723, 0, 0, -0.032227, 0, 0.999481, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.17949999999999,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 0% 19.0315%)",
+        "transform": "matrix3d(0.991148, 0, 0.010131, -0.000007, 0, 0.9912, 0, 0, -0.01022, 0, 0.999948, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.1148,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 60.022499% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.9723, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 19.0315% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.9912, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "width": 768,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "scalePercentX": 100,
+        "scalePercentY": 100
+      },
+      "after": {
+        "clip": "inset(0px 3.1532%)",
+        "transform": "matrix(0.9495, 0, 0, 0.9495, 0, 32.288769)",
+        "scalePercentX": 94.95,
+        "scalePercentY": 94.95
+      },
+      "delta": 100,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "explorer",
+      "before": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9413, 0, 0, 0.9413, 0, 0)",
+        "scalePercentX": 94.13,
+        "scalePercentY": 94.13
+      },
+      "after": {
+        "clip": "polygon(9% 8%, 100% 0px, 100% 100%, 9% 92%)",
+        "transform": "matrix(0.9801, 0, 0, 0.9801, 0, 0)",
+        "scalePercentX": 98.00999999999999,
+        "scalePercentY": 98.00999999999999
+      },
+      "delta": 3.8799999999999955,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(44.324299% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.971164, 0.046993, -0.000034, 0, -0.048332, 0.998831, -0.000713, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.1164
+      },
+      "after": {
+        "clip": "inset(14.0541% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.991084, 0.015195, -0.000011, 0, -0.01533, 0.999882, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.1084
+      },
+      "delta": 30.270199000000005,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 0% 60.022499%)",
+        "transform": "matrix3d(0.971795, 0, 0.031334, -0.000022, 0, 0.9723, 0, 0, -0.032227, 0, 0.999481, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.17949999999999,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 0% 19.0315%)",
+        "transform": "matrix3d(0.991148, 0, 0.010131, -0.000007, 0, 0.9912, 0, 0, -0.01022, 0, 0.999948, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.1148,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 60.022499% 0% 0%)",
+        "transform": "matrix3d(0.9723, 0, 0, 0, 0, 0.9723, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 97.23,
+        "scalePercentY": 97.23
+      },
+      "after": {
+        "clip": "inset(0% 19.0315% 0% 0%)",
+        "transform": "matrix3d(0.9912, 0, 0, 0, 0, 0.9912, 0, 0, 0, 0, 1, -0.000714, 0, 0, 0, 1)",
+        "scalePercentX": 99.11999999999999,
+        "scalePercentY": 99.11999999999999
+      },
+      "delta": 40.990999,
+      "scrollDistance": 420,
+      "input": "WebKit programmatic native scrolling on touch viewport"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "width": 768,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    }
+  ],
+  "fallbacks": [
+    {
+      "engine": "webkit",
+      "unavailableWebGL": "readable SVG/content",
+      "failedFilm": "photo retained"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Windows Playwright WebKit is not physical iPhone Safari. Mobile WebKit automation lacks swipe/wheel input: scroll proof uses window.scrollBy on a touch-enabled viewport plus touchscreen taps; Chromium uses native CDP touch input."
+  ],
+  "finishedAt": "2026-10-27T03:12:02.815Z"
+}

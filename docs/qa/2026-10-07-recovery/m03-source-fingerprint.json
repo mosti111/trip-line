@@ -1,0 +1,47 @@
+{
+  "base": "b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184",
+  "recordedAt": "2026-10-07T15:41:05.767Z",
+  "note": "Frozen M03 source with two R1 superseding files; all current hashes match worker delivery and root production build identity.",
+  "files": [
+    {
+      "path": "frontend-v2/components/experience/ExperienceProvider.tsx",
+      "sha256": "ff2e85727a024aadc84725a1f53fccb851005d6b24a5085b14e1e73a4c1b7c8f"
+    },
+    {
+      "path": "frontend-v2/components/experience/ScrollScene.tsx",
+      "sha256": "466492f002c1c2ebadf56bf8d8bb209eb913d6a762e46d2aa2ea1cfc4ecaf55a"
+    },
+    {
+      "path": "frontend-v2/components/experience/BronzeJourney.tsx",
+      "sha256": "4fcbfb379055cc9296ea23a4ba4eb2144d7a37b0ec4b4f58ed70274b2cda9a3b"
+    },
+    {
+      "path": "frontend-v2/components/experience/BronzeJourneyScene.tsx",
+      "sha256": "3eb003d5aee9133a9aa5ea89afc7d6a4bc4a86bd471e597461f4cac9a5638a6d"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeJourney.tsx",
+      "sha256": "ded117bdfcb9bd0bdef41c3fdb000c4b02ad55174d51d451ec82c5fe067a680d"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeArrival.tsx",
+      "sha256": "fb3b5edb3d00d49fd209fc58f6b204e245e6e95c431f8898f8e95651c57f4d8e"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeMotion.tsx",
+      "sha256": "963b9ac5d74f4f45e9a86925493b63d7f02a7dfc8838d76e0cdcdc129f3775bb"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/ServiceWorlds.tsx",
+      "sha256": "0fa2e224f455e3b1c78f0ea4fa4af4bfaf6d1be07a1d0ded811b671483237e78"
+    },
+    {
+      "path": "frontend-v2/components/travel/SiteShell.tsx",
+      "sha256": "06c04ff47ff24c4fcba1f44f3bc69fc40763a001d8c85402f4d217d5fa40be43"
+    },
+    {
+      "path": "frontend-v2/styles/recovery-motion.css",
+      "sha256": "0450493460735c2acd393362027efaed44dc8ba792762f9f3292fb24aaa03eaa"
+    }
+  ]
+}

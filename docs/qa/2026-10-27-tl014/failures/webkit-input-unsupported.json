@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "base": "http://localhost:3039",
+  "cases": [],
+  "effects": [],
+  "fallbacks": [],
+  "errors": [],
+  "limitations": [
+    "Windows Playwright WebKit is not physical iPhone Safari. WebKit scroll proof uses wheel input on a touch-enabled viewport; Chromium uses native CDP touch input."
+  ],
+  "failure": "Error: mouse.wheel: Mouse wheel is not supported in mobile WebKit",
+  "finishedAt": "2026-10-27T03:00:42.776Z"
+}

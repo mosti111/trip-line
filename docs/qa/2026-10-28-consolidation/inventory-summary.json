@@ -1,0 +1,359 @@
+{
+  "startingCommit": "d917ebd440113e31fad0eae8f9166b2a73bcbd42",
+  "trackedFiles": 3828,
+  "trackedBytes": 2962067371,
+  "groups": {
+    "(root)": {
+      "files": 7,
+      "bytes": 32135898
+    },
+    ".impeccable/config.json": {
+      "files": 1,
+      "bytes": 491
+    },
+    "backend/pom.xml": {
+      "files": 1,
+      "bytes": 3654
+    },
+    "backend/src": {
+      "files": 33,
+      "bytes": 54916
+    },
+    "docs/AI_HANDOFF.md": {
+      "files": 1,
+      "bytes": 48427
+    },
+    "docs/API.md": {
+      "files": 1,
+      "bytes": 3475
+    },
+    "docs/APPROVED_DESIGN_DIRECTION.md": {
+      "files": 1,
+      "bytes": 4318
+    },
+    "docs/ARCHITECTURE.md": {
+      "files": 1,
+      "bytes": 8398
+    },
+    "docs/ASSETS.md": {
+      "files": 1,
+      "bytes": 4236
+    },
+    "docs/AWARD_COMPONENT_RESEARCH_2026-10-01.md": {
+      "files": 1,
+      "bytes": 13310
+    },
+    "docs/DATABASE.md": {
+      "files": 1,
+      "bytes": 3132
+    },
+    "docs/DECISIONS.md": {
+      "files": 1,
+      "bytes": 24334
+    },
+    "docs/DEMO_QA.md": {
+      "files": 1,
+      "bytes": 2867
+    },
+    "docs/DEPLOYMENT.md": {
+      "files": 1,
+      "bytes": 5233
+    },
+    "docs/DESIGN_DIRECTION_2026-10-01.md": {
+      "files": 1,
+      "bytes": 13438
+    },
+    "docs/DESIGN_SYSTEM.md": {
+      "files": 1,
+      "bytes": 8587
+    },
+    "docs/FRESH_DESIGN_RESEARCH_2026-10-01.md": {
+      "files": 1,
+      "bytes": 3579
+    },
+    "docs/FRONTEND_DELIVERY.md": {
+      "files": 1,
+      "bytes": 5422
+    },
+    "docs/FRONTEND_IMPLEMENTATION_PLAN.md": {
+      "files": 1,
+      "bytes": 27049
+    },
+    "docs/LIVING_TRAVEL_JOURNAL.md": {
+      "files": 1,
+      "bytes": 10032
+    },
+    "docs/MASTER_SPECIFICATION.txt": {
+      "files": 1,
+      "bytes": 54982
+    },
+    "docs/MOTION_SYSTEM.md": {
+      "files": 1,
+      "bytes": 5738
+    },
+    "docs/NEW_CHAT_PROJECT_HANDOFF.md": {
+      "files": 1,
+      "bytes": 51843
+    },
+    "docs/NUMBERS_AND_PARTNERS_SECTIONS.md": {
+      "files": 1,
+      "bytes": 2548
+    },
+    "docs/PRODUCT.md": {
+      "files": 1,
+      "bytes": 3472
+    },
+    "docs/PRODUCT_VISION.md": {
+      "files": 1,
+      "bytes": 3043
+    },
+    "docs/PROFILE_ATLAS_DIRECTION.md": {
+      "files": 1,
+      "bytes": 3885
+    },
+    "docs/PUBLIC_PAGE_PREVIEW_INDEX.md": {
+      "files": 1,
+      "bytes": 4591
+    },
+    "docs/README.md": {
+      "files": 1,
+      "bytes": 3995
+    },
+    "docs/RESPONSIVE_RULES.md": {
+      "files": 1,
+      "bytes": 3734
+    },
+    "docs/SECURITY.md": {
+      "files": 1,
+      "bytes": 3499
+    },
+    "docs/TESTING.md": {
+      "files": 1,
+      "bytes": 5457
+    },
+    "docs/V3_BRONZE_JOURNEY.md": {
+      "files": 1,
+      "bytes": 9043
+    },
+    "docs/V3_FRONTEND_DELIVERY.md": {
+      "files": 1,
+      "bytes": 6635
+    },
+    "docs/design-preview": {
+      "files": 12,
+      "bytes": 8772490
+    },
+    "docs/orchestration": {
+      "files": 79,
+      "bytes": 1214900
+    },
+    "docs/qa": {
+      "files": 3242,
+      "bytes": 2814040161
+    },
+    "docs/references": {
+      "files": 28,
+      "bytes": 52588154
+    },
+    "docs/reports": {
+      "files": 29,
+      "bytes": 332387
+    },
+    "docs/tasks": {
+      "files": 30,
+      "bytes": 245730
+    },
+    "frontend-v2/.env.example": {
+      "files": 1,
+      "bytes": 224
+    },
+    "frontend-v2/.gitignore": {
+      "files": 1,
+      "bytes": 31
+    },
+    "frontend-v2/.vercelignore": {
+      "files": 1,
+      "bytes": 90
+    },
+    "frontend-v2/AGENTS.md": {
+      "files": 1,
+      "bytes": 678
+    },
+    "frontend-v2/CLAUDE.md": {
+      "files": 1,
+      "bytes": 11
+    },
+    "frontend-v2/README.md": {
+      "files": 1,
+      "bytes": 5395
+    },
+    "frontend-v2/app": {
+      "files": 17,
+      "bytes": 14045
+    },
+    "frontend-v2/components": {
+      "files": 66,
+      "bytes": 322879
+    },
+    "frontend-v2/eslint.config.mjs": {
+      "files": 1,
+      "bytes": 257
+    },
+    "frontend-v2/lib": {
+      "files": 20,
+      "bytes": 180452
+    },
+    "frontend-v2/next-env.d.ts": {
+      "files": 1,
+      "bytes": 295
+    },
+    "frontend-v2/next.config.ts": {
+      "files": 1,
+      "bytes": 989
+    },
+    "frontend-v2/package.json": {
+      "files": 1,
+      "bytes": 1300
+    },
+    "frontend-v2/pnpm-lock.yaml": {
+      "files": 1,
+      "bytes": 211149
+    },
+    "frontend-v2/pnpm-workspace.yaml": {
+      "files": 1,
+      "bytes": 51
+    },
+    "frontend-v2/postcss.config.mjs": {
+      "files": 1,
+      "bytes": 83
+    },
+    "frontend-v2/proxy.ts": {
+      "files": 1,
+      "bytes": 3707
+    },
+    "frontend-v2/public": {
+      "files": 84,
+      "bytes": 42656706
+    },
+    "frontend-v2/scripts": {
+      "files": 58,
+      "bytes": 619196
+    },
+    "frontend-v2/styles": {
+      "files": 25,
+      "bytes": 379670
+    },
+    "frontend-v2/tsconfig.json": {
+      "files": 1,
+      "bytes": 527
+    },
+    "frontend-v2/vercel.json": {
+      "files": 1,
+      "bytes": 294
+    },
+    "frontend/.env.example": {
+      "files": 1,
+      "bytes": 224
+    },
+    "frontend/.gitignore": {
+      "files": 1,
+      "bytes": 31
+    },
+    "frontend/.vercelignore": {
+      "files": 1,
+      "bytes": 90
+    },
+    "frontend/AGENTS.md": {
+      "files": 1,
+      "bytes": 678
+    },
+    "frontend/CLAUDE.md": {
+      "files": 1,
+      "bytes": 11
+    },
+    "frontend/app": {
+      "files": 13,
+      "bytes": 7874
+    },
+    "frontend/components": {
+      "files": 10,
+      "bytes": 16588
+    },
+    "frontend/eslint.config.mjs": {
+      "files": 1,
+      "bytes": 257
+    },
+    "frontend/lib": {
+      "files": 6,
+      "bytes": 12528
+    },
+    "frontend/next-env.d.ts": {
+      "files": 1,
+      "bytes": 303
+    },
+    "frontend/next.config.ts": {
+      "files": 1,
+      "bytes": 953
+    },
+    "frontend/package.json": {
+      "files": 1,
+      "bytes": 1107
+    },
+    "frontend/pnpm-lock.yaml": {
+      "files": 1,
+      "bytes": 210395
+    },
+    "frontend/pnpm-workspace.yaml": {
+      "files": 1,
+      "bytes": 51
+    },
+    "frontend/postcss.config.mjs": {
+      "files": 1,
+      "bytes": 83
+    },
+    "frontend/proxy.ts": {
+      "files": 1,
+      "bytes": 1297
+    },
+    "frontend/public": {
+      "files": 4,
+      "bytes": 7650111
+    },
+    "frontend/styles": {
+      "files": 2,
+      "bytes": 28857
+    },
+    "frontend/tsconfig.json": {
+      "files": 1,
+      "bytes": 527
+    },
+    "frontend/vercel.json": {
+      "files": 1,
+      "bytes": 294
+    }
+  },
+  "duplicateMediaHashGroups": 366,
+  "duplicateMediaFiles": 1036,
+  "unreachableCandidates": [
+    "frontend-v2/components/experience/ContextCursor.tsx",
+    "frontend-v2/components/experience/ExperienceProvider.tsx",
+    "frontend-v2/components/experience/JourneyChapter.tsx",
+    "frontend-v2/components/experience/ScrollScene.tsx",
+    "frontend-v2/components/home-v3/HomeMotion.tsx",
+    "frontend-v2/components/public/ContactForm.tsx",
+    "frontend-v2/components/public/Footer.tsx",
+    "frontend-v2/components/public/Navigation.tsx",
+    "frontend-v2/components/public/ServiceIndex.tsx",
+    "frontend-v2/lib/api.ts",
+    "frontend-v2/lib/journey.test.ts",
+    "frontend-v2/lib/metadata.ts",
+    "frontend-v2/lib/motion-preference.test.ts",
+    "frontend-v2/lib/review-window.test.ts",
+    "frontend-v2/lib/turkiye.test.ts",
+    "frontend-v2/styles/globals.css",
+    "frontend-v2/styles/journal.css",
+    "frontend-v2/styles/mobile.css",
+    "frontend-v2/styles/recovery-motion.css"
+  ],
+  "method": "All tracked paths and sizes; static relative/alias import graph rooted at all app files and proxy; whole-source literal reference checks; SHA256 media duplicate scan. Import graph is heuristic; not deletion authority alone."
+}

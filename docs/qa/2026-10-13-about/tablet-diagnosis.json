@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-13T20:24:31.408Z",
+  "width": 768,
+  "documentWidth": 778,
+  "offenders": [
+    {
+      "tag": "SPAN",
+      "class": "",
+      "text": "+",
+      "rect": {
+        "left": -10.0625,
+        "right": 17.34375,
+        "width": 27.40625
+      },
+      "style": {
+        "font": "49px",
+        "whiteSpace": "nowrap",
+        "display": "inline",
+        "grid": "none",
+        "minWidth": "0px",
+        "overflow": "visible",
+        "width": "auto",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "IMG",
+      "class": "",
+      "text": "",
+      "rect": {
+        "left": 38.40625,
+        "right": 1038.40625,
+        "width": 1000
+      },
+      "style": {
+        "font": "16px",
+        "whiteSpace": "normal",
+        "display": "block",
+        "grid": "none",
+        "minWidth": "1000px",
+        "overflow": "clip",
+        "width": "1000px",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "IMG",
+      "class": "",
+      "text": "",
+      "rect": {
+        "left": 38.40625,
+        "right": 1038.40625,
+        "width": 1000
+      },
+      "style": {
+        "font": "16px",
+        "whiteSpace": "normal",
+        "display": "block",
+        "grid": "none",
+        "minWidth": "1000px",
+        "overflow": "clip",
+        "width": "1000px",
+        "gap": "normal"
+      }
+    }
+  ]
+}

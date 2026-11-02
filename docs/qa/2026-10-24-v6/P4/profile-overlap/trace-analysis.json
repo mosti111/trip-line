@@ -1,0 +1,104 @@
+{
+  "scope": "Confounded exploratory run: concurrent accessibility scan; excluded from isolated performance comparisons. Real wheel, video and trace enabled.",
+  "events": {
+    "UpdateLayoutTree": {
+      "count": 997,
+      "maxMs": 29.303,
+      "p95Ms": 2.077,
+      "over50Ms": 0
+    },
+    "Layout": {
+      "count": 125,
+      "maxMs": 5.572,
+      "p95Ms": 3.104,
+      "over50Ms": 0
+    },
+    "Paint": {
+      "count": 727,
+      "maxMs": 10.23,
+      "p95Ms": 4.693,
+      "over50Ms": 0
+    },
+    "FunctionCall": {
+      "count": 8469,
+      "maxMs": 111.182,
+      "p95Ms": 0.761,
+      "over50Ms": 1
+    },
+    "EvaluateScript": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "AnimationFrame": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "FireAnimationFrame": {
+      "count": 3828,
+      "maxMs": 18.843,
+      "p95Ms": 0.98,
+      "over50Ms": 0
+    }
+  },
+  "slowestCalls": [
+    {
+      "durationMs": 111.182,
+      "columnNumber": 13812,
+      "frame": "3AECF3D4E1588CF691713E973DE1B70A",
+      "functionName": "tx",
+      "isolate": "4272575285557884934",
+      "lineNumber": 1,
+      "sampleTraceId": 4930841927131175,
+      "scriptId": "21",
+      "url": "http://localhost:3006/_next/static/chunks/0kx-6hw377fxi.js"
+    },
+    {
+      "durationMs": 19.118,
+      "columnNumber": 13812,
+      "frame": "3AECF3D4E1588CF691713E973DE1B70A",
+      "functionName": "tx",
+      "isolate": "4272575285557884934",
+      "lineNumber": 1,
+      "sampleTraceId": 4930841927135815,
+      "scriptId": "21",
+      "url": "http://localhost:3006/_next/static/chunks/0kx-6hw377fxi.js"
+    },
+    {
+      "durationMs": 18.806,
+      "columnNumber": 14023,
+      "frame": "3AECF3D4E1588CF691713E973DE1B70A",
+      "functionName": "t",
+      "isolate": "4272575285557884934",
+      "lineNumber": 1,
+      "sampleTraceId": 4930841927137630,
+      "scriptId": "19",
+      "url": "http://localhost:3006/_next/static/chunks/2dzam5fz7e2_9.js"
+    },
+    {
+      "durationMs": 14.591,
+      "columnNumber": 8884,
+      "frame": "3AECF3D4E1588CF691713E973DE1B70A",
+      "functionName": "f",
+      "isolate": "4272575285557884934",
+      "lineNumber": 1,
+      "sampleTraceId": 4930841927140869,
+      "scriptId": "12",
+      "url": "http://localhost:3006/_next/static/chunks/2msqe15cu4k9a.js"
+    },
+    {
+      "durationMs": 12.421,
+      "columnNumber": 3117,
+      "frame": "3AECF3D4E1588CF691713E973DE1B70A",
+      "functionName": "O",
+      "isolate": "4272575285557884934",
+      "lineNumber": 1,
+      "sampleTraceId": 4930841927139609,
+      "scriptId": "7",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    }
+  ]
+}

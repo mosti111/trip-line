@@ -1,0 +1,1 @@
+{"status":"fail","base":"http://localhost:3040","mode":"saved Reduced, OS reduce, settled homepage viewport","cases":[],"errors":[],"failure":"Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate"}

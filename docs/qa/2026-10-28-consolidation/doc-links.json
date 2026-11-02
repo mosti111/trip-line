@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "scope": "All tracked and non-ignored Markdown: relative file/directory targets, excluding fenced examples, external URLs and anchor-only links. Heading fragments are not validated.",
+  "documents": 224,
+  "checked": 1379,
+  "missing": []
+}

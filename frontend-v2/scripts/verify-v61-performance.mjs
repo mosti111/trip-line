@@ -1,0 +1,17 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'../..'),out=path.join(root,'docs/qa/2026-10-25-v61/C5/performance-diagnostic');
+fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch();
+const report={scope:'Isolated Windows headless Chromium1440x900, actual continuous native wheel, expanded trace categories, no video and no concurrent QA browser. Diagnostic complements rather than replaces the video-enabled trace.',build:fs.readFileSync(path.join(root,'frontend-v2/.next/BUILD_ID'),'utf8').trim(),browser:browser.version(),errors:[]};
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});page.on('pageerror',e=>report.errors.push(String(e)));
+ await page.goto((process.env.QA_URL||'http://localhost:3008')+'/en',{waitUntil:'networkidle'});await page.waitForTimeout(1650);
+ report.effective=await page.evaluate(()=>({reduce:matchMedia('(prefers-reduced-motion:reduce)').matches,manual:localStorage.getItem('tripline-motion')||'system',saveData:!!navigator.connection?.saveData,owner:document.querySelector('.v61-home').dataset.homeMotion,visibility:document.visibilityState}));expect(report.effective.owner).toBe('native');
+ const cdp=await page.context().newCDPSession(page);await cdp.send('Tracing.start',{categories:'toplevel,devtools.timeline,v8,disabled-by-default-v8.gc,blink.user_timing,loading',transferMode:'ReturnAsStream'});
+ await page.evaluate(()=>{const data=window.__v61Timing={frames:[],longTasks:[],active:true,last:performance.now()};new PerformanceObserver(list=>{for(const e of list.getEntries()){data.longTasks.push({start:e.startTime,duration:e.duration,attribution:e.attribution.map(a=>({name:a.name,containerType:a.containerType,containerName:a.containerName,containerSrc:a.containerSrc}))});performance.mark('v61-long-task',{startTime:e.startTime});}}).observe({type:'longtask',buffered:false});const tick=t=>{if(!data.active)return;data.frames.push(t-data.last);data.last=t;requestAnimationFrame(tick);};requestAnimationFrame(tick);performance.mark('v61-wheel-start');});
+ for(let i=0;i<650;i++){await page.mouse.wheel(0,80);await page.waitForTimeout(100);if(await page.evaluate(()=>scrollY>=document.documentElement.scrollHeight-innerHeight-2))break;}
+ const timing=await page.evaluate(()=>{window.__v61Timing.active=false;performance.mark('v61-wheel-end');return{...window.__v61Timing,y:scrollY,max:document.documentElement.scrollHeight-innerHeight};});expect(timing.y).toBeGreaterThanOrEqual(timing.max-5);const intervals=timing.frames.slice(1).sort((a,b)=>a-b),q=p=>intervals[Math.floor((intervals.length-1)*p)];report.timing={samples:intervals.length,frameIntervalsMs:{median:q(.5),p95:q(.95),p99:q(.99),max:intervals.at(-1)},longTasks:timing.longTasks,end:{y:timing.y,max:timing.max}};
+ const completed=new Promise(resolve=>cdp.once('Tracing.tracingComplete',resolve));await cdp.send('Tracing.end');const trace=await completed;let data='';while(true){const chunk=await cdp.send('IO.read',{handle:trace.stream});data+=chunk.data;if(chunk.eof)break;}await cdp.send('IO.close',{handle:trace.stream});fs.writeFileSync(path.join(out,'desktop-trace.json'),data);
+ expect(report.errors).toEqual([]);report.status='recorded';
+}catch(e){report.status='failed';report.failure=String(e);throw e;}finally{await browser.close();fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));}

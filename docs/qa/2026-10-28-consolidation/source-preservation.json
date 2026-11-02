@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "baseline": "d917ebd440113e31fad0eae8f9166b2a73bcbd42",
+  "trackedFrontendFilesAtBaseline": 286,
+  "unchangedTrackedFrontendFiles": 280,
+  "changedTrackedFrontendFiles": [
+    "frontend-v2/README.md",
+    "frontend-v2/components/experience/ContextCursor.tsx",
+    "frontend-v2/components/experience/ExperienceProvider.tsx",
+    "frontend-v2/components/experience/JourneyChapter.tsx",
+    "frontend-v2/components/experience/ScrollScene.tsx",
+    "frontend-v2/components/home-v3/HomeMotion.tsx"
+  ],
+  "newFrontendHarness": "frontend-v2/scripts/verify-baseline.mjs",
+  "appRoutesStylesAssetsConfigManifestsLockfileAndSurvivingRuntimeSourceUnchanged": true,
+  "deployedSourceToBaselineFrontendDiffEmpty": true
+}

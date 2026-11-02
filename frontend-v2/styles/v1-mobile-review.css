@@ -1,0 +1,145 @@
+/* TL-009: phone art direction on the verified V6.1 composition. */
+@media(max-width:767px){
+ .travel-site.recovery-shell{--gutter:20px}
+ .travel-site.recovery-shell :is(h1,h2,h3){text-wrap:balance;overflow-wrap:break-word}
+ .travel-site.recovery-shell :is(.rd-wrap,.rs-wrap,.rb-wrap,.ra-wrap,.rc-wrap,.sx-wrap,.rt-wrap,.rhub-wrap){width:calc(100% - 40px)}
+ .travel-site.recovery-shell .recovery-header-inner{width:calc(100% - 40px)}
+ .travel-site.recovery-shell .recovery-header .brand{flex-shrink:0}
+ .travel-site.recovery-shell .recovery-menu{padding-inline:20px;scroll-padding-block:24px}
+ .travel-site.recovery-shell :is(.journey-action,.journey-text-link,.rh-intent){max-width:100%;white-space:normal}
+ .travel-site.recovery-shell :is(.journey-action,.rh-intent) svg{flex-shrink:0}
+ .travel-site.recovery-shell :is(input,select,textarea){scroll-margin-block:100px}
+ /* A 16px input prevents iOS focus zoom from displacing the planner. */
+ .travel-site.recovery-shell .rh-builder :is(select,input:not([type=checkbox]):not([type=hidden])){font-size:16px;min-width:0;min-height:52px}
+ .travel-site.recovery-shell .rh-builder-places label{min-height:52px;font-size:13px;gap:9px}
+ .travel-site.recovery-shell .rh-builder-places>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px}
+ .travel-site.recovery-shell .rh-builder-time-who{grid-template-columns:1fr;gap:0}
+ .travel-site.recovery-shell .rh-builder legend{font-size:25px;margin-bottom:18px}
+ .travel-site.recovery-shell .rh-builder-route{padding:22px 18px;margin-top:22px}
+ .travel-site.recovery-shell .rh-builder-route li>strong{font-size:21px;min-width:0}
+ .travel-site.recovery-shell .rh-builder-route .rh-source{font-size:12px!important}
+ .travel-site.recovery-shell .rh-builder-summary{line-height:1.7}
+ /* Keep the documentary skyline behind the lower half of the arrival. */
+ .travel-site .recovery-home.v61-home .rh-arrival{min-height:max(740px,100svh);padding-block:126px 120px;align-items:center}
+ .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(36px,10.8vw,50px);line-height:1.08;letter-spacing:-.045em}
+ html[lang=tr] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(30px,8.5vw,39px);line-height:1.14}
+ html[lang=ar] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:clamp(36px,10vw,46px);line-height:1.4;letter-spacing:0}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy>.rh-kicker{max-width:260px;font-size:9px;letter-spacing:.1em;margin-bottom:20px}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy>p{max-width:34ch;margin-block:22px;font-size:14px;line-height:1.8}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy .rh-actions{max-width:none;gap:10px}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy .journey-action{width:100%;min-height:50px;justify-content:space-between;padding-inline:18px}
+ .travel-site .recovery-home.v61-home .rh-arrival-shade{background:linear-gradient(180deg,#071f20bb 0%,#071f20d9 33%,#071f2050 65%,#071f20c9 100%)}
+ .travel-site .recovery-home.v61-home .rh-arrival-photo img{object-position:64% 66%}
+ .travel-site .recovery-home.v61-home .rh-small-links{gap:4px 24px;margin-top:12px}
+ .travel-site .recovery-home.v61-home .rh-arrival-foot{bottom:14px;font-size:8px;gap:4px}
+ .travel-site .recovery-home.v61-home .rh-arrival-foot a{min-height:44px}
+ /* Content determines card height: translations never collide with controls. */
+ .travel-site .recovery-home.v61-home .rh-worlds{padding-block:56px}
+ .travel-site .recovery-home.v61-home .rh-worlds .rh-section-heading h2{font-size:clamp(34px,9.4vw,42px)}
+ .travel-site .recovery-home.v61-home .rh-world-plane{display:flex;flex-direction:column;justify-content:end;height:auto;min-height:420px}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-photo{position:absolute;inset:0;height:100%;width:100%}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-copy{position:relative;inset:auto;margin:190px 0 0;padding:24px 20px;max-width:100%}
+ .travel-site .recovery-home.v61-home .rh-world-plane .rh-world-copy h3{font-size:clamp(30px,8.3vw,38px);line-height:1.15}
+ .travel-site .recovery-home.v61-home .rh-world-copy p{font-size:14px;line-height:1.7;margin-block:14px 18px}
+ .travel-site .recovery-home.v61-home .rh-world-photo:after{background:linear-gradient(0deg,#071f20f2 0%,#071f20b3 48%,#071f2000 100%)}
+ .travel-site .recovery-home.v61-home .rh-world-controls{gap:10px 18px}
+ .travel-site .recovery-home.v61-home .rh-world-controls :is(.rh-intent,.journey-text-link){font-size:12px}
+ .travel-site .recovery-home.v61-home .rh-world-plane[data-engaged=true] .v6-world-depth{transform:scale(1.02)}
+ .travel-site .recovery-home.v61-home .rh-world-plane[data-engaged=true] .rh-world-copy h3{transform:none}
+ .travel-site .recovery-home.v61-home .rh-threshold{min-height:620px;padding-block:72px}
+ .travel-site .recovery-home.v61-home .rh-threshold h2{font-size:clamp(44px,12vw,58px);line-height:1.12}
+ .travel-site .recovery-home.v61-home .rh-threshold-note>strong{font-size:72px}
+ .travel-site .recovery-home.v61-home .rh-threshold-note p{font-size:14px}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter{padding-top:64px}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter h2{font-size:clamp(34px,9.4vw,42px)}
+ .travel-site .recovery-home.v61-home .rh-explorer-chapter>.rh-section-heading p{font-size:14px;line-height:1.8;margin-top:18px}
+ /* A real landscape crop above a flowing caption, in one teal environment. */
+ .travel-site .atlas-stage .rt-wrap{width:calc(100% - 40px)}
+ .travel-site .atlas-stage .rt-preview{height:auto;min-height:0;padding-top:280px;background:#071f20}
+ .travel-site.recovery-shell .atlas-stage .rt-preview-media{height:320px}
+ .travel-site .atlas-stage .rt-preview-content{position:relative;inset:auto;margin:0 20px;padding:0 0 24px}
+ .travel-site .atlas-stage .atlas-photo-shade{background:linear-gradient(0deg,#071f20 0%,#071f2000 45%)}
+ .travel-site .atlas-stage .rt-preview-image img[src*="turkiye.jpg"]{object-position:85% 70%}
+ .travel-site .atlas-stage .rt-preview h3{font-size:clamp(34px,9.5vw,43px);line-height:1.25}
+ .travel-site .atlas-stage .rt-preview-content>p{font-size:14px;line-height:1.75;margin-block:14px 18px}
+ .travel-site .atlas-stage .atlas-place-meta{gap:12px}
+ .travel-site .atlas-stage .atlas-current-number{font-size:28px}
+ .travel-site .atlas-stage .atlas-current-number{direction:ltr}
+ .travel-site .atlas-stage .rt-preview-actions{align-items:stretch;flex-direction:column;gap:12px}
+ .travel-site .atlas-stage .rt-preview-actions .journey-text-link{align-self:start;font-size:13px}
+ .travel-site .atlas-stage .rt-preview-actions .journey-action{justify-content:space-between}
+ .travel-site .atlas-stage .rt-step-controls{justify-content:end;gap:8px;margin-top:18px}
+ .travel-site .atlas-stage .rt-index{gap:0 14px}
+ .travel-site .atlas-stage .rt-index button{min-height:50px;height:auto;gap:7px}
+ .travel-site .atlas-stage .rt-index button>span{width:22px;min-width:22px}
+ .travel-site .atlas-stage .rt-index button>strong{font-size:12px}
+ .travel-site .atlas-stage .atlas-index-heading{letter-spacing:0;gap:14px;align-items:start}
+ .travel-site .atlas-stage .atlas-index-heading>span{max-width:58%;text-align:end}
+ .travel-site .atlas-stage .rt-explorer-foot{align-items:start;gap:16px}
+ .travel-site .atlas-stage .rt-explorer-foot a{font-size:12px;line-height:1.65}
+ .travel-site .recovery-home.v61-home .rh-signatures .rh-section-heading{padding:44px 20px 32px}
+ .travel-site .recovery-home.v61-home .rh-signatures .rh-section-heading h2{font-size:clamp(34px,9.4vw,42px)}
+ .travel-site .recovery-home.v61-home .rh-signature{height:auto;min-height:640px;display:flex;align-items:end}
+ .travel-site .recovery-home.v61-home .rh-signature .rh-signature-copy{position:relative;inset:auto;width:auto;margin:280px 20px 48px;max-width:calc(100% - 40px)}
+ .travel-site .recovery-home.v61-home .rh-signature-copy h3{font-size:clamp(38px,10.5vw,48px);line-height:1.2}
+ .travel-site .recovery-home.v61-home .rh-signature-copy p{font-size:14px;line-height:1.75;margin-block:16px 20px}
+ .travel-site .recovery-home.v61-home .rh-signature-copy .rh-actions{gap:12px 20px}
+ .travel-site .recovery-home.v61-home .rh-signature-0 img{object-position:48% 60%}
+ .travel-site .recovery-home.v61-home .rh-signature-1 img{object-position:52% 55%}
+ .travel-site .recovery-home.v61-home .rh-signature-2 img{object-position:62% 58%}
+ .travel-site .recovery-home.v61-home .v61-landscape-shade{background:linear-gradient(0deg,#071f20ed,#071f2055 60%,transparent)}
+ .travel-site .recovery-home.v61-home :is(.rh-film,.rh-story,.rh-proof,.rh-numbers,.rh-process,.rh-services,.rh-builder,.rh-beyond,.rh-faq){padding-block:56px}
+ .travel-site .recovery-home.v61-home :is(.rh-film,.rh-story,.rh-proof,.rh-numbers,.rh-process,.rh-services,.rh-builder,.rh-beyond,.rh-faq) h2{font-size:clamp(34px,9.4vw,42px);line-height:1.18}
+ .travel-site .recovery-home.v61-home .rh-section-heading{margin-bottom:30px}
+ .travel-site .recovery-home.v61-home .rh-film-frame{height:420px}
+ .travel-site .recovery-home.v61-home :is(.rh-proof,.rh-process,.rh-faq,.rh-beyond) p{font-size:14px;line-height:1.8}
+ .travel-site .recovery-home.v61-home .rh-faq summary{font-size:14px;line-height:1.6;min-height:52px}
+ .travel-site .recovery-home.v61-home .v6-service-index strong{font-size:clamp(20px,6vw,25px)}
+ .travel-site .v61-network .v6-network-heading{align-items:start;gap:16px}
+ .travel-site .v61-network .v6-network-heading h2{font-size:22px}
+ .travel-site .v61-network button{min-width:82px;font-size:12px;line-height:1.5}
+ .travel-site .v61-network .v6-network-note,.travel-site .v61-network .v6-institutions p{font-size:12px!important;line-height:1.8!important}
+ .travel-site .v61-network .v6-institutions ul{gap:20px;flex-wrap:wrap}
+ .travel-site .recovery-home.v61-home .rh-final{min-height:680px;padding-block:64px 110px}
+ .travel-site .recovery-home.v61-home .rh-final h2{font-size:clamp(36px,10.2vw,48px);line-height:1.16;max-width:13ch}
+ .travel-site .recovery-home.v61-home .rh-final>.photo img{object-position:65% 50%}
+ .travel-site .recovery-home.v61-home .rh-final .rh-actions{flex-direction:column;align-items:stretch;gap:12px}
+ .travel-site .recovery-home.v61-home .rh-final .rh-actions a{justify-content:space-between;min-height:50px}
+ .travel-site .recovery-home.v61-home .v61-journey-echo{margin-top:24px;line-height:1.8}
+ /* All secondary families retain their layouts, with a narrow-phone type scale. */
+ .travel-site.recovery-shell :is(.recovery-hub,.recovery-destination,.recovery-services,.recovery-company,.recovery-business,.recovery-secondary,.recovery-contact,.recovery-pilgrimage) h1{font-size:clamp(36px,10.5vw,48px);line-height:1.18;letter-spacing:-.035em}
+ .travel-site.recovery-shell :is(.recovery-hub,.recovery-destination,.recovery-services,.recovery-company,.recovery-business,.recovery-secondary,.recovery-contact,.recovery-pilgrimage) h2{font-size:clamp(30px,8.5vw,39px);line-height:1.2}
+ .travel-site.recovery-shell .rc-arrival-layout{grid-template-columns:minmax(0,1fr)}
+ .travel-site.recovery-shell .rc-arrival-layout>div{min-width:0}
+ .travel-site.recovery-shell .rs-place-dominant h3{font-size:clamp(28px,8.5vw,36px);gap:12px}
+ .travel-site.recovery-shell .rs-place-dominant h3 svg{flex-shrink:0}
+ .travel-site.recovery-shell :is(.rhub-final,.rd-final,.rs-final,.rb-final,.rp-final) h2{font-size:clamp(36px,10vw,46px)}
+ html[lang=ar] .travel-site.recovery-shell :is(h1,h2,h3){letter-spacing:0;line-height:1.4}
+ .travel-site.recovery-shell .rc-contact-edit-stops li{flex-wrap:wrap;gap:10px}
+ .travel-site.recovery-shell .rc-contact-edit-stops li>span{flex:1 1 100%}
+ .travel-site.recovery-shell .rc-contact-edit-stops li>div{margin-inline-start:auto}
+ .travel-site.recovery-shell .footer{padding-bottom:max(32px,env(safe-area-inset-bottom))}
+ .travel-site.recovery-shell .footer-grid a:not(.brand){min-height:44px}
+}
+@media(min-width:768px) and (max-width:1023px){
+ .travel-site .atlas-stage .rt-explorer-layout{grid-template-columns:180px minmax(0,1fr);gap:24px}
+ .travel-site .atlas-stage .rt-desktop-map{width:270px;right:12px}
+ .travel-site .atlas-stage .rt-preview h3{font-size:44px}
+ .travel-site .atlas-stage .rt-preview-actions{padding:0;gap:12px}
+ .travel-site .atlas-stage .rt-step-controls{position:static;margin-top:16px;justify-content:end}
+ .travel-site .recovery-home.v61-home .rh-world-stage{grid-template-columns:1fr 1fr;grid-template-rows:auto;gap:20px}
+ .travel-site .recovery-home.v61-home .rh-world-0{grid-column:1/-1;grid-row:1;height:460px}
+ .travel-site .recovery-home.v61-home .rh-world-1{grid-column:1;grid-row:2;height:430px}
+ .travel-site .recovery-home.v61-home .rh-world-2{grid-column:2;grid-row:2;height:430px}
+ .travel-site .recovery-home.v61-home .rh-world-copy p{font-size:14px}
+}
+@media(max-height:500px) and (orientation:landscape) and (max-width:1023px){
+ .travel-site .recovery-home.v61-home .rh-arrival{min-height:600px;padding-block:116px 108px}
+ .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:44px}
+ html[lang=tr] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:36px}
+ html[lang=ar] .travel-site .recovery-home.v61-home .rh-arrival h1{font-size:40px}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy{max-width:620px}
+ .travel-site .recovery-home.v61-home .rh-arrival-copy .journey-action{width:auto}
+ .travel-site .recovery-home.v61-home .rh-signature{min-height:540px}
+ .travel-site .recovery-home.v61-home .rh-final{min-height:600px}
+}

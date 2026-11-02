@@ -1,0 +1,99 @@
+{
+  "purpose": "Orchestration evidence workflow only; no frontend aesthetic approval",
+  "base": "http://localhost:3033",
+  "revision": "13b5afecde31cb0078c7980da2055a3b3edbaba8",
+  "cases": [
+    {
+      "file": "desktop-0.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 0,
+      "actualScrollY": 0
+    },
+    {
+      "file": "desktop-25.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 0.25,
+      "actualScrollY": 325
+    },
+    {
+      "file": "desktop-50.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 0.5,
+      "actualScrollY": 650
+    },
+    {
+      "file": "desktop-75.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 0.75,
+      "actualScrollY": 975
+    },
+    {
+      "file": "desktop-100.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 1,
+      "actualScrollY": 1300
+    },
+    {
+      "file": "laptop-0.png",
+      "width": 1280,
+      "height": 800,
+      "locale": "tr",
+      "touch": false,
+      "reduced": false,
+      "openingProgress": 0,
+      "actualScrollY": 0
+    },
+    {
+      "file": "tablet-0.png",
+      "width": 768,
+      "height": 1024,
+      "locale": "en",
+      "touch": true,
+      "reduced": false,
+      "openingProgress": 0,
+      "actualScrollY": 0
+    },
+    {
+      "file": "mobile-rtl-0.png",
+      "width": 390,
+      "height": 844,
+      "locale": "ar",
+      "touch": true,
+      "reduced": false,
+      "openingProgress": 0,
+      "actualScrollY": 0
+    },
+    {
+      "file": "reduced-0.png",
+      "width": 1440,
+      "height": 1000,
+      "locale": "en",
+      "touch": false,
+      "reduced": true,
+      "openingProgress": 0,
+      "actualScrollY": 0
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

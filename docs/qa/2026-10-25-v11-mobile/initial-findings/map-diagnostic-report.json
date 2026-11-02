@@ -1,0 +1,165 @@
+{
+  "status": "failed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 740,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "height": 812,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 667,
+      "height": 375,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "places": 12,
+      "method": "actual browser touch taps, no forced actions"
+    }
+  ],
+  "errors": [],
+  "failure": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.atlas-stage .rt-index button').nth(5)\nExpected: \"true\"\nReceived: \"false\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.atlas-stage .rt-index button').nth(5) with timeout 5000ms\n  - waiting for locator('.atlas-stage .rt-index button').nth(5)\n    13 × locator resolved to <button aria-pressed=\"false\">…</button>\n       - unexpected value \"false\"\n",
+  "failureGeometry": {
+    "scrollY": 3557,
+    "selected": "11Yalova",
+    "sticky": false,
+    "pins": [
+      {
+        "label": "İstanbul",
+        "x": 33.85716247558594,
+        "y": 594.857177734375,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "İstanbul"
+      },
+      {
+        "label": "Trabzon",
+        "x": 181.49606323242188,
+        "y": 594.857177734375,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "Trabzon"
+      },
+      {
+        "label": "Rize ve Ayder",
+        "x": 253.74801635742188,
+        "y": 604.2785034179688,
+        "width": 45.980010986328125,
+        "height": 45.97998046875,
+        "hit": "Rize ve Ayder"
+      },
+      {
+        "label": "Uzungöl",
+        "x": 219.1977081298828,
+        "y": 659.2552490234375,
+        "width": 45.97999572753906,
+        "height": 45.98004150390625,
+        "hit": "Uzungöl"
+      },
+      {
+        "label": "Antalya",
+        "x": 168.92340087890625,
+        "y": 695.3731079101562,
+        "width": 45.980010986328125,
+        "height": 45.97998046875,
+        "hit": "Antalya"
+      },
+      {
+        "label": "Bodrum",
+        "x": 40.12716293334961,
+        "y": 700.0919189453125,
+        "width": 45.97999954223633,
+        "height": 45.97998046875,
+        "hit": "Bodrum"
+      },
+      {
+        "label": "Fethiye",
+        "x": 120.23294067382812,
+        "y": 715.7832641601562,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "Fethiye"
+      },
+      {
+        "label": "Marmaris",
+        "x": 76.26130676269531,
+        "y": 734.6422119140625,
+        "width": 45.97999572753906,
+        "height": 45.97998046875
+      },
+      {
+        "label": "Sapanca",
+        "x": 106.10911560058594,
+        "y": 601.1434936523438,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "Sapanca"
+      },
+      {
+        "label": "Bursa",
+        "x": 69.9749755859375,
+        "y": 676.5303955078125,
+        "width": 45.97999572753906,
+        "height": 45.98004150390625,
+        "hit": "Bursa"
+      },
+      {
+        "label": "Yalova",
+        "x": 29.138336181640625,
+        "y": 646.6826171875,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "Yalova"
+      },
+      {
+        "label": "Kapadokya",
+        "x": 140.659423828125,
+        "y": 638.8287963867188,
+        "width": 45.97999572753906,
+        "height": 45.97998046875,
+        "hit": "Kapadokya"
+      }
+    ]
+  }
+}

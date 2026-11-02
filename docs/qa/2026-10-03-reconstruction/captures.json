@@ -1,0 +1,16 @@
+{
+  "stage": "after",
+  "base": "http://localhost:3023",
+  "captures": [
+    "1440-hero.png",
+    "1440-services.png",
+    "1440-turkiye.png",
+    "1440-planner.png",
+    "1440-arrival.png",
+    "390-hero.png",
+    "390-services.png",
+    "390-turkiye.png",
+    "390-planner.png",
+    "390-arrival.png"
+  ]
+}

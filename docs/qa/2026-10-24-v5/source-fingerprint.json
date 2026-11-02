@@ -1,0 +1,4 @@
+{
+  "sha256": "d1f3a38e0fd61d890532ffa0d40e9402184bd8eb5004c338f55e47e57d29ced8",
+  "scope": "tracked frontend-v2 files plus new verify-v5.mjs; excludes docs and build output"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "kind": "partial",
+      "passed": true
+    },
+    {
+      "kind": "event-target",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

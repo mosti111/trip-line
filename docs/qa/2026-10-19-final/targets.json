@@ -1,0 +1,361 @@
+{
+  "status": "passed",
+  "phase": "targets",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-19T13:25:12.468Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "cases": [
+    {
+      "name": "corrected44px target/menu en 360x800",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu en 390x844",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu en 430x932",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu en 844x390",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu en 768x1024",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu tr 360x800",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu tr 390x844",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu tr 430x932",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu tr 844x390",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu tr 768x1024",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu ar 360x800",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu ar 390x844",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu ar 430x932",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu ar 844x390",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    },
+    {
+      "name": "corrected44px target/menu ar 768x1024",
+      "target": {
+        "width": 44,
+        "height": 44,
+        "minWidth": "44px"
+      }
+    }
+  ],
+  "screens": [
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-en-360x800.png",
+      "sha256": "37c9aae8844f40cbd3c6f521ffa79da7c109d741c540590e79e091f211f341e6",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-en-360x800.png",
+      "sha256": "388be2f46a2ce62a36dbf3d70f37ac0b85a9a3bfe6e64b1dc77662914df967a2",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-en-390x844.png",
+      "sha256": "fdee18a2c679e21f86e95cb276b4593d18bbd094c0824a991cd01bf11ce8f8f3",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-en-390x844.png",
+      "sha256": "6be6e17317b91666d1d93c440bac38483e86d6fef154d5348d1bbc8ffc2e79b5",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-en-430x932.png",
+      "sha256": "9d7cc2102718ea4264f7237ffda63213b7d549b88721e16b7c44ec3ba4f890e7",
+      "locale": "en",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-en-430x932.png",
+      "sha256": "b4868fc383fba4d2de07d0a0ea36510a353dac76e9e1e0a0d1cbddc8c43d134f",
+      "locale": "en",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-en-844x390.png",
+      "sha256": "5749772764675689d0eed7db861872cbb4dc785fb25455903603eb6ca4b67aee",
+      "locale": "en",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-en-844x390.png",
+      "sha256": "f01b81ec9ab713cd871f892ef72511a85e7d4deefe4a77c3f4640db7930c9a25",
+      "locale": "en",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-en-768x1024.png",
+      "sha256": "1095be8b8ecd6aaefc93aa4dae5fcecc3f41f518ba6df6a4f4cc8cba821d22af",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-en-768x1024.png",
+      "sha256": "b458d27a1b6f871ee01960dd7fbd1d3251a87f346bec620a099786f1f65e59df",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-tr-360x800.png",
+      "sha256": "e791ec0e718bffc90c9be7a136a032304e2c3ec8cda430a54fc770c7b7c5263b",
+      "locale": "tr",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-tr-360x800.png",
+      "sha256": "4ee7baae1f0ee6d3305a7b1e95f77a90af56608e7743a871498cb49ab10c8522",
+      "locale": "tr",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-tr-390x844.png",
+      "sha256": "f5772644a6c884523fbf529b0eecc9cc1ff308c89c6277b726a8af9820854cf8",
+      "locale": "tr",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-tr-390x844.png",
+      "sha256": "e56c2cba1b84dc0fced177fc277bcec24634d96a0b64efdde85101a6cebaa4e5",
+      "locale": "tr",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-tr-430x932.png",
+      "sha256": "27e3199b8a2c0f3f5c34488b3c5636e2ea0857fee52ee8d1655404aaa647fe12",
+      "locale": "tr",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-tr-430x932.png",
+      "sha256": "42ee467be88a8dfa4d2c4678c3121adb49921bbc7cc170144e00831eed43080a",
+      "locale": "tr",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-tr-844x390.png",
+      "sha256": "d3954df7387b354a02e15f3f3764fb0889e330c57ff7b38c79c708636ee531c4",
+      "locale": "tr",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-tr-844x390.png",
+      "sha256": "260646797902306820f1013407a2dfeec7bd15e094e44742e8abc2e9ad352d28",
+      "locale": "tr",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-tr-768x1024.png",
+      "sha256": "3cc984d305cff0a840ff44ab1e49ebcfc30b444cd8316b0ec53e5b65c9a349e7",
+      "locale": "tr",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-tr-768x1024.png",
+      "sha256": "4675ac5dc8b3aedd2260fc2c2b2c0f556f5a66fe747bc26e10f472d5f4a5fbb9",
+      "locale": "tr",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-ar-360x800.png",
+      "sha256": "726607b88f64656312e32ac3d9e9296eb589d1461c6cb3940af40c7fc7820b01",
+      "locale": "ar",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-ar-360x800.png",
+      "sha256": "245766baafd048529480e9aab3cc6aa39fc7f2293c15ddc9898737284330ba5b",
+      "locale": "ar",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-ar-390x844.png",
+      "sha256": "94f06af07b05cb77e9aeb6ca006a8ae69d45d95bdf077e1770bdef75d2d0c5e0",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-ar-390x844.png",
+      "sha256": "7c1d3bf97b337f71f39c72f10bee432e65c5cd02ceb87bcf65208ac89b2f904c",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-ar-430x932.png",
+      "sha256": "2004a29c09017008d4b0330ba892fd2c0872ee2a2301caa9657e7cb4d7a34936",
+      "locale": "ar",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-ar-430x932.png",
+      "sha256": "0e7b711c1d3c98a48a60bd083cc22294bdd38f9b21b483d56c45c43cb1110bab",
+      "locale": "ar",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-ar-844x390.png",
+      "sha256": "193cd6428f05b899d26a61556bbf3abf1545bd0797ea7a8a20901ac43818b8a8",
+      "locale": "ar",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-ar-844x390.png",
+      "sha256": "f70af20bb8acd077c0bed79c4d1bafb425fc223146543b86929d7392942b8968",
+      "locale": "ar",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-ar-768x1024.png",
+      "sha256": "986445ff86b6ffac65c1baf59d6410fa0d5705f19932eb90af7a96a5e1974644",
+      "locale": "ar",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\targets\\2026-10-19T13-25-12.464Z\\target-menu-ar-768x1024.png",
+      "sha256": "bdc95d25f36eeef6304c9a3d7596962762ee2c4d4b56fe9db7f94c352f468d35",
+      "locale": "ar",
+      "width": 768,
+      "height": 1024
+    }
+  ],
+  "errors": [],
+  "measurements": [],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "sourceHashes": {
+    "styles/recovery-shell.css": "e4aae0120062057286103e5a1fb9c4096fe97429cfdb4ddffeec7a9bad28cea5",
+    "scripts/verify-recovery.mjs": "95d265d2c3b3e3df2d959661631af94cf237aa4341cac28a254fef9ce50506f4",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "scripts/verify-v3-resilience.mjs": "f50b4d53310ba3f9ae4e637231bd0c92a5a612e413088bbada3f6d155b64530b",
+    "scripts/verify-reconstruction.mjs": "4eaaf55295e373e3f40c45a9d03def517a8f27269788c35d4f288ab50c4c3a4b",
+    "scripts/verify-reconstruction-media.mjs": "1d741f2aec85a590b87a77902c7025c4b73a007f9d68a62825efb193eddccdb8",
+    "scripts/verify-planner-throttled.mjs": "d48be8aff5d9f5fe8bda4bb9fab519b1c7a23a76b49564e0c919887ea339ce77"
+  },
+  "applicationDiffSha256": "4ccb5b1150a7508db7815f75da01138e396dd6202dc33e4b06c21e0483ca02c9",
+  "browserVersion": "153.0.8010.12",
+  "finishedAt": "2026-10-19T13:26:12.923Z"
+}

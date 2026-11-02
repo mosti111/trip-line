@@ -1,0 +1,158 @@
+{
+  "startedAt": "2026-10-07T15:24:39.115Z",
+  "browser": "Chromium",
+  "stage": "full",
+  "status": "passed",
+  "base": "http://localhost:3043",
+  "cases": [
+    {
+      "locale": "ar",
+      "width": 360,
+      "height": 800,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "height": 932,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 1280,
+      "height": 900,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 360,
+      "height": 800,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 430,
+      "height": 932,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 900,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "height": 1000,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "input": "touch",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 900,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "input": "fine",
+      "motion": "normal"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "motion": "reduced"
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "height": 1000,
+      "motion": "reduced"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "motion": "reduced"
+    }
+  ],
+  "checks": [
+    "All fifteen chapters at six exact required viewports in EN/TR/AR; touch selection, planner state, scoped modal focus trap/restoration, image integrity and reduced-motion readable arrival"
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-07T15:35:18.955Z"
+}

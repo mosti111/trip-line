@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "testedBase": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "applicationCommit": "6dd8a6a29efaf883619fa152e8b095773d196c29",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "commands": [
+    "pnpm typecheck",
+    "pnpm lint",
+    "pnpm test",
+    "pnpm build",
+    "node scripts/verify-public.mjs",
+    "node scripts/verify-v3.mjs",
+    "node scripts/verify-v3-resilience.mjs",
+    "node scripts/verify-reconstruction.mjs",
+    "node scripts/verify-reconstruction-media.mjs",
+    "node scripts/verify-planner-throttled.mjs",
+    "node scripts/verify-recovery-contact.mjs",
+    "node scripts/verify-recovery.mjs (nine explicit phases)"
+  ],
+  "environment": {
+    "QA_URL": "http://localhost:3043",
+    "QA_OUT": "../tmp/frontend-qa/final-q12/corrected/<suite>",
+    "QA_FINAL_PUBLIC_REPORT": "../tmp/frontend-qa/final-q12/corrected/public/production-check.json",
+    "node": "24.21.0",
+    "pnpm": "11.25.0",
+    "runner": "bundled pnpm.cmd invokes genuine pnpm.mjs"
+  },
+  "unitTests": 32,
+  "results": [
+    {
+      "suite": "public",
+      "status": "passed",
+      "checks": 5,
+      "screens": 6,
+      "routes": 120,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:27:34.496Z",
+      "finishedAt": "2026-10-19T13:28:43.624Z"
+    },
+    {
+      "suite": "v3",
+      "status": "passed",
+      "checks": 16,
+      "screens": 60,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:29:27.412Z",
+      "finishedAt": "2026-10-19T13:35:59.640Z"
+    },
+    {
+      "suite": "resilience",
+      "status": "passed",
+      "checks": 9,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:20:34.838Z",
+      "finishedAt": "2026-10-19T22:21:57.634Z"
+    },
+    {
+      "suite": "media",
+      "status": "passed",
+      "checks": 2,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:22:00.440Z",
+      "finishedAt": "2026-10-19T22:22:19.448Z"
+    },
+    {
+      "suite": "reconstruction",
+      "status": "passed",
+      "cases": 21,
+      "checks": 1,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:22:22.232Z",
+      "finishedAt": "2026-10-19T22:33:28.146Z"
+    },
+    {
+      "suite": "throttled",
+      "status": "passed",
+      "cases": 9,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:33:30.446Z"
+    },
+    {
+      "suite": "targets",
+      "status": "passed",
+      "cases": 15,
+      "screens": 30,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:25:12.468Z",
+      "finishedAt": "2026-10-19T13:26:12.923Z"
+    },
+    {
+      "suite": "accessibility",
+      "status": "passed",
+      "cases": 7,
+      "screens": 12,
+      "errors": 0,
+      "startedAt": "2026-10-19T13:26:26.983Z",
+      "finishedAt": "2026-10-19T13:26:50.776Z"
+    },
+    {
+      "suite": "matrix",
+      "status": "passed",
+      "cases": 165,
+      "screens": 276,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:15:54.530Z",
+      "finishedAt": "2026-10-20T17:26:40.492Z"
+    },
+    {
+      "suite": "journey",
+      "status": "passed",
+      "cases": 6,
+      "screens": 3,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:26:42.405Z",
+      "finishedAt": "2026-10-20T17:27:28.600Z"
+    },
+    {
+      "suite": "motion",
+      "status": "passed",
+      "cases": 4,
+      "screens": 68,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:27:29.958Z",
+      "finishedAt": "2026-10-20T17:30:07.577Z"
+    },
+    {
+      "suite": "integrity",
+      "status": "passed",
+      "cases": 5,
+      "screens": 4,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:30:09.032Z",
+      "finishedAt": "2026-10-20T17:30:50.763Z"
+    },
+    {
+      "suite": "briefs",
+      "status": "passed",
+      "cases": 21,
+      "screens": 0,
+      "errors": 0,
+      "startedAt": "2026-10-20T17:30:52.320Z",
+      "finishedAt": "2026-10-20T17:31:34.161Z"
+    },
+    {
+      "suite": "fallbacks",
+      "status": "passed",
+      "cases": 15,
+      "screens": 15,
+      "errors": 0,
+      "startedAt": "2026-10-20T22:15:51.436Z",
+      "finishedAt": "2026-10-20T22:16:54.333Z"
+    },
+    {
+      "suite": "resources",
+      "status": "passed",
+      "cases": 13,
+      "screens": 0,
+      "errors": 0,
+      "startedAt": "2026-10-20T22:16:56.020Z",
+      "finishedAt": "2026-10-20T22:17:12.313Z"
+    },
+    {
+      "suite": "contact",
+      "status": "passed",
+      "cases": 37,
+      "screens": 18,
+      "errors": 0,
+      "startedAt": "2026-10-19T22:35:20.580Z",
+      "finishedAt": "2026-10-19T22:36:29.765Z"
+    }
+  ],
+  "throttledAdditionalPersistence": 3,
+  "independentReview": "root-review.json",
+  "protocol": {
+    "syntax": "PASS",
+    "selfTests": 59,
+    "liveState": "PASS",
+    "approvedArchives": 2,
+    "links": "PASS",
+    "durableEvidenceHashes": 68,
+    "frozenApplicationFiles": 153,
+    "scopeAndWhitespace": "PASS"
+  },
+  "noDeployment": true
+}

@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "cases": [],
+  "errors": [],
+  "failure": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator: locator('#journey-builder').locator('.rh-builder-preview').locator('img')\nExpected pattern: /istanbul/\nReceived string:  \"/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=3840&q=85\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('#journey-builder').locator('.rh-builder-preview').locator('img') with timeout 5000ms\n  - waiting for locator('#journey-builder').locator('.rh-builder-preview').locator('img')\n    14 × locator resolved to <img alt=\"\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" sizes=\"(max-width:760px) 100vw,50vw\" src=\"/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=3840&q=85\" srcset=\"/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=640&q=85 640w, /_next/image?url=%2Fmedia%2Fturkiye.jpg&w=750&q=85 750w, /_next/image?url=%2Fmedia%2Fturkiye.jpg&w=828&q=85 828w, /_next/image?url=%2Fmedia%2Fturkiye.jpg&w=1080&q=85 1080w, /_next/image?url=%2Fmedia%2Fturkiye.jpg&w=1200&q=85 1200w, /_next/image?url=%2Fmedia%2Fturkiye.jpg&w=1920&q=8…/>\n       - unexpected value \"/_next/image?url=%2Fmedia%2Fturkiye.jpg&w=3840&q=85\"\n"
+}

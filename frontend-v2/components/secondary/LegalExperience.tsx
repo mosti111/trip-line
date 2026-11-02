@@ -1,0 +1,8 @@
+import Link from 'next/link';
+import { href, t, ui, type Locale } from '@/lib/i18n';
+import '@/styles/recovery-secondary.css';
+
+export function LegalExperience({locale,kind}:{locale:Locale;kind:'privacy'|'terms'}) {
+  const sections=kind==='privacy'?[t('Information and choices','المعلومات والخيارات','Bilgiler ve tercihler'),t('Use of information','استخدام المعلومات','Bilgilerin kullanımı'),t('Your questions','أسئلتك','Soruların')]:[t('Using this website','استخدام هذا الموقع','Bu siteyi kullanma'),t('Inquiries','الاستفسارات','Talepler'),t('Travel arrangements','ترتيبات السفر','Seyahat düzenlemeleri')];
+  return <div className="recovery-secondary secondary-legal"><header className="sx-page-intro"><div className="sx-wrap"><span className="sx-kicker">TRIP LINE</span><h1>{ui[kind][locale]}</h1><p className="sx-pending" data-legal-pending>{ui.legalPending[locale]}</p></div></header><div className="sx-wrap sx-legal-layout"><nav className="sx-contents" aria-label={ui.contents[locale]}><h2>{ui.contents[locale]}</h2>{sections.map((s,i)=><a href={`#legal-${i}`} key={i}>{s[locale]}</a>)}<a href="#preferences">{ui.preferences[locale]}</a><Link href={href(locale,'contact')}>{ui.contact[locale]}</Link></nav><div className="sx-legal-copy"><p className="sx-legal-notice">{ui.legalBody[locale]}</p>{sections.map((s,i)=><article id={`legal-${i}`} key={i}><h2>{s[locale]}</h2><p>{ui.legalPending[locale]}</p></article>)}<article id="preferences"><h2>{ui.preferences[locale]}</h2><p>{ui.preferencesBody[locale]}</p></article><Link className="journey-text-link" href={href(locale,'destinations/turkiye')}>{t('Discover Türkiye','اكتشف تركيا','Türkiye’yi keşfet')[locale]} ↗</Link></div></div></div>;
+}

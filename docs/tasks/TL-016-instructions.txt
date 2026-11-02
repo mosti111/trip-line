@@ -1,0 +1,487 @@
+# TASK: Trip Line — Repository Consolidation & V1.0 Baseline
+
+## Mission
+
+Perform a comprehensive repository audit, cleanup, documentation consolidation, and release-baseline preparation for Trip Line.
+
+The objective is to transform the existing development repository into a clean, maintainable, professionally organized **Trip Line V1.0** codebase while preserving important technical knowledge, creative decisions, development history, and recovery options.
+
+This is **not a redesign, rebuild, feature-development task, or deployment task**.
+
+The existing working application must remain functionally and visually equivalent.
+
+## 1. Repository context
+
+Repository: `https://github.com/mosti111/trip-line`
+
+Recently active branch: `codex/trip-line-v11-mobile-recovery`
+
+Known milestones:
+- 120 localized routes across English, Arabic, and Turkish
+- Türkiye-first destination discovery
+- Nine services
+- Journey builder and inquiry preparation
+- Responsive desktop/mobile experiences
+- RTL support
+- Premium animation and motion system
+- Mobile recovery work
+- Full Motion default fix for capable devices
+
+Known deployed motion-review commit: `1f6e453e` (TL-014).
+
+Previously reported documentation synchronization commit: `396ebdf4`.
+
+These are reference points, **not assumptions about current HEAD**. Inspect Git and determine the actual latest verified state before proceeding.
+
+The project has accumulated various naming conventions, experiments, reports, development phases, and iterations. We now want to establish a coherent V1.0 baseline without destroying valuable history.
+
+## 2. Non-negotiable safety rules
+
+1. Do not rewrite, squash, or force-push existing Git history.
+2. Do not delete remote branches or tags automatically.
+3. Do not merge into `main` automatically.
+4. Do not deploy, promote, delete, or reconfigure Vercel projects.
+5. Do not redesign components or modify approved visual behavior.
+6. Do not replace the motion system or change motion preference semantics.
+7. Do not change routing, SEO, localization, RTL, or journey behavior.
+8. Never delete secrets, local environment configuration, or dependencies recklessly.
+9. Do not mistake currently unused-looking dynamic assets, locale data, or components for dead code without tracing their consumers.
+10. Never invent verification results, historical decisions, or client approvals.
+
+Create a dedicated cleanup branch from the selected canonical baseline. Preserve the original branch and commit references.
+
+## 3. Phase A — Establish the canonical baseline
+
+Inspect the entire repository before changing anything.
+
+Determine:
+- Current Git branch and HEAD
+- Relationship between `main` and active development branches
+- Latest verified functional implementation
+- Source of truth for mobile behavior and Full Motion defaults
+- Actual application root and build configuration
+- Existing release tags
+- Current documentation structure
+- Working CI and QA commands
+- Deployment configuration and known preview environments
+
+Identify which implementation should become the V1.0 release candidate.
+
+Do not assume the most recently created branch is automatically the correct baseline.
+
+Document the decision and provide evidence.
+
+**Versioning requirement:**
+
+Use V1.0 as the forward-looking product baseline.
+
+Preserve accurate historical version names in archives and Git references. Do not rewrite historical evidence to falsely suggest earlier milestones were originally called V1.0.
+
+Avoid renaming application directories such as `frontend-v2` merely for appearance if doing so creates unnecessary regression risk. Prefer clean documentation and package metadata.
+
+## 4. Phase B — Full repository inventory
+
+Audit the following:
+
+### Application code
+- Orphaned components
+- Superseded implementations
+- Dead utilities and hooks
+- Unused imports and dependencies
+- Duplicate logic
+- Legacy animation implementations
+- Abandoned experiments
+- Debug code and temporary fixtures
+
+### Assets
+- Unreferenced media
+- Duplicate images
+- Temporary screenshots
+- Obsolete test recordings
+- Redundant generated assets
+- Build outputs and caches
+
+### Tooling
+- Obsolete scripts
+- Duplicate configuration files
+- Outdated QA commands
+- Unused packages
+- Conflicting development instructions
+- CI workflows and deployment configurations
+
+### Documentation
+- Competing status reports
+- Outdated TODO files
+- Repeated task handoffs
+- Superseded implementation plans
+- Old QA evidence
+- Historical design decisions
+- Client-review records
+- Contradictory version names
+
+Classify findings as:
+
+**KEEP** — Required and current.
+
+**CONSOLIDATE** — Valuable information duplicated across multiple sources.
+
+**ARCHIVE** — Historically useful but no longer active.
+
+**DELETE** — Proven redundant, obsolete, safely recoverable, and unnecessary.
+
+**INVESTIGATE** — Cannot confidently classify.
+
+Only automatically delete items in the DELETE category after verifying that no live references or required dependencies remain.
+
+Preserve INVESTIGATE items and record why they need review.
+
+## 5. Phase C — Clean the repository
+
+Perform justified, low-risk cleanup.
+
+- Remove confirmed dead code and obsolete temporary files.
+- Consolidate duplicated information.
+- Update stale references and internal links.
+- Correct safe dependency and import issues.
+- Improve `.gitignore` where necessary.
+- Remove tracked build outputs only when they are genuinely generated and not required.
+- Ensure project scripts and development instructions remain functional.
+- Remove outdated version language from current-facing documentation.
+
+Do not conduct unrelated architecture refactoring or broad formatting changes.
+
+Avoid changes that produce massive diffs without meaningful maintainability improvements.
+
+Separate mechanical cleanup from documentation changes in logically scoped commits.
+
+## 6. Phase D — Build a canonical documentation system
+
+Establish a compact, navigable documentation system.
+
+Use the existing documentation where possible rather than blindly recreating everything.
+
+Suggested structure:
+
+```text
+trip-line/
+├── README.md
+├── PROJECT_STATUS.md
+├── AGENTS.md
+├── docs/
+│   ├── START_HERE.md
+│   ├── ARCHITECTURE.md
+│   ├── DESIGN_SYSTEM.md
+│   ├── MOTION_SYSTEM.md
+│   ├── ROUTES_LOCALIZATION.md
+│   ├── DECISIONS.md
+│   ├── QA_RELEASE.md
+│   ├── DEPLOYMENTS.md
+│   ├── CHANGELOG.md
+│   └── archive/
+│       ├── README.md
+│       └── historical-material/
+└── [existing application structure]
+```
+
+Adapt this structure if a simpler organization better fits the actual repository.
+
+### README.md
+
+The public-facing project entry point.
+
+Include:
+- What Trip Line is
+- Current release status
+- Supported languages
+- Main features
+- Tech stack
+- Local installation
+- Development and build commands
+- Testing instructions
+- Documentation navigation
+
+### PROJECT_STATUS.md
+
+The authoritative current-state document.
+
+Include:
+- Current baseline and Git references
+- Completed and verified systems
+- Known unresolved issues
+- Remaining client acceptance requirements
+- Deployment status
+- Next recommended development steps
+
+Clearly distinguish engineering verification from client creative approval.
+
+### START_HERE.md
+
+A complete onboarding guide for a new developer or AI coding agent.
+
+A fresh Codex session should understand the project without access to previous conversations.
+
+Explain where to find:
+- Architecture
+- Design constraints
+- Motion behavior
+- Important decisions
+- Current tasks
+- QA requirements
+- Deployment context
+
+### ARCHITECTURE.md
+
+Document the actual:
+- Framework and application structure
+- Major components and shared systems
+- Routing architecture
+- State management
+- Data and content organization
+- Integration boundaries
+- Key dependencies
+
+Do not invent undocumented architecture.
+
+### DESIGN_SYSTEM.md
+
+Preserve approved creative direction:
+- Brand identity
+- Typography
+- Color and material language
+- Layout principles
+- Responsive behavior
+- Component guidelines
+- Interaction principles
+- Approved design constraints
+
+Describe the implemented design, not aspirational redesign proposals.
+
+### MOTION_SYSTEM.md
+
+Explain:
+- Motion architecture and libraries
+- Major animated experiences
+- Scroll and interaction behavior
+- Desktop/mobile differences
+- Performance fallbacks
+- Full Motion default
+- User-controlled motion preferences
+- Accessibility implications
+- Known limitations
+
+Explicitly record why the default motion behavior was chosen, and distinguish deliberate product behavior from accessibility recommendations.
+
+### ROUTES_LOCALIZATION.md
+
+Document:
+- Language structure
+- Route generation
+- Localized metadata
+- RTL conventions
+- Language switching
+- Destination and service content
+- SEO and hreflang behavior
+
+### DECISIONS.md
+
+Create a concise architectural and creative decision log.
+
+For each important decision, capture:
+- Decision
+- Reason
+- Alternatives considered, if recorded
+- Current status
+- Relevant historical document or commit
+
+Do not manufacture reasoning where no evidence exists.
+
+### QA_RELEASE.md
+
+Document:
+- Available test commands
+- Build validation
+- Desktop/mobile verification
+- Browser testing
+- Accessibility checks
+- Localization verification
+- Known test limitations
+- Client approval requirements
+- V1.0 acceptance checklist
+
+Separate historical results from results actually rerun during cleanup.
+
+### DEPLOYMENTS.md
+
+Document:
+- Vercel project relationships
+- Production versus preview environments
+- Known client-review URLs
+- Associated branches and commits
+- Time-limited previews or expiry mechanisms
+- Deployment procedures
+- Current deployment limitations
+
+Inspect available configuration and evidence. Treat historical URLs as references, not guaranteed live endpoints.
+
+### CHANGELOG.md
+
+Summarize meaningful product milestones.
+
+Create a clean V1.0 release-candidate entry, followed by a concise historical summary.
+
+Avoid turning this into a duplicate of the Git commit log.
+
+## 7. Phase E — Preserve historical knowledge
+
+The previous iterations contain valuable knowledge.
+
+Preserve relevant:
+- Design exploration outcomes
+- Rejected approaches and reasons
+- Motion implementation lessons
+- Mobile Safari investigation
+- RTL fixes
+- Localization issues
+- Important debugging findings
+- Previous QA evidence
+- Client-facing delivery information
+- Architectural decisions
+- Orchestration instructions that remain useful
+
+Move superseded documents to `docs/archive/` or consolidate their unique content into canonical documents.
+
+Create `docs/archive/README.md` explaining what was archived and where significant historical material can be found.
+
+Do not archive everything indiscriminately.
+
+Git history is sufficient for trivial or duplicated temporary material, but important decisions and recovery information should remain discoverable in active documentation or a clearly indexed archive.
+
+Preserve original dates, commit references, and context.
+
+## 8. Phase F — Normalize the developer workflow
+
+Review the current AGENTS.md and related agent instructions.
+
+Ensure there is one clear set of operating instructions.
+
+Document:
+- How development tasks begin
+- Where Codex gets project context
+- Which design decisions are frozen
+- Which changes require explicit approval
+- How QA is performed
+- What constitutes completion
+- How status and change documentation are updated
+
+Consolidate contradictory agent instructions while preserving essential architecture and validation rules.
+
+The result should support future Codex sessions without requiring repeated explanations.
+
+Do not create a complex new orchestration framework solely for the cleanup.
+
+## 9. Phase G — Verify the consolidated baseline
+
+Run the relevant repository checks available in the actual project.
+
+Verify at minimum, where tooling supports it:
+- Dependency installation
+- Type checking
+- Linting
+- Unit tests
+- Production build
+- Route generation
+- Localization completeness
+- RTL integrity
+- Asset resolution
+- Motion preference behavior
+- Navigation and journey flow
+- Documentation internal links
+
+Check that all 120 expected localized content routes remain intact, provided the current baseline still establishes that count.
+
+Compare the cleaned implementation against the baseline.
+
+No intended visible or functional changes should result from this cleanup.
+
+If browser/device verification cannot be performed, explicitly mark it as unverified rather than claiming success.
+
+## 10. Phase H — Prepare V1.0 handoff
+
+Do not declare V1.0 officially released without explicit authorization.
+
+Prepare:
+1. A clean V1.0 release candidate.
+2. Updated canonical documentation.
+3. A clear inventory of removed, archived, and retained material.
+4. A branch-retention recommendation.
+5. A Vercel project/deployment cleanup recommendation.
+6. A list of known blockers and unresolved issues.
+7. Final validation evidence.
+8. A safe release procedure for later approval.
+
+**Do not actually delete remote branches, create the final release tag, merge to main, or modify Vercel environments.**
+
+Provide the exact recommended Git operations for the later release, but leave those operations unexecuted.
+
+## 11. Completion criteria
+
+Consider the task complete only when:
+
+- There is one obvious active development baseline.
+- Current documentation is consistent.
+- Historical decisions and important evidence remain recoverable.
+- Temporary clutter and proven dead code are removed.
+- No working behavior has regressed.
+- No essential context depends on previous ChatGPT conversations.
+- A new developer can understand, run, test, and continue Trip Line using the repository documentation alone.
+- The V1.0 release candidate is ready for creative approval and subsequent release operations.
+
+## 12. Final report
+
+Return:
+
+**A. Canonical baseline**
+- Branch
+- Starting commit
+- Final commit
+- Why this baseline was selected
+
+**B. Cleanup results**
+- Deleted files
+- Archived files
+- Consolidated documentation
+- Dependencies/scripts affected
+- Items intentionally retained
+
+**C. Validation results**
+- Commands executed
+- Pass/fail outcomes
+- Regressions discovered and addressed
+- Verification limitations
+
+**D. Final repository organization**
+- Concise file tree
+- Canonical documents
+- Onboarding entry point
+
+**E. Release readiness**
+- Completed requirements
+- Remaining issues
+- Client approval blockers
+- Deployment status
+- Recommended next actions
+
+**F. Branch and Vercel cleanup recommendations**
+- What can eventually be removed
+- What must be retained
+- What requires user approval
+
+Commit the safe, validated cleanup on the dedicated branch and push that branch to GitHub if authorized by the repository's existing workflow.
+
+Do not merge, tag a final release, publish, or delete remote resources.
+
+### Guiding principle
+
+**Make Trip Line easy to understand, safe to maintain, and ready to release—not merely smaller.**
+
+Preserve the product, the reasoning behind it, and the ability to recover past work.

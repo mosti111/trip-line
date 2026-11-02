@@ -1,0 +1,768 @@
+{
+  "startedAt": "2026-10-10T00:10:55.118Z",
+  "source": {
+    "components/services/PilgrimageExperience.tsx": "39ab2653b80a291ff0838ebfdf9896f64b3b247cd193d102fbaad458f38467cc",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "3f586cdd81dbfb5aa40a822071dac93beea1551bb47fd3ac0d297c424a8f4071"
+  },
+  "base": "http://localhost:3053",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "sourceExact": true,
+      "chapters": [
+        {
+          "name": "choice",
+          "top": 1144.25,
+          "height": 793.53125
+        },
+        {
+          "name": "coordination",
+          "top": 1937.78125,
+          "height": 507.5625
+        },
+        {
+          "name": "needs",
+          "top": 2445.34375,
+          "height": 502.734375
+        },
+        {
+          "name": "process",
+          "top": 2948.078125,
+          "height": 916.03125
+        },
+        {
+          "name": "trust",
+          "top": 3864.109375,
+          "height": 464.3125
+        },
+        {
+          "name": "plan",
+          "top": 4328.421875,
+          "height": 603
+        },
+        {
+          "name": "continue",
+          "top": 4931.421875,
+          "height": 508
+        }
+      ],
+      "state": {
+        "overflow": false,
+        "canvas": 0,
+        "animations": 5,
+        "stored": {
+          "destinations": [
+            "antalya",
+            "istanbul"
+          ],
+          "journeyType": "corporate"
+        },
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "en",
+      "behavior": "permanent invalidation after order/type edit+restore",
+      "pass": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "sourceExact": true,
+      "chapters": [
+        {
+          "name": "choice",
+          "top": 943.984375,
+          "height": 839.90625
+        },
+        {
+          "name": "coordination",
+          "top": 1783.890625,
+          "height": 732.25
+        },
+        {
+          "name": "needs",
+          "top": 2516.140625,
+          "height": 666.96875
+        },
+        {
+          "name": "process",
+          "top": 3183.109375,
+          "height": 826.390625
+        },
+        {
+          "name": "trust",
+          "top": 4009.5,
+          "height": 668.515625
+        },
+        {
+          "name": "plan",
+          "top": 4678.015625,
+          "height": 908.484375
+        },
+        {
+          "name": "continue",
+          "top": 5586.5,
+          "height": 579.046875
+        }
+      ],
+      "state": {
+        "overflow": false,
+        "canvas": 0,
+        "animations": 5,
+        "stored": {
+          "destinations": [
+            "antalya",
+            "istanbul"
+          ],
+          "journeyType": "corporate"
+        },
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "sourceExact": true,
+      "chapters": [
+        {
+          "name": "choice",
+          "top": 1224.1875,
+          "height": 752.578125
+        },
+        {
+          "name": "coordination",
+          "top": 1976.765625,
+          "height": 472.921875
+        },
+        {
+          "name": "needs",
+          "top": 2449.6875,
+          "height": 445.078125
+        },
+        {
+          "name": "process",
+          "top": 2894.765625,
+          "height": 913.5625
+        },
+        {
+          "name": "trust",
+          "top": 3808.328125,
+          "height": 464.3125
+        },
+        {
+          "name": "plan",
+          "top": 4272.640625,
+          "height": 728.796875
+        },
+        {
+          "name": "continue",
+          "top": 5001.4375,
+          "height": 508
+        }
+      ],
+      "state": {
+        "overflow": false,
+        "canvas": 0,
+        "animations": 5,
+        "stored": {
+          "destinations": [
+            "antalya",
+            "istanbul"
+          ],
+          "journeyType": "corporate"
+        },
+        "dir": "rtl"
+      }
+    },
+    {
+      "locale": "ar",
+      "behavior": "permanent invalidation after order/type edit+restore",
+      "pass": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "sourceExact": true,
+      "chapters": [
+        {
+          "name": "choice",
+          "top": 949.0625,
+          "height": 837.4375
+        },
+        {
+          "name": "coordination",
+          "top": 1786.5,
+          "height": 675.5
+        },
+        {
+          "name": "needs",
+          "top": 2462,
+          "height": 595.453125
+        },
+        {
+          "name": "process",
+          "top": 3057.453125,
+          "height": 803.890625
+        },
+        {
+          "name": "trust",
+          "top": 3861.34375,
+          "height": 599.359375
+        },
+        {
+          "name": "plan",
+          "top": 4460.703125,
+          "height": 943.265625
+        },
+        {
+          "name": "continue",
+          "top": 5403.96875,
+          "height": 596.4375
+        }
+      ],
+      "state": {
+        "overflow": false,
+        "canvas": 0,
+        "animations": 5,
+        "stored": {
+          "destinations": [
+            "antalya",
+            "istanbul"
+          ],
+          "journeyType": "corporate"
+        },
+        "dir": "rtl"
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "sourceExact": true,
+      "chapters": [
+        {
+          "name": "choice",
+          "top": 1118.34375,
+          "height": 710.59375
+        },
+        {
+          "name": "coordination",
+          "top": 1828.9375,
+          "height": 576.84375
+        },
+        {
+          "name": "needs",
+          "top": 2405.78125,
+          "height": 456.546875
+        },
+        {
+          "name": "process",
+          "top": 2862.328125,
+          "height": 899.4375
+        },
+        {
+          "name": "trust",
+          "top": 3761.765625,
+          "height": 464.3125
+        },
+        {
+          "name": "plan",
+          "top": 4226.078125,
+          "height": 661.046875
+        },
+        {
+          "name": "continue",
+          "top": 4887.125,
+          "height": 508
+        }
+      ],
+      "state": {
+        "overflow": false,
+        "canvas": 0,
+        "animations": 5,
+        "stored": {
+          "destinations": [
+            "antalya",
+            "istanbul"
+          ],
+          "journeyType": "corporate"
+        },
+        "dir": "ltr"
+      }
+    },
+    {
+      "locale": "tr",
+      "behavior": "permanent invalidation after order/type edit+restore",
+      "pass": true
+    },
+    {
+      "locale": "en",
+      "mode": "noJS",
+      "sourceChoiceAndContact": true
+    },
+    {
+      "locale": "ar",
+      "mode": "noJS",
+      "sourceChoiceAndContact": true
+    }
+  ],
+  "messages": [
+    {
+      "locale": "en",
+      "intent": "hajj",
+      "name": "Hajj",
+      "message": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "Istanbul"
+      ]
+    },
+    {
+      "locale": "en",
+      "intent": "umrah",
+      "name": "Umrah",
+      "message": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "Istanbul"
+      ]
+    },
+    {
+      "locale": "en",
+      "intent": "hajj",
+      "name": "Hajj",
+      "message": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Hajj\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "Istanbul"
+      ]
+    },
+    {
+      "locale": "en",
+      "intent": "umrah",
+      "name": "Umrah",
+      "message": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedWhatsApp": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "decodedEmail": "Send an inquiry — Trip Line\nService of interest: Hajj & Umrah\nConversation intent: Umrah\nPlaces I would like to visit: Antalya → Istanbul\nPreferred dates: Flexible discussion\nNumber of travelers: 4\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "Istanbul"
+      ]
+    },
+    {
+      "locale": "ar",
+      "intent": "hajj",
+      "name": "الحج",
+      "message": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedWhatsApp": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedEmail": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "أنطاليا",
+        "إسطنبول"
+      ]
+    },
+    {
+      "locale": "ar",
+      "intent": "umrah",
+      "name": "العمرة",
+      "message": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedWhatsApp": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedEmail": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "أنطاليا",
+        "إسطنبول"
+      ]
+    },
+    {
+      "locale": "ar",
+      "intent": "hajj",
+      "name": "الحج",
+      "message": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedWhatsApp": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedEmail": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: الحج\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "أنطاليا",
+        "إسطنبول"
+      ]
+    },
+    {
+      "locale": "ar",
+      "intent": "umrah",
+      "name": "العمرة",
+      "message": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedWhatsApp": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "decodedEmail": "أرسل استفساراً — Trip Line\nالخدمة المطلوبة: الحج والعمرة\nموضوع الرحلة: العمرة\nالأماكن التي أرغب في زيارتها: أنطاليا → إسطنبول\nالمواعيد المفضلة: Flexible discussion\nعدد المسافرين: 4\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "أنطاليا",
+        "إسطنبول"
+      ]
+    },
+    {
+      "locale": "tr",
+      "intent": "hajj",
+      "name": "Hac",
+      "message": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Hac\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "decodedWhatsApp": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Hac\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "decodedEmail": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Hac\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "İstanbul"
+      ]
+    },
+    {
+      "locale": "tr",
+      "intent": "umrah",
+      "name": "Umre",
+      "message": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Umre\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "decodedWhatsApp": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Umre\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "decodedEmail": "Talep oluştur — Trip Line\nİlgilendiğin hizmet: Hac ve umre\nGörüşmenin konusu: Umre\nZiyaret etmek istediğim yerler: Antalya → İstanbul\nTercih edilen tarihler: Flexible discussion\nYolcu sayısı: 4\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+      "ids": [
+        "antalya",
+        "istanbul"
+      ],
+      "names": [
+        "Antalya",
+        "İstanbul"
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "file": "static-en-1440-hero.png",
+      "at": "2026-10-10T00:11:02.928Z"
+    },
+    {
+      "file": "static-en-1440-choice.png",
+      "at": "2026-10-10T00:11:03.223Z"
+    },
+    {
+      "file": "static-en-1440-choice-lower.png",
+      "at": "2026-10-10T00:11:03.462Z"
+    },
+    {
+      "file": "static-en-1440-coordination.png",
+      "at": "2026-10-10T00:11:03.757Z"
+    },
+    {
+      "file": "static-en-1440-needs.png",
+      "at": "2026-10-10T00:11:04.007Z"
+    },
+    {
+      "file": "static-en-1440-process.png",
+      "at": "2026-10-10T00:11:04.254Z"
+    },
+    {
+      "file": "static-en-1440-process-lower.png",
+      "at": "2026-10-10T00:11:04.493Z"
+    },
+    {
+      "file": "static-en-1440-trust.png",
+      "at": "2026-10-10T00:11:04.747Z"
+    },
+    {
+      "file": "static-en-1440-plan.png",
+      "at": "2026-10-10T00:11:04.979Z"
+    },
+    {
+      "file": "static-en-1440-continue.png",
+      "at": "2026-10-10T00:11:05.207Z"
+    },
+    {
+      "file": "static-en-1440-hajj-prepared.png",
+      "at": "2026-10-10T00:11:05.976Z"
+    },
+    {
+      "file": "static-en-1440-umrah-prepared.png",
+      "at": "2026-10-10T00:11:06.613Z"
+    },
+    {
+      "file": "static-en-390-hero.png",
+      "at": "2026-10-10T00:11:17.458Z"
+    },
+    {
+      "file": "static-en-390-choice.png",
+      "at": "2026-10-10T00:11:17.642Z"
+    },
+    {
+      "file": "static-en-390-choice-lower.png",
+      "at": "2026-10-10T00:11:17.800Z"
+    },
+    {
+      "file": "static-en-390-coordination.png",
+      "at": "2026-10-10T00:11:17.956Z"
+    },
+    {
+      "file": "static-en-390-coordination-lower.png",
+      "at": "2026-10-10T00:11:18.109Z"
+    },
+    {
+      "file": "static-en-390-needs.png",
+      "at": "2026-10-10T00:11:18.293Z"
+    },
+    {
+      "file": "static-en-390-needs-lower.png",
+      "at": "2026-10-10T00:11:18.451Z"
+    },
+    {
+      "file": "static-en-390-process.png",
+      "at": "2026-10-10T00:11:18.606Z"
+    },
+    {
+      "file": "static-en-390-process-lower.png",
+      "at": "2026-10-10T00:11:18.770Z"
+    },
+    {
+      "file": "static-en-390-trust.png",
+      "at": "2026-10-10T00:11:18.917Z"
+    },
+    {
+      "file": "static-en-390-trust-lower.png",
+      "at": "2026-10-10T00:11:19.090Z"
+    },
+    {
+      "file": "static-en-390-plan.png",
+      "at": "2026-10-10T00:11:19.254Z"
+    },
+    {
+      "file": "static-en-390-plan-lower.png",
+      "at": "2026-10-10T00:11:19.413Z"
+    },
+    {
+      "file": "static-en-390-continue.png",
+      "at": "2026-10-10T00:11:19.566Z"
+    },
+    {
+      "file": "static-en-390-hajj-prepared.png",
+      "at": "2026-10-10T00:11:20.072Z"
+    },
+    {
+      "file": "static-en-390-umrah-prepared.png",
+      "at": "2026-10-10T00:11:20.544Z"
+    },
+    {
+      "file": "static-ar-1440-hero.png",
+      "at": "2026-10-10T00:11:28.812Z"
+    },
+    {
+      "file": "static-ar-1440-choice.png",
+      "at": "2026-10-10T00:11:29.055Z"
+    },
+    {
+      "file": "static-ar-1440-choice-lower.png",
+      "at": "2026-10-10T00:11:29.291Z"
+    },
+    {
+      "file": "static-ar-1440-coordination.png",
+      "at": "2026-10-10T00:11:29.505Z"
+    },
+    {
+      "file": "static-ar-1440-needs.png",
+      "at": "2026-10-10T00:11:29.743Z"
+    },
+    {
+      "file": "static-ar-1440-process.png",
+      "at": "2026-10-10T00:11:30.006Z"
+    },
+    {
+      "file": "static-ar-1440-process-lower.png",
+      "at": "2026-10-10T00:11:30.220Z"
+    },
+    {
+      "file": "static-ar-1440-trust.png",
+      "at": "2026-10-10T00:11:30.448Z"
+    },
+    {
+      "file": "static-ar-1440-plan.png",
+      "at": "2026-10-10T00:11:30.678Z"
+    },
+    {
+      "file": "static-ar-1440-plan-lower.png",
+      "at": "2026-10-10T00:11:30.919Z"
+    },
+    {
+      "file": "static-ar-1440-continue.png",
+      "at": "2026-10-10T00:11:31.133Z"
+    },
+    {
+      "file": "static-ar-1440-hajj-prepared.png",
+      "at": "2026-10-10T00:11:31.776Z"
+    },
+    {
+      "file": "static-ar-1440-umrah-prepared.png",
+      "at": "2026-10-10T00:11:32.317Z"
+    },
+    {
+      "file": "static-ar-390-hero.png",
+      "at": "2026-10-10T00:11:41.990Z"
+    },
+    {
+      "file": "static-ar-390-choice.png",
+      "at": "2026-10-10T00:11:42.157Z"
+    },
+    {
+      "file": "static-ar-390-choice-lower.png",
+      "at": "2026-10-10T00:11:42.337Z"
+    },
+    {
+      "file": "static-ar-390-coordination.png",
+      "at": "2026-10-10T00:11:42.521Z"
+    },
+    {
+      "file": "static-ar-390-coordination-lower.png",
+      "at": "2026-10-10T00:11:42.665Z"
+    },
+    {
+      "file": "static-ar-390-needs.png",
+      "at": "2026-10-10T00:11:42.845Z"
+    },
+    {
+      "file": "static-ar-390-process.png",
+      "at": "2026-10-10T00:11:43.020Z"
+    },
+    {
+      "file": "static-ar-390-process-lower.png",
+      "at": "2026-10-10T00:11:43.198Z"
+    },
+    {
+      "file": "static-ar-390-trust.png",
+      "at": "2026-10-10T00:11:43.357Z"
+    },
+    {
+      "file": "static-ar-390-plan.png",
+      "at": "2026-10-10T00:11:43.511Z"
+    },
+    {
+      "file": "static-ar-390-plan-lower.png",
+      "at": "2026-10-10T00:11:43.662Z"
+    },
+    {
+      "file": "static-ar-390-continue.png",
+      "at": "2026-10-10T00:11:43.802Z"
+    },
+    {
+      "file": "static-ar-390-hajj-prepared.png",
+      "at": "2026-10-10T00:11:44.278Z"
+    },
+    {
+      "file": "static-ar-390-umrah-prepared.png",
+      "at": "2026-10-10T00:11:44.785Z"
+    },
+    {
+      "file": "static-tr-1280-hero.png",
+      "at": "2026-10-10T00:11:52.224Z"
+    },
+    {
+      "file": "static-tr-1280-choice.png",
+      "at": "2026-10-10T00:11:52.464Z"
+    },
+    {
+      "file": "static-tr-1280-choice-lower.png",
+      "at": "2026-10-10T00:11:52.665Z"
+    },
+    {
+      "file": "static-tr-1280-coordination.png",
+      "at": "2026-10-10T00:11:52.853Z"
+    },
+    {
+      "file": "static-tr-1280-needs.png",
+      "at": "2026-10-10T00:11:53.071Z"
+    },
+    {
+      "file": "static-tr-1280-process.png",
+      "at": "2026-10-10T00:11:53.259Z"
+    },
+    {
+      "file": "static-tr-1280-process-lower.png",
+      "at": "2026-10-10T00:11:53.486Z"
+    },
+    {
+      "file": "static-tr-1280-trust.png",
+      "at": "2026-10-10T00:11:53.702Z"
+    },
+    {
+      "file": "static-tr-1280-plan.png",
+      "at": "2026-10-10T00:11:53.919Z"
+    },
+    {
+      "file": "static-tr-1280-plan-lower.png",
+      "at": "2026-10-10T00:11:54.137Z"
+    },
+    {
+      "file": "static-tr-1280-continue.png",
+      "at": "2026-10-10T00:11:54.340Z"
+    },
+    {
+      "file": "static-tr-1280-hajj-prepared.png",
+      "at": "2026-10-10T00:11:54.914Z"
+    },
+    {
+      "file": "static-tr-1280-umrah-prepared.png",
+      "at": "2026-10-10T00:11:55.442Z"
+    },
+    {
+      "file": "static-en-390-nojs-plan.png",
+      "at": "2026-10-10T00:12:03.144Z"
+    },
+    {
+      "file": "static-ar-390-nojs-plan.png",
+      "at": "2026-10-10T00:12:05.059Z"
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "finalSource": {
+    "components/services/PilgrimageExperience.tsx": "39ab2653b80a291ff0838ebfdf9896f64b3b247cd193d102fbaad458f38467cc",
+    "components/travel/Pages.tsx": "20fd477c0fdf5a18100908dfd8dd875784d5fedde2a1ef855b66078a2379e402",
+    "styles/recovery-pilgrimage.css": "3f586cdd81dbfb5aa40a822071dac93beea1551bb47fd3ac0d297c424a8f4071"
+  },
+  "finishedAt": "2026-10-10T00:12:05.081Z"
+}

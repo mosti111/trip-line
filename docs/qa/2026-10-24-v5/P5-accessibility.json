@@ -1,0 +1,42 @@
+[
+  {
+    "url": "/en",
+    "w": 1440,
+    "violations": []
+  },
+  {
+    "url": "/ar",
+    "w": 390,
+    "violations": []
+  },
+  {
+    "url": "/ar/about",
+    "w": 390,
+    "violations": []
+  },
+  {
+    "url": "/en/contact",
+    "w": 1440,
+    "violations": []
+  },
+  {
+    "url": "/ar/services/hajj-umrah",
+    "w": 390,
+    "violations": []
+  },
+  {
+    "url": "/en/services/tours",
+    "w": 1440,
+    "violations": []
+  },
+  {
+    "url": "/ar/business",
+    "w": 390,
+    "violations": []
+  },
+  {
+    "url": "/ar/destinations/turkiye/rize-ayder",
+    "w": 390,
+    "violations": []
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1000,
+      "settled": true,
+      "lastLinkFocused": true,
+      "focusReturned": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "settled": true,
+      "lastLinkFocused": true,
+      "focusReturned": true
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "settled": true,
+      "lastLinkFocused": true,
+      "focusReturned": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "openingHeaderBounds": [
+        {
+          "progress": 0,
+          "left": 1229.3125,
+          "right": 1368,
+          "viewport": 1440,
+          "scrollX": 0,
+          "scrollWidth": 1440
+        },
+        {
+          "progress": 0.25,
+          "left": 1229.3125,
+          "right": 1368,
+          "viewport": 1440,
+          "scrollX": 0,
+          "scrollWidth": 1440
+        },
+        {
+          "progress": 0.5,
+          "left": 1229.3125,
+          "right": 1368,
+          "viewport": 1440,
+          "scrollX": 0,
+          "scrollWidth": 1440
+        },
+        {
+          "progress": 0.75,
+          "left": 1229.3125,
+          "right": 1368,
+          "viewport": 1440,
+          "scrollX": 0,
+          "scrollWidth": 1440
+        },
+        {
+          "progress": 1,
+          "left": 1229.3125,
+          "right": 1368,
+          "viewport": 1440,
+          "scrollX": 0,
+          "scrollWidth": 1440
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 600,
+      "openingHeaderBounds": [
+        {
+          "progress": 0,
+          "left": 1111.3125,
+          "right": 1216,
+          "viewport": 1280,
+          "scrollX": 0,
+          "scrollWidth": 1280
+        },
+        {
+          "progress": 0.25,
+          "left": 1111.3125,
+          "right": 1216,
+          "viewport": 1280,
+          "scrollX": 0,
+          "scrollWidth": 1280
+        },
+        {
+          "progress": 0.5,
+          "left": 1111.3125,
+          "right": 1216,
+          "viewport": 1280,
+          "scrollX": 0,
+          "scrollWidth": 1280
+        },
+        {
+          "progress": 0.75,
+          "left": 1111.3125,
+          "right": 1216,
+          "viewport": 1280,
+          "scrollX": 0,
+          "scrollWidth": 1280
+        },
+        {
+          "progress": 1,
+          "left": 1111.3125,
+          "right": 1216,
+          "viewport": 1280,
+          "scrollX": 0,
+          "scrollWidth": 1280
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 600,
+      "deviceScaleFactor": 3,
+      "canvasDPR": 1.5,
+      "lenisCount": 1,
+      "megaPaused": true,
+      "menuScroll": 224,
+      "pageScrollUnchanged": true,
+      "escapeResumed": true,
+      "focusReturned": true
+    }
+  ],
+  "errors": []
+}

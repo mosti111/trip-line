@@ -1,6 +1,10 @@
 # Security implementation plan
 
-Status: requirements and design; controls are not yet implemented or tested.
+Status: target security requirements, not runtime security certification. Backend
+security/auth source exists but integration/production verification remains unfinished.
+The active frontend has nonce/CSP and noindex behavior; this does not establish backend
+session, CSRF, Turnstile or authorization acceptance. Inspect actual code before changing
+controls; public inquiry currently prepares external messages rather than server submission.
 
 ## Identity
 

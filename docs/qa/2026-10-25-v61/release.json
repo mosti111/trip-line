@@ -1,0 +1,125 @@
+{
+  "build": "zg9w4BHJT8lgBs6oxSwGY",
+  "applicationCheckpoint": "ae05ab504e61ef4a42057042627932a34bdf73e9",
+  "gates": [
+    {
+      "path": "C0/report.json",
+      "status": "passed",
+      "cases": 2
+    },
+    {
+      "path": "C1/report.json",
+      "status": "passed",
+      "cases": 6
+    },
+    {
+      "path": "C2/report.json",
+      "status": "passed",
+      "cases": 6
+    },
+    {
+      "path": "C3/report.json",
+      "status": "passed",
+      "cases": 4
+    },
+    {
+      "path": "C4/report.json",
+      "status": "passed",
+      "cases": 3
+    },
+    {
+      "path": "C5/atlas/report.json",
+      "status": "passed",
+      "cases": 6
+    },
+    {
+      "path": "C5/billboard/report.json",
+      "status": "passed",
+      "cases": 6
+    },
+    {
+      "path": "C5/v6-opening/report.json",
+      "status": "passed",
+      "cases": 4
+    },
+    {
+      "path": "C5/v6-atlas/report.json",
+      "status": "passed",
+      "cases": 3
+    },
+    {
+      "path": "C5/v6-media/report.json",
+      "status": "passed",
+      "cases": 2
+    },
+    {
+      "path": "C5/v6-lab/report.json",
+      "status": "passed",
+      "cases": 6
+    },
+    {
+      "path": "C5/v6-homepage/report.json",
+      "status": "passed",
+      "cases": 3
+    },
+    {
+      "path": "C5/v6-pages/report.json",
+      "status": "passed",
+      "cases": 4
+    },
+    {
+      "path": "C5/v6-proof/report.json",
+      "status": "passed",
+      "cases": 2
+    },
+    {
+      "path": "C5/v6-cpu/report.json",
+      "status": "passed",
+      "cases": 3
+    }
+  ],
+  "creativeAcceptance": "pending user review",
+  "publication": "not authorized",
+  "inventoryComparison": "Git content compared with checkout line endings normalized; original working-file SHA256 independently matches the preserved optical provenance.",
+  "status": "engineering complete; ready for creative review",
+  "summary": {
+    "tests": 32,
+    "publicRoutes": 120,
+    "v3Groups": 16,
+    "v3Captures": 60,
+    "matrixCases": 36,
+    "axeSurfaces": 9,
+    "axeViolations": 0,
+    "openingMaxDistance": 0,
+    "logos": 19,
+    "inventoryUnchanged": true
+  },
+  "performance": {
+    "recorded": {
+      "scope": "headless Chromium1440x900, real continuous wheel, video+trace enabled; interval data is not FPS or field-device certification",
+      "samples": 830,
+      "frameIntervalsMs": {
+        "median": 33.29999999999927,
+        "p95": 66.70000000000073,
+        "p99": 100,
+        "max": 150.10000000000036
+      },
+      "longTasks": []
+    },
+    "diagnostic": {
+      "samples": 1133,
+      "frameIntervalsMs": {
+        "median": 16.700000000000728,
+        "p95": 50,
+        "p99": 50.100000000000364,
+        "max": 100
+      },
+      "longTasks": [],
+      "end": {
+        "y": 14657,
+        "max": 14657
+      }
+    },
+    "scope": "Instrumented Windows headless Chromium; no field FPS guarantee. Preserve both recordings and diagnostic observations."
+  }
+}

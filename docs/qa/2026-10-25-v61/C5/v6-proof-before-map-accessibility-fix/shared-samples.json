@@ -1,0 +1,87 @@
+{
+  "method": "Actual native browser ViewTransition animations paused and sampled at 0/400/799ms. Natural unpaused playback is separately recorded in shared-photo.webm. Capture overhead is not animation timing.",
+  "status": "passed",
+  "samples": [
+    {
+      "name": "start",
+      "time": 0,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mid",
+      "time": 400,
+      "animations": [
+        {
+          "time": 400,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "end",
+      "time": 799,
+      "animations": [
+        {
+          "time": 799,
+          "duration": 800,
+          "playState": "paused",
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "replace",
+              "opacity": "1",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+              "composite": "auto",
+              "opacity": "0",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

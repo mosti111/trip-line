@@ -1,0 +1,688 @@
+# TL-003 independent checkpoint reviews
+
+Reviewer: Astra lead/reviewer `/root/astra_recovery`, explicitly selected gpt-6-astra,
+session TL-003-2026-10-05-recovery. Accepted dispatch is not backend attestation.
+
+## TL-003-DATA — PASS
+
+5 October2026; base0ba5a97 plus exact related-data diff. Worker sol_related authored
+source/tests; lead independently read complete tests, delivery and all source diff.
+Fresh lead `pnpm exec vitest run lib/turkiye.test.ts` passes25 cases. Independent
+normalized source comparison after stripping only added related fields passes;
+existing source text/order/coordinates/images unchanged. Worker typecheck and
+owned-file lint passed; shared-tree32 tests passed at delivery.
+
+Architecture: required typed related IDs, all12 explicit editorial groups, no
+array-order algorithm or transport/convenience claims. Regressions: tested unique,
+known, nonself IDs and geographical sanity. UX/content: matches contracted editorial
+mapping from existing themes. Visual/motion/responsive/accessibility: N/A because
+no UI consumer reads field yet, no rendered behavior change. Mandatory phase5 UI
+review remains pending; this is data preparation only. No blocking corrections.
+Decision APPROVED for DATA, not destination UX, creative acceptance or publication.
+
+## TL-003-CONTENT — source PASS, copy refinement required
+
+Astra independently read all139 source lines and complete delivery against original
+profile extraction/source audit. Values, locale coverage, seven differentiators and
+12+ clarification all match. No current UI changes. Before consumption, a bounded
+R1 copy correction removes repetitive “the profile describes” from every public
+mission/vision/differentiator sentence. This is a lead contract refinement for the
+requested real-company tone, not a worker failure to follow the original contract.
+Keep section-level Company Profile2025 label; license/accreditation retain explicit
+source attribution and figures always require attribution. No new claims permitted.
+Final CONTENT approval waits for R1 source review and relevant checks.
+
+## TL-003-CONTENT-R1 — PASS
+
+5 October 2026, explicit continuation after second usage interruption. Selected
+Astra read the entire revised company-profile module against the original source
+audit and prior delivery. Mission/vision and seven bodies now read as concise public
+company content, with faithful meaning and no extra guarantees, chronology or facts.
+License/TÜRSAB retain explicit Company Profile2025 attribution; established2019 is
+separate; all nine values/labels remain correct;12+ is explicitly not company age
+and marked requiresClarification. Three locale variants preserve meaning and shaping.
+
+Worker recovered actual completed R1 typecheck and owned-file lint exit0 sessions;
+source masked comparison preserves unrelated fields. Root independent full checks
+are also in progress on this same source. Initial32 unit tests predate wording-only
+R1 and are reported as such. This unused module has no rendered behavior; frontend
+consumers must preserve source labels and pass later visual review. No dependencies,
+UI or source boundaries changed. Reviewer did not author module. No blocking
+corrections. CONTENT including R1 APPROVED; no user creative acceptance implied.
+
+## TL-003-F01 — PASS
+
+5 October2026. Base0ba5a97 plus exact nine-file F01 scope; generated next-env dev
+imports reconciled by root production build. Selected Sol authored implementation;
+selected Astra independently read shell/store/drawer/actions, CSS, layout, pure
+journey boundary/tests and full delivery. Root independently ran typecheck/lint,
+32tests and productionbuild, all exit0, then focused production Chromium audit.
+Astra inspected actual dev and production screenshots described in
+[foundation evidence](../qa/2026-10-05-recovery/README.md), including decoded mega.
+
+Visual/hierarchy: actual stacked logo, clean five-link navigation, typography,
+asymmetric map-directory menu and dominant imagery clearly communicate Türkiye.
+Bronze primary Plan and visible selected states are distinct; drawer/sheet is legible.
+UX: session-only validated ordered journey, contextual Plan URLs, explicit Add names,
+keyboard reorder/remove, empty fallback, Escape/focus, locale query retention all pass.
+Responsive/Arabic: all five links with nonempty count fit1280 EN/TR/AR; mobile menu
+order and bottom sheet fit390 with connected Arabic and natural source photos.
+Accessibility: source DOM controls, practical44px targets, visible focus, native
+modal semantics and keyboard containment; no full AT certification claim.
+Performance/architecture: no dependency changes, lazy imagery, no scroll-frame React
+state, only allowed nonsensitive storage. ExperienceProvider intentionally omitted
+until phase3 staging. Motion: new cinematic work not applicable to static foundation;
+old homepage behind shell remains unapproved. Production errors empty. Scope clean.
+No blocking corrections or mandatory F01 coverage missing. APPROVED for F01 only;
+allow H02 static homepage, not advanced motion or user creative/publication acceptance.
+
+## TL-003-H02 — independent static review, changes requested
+
+6 October2026 Istanbul; reviewer /root/astra_resume, selected gpt-6-astra, independent
+from selected Sol /root/astra_resume/sol_home_static. Explicit user resume after usage
+interruption; live worker completed/quiescent, H02 owner already released. Source
+preserved at a4a448b plus exact nine H02 application files; unrelated setup diffs
+remain untouched. No motion or creative/publication acceptance implied.
+
+Root independently ran typecheck/lint/32tests/productionbuild/diffcheck PASS. Actual
+Chromium production3043 captures EN/AR/TR1440x1000 and390x844 pass fifteen ordered
+chapters, oneH1, no overflow/broken loaded media/errors. Türkiye narrative ratios
+59.2/59.2/59.0% desktop and55.5/56.4/55.9% mobile. Nine mobile360/390/430 headline
+bounds cases PASS. Planner full flow all3locales PASS: corporate intent, ordered
+stops, keyboard reorder/remove focus, flexible dates and traveler query; return
+retains only session journey/type. NoJS semantic coverage all3locales PASS.
+
+Actual existing verify-public run exit1:120routes H1/lang and404/redirect checks
+pass before legacy .ribbon-ready canvas timeout against intentionally static H02.
+This full-suite failure is an explicit pending compatibility gap; targeted coverage
+is not represented as full public/V3 acceptance. Final QA requires adapted selectors
+preserving their underlying assertions and actual motion verification.
+
+Lead inspected actual production EN1440/AR390 story/proof/process/Beyond/FAQ/final,
+mobile services/numbers and AR explorer/builder, plus prior hero/intent/signature
+crops and root bounds captures. Content hierarchy, Arabic shaping, natural geography,
+planner readability and quiet/deep-teal rhythm are strong. Three blocking static
+corrections are contracted in H02-R1: missing mobile services bronze connecting
+route/nodes; numbers intruding into required22px gutters (inside viewport, not
+literally clipped); Beyond total-directory count copy misleading for nine links.
+Initial builder sticky overlay was capture timing; settled production capture PASS,
+no app correction needed. Evidence currently in ignored tmp/v3-ux-motion-recovery/
+static-review and lead-production; durable final manifest follows corrected review.
+Decision CHANGES_REQUESTED; no H02 approval until fresh correction review.
+
+## TL-003-H02/R1 and QH02 — final static gate PASS
+
+6 October2026. Reviewer: selected Astra lead/reviewer gpt-6-astra,
+/root/astra_resume, session TL-003-2026-10-05-recovery. Independent from both selected
+Sol implementation workers; lead authored governance and review, not app or test
+implementation. Tested a4a448b plus nine H02/R1 files identified by the durable
+source fingerprint; final QA helper SHA2562600a4f91f733368c492eca3c2878a3646b0aa6d09c7e741e812f93768329857.
+
+Visual fidelity/hierarchy: PASS. Fifteen clearly ordered editorial chapters,
+Istanbul arrival with clear proposition/two CTAs, simultaneous asymmetric intent
+planes, natural geographic explorer, distinct signatures and framed film, quiet
+story/proof, unequal sourced numbers, process/services, builder, secondary Beyond,
+FAQ and physical final route endpoint. Actual desktop/mobile/Arabic/Turkish images
+were inspected, not inferred from DOM. Türkiye firstsix occupy about59% desktop and
+55–56% primary390 mobile. Minor360 EN/TR54.28/54.54% narrow-text reflow is consistent
+with the approximate target and avoids artificial spacing. Hierarchy reads as the
+approved company journey rather than a generic card collection.
+
+Motion: intentionally static for phase2. No canvas/pinning/choreography is mounted;
+native scroll, static bronze routes and functional film are present. This approves
+the prerequisite composition only; actual camera-route travel and3D→SVG motion
+remain mandatory M03 outcomes, not presumed from these screenshots.
+
+UX/accessibility: PASS within tested scope. Twelve index/map places synchronize,
+manual selections resist guide events, last decoded preview survives delayed loads
+with at most2images, Explore/Add and global intent/ordered itinerary work. Keyboard
+boundary reorder/removal restores focus; flexible dates/travelers and full ordered
+localized query/prepared message survive navigation. Session persists only validated
+IDs/order/type. Menu and drawer Escape/focus, touch390 modal and1280 Türkiye menu,
+headings, source links and native noJS content pass. No formal AT certification.
+
+Responsive/locales: PASS. Root six production EN/AR/TR1440×1000 and390×844 captures,
+hero bounds360/390/430, twelve figure bounds360/390/430/1440, static short1280×600,
+coarse390/1280, reduced/saveData/noJS and representative public templates inspected
+or behavior-tested as recorded. Arabic is connected/RTL, geometry and photographs
+remain unmirrored. R1 visible mobile services connector/nodes and figure gutters
+are resolved. Settled builder capture confirms sticky action hides correctly.
+
+Performance/architecture: appropriate to static scope. Lazy decoded media, bounded
+preview image count, actual film play/pause/resume/hidden/offscreen controls,
+no automatic film under reduced/saveData and no canvas/pins verified. No dependency,
+source-fact or journey-store API change; claims attributed to Company Profile2025,
+no ambiguous experience-as-age figure. Shared explorer API/directory preserved;
+original unrelated setup changes remain untouched. No backend submission, payment,
+booking, launch/indexing or deployment claim. Field/GPU motion performance is later.
+
+Automated evidence: root R1 typecheck/lint/32tests/build PASS; application fingerprint
+unchanged through QA-only edits. Root final three syntax checks/lint PASS. Independent
+final-source QA_STAGE=static verify-public PASS120routes/7groups/11cases/11screens;
+verify-v3 PASS8groups/23cases/17screens. Both have zero unexpected errors;199 and441
+expected cancellations are retained with exact RSC/navigation, noJS or paused decoded
+film evidence. The watcher drains asynchronous inspections. Every default full-mode
+assertion remains verbatim; the old default canvas failure and worker exploratory
+watcher failures remain historical, never relabelled passing runs.
+
+Evidence reviewed: docs/qa/2026-10-06-recovery/README.md, linked final/before screenshots,
+source fingerprint, six-case metrics,12figure bounds and both authoritative root
+JSON reports; H02/R1 and QH02 strict deliveries, complete new verifier/diffs, ignored
+lead-production additional chapter crops and targeted worker/root interaction logs.
+No mandatory phase2 coverage remains missing. Full motion/default-suite adaptation,
+all later page-family and final performance/RTL QA are explicitly future phases.
+
+Problems and corrections: H02-R1 all three resolved; QH02 helper selector/cancellation
+timing corrections verified in final independent suites. No remaining blocking
+corrections. Optional suggestions: none opened. Regression risk is bounded to static
+homepage/shared explorer; later integrations must retain this baseline.
+
+Final decision: H02 including R1 APPROVED. QH02 verification adapter APPROVED.
+Allow M03 after exact scoped checkpoint; this is not final TL-003 completion, user
+creative acceptance, permission to merge main or deploy.
+
+## M03 / QM03 — review opened 6 October 2026, 19:47 UTC
+
+Reviewer: selected Astra lead/reviewer `/root/astra_resume`; same selected Sol
+implementation and QA workers are independent of this reviewer. Status: REVIEWING,
+not approved. Base `b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184` plus ten frozen motion
+source files fingerprinted in M03 delivery. Root independently confirmed all hashes.
+
+Source review confirms stable server composition with independent lazy enhancement,
+actual camera movement along a stationary spatial curve, scoped native adaptations,
+one demand canvas and one desktop wheel clock, all-dialog/mega pause, and explicit
+observer-tween cleanup. The identified residual map transform after reduced motion
+was reproduced, corrected and positively retested; final production resilience
+must still repeat it. No source/content/store/dependency broadening was found.
+
+Actual preliminary development wheel frames at1440×900 show departure copy fading,
+passing geographic coordinates, a strongly foreshortened reflective bronze foreground
+and receding Istanbul plane. Service-exit captures show thickness/shadow fading to
+the thin graphic route over Türkiye. Corrected EN/AR/TR1280×600 initial images keep
+title, supporting proposition and both actions readable. AR390 native/reduced and
+TR768 native images preserve connected text, photo orientation, route identity and
+clear vertical hierarchy. These are preliminary visual findings, not final pacing
+or production acceptance. The mislabeled early short initial frame is excluded.
+
+Root production build, final typecheck, lint and32tests PASS. The first build failed
+on an existing malformed ignored development validator; exact generated file removal
+and rebuild resolved it without application/config changes. next-env regenerated to
+baseline. Default public/V3 and auxiliary realGL/media/motion/CPU/browser coverage
+remain pending. Full timed production sequence and independent rendered judgment
+are mandatory before approval. No next-phase implementation is dispatched yet.
+
+### M03-R1 correction requested — 7 October 2026
+
+Result: FAIL pending correction. Root V3 R2 completed all60 normal responsive
+captures and3 reduced captures, then the Save Data context crashed with
+`addEventListener is not a function`, showing the error boundary. A partial
+`navigator.connection` exposing saveData but not event methods is sufficient to
+trigger this. HomeMotion and Bronze subscription guard object presence rather than
+method capability. This is an application compatibility defect, not a selector or
+precision failure; its console error must remain visible to verification.
+
+Required correction: guard subscription and cleanup method capabilities in the two
+affected files, preserving initial Save Data suppression and complete EventTarget
+changes. Exact [M03-R1 contract](../orchestration/recovery/TL-003-M03-R1.md) reserves
+only those two source files and the delivery report for the same selected Sol.
+Root stopped production before correction. Fresh build/required checks, targeted
+partial/complete connection proof, default full suites and outstanding auxiliaries
+remain necessary. No full-suite or motion approval is claimed.
+
+## M03 / M03-R1 / QM03 — final independent review,7October2026
+
+REVIEW
+Task/contracts: TL-003-M03, its narrowly scoped M03-R1 correction, and QM03.
+Reviewer: Astra lead/reviewer, explicitly selected gpt-6-astra,
+`/root/astra_resume`, session `TL-003-2026-10-05-recovery`. Implementation and QA
+were performed by two separately selected gpt-6.1-sol workers; reviewer did not
+write application or verifier source. Exposed selection support is not independent
+backend model attestation. Root supplied independent production checks/supplement.
+Result: PASS. Tested revision: b89d87a5f4ab694d2ac6ecb62bfa9a0a2051a184 plus the
+ten frozen app files in the dated source fingerprint, including R1's two superseding
+hashes, and seven frozen QA scripts. Review date7October2026, local production3043.
+
+Visual fidelity / hierarchy: the actual initial view remains a clear proposition,
+Istanbul setting and two legible actions. Bronze carries the identity through a
+reflective spatial foreground, three unequal photographic intent planes, the thin
+Türkiye graphic, conceptual itinerary and final conversation node. Desktop and
+short-height initial copy remain readable; connected Arabic, natural photos and
+real unmirrored map geometry persist. Existing static15-chapter hierarchy is retained.
+Actual AR390/EN768 settled navigation is complete and typographically coherent.
+
+Motion: independently decoded five short camera checkpoints, tall initial/mid/exit
+and timestamped small-wheel tall0012/0024/0036/0045 and short0006/0030/0036 frames,
+with measured camera/target/curve-parameter progression. The viewpoint travels along
+a stationary spatial ribbon while Istanbul recedes and coordinates pass; this is
+not the former scaled/translated graphic substitute. The180vh tall and120vh short
+travel ranges preserve initial reading, departure, close-up and native-flow release.
+The thick shadowed intent route resolves into the original2px SVG at the Türkiye
+threshold; actual graphic opacity remains>.8 at handoff. The89 timestamped frames
+support scroll relationship and continuity; reviewer did not claim WebM playback.
+Finite map/selected-route/builder feedback and scoped film/signature treatments
+preserve control/readability. Reduced/touch adaptation retains useful native content.
+
+UX / accessibility: global Add/order/type/query flow, keyboard reorder/remove focus,
+menu/drawer traps and focus return, invalid-ID/traveler handling, prepared inquiry
+and stale edit invalidation pass. Short desktop mega pauses the only scroll clock;
+actual menu wheel scrolls224px while page position stays fixed, Escape resumes and
+returns focus. Device and persistent reduced motion, noJS, SaveData, noWebGL,
+real film error/retry and real context loss/restoration retain content. All nine
+service links pass focus plus numeric viewport/header clearance, including short
+height. No external message was sent and no server submission is implied.
+
+Responsive: root full V3 passes60 normal cases across three locales, home widths
+360/390/430/768/1024/1280/1440 and public template/tablet/landscape cases. Additional
+reconstruction checks18 normal plus3 reduced cases/all15 chapters. Actual AR390
+intent/signature/arrival and TR768 Beyond/FAQ samples confirm deliberate vertical
+and tablet composition; sticky action is hidden at final arrival. Short1280×600
+fine input intentionally pins with compressed travel; coarse1280 remains native.
+
+Performance: production build/typecheck/lint/32tests pass. Root deviceScaleFactor3
+measures actual canvasDPR1.5, one canvas and one Lenis. Actual intercepted GL draws
+are0 at idle/hidden/offscreen; real loss restores reflective rendering. Resize,
+route and reduced-preference teardown remove pins, observers and map/builder/film
+styles, including the async observer-tween regression. Delayed2500ms Yalova media
+retains the last decoded preview and no more than two mounted images. Initial
+SaveData suppresses automatic film loading and enhancement. Root partial connection
+object plus real EventTarget two-cycle proof passes. Fresh legal navigation's11
+actual JS response bodies contain no GSAP/R3F/Three/Lenis runtime markers. 4×CPU
+planner passes9 attempts. These are laboratory observations, not field guarantees.
+
+Architecture / scope: stable server composition with a small null-rendering lazy
+motion boundary; no new dependency or persistent whole-site WebGL. Existing global
+journey storage and source facts remain unchanged. Exact application/QA paths match
+contracts; generated next-env returns to baseline. Mixed setup/shared docs remain
+separate. Historical static adapter remains reproducible at b89 checkpoint and is
+not used to fake current motion acceptance.
+
+Problems and required corrections: none remaining. Earlier malformed ignored dev
+validator build failure, observer tween residue, numeric ratio assertion, obsolete
+menu image selector, actual partial-connection crash and cloned-route QA selector
+failure are preserved in delivery/history. Each has a bounded correction with final
+positive evidence; no unexpected error was suppressed. The transitional menu image
+is explicitly superseded by settled captures. Optional improvements: none opened.
+Regression risk: future hub/detail/service integrations must preserve these shared
+navigation, journey and cleanup boundaries; Q12 still checks the final combined site.
+
+Evidence reviewed: docs/qa/2026-10-07-recovery/README.md and its actual reports,
+source/QA fingerprints, required-command logs and selected decoded PNGs; strict M03
+and QM03 deliveries; full relevant source/QA diffs; ignored tall/short timestamped
+sequences and actual media/context captures. Root default public PASS120routes,
+6screens/5groups/0errors; root default V3 PASS60normal/16groups/0errors; resilience
+PASS9groups; motion/legal PASS2cases/89frames; media PASS2groups; planner PASS9cases;
+reconstruction PASS21cases; independent navigation supplement PASS6cases. Supplement
+records page errors only; full core verifies console errors separately.
+Missing coverage/capability limits: no Safari/Firefox, physical-device, software
+keyboard, assistive-technology or real-user field measurement claimed. Full later
+page-family and final Q12 scope remains pending, not silently waived.
+
+Final decision: M03 including M03-R1 APPROVED; QM03 APPROVED. No blocking correction
+or mandatory phase3 gate remains. Save the exact scoped checkpoint, then dispatch
+T04/QT04. This is engineering/design-conformance review, not user creative approval,
+full TL-003 completion, main merge authorization or deployment.
+
+## T04 internal static composition review — 8 October 2026
+
+Reviewer: independent selected Astra `/root/astra_hub_resume`; fresh Sol successors
+`/root/astra_hub_resume/sol_hub` and `/root/astra_hub_resume/sol_hub_qa` were accepted
+with explicit `gpt-6.1-sol`, high effort and no inherited context. Root runtime remains
+unverified. The original partial static source was written by absent earlier Sol;
+the reviewer made no application edits. This is the pre-enhancement internal gate,
+not formal T04 approval or production acceptance.
+
+Static base: `39f7e7edc6b80a73be8774c4b15fbead10cb4133` plus four contracted source
+files. SHA256 at review: TurkeyHub `5753661544e41222308dd942372cd1f3c2fe1a9dd43ad9fa520100fb75b8dc00`,
+recovery-hub.css `7fcbc7f60e5a9404b6fb457ec1ff53f14680a22ae518e36f18883cdf50f1153d`,
+Pages `5c6c6940cbb992b43d786d2b4842f0b88c0ddf8d3a861ea3a2017b7c6ea2a7fe`,
+JourneyBuilder `e1753083a4e021c5ca2acf3e7091d044633f11ed1961fa440142dd5849b93bd6`.
+
+Actually decoded and inspected saved Chromium dev3053 PNGs under
+`tmp/frontend-qa/t04-worker/`: EN1440 chapters01/02/04/05/08/09, complete selected
+explorer and builder, complete Black Sea/nature scenes and final ordered itinerary;
+EN390 chapters03/05/06; AR390 chapters01/07/08/09 and coast filter; TR1280
+chapters01/03/07. Static-worker.json records four direct-navigation ten-chapter
+compositions and behavior-worker.json records keyboard/order/Contact/locale plus
+Arabic no-JS/reduced checks. Those worker assertions are preliminary evidence,
+not a substitute for the final production helper/core verification.
+
+Visual/hierarchy: the oversized editorial opening, four category rows, dark three-part
+explorer, concise add explanation/count, compact grouped directory, unequal source
+scenes, shared builder, sourced trust, deliberately smaller international chapter
+and contextual final arrival form a clear journey. Readable mobile and connected
+Arabic layouts preserve the hierarchy. Geography and photographs retain orientation.
+The hero caption correctly says Türkiye / Trip Line; generic source media is not
+given an unsupported location assertion. Source2019 and Company Profile2025 labels
+are explicit. The source image/scenes and controls avoid twelve equal large cards.
+
+Architecture/scope: Pages changes only Türkiye dispatch; builder adds optional
+presentation props with homepage defaults intact. Hub explicitly imports reused
+styles, reads validated global itinerary and leaves dates/travelers in the shared
+local form. No new dependency, backend claim, publication or data authority.
+Existing full builder element crop contains sticky-header/skip-link capture artifacts;
+fresh clean EN/AR heading/controls evidence is requested before finalizing this
+internal gate. No visual redesign or broad implementation correction is requested.
+Production, timing/cleanup, small-bound matrix and full core acceptance remain pending.
+
+Internal gate finalized 8 October 02:10 UTC: PASS. Fresh
+`resume-static-worker.json` confirms those unchanged four hashes and native
+EN1440x900 / AR390x844 captures. Reviewer actually decoded
+`resume-static-en-1440-builder-heading.png`,
+`resume-static-ar-390-builder-heading.png` and supplemental
+`resume-static-ar-390-builder-complete-clean.png`: heading sits clear below the
+header; all twelve controls, type, dates/flex, travelers, ordered summary and Plan
+are readable. The extended Arabic capture is explicitly a1851px section crop from
+a2092px viewport, not the normal phone viewport proof; native heading/controls
+captures supply that context. Root independently checked native Arabic heading.
+No blocking static composition correction remains. Permit only contracted native
+enhancement: finite550ms selected-pin feedback without coordinate transforms,
+one-time1000ms route drawing/final node and800ms editorial media mask reveal,
+with calm/reduced/SaveData final-state bypass and lifecycle cleanup. Formal T04 and
+QT04 stay IN_PROGRESS pending exact frozen-source production checks and independent
+actual timing/rendered review. This internal gate does not approve the full task.
+
+### T04 enhanced-source review in progress — 8 October, 09:30 UTC
+
+The same reviewer inspected the final source/CSS and strict T04 delivery, and
+independently matched all four hashes. Native observer/WeakSet logic runs each
+artwork once, disconnects on cleanup, removes capability-guarded connection listeners
+and restores visited elements without replay. Pin feedback uses a finite box shadow,
+leaving geography and44px targets unchanged. Text/actions are never hidden by the
+new layer. There is no new scroll clock, canvas, dependency or frame-based React state.
+
+Actually decoded dev enhanced-side initial/moving/settled, final moving/settled and
+pin-moving images with enhancement-worker.json performance samples: the photo mask
+opens without moving source imagery, the selection pulse is restrained and the final
+bronze line resolves coherently behind readable content. All transitions finish;
+reduced, runtime SaveData, restored preference and route-unmount evidence is explicit.
+The dev final-moving frame is already1066ms into the1000ms draw, so it cannot prove
+intermediate drawing pace. Production helper now records real rAF intermediate values
+and actual browser videos for that final review. No source correction is requested.
+
+Root independently built the exact frozen source and reported fresh typecheck/lint/
+32tests PASS; default public JSON independently read PASS120routes/6screens/5groups/
+zeroerrors. This includes new ordered hub→Contact service/first destination/full
+itinerary/message plus validation, stale edits and locale preservation. Fresh
+production fullpage hub EN1280/AR390 images were actually decoded for overall ten-part
+rhythm; their extreme full heights reduce text resolution, so they do not replace
+native chapter captures. Root default V3 and QT04 production helper remain pending.
+T04 is REVIEWING with released application ownership; no final approval yet.
+
+### Final T04 / QT04 review — 8 October 2026, 14:36 UTC
+
+REVIEW — T04 Türkiye hub and QT04 verifier, exact contracts and frozen delivery
+hashes above. Independent reviewer: selected Astra `/root/astra_hub_resume`;
+selected Sol workers `/root/astra_hub_resume/sol_hub` and `sol_hub_qa` implemented.
+Result: PASS. Final source remains `39f7e7ed` plus exact six frozen app/QA files;
+same hashes independently confirmed after the interruption. No lead app edits.
+
+Evidence: [dated manifest](../qa/2026-10-08-recovery/README.md), required command
+logs, default public120routes/6screens/5groups and V3 sixty normal captures/16groups,
+all PASS with zero unexpected errors. First production hub helper PASS12cases/
+72screens/4groups at09:39:54–09:41:34UTC; eight source/shared/QA hashes match.
+Actual selected production EN map, AR map, EN phone builder, TR ordered local-field
+builder, Arabic source scene and EN sourced proof captures were decoded and examined.
+They confirm layout hierarchy, readable native controls, connected Arabic, natural
+geography, finite selected feedback and honest sourced facts. Complete static
+gate and clean heading evidence remain applicable; no composition changed afterward.
+
+Motion review: the actually decoded corrected R3 EN/AR33frame sheets show different
+recorded scenes and partial-to-complete route states at real0.25s intervals; their
+recordings are preserved. The reviewer checked decode metadata and actual distinct
+frames. The route progresses in about1s without displacing text/actions, the550ms
+selection pulse directs attention once, and800ms media masks preserve photo framing.
+EN rAF route time0/233/417/667/1000ms corresponds to offset1/.414/.166/.037/0;
+Arabic actual samples confirm the same restrained native behavior. Dynamic reduced
+mode has zero hub animations, unmasked photos and complete routes; seen artwork
+does not replay after normal mode returns. No geographic transforms, hub pin,
+Lenis/canvas, offscreen frame loop or new framework was introduced.
+
+Accessibility/responsive/UX: native44px map targets, DOM index/directory alternatives,
+all twelve actual selections and four filters, real filtered Explore, global Add/
+dedupe/reorder/remove with focus, drawer, local dates/travelers reset, flexible dates,
+session/locale/query preservation and complete Contact output/stale edits pass.
+Mobile builder/final sticky suppression,360/430/768 bounds, reduced EN/AR and no-JS
+EN/AR/TR directory navigation pass. Root public/V3 confirms shared home defaults,
+short/coarse/fallback navigation and prepared-message behavior remain coherent.
+
+Architecture/performance: scoped imports support fresh direct navigation; shared
+builder defaults stay intact. Source facts/counts/taxonomy/related data untouched.
+Native observer/listener cleanup and finite animations are appropriate; no field
+performance or browser certification is inferred. No blocking findings remain.
+
+Preserved failures: temporary video decoder stalls/AbortError and invalid repeated
+R1/R2 frames are explicitly excluded. Corrected R3 completed before interruption
+and was recovered without rerunning the passing helper. Same QA handle confirmed
+errored/quiescent at14:33UTC, final delivery says browser released, expired ownership
+explicitly reconciled/released. No application/QA source changed during extraction.
+Missing limits: Safari/Firefox, physical devices, software keyboard, assistive
+technology and real-user performance remain unclaimed; final Q12 remains pending.
+
+Final decision: T04 APPROVED; QT04 APPROVED. Save the exact scoped checkpoint,
+then dispatch D05/QD05 under their existing contracts. No optional work opened,
+no user creative acceptance, main merge or deployment authorized by this review.
+
+## D05 internal static gate — 2026-10-08T19:42:33.453Z
+
+Selected Astra /root/astra_hub_resume independently inspected current source and actual rendered saved captures (EN1440/390 city/coast/nature/Black Sea; Arabic390 hero, corrected locator, native Plan/services and noJS; Turkish1280 Plan). All eleven part types reviewed, including complete supplemental Feel/Add/process/related sections. Natural images, connected Arabic, readable hierarchy, source notes/interests and curated three-related structure pass. Earlier selected-pin override fixed and ten locator recaptures preserved. Earlier stale nav/empty failed attempt are not acceptance evidence: final static supplement has60 forward/reverse physical-section states,15 native anchors and EN/AR noJS usable native links with hidden inert selector. Measured header/nav clearance passes; independently viewed final AR services/TR Plan show correct active groups. Final source hashes match static-final-worker.json. Native viewport captures establish layout; extended section captures only establish complete content, not native screen size.
+
+INTERNAL STATIC GATE PASS permits only contracted bounded native detail enhancement. This is dev3053 evidence, not formal D05/QD05 approval or production acceptance. Root single final build/core/public/V3 and QD05 production verification remain required. Durable selection: docs/qa/2026-10-08-destination/README.md. All ignored initial captures/failures preserved.
+
+## D05 / QD05 final independent review — 9 October 2026
+
+Selected Astra /root/astra_hub_resume independently reviewed four frozen application files, final native controller/CSS, strict deliveries, actual saved production PNGs and both actual recorded-frame sheets. The approved internal static gate preceded enhancement. Production Arabic locator, English Cappadocia mobile hero, Turkish no-JS overview, Arabic ordered Contact and settled Turkish Plan were actually decoded: readable headings/actions, natural photos/geography, selected bronze locator and correct settled Plan group. Intermediate composition screenshots can precede IO settlement; measured navigation states and final settled supplement establish active behavior.
+
+Root final production build/typecheck/lint/32 tests PASS; default public120 routes/6 screens/5 groups/0 errors and V3 60 screens/16 groups/0 errors PASS. Final full lint binds accepted verifier ad7ffe3cdffce2e8b176996cf8595a7932433912b5ef8b97fcaed8fd6a8d52b7. Four app hashes match D05 delivery/native report; generated next-env returned to baseline.
+
+Destination acceptance is explicitly TWO RUNS: 58 completed cases/87 captures/0 unexpected errors in 9Oct00:51:25–00:54:21UTC plus six previously unverified native cases/seven captures/0 errors at00:56:54–00:57:38UTC. This is64 cases/94 captures combined, not a fresh single-run pass. The first report remains FAIL at its subsequent faulty motion trigger; only its completed58 cases are inherited. Independently computed inherited report SHA256 b4d0576bc0748a2e139e594a8aa6a8bc9d5c42625c313f2965b831d9184b944f matches continuation provenance. All immutable app/data/shared fingerprints match across both; QA-only corrections never changed the production artifact.
+
+Coverage includes36 localized source records, ten representative composition/navigation matrices (200 forward/reverse physical states), ordered global journey across route/reload/locale/Contact, keyboard continuation,360/430/768 bounds, reduced/no-JS, real locator orientation/contrast and exact related IDs. Four harness failures are preserved: mistaken service order, premature sticky assumption, incorrect selector-focus retention and motion target placed below viewport. Native select/hash comparison proves browser-equivalent SELECT-to-BODY behavior and visible Tab continuation; isolated trigger geometry proves the offscreen harness error. No app defect was hidden by removing a required assertion.
+
+Actual EN31 and AR36 decoded frames at250ms intervals visibly progress through image mask/depth and route drawing to a settled endpoint; frame currentTimes are distinct and match requests. Route visibly partial around5.25–6.25s and node settled by6.5s. AR first three blank prepaint recording frames are not readability evidence. Current saved native PNGs supply readability. Runtime samples prove850ms interest mask/depth,950ms Feel,1100ms route/1250ms node, dynamic calm/SaveData reset, seen-target non-replay and detached cleanup (no connected root, dataset/reveals/animations zero); partial/add-only/absent-IO fallback passes. Native-only source/import review and request metadata support isolation, without claiming opaque chunk names prove every bundle byte.
+
+All browser ownership released. Safari/Firefox, physical devices, assistive technology and field performance remain unclaimed; final Q12 integration remains pending. No deployment, main merge or user creative acceptance. Decision: D05 APPROVED and QD05 APPROVED. Save exact checkpoint before S06/QS06 dispatch.
+
+## S06 internal static gate — 2026-10-09T11:36:56.150Z
+
+Selected Astra /root/astra_hub_resume independently read all nine source services and five exact application files, then decoded21 native static views covering hub needs/inspiration/secondary/final, detail hero/summary/points/process/plan/related, EN1440/390, Arabic390 and Turkish1280. Saved worker manifest17cases/123captures/17source audits/0errors is dev evidence, not27localized production acceptance. Source text/brief/Q&A preserved, including visa no-guarantee and no-passport-scan boundaries, pilgrimage/training limitations. Unequal dominant-image/compact-row hierarchy, natural photos, connected Arabic, global Add and explicit service Plan are coherent; service URL override does not replace saved journeyType. Pages changes restricted to two service dispatch functions plus imports.
+
+Arabic middle supplement actually decoded: fullprimary and02need headings below72pxheader (154.78/407.06 top); previous lowercropheader truncation is capture context. Five static hashes match original manifest. INTERNAL STATIC GATE PASS permits only contracted finite native cosmetic enhancement (700ms6%mask/2%depth,950msroute/1050msnode; pilgrimage opts out), with calm/SaveData/noJS fallbacks. Root finalproduction/core/public/V3 and QS06 acceptance remain required; no formal approval/deployment.
+
+## S06 / QS06 final independent review — 2026-10-09T19:14:25.782Z
+
+Selected Astra /root/astra_hub_resume independently reviewed source, strict deliveries, preserved production reports, thirteen native production/focus PNGs and both actual recorded-frame sheets. Static gate preceded finite enhancement. Readable Arabic summary/needs/final, English mobile corporate and visa briefs, Turkish corporate inspiration/reduced Plan and actual ordered Contact support the approved editorial hierarchy, natural photos, source copy and usable actions. Viewport captures deliberately crop adjacent sections; clean static gate captures retain complete-heading proof.
+
+Root production build/typecheck/32 tests/default public120 routes6screens5groups0errors/default V3 60screens16groups0errors PASS. Final full lint PASS binds verifier f82a7dcb7f4905b6b7534eba1365c9499bf0c59bccaffcaa656b5c7be0386201. Five frozen application hashes and three immutable source/shared hashes match both runs. Services acceptance is TWO RUNS:48 completed cases/54 captures in preserved FAIL report11:52:38.314–11:54:50.407UTC plus25 fresh cases/20captures PASS19:10:04.524–19:11:33.364UTC, total73/74/0unexpectederrors. Prior SHA ce8b6db4084587aeb70e20942717b19b2c1b1d88eede8d79492fd668990c9111 and continuation SHA fc3c89cef547cbe7a66aac8dc84a8db6a9e1a4207f3b2f2e0993a27231d441eb independently match provenance. This is not a fresh single73-case pass.
+
+The preserved failure was a verifier counting desktop display:none zero-client-rect mobile CTA as obstruction. Actual TR audience native focus/Tab return/Enter diagnosis showed solid3px bronze outline, control414.406–473.796 within800px viewport below72pxheader, exact native family hash. Narrow correction counts only painted positive-size obstruction; strict focus/header/viewport/mobile checks remain. No app change or required assertion was bypassed. Coverage includes27localized source records,12compositions,3ordered service/globaljourney flows,9audience contexts,3widths,6reduced,6noJS and7native cases.
+
+Actual EN29frames/7.2s and AR20frames/4.76s at250ms intervals show image mask/depth and route partial→complete with stable text. EN initial3white prepaint frames are excluded from readability proof. Distinct seeked/currentTime frames agree with raw five rAF sequences:700ms image,950ms route,1050ms node,120ms arrow. Dynamic site/system reduced and SaveData reset, no seen replay, detached root disconnected/datasetnull/reveals0/animations0, listener removal/remount1, partial/add-only/absent IO and pilgrimage opt-out pass. Source native imports plus request metadata support isolation; opaque chunk names alone are not bundle certification.
+
+S06 APPROVED and QS06 APPROVED, independent of selected Sol implementers. Browser released. Durable evidence: docs/qa/2026-10-09-services/README.md. Chromium emulation only; no Safari/Firefox, physical-device, assistive-technology or field-performance claim. Final Q12 remains required. No deployment, main merge or user creative acceptance. Save exact services checkpoint before P07/QP07 dispatch.
+
+## P07 internal static gate — 2026-10-10T00:13:41.651Z
+
+Selected Astra /root/astra_hub_resume independently reviewed actual three-file source and decoded12 native PNGs across EN1440/390, AR1440/390 and TR1280. Calm wide sourcephoto, source Hajj/Umrah radio distinctions, three coordination points, discussion-only dates/availability answer, honest process, Profile2025 attributed trust and local prepared intent/message are coherent and readable. Arabic is connected; photographs remain natural. Clean heading and lower captures complement one another; cropped adjacent content is not full-heading or focused-control proof. Actual Arabic Umrah message contains chosen intent, service, ordered Antalya→Istanbul and optional details; no-send disclosure/action links clear. NoJS keeps source content and honest Contact fallback, hides inert form/choice controls. Whole dedicated component is a client boundary with prerendered source, not an isolated small island or server-only RSC.
+
+Worker static dev manifest PASS10cases70captures10exactdecodedmessages0errors00:10:55.118–00:12:05.081UTC, unchanged three source hashes; globalorder/type edit thenrestore permanently invalidates stale output. This is static dev evidence, not production acceptance. Initial connectionrefused0case attempt is preserved: native SWC blocked by Windows Application Control, documented dev --webpack used WASM successfully without security/dependency/config changes.
+
+INTERNAL STATIC GATE PASS. Authorize only900ms once-only opacity0.7→1 on nonessential chapter kickers01–05; no image/essential text/action hiding or movement. Default final, reduced/sitecalm/SaveData final, no seen replay, balanced cleanup/partial API handling. Root final frozen production/core and QP07 actual native/focus/fallback proof still required. Shared Photo comes through Sections client module; source/request evidence must disclose this boundary and cannot infer complete bundle isolation from URL names.
+
+## P07 / QP07 final independent review — 11 October 2026
+
+Reviewer: selected Astra `/root/astra_pilgrimage_resume`, session
+TL-003-2026-10-05-recovery; independent from both selected Sol implementer and QA.
+Accepted explicit model routing is recorded, not independent backend attestation.
+Tested services HEAD6a2885e plus three frozen application paths and final helper
+213689924642725a7560ebf248278890cc720f2c21797ed05a6d222c8d3ddfd2.
+
+Visual/hierarchy/UX: actual source review and nine final native PNGs show the
+respectful wide-photo hero, generous editorial choice, three source coordination
+points, discussion brief, honest process and Profile2025 trust. Native Hajj/Umrah
+intent survives into exact decoded prepared messages with ordered global places.
+Arabic connected typography, natural photos, visible bronze native focus and clear
+no-send wording pass. Mobile reflows deliberately; noJS exposes truthful content
+and native Contact without inert controls. Source data/noindex boundaries preserved.
+
+Motion/performance: internal static gate preceded enhancement. Only five small
+kickers fade0.7→1 once/900ms. Both actual recorded sheets inspected, EN19frames/4.68s
+and AR20/4.96s with verified250ms seek times; first two EN blank prepaint frames are
+not readability evidence. Essential photos/copy/actions remain static. Five rAF
+sequences establish intermediate opacity and timing, beyond subtle sheet thumbnails.
+Runtime site/system/SaveData cleanup, seen non-replay, detached root cleanup and
+one-listener remount pass. Partial/add-only/absent-IO fallbacks pass. Entire dedicated
+component is a prerendered client boundary through shared Photo/Sections; no claim
+of a smaller island or complete bundle isolation from opaque request names.
+
+Automated/regression: root typecheck,32 tests, final full lint PASS. Required default
+build failed due Windows AppControl blocking native SWC; CLI-documented Webpack/WASM
+build passed without config/dependency/security changes. Production public120routes/
+6captures/5groups/0errors and V3 60captures/16groups/0errors PASS. Fresh dedicated
+20case/63capture/0error full run18:54:30.660–18:55:49.051UTC PASS, immutable application
+and shared/source hashes match. No inheritance from earlier failed runs.
+
+Two earlier verifier failures retained with independent diagnosis: native drawer
+close rAF stole premature next-control focus, now synchronized on actual close/return;
+shared reduced-motion0.01ms opacity CSSTransition sampled before finished, now awaited
+only when exact constructor/property/timing/keyframes match. Strict visible painted
+focus/viewport clearance and five final opacity1/zeroanimations assertions remain.
+Prior dev hydration mismatch remains cause-undetermined; retries and final production
+are zero-error, with no invented HMR explanation. No app correction needed.
+
+Problems/required corrections: none. Optional improvements: none dispatched.
+Evidence: docs/qa/2026-10-10-pilgrimage/README.md, production-final.json, selected
+production PNGs/recordings, root logs/reports and both strict deliveries.
+Missing coverage: Chromium emulation only; no Safari/Firefox/physical/AT/field
+certification. Final Q12 cross-family integration still required. Review supports
+P07 and QP07 engineering approval after final delivery recording; user creative
+acceptance, main merge and deployment remain separate.
+
+Final decision 2026-10-11T18:57:52.407Z: P07 APPROVED and QP07 APPROVED. Strict final delivery and root final full lint inspected; zero blocking corrections. Save exact checkpoint before B08/QB08.
+
+## B08 internal static gate — 12 October 2026
+
+Selected Astra /root/astra_business_resume independently reviewed four unchanged
+application hashes, source records, strict dated delivery and12 actual native PNGs
+atEN1440/390 AR390 TR1280 (all900px tall). Architectural source hero, compact
+numbered objectives, loaded correct camps photo/capabilities, unequal sourceTürkiye
+inspiration, connected Arabic and honest editable local brief pass internal static
+composition review. Original fullpage lazy-image/readability gaps and absent exact
+runtime timestamps are disclosed; native filesystem times are not runtime claims.
+Repeated typecheck/lint/32tests pass per strict delivery. Native globaljourney/noJS/
+production/motion checks remain pending. Approve internalstaticgate only; authorize
+one1050ms stepped decorativeSVG aboveplanheading with staticfallback/cleanup/no-replay.
+Evidence: docs/qa/2026-10-12-business/README.md andstatic-source.json,12nativePNGs.
+Formal B08/QB08 and new completed-productVISUAL remain unapproved.
+
+## 13 October final independent Business review — PASS
+
+Selected Astra independently read strict deliveries, frozen source and fresh production report (09:17:40.897–09:19:13.601 UTC): 25 cases, 75 native captures, zero unexpected errors. Root default build/typecheck/32 tests/public/V3 passed; final full lint passed against helper 975abcc13434325d8c8a29a16df299685a967a28cf8c7f94eb99ecfb23a9f0a1. No application changes or rebuild followed the freeze.
+
+Actually decoded nine final native views retained here: EN1440 arrival/training capabilities, EN390 prepared, AR390 prepared/camps context/noJS, AR768x1024 and1280x600 brief, TR1280 process. Editorial hierarchy, readable source capabilities, connected RTL, natural source imagery, useful noJS links, clear optional fields, ordered Istanbul/Sapanca and honest unsent editable message are visible. Mobile is naturally stacked with usable actions. Short laptop content continues below viewport without hidden information.
+
+Actually decoded both recorded frame sheets: EN23 frames/4.44s and AR22/4.36s show the stepped bronze line growing to its final shape while essential text/form stay fixed. Initial three EN/two AR prepaint white frames are not readability evidence. Native stills support text review; rAF metadata supplements observed motion. Exact1050ms one-shot line, preferences/static fallbacks and cleanup passed.
+
+First failure and both native diagnoses remain preserved. The correction only awaits the four exactly identified selected-events200ms CSS transitions and rejects unknown motion; fresh full acceptance inherits no pass from the failed run. No blocking corrections remain for B08/QB08. This internal family approval does not approve the completed-product VISUAL gate, finalQ12, deployment or user creative acceptance. Browser released; physical devices, Safari/Firefox, assistive technology and field performance are not certified.
+
+REVIEW — B08/QB08 final, 13 October 2026
+
+Reviewer: explicitly selected gpt-6-astra, /root/astra_business_resume, TL-003-2026-10-05-recovery. Result: PASS. Contract: recovery/TL-003-B08.md and TL-003-QB08.md. Tested revision: HEAD79487d9 plus four frozen Business application files and helper975abcc; complete hashes in strict deliveries and production-final.json.
+
+Visual fidelity / hierarchy: source architectural hero, compact indexed objective choices and unequal editorial chapter layouts preserve teal/sand/bronze identity; purposeful business composition, readable source capability rows and natural imagery. UX: objective selection visibly changes content; optional local brief and explicitly unsent editable message display current type and ordered places. Responsive: readable EN/AR390 single-column result/actions, AR768 two-column brief and1280x600 scrolling form, no compressed desktop navigation. Motion: actual EN/AR recorded sheets show one1050ms decorative step drawing while essential content stays stable; preference/lifecycle checks pass.
+
+Performance: no unexpected browser errors across25 cases; source media decoding and cleanup/listener assertions passed, no new heavy homepage component boundary; no field-performance claim. Accessibility: connected Arabic, unmirrored source photos, useful noJS source links, native controls and visible result focus; keyboard/error bounds validated. Architecture: source content authority and bounded client island preserved, no extra dependencies or backend submission; immutable source/global-journey hashes held. Regression risk: shared Pages change confined to Business route; root public120routes and fullV3 regression passed.
+
+Problems / required corrections: none remaining. First verifier failure retained with exact CSSTransition diagnosis; final helper waits only identified events-selection transitions, then requires static invariants and zero running animations. Optional improvements: none dispatched. Evidence reviewed: nine production PNGs and both actual-native-frames sheets listed in dated README; complete recordings, fresh report, strict deliveries and root logs including final lint. Limits: Chromium only, no physical device/AT or field performance certification, opaque bundle URLs do not prove full isolation. Decision: approve B08/QB08 internal family milestone, retain VISUAL and finalQ12 pending.
+
+# About static rendered gate — 13 October
+
+Selected Astra /root/astra_business_resume independently reviewed source, strict A09 delivery and13 actual native900px-high PNGs copied here. EN1440/390 AR1440/390 TR1280 composition, mobile story/qualified source claims, large non-card differentiators and tighter continuation, unequal attributed figures, distinct entertainment/hotel labels, connected Arabic, source photos, focusable horizontally scrolled partner middle/end and final planning action inspected. Native continuation captures are used for readable rows; fullpage thumbnails are not readability proof. Photos remain physically oriented.
+
+Internal static gate PASS for static-source.json hashes matching delivery. Typecheck/lint32tests worker pass; root production and independent QA09 remain mandatory. No full-product VISUAL/user creative acceptance implied. Supplied partner strips have source raster softness; readable organization identities and image alts remain, no new logos/claims.
+
+Authorize one small decorative900ms ease-out stroke dash line above final Plan heading, default final, with reduced/sitecalm/SaveData/noIO/partialAPI final fallback and cleanup/once-only behavior. Essential text/figures/photos must not animate. Exact new client island AboutMotion.tsx is added before writes; AboutExperience remains server composed.
+
+A09 production review CHANGES_REQUESTED: genuine AR768 clients figure overflow, actual native768image/geometry inspected. Source98px nowrap clients value plus leaves277px column, document778px. Narrow A09-R1 CSS typography/reflow correction reserved beforewrites; no clipping allowed. First16case88capture failure preserved; formal approval blocked until rebuilt fresh acceptance.
+
+## A09-R1 bounded correction review — 14 October 2026
+
+Selected Astra `/root/astra_about_checkpoint` independently read all four application
+files, Pages integration diff, immutable company-profile source/audit, exact contracts,
+strict deliveries and complete QA09 helper. No new source-fact, scope or lifecycle
+blocker. R1 only changes the761–900 figure grid to one column and responsive clients
+scale; it neither clips values nor changes source content. Other three application
+hashes match the prior freeze, helper9482eaaa unchanged.
+
+Recovered complete21case development report (09:54:46.119–09:56:00.501UTC) and84PNGs
+survived interruption. Independent report recheck confirms eight complete text Ranges
+including plus fit columns at all three locales and761/768/820/901/1024/390/1440,
+with exact document widths and zero pageerrors. Actually decoded seven native images:
+AR768/901/390/1024 clients, EN761 clients, TR768 clients andTR820 pilgrims, retained
+in docs/qa/2026-10-14-about. Full values remain readable, editorial scale unequal and
+901 boundary safely returns two columns. All images are height1024/default desktop
+input; touch emulation is not inferred. Prior static source images were also decoded
+for source hierarchy and natural imagery, not substituted for fresh production QA.
+
+Bounded R1 responsive gate PASS. A09 remains REVIEWING; fresh root production/core/
+public/V3 and full QA09 plus final native/recorded review are still mandatory.
+Current direct user instruction requires About-only checkpoint then STOP; all later
+C10/QC10/I11/QI11/VISUAL/Q12 remain unstarted.
+
+## Final About A09 / QA09 independent review — PASS
+
+Recorded 15 October 2026 Europe/Istanbul (UTC timestamp in state history).
+Reviewer: explicitly selected gpt-6-astra, `/root/astra_about_checkpoint`, session
+TL-003-2026-10-05-recovery. Contracts: A09, A09-R1 and QA09. Result: PASS.
+Tested base794bc0304b062e540f576fcaff0e39dd17e5030a plus frozen four About application
+files and unchanged helper9482eaaa; full fingerprints in14October frozen-source.json
+and production-final.json. After interruption, current fingerprints were rechecked
+and match every final source/helper fingerprint. Approval is recorded now, not
+backdated to the14October test or visual inspection.
+
+Visual fidelity / hierarchy: source-led editorial hero, qualified2019/profile2025
+story, mission/vision, seven indexed differentiators with unequal rhythm, eight
+attributed figures and supplied partner strips preserve the approved teal/ivory/
+bronze language. No seven-card layout or invented chronology/claims. Actual native
+EN1440 hero, AR390 story, TR1280 differentiators and AR1440 figures were decoded.
+R1's seven independently inspected native images show full numbers plus suffixes,
+readable tablet reflow and safe901px two-column boundary. No clipping fix.
+
+UX / responsive / accessibility: fresh EN390 noJS Plan, AR768 focused Plan,
+EN1280x600 focused Plan and AR390 final line/action views were actually decoded.
+Connected Arabic, natural source imagery, clear native links, visible focus and
+mobile vertical composition are retained. Source assertions, partner keyboard
+scroll, focus/header/CTA clearance and ordered Istanbul/Sapanca corporate handoff
+pass across the dedicated matrix. R1 uses default desktop input at21sizes/locales;
+these screenshots do not claim physical touch testing.
+
+Motion: actually decoded both complete recorded-frame sheets, EN26frames/5.16s and
+AR24frames/4.8s at0.2s intervals. EN around2.0–2.8s and AR1.6–2.4s show the bronze
+line drawing once while essential copy/actions remain stable. Five initial EN and
+three initial AR prepaint white frames are excluded from readability judgment.
+Native stills govern text readability; rAF/native Animation metadata supplements
+observed pacing and confirms900ms ease-out/one iteration. Reduced/sitecalm/SaveData,
+partialAPI/noIO, seen non-replay, detached cleanup and listener0→1 remount pass.
+
+Architecture / performance / regression: About remains server composition with a
+small decorative client island; typed profile is single fact authority. No dependency,
+backend, publication, source-media or security changes. No heavy canvas/pin observed;
+opaque bundle URLs do not prove complete bundle isolation. Frozen default production
+build, typecheck, full lint and32tests/twofiles PASS; public120routes/6captures/5groups/
+0errors and V3 60captures/16groups/0errors PASS. Fresh dedicated Chromium153.0.8010.12
+run15:03:16.389–15:04:44.292UTC14October PASS25cases/96captures/0errors with unchanged
+initial/final hashes. No acceptance inherited from earlier failed QA.
+
+Problems / required corrections: none remaining. Original AR768 overflow failure,
+geometry, native image and dev cache/cold-compile failures remain preserved.
+Optional improvements: none dispatched. Evidence reviewed: docs/qa/2026-10-14-about
+README, production-final.json, eight selected production native PNGs, two actual
+frame sheets, two original WebM recordings, R1 native report/sevenPNGs, root checks
+and both strict deliveries. Limits: Chromium emulation; no Safari/Firefox, physical
+hardware, assistive-technology or field-performance certification.
+
+Decision: APPROVE A09 including R1 and QA09 as the internal About family milestone.
+This is independent of Sol implementation and QA preparation. It does not approve
+completed-product VISUAL, Q12, full TL-003 completion or user creative acceptance.
+All workers are quiescent and runtime released. Save the exact About checkpoint and
+state snapshot, then STOP as instructed. C10/QC10/I11/QI11/VISUAL/Q12 remain PLANNED
+without owners; no next-family dispatch, merge or deployment.

@@ -1,0 +1,1770 @@
+{
+  "status": "fail",
+  "startedAt": "2026-10-12T16:02:29.789Z",
+  "artifacts": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z",
+  "base": "http://localhost:3043",
+  "revision": "79487d982ea436f6f655d247332ca57a60589f13",
+  "sourceFingerprints": {
+    "components/services/BusinessExperience.tsx": "97079b35cb611044d81e5b7c20d816efa3c468fa979ce39154ce7866fae18d26",
+    "components/services/BusinessBrief.tsx": "c6cc370ef57972cf0867a59a121b1f47d589d13e390efa4480c28ae450c6de7e",
+    "components/travel/Pages.tsx": "be719d4502d70a2d0d29e6c44fd545de94f7da622fa13e3591c91406f927c1e0",
+    "styles/recovery-business.css": "19106dbab4f750e236b09e0f85b4045c9b7b75b2a0357c110f06e08464ecdc27",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/company-profile.ts": "4886718185b3574e6ab88c0f4ee62604c8b1cc04fad42739437c63b2ec8b543e",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d",
+    "scripts/verify-recovery-business.mjs": "f5f3e6445a4289d2d295b25d087bb674c8741091ba200d5e5c797f5ffa258f90"
+  },
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "objective/brief native matrix",
+      "contexts": [
+        {
+          "id": "corporate",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Flights and stays — preferences aligned with your schedule.",
+            "Meetings — coordinate travel around your appointments.",
+            "Teams — one-off trips or recurring travel requirements."
+          ]
+        },
+        {
+          "id": "events",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Venue discussion — space, format and technical needs.",
+            "Guest coordination — travel, stays and arrival plans.",
+            "Event logistics — timing, transfers and a clear running order."
+          ]
+        },
+        {
+          "id": "camps",
+          "image": "coast.png",
+          "sourceCapabilities": [
+            "Program planning — objectives, activities and a workable schedule.",
+            "Travel logistics — group transport and accommodation needs.",
+            "Meeting spaces — discuss locations and venue requirements."
+          ]
+        },
+        {
+          "id": "training",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Objectives — start with your learning and organizational goals.",
+            "Participants — group size, timing and practical needs.",
+            "Organization — venue, travel and accommodation coordination."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "objective": "corporate",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Corporate\nService of interest: Corporate & business travel\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences & event management\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.546875,
+              "bottom": 517.546875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Camps & Conferences\nService of interest: Camps & conference planning\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Training\nService of interest: Training program organization\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "corporate",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Corporate\nService of interest: Corporate & business travel\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences & event management\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.546875,
+              "bottom": 517.546875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Camps & Conferences\nService of interest: Camps & conference planning\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Training\nService of interest: Training program organization\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 469.671875,
+              "bottom": 517.671875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        }
+      ],
+      "invalidation": {
+        "fields": [
+          "organization",
+          "purpose",
+          "participants",
+          "location",
+          "dates"
+        ],
+        "objective": true,
+        "type": true,
+        "reorderedAndRestored": true
+      },
+      "orientation": [
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=1920&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=1920&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=750&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsapanca.jpg&w=750&q=85",
+          "natural": true
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js",
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js"
+      ],
+      "bounds": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "broken": []
+      },
+      "purposeOptional": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "objective/brief native matrix",
+      "contexts": [
+        {
+          "id": "corporate",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Flights and stays — preferences aligned with your schedule.",
+            "Meetings — coordinate travel around your appointments.",
+            "Teams — one-off trips or recurring travel requirements."
+          ]
+        },
+        {
+          "id": "events",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Venue discussion — space, format and technical needs.",
+            "Guest coordination — travel, stays and arrival plans.",
+            "Event logistics — timing, transfers and a clear running order."
+          ]
+        },
+        {
+          "id": "camps",
+          "image": "coast.png",
+          "sourceCapabilities": [
+            "Program planning — objectives, activities and a workable schedule.",
+            "Travel logistics — group transport and accommodation needs.",
+            "Meeting spaces — discuss locations and venue requirements."
+          ]
+        },
+        {
+          "id": "training",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Objectives — start with your learning and organizational goals.",
+            "Participants — group size, timing and practical needs.",
+            "Organization — venue, travel and accommodation coordination."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "objective": "corporate",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Corporate\nService of interest: Corporate & business travel\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.515625,
+              "bottom": 489.515625
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences & event management\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.515625,
+              "bottom": 489.515625
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Camps & Conferences\nService of interest: Camps & conference planning\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.796875,
+              "bottom": 489.796875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Training\nService of interest: Training program organization\nCurrent journey type: Domestic & international tours\nNo Türkiye places added yet.\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.046875,
+              "bottom": 490.046875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "corporate",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Corporate\nService of interest: Corporate & business travel\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.515625,
+              "bottom": 489.515625
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Events\nService of interest: Conferences & event management\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.515625,
+              "bottom": 489.515625
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Camps & Conferences\nService of interest: Camps & conference planning\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.796875,
+              "bottom": 489.796875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Send an inquiry — Trip Line\nObjective: Training\nService of interest: Training program organization\nCurrent journey type: Domestic & international tours\nPlaces I would like to visit: Istanbul → Sapanca\nOrganization: QA organization 735\nPurpose: Planning a coordinated team visit 735\nParticipants: 27\nPreferred location: Istanbul meeting discussion 735\nPreferred dates: Flexible October 2027 735\n\nOur team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.046875,
+              "bottom": 490.046875
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        }
+      ],
+      "invalidation": {
+        "fields": [
+          "organization",
+          "purpose",
+          "participants",
+          "location",
+          "dates"
+        ],
+        "objective": true,
+        "type": true,
+        "reorderedAndRestored": true
+      },
+      "orientation": [
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsapanca.jpg&w=640&q=85",
+          "natural": true
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js",
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js"
+      ],
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      },
+      "purposeOptional": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "objective/brief native matrix",
+      "contexts": [
+        {
+          "id": "corporate",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "الطيران والإقامة — خيارات تتوافق مع جدولكم.",
+            "الاجتماعات — نسّقوا السفر حول مواعيدكم.",
+            "الفرق — رحلات لمرة واحدة أو احتياجات سفر متكررة."
+          ]
+        },
+        {
+          "id": "events",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "المكان — المساحة ونمط الفعالية والمتطلبات التقنية.",
+            "الضيوف — السفر والإقامة وخطط الوصول.",
+            "لوجستيات الفعالية — التوقيت والتنقل وتسلسل واضح للبرنامج."
+          ]
+        },
+        {
+          "id": "camps",
+          "image": "coast.png",
+          "sourceCapabilities": [
+            "تخطيط البرنامج — الأهداف والأنشطة والجدول المناسب.",
+            "لوجستيات السفر — نقل المجموعة واحتياجات الإقامة.",
+            "مساحات اللقاء — ناقش المواقع ومتطلبات القاعات."
+          ]
+        },
+        {
+          "id": "training",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "الأهداف — ابدأوا بأهداف التعلم والمؤسسة.",
+            "المشاركون — حجم المجموعة والمواعيد والاحتياجات العملية.",
+            "التنظيم — تنسيق المكان والسفر والإقامة."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "objective": "corporate",
+          "ids": [],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: الشركات\nالخدمة المطلوبة: سفر الشركات والأعمال\nنوع الرحلة الحالي: الجولات المحلية والدولية\nلم تُضف وجهات في تركيا بعد.\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.828125,
+              "bottom": 489.828125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: الفعاليات\nالخدمة المطلوبة: إدارة المؤتمرات والفعاليات\nنوع الرحلة الحالي: الجولات المحلية والدولية\nلم تُضف وجهات في تركيا بعد.\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.4375,
+              "bottom": 490.4375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: المخيمات والمؤتمرات\nالخدمة المطلوبة: المخيمات وتخطيط المؤتمرات\nنوع الرحلة الحالي: الجولات المحلية والدولية\nلم تُضف وجهات في تركيا بعد.\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.4375,
+              "bottom": 490.4375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: التدريب\nالخدمة المطلوبة: تنظيم البرامج التدريبية\nنوع الرحلة الحالي: الجولات المحلية والدولية\nلم تُضف وجهات في تركيا بعد.\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.84375,
+              "bottom": 489.84375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "corporate",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: الشركات\nالخدمة المطلوبة: سفر الشركات والأعمال\nنوع الرحلة الحالي: الجولات المحلية والدولية\nالأماكن التي أرغب في زيارتها: إسطنبول → صبانجا\nالمؤسسة: QA organization 735\nالغرض: Planning a coordinated team visit 735\nالمشاركون: 27\nالموقع المفضل: Istanbul meeting discussion 735\nالمواعيد المفضلة: Flexible October 2027 735\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.828125,
+              "bottom": 489.828125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: الفعاليات\nالخدمة المطلوبة: إدارة المؤتمرات والفعاليات\nنوع الرحلة الحالي: الجولات المحلية والدولية\nالأماكن التي أرغب في زيارتها: إسطنبول → صبانجا\nالمؤسسة: QA organization 735\nالغرض: Planning a coordinated team visit 735\nالمشاركون: 27\nالموقع المفضل: Istanbul meeting discussion 735\nالمواعيد المفضلة: Flexible October 2027 735\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.4375,
+              "bottom": 490.4375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: المخيمات والمؤتمرات\nالخدمة المطلوبة: المخيمات وتخطيط المؤتمرات\nنوع الرحلة الحالي: الجولات المحلية والدولية\nالأماكن التي أرغب في زيارتها: إسطنبول → صبانجا\nالمؤسسة: QA organization 735\nالغرض: Planning a coordinated team visit 735\nالمشاركون: 27\nالموقع المفضل: Istanbul meeting discussion 735\nالمواعيد المفضلة: Flexible October 2027 735\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 442.4375,
+              "bottom": 490.4375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "أرسل استفساراً — Trip Line\nالهدف: التدريب\nالخدمة المطلوبة: تنظيم البرامج التدريبية\nنوع الرحلة الحالي: الجولات المحلية والدولية\nالأماكن التي أرغب في زيارتها: إسطنبول → صبانجا\nالمؤسسة: QA organization 735\nالغرض: Planning a coordinated team visit 735\nالمشاركون: 27\nالموقع المفضل: Istanbul meeting discussion 735\nالمواعيد المفضلة: Flexible October 2027 735\n\nسيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 441.84375,
+              "bottom": 489.84375
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        }
+      ],
+      "invalidation": {
+        "fields": [
+          "organization",
+          "purpose",
+          "participants",
+          "location",
+          "dates"
+        ],
+        "objective": true,
+        "type": true,
+        "reorderedAndRestored": true
+      },
+      "orientation": [
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsapanca.jpg&w=640&q=85",
+          "natural": true
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js",
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js"
+      ],
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      },
+      "purposeOptional": true
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 900,
+      "mode": "objective/brief native matrix",
+      "contexts": [
+        {
+          "id": "corporate",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Uçuş ve konaklama — takviminize uygun tercihler.",
+            "Toplantılar — seyahati randevularınıza göre koordine edelim.",
+            "Ekipler — tek seferlik veya düzenli seyahat ihtiyaçları."
+          ]
+        },
+        {
+          "id": "events",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Mekân — alan, format ve teknik ihtiyaçlar.",
+            "Misafir koordinasyonu — seyahat, konaklama ve varış planları.",
+            "Etkinlik lojistiği — zamanlama, transfer ve net bir akış."
+          ]
+        },
+        {
+          "id": "camps",
+          "image": "coast.png",
+          "sourceCapabilities": [
+            "Program planlama — hedefler, etkinlikler ve uygulanabilir takvim.",
+            "Seyahat lojistiği — grup ulaşımı ve konaklama ihtiyaçları.",
+            "Buluşma alanları — konumları ve mekân ihtiyaçlarını konuşalım."
+          ]
+        },
+        {
+          "id": "training",
+          "image": "business.jpg",
+          "sourceCapabilities": [
+            "Hedefler — öğrenme ve kurum hedeflerinizle başlayalım.",
+            "Katılımcılar — grup büyüklüğü, zamanlama ve pratik ihtiyaçlar.",
+            "Organizasyon — mekân, seyahat ve konaklama koordinasyonu."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "objective": "corporate",
+          "ids": [],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Kurumsal\nİlgilendiğin hizmet: Kurumsal ve iş seyahati\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nHenüz Türkiye’den yer eklenmedi.\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Etkinlikler\nİlgilendiğin hizmet: Konferans ve etkinlik yönetimi\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nHenüz Türkiye’den yer eklenmedi.\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Kamplar ve Konferanslar\nİlgilendiğin hizmet: Kamplar ve konferans planlama\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nHenüz Türkiye’den yer eklenmedi.\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Eğitim\nİlgilendiğin hizmet: Eğitim programı organizasyonu\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nHenüz Türkiye’den yer eklenmedi.\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "corporate",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Kurumsal\nİlgilendiğin hizmet: Kurumsal ve iş seyahati\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nZiyaret etmek istediğim yerler: İstanbul → Sapanca\nKurum: QA organization 735\nHedef: Planning a coordinated team visit 735\nKatılımcılar: 27\nTercih edilen yer: Istanbul meeting discussion 735\nTercih edilen tarihler: Flexible October 2027 735\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "events",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Etkinlikler\nİlgilendiğin hizmet: Konferans ve etkinlik yönetimi\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nZiyaret etmek istediğim yerler: İstanbul → Sapanca\nKurum: QA organization 735\nHedef: Planning a coordinated team visit 735\nKatılımcılar: 27\nTercih edilen yer: Istanbul meeting discussion 735\nTercih edilen tarihler: Flexible October 2027 735\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "camps",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Kamplar ve Konferanslar\nİlgilendiğin hizmet: Kamplar ve konferans planlama\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nZiyaret etmek istediğim yerler: İstanbul → Sapanca\nKurum: QA organization 735\nHedef: Planning a coordinated team visit 735\nKatılımcılar: 27\nTercih edilen yer: Istanbul meeting discussion 735\nTercih edilen tarihler: Flexible October 2027 735\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        },
+        {
+          "objective": "training",
+          "ids": [
+            "istanbul",
+            "sapanca"
+          ],
+          "type": "tours",
+          "message": "Talep oluştur — Trip Line\nAmaç: Eğitim\nİlgilendiğin hizmet: Eğitim programı organizasyonu\nMevcut yolculuk türü: Yurt içi ve yurt dışı turlar\nZiyaret etmek istediğim yerler: İstanbul → Sapanca\nKurum: QA organization 735\nHedef: Planning a coordinated team visit 735\nKatılımcılar: 27\nTercih edilen yer: Istanbul meeting discussion 735\nTercih edilen tarihler: Flexible October 2027 735\n\nEkibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır.",
+          "keyboard": {
+            "unobscured": true,
+            "focusVisible": true,
+            "outline": true,
+            "shadow": false,
+            "rect": {
+              "top": 470.125,
+              "bottom": 518.125
+            },
+            "headerBottom": 72,
+            "mobileCTA": null
+          }
+        }
+      ],
+      "invalidation": {
+        "fields": [
+          "organization",
+          "purpose",
+          "participants",
+          "location",
+          "dates"
+        ],
+        "objective": true,
+        "type": true,
+        "reorderedAndRestored": true
+      },
+      "orientation": [
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=1920&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fbusiness.jpg&w=1920&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fistanbul.png&w=640&q=85",
+          "natural": true
+        },
+        {
+          "src": "http://localhost:3043/_next/image?url=%2Fmedia%2Fsapanca.jpg&w=640&q=85",
+          "natural": true
+        }
+      ],
+      "mutations": [],
+      "requestedScripts": [
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js",
+        "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+        "http://localhost:3043/_next/static/chunks/04rru5r092yfw.js",
+        "http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js",
+        "http://localhost:3043/_next/static/chunks/turbopack-0c75iix5s_spl.js",
+        "http://localhost:3043/_next/static/chunks/1apm_xj1kfp4a.js",
+        "http://localhost:3043/_next/static/chunks/35sx2v6pxatgg.js",
+        "http://localhost:3043/_next/static/chunks/2q6_h96-urfif.js",
+        "http://localhost:3043/_next/static/chunks/2vow8ocq4csqj.js",
+        "http://localhost:3043/_next/static/chunks/39_ia1603jo2e.js",
+        "http://localhost:3043/_next/static/chunks/18e66jmjmtp59.js",
+        "http://localhost:3043/_next/static/chunks/3u30pcoe82-r9.js"
+      ],
+      "bounds": {
+        "width": 1280,
+        "documentWidth": 1280,
+        "broken": []
+      },
+      "purposeOptional": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "motion": {
+        "animations": [],
+        "transform": "none"
+      },
+      "bounds": {
+        "width": 390,
+        "documentWidth": 390,
+        "broken": []
+      }
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440-arrival",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-arrival.png",
+      "at": "2026-10-12T16:02:32.151Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-corporate-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-corporate-context.png",
+      "at": "2026-10-12T16:02:32.880Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-corporate-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-corporate-capabilities.png",
+      "at": "2026-10-12T16:02:33.014Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-events-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-events-context.png",
+      "at": "2026-10-12T16:02:33.727Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-events-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-events-capabilities.png",
+      "at": "2026-10-12T16:02:33.944Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-camps-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-camps-context.png",
+      "at": "2026-10-12T16:02:35.054Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-camps-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-camps-capabilities.png",
+      "at": "2026-10-12T16:02:35.235Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-training-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-training-context.png",
+      "at": "2026-10-12T16:02:35.891Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-training-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-training-capabilities.png",
+      "at": "2026-10-12T16:02:36.026Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-process.png",
+      "at": "2026-10-12T16:02:36.271Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-inspiration",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-inspiration.png",
+      "at": "2026-10-12T16:02:36.639Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-plan.png",
+      "at": "2026-10-12T16:02:36.789Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-1440-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-1440-prepared.png",
+      "at": "2026-10-12T16:02:39.592Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-arrival",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-arrival.png",
+      "at": "2026-10-12T16:02:44.497Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-corporate-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-corporate-context.png",
+      "at": "2026-10-12T16:02:44.930Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-corporate-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-corporate-capabilities.png",
+      "at": "2026-10-12T16:02:45.018Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-events-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-events-context.png",
+      "at": "2026-10-12T16:02:45.540Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-events-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-events-capabilities.png",
+      "at": "2026-10-12T16:02:45.634Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-camps-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-camps-context.png",
+      "at": "2026-10-12T16:02:46.128Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-camps-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-camps-capabilities.png",
+      "at": "2026-10-12T16:02:46.219Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-training-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-training-context.png",
+      "at": "2026-10-12T16:02:46.690Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-training-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-training-capabilities.png",
+      "at": "2026-10-12T16:02:46.787Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-process.png",
+      "at": "2026-10-12T16:02:46.965Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-inspiration",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-inspiration.png",
+      "at": "2026-10-12T16:02:47.133Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-plan.png",
+      "at": "2026-10-12T16:02:47.219Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "en-390-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-prepared.png",
+      "at": "2026-10-12T16:02:49.965Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "ar-390-arrival",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-arrival.png",
+      "at": "2026-10-12T16:02:56.069Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-corporate-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-corporate-context.png",
+      "at": "2026-10-12T16:02:56.553Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-corporate-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-corporate-capabilities.png",
+      "at": "2026-10-12T16:02:56.634Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-events-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-events-context.png",
+      "at": "2026-10-12T16:02:57.161Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-events-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-events-capabilities.png",
+      "at": "2026-10-12T16:02:57.258Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-camps-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-camps-context.png",
+      "at": "2026-10-12T16:02:57.817Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-camps-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-camps-capabilities.png",
+      "at": "2026-10-12T16:02:57.899Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-training-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-training-context.png",
+      "at": "2026-10-12T16:02:58.412Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-training-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-training-capabilities.png",
+      "at": "2026-10-12T16:02:58.499Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-process.png",
+      "at": "2026-10-12T16:02:58.776Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-inspiration",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-inspiration.png",
+      "at": "2026-10-12T16:02:58.918Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-plan.png",
+      "at": "2026-10-12T16:02:59.025Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "ar-390-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-prepared.png",
+      "at": "2026-10-12T16:03:02.113Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "tr-1280-arrival",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-arrival.png",
+      "at": "2026-10-12T16:03:08.779Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-corporate-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-corporate-context.png",
+      "at": "2026-10-12T16:03:09.307Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-corporate-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-corporate-capabilities.png",
+      "at": "2026-10-12T16:03:09.452Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-events-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-events-context.png",
+      "at": "2026-10-12T16:03:10.033Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-events-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-events-capabilities.png",
+      "at": "2026-10-12T16:03:10.177Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-camps-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-camps-context.png",
+      "at": "2026-10-12T16:03:10.872Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-camps-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-camps-capabilities.png",
+      "at": "2026-10-12T16:03:11.007Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-training-context",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-training-context.png",
+      "at": "2026-10-12T16:03:11.648Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-training-capabilities",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-training-capabilities.png",
+      "at": "2026-10-12T16:03:11.785Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-process",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-process.png",
+      "at": "2026-10-12T16:03:12.039Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-inspiration",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-inspiration.png",
+      "at": "2026-10-12T16:03:12.342Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-plan",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-plan.png",
+      "at": "2026-10-12T16:03:12.466Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "tr-1280-prepared",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-1280-prepared.png",
+      "at": "2026-10-12T16:03:15.362Z",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "en-390-noJS",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-noJS.png",
+      "at": "2026-10-12T16:03:19.754Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "ar-390-noJS",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-noJS.png",
+      "at": "2026-10-12T16:03:21.096Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "tr-390-noJS",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-390-noJS.png",
+      "at": "2026-10-12T16:03:22.277Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/tr/business"
+    },
+    {
+      "name": "en-390-reduced",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\en-390-reduced.png",
+      "at": "2026-10-12T16:03:23.929Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/business"
+    },
+    {
+      "name": "ar-390-reduced",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\ar-390-reduced.png",
+      "at": "2026-10-12T16:03:25.635Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/business"
+    },
+    {
+      "name": "tr-390-reduced",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-business\\2026-10-12T16-02-29-789Z\\tr-390-reduced.png",
+      "at": "2026-10-12T16:03:27.279Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/tr/business"
+    }
+  ],
+  "errors": [],
+  "checks": [],
+  "gaps": [
+    "Independent rendered Astra review remains required. No physical-device, Safari/Firefox, assistive-technology or field-performance certification."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "activeCase": {
+    "locale": "en",
+    "width": 390,
+    "height": 844,
+    "mode": "normal"
+  },
+  "failure": {
+    "message": "expect(received).toEqual(expected) // deep equality\n\n- Expected  -  1\n+ Received  + 18\n\n- Array []\n+ Array [\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+ ]",
+    "stack": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  -  1\n+ Received  + 18\n\n- Array []\n+ Array [\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+   Object {\n+     \"name\": undefined,\n+     \"state\": \"running\",\n+   },\n+ ]\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toEqual (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at fallbackMatrix (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-business.mjs:219:31)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery-business.mjs:312:42",
+    "activeCase": {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "normal"
+    },
+    "at": "2026-10-12T16:03:28.887Z",
+    "step": "prepare events"
+  },
+  "finishedAt": "2026-10-12T16:03:29.072Z"
+}

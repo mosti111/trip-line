@@ -1,0 +1,790 @@
+{
+  "status": "OBSERVED",
+  "browser": "153.0.8010.12",
+  "startedAt": "2026-10-23T00:42:09.307Z",
+  "samples": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "errors": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 612
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 612
+        }
+      ],
+      "events": [
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 953.3000000715256,
+          "elapsedTime": 0,
+          "startTime": 893.8690000213683,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 955.7000000476837,
+          "elapsedTime": 0,
+          "startTime": 893.8690000213683,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 989.3000000715256,
+          "elapsedTime": 0,
+          "startTime": 893.8690000213683,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1106.5,
+          "elapsedTime": 0,
+          "startTime": 893.8690000213683,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-photo-arrive",
+          "now": 1311.3000000715256,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1311.3000000715256,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1311.3999999761581,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1311.6000000238419,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 720,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1311.7000000476837,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 650,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1311.8000000715256,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 600,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-bronze-arrive",
+          "now": 1311.8999999761581,
+          "elapsedTime": 0.28333099997863176,
+          "startTime": null,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 1666.3999999761581,
+          "elapsedTime": 0,
+          "startTime": 1627.1730000153184,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 1666.7000000476837,
+          "elapsedTime": 0,
+          "startTime": 1627.1730000153184,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1700.2000000476837,
+          "elapsedTime": 0,
+          "startTime": 1627.1730000153184,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1936.3999999761581,
+          "elapsedTime": 0,
+          "startTime": 1627.1730000153184,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-photo-arrive",
+          "now": 3883.8000000715256,
+          "elapsedTime": 1.5,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 3884.100000023842,
+          "elapsedTime": 1.05,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 3884.2000000476837,
+          "elapsedTime": 1.05,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 3884.2000000476837,
+          "elapsedTime": 0,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 3884.399999976158,
+          "elapsedTime": 0.72,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 3884.399999976158,
+          "elapsedTime": 0,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 3884.5,
+          "elapsedTime": 0.6499999999999999,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 3884.600000023842,
+          "elapsedTime": 0,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 3884.600000023842,
+          "elapsedTime": 0.6,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-bronze-arrive",
+          "now": 3884.7000000476837,
+          "elapsedTime": 1.45,
+          "target": {}
+        }
+      ],
+      "states": [
+        {
+          "now": 808.7000000476837,
+          "old": null,
+          "entry": "play"
+        },
+        {
+          "now": 3867,
+          "old": "play",
+          "entry": "done"
+        },
+        {
+          "now": 3884,
+          "old": "done",
+          "entry": "done"
+        }
+      ],
+      "final": {
+        "at": 4303.399999976158,
+        "entry": "done",
+        "photoTransform": "none",
+        "inkTransforms": [
+          "none",
+          "none"
+        ],
+        "running": []
+      },
+      "photoConfiguredDurationMs": 1500,
+      "photoStartMinusFcpMs": 281.86900002136827,
+      "photoEndObserved": true,
+      "photoCancelObserved": true,
+      "photoEndElapsedMs": 1500,
+      "photoCancelElapsedMs": 283.3309999786318,
+      "doneMinusPhotoStartMs": 2973.1309999786317
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 524
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 524
+        }
+      ],
+      "events": [
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 803.5,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 804.1000000238419,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 841.6000000238419,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 975.7999999523163,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 1175.2000000476837,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 720,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 1323.8999999761581,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 650,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 1442.3999999761581,
+          "elapsedTime": 0,
+          "startTime": 773.0840001022443,
+          "duration": 600,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 1891.2000000476837,
+          "elapsedTime": 1.05,
+          "startTime": 773.0840001022443,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 1908,
+          "elapsedTime": 0.72,
+          "startTime": 773.0840001022443,
+          "duration": 720,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 1974.7999999523163,
+          "elapsedTime": 0.6499999999999999,
+          "startTime": 773.0840001022443,
+          "duration": 650,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 2042.1000000238419,
+          "elapsedTime": 1.05,
+          "startTime": 773.0840001022443,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 2042.2000000476837,
+          "elapsedTime": 0.6,
+          "startTime": 773.0840001022443,
+          "duration": 600,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-bronze-arrive",
+          "now": 2241.5,
+          "elapsedTime": 1.45,
+          "startTime": 773.0840001022443,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationend",
+          "name": "rh-photo-arrive",
+          "now": 2274.399999976158,
+          "elapsedTime": 1.5,
+          "startTime": 773.0840001022443,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        }
+      ],
+      "states": [
+        {
+          "now": 692.2999999523163,
+          "old": null,
+          "entry": "play"
+        },
+        {
+          "now": 2274.600000023842,
+          "old": "play",
+          "entry": "done"
+        },
+        {
+          "now": 2291.2000000476837,
+          "old": "done",
+          "entry": "done"
+        }
+      ],
+      "final": {
+        "at": 2683.7000000476837,
+        "entry": "done",
+        "photoTransform": "none",
+        "inkTransforms": [
+          "none",
+          "none"
+        ],
+        "running": []
+      },
+      "photoConfiguredDurationMs": 1500,
+      "photoStartMinusFcpMs": 249.08400010224432,
+      "photoEndObserved": true,
+      "photoCancelObserved": false,
+      "photoEndElapsedMs": 1500,
+      "photoCancelElapsedMs": null,
+      "doneMinusPhotoStartMs": 1501.5159999215975
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "errors": [],
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 556
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 556
+        }
+      ],
+      "events": [
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 1049.7000000476837,
+          "elapsedTime": 0,
+          "startTime": 977.6999999303371,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1050.1000000238419,
+          "elapsedTime": 0,
+          "startTime": 977.6999999303371,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 1050.2000000476837,
+          "elapsedTime": 0,
+          "startTime": 977.6999999303371,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1220.6000000238419,
+          "elapsedTime": 0,
+          "startTime": 977.6999999303371,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-photo-arrive",
+          "now": 1495.7000000476837,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1495.8000000715256,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1495.8999999761581,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1495.8999999761581,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 720,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1496,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 650,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1496,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 600,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-bronze-arrive",
+          "now": 1496.1000000238419,
+          "elapsedTime": 0.2833000000696628,
+          "startTime": null,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 1744.5,
+          "elapsedTime": 0,
+          "startTime": 1627.673999988474,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 1744.7000000476837,
+          "elapsedTime": 0,
+          "startTime": 1627.673999988474,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 1744.8000000715256,
+          "elapsedTime": 0,
+          "startTime": 1627.673999988474,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-photo-arrive",
+          "now": 1984.2000000476837,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1984.2000000476837,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-line-arrive",
+          "now": 1984.2000000476837,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1984.2000000476837,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 720,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1984.3000000715256,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 650,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-content-arrive",
+          "now": 1984.3000000715256,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 600,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationcancel",
+          "name": "rh-bronze-arrive",
+          "now": 1984.3000000715256,
+          "elapsedTime": 0.10002600001152606,
+          "startTime": null,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-photo-arrive",
+          "now": 2083.8000000715256,
+          "elapsedTime": 0,
+          "startTime": 1910.9959999332204,
+          "duration": 1500,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 2084.7000000476837,
+          "elapsedTime": 0,
+          "startTime": 1910.9959999332204,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-bronze-arrive",
+          "now": 2085,
+          "elapsedTime": 0,
+          "startTime": 1910.9959999332204,
+          "duration": 1450,
+          "target": {}
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-line-arrive",
+          "now": 2122.8000000715256,
+          "elapsedTime": 0,
+          "startTime": 1910.9959999332204,
+          "duration": 1050,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-photo-arrive",
+          "now": 4541.899999976158,
+          "elapsedTime": 1.5,
+          "target": "rh-photo-settle"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 4542.399999976158,
+          "elapsedTime": 1.05,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-line-arrive",
+          "now": 4542.5,
+          "elapsedTime": 1.05,
+          "target": "rh-title-ink"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 4542.700000047684,
+          "elapsedTime": 0,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 4542.700000047684,
+          "elapsedTime": 0.72,
+          "target": "rh-support-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 4542.800000071526,
+          "elapsedTime": 0,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 4542.899999976158,
+          "elapsedTime": 0.6499999999999999,
+          "target": "rh-actions rh-actions-reveal"
+        },
+        {
+          "type": "animationstart",
+          "name": "rh-content-arrive",
+          "now": 4542.899999976158,
+          "elapsedTime": 0,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-content-arrive",
+          "now": 4543,
+          "elapsedTime": 0.6,
+          "target": "rh-small-links rh-links-reveal"
+        },
+        {
+          "type": "animationend",
+          "name": "rh-bronze-arrive",
+          "now": 4543,
+          "elapsedTime": 1.45,
+          "target": {}
+        }
+      ],
+      "states": [
+        {
+          "now": 852.3000000715256,
+          "old": null,
+          "entry": "play"
+        },
+        {
+          "now": 4527,
+          "old": "play",
+          "entry": "done"
+        },
+        {
+          "now": 4542.300000071526,
+          "old": "done",
+          "entry": "done"
+        }
+      ],
+      "final": {
+        "at": 4957.899999976158,
+        "entry": "done",
+        "photoTransform": "none",
+        "inkTransforms": [
+          "none",
+          "none"
+        ],
+        "running": []
+      },
+      "photoConfiguredDurationMs": 1500,
+      "photoStartMinusFcpMs": 421.69999993033707,
+      "photoEndObserved": true,
+      "photoCancelObserved": true,
+      "photoEndElapsedMs": 1500,
+      "photoCancelElapsedMs": 283.3000000696628,
+      "doneMinusPhotoStartMs": 3549.300000069663
+    }
+  ],
+  "finishedAt": "2026-10-23T00:42:21.972Z"
+}

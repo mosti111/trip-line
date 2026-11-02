@@ -1,0 +1,2611 @@
+{
+  "startedAt": "2026-10-08T09:39:54.386Z",
+  "status": "passed",
+  "browser": "Chromium",
+  "base": "http://localhost:3043",
+  "artifacts": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z",
+  "revision": "39f7e7edc6b80a73be8774c4b15fbead10cb4133",
+  "relevantDiff": "M components/home-v3/JourneyBuilder.tsx\n M components/travel/Pages.tsx\n M scripts/verify-public.mjs\n?? components/turkiye/TurkeyHub.tsx\n?? scripts/verify-recovery-hub.mjs\n?? styles/recovery-hub.css",
+  "sourceFingerprints": {
+    "components/turkiye/TurkeyHub.tsx": "6689c79054e1840874742c35b4270bff604762e5b108d10d63a57b97d348393f",
+    "components/travel/Pages.tsx": "5c6c6940cbb992b43d786d2b4842f0b88c0ddf8d3a861ea3a2017b7c6ea2a7fe",
+    "components/home-v3/JourneyBuilder.tsx": "e1753083a4e021c5ca2acf3e7091d044633f11ed1961fa440142dd5849b93bd6",
+    "styles/recovery-hub.css": "a106b596ddf8bf0ccf63f91f311ba22c08576d1ece84afdd45e7c99aad5a7637",
+    "components/travel/TurkeyDiscovery.tsx": "59b79a4d8a5822aaef7eec3634d55f32025a28c3dad6e1c464ea50d8deda90fc",
+    "components/turkiye/TurkeyMap.tsx": "4dd1c08eccd49298c459315a918c1168116f98dd605dcb65e0762cb5028dd439",
+    "scripts/verify-public.mjs": "fc5edb43047bfb5441c42fa7f63193429cd59022661a20f07760c17a61aaf90a",
+    "scripts/verify-recovery-hub.mjs": "12a06e3bae46acbcbc80bfcf5f1c44207308d490f781e27c615987b625a6760e"
+  },
+  "stage": "final",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "final",
+      "input": "fine",
+      "directCss": [
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        }
+      ],
+      "nativeFeedback": {
+        "pulse": [
+          {
+            "elapsed": 35.100000001490116,
+            "shadow": "rgba(215, 170, 77, 0.36) 0px 0px 0px 3.95444px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 100.05299999844274,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 138.70000000298023,
+            "shadow": "rgba(215, 170, 77, 0.22) 0px 0px 0px 7.88986px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 216.65299999844302,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 389.90000000596046,
+            "shadow": "rgba(215, 170, 77, 0.02) 0px 0px 0px 13.4781px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 466.652999998443,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 809.9000000059605,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          }
+        ],
+        "sameSelection": [
+          {
+            "elapsed": 19.100000001490116,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          },
+          {
+            "elapsed": 207.30000000447035,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          }
+        ],
+        "mask": [
+          {
+            "elapsed": 23.30000000447035,
+            "shadow": "none",
+            "clip": "inset(0px 0px 7.5617%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 16.70900000233022,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 150.20000000298023,
+            "shadow": "none",
+            "clip": "inset(0px 0px 4.09678%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 149.97700000233039,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 378.30000000447035,
+            "shadow": "none",
+            "clip": "inset(0px 0px 0.949676%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 383.2770000023302,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 953.3000000044703,
+            "shadow": "none",
+            "clip": "inset(0px 0px 0%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "finished",
+                "time": 800,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          }
+        ],
+        "route": [
+          {
+            "elapsed": 12.399999998509884,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "1px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 0,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 264.5,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.414138px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 233.33500000304764,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 450.8999999985099,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.165632px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 416.63500000304765,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 700.5999999940395,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.0372726px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 666.6350000030477,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 1266.7999999970198,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "finished",
+                "time": 1000,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          }
+        ],
+        "cleanup": {
+          "moving": 0,
+          "masks": [
+            "none",
+            "none",
+            "none",
+            "none"
+          ],
+          "routes": [
+            {
+              "dash": "0px",
+              "transform": "none"
+            },
+            {
+              "dash": "0px",
+              "transform": "none"
+            }
+          ],
+          "titleOpacity": "1"
+        },
+        "noRevealReplay": true
+      },
+      "geography": {
+        "direction": "ltr",
+        "transforms": [
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "anchors": [
+          {
+            "x": 159.20000000000002,
+            "y": 103.4800000000001,
+            "screenX": 473.74517822265625,
+            "screenY": 598.4275512695312
+          },
+          {
+            "x": 588.8,
+            "y": 104,
+            "screenX": 703.9473266601562,
+            "screenY": 598.7061767578125
+          },
+          {
+            "x": 638.0000000000001,
+            "y": 106.07999999999996,
+            "screenX": 730.311279296875,
+            "screenY": 599.8207702636719
+          },
+          {
+            "x": 611.5999999999999,
+            "y": 123.76000000000013,
+            "screenX": 716.1647644042969,
+            "screenY": 609.2946472167969
+          },
+          {
+            "x": 227.99999999999997,
+            "y": 317.71999999999997,
+            "screenX": 510.61181640625,
+            "screenY": 713.2285461425781
+          },
+          {
+            "x": 97.19999999999999,
+            "y": 310.43999999999994,
+            "screenX": 440.5223388671875,
+            "screenY": 709.3275146484375
+          },
+          {
+            "x": 165.19999999999996,
+            "y": 331.7600000000001,
+            "screenX": 476.9602813720703,
+            "screenY": 720.7519226074219
+          },
+          {
+            "x": 130.79999999999998,
+            "y": 319.28000000000003,
+            "screenX": 458.5269775390625,
+            "screenY": 714.064453125
+          },
+          {
+            "x": 210.79999999999998,
+            "y": 120.12000000000012,
+            "screenX": 501.39515686035156,
+            "screenY": 607.3441162109375
+          },
+          {
+            "x": 162.39999999999995,
+            "y": 145.59999999999985,
+            "screenX": 475.45989990234375,
+            "screenY": 620.9976501464844
+          },
+          {
+            "x": 171.20000000000005,
+            "y": 121.68000000000018,
+            "screenX": 480.17539978027344,
+            "screenY": 608.1800537109375
+          },
+          {
+            "x": 393.19999999999993,
+            "y": 226.20000000000007,
+            "screenX": 599.1346435546875,
+            "screenY": 664.1873474121094
+          }
+        ],
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ]
+      },
+      "journey": {
+        "ids": [
+          "uzungol",
+          "rize-ayder"
+        ],
+        "service": "corporate",
+        "localFieldsClearedOnReload": true,
+        "locale": "ar",
+        "preparedMessage": true,
+        "staleEdit": true,
+        "flexibleContactHandoff": true
+      },
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\recordings\\page@301880e5a84ea262e8573409f6740d59.webm"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "final",
+      "input": "coarse/touch",
+      "directCss": [
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        }
+      ],
+      "geography": {
+        "direction": "ltr",
+        "transforms": [
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "anchors": [
+          {
+            "x": 159.20000000000002,
+            "y": 103.4800000000001,
+            "screenX": 88.77230834960938,
+            "screenY": 589.5875549316406
+          },
+          {
+            "x": 588.8,
+            "y": 104,
+            "screenX": 268.93580627441406,
+            "screenY": 589.8056030273438
+          },
+          {
+            "x": 638.0000000000001,
+            "y": 106.07999999999996,
+            "screenX": 289.5690612792969,
+            "screenY": 590.6779174804688
+          },
+          {
+            "x": 611.5999999999999,
+            "y": 123.76000000000013,
+            "screenX": 278.49755859375,
+            "screenY": 598.0924682617188
+          },
+          {
+            "x": 227.99999999999997,
+            "y": 317.71999999999997,
+            "screenX": 117.62531280517578,
+            "screenY": 679.4344482421875
+          },
+          {
+            "x": 97.19999999999999,
+            "y": 310.43999999999994,
+            "screenX": 62.77106285095215,
+            "screenY": 676.3814086914062
+          },
+          {
+            "x": 165.19999999999996,
+            "y": 331.7600000000001,
+            "screenX": 91.28855895996094,
+            "screenY": 685.3224487304688
+          },
+          {
+            "x": 130.79999999999998,
+            "y": 319.28000000000003,
+            "screenX": 76.86206817626953,
+            "screenY": 680.0886840820312
+          },
+          {
+            "x": 210.79999999999998,
+            "y": 120.12000000000012,
+            "screenX": 110.41206359863281,
+            "screenY": 596.5659484863281
+          },
+          {
+            "x": 162.39999999999995,
+            "y": 145.59999999999985,
+            "screenX": 90.11431121826172,
+            "screenY": 607.2516479492188
+          },
+          {
+            "x": 171.20000000000005,
+            "y": 121.68000000000018,
+            "screenX": 93.8048095703125,
+            "screenY": 597.2201538085938
+          },
+          {
+            "x": 393.19999999999993,
+            "y": 226.20000000000007,
+            "screenX": 186.90607452392578,
+            "screenY": 641.0532531738281
+          }
+        ],
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ]
+      },
+      "journey": {
+        "ids": [
+          "uzungol",
+          "rize-ayder"
+        ],
+        "service": "corporate",
+        "localFieldsClearedOnReload": true,
+        "locale": "ar",
+        "preparedMessage": true,
+        "staleEdit": true,
+        "flexibleContactHandoff": true
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "final",
+      "input": "coarse/touch",
+      "directCss": [
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        }
+      ],
+      "nativeFeedback": {
+        "pulse": [
+          {
+            "elapsed": 18.80000000447035,
+            "shadow": "rgba(215, 170, 77, 0.384) 0px 0px 0px 3.33555px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 200,
+                "iterations": 1
+              },
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 83.38800000536062,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 134.5,
+            "shadow": "rgba(215, 170, 77, 0.24) 0px 0px 0px 7.37277px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 200.0560000053606,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 384.1000000014901,
+            "shadow": "rgba(215, 170, 77, 0.027) 0px 0px 0px 13.2689px",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": [
+              {
+                "name": "rhub-pin-select",
+                "state": "running",
+                "time": 450.05200000536047,
+                "duration": 550,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 807.3999999985099,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          }
+        ],
+        "sameSelection": [
+          {
+            "elapsed": 8.699999995529652,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          },
+          {
+            "elapsed": 206.69999999552965,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, -22, -22)",
+            "animations": []
+          }
+        ],
+        "mask": [
+          {
+            "elapsed": 18.200000002980232,
+            "shadow": "none",
+            "clip": "inset(0px 0px 7.118%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 33.37400000326873,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 129,
+            "shadow": "none",
+            "clip": "inset(0px 0px 4.48927%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 133.37400000326883,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 367.5,
+            "shadow": "none",
+            "clip": "inset(0px 0px 0.949112%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "running",
+                "time": 383.36400000326876,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 955.7000000029802,
+            "shadow": "none",
+            "clip": "inset(0px 0px 0%)",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-image-reveal",
+                "state": "finished",
+                "time": 800,
+                "duration": 800,
+                "iterations": 1
+              }
+            ]
+          }
+        ],
+        "route": [
+          {
+            "elapsed": 10.199999995529652,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.956225px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 16.716000003770937,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 193.39999999850988,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.483715px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 200.0560000037712,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 443.6000000014901,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.138858px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 450.05400000377097,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 693.6000000014901,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0.0289765px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "running",
+                "time": 700.0500000037713,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          },
+          {
+            "elapsed": 1261.8999999985099,
+            "shadow": "none",
+            "clip": "none",
+            "dash": "0px",
+            "opacity": "1",
+            "transform": "none",
+            "animations": [
+              {
+                "name": "rhub-route-arrive",
+                "state": "finished",
+                "time": 1000,
+                "duration": 1000,
+                "iterations": 1
+              }
+            ]
+          }
+        ],
+        "cleanup": {
+          "moving": 0,
+          "masks": [
+            "none",
+            "none",
+            "none",
+            "none"
+          ],
+          "routes": [
+            {
+              "dash": "0px",
+              "transform": "none"
+            },
+            {
+              "dash": "0px",
+              "transform": "none"
+            }
+          ],
+          "titleOpacity": "1"
+        },
+        "noRevealReplay": true
+      },
+      "geography": {
+        "direction": "ltr",
+        "transforms": [
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "anchors": [
+          {
+            "x": 159.20000000000002,
+            "y": 103.4800000000001,
+            "screenX": 88.77230834960938,
+            "screenY": 590.3844299316406
+          },
+          {
+            "x": 588.8,
+            "y": 104,
+            "screenX": 268.93580627441406,
+            "screenY": 590.6024780273438
+          },
+          {
+            "x": 638.0000000000001,
+            "y": 106.07999999999996,
+            "screenX": 289.5690612792969,
+            "screenY": 591.4747924804688
+          },
+          {
+            "x": 611.5999999999999,
+            "y": 123.76000000000013,
+            "screenX": 278.49755859375,
+            "screenY": 598.8893432617188
+          },
+          {
+            "x": 227.99999999999997,
+            "y": 317.71999999999997,
+            "screenX": 117.62531280517578,
+            "screenY": 680.2313232421875
+          },
+          {
+            "x": 97.19999999999999,
+            "y": 310.43999999999994,
+            "screenX": 62.77106285095215,
+            "screenY": 677.1782836914062
+          },
+          {
+            "x": 165.19999999999996,
+            "y": 331.7600000000001,
+            "screenX": 91.28855895996094,
+            "screenY": 686.1193237304688
+          },
+          {
+            "x": 130.79999999999998,
+            "y": 319.28000000000003,
+            "screenX": 76.86206817626953,
+            "screenY": 680.8855590820312
+          },
+          {
+            "x": 210.79999999999998,
+            "y": 120.12000000000012,
+            "screenX": 110.41206359863281,
+            "screenY": 597.3628234863281
+          },
+          {
+            "x": 162.39999999999995,
+            "y": 145.59999999999985,
+            "screenX": 90.11431121826172,
+            "screenY": 608.0485229492188
+          },
+          {
+            "x": 171.20000000000005,
+            "y": 121.68000000000018,
+            "screenX": 93.8048095703125,
+            "screenY": 598.0170288085938
+          },
+          {
+            "x": 393.19999999999993,
+            "y": 226.20000000000007,
+            "screenX": 186.90607452392578,
+            "screenY": 641.8501281738281
+          }
+        ],
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ]
+      },
+      "journey": {
+        "ids": [
+          "uzungol",
+          "rize-ayder"
+        ],
+        "service": "corporate",
+        "localFieldsClearedOnReload": true,
+        "locale": "tr",
+        "preparedMessage": true,
+        "staleEdit": true,
+        "flexibleContactHandoff": true
+      },
+      "recording": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\recordings\\page@3289d3c36d15b5966f683c085694c24e.webm"
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "mode": "final",
+      "input": "fine",
+      "directCss": [
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1k_veo5u4rc6s.css",
+          "bytes": 113893,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/1sabq3gwnajyc.css",
+          "bytes": 13329,
+          "hub": false,
+          "builder": false,
+          "explorer": false
+        },
+        {
+          "url": "http://localhost:3043/_next/static/chunks/2ivzg1zf88old.css",
+          "bytes": 51702,
+          "hub": true,
+          "builder": true,
+          "explorer": true
+        }
+      ],
+      "geography": {
+        "direction": "ltr",
+        "transforms": [
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "scaleX": 1,
+            "scaleY": 1,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "anchors": [
+          {
+            "x": 159.20000000000002,
+            "y": 103.4800000000001,
+            "screenX": 419.41600036621094,
+            "screenY": 341.8516540527344
+          },
+          {
+            "x": 588.8,
+            "y": 104,
+            "screenX": 625.6239929199219,
+            "screenY": 342.1012420654297
+          },
+          {
+            "x": 638.0000000000001,
+            "y": 106.07999999999996,
+            "screenX": 649.239990234375,
+            "screenY": 343.0996551513672
+          },
+          {
+            "x": 611.5999999999999,
+            "y": 123.76000000000013,
+            "screenX": 636.5679931640625,
+            "screenY": 351.5860595703125
+          },
+          {
+            "x": 227.99999999999997,
+            "y": 317.71999999999997,
+            "screenX": 452.44000244140625,
+            "screenY": 444.6868438720703
+          },
+          {
+            "x": 97.19999999999999,
+            "y": 310.43999999999994,
+            "screenX": 389.656005859375,
+            "screenY": 441.19244384765625
+          },
+          {
+            "x": 165.19999999999996,
+            "y": 331.7600000000001,
+            "screenX": 422.2959899902344,
+            "screenY": 451.4260559082031
+          },
+          {
+            "x": 130.79999999999998,
+            "y": 319.28000000000003,
+            "screenX": 405.78399658203125,
+            "screenY": 445.4356689453125
+          },
+          {
+            "x": 210.79999999999998,
+            "y": 120.12000000000012,
+            "screenX": 444.1840057373047,
+            "screenY": 349.8388671875
+          },
+          {
+            "x": 162.39999999999995,
+            "y": 145.59999999999985,
+            "screenX": 420.9519958496094,
+            "screenY": 362.0692443847656
+          },
+          {
+            "x": 171.20000000000005,
+            "y": 121.68000000000018,
+            "screenX": 425.1759948730469,
+            "screenY": 350.587646484375
+          },
+          {
+            "x": 393.19999999999993,
+            "y": 226.20000000000007,
+            "screenX": 531.7360229492188,
+            "screenY": 400.75726318359375
+          }
+        ],
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ]
+      },
+      "journey": {
+        "ids": [
+          "uzungol",
+          "rize-ayder"
+        ],
+        "service": "corporate",
+        "localFieldsClearedOnReload": true,
+        "locale": "ar",
+        "preparedMessage": true,
+        "staleEdit": true,
+        "flexibleContactHandoff": true
+      }
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 844,
+      "mode": "bounds",
+      "input": "coarse/touch"
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 844,
+      "mode": "bounds",
+      "input": "coarse/touch"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "mode": "bounds",
+      "input": "fine"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "reduced",
+      "input": "fine",
+      "artwork": {
+        "moving": 0,
+        "masks": [
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "routes": [
+          {
+            "dash": "0px",
+            "transform": "none"
+          },
+          {
+            "dash": "0px",
+            "transform": "none"
+          }
+        ],
+        "titleOpacity": "1"
+      }
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "input": "coarse/touch",
+      "artwork": {
+        "moving": 0,
+        "masks": [
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "routes": [
+          {
+            "dash": "0px",
+            "transform": "none"
+          },
+          {
+            "dash": "0px",
+            "transform": "none"
+          }
+        ],
+        "titleOpacity": "1"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "noJS",
+      "essentialDirectoryExplore": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "noJS",
+      "essentialDirectoryExplore": true
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "mode": "noJS",
+      "essentialDirectoryExplore": true
+    }
+  ],
+  "checks": [
+    "Four fresh direct-route compositions: ten parts, one H1, source attribution, explicit hub/explorer/builder CSS, twelve inventory, four groups, all index/preview/coordinate states and unmirrored geographic map",
+    "Actual filtered-row Explore navigation, global Add/deduplication/reorder/remove/focus, conceptual itinerary, local dates/travelers/flexible/reload, ordered Contact handoff/prepared message/stale edit and locale/session persistence",
+    "360/430/768 bounds, coarse/touch composition, reduced EN/AR selection, and fresh no-JS EN/AR/TR directory navigation; hub has no cinematic pin, Lenis or WebGL",
+    "Actual timed EN desktop/AR coarse pin550ms, mask800ms and route1000ms progression/settling, same-pin nonrepeat, dynamic reduced cleanup and seen-reveal nonreplay; actual interaction recordings retained"
+  ],
+  "screens": [
+    {
+      "name": "en-1440-pin-feedback-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-pin-feedback-settled.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:39:58.065Z"
+    },
+    {
+      "name": "en-1440-photo-reveal-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-photo-reveal-settled.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:39:59.771Z"
+    },
+    {
+      "name": "en-1440-route-reveal-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-route-reveal-settled.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:01.955Z"
+    },
+    {
+      "name": "en-1440-native-reduced-cleanup",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-native-reduced-cleanup.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:02.843Z"
+    },
+    {
+      "name": "en-1440-chapter-01",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-01.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:03.703Z"
+    },
+    {
+      "name": "en-1440-chapter-02",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-02.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:04.119Z"
+    },
+    {
+      "name": "en-1440-chapter-03",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-03.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:04.508Z"
+    },
+    {
+      "name": "en-1440-chapter-04",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-04.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:04.789Z"
+    },
+    {
+      "name": "en-1440-chapter-05",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-05.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:05.187Z"
+    },
+    {
+      "name": "en-1440-chapter-06",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-06.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:05.695Z"
+    },
+    {
+      "name": "en-1440-chapter-07",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-07.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:06.165Z"
+    },
+    {
+      "name": "en-1440-chapter-08",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-08.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:06.485Z"
+    },
+    {
+      "name": "en-1440-chapter-09",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-09.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:06.805Z"
+    },
+    {
+      "name": "en-1440-chapter-10",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-chapter-10.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:07.717Z"
+    },
+    {
+      "name": "en-1440-selected-map",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-selected-map.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:11.290Z"
+    },
+    {
+      "name": "en-1440-filtered-uzungol",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-filtered-uzungol.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:11.965Z"
+    },
+    {
+      "name": "en-1440-itinerary-local-fields",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-itinerary-local-fields.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:14.630Z"
+    },
+    {
+      "name": "en-390-chapter-01",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-01.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:21.969Z"
+    },
+    {
+      "name": "en-390-chapter-02",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-02.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:22.213Z"
+    },
+    {
+      "name": "en-390-chapter-03",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-03.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:22.490Z"
+    },
+    {
+      "name": "en-390-chapter-04",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-04.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:22.707Z"
+    },
+    {
+      "name": "en-390-chapter-05",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-05.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:22.949Z"
+    },
+    {
+      "name": "en-390-chapter-06",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-06.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:23.226Z"
+    },
+    {
+      "name": "en-390-chapter-07",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-07.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:23.496Z"
+    },
+    {
+      "name": "en-390-chapter-08",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-08.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:23.741Z"
+    },
+    {
+      "name": "en-390-chapter-09",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-09.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:23.985Z"
+    },
+    {
+      "name": "en-390-chapter-10",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-chapter-10.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:24.361Z"
+    },
+    {
+      "name": "en-390-builder-sticky-suppressed",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-builder-sticky-suppressed.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:24.546Z"
+    },
+    {
+      "name": "en-390-final-sticky-suppressed",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-final-sticky-suppressed.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:24.782Z"
+    },
+    {
+      "name": "en-390-selected-map",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-selected-map.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:26.783Z"
+    },
+    {
+      "name": "en-390-filtered-uzungol",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-filtered-uzungol.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:27.192Z"
+    },
+    {
+      "name": "en-390-itinerary-local-fields",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-390-itinerary-local-fields.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:40:28.595Z"
+    },
+    {
+      "name": "ar-390-pin-feedback-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-pin-feedback-settled.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:34.974Z"
+    },
+    {
+      "name": "ar-390-photo-reveal-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-photo-reveal-settled.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:36.485Z"
+    },
+    {
+      "name": "ar-390-route-reveal-settled",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-route-reveal-settled.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:38.066Z"
+    },
+    {
+      "name": "ar-390-native-reduced-cleanup",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-native-reduced-cleanup.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:38.371Z"
+    },
+    {
+      "name": "ar-390-chapter-01",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-01.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:38.763Z"
+    },
+    {
+      "name": "ar-390-chapter-02",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-02.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:38.982Z"
+    },
+    {
+      "name": "ar-390-chapter-03",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-03.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:39.242Z"
+    },
+    {
+      "name": "ar-390-chapter-04",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-04.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:39.484Z"
+    },
+    {
+      "name": "ar-390-chapter-05",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-05.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:39.719Z"
+    },
+    {
+      "name": "ar-390-chapter-06",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-06.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:39.990Z"
+    },
+    {
+      "name": "ar-390-chapter-07",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-07.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:40.253Z"
+    },
+    {
+      "name": "ar-390-chapter-08",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-08.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:40.482Z"
+    },
+    {
+      "name": "ar-390-chapter-09",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-09.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:40.728Z"
+    },
+    {
+      "name": "ar-390-chapter-10",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-chapter-10.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:41.118Z"
+    },
+    {
+      "name": "ar-390-builder-sticky-suppressed",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-builder-sticky-suppressed.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:41.312Z"
+    },
+    {
+      "name": "ar-390-final-sticky-suppressed",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-final-sticky-suppressed.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:41.592Z"
+    },
+    {
+      "name": "ar-390-selected-map",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-selected-map.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:44.304Z"
+    },
+    {
+      "name": "ar-390-filtered-uzungol",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-filtered-uzungol.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:44.799Z"
+    },
+    {
+      "name": "ar-390-itinerary-local-fields",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-itinerary-local-fields.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:40:46.503Z"
+    },
+    {
+      "name": "tr-1280-chapter-01",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-01.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:52.522Z"
+    },
+    {
+      "name": "tr-1280-chapter-02",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-02.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:52.867Z"
+    },
+    {
+      "name": "tr-1280-chapter-03",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-03.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:53.172Z"
+    },
+    {
+      "name": "tr-1280-chapter-04",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-04.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:53.426Z"
+    },
+    {
+      "name": "tr-1280-chapter-05",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-05.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:53.716Z"
+    },
+    {
+      "name": "tr-1280-chapter-06",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-06.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:54.111Z"
+    },
+    {
+      "name": "tr-1280-chapter-07",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-07.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:54.414Z"
+    },
+    {
+      "name": "tr-1280-chapter-08",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-08.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:54.706Z"
+    },
+    {
+      "name": "tr-1280-chapter-09",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-09.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:55.050Z"
+    },
+    {
+      "name": "tr-1280-chapter-10",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-chapter-10.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:55.935Z"
+    },
+    {
+      "name": "tr-1280-selected-map",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-selected-map.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:58.134Z"
+    },
+    {
+      "name": "tr-1280-filtered-uzungol",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-filtered-uzungol.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:40:58.543Z"
+    },
+    {
+      "name": "tr-1280-itinerary-local-fields",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-itinerary-local-fields.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:41:00.168Z"
+    },
+    {
+      "name": "en-360-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-360-bounds.png",
+      "viewport": {
+        "width": 360,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:41:07.537Z"
+    },
+    {
+      "name": "en-430-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-430-bounds.png",
+      "viewport": {
+        "width": 430,
+        "height": 844
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:41:11.036Z"
+    },
+    {
+      "name": "en-768-bounds",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-768-bounds.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:41:16.017Z"
+    },
+    {
+      "name": "en-1440-reduced-selected",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-reduced-selected.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:41:17.917Z"
+    },
+    {
+      "name": "ar-390-reduced-selected",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-reduced-selected.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:41:19.875Z"
+    },
+    {
+      "name": "en-1440-no-js",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\en-1440-no-js.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://localhost:3043/en/destinations/turkiye",
+      "at": "2026-10-08T09:41:24.959Z"
+    },
+    {
+      "name": "ar-390-no-js",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\ar-390-no-js.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://localhost:3043/ar/destinations/turkiye",
+      "at": "2026-10-08T09:41:28.290Z"
+    },
+    {
+      "name": "tr-1280-no-js",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-hub\\2026-10-08T09-39-54-386Z\\tr-1280-no-js.png",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "url": "http://localhost:3043/tr/destinations/turkiye",
+      "at": "2026-10-08T09:41:33.851Z"
+    }
+  ],
+  "errors": [],
+  "gaps": [
+    "Independent Astra rendered acceptance and final Q12 remain required; browser emulation is not a physical-device or assistive-technology audit."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "activeCase": {
+    "locale": "tr",
+    "width": 1280,
+    "height": 800,
+    "options": {
+      "javaScriptEnabled": false
+    },
+    "step": "tr-1280-no-js"
+  },
+  "finishedAt": "2026-10-08T09:41:34.210Z"
+}

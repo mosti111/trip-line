@@ -1,0 +1,92 @@
+[
+  {
+    "original": "README.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/README.md",
+    "originalGitBlob": "72086b510263c726811189f3bffff7864504341b",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "PROJECT_STATUS.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/PROJECT_STATUS.md",
+    "originalGitBlob": "d0e4b82438afcc71c4b08bbf26cb235f54ca361d",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "AGENTS.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/AGENTS.md",
+    "originalGitBlob": "d35b298a4d412146e0da3f4c36b66c0c14688915",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "TODO.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/TODO.md",
+    "originalGitBlob": "fbd25ac5309e045c6d51c01bac4f80bc5d426430",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "frontend-v2/README.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/frontend-v2/README.md",
+    "originalGitBlob": "2ce7cbb30891f4c9fef7ef6064ab8ce6a58c0e31",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/AI_HANDOFF.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/AI_HANDOFF.md",
+    "originalGitBlob": "4547e6467ab45c61b9846efa0a8aa0aba3689b1f",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/README.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/README.md",
+    "originalGitBlob": "9fbd95857fa2624ba49db65e9c6564f0da753bcd",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/ARCHITECTURE.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/ARCHITECTURE.md",
+    "originalGitBlob": "b4deff29023e6da64474a4fc155816c0bf4d14e9",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/DESIGN_SYSTEM.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/DESIGN_SYSTEM.md",
+    "originalGitBlob": "387f871ad4fa3cd909bd8755784e6fef39922000",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/MOTION_SYSTEM.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/MOTION_SYSTEM.md",
+    "originalGitBlob": "c8043a5b25a09cbc41d47f785ec2221d06b5d957",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/RESPONSIVE_RULES.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/RESPONSIVE_RULES.md",
+    "originalGitBlob": "8c81a2f34c5c26166c431418e27b04aa65d16094",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/DECISIONS.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/DECISIONS.md",
+    "originalGitBlob": "62ef5ccdd8101e323f9292076e05e51207c35595",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+    "originalGitBlob": "ee62ae4b55de95abecdfb6b468f38fb74f251e4a",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/tasks/README.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/tasks/README.md",
+    "originalGitBlob": "4cb6eb2f0b38a60f585da010b99a8936a530136c",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  },
+  {
+    "original": "docs/reports/README.md",
+    "archive": "docs/archive/historical-material/pre-v1-consolidation/docs/reports/README.md",
+    "originalGitBlob": "b1db0466cd0c69c6ab66f955b97f09f8f53bd02b",
+    "note": "Original prose preserved; relative Markdown links rebased to original target paths."
+  }
+]

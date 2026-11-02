@@ -1,0 +1,4819 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "width": 390,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 4220.15625,
+        "speed": 32,
+        "copies": 3,
+        "duration": 131879.8828125
+      },
+      "velocity": 32.0084783953478,
+      "paused": {
+        "time": 15366.069999925045,
+        "x": -491.714
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 119
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 175,
+                "right": 450.390625
+              }
+            ]
+          },
+          {
+            "time": 13187.98828125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -247.015625,
+                "right": 28.375
+              },
+              {
+                "id": "grand-aras",
+                "left": 84.375,
+                "right": 213.65625
+              },
+              {
+                "id": "wyndham",
+                "left": 269.65625,
+                "right": 558.65625
+              }
+            ]
+          },
+          {
+            "time": 32969.970703125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -18.3671875,
+                "right": 176.2109375
+              },
+              {
+                "id": "yamacda",
+                "left": 232.2109375,
+                "right": 477.4453125
+              }
+            ]
+          },
+          {
+            "time": 65939.94140625,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -61.359375,
+                "right": 220.390625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 276.390625,
+                "right": 533.78125
+              }
+            ]
+          },
+          {
+            "time": 98909.912109375,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -120.2578125,
+                "right": 152.6953125
+              },
+              {
+                "id": "homey",
+                "left": 208.6953125,
+                "right": 327.6953125
+              },
+              {
+                "id": "continent",
+                "left": 383.6953125,
+                "right": 561.6953125
+              }
+            ]
+          },
+          {
+            "time": 118691.89453125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -15.328125,
+                "right": 117.421875
+              },
+              {
+                "id": "millennium",
+                "left": 173.421875,
+                "right": 366.015625
+              }
+            ]
+          },
+          {
+            "time": 131748.0029296875,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 4.22021484375,
+                "right": 123.22021484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 179.22021484375,
+                "right": 454.61083984375
+              }
+            ]
+          },
+          {
+            "time": 131879.8828125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 119
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 175,
+                "right": 450.390625
+              }
+            ]
+          },
+          {
+            "time": 145067.87109375,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -247.015625,
+                "right": 28.375
+              },
+              {
+                "id": "grand-aras",
+                "left": 84.375,
+                "right": 213.65625
+              },
+              {
+                "id": "wyndham",
+                "left": 269.65625,
+                "right": 558.65625
+              }
+            ]
+          },
+          {
+            "time": 164849.853515625,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -18.3671875,
+                "right": 176.2109375
+              },
+              {
+                "id": "yamacda",
+                "left": 232.2109375,
+                "right": 477.4453125
+              }
+            ]
+          },
+          {
+            "time": 197819.82421875,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -61.359375,
+                "right": 220.390625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 276.390625,
+                "right": 533.78125
+              }
+            ]
+          },
+          {
+            "time": 230789.794921875,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -120.2578125,
+                "right": 152.6953125
+              },
+              {
+                "id": "homey",
+                "left": 208.6953125,
+                "right": 327.6953125
+              },
+              {
+                "id": "continent",
+                "left": 383.6953125,
+                "right": 561.6953125
+              }
+            ]
+          },
+          {
+            "time": 250571.77734375,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -15.328125,
+                "right": 117.421875
+              },
+              {
+                "id": "millennium",
+                "left": 173.421875,
+                "right": 366.015625
+              }
+            ]
+          },
+          {
+            "time": 263627.8857421875,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 4.22021484375,
+                "right": 123.22021484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 179.22021484375,
+                "right": 454.61083984375
+              }
+            ]
+          },
+          {
+            "time": 263759.765625,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 119
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 175,
+                "right": 450.390625
+              }
+            ]
+          },
+          {
+            "time": 276947.75390625,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -247.015625,
+                "right": 28.375
+              },
+              {
+                "id": "grand-aras",
+                "left": 84.375,
+                "right": 213.65625
+              },
+              {
+                "id": "wyndham",
+                "left": 269.65625,
+                "right": 558.65625
+              }
+            ]
+          },
+          {
+            "time": 296729.736328125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -18.3671875,
+                "right": 176.2109375
+              },
+              {
+                "id": "yamacda",
+                "left": 232.2109375,
+                "right": 477.4453125
+              }
+            ]
+          },
+          {
+            "time": 329699.70703125,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -61.359375,
+                "right": 220.390625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 276.390625,
+                "right": 533.78125
+              }
+            ]
+          },
+          {
+            "time": 362669.677734375,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -120.2578125,
+                "right": 152.6953125
+              },
+              {
+                "id": "homey",
+                "left": 208.6953125,
+                "right": 327.6953125
+              },
+              {
+                "id": "continent",
+                "left": 383.6953125,
+                "right": 561.6953125
+              }
+            ]
+          },
+          {
+            "time": 382451.66015625,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -15.328125,
+                "right": 117.421875
+              },
+              {
+                "id": "millennium",
+                "left": 173.421875,
+                "right": 366.015625
+              }
+            ]
+          },
+          {
+            "time": 395507.7685546875,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 4.22021484375,
+                "right": 123.22021484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 179.22021484375,
+                "right": 454.61083984375
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.06422656401991844,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.06422656401991844,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.06422656401991844,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 5318.765625,
+        "speed": 52,
+        "copies": 3,
+        "duration": 102283.95432692308
+      },
+      "velocity": 52.17959093434041,
+      "paused": {
+        "time": 1399.910999958962,
+        "x": -72.7954
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              }
+            ]
+          },
+          {
+            "time": 10228.395432692309,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              }
+            ]
+          },
+          {
+            "time": 25570.98858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              }
+            ]
+          },
+          {
+            "time": 51141.97716346154,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 76712.96574519231,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              }
+            ]
+          },
+          {
+            "time": 92055.55889423077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 102181.67037259616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              }
+            ]
+          },
+          {
+            "time": 102283.95432692308,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              }
+            ]
+          },
+          {
+            "time": 112512.34975961539,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              }
+            ]
+          },
+          {
+            "time": 127854.94290865384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              }
+            ]
+          },
+          {
+            "time": 153425.93149038462,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 178996.92007211538,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              }
+            ]
+          },
+          {
+            "time": 194339.51322115384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 204465.62469951925,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              }
+            ]
+          },
+          {
+            "time": 204567.90865384616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              }
+            ]
+          },
+          {
+            "time": 214796.30408653847,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              }
+            ]
+          },
+          {
+            "time": 230138.89723557694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              }
+            ]
+          },
+          {
+            "time": 255709.8858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 281280.87439903844,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              }
+            ]
+          },
+          {
+            "time": 296623.46754807694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 306749.5790264423,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 5318.765625,
+        "speed": 52,
+        "copies": 3,
+        "duration": 102283.95432692308
+      },
+      "velocity": 51.80513918298948,
+      "paused": {
+        "time": 1349.9980000115931,
+        "x": -70.1999
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              }
+            ]
+          },
+          {
+            "time": 10228.395432692309,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              }
+            ]
+          },
+          {
+            "time": 25570.98858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              }
+            ]
+          },
+          {
+            "time": 51141.97716346154,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 76712.96574519231,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              }
+            ]
+          },
+          {
+            "time": 92055.55889423077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 102181.67037259616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              }
+            ]
+          },
+          {
+            "time": 102283.95432692308,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              }
+            ]
+          },
+          {
+            "time": 112512.34975961539,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              }
+            ]
+          },
+          {
+            "time": 127854.94290865384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              }
+            ]
+          },
+          {
+            "time": 153425.93149038462,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 178996.92007211538,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              }
+            ]
+          },
+          {
+            "time": 194339.51322115384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 204465.62469951925,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              }
+            ]
+          },
+          {
+            "time": 204567.90865384616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              }
+            ]
+          },
+          {
+            "time": 214796.30408653847,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              }
+            ]
+          },
+          {
+            "time": 230138.89723557694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              }
+            ]
+          },
+          {
+            "time": 255709.8858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              }
+            ]
+          },
+          {
+            "time": 281280.87439903844,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              }
+            ]
+          },
+          {
+            "time": 296623.46754807694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              }
+            ]
+          },
+          {
+            "time": 306749.5790264423,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 5318.765625,
+        "speed": 52,
+        "copies": 3,
+        "duration": 102283.95432692308
+      },
+      "velocity": 52.10423054165312,
+      "paused": {
+        "time": 15382.647000048497,
+        "x": -799.898
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              }
+            ]
+          },
+          {
+            "time": 10228.395432692309,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              }
+            ]
+          },
+          {
+            "time": 25570.98858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              }
+            ]
+          },
+          {
+            "time": 51141.97716346154,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              }
+            ]
+          },
+          {
+            "time": 76712.96574519231,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              }
+            ]
+          },
+          {
+            "time": 92055.55889423077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              }
+            ]
+          },
+          {
+            "time": 102181.67037259616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              }
+            ]
+          },
+          {
+            "time": 102283.95432692308,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              }
+            ]
+          },
+          {
+            "time": 112512.34975961539,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              }
+            ]
+          },
+          {
+            "time": 127854.94290865384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              }
+            ]
+          },
+          {
+            "time": 153425.93149038462,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              }
+            ]
+          },
+          {
+            "time": 178996.92007211538,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              }
+            ]
+          },
+          {
+            "time": 194339.51322115384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              }
+            ]
+          },
+          {
+            "time": 204465.62469951925,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              }
+            ]
+          },
+          {
+            "time": 204567.90865384616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              }
+            ]
+          },
+          {
+            "time": 214796.30408653847,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              }
+            ]
+          },
+          {
+            "time": 230138.89723557694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              }
+            ]
+          },
+          {
+            "time": 255709.8858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              }
+            ]
+          },
+          {
+            "time": 281280.87439903844,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              }
+            ]
+          },
+          {
+            "time": 296623.46754807694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              }
+            ]
+          },
+          {
+            "time": 306749.5790264423,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 5318.765625,
+        "speed": 52,
+        "copies": 3,
+        "duration": 102283.95432692308
+      },
+      "velocity": 52.5190375178218,
+      "paused": {
+        "time": 1366.568999983929,
+        "x": -71.0616
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              }
+            ]
+          },
+          {
+            "time": 10228.395432692309,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              }
+            ]
+          },
+          {
+            "time": 25570.98858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              }
+            ]
+          },
+          {
+            "time": 51141.97716346154,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              }
+            ]
+          },
+          {
+            "time": 76712.96574519231,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              }
+            ]
+          },
+          {
+            "time": 92055.55889423077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              }
+            ]
+          },
+          {
+            "time": 102181.67037259616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              }
+            ]
+          },
+          {
+            "time": 102283.95432692308,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              }
+            ]
+          },
+          {
+            "time": 112512.34975961539,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              }
+            ]
+          },
+          {
+            "time": 127854.94290865384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              }
+            ]
+          },
+          {
+            "time": 153425.93149038462,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              }
+            ]
+          },
+          {
+            "time": 178996.92007211538,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              }
+            ]
+          },
+          {
+            "time": 194339.51322115384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              }
+            ]
+          },
+          {
+            "time": 204465.62469951925,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              }
+            ]
+          },
+          {
+            "time": 204567.90865384616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              }
+            ]
+          },
+          {
+            "time": 214796.30408653847,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              }
+            ]
+          },
+          {
+            "time": 230138.89723557694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              }
+            ]
+          },
+          {
+            "time": 255709.8858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              }
+            ]
+          },
+          {
+            "time": 281280.87439903844,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              }
+            ]
+          },
+          {
+            "time": 296623.46754807694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              }
+            ]
+          },
+          {
+            "time": 306749.5790264423,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "width": 2560,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "measurement": {
+        "groupWidth": 5318.765625,
+        "speed": 52,
+        "copies": 3,
+        "duration": 102283.95432692308
+      },
+      "velocity": 52.61332061834845,
+      "paused": {
+        "time": 1683.2629999948665,
+        "x": -87.5297
+      },
+      "cycles": {
+        "samples": [
+          {
+            "time": 0,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2001.515625,
+                "right": 2141.515625
+              },
+              {
+                "id": "rezlive",
+                "left": 2229.515625,
+                "right": 2499.203125
+              }
+            ]
+          },
+          {
+            "time": 10228.395432692309,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              },
+              {
+                "id": "copthorne",
+                "left": 2055.32666015625,
+                "right": 2386.79541015625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 2474.79541015625,
+                "right": 2777.60791015625
+              }
+            ]
+          },
+          {
+            "time": 25570.98858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              },
+              {
+                "id": "megza",
+                "left": 2067.79296875,
+                "right": 2407.79296875
+              },
+              {
+                "id": "ratehawk",
+                "left": 2495.79296875,
+                "right": 2816.91796875
+              }
+            ]
+          },
+          {
+            "time": 51141.97716346154,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              },
+              {
+                "id": "days-inn",
+                "left": 2100.6328125,
+                "right": 2256.8046875
+              },
+              {
+                "id": "millennium",
+                "left": 2344.8046875,
+                "right": 2571.3828125
+              }
+            ]
+          },
+          {
+            "time": 76712.96574519231,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              },
+              {
+                "id": "grand-aras",
+                "left": 1969.69140625,
+                "right": 2121.78515625
+              },
+              {
+                "id": "wyndham",
+                "left": 2209.78515625,
+                "right": 2549.78515625
+              }
+            ]
+          },
+          {
+            "time": 92055.55889423077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              },
+              {
+                "id": "yamacda",
+                "left": 2156.87646484375,
+                "right": 2445.39208984375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2533.39208984375,
+                "right": 2673.39208984375
+              }
+            ]
+          },
+          {
+            "time": 102181.67037259616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2006.83447265625,
+                "right": 2146.83447265625
+              },
+              {
+                "id": "rezlive",
+                "left": 2234.83447265625,
+                "right": 2504.52197265625
+              }
+            ]
+          },
+          {
+            "time": 102283.95432692308,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2001.515625,
+                "right": 2141.515625
+              },
+              {
+                "id": "rezlive",
+                "left": 2229.515625,
+                "right": 2499.203125
+              }
+            ]
+          },
+          {
+            "time": 112512.34975961539,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              },
+              {
+                "id": "copthorne",
+                "left": 2055.32666015625,
+                "right": 2386.79541015625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 2474.79541015625,
+                "right": 2777.60791015625
+              }
+            ]
+          },
+          {
+            "time": 127854.94290865384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              },
+              {
+                "id": "megza",
+                "left": 2067.79296875,
+                "right": 2407.79296875
+              },
+              {
+                "id": "ratehawk",
+                "left": 2495.79296875,
+                "right": 2816.91796875
+              }
+            ]
+          },
+          {
+            "time": 153425.93149038462,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              },
+              {
+                "id": "days-inn",
+                "left": 2100.6328125,
+                "right": 2256.8046875
+              },
+              {
+                "id": "millennium",
+                "left": 2344.8046875,
+                "right": 2571.3828125
+              }
+            ]
+          },
+          {
+            "time": 178996.92007211538,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              },
+              {
+                "id": "grand-aras",
+                "left": 1969.69140625,
+                "right": 2121.78515625
+              },
+              {
+                "id": "wyndham",
+                "left": 2209.78515625,
+                "right": 2549.78515625
+              }
+            ]
+          },
+          {
+            "time": 194339.51322115384,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              },
+              {
+                "id": "yamacda",
+                "left": 2156.87646484375,
+                "right": 2445.39208984375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2533.39208984375,
+                "right": 2673.39208984375
+              }
+            ]
+          },
+          {
+            "time": 204465.62469951925,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2006.83447265625,
+                "right": 2146.83447265625
+              },
+              {
+                "id": "rezlive",
+                "left": 2234.83447265625,
+                "right": 2504.52197265625
+              }
+            ]
+          },
+          {
+            "time": 204567.90865384616,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 0,
+                "right": 140
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 228,
+                "right": 552
+              },
+              {
+                "id": "grand-aras",
+                "left": 640,
+                "right": 792.09375
+              },
+              {
+                "id": "wyndham",
+                "left": 880.09375,
+                "right": 1220.09375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1308.09375,
+                "right": 1537
+              },
+              {
+                "id": "yamacda",
+                "left": 1625,
+                "right": 1913.515625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2001.515625,
+                "right": 2141.515625
+              },
+              {
+                "id": "rezlive",
+                "left": 2229.515625,
+                "right": 2499.203125
+              }
+            ]
+          },
+          {
+            "time": 214796.30408653847,
+            "coverage": true,
+            "groupGaps": [
+              0.0001220703125,
+              0
+            ],
+            "items": [
+              {
+                "id": "turkish-airlines",
+                "left": -303.8765869140625,
+                "right": 20.1234130859375
+              },
+              {
+                "id": "grand-aras",
+                "left": 108.1234130859375,
+                "right": 260.2171630859375
+              },
+              {
+                "id": "wyndham",
+                "left": 348.2171630859375,
+                "right": 688.2171630859375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 776.2171630859375,
+                "right": 1005.1234130859375
+              },
+              {
+                "id": "yamacda",
+                "left": 1093.1234130859375,
+                "right": 1381.6390380859375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 1469.6390380859375,
+                "right": 1609.6390380859375
+              },
+              {
+                "id": "rezlive",
+                "left": 1697.6390380859375,
+                "right": 1967.3265380859375
+              },
+              {
+                "id": "copthorne",
+                "left": 2055.32666015625,
+                "right": 2386.79541015625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 2474.79541015625,
+                "right": 2777.60791015625
+              }
+            ]
+          },
+          {
+            "time": 230138.89723557694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ndc-portal",
+                "left": -21.59765625,
+                "right": 207.30859375
+              },
+              {
+                "id": "yamacda",
+                "left": 295.30859375,
+                "right": 583.82421875
+              },
+              {
+                "id": "bike-hotel",
+                "left": 671.82421875,
+                "right": 811.82421875
+              },
+              {
+                "id": "rezlive",
+                "left": 899.82421875,
+                "right": 1169.51171875
+              },
+              {
+                "id": "copthorne",
+                "left": 1257.51171875,
+                "right": 1588.98046875
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 1676.98046875,
+                "right": 1979.79296875
+              },
+              {
+                "id": "megza",
+                "left": 2067.79296875,
+                "right": 2407.79296875
+              },
+              {
+                "id": "ratehawk",
+                "left": 2495.79296875,
+                "right": 2816.91796875
+              }
+            ]
+          },
+          {
+            "time": 255709.8858173077,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "copthorne",
+                "left": -72.1796875,
+                "right": 259.2890625
+              },
+              {
+                "id": "santa-ottoman",
+                "left": 347.2890625,
+                "right": 650.1015625
+              },
+              {
+                "id": "megza",
+                "left": 738.1015625,
+                "right": 1078.1015625
+              },
+              {
+                "id": "ratehawk",
+                "left": 1166.1015625,
+                "right": 1487.2265625
+              },
+              {
+                "id": "homey",
+                "left": 1575.2265625,
+                "right": 1715.2265625
+              },
+              {
+                "id": "continent",
+                "left": 1803.2265625,
+                "right": 2012.6328125
+              },
+              {
+                "id": "days-inn",
+                "left": 2100.6328125,
+                "right": 2256.8046875
+              },
+              {
+                "id": "millennium",
+                "left": 2344.8046875,
+                "right": 2571.3828125
+              }
+            ]
+          },
+          {
+            "time": 281280.87439903844,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "ratehawk",
+                "left": -163.58984375,
+                "right": 157.53515625
+              },
+              {
+                "id": "homey",
+                "left": 245.53515625,
+                "right": 385.53515625
+              },
+              {
+                "id": "continent",
+                "left": 473.53515625,
+                "right": 682.94140625
+              },
+              {
+                "id": "days-inn",
+                "left": 770.94140625,
+                "right": 927.11328125
+              },
+              {
+                "id": "millennium",
+                "left": 1015.11328125,
+                "right": 1241.69140625
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 1329.69140625,
+                "right": 1469.69140625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 1557.69140625,
+                "right": 1881.69140625
+              },
+              {
+                "id": "grand-aras",
+                "left": 1969.69140625,
+                "right": 2121.78515625
+              },
+              {
+                "id": "wyndham",
+                "left": 2209.78515625,
+                "right": 2549.78515625
+              }
+            ]
+          },
+          {
+            "time": 296623.46754807694,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "days-inn",
+                "left": -26.87353515625,
+                "right": 129.29833984375
+              },
+              {
+                "id": "millennium",
+                "left": 217.29833984375,
+                "right": 443.87646484375
+              },
+              {
+                "id": "diar-al-manasik",
+                "left": 531.87646484375,
+                "right": 671.87646484375
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 759.87646484375,
+                "right": 1083.87646484375
+              },
+              {
+                "id": "grand-aras",
+                "left": 1171.87646484375,
+                "right": 1323.97021484375
+              },
+              {
+                "id": "wyndham",
+                "left": 1411.97021484375,
+                "right": 1751.97021484375
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1839.97021484375,
+                "right": 2068.87646484375
+              },
+              {
+                "id": "yamacda",
+                "left": 2156.87646484375,
+                "right": 2445.39208984375
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2533.39208984375,
+                "right": 2673.39208984375
+              }
+            ]
+          },
+          {
+            "time": 306749.5790264423,
+            "coverage": true,
+            "groupGaps": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "id": "diar-al-manasik",
+                "left": 5.31884765625,
+                "right": 145.31884765625
+              },
+              {
+                "id": "turkish-airlines",
+                "left": 233.31884765625,
+                "right": 557.31884765625
+              },
+              {
+                "id": "grand-aras",
+                "left": 645.31884765625,
+                "right": 797.41259765625
+              },
+              {
+                "id": "wyndham",
+                "left": 885.41259765625,
+                "right": 1225.41259765625
+              },
+              {
+                "id": "ndc-portal",
+                "left": 1313.41259765625,
+                "right": 1542.31884765625
+              },
+              {
+                "id": "yamacda",
+                "left": 1630.31884765625,
+                "right": 1918.83447265625
+              },
+              {
+                "id": "bike-hotel",
+                "left": 2006.83447265625,
+                "right": 2146.83447265625
+              },
+              {
+                "id": "rezlive",
+                "left": 2234.83447265625,
+                "right": 2504.52197265625
+              }
+            ]
+          }
+        ],
+        "seams": [
+          {
+            "cycle": 1,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ]
+          },
+          {
+            "cycle": 2,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ]
+          },
+          {
+            "cycle": 3,
+            "maxShift": 0.103759765625,
+            "before": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ],
+            "after": [
+              "diar-al-manasik",
+              "turkish-airlines",
+              "grand-aras",
+              "wyndham",
+              "ndc-portal",
+              "yamacda",
+              "bike-hotel",
+              "rezlive"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "method": "Three quantitative cycles sampled on the actual measured Web Animation; normal-speed video is separate and unretimed"
+}

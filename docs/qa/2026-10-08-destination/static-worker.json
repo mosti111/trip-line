@@ -1,0 +1,862 @@
+{
+  "startedAt": "2026-10-08T14:56:29.907Z",
+  "base": "http://localhost:3053",
+  "revision": "cc2197762cf1bbf46cb462e945e9b0b71d4a6f29 + owned static source",
+  "source": {
+    "components/home-v3/DestinationJourney.tsx": "90c4e4f8d1176371ec937f02b1a396481cc83f1d6723988aef498dacc4041996",
+    "components/turkiye/DestinationLocalNav.tsx": "90f7b19be33bc9b73b43be088d1e04a39ccc9c7dfd92ab55e353858368910754",
+    "styles/recovery-destination.css": "8238b6a1798e17195502757835ff82e5b6a74a2de805151b7db48f77d68bf008"
+  },
+  "browser": "Playwright Chromium",
+  "captures": [
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "hero",
+      "file": "static-en-istanbul-1440-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "locator",
+      "file": "static-en-istanbul-1440-locator.png",
+      "scrollY": 1475,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-1",
+      "file": "static-en-istanbul-1440-interest-1.png",
+      "scrollY": 2366,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-2",
+      "file": "static-en-istanbul-1440-interest-2.png",
+      "scrollY": 3133,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-3",
+      "file": "static-en-istanbul-1440-interest-3.png",
+      "scrollY": 3874,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "plan",
+      "file": "static-en-istanbul-1440-plan.png",
+      "scrollY": 7190,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "related",
+      "file": "static-en-istanbul-1440-related.png",
+      "scrollY": 7594,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "overview",
+      "file": "static-en-istanbul-1440-overview.png",
+      "scrollY": 760,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "services",
+      "file": "static-en-istanbul-1440-services.png",
+      "scrollY": 5557,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "process",
+      "file": "static-en-istanbul-1440-process.png",
+      "scrollY": 6234,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "final",
+      "file": "static-en-istanbul-1440-final.png",
+      "scrollY": 8636,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "hero",
+      "file": "static-en-istanbul-390-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "locator",
+      "file": "static-en-istanbul-390-locator.png",
+      "scrollY": 1585,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "interest-1",
+      "file": "static-en-istanbul-390-interest-1.png",
+      "scrollY": 2529,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "plan",
+      "file": "static-en-istanbul-390-plan.png",
+      "scrollY": 7188,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "related",
+      "file": "static-en-istanbul-390-related.png",
+      "scrollY": 7703,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "hero",
+      "file": "static-en-rize-ayder-1440-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "locator",
+      "file": "static-en-rize-ayder-1440-locator.png",
+      "scrollY": 1475,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-1",
+      "file": "static-en-rize-ayder-1440-interest-1.png",
+      "scrollY": 2366,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-2",
+      "file": "static-en-rize-ayder-1440-interest-2.png",
+      "scrollY": 3173,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-3",
+      "file": "static-en-rize-ayder-1440-interest-3.png",
+      "scrollY": 3864,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "plan",
+      "file": "static-en-rize-ayder-1440-plan.png",
+      "scrollY": 7300,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "related",
+      "file": "static-en-rize-ayder-1440-related.png",
+      "scrollY": 7704,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "hero",
+      "file": "static-en-rize-ayder-390-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "locator",
+      "file": "static-en-rize-ayder-390-locator.png",
+      "scrollY": 1543,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "interest-1",
+      "file": "static-en-rize-ayder-390-interest-1.png",
+      "scrollY": 2487,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "plan",
+      "file": "static-en-rize-ayder-390-plan.png",
+      "scrollY": 7147,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "related",
+      "file": "static-en-rize-ayder-390-related.png",
+      "scrollY": 7661,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "hero",
+      "file": "static-en-antalya-1440-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "locator",
+      "file": "static-en-antalya-1440-locator.png",
+      "scrollY": 1475,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-1",
+      "file": "static-en-antalya-1440-interest-1.png",
+      "scrollY": 2366,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-2",
+      "file": "static-en-antalya-1440-interest-2.png",
+      "scrollY": 3063,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-3",
+      "file": "static-en-antalya-1440-interest-3.png",
+      "scrollY": 3734,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "plan",
+      "file": "static-en-antalya-1440-plan.png",
+      "scrollY": 7000,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "related",
+      "file": "static-en-antalya-1440-related.png",
+      "scrollY": 7404,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "hero",
+      "file": "static-en-antalya-390-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "locator",
+      "file": "static-en-antalya-390-locator.png",
+      "scrollY": 1585,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "interest-1",
+      "file": "static-en-antalya-390-interest-1.png",
+      "scrollY": 2529,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "plan",
+      "file": "static-en-antalya-390-plan.png",
+      "scrollY": 7188,
+      "overflow": false
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "related",
+      "file": "static-en-antalya-390-related.png",
+      "scrollY": 7703,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "hero",
+      "file": "static-en-cappadocia-1440-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "locator",
+      "file": "static-en-cappadocia-1440-locator.png",
+      "scrollY": 1475,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-1",
+      "file": "static-en-cappadocia-1440-interest-1.png",
+      "scrollY": 2366,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-2",
+      "file": "static-en-cappadocia-1440-interest-2.png",
+      "scrollY": 3096,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "interest-3",
+      "file": "static-en-cappadocia-1440-interest-3.png",
+      "scrollY": 3748,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "plan",
+      "file": "static-en-cappadocia-1440-plan.png",
+      "scrollY": 7243,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "label": "related",
+      "file": "static-en-cappadocia-1440-related.png",
+      "scrollY": 7647,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "hero",
+      "file": "static-en-cappadocia-390-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "locator",
+      "file": "static-en-cappadocia-390-locator.png",
+      "scrollY": 1585,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "interest-1",
+      "file": "static-en-cappadocia-390-interest-1.png",
+      "scrollY": 2529,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "plan",
+      "file": "static-en-cappadocia-390-plan.png",
+      "scrollY": 7188,
+      "overflow": false
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "label": "related",
+      "file": "static-en-cappadocia-390-related.png",
+      "scrollY": 7703,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "label": "hero",
+      "file": "static-ar-istanbul-390-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "label": "locator",
+      "file": "static-ar-istanbul-390-locator.png",
+      "scrollY": 1513,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "label": "interest-1",
+      "file": "static-ar-istanbul-390-interest-1.png",
+      "scrollY": 2441,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "label": "plan",
+      "file": "static-ar-istanbul-390-plan.png",
+      "scrollY": 6973,
+      "overflow": false
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "label": "related",
+      "file": "static-ar-istanbul-390-related.png",
+      "scrollY": 7427,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "hero",
+      "file": "static-tr-rize-ayder-1280-hero.png",
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "locator",
+      "file": "static-tr-rize-ayder-1280-locator.png",
+      "scrollY": 1449,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "interest-1",
+      "file": "static-tr-rize-ayder-1280-interest-1.png",
+      "scrollY": 2331,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "interest-2",
+      "file": "static-tr-rize-ayder-1280-interest-2.png",
+      "scrollY": 3131,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "interest-3",
+      "file": "static-tr-rize-ayder-1280-interest-3.png",
+      "scrollY": 3816,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "plan",
+      "file": "static-tr-rize-ayder-1280-plan.png",
+      "scrollY": 7201,
+      "overflow": false
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "label": "related",
+      "file": "static-tr-rize-ayder-1280-related.png",
+      "scrollY": 7592,
+      "overflow": false
+    }
+  ],
+  "records": [
+    {
+      "slug": "istanbul",
+      "note": true,
+      "interests": [
+        "Bosphorus perspectives",
+        "Historic neighborhoods",
+        "Markets & local flavors"
+      ],
+      "related": [
+        "bursa",
+        "cappadocia",
+        "sapanca"
+      ],
+      "chapters": 11,
+      "active": "Istanbul",
+      "canvas": 0
+    },
+    {
+      "slug": "trabzon",
+      "note": true,
+      "interests": [
+        "Black Sea waterfront",
+        "City & regional culture",
+        "Green mountain scenery"
+      ],
+      "related": [
+        "rize-ayder",
+        "uzungol",
+        "istanbul"
+      ],
+      "chapters": 11,
+      "active": "Trabzon",
+      "canvas": 0
+    },
+    {
+      "slug": "rize-ayder",
+      "note": true,
+      "interests": [
+        "Rize landscapes",
+        "Ayder highlands",
+        "Valleys & village life"
+      ],
+      "related": [
+        "trabzon",
+        "uzungol",
+        "sapanca"
+      ],
+      "chapters": 11,
+      "active": "Rize & Ayder",
+      "canvas": 0
+    },
+    {
+      "slug": "uzungol",
+      "note": true,
+      "interests": [
+        "Lakeside walks",
+        "Mountain viewpoints",
+        "A quieter escape"
+      ],
+      "related": [
+        "rize-ayder",
+        "trabzon",
+        "yalova"
+      ],
+      "chapters": 11,
+      "active": "Uzungöl",
+      "canvas": 0
+    },
+    {
+      "slug": "antalya",
+      "note": true,
+      "interests": [
+        "Old-town discovery",
+        "Mediterranean coast",
+        "Time together"
+      ],
+      "related": [
+        "fethiye",
+        "marmaris",
+        "bodrum"
+      ],
+      "chapters": 11,
+      "active": "Antalya",
+      "canvas": 0
+    },
+    {
+      "slug": "bodrum",
+      "note": true,
+      "interests": [
+        "Harbor & old streets",
+        "Aegean landscapes",
+        "Coastal relaxation"
+      ],
+      "related": [
+        "marmaris",
+        "fethiye",
+        "antalya"
+      ],
+      "chapters": 11,
+      "active": "Bodrum",
+      "canvas": 0
+    },
+    {
+      "slug": "fethiye",
+      "note": true,
+      "interests": [
+        "Coast & bay views",
+        "Ölüdeniz inspiration",
+        "Nature at your pace"
+      ],
+      "related": [
+        "antalya",
+        "marmaris",
+        "bodrum"
+      ],
+      "chapters": 11,
+      "active": "Fethiye",
+      "canvas": 0
+    },
+    {
+      "slug": "marmaris",
+      "note": true,
+      "interests": [
+        "Marina & waterfront",
+        "Pine-lined coastline",
+        "A relaxed coastal stay"
+      ],
+      "related": [
+        "bodrum",
+        "fethiye",
+        "antalya"
+      ],
+      "chapters": 11,
+      "active": "Marmaris",
+      "canvas": 0
+    },
+    {
+      "slug": "sapanca",
+      "note": true,
+      "interests": [
+        "Lake moments",
+        "Green surroundings",
+        "Family time"
+      ],
+      "related": [
+        "yalova",
+        "bursa",
+        "uzungol"
+      ],
+      "chapters": 11,
+      "active": "Sapanca",
+      "canvas": 0
+    },
+    {
+      "slug": "bursa",
+      "note": true,
+      "interests": [
+        "History & architecture",
+        "Mountain scenery",
+        "Local flavors"
+      ],
+      "related": [
+        "istanbul",
+        "cappadocia",
+        "yalova"
+      ],
+      "chapters": 11,
+      "active": "Bursa",
+      "canvas": 0
+    },
+    {
+      "slug": "yalova",
+      "note": true,
+      "interests": [
+        "Marmara waterfront",
+        "Green escapes",
+        "Time to unwind"
+      ],
+      "related": [
+        "sapanca",
+        "bursa",
+        "istanbul"
+      ],
+      "chapters": 11,
+      "active": "Yalova",
+      "canvas": 0
+    },
+    {
+      "slug": "cappadocia",
+      "note": true,
+      "interests": [
+        "Valleys & viewpoints",
+        "Rock-cut heritage",
+        "Sunrise perspectives"
+      ],
+      "related": [
+        "bursa",
+        "istanbul",
+        "rize-ayder"
+      ],
+      "chapters": 11,
+      "active": "Cappadocia",
+      "canvas": 0
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-08T14:58:14.724Z",
+  "status": "passed"
+}

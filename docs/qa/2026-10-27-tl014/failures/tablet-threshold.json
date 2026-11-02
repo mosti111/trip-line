@@ -1,0 +1,770 @@
+{
+  "status": "failed",
+  "base": "http://localhost:3039",
+  "cases": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "en",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "ar",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "tr",
+      "width": 320,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "en",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "ar",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "locale": "tr",
+      "width": 390,
+      "osReduced": true,
+      "fresh": "full",
+      "initial": [
+        "full/full/motion"
+      ],
+      "reduced": [
+        "reduced/reduced/static"
+      ],
+      "system": [
+        "system/reduced/static"
+      ],
+      "persistence": "Reduced/System/Full reload and Full locale change pass",
+      "selectors": "menu and footer",
+      "billboardPause": true
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "osReduced": false,
+      "fresh": "full",
+      "initialization": [
+        "full/full/motion"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1154%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5385%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "delta": 15.576900000000002,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3175% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.4507% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.8668,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.0803%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2117%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.868599999999999,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.5464%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.9345,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1216%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5696%)",
+        "transform": "matrix(1.0152, 0, 0, 1.0152, 0, 0)"
+      },
+      "delta": 15.552,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.2587% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.439% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.819699999999997,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.0601%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2077%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.8524,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.3971%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.4627%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.934400000000004,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1154%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5385%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "delta": 15.576900000000002,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3175% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.4507% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.8668,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.0803%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2117%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.868599999999999,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.5464%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.9345,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 320,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.1154%)",
+        "transform": "matrix(1.0671, 0, 0, 1.0671, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5385%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "delta": 15.576900000000002,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3224% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.5027% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.8197,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2295%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.852500000000001,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.5464%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.9345,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.0832%)",
+        "transform": "matrix(1.0669, 0, 0, 1.0669, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5312%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "delta": 15.552000000000001,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3175% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.4507% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.8668,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.0803%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2117%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.868599999999999,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4745%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.4781%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.9964,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 2.2131%)",
+        "transform": "matrix(0.9705, 0, 0, 0.9705, 0, 31.1309)"
+      },
+      "delta": 2.2131,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "explorer",
+      "before": {
+        "clip": "inset(0px 0px 20.0832%)",
+        "transform": "matrix(1.0669, 0, 0, 1.0669, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 0px 4.5312%)",
+        "transform": "matrix(1.0151, 0, 0, 1.0151, 0, 0)"
+      },
+      "delta": 15.552000000000001,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "cappadocia",
+      "before": {
+        "clip": "inset(32.3224% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(6.5027% 0% 0%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 25.8197,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "rize",
+      "before": {
+        "clip": "inset(0% 11.082%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 2.2295%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 8.852500000000001,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "antalya",
+      "before": {
+        "clip": "inset(0% 0% 0% 42.4809%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "after": {
+        "clip": "inset(0% 0% 0% 8.5464%)",
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+      },
+      "delta": 33.9345,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "width": 390,
+      "name": "billboard",
+      "movement": "over 3px in 350ms",
+      "pause": "under 1px drift in 250ms"
+    },
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "width": 768,
+      "name": "hero",
+      "before": {
+        "clip": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "clip": "inset(0px 3.0405%)",
+        "transform": "matrix(0.9514, 0, 0, 0.9514, 0, 31.1347)"
+      },
+      "delta": 3.0405,
+      "scrollDistance": 405,
+      "input": "native Chromium CDP touch"
+    }
+  ],
+  "fallbacks": [],
+  "errors": [],
+  "limitations": [
+    "Windows Playwright WebKit is not physical iPhone Safari. WebKit scroll proof uses wheel input on a touch-enabled viewport; Chromium uses native CDP touch input."
+  ],
+  "failure": "Error: chromium-en-768 explorer meaningful CSS change\n\nexpect(received).toBeGreaterThan(expected)\n\nExpected: > 1\nReceived:   0.03739999999999999",
+  "finishedAt": "2026-10-27T02:57:44.479Z"
+}

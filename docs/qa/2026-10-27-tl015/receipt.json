@@ -1,0 +1,17 @@
+{
+  "sourceSha": "1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea",
+  "projectId": "prj_Lf4M8KHEMsLrBP5YXqn9dbsspL0g",
+  "deploymentId": "dpl_4ocoadtaM2bnbguyhjqybrNc5U5P",
+  "target": null,
+  "readyState": "READY",
+  "url": "https://trip-line-tl014-motion-review.vercel.app/en",
+  "expiresAt": null,
+  "automaticClosure": false,
+  "closeOnlyOnExplicitUserInstruction": true,
+  "loginRequired": false,
+  "deadlineVariablePresent": false,
+  "browserCases": 6,
+  "browserErrors": 0,
+  "originalProductionChanged": false,
+  "olderExpiryAutomationChanged": false
+}

@@ -1,0 +1,35 @@
+{
+  "startedAt": "2026-10-10T00:14:33.520Z",
+  "cases": [
+    {
+      "locale": "en",
+      "choice": {
+        "top": 247.984375,
+        "header": 72
+      },
+      "plan": {
+        "top": 248.015625,
+        "header": 72
+      },
+      "nativeRadioArrowDown": "umrah",
+      "contact": "http://localhost:3053/en/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya",
+      "globalType": "corporate"
+    },
+    {
+      "locale": "ar",
+      "choice": {
+        "top": 248.0625,
+        "header": 72
+      },
+      "plan": {
+        "top": 247.703125,
+        "header": 72
+      },
+      "nativeRadioArrowDown": "umrah",
+      "contact": "http://localhost:3053/ar/contact?service=hajj-umrah&journey=antalya%2Cistanbul&destination=antalya",
+      "globalType": "corporate"
+    }
+  ],
+  "status": "PASS",
+  "finishedAt": "2026-10-10T00:14:41.863Z"
+}

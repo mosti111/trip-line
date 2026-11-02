@@ -1,0 +1,323 @@
+{
+  "startedAt": "2026-10-08T02:11:18.932Z",
+  "base": "http://localhost:3053",
+  "browser": "Playwright Chromium",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "mode": "normal fine pointer native scroll",
+  "frames": [
+    {
+      "label": "side-initial",
+      "file": "enhanced-side-initial.png",
+      "time": 2077.5,
+      "scrollY": 5278,
+      "css": {
+        "clip": "inset(0px 0px 8%)",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-image-reveal",
+          "time": 0,
+          "state": "running",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "side-moving",
+      "file": "enhanced-side-moving.png",
+      "time": 2601.0999999996275,
+      "scrollY": 5278,
+      "css": {
+        "clip": "inset(0px 0px 0.345661%)",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-image-reveal",
+          "time": 516.6009999990084,
+          "state": "running",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "side-later",
+      "file": "enhanced-side-later.png",
+      "time": 3375.0999999996275,
+      "scrollY": 5278,
+      "css": {
+        "clip": "inset(0px 0px 0%)",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-image-reveal",
+          "time": 800,
+          "state": "finished",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "side-settled",
+      "file": "enhanced-side-settled.png",
+      "time": 4442.700000001118,
+      "scrollY": 5278,
+      "css": {
+        "clip": "inset(0px 0px 0%)",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-image-reveal",
+          "time": 800,
+          "state": "finished",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "final-initial",
+      "file": "enhanced-final-initial.png",
+      "time": 4862,
+      "scrollY": 10837,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0.91213px"
+      },
+      "animations": [
+        {
+          "name": "rhub-route-arrive",
+          "time": 33.342999999868006,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "name": "rhub-node-arrive",
+          "time": 33.342999999868006,
+          "state": "running",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "final-moving",
+      "file": "enhanced-final-moving.png",
+      "time": 5895.9000000003725,
+      "scrollY": 10837,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-route-arrive",
+          "time": 1000,
+          "state": "finished",
+          "iterations": 1
+        },
+        {
+          "name": "rhub-node-arrive",
+          "time": 1066.7109999998675,
+          "state": "running",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "final-later",
+      "file": "enhanced-final-later.png",
+      "time": 7059.700000001118,
+      "scrollY": 10837,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-route-arrive",
+          "time": 1000,
+          "state": "finished",
+          "iterations": 1
+        },
+        {
+          "name": "rhub-node-arrive",
+          "time": 1150,
+          "state": "finished",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "final-settled",
+      "file": "enhanced-final-settled.png",
+      "time": 8484.300000000745,
+      "scrollY": 10837,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-route-arrive",
+          "time": 1000,
+          "state": "finished",
+          "iterations": 1
+        },
+        {
+          "name": "rhub-node-arrive",
+          "time": 1150,
+          "state": "finished",
+          "iterations": 1
+        }
+      ],
+      "reveal": "visible"
+    },
+    {
+      "label": "pin-change",
+      "file": "enhanced-pin-change.png",
+      "time": 9370.400000000373,
+      "scrollY": 1682,
+      "css": {
+        "clip": "none",
+        "shadow": "rgba(215, 170, 77, 0.384) 0px 0px 0px 3.33431px",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        },
+        {
+          "name": "rhub-pin-select",
+          "time": 83.35499999937213,
+          "state": "running",
+          "iterations": 1
+        }
+      ]
+    },
+    {
+      "label": "pin-moving",
+      "file": "enhanced-pin-moving.png",
+      "time": 9714.5,
+      "scrollY": 1682,
+      "css": {
+        "clip": "none",
+        "shadow": "rgba(215, 170, 77, 0.035) 0px 0px 0px 13.0298px",
+        "offset": "0px"
+      },
+      "animations": [
+        {
+          "name": "rhub-pin-select",
+          "time": 433.38899999937297,
+          "state": "running",
+          "iterations": 1
+        }
+      ]
+    },
+    {
+      "label": "pin-settled",
+      "file": "enhanced-pin-settled.png",
+      "time": 10468.599999999627,
+      "scrollY": 1682,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": []
+    },
+    {
+      "label": "reduced-final",
+      "file": "enhanced-reduced-final.png",
+      "time": 10950,
+      "scrollY": 1682,
+      "css": {
+        "clip": "none",
+        "shadow": "none",
+        "offset": "0px"
+      },
+      "animations": [],
+      "reveal": ""
+    }
+  ],
+  "checks": [
+    {
+      "mode": "system reduced",
+      "animations": 0,
+      "clip": "none",
+      "route": "0px",
+      "canvas": 0,
+      "pinTransform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "mode": "runtime SaveData",
+      "animations": 0,
+      "clip": "none",
+      "route": "0px"
+    },
+    {
+      "mode": "restored normal visited route",
+      "reveal": "settled",
+      "animations": 0
+    },
+    {
+      "mode": "route unmount",
+      "connectionListeners": 0
+    },
+    {
+      "mode": "fresh partialAPI SaveData",
+      "clip": "none",
+      "route": "0px",
+      "canvas": 0
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-08T02:11:34.492Z",
+  "status": "passed"
+}

@@ -1,0 +1,438 @@
+{
+  "cases": [
+    {
+      "name": "en-1440",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 1000
+        },
+        {
+          "chapter": "02",
+          "height": 1774.109375
+        },
+        {
+          "chapter": "03",
+          "height": 900
+        },
+        {
+          "chapter": "04",
+          "height": 1346.46875
+        },
+        {
+          "chapter": "05",
+          "height": 3255.96875
+        },
+        {
+          "chapter": "06",
+          "height": 1136.75
+        },
+        {
+          "chapter": "07",
+          "height": 649.875
+        },
+        {
+          "chapter": "08",
+          "height": 572.75
+        },
+        {
+          "chapter": "09",
+          "height": 679.5625
+        },
+        {
+          "chapter": "10",
+          "height": 585.15625
+        },
+        {
+          "chapter": "11",
+          "height": 1076.140625
+        },
+        {
+          "chapter": "12",
+          "height": 1259.359375
+        },
+        {
+          "chapter": "13",
+          "height": 477
+        },
+        {
+          "chapter": "14",
+          "height": 436
+        },
+        {
+          "chapter": "15",
+          "height": 760
+        }
+      ],
+      "turkiyeOpeningRatio": 0.591691097393892,
+      "overflow": false,
+      "brokenLoadedImages": []
+    },
+    {
+      "name": "en-390",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 890
+        },
+        {
+          "chapter": "02",
+          "height": 2121.359375
+        },
+        {
+          "chapter": "03",
+          "height": 800
+        },
+        {
+          "chapter": "04",
+          "height": 1729.453125
+        },
+        {
+          "chapter": "05",
+          "height": 3113.671875
+        },
+        {
+          "chapter": "06",
+          "height": 849.203125
+        },
+        {
+          "chapter": "07",
+          "height": 679.921875
+        },
+        {
+          "chapter": "08",
+          "height": 806.140625
+        },
+        {
+          "chapter": "09",
+          "height": 617.65625
+        },
+        {
+          "chapter": "10",
+          "height": 572.421875
+        },
+        {
+          "chapter": "11",
+          "height": 1384.515625
+        },
+        {
+          "chapter": "12",
+          "height": 1620
+        },
+        {
+          "chapter": "13",
+          "height": 636.296875
+        },
+        {
+          "chapter": "14",
+          "height": 555.734375
+        },
+        {
+          "chapter": "15",
+          "height": 743.609375
+        }
+      ],
+      "turkiyeOpeningRatio": 0.5551224400577176,
+      "overflow": false,
+      "brokenLoadedImages": []
+    },
+    {
+      "name": "ar-1440",
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 1000
+        },
+        {
+          "chapter": "02",
+          "height": 1814.890625
+        },
+        {
+          "chapter": "03",
+          "height": 900
+        },
+        {
+          "chapter": "04",
+          "height": 1376.1875
+        },
+        {
+          "chapter": "05",
+          "height": 3171.4375
+        },
+        {
+          "chapter": "06",
+          "height": 1074.53125
+        },
+        {
+          "chapter": "07",
+          "height": 580
+        },
+        {
+          "chapter": "08",
+          "height": 570.3125
+        },
+        {
+          "chapter": "09",
+          "height": 698.21875
+        },
+        {
+          "chapter": "10",
+          "height": 630.625
+        },
+        {
+          "chapter": "11",
+          "height": 1022.328125
+        },
+        {
+          "chapter": "12",
+          "height": 1259.265625
+        },
+        {
+          "chapter": "13",
+          "height": 477
+        },
+        {
+          "chapter": "14",
+          "height": 436
+        },
+        {
+          "chapter": "15",
+          "height": 760
+        }
+      ],
+      "turkiyeOpeningRatio": 0.5920466130535968,
+      "overflow": false,
+      "brokenLoadedImages": []
+    },
+    {
+      "name": "ar-390",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 940
+        },
+        {
+          "chapter": "02",
+          "height": 2171.09375
+        },
+        {
+          "chapter": "03",
+          "height": 800
+        },
+        {
+          "chapter": "04",
+          "height": 1623.34375
+        },
+        {
+          "chapter": "05",
+          "height": 3032.125
+        },
+        {
+          "chapter": "06",
+          "height": 810.828125
+        },
+        {
+          "chapter": "07",
+          "height": 632.328125
+        },
+        {
+          "chapter": "08",
+          "height": 679.84375
+        },
+        {
+          "chapter": "09",
+          "height": 583.25
+        },
+        {
+          "chapter": "10",
+          "height": 571.96875
+        },
+        {
+          "chapter": "11",
+          "height": 1382.203125
+        },
+        {
+          "chapter": "12",
+          "height": 1594.84375
+        },
+        {
+          "chapter": "13",
+          "height": 581.015625
+        },
+        {
+          "chapter": "14",
+          "height": 522.140625
+        },
+        {
+          "chapter": "15",
+          "height": 680
+        }
+      ],
+      "turkiyeOpeningRatio": 0.5647334808166599,
+      "overflow": false,
+      "brokenLoadedImages": []
+    },
+    {
+      "name": "tr-1440",
+      "locale": "tr",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 1023.6875
+        },
+        {
+          "chapter": "02",
+          "height": 1774.109375
+        },
+        {
+          "chapter": "03",
+          "height": 900
+        },
+        {
+          "chapter": "04",
+          "height": 1346.46875
+        },
+        {
+          "chapter": "05",
+          "height": 3175.09375
+        },
+        {
+          "chapter": "06",
+          "height": 1055.875
+        },
+        {
+          "chapter": "07",
+          "height": 622.125
+        },
+        {
+          "chapter": "08",
+          "height": 572.75
+        },
+        {
+          "chapter": "09",
+          "height": 679.5625
+        },
+        {
+          "chapter": "10",
+          "height": 585.15625
+        },
+        {
+          "chapter": "11",
+          "height": 1076.140625
+        },
+        {
+          "chapter": "12",
+          "height": 1231.609375
+        },
+        {
+          "chapter": "13",
+          "height": 493.84375
+        },
+        {
+          "chapter": "14",
+          "height": 436
+        },
+        {
+          "chapter": "15",
+          "height": 760
+        }
+      ],
+      "turkiyeOpeningRatio": 0.5895617628801987,
+      "overflow": false,
+      "brokenLoadedImages": []
+    },
+    {
+      "name": "tr-390",
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "mode": "normal static composition",
+      "heights": [
+        {
+          "chapter": "01",
+          "height": 930
+        },
+        {
+          "chapter": "02",
+          "height": 2121.359375
+        },
+        {
+          "chapter": "03",
+          "height": 800
+        },
+        {
+          "chapter": "04",
+          "height": 1653.078125
+        },
+        {
+          "chapter": "05",
+          "height": 3113.671875
+        },
+        {
+          "chapter": "06",
+          "height": 799.296875
+        },
+        {
+          "chapter": "07",
+          "height": 654.734375
+        },
+        {
+          "chapter": "08",
+          "height": 759.359375
+        },
+        {
+          "chapter": "09",
+          "height": 617.65625
+        },
+        {
+          "chapter": "10",
+          "height": 596.578125
+        },
+        {
+          "chapter": "11",
+          "height": 1338.765625
+        },
+        {
+          "chapter": "12",
+          "height": 1595.875
+        },
+        {
+          "chapter": "13",
+          "height": 636.296875
+        },
+        {
+          "chapter": "14",
+          "height": 555.734375
+        },
+        {
+          "chapter": "15",
+          "height": 680
+        }
+      ],
+      "turkiyeOpeningRatio": 0.5588167120051476,
+      "overflow": false,
+      "brokenLoadedImages": []
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

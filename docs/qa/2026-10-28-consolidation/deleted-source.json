@@ -1,0 +1,37 @@
+[
+  {
+    "path": "frontend-v2/components/experience/ContextCursor.tsx",
+    "bytes": 1235,
+    "blob": "fbcf85d50bbead1419859e6b46c05a4dbb259d23",
+    "classification": "DELETE",
+    "reason": "Unreachable from all app/proxy roots; repository source/script reference search finds declaration only; no file-based route or public asset."
+  },
+  {
+    "path": "frontend-v2/components/experience/ExperienceProvider.tsx",
+    "bytes": 2794,
+    "blob": "ac17fecc41a91e61917981887327f1d708072f89",
+    "classification": "DELETE",
+    "reason": "Unreachable from all app/proxy roots; repository source/script reference search finds declaration only; no file-based route or public asset."
+  },
+  {
+    "path": "frontend-v2/components/experience/JourneyChapter.tsx",
+    "bytes": 382,
+    "blob": "7e38aa888f1e8e5180a6037f8b9948767beb28e3",
+    "classification": "DELETE",
+    "reason": "Unreachable from all app/proxy roots; repository source/script reference search finds declaration only; no file-based route or public asset."
+  },
+  {
+    "path": "frontend-v2/components/experience/ScrollScene.tsx",
+    "bytes": 13808,
+    "blob": "1837f7fdf493d1b97836281b429742c7b977a23f",
+    "classification": "DELETE",
+    "reason": "Unreachable from all app/proxy roots; repository source/script reference search finds declaration only; no file-based route or public asset."
+  },
+  {
+    "path": "frontend-v2/components/home-v3/HomeMotion.tsx",
+    "bytes": 3873,
+    "blob": "d74d96e1ad7d25d6281a2c4c1dd6b38ac7fb9ebf",
+    "classification": "DELETE",
+    "reason": "Unreachable from all app/proxy roots; repository source/script reference search finds declaration only; no file-based route or public asset."
+  }
+]

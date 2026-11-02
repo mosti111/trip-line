@@ -1,0 +1,36 @@
+{
+  "sourceSha": "1f6e453e765dc0bdb221aeeff127ed0cb9ae23ea",
+  "branch": "codex/trip-line-v11-mobile-recovery",
+  "projectId": "prj_Lf4M8KHEMsLrBP5YXqn9dbsspL0g",
+  "projectName": "trip-line-tl014-motion-review",
+  "deploymentId": "dpl_12ZVv7v3gaerS6Vh342Eu38vW9HN",
+  "url": "https://trip-line-tl014-motion-review-jtprphtw8.vercel.app/en",
+  "readyState": "READY",
+  "target": null,
+  "aliases": [],
+  "loginRequired": false,
+  "enablePreviewFeedback": false,
+  "expiresAt": "2026-10-27T15:22:45.000Z",
+  "framework": "nextjs",
+  "nodeVersion": "24.x",
+  "exportFiles": 286,
+  "uploadedFiles": 285,
+  "allUploadFilesMatch": true,
+  "archiveSha256": "6ab8c9b2f3d37009c18106c0acf5fb88d8b5990c5f55ac84739f8083b3b971be",
+  "hosted": {
+    "cases": 12,
+    "resources": 6,
+    "errors": 0,
+    "status": "passed"
+  },
+  "originalProduction": {
+    "deploymentId": "dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5",
+    "sourceSha": "1632a6b9b2fec2d7cb620c5280f1fe2772fe3b76",
+    "unchanged": true
+  },
+  "removedTemporaryDeployments": [
+    "dpl_EDnpw4dBYuS2DcZWc7Ub3xaNSxQc",
+    "dpl_ERirx7t3xuKJab3b33CPy4Lzyquw"
+  ],
+  "physicalSafariTested": false
+}

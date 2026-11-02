@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "phase": "journey",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-20T17:26:42.405Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "cases": [
+    {
+      "name": "explorer→drawer reorder/remove→detail Add→reload→builder→Contact→prepared→invalidate/back-forward en"
+    },
+    {
+      "name": "explorer→drawer reorder/remove→detail Add→reload→builder→Contact→prepared→invalidate/back-forward tr"
+    },
+    {
+      "name": "explorer→drawer reorder/remove→detail Add→reload→builder→Contact→prepared→invalidate/back-forward ar"
+    },
+    {
+      "name": "storage malformed and last removal"
+    },
+    {
+      "name": "storage blocked and last removal"
+    },
+    {
+      "name": "storage empty and last removal"
+    }
+  ],
+  "screens": [
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\journey\\2026-10-20T17-26-42.402Z\\en-full-journey-prepared.png",
+      "sha256": "0f51bc004549e96af7687a2aa12d436221ad1c522628bd95603f172eea2349de",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\journey\\2026-10-20T17-26-42.402Z\\tr-full-journey-prepared.png",
+      "sha256": "5db435afb8e42590679cbd271eafbc9250afbb141aad958c39631d7f3dc813cb",
+      "locale": "tr",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\journey\\2026-10-20T17-26-42.402Z\\ar-full-journey-prepared.png",
+      "sha256": "153d86002a539ff4575fdbc4bef4db2aa15e9f3cf8895818fa1ec48214740afd",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "measurements": [],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "sourceHashes": {
+    "styles/recovery-shell.css": "e4aae0120062057286103e5a1fb9c4096fe97429cfdb4ddffeec7a9bad28cea5",
+    "scripts/verify-recovery.mjs": "c2280bd5b7203f514a48f5da2f02ed1f399a1cff2931579c554064c04dccca4a",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "scripts/verify-v3-resilience.mjs": "f50b4d53310ba3f9ae4e637231bd0c92a5a612e413088bbada3f6d155b64530b",
+    "scripts/verify-reconstruction.mjs": "4eaaf55295e373e3f40c45a9d03def517a8f27269788c35d4f288ab50c4c3a4b",
+    "scripts/verify-reconstruction-media.mjs": "1d741f2aec85a590b87a77902c7025c4b73a007f9d68a62825efb193eddccdb8",
+    "scripts/verify-planner-throttled.mjs": "d48be8aff5d9f5fe8bda4bb9fab519b1c7a23a76b49564e0c919887ea339ce77"
+  },
+  "applicationDiffSha256": "4ccb5b1150a7508db7815f75da01138e396dd6202dc33e4b06c21e0483ca02c9",
+  "browserVersion": "153.0.8010.12",
+  "finishedAt": "2026-10-20T17:27:28.600Z"
+}

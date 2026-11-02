@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "testedRevision": "13b5afecde31cb0078c7980da2055a3b3edbaba8",
+  "currentHead": "0ba5a97254e08d8d621dba4add4045604df5aa7a",
+  "applicationTreesIdentical": true,
+  "applicationWorkingTreeUnchanged": true,
+  "trackedSetupDiffs": [
+    {
+      "Path": "AGENTS.md",
+      "Added": 18,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/AI_HANDOFF.md",
+      "Added": 11,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/DECISIONS.md",
+      "Added": 16,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+      "Added": 7,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/README.md",
+      "Added": 5,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/reports/README.md",
+      "Added": 6,
+      "Deleted": 0
+    },
+    {
+      "Path": "docs/tasks/README.md",
+      "Added": 7,
+      "Deleted": 0
+    }
+  ],
+  "note": "Git configured line-ending normalization used. Independent documentation commit preserved; initial safety snapshot remains historical. New orchestration and dated QA files are expected untracked additions."
+}

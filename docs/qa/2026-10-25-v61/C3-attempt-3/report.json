@@ -1,0 +1,194 @@
+{
+  "status": "failed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "handoff": {
+        "end": {
+          "x": 1220,
+          "y": 900
+        },
+        "start": {
+          "x": 1220,
+          "y": 900
+        },
+        "distance": 0
+      },
+      "states": [
+        {
+          "name": "hero",
+          "label": "start",
+          "scroll": 0,
+          "clip": "none",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "name": "hero",
+          "label": "mid",
+          "scroll": 293,
+          "clip": "inset(0px 2.5043%)",
+          "transform": "matrix(0.9599, 0, 0, 0.9599, 0, 22.5387)"
+        },
+        {
+          "name": "hero",
+          "label": "end",
+          "scroll": 585,
+          "clip": "inset(0px 5%)",
+          "transform": "matrix(0.92, 0, 0, 0.92, 0, 45)"
+        },
+        {
+          "name": "hero",
+          "label": "reverse",
+          "scroll": 292,
+          "clip": "inset(0px 2.4957%)",
+          "transform": "matrix(0.9601, 0, 0, 0.9601, 0, 22.4613)"
+        },
+        {
+          "name": "worlds",
+          "label": "start",
+          "scroll": 410,
+          "clip": "inset(0% 92.1296% 0% 0%)",
+          "transform": "matrix(1, 0, 0, 1, 0, 59.8843)"
+        },
+        {
+          "name": "worlds",
+          "label": "mid",
+          "scroll": 702,
+          "clip": "inset(0% 24.537% 0% 0%)",
+          "transform": "matrix(1, 0, 0, 1, 0, 15.9491)"
+        },
+        {
+          "name": "worlds",
+          "label": "end",
+          "scroll": 995,
+          "clip": "inset(0%)",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "name": "worlds",
+          "label": "reverse",
+          "scroll": 702,
+          "clip": "inset(0% 24.537% 0% 0%)",
+          "transform": "matrix(1, 0, 0, 1, 0, 15.9491)"
+        },
+        {
+          "name": "cappadocia",
+          "label": "start",
+          "scroll": 3089,
+          "clip": "inset(48% 0% 0%)",
+          "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.968671, 0.0507659, -3.62613e-05, 0, -0.052336, 0.99863, -0.000713307, 0, 0, 0, 1)"
+        },
+        {
+          "name": "cappadocia",
+          "label": "mid",
+          "scroll": 3381,
+          "clip": "inset(24.041% 0% 0%)",
+          "transform": "matrix3d(0.985, 0, 0, 0, 0, 0.984661, 0.025829, -1.84493e-05, 0, -0.0262223, 0.999656, -0.00071404, 0, 0, 0, 1)"
+        },
+        {
+          "name": "cappadocia",
+          "label": "end",
+          "scroll": 3673,
+          "clip": "inset(0.0821% 0% 0%)",
+          "transform": "matrix3d(0.9999, 0, 0, 0, 0, 0.9999, 8.90029e-05, -6.35735e-08, 0, -8.90118e-05, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "cappadocia",
+          "label": "reverse",
+          "scroll": 3381,
+          "clip": "inset(24.041% 0% 0%)",
+          "transform": "matrix3d(0.985, 0, 0, 0, 0, 0.984661, 0.025829, -1.84493e-05, 0, -0.0262223, 0.999656, -0.00071404, 0, 0, 0, 1)"
+        },
+        {
+          "name": "rize",
+          "label": "start",
+          "scroll": 3827,
+          "clip": "inset(0% 0% 65%)",
+          "transform": "matrix3d(0.969409, 0, 0.0338525, -2.41804e-05, 0, 0.97, 0, 0, -0.0348995, 0, 0.999391, -0.000713851, 0, 0, 0, 1)"
+        },
+        {
+          "name": "rize",
+          "label": "mid",
+          "scroll": 4119,
+          "clip": "inset(0% 0% 32.5556%)",
+          "transform": "matrix3d(0.984849, 0, 0.0172198, -1.22999e-05, 0, 0.985, 0, 0, -0.0174821, 0, 0.999847, -0.000714177, 0, 0, 0, 1)"
+        },
+        {
+          "name": "rize",
+          "label": "end",
+          "scroll": 4411,
+          "clip": "inset(0% 0% 0.1111%)",
+          "transform": "matrix3d(0.9999, 0, 5.93353e-05, -4.23823e-08, 0, 0.9999, 0, 0, -5.93412e-05, 0, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "rize",
+          "label": "reverse",
+          "scroll": 4119,
+          "clip": "inset(0% 0% 32.5556%)",
+          "transform": "matrix3d(0.984849, 0, 0.0172198, -1.22999e-05, 0, 0.985, 0, 0, -0.0174821, 0, 0.999847, -0.000714177, 0, 0, 0, 1)"
+        },
+        {
+          "name": "antalya",
+          "label": "start",
+          "scroll": 4565,
+          "clip": "inset(0% 65% 0% 0%)",
+          "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "antalya",
+          "label": "mid",
+          "scroll": 4857,
+          "clip": "inset(0% 32.5556% 0% 0%)",
+          "transform": "matrix3d(0.985, 0, 0, 0, 0, 0.985, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "antalya",
+          "label": "end",
+          "scroll": 5149,
+          "clip": "inset(0% 0.1111% 0% 0%)",
+          "transform": "matrix3d(0.9999, 0, 0, 0, 0, 0.9999, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "antalya",
+          "label": "reverse",
+          "scroll": 4857,
+          "clip": "inset(0% 32.5556% 0% 0%)",
+          "transform": "matrix3d(0.985, 0, 0, 0, 0, 0.985, 0, 0, 0, 0, 1, -0.000714286, 0, 0, 0, 1)"
+        },
+        {
+          "name": "final",
+          "label": "start",
+          "scroll": 13317,
+          "clip": "inset(19.25% 15.75%)",
+          "transform": "matrix(0.9825, 0, 0, 0.9825, 0, 0)"
+        },
+        {
+          "name": "final",
+          "label": "mid",
+          "scroll": 13609,
+          "clip": "inset(10.3278% 8.45%)",
+          "transform": "matrix(0.9906, 0, 0, 0.9906, 0, 0)"
+        },
+        {
+          "name": "final",
+          "label": "end",
+          "scroll": 13902,
+          "clip": "inset(1.375% 1.125%)",
+          "transform": "matrix(0.9988, 0, 0, 0.9988, 0, 0)"
+        },
+        {
+          "name": "final",
+          "label": "reverse",
+          "scroll": 13609,
+          "clip": "inset(10.3278% 8.45%)",
+          "transform": "matrix(0.9906, 0, 0, 0.9906, 0, 0)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failure": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"play\"\nReceived: \"done\""
+}

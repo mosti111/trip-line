@@ -1,0 +1,104 @@
+{
+  "scope": "Isolated Windows headless Chromium full wheel scroll on build K0DVtH_TRdqIu8z6rhnip. Video and trace enabled; no concurrent QA browser. Not FPS or field-device certification.",
+  "events": {
+    "UpdateLayoutTree": {
+      "count": 980,
+      "maxMs": 8.651,
+      "p95Ms": 0.77,
+      "over50Ms": 0
+    },
+    "Layout": {
+      "count": 101,
+      "maxMs": 3.231,
+      "p95Ms": 1.482,
+      "over50Ms": 0
+    },
+    "Paint": {
+      "count": 810,
+      "maxMs": 8.143,
+      "p95Ms": 2.233,
+      "over50Ms": 0
+    },
+    "FunctionCall": {
+      "count": 7459,
+      "maxMs": 10.397,
+      "p95Ms": 0.396,
+      "over50Ms": 0
+    },
+    "EvaluateScript": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "AnimationFrame": {
+      "count": 0,
+      "maxMs": 0,
+      "p95Ms": 0,
+      "over50Ms": 0
+    },
+    "FireAnimationFrame": {
+      "count": 3102,
+      "maxMs": 3.262,
+      "p95Ms": 0.697,
+      "over50Ms": 0
+    }
+  },
+  "slowestCalls": [
+    {
+      "durationMs": 10.397,
+      "columnNumber": 3117,
+      "frame": "37AFE374FE76A7377CE8D575E5E74836",
+      "functionName": "O",
+      "isolate": "289736947720748480",
+      "lineNumber": 1,
+      "sampleTraceId": 4015164893231762,
+      "scriptId": "10",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    },
+    {
+      "durationMs": 5.355,
+      "columnNumber": 3117,
+      "frame": "37AFE374FE76A7377CE8D575E5E74836",
+      "functionName": "O",
+      "isolate": "289736947720748480",
+      "lineNumber": 1,
+      "sampleTraceId": 4015164893232402,
+      "scriptId": "10",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    },
+    {
+      "durationMs": 5.097,
+      "columnNumber": 3117,
+      "frame": "37AFE374FE76A7377CE8D575E5E74836",
+      "functionName": "O",
+      "isolate": "289736947720748480",
+      "lineNumber": 1,
+      "sampleTraceId": 4015164893231531,
+      "scriptId": "10",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    },
+    {
+      "durationMs": 5.068,
+      "columnNumber": 3117,
+      "frame": "37AFE374FE76A7377CE8D575E5E74836",
+      "functionName": "O",
+      "isolate": "289736947720748480",
+      "lineNumber": 1,
+      "sampleTraceId": 4015164893202795,
+      "scriptId": "10",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    },
+    {
+      "durationMs": 5.047,
+      "columnNumber": 3117,
+      "frame": "37AFE374FE76A7377CE8D575E5E74836",
+      "functionName": "O",
+      "isolate": "289736947720748480",
+      "lineNumber": 1,
+      "sampleTraceId": 4015164893231439,
+      "scriptId": "10",
+      "url": "http://localhost:3006/_next/static/chunks/1ch6bafneugnw.js"
+    }
+  ]
+}

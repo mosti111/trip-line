@@ -1,0 +1,653 @@
+{
+  "status": "passed",
+  "stage": "targeted-dev",
+  "base": "http://localhost:3053",
+  "startedAt": "2026-10-16T11:59:01.554Z",
+  "revision": "162215a935b7935b74fcebed90ab69c43cc96aa9",
+  "fingerprints": {
+    "components/secondary/InternationalExperience.tsx": "851373a05caf31912d5fa4918d2783545920214aa9b9d444d48344e7a51d213c",
+    "components/secondary/FAQExperience.tsx": "5f7c304ee310f95c1fe67189914d9bf22306857b75805fc380e9c7e26e5ae9ab",
+    "components/secondary/LegalExperience.tsx": "653e76b621b71ef3fe26f893e11809210f58de48f5ae646c8ed64c10e7931be0",
+    "components/secondary/CountryPlan.tsx": "ba825db376dd36477b92da28fad81759141843a064a7006f5288b3a641f5afa4",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "styles/recovery-secondary.css": "9cb35983600bc1eab35e7f9e18cf1767c0fded5860be7073a0487d6701e98a11",
+    "scripts/verify-recovery-secondary.mjs": "1ddb6f1d443aed5078a85c9d016abb4dc1e62ce509073d2d1ae9534fb6727796",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/i18n.ts": "5d26f3e9b19ec3d0c2086799af00b608a2c1bcce2159832e17e42829d72aac71",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d",
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2"
+  },
+  "cases": [
+    {
+      "name": "family en 1440x900 destinations",
+      "at": "2026-10-16T11:59:05.419Z"
+    },
+    {
+      "name": "family en 1440x900 destinations/georgia",
+      "at": "2026-10-16T11:59:08.357Z"
+    },
+    {
+      "name": "family en 1440x900 faq",
+      "at": "2026-10-16T11:59:11.837Z"
+    },
+    {
+      "name": "family en 1440x900 privacy",
+      "at": "2026-10-16T11:59:13.737Z"
+    },
+    {
+      "name": "family en 1440x900 terms",
+      "at": "2026-10-16T11:59:15.893Z"
+    },
+    {
+      "name": "painted keyboard en 1440 faq",
+      "at": "2026-10-16T11:59:17.315Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 673.3125,
+      "bottom": 717.3125,
+      "header": 72,
+      "height": 900
+    },
+    {
+      "name": "native disclosure Enter/Space en 1440",
+      "at": "2026-10-16T11:59:17.355Z"
+    },
+    {
+      "name": "keyboard contents anchor en 1440 faq",
+      "at": "2026-10-16T11:59:17.398Z"
+    },
+    {
+      "name": "painted keyboard en 1440 privacy",
+      "at": "2026-10-16T11:59:18.622Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 562.828125,
+      "bottom": 606.828125,
+      "header": 72,
+      "height": 900
+    },
+    {
+      "name": "keyboard contents anchor en 1440 privacy",
+      "at": "2026-10-16T11:59:18.670Z"
+    },
+    {
+      "name": "family en 390x844 destinations",
+      "at": "2026-10-16T11:59:21.079Z"
+    },
+    {
+      "name": "family en 390x844 destinations/georgia",
+      "at": "2026-10-16T11:59:22.880Z"
+    },
+    {
+      "name": "family en 390x844 faq",
+      "at": "2026-10-16T11:59:26.148Z"
+    },
+    {
+      "name": "family en 390x844 privacy",
+      "at": "2026-10-16T11:59:27.872Z"
+    },
+    {
+      "name": "family en 390x844 terms",
+      "at": "2026-10-16T11:59:29.940Z"
+    },
+    {
+      "name": "painted keyboard en 390 faq",
+      "at": "2026-10-16T11:59:31.284Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 518.09375,
+      "bottom": 562.09375,
+      "header": 72,
+      "height": 844
+    },
+    {
+      "name": "native disclosure Enter/Space en 390",
+      "at": "2026-10-16T11:59:31.325Z"
+    },
+    {
+      "name": "keyboard contents anchor en 390 faq",
+      "at": "2026-10-16T11:59:31.357Z"
+    },
+    {
+      "name": "painted keyboard en 390 privacy",
+      "at": "2026-10-16T11:59:32.722Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 442.71875,
+      "bottom": 486.71875,
+      "header": 72,
+      "height": 844
+    },
+    {
+      "name": "keyboard contents anchor en 390 privacy",
+      "at": "2026-10-16T11:59:32.758Z"
+    },
+    {
+      "name": "family ar 390x844 destinations",
+      "at": "2026-10-16T11:59:35.575Z"
+    },
+    {
+      "name": "family ar 390x844 destinations/georgia",
+      "at": "2026-10-16T11:59:37.735Z"
+    },
+    {
+      "name": "family ar 390x844 faq",
+      "at": "2026-10-16T11:59:41.803Z"
+    },
+    {
+      "name": "family ar 390x844 privacy",
+      "at": "2026-10-16T11:59:43.718Z"
+    },
+    {
+      "name": "family ar 390x844 terms",
+      "at": "2026-10-16T11:59:45.517Z"
+    },
+    {
+      "name": "painted keyboard ar 390 faq",
+      "at": "2026-10-16T11:59:46.835Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 551.34375,
+      "bottom": 595.34375,
+      "header": 72,
+      "height": 844
+    },
+    {
+      "name": "native disclosure Enter/Space ar 390",
+      "at": "2026-10-16T11:59:46.868Z"
+    },
+    {
+      "name": "keyboard contents anchor ar 390 faq",
+      "at": "2026-10-16T11:59:46.904Z"
+    },
+    {
+      "name": "painted keyboard ar 390 privacy",
+      "at": "2026-10-16T11:59:48.266Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 461.265625,
+      "bottom": 505.265625,
+      "header": 72,
+      "height": 844
+    },
+    {
+      "name": "keyboard contents anchor ar 390 privacy",
+      "at": "2026-10-16T11:59:48.289Z"
+    },
+    {
+      "name": "family tr 1280x800 destinations",
+      "at": "2026-10-16T11:59:50.687Z"
+    },
+    {
+      "name": "family tr 1280x800 destinations/georgia",
+      "at": "2026-10-16T11:59:52.992Z"
+    },
+    {
+      "name": "family tr 1280x800 faq",
+      "at": "2026-10-16T11:59:56.453Z"
+    },
+    {
+      "name": "family tr 1280x800 privacy",
+      "at": "2026-10-16T11:59:58.371Z"
+    },
+    {
+      "name": "family tr 1280x800 terms",
+      "at": "2026-10-16T12:00:00.333Z"
+    },
+    {
+      "name": "painted keyboard tr 1280 faq",
+      "at": "2026-10-16T12:00:01.806Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 625.75,
+      "bottom": 669.75,
+      "header": 72,
+      "height": 800
+    },
+    {
+      "name": "native disclosure Enter/Space tr 1280",
+      "at": "2026-10-16T12:00:01.836Z"
+    },
+    {
+      "name": "keyboard contents anchor tr 1280 faq",
+      "at": "2026-10-16T12:00:01.869Z"
+    },
+    {
+      "name": "painted keyboard tr 1280 privacy",
+      "at": "2026-10-16T12:00:03.080Z",
+      "tag": "A",
+      "outline": "solid",
+      "top": 553.84375,
+      "bottom": 597.84375,
+      "header": 72,
+      "height": 800
+    },
+    {
+      "name": "keyboard contents anchor tr 1280 privacy",
+      "at": "2026-10-16T12:00:03.109Z"
+    },
+    {
+      "name": "native modified click country link",
+      "at": "2026-10-16T12:00:06.059Z"
+    },
+    {
+      "name": "Georgia plus ordered Istanbul/Rize exactly once in both prepared channels; no country store contamination",
+      "at": "2026-10-16T12:00:07.348Z"
+    },
+    {
+      "name": "country Contact back/forward",
+      "at": "2026-10-16T12:00:07.625Z"
+    },
+    {
+      "name": "actual Journey add/reorder/remove/type retained directory→country→FAQ→privacy→terms, back/forward, updated CountryPlan and Contact",
+      "at": "2026-10-16T12:00:14.832Z"
+    },
+    {
+      "name": "locale query preservation EN→AR→TR",
+      "at": "2026-10-16T12:00:20.224Z"
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440x900-destinations",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-destinations.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:05.055Z"
+    },
+    {
+      "name": "en-1440x900-destinations-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-destinations-native.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:05.419Z"
+    },
+    {
+      "name": "en-1440x900-destinations-georgia",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-destinations-georgia.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:07.983Z"
+    },
+    {
+      "name": "en-1440x900-destinations-georgia-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-destinations-georgia-native.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:08.357Z"
+    },
+    {
+      "name": "en-1440x900-faq",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-faq.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:11.736Z"
+    },
+    {
+      "name": "en-1440x900-faq-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-faq-native.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:11.837Z"
+    },
+    {
+      "name": "en-1440x900-privacy",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-privacy.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:13.634Z"
+    },
+    {
+      "name": "en-1440x900-privacy-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-privacy-native.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:13.737Z"
+    },
+    {
+      "name": "en-1440x900-terms",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-terms.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:15.770Z"
+    },
+    {
+      "name": "en-1440x900-terms-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-1440x900-terms-native.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:15.893Z"
+    },
+    {
+      "name": "en-390x844-destinations",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-destinations.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:20.982Z"
+    },
+    {
+      "name": "en-390x844-destinations-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-destinations-native.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:21.079Z"
+    },
+    {
+      "name": "en-390x844-destinations-georgia",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-destinations-georgia.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:22.800Z"
+    },
+    {
+      "name": "en-390x844-destinations-georgia-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-destinations-georgia-native.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:22.880Z"
+    },
+    {
+      "name": "en-390x844-faq",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-faq.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:26.113Z"
+    },
+    {
+      "name": "en-390x844-faq-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-faq-native.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:26.148Z"
+    },
+    {
+      "name": "en-390x844-privacy",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-privacy.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:27.820Z"
+    },
+    {
+      "name": "en-390x844-privacy-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-privacy-native.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:27.872Z"
+    },
+    {
+      "name": "en-390x844-terms",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-terms.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:29.895Z"
+    },
+    {
+      "name": "en-390x844-terms-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\en-390x844-terms-native.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:29.940Z"
+    },
+    {
+      "name": "ar-390x844-destinations",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-destinations.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:35.496Z"
+    },
+    {
+      "name": "ar-390x844-destinations-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-destinations-native.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:35.575Z"
+    },
+    {
+      "name": "ar-390x844-destinations-georgia",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-destinations-georgia.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:37.661Z"
+    },
+    {
+      "name": "ar-390x844-destinations-georgia-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-destinations-georgia-native.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:37.735Z"
+    },
+    {
+      "name": "ar-390x844-faq",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-faq.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:41.755Z"
+    },
+    {
+      "name": "ar-390x844-faq-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-faq-native.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:41.803Z"
+    },
+    {
+      "name": "ar-390x844-privacy",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-privacy.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:43.679Z"
+    },
+    {
+      "name": "ar-390x844-privacy-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-privacy-native.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:43.718Z"
+    },
+    {
+      "name": "ar-390x844-terms",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-terms.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:45.469Z"
+    },
+    {
+      "name": "ar-390x844-terms-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\ar-390x844-terms-native.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:45.517Z"
+    },
+    {
+      "name": "tr-1280x800-destinations",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-destinations.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:50.533Z"
+    },
+    {
+      "name": "tr-1280x800-destinations-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-destinations-native.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:50.687Z"
+    },
+    {
+      "name": "tr-1280x800-destinations-georgia",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-destinations-georgia.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:52.728Z"
+    },
+    {
+      "name": "tr-1280x800-destinations-georgia-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-destinations-georgia-native.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:52.992Z"
+    },
+    {
+      "name": "tr-1280x800-faq",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-faq.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:56.354Z"
+    },
+    {
+      "name": "tr-1280x800-faq-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-faq-native.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:56.453Z"
+    },
+    {
+      "name": "tr-1280x800-privacy",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-privacy.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": true,
+      "at": "2026-10-16T11:59:58.275Z"
+    },
+    {
+      "name": "tr-1280x800-privacy-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-privacy-native.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "at": "2026-10-16T11:59:58.371Z"
+    },
+    {
+      "name": "tr-1280x800-terms",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-terms.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": true,
+      "at": "2026-10-16T12:00:00.237Z"
+    },
+    {
+      "name": "tr-1280x800-terms-native",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\tr-1280x800-terms-native.png",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "fullPage": false,
+      "at": "2026-10-16T12:00:00.333Z"
+    },
+    {
+      "name": "country-ordered-contact-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\country-ordered-contact-prepared.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T12:00:07.348Z"
+    },
+    {
+      "name": "mutated-country-ordered-contact",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-secondary\\2026-10-16T11-59-01.554Z\\mutated-country-ordered-contact.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "fullPage": true,
+      "at": "2026-10-16T12:00:14.832Z"
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "gaps": [
+    "Chromium only; no Safari, Firefox, physical device or assistive technology certification. Chunk names cannot prove opaque bundle isolation. Root Astra source/rendered acceptance pending."
+  ],
+  "finishedAt": "2026-10-16T12:00:20.240Z",
+  "finalFingerprints": {
+    "components/secondary/InternationalExperience.tsx": "851373a05caf31912d5fa4918d2783545920214aa9b9d444d48344e7a51d213c",
+    "components/secondary/FAQExperience.tsx": "5f7c304ee310f95c1fe67189914d9bf22306857b75805fc380e9c7e26e5ae9ab",
+    "components/secondary/LegalExperience.tsx": "653e76b621b71ef3fe26f893e11809210f58de48f5ae646c8ed64c10e7931be0",
+    "components/secondary/CountryPlan.tsx": "ba825db376dd36477b92da28fad81759141843a064a7006f5288b3a641f5afa4",
+    "components/travel/Pages.tsx": "9f8f5c6e8bb0d2884d643574df9fa641ddf0b81bce002a3117f21cc4cd76d9a9",
+    "styles/recovery-secondary.css": "9cb35983600bc1eab35e7f9e18cf1767c0fded5860be7073a0487d6701e98a11",
+    "scripts/verify-recovery-secondary.mjs": "1ddb6f1d443aed5078a85c9d016abb4dc1e62ce509073d2d1ae9534fb6727796",
+    "lib/travel-content.ts": "81e8891cda0508e908a233dacf2083af84a1faa428fc2185a7a8f1a7f20a3016",
+    "lib/turkiye.ts": "08a7d2419218b9a5afccb7fc1e3d45216886ac6719975df8e6fdd05b3c8d5d5c",
+    "lib/i18n.ts": "5d26f3e9b19ec3d0c2086799af00b608a2c1bcce2159832e17e42829d72aac71",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d",
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2"
+  }
+}

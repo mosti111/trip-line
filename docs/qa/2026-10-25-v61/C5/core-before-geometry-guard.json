@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "C4 application source 0ba1e4c; C5 verifier-only edits in progress",
+  "typecheck": "passed",
+  "lint": "passed",
+  "tests": 32,
+  "testFiles": 2,
+  "build": "passed",
+  "buildId": "PhiqM9TROJfK8p9jQsu0v",
+  "publication": "not performed"
+}

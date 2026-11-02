@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-13T14:48:40.234Z",
+  "base": "794bc0304b062e540f576fcaff0e39dd17e5030a",
+  "hashes": {
+    "frontend-v2/components/company/AboutExperience.tsx": "518c2665dbbfb42854b05d2c40a091ee33901934ee211ba5c694a7ce7b091872",
+    "frontend-v2/components/travel/Pages.tsx": "045c1e76f4c6b8078081cb861cb2e954bf102b64cfc2546b770c245608d56f59",
+    "frontend-v2/styles/recovery-company.css": "6177d4c218bbbfc955d241b4e1b8597a6a012825cba373545456fd189c2bc06a"
+  },
+  "inspected": [
+    "about-native-en1440-hero.png",
+    "about-native-ar390-story.png",
+    "about-native-en1440-differentiators.png",
+    "about-native-en1440-figures.png",
+    "about-native-ar390-partners-readable-middle.png",
+    "about-native-en390-hero.png",
+    "about-native-ar1440-story.png",
+    "about-native-tr1280-differentiators-end.png",
+    "about-native-en1440-figures-end.png",
+    "about-figure-ar390-clients.png",
+    "about-figure-en390-entertainment.png",
+    "about-native-ar390-partners-readable-end.png",
+    "about-native-ar390-plan.png"
+  ]
+}

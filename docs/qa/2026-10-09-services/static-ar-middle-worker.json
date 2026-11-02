@@ -1,0 +1,50 @@
+{
+  "startedAt": "2026-10-09T11:35:18.651Z",
+  "source": {
+    "components/services/TravelServicesHub.tsx": "a5314c0f7ab73a9221c59c593795a8ed3a460725467eadc9f74fff5bcf027911",
+    "components/services/ServiceExperience.tsx": "705a4ef40c027b30ec8f82f2e49309f545809021806acfb589ee5723ca542985",
+    "components/services/ServicePrimitives.tsx": "120d1f389d3e990eb126562ffe1bf4232c452679ed7efacbef8ff7e15a788968",
+    "components/travel/Pages.tsx": "b91dfc445fac1e16a63e0053fb631fbb38d6045d260e9177aaf6e5e764b2d659",
+    "styles/recovery-services.css": "8f0d02f980785d8a08e2ec31c3a19df89f68b9af8cafd00f628a2d475c3acf56"
+  },
+  "captures": [
+    {
+      "file": "static-supplement-ar-hub-390-needs-middle.png",
+      "at": "2026-10-09T11:35:23.381Z",
+      "measure": {
+        "header": 72,
+        "primary": {
+          "x": 44.015625,
+          "y": 154.78125,
+          "width": 303.234375,
+          "height": 58.5,
+          "top": 154.78125,
+          "right": 347.25,
+          "bottom": 213.28125,
+          "left": 44.015625
+        },
+        "second": {
+          "x": 62,
+          "y": 407.0625,
+          "width": 275.40625,
+          "height": 41.59375,
+          "top": 407.0625,
+          "right": 337.40625,
+          "bottom": 448.65625,
+          "left": 62
+        },
+        "viewport": 844
+      }
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "finalSource": {
+    "components/services/TravelServicesHub.tsx": "a5314c0f7ab73a9221c59c593795a8ed3a460725467eadc9f74fff5bcf027911",
+    "components/services/ServiceExperience.tsx": "705a4ef40c027b30ec8f82f2e49309f545809021806acfb589ee5723ca542985",
+    "components/services/ServicePrimitives.tsx": "120d1f389d3e990eb126562ffe1bf4232c452679ed7efacbef8ff7e15a788968",
+    "components/travel/Pages.tsx": "b91dfc445fac1e16a63e0053fb631fbb38d6045d260e9177aaf6e5e764b2d659",
+    "styles/recovery-services.css": "8f0d02f980785d8a08e2ec31c3a19df89f68b9af8cafd00f628a2d475c3acf56"
+  },
+  "finishedAt": "2026-10-09T11:35:23.408Z"
+}

@@ -1,0 +1,274 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 352,
+          "y": 117.640625,
+          "width": 1028,
+          "height": 657
+        },
+        "photoRatio": 0.7787878787878788,
+        "titleBottom": 622.453125,
+        "actionsBottom": 740.640625,
+        "overflow": false
+      },
+      "samples": [
+        {
+          "label": "start",
+          "time": 0,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 0% 0px, 9% 100%, 0px 100%)"
+        },
+        {
+          "label": "mid",
+          "time": 300,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 50% 0px, 54.5% 100%, 0px 100%)"
+        },
+        {
+          "label": "end",
+          "time": 599,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 99.9998% 0px, 99.9998% 100%, 0px 100%)"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 352,
+          "y": 117.65625,
+          "width": 1028,
+          "height": 657
+        },
+        "photoRatio": 0.7787878787878788,
+        "titleBottom": 644.5625,
+        "actionsBottom": 740.65625,
+        "overflow": false
+      },
+      "samples": [
+        {
+          "label": "start",
+          "time": 0,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 0% 0px, 9% 100%, 0px 100%)"
+        },
+        {
+          "label": "mid",
+          "time": 300,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 50% 0px, 54.5% 100%, 0px 100%)"
+        },
+        {
+          "label": "end",
+          "time": 599,
+          "method": "Native CSS animations paused at exact timeline time; preceding selection sequence recorded naturally",
+          "clip": "polygon(0px 0px, 99.9998% 0px, 99.9998% 100%, 0px 100%)"
+        }
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": false,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 258,
+          "y": 118.40625,
+          "width": 742,
+          "height": 660
+        },
+        "photoRatio": 0.7602459016393442,
+        "titleBottom": 566.21875,
+        "actionsBottom": 684.40625,
+        "overflow": false
+      },
+      "samples": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 16,
+          "y": 104.90625,
+          "width": 358,
+          "height": 620
+        },
+        "photoRatio": 1,
+        "titleBottom": 528.125,
+        "actionsBottom": 642.90625,
+        "overflow": false
+      },
+      "samples": []
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "reduced": false,
+      "effective": {
+        "reduce": false,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 258,
+          "y": 117.84375,
+          "width": 486,
+          "height": 660
+        },
+        "photoRatio": 0.675,
+        "titleBottom": 565.65625,
+        "actionsBottom": 683.84375,
+        "overflow": false
+      },
+      "samples": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": true,
+      "effective": {
+        "reduce": true,
+        "manual": "system",
+        "saveData": false
+      },
+      "shown": [
+        "istanbul",
+        "trabzon",
+        "rize-ayder",
+        "uzungol",
+        "antalya",
+        "bodrum",
+        "fethiye",
+        "marmaris",
+        "sapanca",
+        "bursa",
+        "yalova",
+        "cappadocia"
+      ],
+      "geometry": {
+        "stage": {
+          "x": 352,
+          "y": 117.640625,
+          "width": 1028,
+          "height": 657
+        },
+        "photoRatio": 0.7787878787878788,
+        "titleBottom": 622.453125,
+        "actionsBottom": 740.640625,
+        "overflow": false
+      },
+      "samples": []
+    }
+  ],
+  "errors": [],
+  "failedImageRetainsOld": true,
+  "latestWins": true
+}

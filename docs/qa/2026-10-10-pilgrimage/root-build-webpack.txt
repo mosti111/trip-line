@@ -1,0 +1,60 @@
+$ next build "--webpack"
+▲ Next.js 16.3.6 (webpack)
+- Environments: .env.local
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Running next.config.ts took 9.7s
+  Skipping creating a lockfile at C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\.next\lock because we're using WASM bindings
+
+  Creating an optimized production build ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Compiled successfully in 85s
+  Running TypeScript ...
+  Finished TypeScript in 12.2s ...
+  Collecting page data using 7 workers ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\node_modules\.pnpm\@next+swc-win32-x64-msvc@16.3.6\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9)
+  Generating static pages using 7 workers (4/9)
+  Generating static pages using 7 workers (6/9)
+✓ Generating static pages using 7 workers (9/9) in 1053ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /[locale]/[[...slug]]
+├ ƒ /about
+├ ƒ /contact
+├ ƒ /journeys
+├ ƒ /journeys/[slug]
+├ ƒ /preview/[type]/[id]
+├ ○ /robots.txt
+├ ƒ /services
+├ ƒ /services/[slug]
+└ ○ /sitemap.xml
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand

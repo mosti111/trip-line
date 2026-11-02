@@ -1,0 +1,44 @@
+{
+  "baseRevision": "a4a448b4bfe6bddac2d89cd79634248f7ee88ba3",
+  "branch": "feat/v3-ux-motion-recovery",
+  "capturedAt": "2026-10-06T07:43:55.977Z",
+  "stage": "H02 static including R1",
+  "files": [
+    {
+      "path": "frontend-v2/components/home-v3/HomeJourney.tsx",
+      "sha256": "8cf1545c9020eeb1495b756ba23a1da5b754a8e69d96878f582e93aa7f25af61"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeArrival.tsx",
+      "sha256": "aef4786d856cb9a286504b047424f6ba72423ba4f72153122d0dd482fb56d43d"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeEditorial.tsx",
+      "sha256": "8e22589899f1cf0680d80f4250b7267e3af20f9d66cb29706ef98b222f32b254"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/ServiceWorlds.tsx",
+      "sha256": "d6fc59d7ed97404df7c6c3784d65b1e7405172c1723457cdc82f5e9d64b7dbe9"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/JourneyBuilder.tsx",
+      "sha256": "2c9fa6399b3095648ecf7d09d5ac8b6a0e1c6412cf44e49ff673b16878e4d5e2"
+    },
+    {
+      "path": "frontend-v2/components/travel/TurkeyDiscovery.tsx",
+      "sha256": "59b79a4d8a5822aaef7eec3634d55f32025a28c3dad6e1c464ea50d8deda90fc"
+    },
+    {
+      "path": "frontend-v2/components/turkiye/TurkeyMap.tsx",
+      "sha256": "4dd1c08eccd49298c459315a918c1168116f98dd605dcb65e0762cb5028dd439"
+    },
+    {
+      "path": "frontend-v2/styles/recovery-home.css",
+      "sha256": "5c76db4ac479fa98b03208d7e6f478d41a01f46cfdd3c68e72bebf9804012702"
+    },
+    {
+      "path": "frontend-v2/styles/recovery-turkiye.css",
+      "sha256": "8767eb8267e3638696524ad048562cd68bc2ded3e75bac0412dfcc6b1129a2ee"
+    }
+  ]
+}

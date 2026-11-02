@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "phase": "fallbacks",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-20T22:15:51.436Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "cases": [
+    {
+      "name": "homepage fallback en noJS"
+    },
+    {
+      "name": "homepage fallback en reduced"
+    },
+    {
+      "name": "homepage fallback en SaveData"
+    },
+    {
+      "name": "homepage fallback en touch"
+    },
+    {
+      "name": "homepage fallback en noWebGL"
+    },
+    {
+      "name": "homepage fallback tr noJS"
+    },
+    {
+      "name": "homepage fallback tr reduced"
+    },
+    {
+      "name": "homepage fallback tr SaveData"
+    },
+    {
+      "name": "homepage fallback tr touch"
+    },
+    {
+      "name": "homepage fallback tr noWebGL"
+    },
+    {
+      "name": "homepage fallback ar noJS"
+    },
+    {
+      "name": "homepage fallback ar reduced"
+    },
+    {
+      "name": "homepage fallback ar SaveData"
+    },
+    {
+      "name": "homepage fallback ar touch"
+    },
+    {
+      "name": "homepage fallback ar noWebGL"
+    }
+  ],
+  "screens": [
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noJS-en.png",
+      "sha256": "c0a37091fadb6da27d15be4af0e8545b287e1c2292f00c558eb4d62b1e263979",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\reduced-en.png",
+      "sha256": "dfbf7a505d2e7a48c9b083196bff06eef8ae895c8e22c41094266bbf89cdbf6e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\SaveData-en.png",
+      "sha256": "b1e4271601269189188d426d49b79036bd40707386b5e7c8d05b7e299b4c648e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\touch-en.png",
+      "sha256": "90c60e4d029f1de5960a29c4eeac867141249cc69cb50996c3dffe3079a92ceb",
+      "locale": "en",
+      "width": 390,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noWebGL-en.png",
+      "sha256": "35bb3e14c5c365d43631505f391bae2a57f0324444586ffff631502457446fac",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noJS-tr.png",
+      "sha256": "87ec7700869aa968934d2adbfc02ac0e3b86dd4f2916f487b4c57a8e1680daa9",
+      "locale": "tr",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\reduced-tr.png",
+      "sha256": "1c593e98eb32fd740863c9928c681706fb11ea8019560e4cb27490876a3fd50f",
+      "locale": "tr",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\SaveData-tr.png",
+      "sha256": "a446e31b014d2012a6541d9a9ff54e9ec976e73400c04badd26de134c6c3f1ab",
+      "locale": "tr",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\touch-tr.png",
+      "sha256": "75cbaf75ecbd43e7f2c7551719521aba7ef73bdbf4a144f6a844aea4fd02b879",
+      "locale": "tr",
+      "width": 390,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noWebGL-tr.png",
+      "sha256": "1a7077f206ba7280182523317ad40467d0e81d7e0068c0e13b80a4c1b5640f46",
+      "locale": "tr",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noJS-ar.png",
+      "sha256": "f4d137f46baf2e51863e91bfd90470c5ee3319d70b824bbfbbb09bb8dd1498e3",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\reduced-ar.png",
+      "sha256": "a5f5df9068db36d8af60c92cc9a6e05a77d2cc8aeb1d9046136b60aa177a33a3",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\SaveData-ar.png",
+      "sha256": "d15938a62739f69b21794ce20c54ab770324ae0e4e1d97c21f89ff7e72df3dd1",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\touch-ar.png",
+      "sha256": "f384a62e4ccac7f8b67c9ca00469fa05a592be7d6eac933fe4007e00fcb6a34f",
+      "locale": "ar",
+      "width": 390,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\corrected\\recovery\\fallbacks\\2026-10-20T22-15-51.434Z\\noWebGL-ar.png",
+      "sha256": "da4d7b69aabeb60f5c209560bc72a054e742d9a63462e708bd4ea292a40f8d71",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "locale": "en",
+      "mode": "noWebGL",
+      "expectedInjectedRendererErrors": [
+        {
+          "name": "en-1440",
+          "kind": "console",
+          "message": "THREE.WebGLRenderer: Error creating WebGL context."
+        },
+        {
+          "name": "en-1440",
+          "kind": "console",
+          "message": "Error: Error creating WebGL context.\n    at new co (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:232:20342)\n    at h (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18625)\n    at Object.configure (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18748)\n    at http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:42215\n    at iw (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:118597)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128692)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:130953)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128716)"
+        }
+      ]
+    },
+    {
+      "locale": "tr",
+      "mode": "noWebGL",
+      "expectedInjectedRendererErrors": [
+        {
+          "name": "tr-1440",
+          "kind": "console",
+          "message": "THREE.WebGLRenderer: Error creating WebGL context."
+        },
+        {
+          "name": "tr-1440",
+          "kind": "console",
+          "message": "Error: Error creating WebGL context.\n    at new co (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:232:20342)\n    at h (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18625)\n    at Object.configure (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18748)\n    at http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:42215\n    at iw (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:118597)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128692)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:130953)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128716)"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "mode": "noWebGL",
+      "expectedInjectedRendererErrors": [
+        {
+          "name": "ar-1440",
+          "kind": "console",
+          "message": "THREE.WebGLRenderer: Error creating WebGL context."
+        },
+        {
+          "name": "ar-1440",
+          "kind": "console",
+          "message": "Error: Error creating WebGL context.\n    at new co (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:232:20342)\n    at h (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18625)\n    at Object.configure (http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:18748)\n    at http://localhost:3043/_next/static/chunks/07xlcpkd3c73t.js:243:42215\n    at iw (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:118597)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128692)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:130953)\n    at ud (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:141847)\n    at i8 (http://localhost:3043/_next/static/chunks/1ch6bafneugnw.js:1:128716)"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "sourceHashes": {
+    "styles/recovery-shell.css": "e4aae0120062057286103e5a1fb9c4096fe97429cfdb4ddffeec7a9bad28cea5",
+    "scripts/verify-recovery.mjs": "7bdaf4895bcf1c283f668ef031a4ff22876760b2186af850f4e771c8e9ba7da1",
+    "scripts/verify-recovery-contact.mjs": "dbd60da6f501d4baec194323118ec0a906ab395c69a85153497c66f4a71e8259",
+    "scripts/verify-public.mjs": "0951c35bc99b78b9d5987d74b0a9e8b1c6989c96b3bcfa442b0fca8beafc579a",
+    "scripts/verify-v3.mjs": "f1266cd3bcba67cffdd1d7cc0330495a7b7574b7ae5ec5c831615460561dd256",
+    "scripts/verify-v3-resilience.mjs": "f50b4d53310ba3f9ae4e637231bd0c92a5a612e413088bbada3f6d155b64530b",
+    "scripts/verify-reconstruction.mjs": "4eaaf55295e373e3f40c45a9d03def517a8f27269788c35d4f288ab50c4c3a4b",
+    "scripts/verify-reconstruction-media.mjs": "1d741f2aec85a590b87a77902c7025c4b73a007f9d68a62825efb193eddccdb8",
+    "scripts/verify-planner-throttled.mjs": "d48be8aff5d9f5fe8bda4bb9fab519b1c7a23a76b49564e0c919887ea339ce77"
+  },
+  "applicationDiffSha256": "4ccb5b1150a7508db7815f75da01138e396dd6202dc33e4b06c21e0483ca02c9",
+  "browserVersion": "153.0.8010.12",
+  "finishedAt": "2026-10-20T22:16:54.333Z"
+}

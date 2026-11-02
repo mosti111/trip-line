@@ -1,0 +1,3152 @@
+{
+  "stage": "static",
+  "suite": "public",
+  "status": "passed",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-06T14:23:54.643Z",
+  "browser": "Chromium",
+  "routes": [
+    "/en/",
+    "/en/services",
+    "/en/services/tours",
+    "/en/services/hajj-umrah",
+    "/en/services/camps",
+    "/en/services/corporate",
+    "/en/services/flights-hotels",
+    "/en/services/tailor-made",
+    "/en/services/events",
+    "/en/services/training",
+    "/en/services/visa-assistance",
+    "/en/destinations",
+    "/en/destinations/turkiye",
+    "/en/destinations/georgia",
+    "/en/destinations/egypt",
+    "/en/destinations/saudi-arabia",
+    "/en/destinations/oman",
+    "/en/destinations/qatar",
+    "/en/destinations/uae",
+    "/en/destinations/maldives",
+    "/en/destinations/malaysia",
+    "/en/destinations/indonesia",
+    "/en/business",
+    "/en/about",
+    "/en/contact",
+    "/en/faq",
+    "/en/privacy",
+    "/en/terms",
+    "/en/destinations/turkiye/istanbul",
+    "/en/destinations/turkiye/trabzon",
+    "/en/destinations/turkiye/rize-ayder",
+    "/en/destinations/turkiye/uzungol",
+    "/en/destinations/turkiye/antalya",
+    "/en/destinations/turkiye/bodrum",
+    "/en/destinations/turkiye/fethiye",
+    "/en/destinations/turkiye/marmaris",
+    "/en/destinations/turkiye/sapanca",
+    "/en/destinations/turkiye/bursa",
+    "/en/destinations/turkiye/yalova",
+    "/en/destinations/turkiye/cappadocia",
+    "/ar/",
+    "/ar/services",
+    "/ar/services/tours",
+    "/ar/services/hajj-umrah",
+    "/ar/services/camps",
+    "/ar/services/corporate",
+    "/ar/services/flights-hotels",
+    "/ar/services/tailor-made",
+    "/ar/services/events",
+    "/ar/services/training",
+    "/ar/services/visa-assistance",
+    "/ar/destinations",
+    "/ar/destinations/turkiye",
+    "/ar/destinations/georgia",
+    "/ar/destinations/egypt",
+    "/ar/destinations/saudi-arabia",
+    "/ar/destinations/oman",
+    "/ar/destinations/qatar",
+    "/ar/destinations/uae",
+    "/ar/destinations/maldives",
+    "/ar/destinations/malaysia",
+    "/ar/destinations/indonesia",
+    "/ar/business",
+    "/ar/about",
+    "/ar/contact",
+    "/ar/faq",
+    "/ar/privacy",
+    "/ar/terms",
+    "/ar/destinations/turkiye/istanbul",
+    "/ar/destinations/turkiye/trabzon",
+    "/ar/destinations/turkiye/rize-ayder",
+    "/ar/destinations/turkiye/uzungol",
+    "/ar/destinations/turkiye/antalya",
+    "/ar/destinations/turkiye/bodrum",
+    "/ar/destinations/turkiye/fethiye",
+    "/ar/destinations/turkiye/marmaris",
+    "/ar/destinations/turkiye/sapanca",
+    "/ar/destinations/turkiye/bursa",
+    "/ar/destinations/turkiye/yalova",
+    "/ar/destinations/turkiye/cappadocia",
+    "/tr/",
+    "/tr/services",
+    "/tr/services/tours",
+    "/tr/services/hajj-umrah",
+    "/tr/services/camps",
+    "/tr/services/corporate",
+    "/tr/services/flights-hotels",
+    "/tr/services/tailor-made",
+    "/tr/services/events",
+    "/tr/services/training",
+    "/tr/services/visa-assistance",
+    "/tr/destinations",
+    "/tr/destinations/turkiye",
+    "/tr/destinations/georgia",
+    "/tr/destinations/egypt",
+    "/tr/destinations/saudi-arabia",
+    "/tr/destinations/oman",
+    "/tr/destinations/qatar",
+    "/tr/destinations/uae",
+    "/tr/destinations/maldives",
+    "/tr/destinations/malaysia",
+    "/tr/destinations/indonesia",
+    "/tr/business",
+    "/tr/about",
+    "/tr/contact",
+    "/tr/faq",
+    "/tr/privacy",
+    "/tr/terms",
+    "/tr/destinations/turkiye/istanbul",
+    "/tr/destinations/turkiye/trabzon",
+    "/tr/destinations/turkiye/rize-ayder",
+    "/tr/destinations/turkiye/uzungol",
+    "/tr/destinations/turkiye/antalya",
+    "/tr/destinations/turkiye/bodrum",
+    "/tr/destinations/turkiye/fethiye",
+    "/tr/destinations/turkiye/marmaris",
+    "/tr/destinations/turkiye/sapanca",
+    "/tr/destinations/turkiye/bursa",
+    "/tr/destinations/turkiye/yalova",
+    "/tr/destinations/turkiye/cappadocia"
+  ],
+  "checks": [
+    {
+      "name": "120 routes, branded 404 and preferred-language redirect",
+      "status": "passed"
+    },
+    {
+      "name": "Static chapters, primary Türkiye, secondary Beyond, index/map quickview, Explore and global Add",
+      "status": "passed"
+    },
+    {
+      "name": "Grouped regional directory and PlanningBrief GET handoff; inquiry name/email/consent and stale output",
+      "status": "passed"
+    },
+    {
+      "name": "Locale preserves query, cookie persists, mobile menu and journey drawer have scoped Escape/focus return",
+      "status": "passed"
+    },
+    {
+      "name": "Relocated Istanbul film decodes, plays, pauses/resumes, and pauses hidden/offscreen",
+      "status": "passed"
+    },
+    {
+      "name": "Six representative public templates: loaded images, H1, overflow and screenshots",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced-motion, saveData and three-locale no-JS static fallback semantics",
+      "status": "passed"
+    }
+  ],
+  "cases": [
+    {
+      "name": "home",
+      "route": "/en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal static"
+    },
+    {
+      "name": "turkiye-desktop",
+      "route": "/en/destinations/turkiye",
+      "width": 1280,
+      "height": 900,
+      "mode": "normal static"
+    },
+    {
+      "name": "turkiye-arabic",
+      "route": "/ar/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal static"
+    },
+    {
+      "name": "rize-mobile",
+      "route": "/ar/destinations/turkiye/rize-ayder",
+      "width": 360,
+      "height": 800,
+      "mode": "normal static"
+    },
+    {
+      "name": "antalya-tablet",
+      "route": "/tr/destinations/turkiye/antalya",
+      "width": 768,
+      "height": 1024,
+      "mode": "normal static"
+    },
+    {
+      "name": "contact",
+      "route": "/en/contact?destination=trabzon",
+      "width": 430,
+      "height": 932,
+      "mode": "normal static"
+    },
+    {
+      "mode": "reduced",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "mode": "saveData",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "mode": "noJS",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "visibleChapterH2": 15,
+      "destinations": 12,
+      "services": 9
+    },
+    {
+      "mode": "noJS",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "visibleChapterH2": 15,
+      "destinations": 12,
+      "services": 9
+    },
+    {
+      "mode": "noJS",
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "visibleChapterH2": 15,
+      "destinations": 12,
+      "services": 9
+    }
+  ],
+  "screens": [
+    {
+      "name": "home",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\home.png",
+      "route": "/en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "normal static"
+    },
+    {
+      "name": "turkiye-desktop",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\turkiye-desktop.png",
+      "route": "/en/destinations/turkiye",
+      "width": 1280,
+      "height": 900,
+      "mode": "normal static"
+    },
+    {
+      "name": "turkiye-arabic",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\turkiye-arabic.png",
+      "route": "/ar/destinations/turkiye",
+      "width": 390,
+      "height": 844,
+      "mode": "normal static"
+    },
+    {
+      "name": "rize-mobile",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\rize-mobile.png",
+      "route": "/ar/destinations/turkiye/rize-ayder",
+      "width": 360,
+      "height": 800,
+      "mode": "normal static"
+    },
+    {
+      "name": "antalya-tablet",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\antalya-tablet.png",
+      "route": "/tr/destinations/turkiye/antalya",
+      "width": 768,
+      "height": 1024,
+      "mode": "normal static"
+    },
+    {
+      "name": "contact",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\contact.png",
+      "route": "/en/contact?destination=trabzon",
+      "width": 430,
+      "height": 932,
+      "mode": "normal static"
+    },
+    {
+      "name": "reduced",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\reduced.png",
+      "mode": "reduced",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "saveData",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\saveData.png",
+      "mode": "saveData",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "nojs-en",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\nojs-en.png",
+      "mode": "noJS",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "nojs-ar",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\nojs-ar.png",
+      "mode": "noJS",
+      "locale": "ar",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "nojs-tr",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-static\\public\\nojs-tr.png",
+      "mode": "noJS",
+      "locale": "tr",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "expectedCancellations": [
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/rize-ayder?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/antalya?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&journey=antalya&destination=antalya&_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/about?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&destination=turkiye&_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/rize-ayder?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/trabzon?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/istanbul?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/uzungol?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "verified harness navigation destination",
+        "destination": "/en/destinations/turkiye"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "verified harness navigation destination",
+        "destination": "/en"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/privacy?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/contact?service=tours&journey=antalya&destination=antalya&_rsc=SDmtiWM5AYQMkhhI",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/business?_rsc=SDmtiWM5AYQMkhhI",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/about?_rsc=SDmtiWM5AYQMkhhI",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations?_rsc=SDmtiWM5AYQMkhhI",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/antalya?_rsc=SDmtiWM5AYQMkhhI",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/about?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/antalya?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "verified harness navigation destination",
+        "destination": "/en/destinations/turkiye/antalya"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/visa-assistance?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/training?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "public-interactions",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/camps?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/about?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/istanbul?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/rize-ayder?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tailor-made?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tours?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/flights-hotels?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/visa-assistance?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/corporate?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/events?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/camps?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/training?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/georgia?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/egypt?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/saudi-arabia?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/oman?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/malaysia?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/maldives?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/qatar?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/uae?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/indonesia?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/trabzon?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bodrum?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/fethiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/marmaris?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/yalova?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/privacy?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/sapanca?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/terms?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "home",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bursa?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/about?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&destination=turkiye&_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/istanbul?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/rize-ayder?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bursa?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/trabzon?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/fethiye?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bodrum?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/antalya?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/uzungol?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/sapanca?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/yalova?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/marmaris?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tours?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/camps?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/corporate?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tailor-made?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/flights-hotels?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/events?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/visa-assistance?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/training?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/faq?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/privacy?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-desktop",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/terms?_rsc=HLNR8-zYRse6stna",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/contact?service=tours&destination=turkiye&_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/contact?service=tours&_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/istanbul?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/bursa?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/bodrum?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/fethiye?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/antalya?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/marmaris?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/cappadocia?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/sapanca?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/yalova?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/hajj-umrah?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/tours?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/corporate?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/camps?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/visa-assistance?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/faq?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/about?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/business?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/terms?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/flights-hotels?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/tailor-made?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "turkiye-arabic",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/privacy?_rsc=H033YfqxFAw-kqVA",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/contact?service=tours&_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/flights-hotels?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/uzungol?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/antalya?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/trabzon?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/istanbul?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/bodrum?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/fethiye?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/marmaris?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/sapanca?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/bursa?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/hajj-umrah?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/terms?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/privacy?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/faq?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/visa-assistance?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/services/training?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "rize-mobile",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/ar/destinations/turkiye/yalova?_rsc=WxztPxQ-n_RBxg5j",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/flights-hotels?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/tours?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/tailor-made?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/istanbul?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/bodrum?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/rize-ayder?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/trabzon?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/hajj-umrah?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/camps?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/corporate?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/services/events?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/fethiye?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/marmaris?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/sapanca?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/bursa?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/yalova?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations/turkiye/cappadocia?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "antalya-tablet",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/tr/destinations?_rsc=5iikIpbghC5-SQ5k",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/camps?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tours?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/corporate?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/tailor-made?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/events?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/flights-hotels?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bodrum?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/visa-assistance?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/marmaris?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/fethiye?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/sapanca?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "contact",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/bursa?_rsc=bQfaZETtmDBiuz93",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "deliberate offscreen scan"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "reduced",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "reduced",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "reduced",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "reduced",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "reduced",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/antalya?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services/hajj-umrah?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/services?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/business?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/about?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/contact?service=tours&_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "saveData",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/en/destinations/turkiye/antalya?_rsc=1vwYfVB7_E9t4fEj",
+      "message": "net::ERR_ABORTED",
+      "method": "GET",
+      "resourceType": "fetch",
+      "prefetch": "1",
+      "rsc": "1",
+      "operation": null,
+      "classification": "Next speculative prefetch cancellation"
+    },
+    {
+      "name": "nojs-en",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+      "message": "csp",
+      "method": "GET",
+      "resourceType": "script",
+      "prefetch": null,
+      "rsc": null,
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Explicit no-JavaScript context blocked script preload"
+    },
+    {
+      "name": "nojs-ar",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+      "message": "csp",
+      "method": "GET",
+      "resourceType": "script",
+      "prefetch": null,
+      "rsc": null,
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Explicit no-JavaScript context blocked script preload"
+    },
+    {
+      "name": "nojs-tr",
+      "kind": "requestfailed",
+      "url": "http://localhost:3043/_next/static/chunks/2ukob-pdkwuum.js",
+      "message": "csp",
+      "method": "GET",
+      "resourceType": "script",
+      "prefetch": null,
+      "rsc": null,
+      "operation": {
+        "kind": "explicit navigation",
+        "method": "goto"
+      },
+      "classification": "Explicit no-JavaScript context blocked script preload"
+    }
+  ],
+  "gaps": [
+    "Full motion suite remains required after phase three; this gate asserts no canvas/pin."
+  ],
+  "finishedAt": "2026-10-06T14:25:10.441Z"
+}

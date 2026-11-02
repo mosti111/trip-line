@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "loadedAndShown": [
+        "rize-ayder",
+        "cappadocia",
+        "antalya",
+        "rize-ayder"
+      ],
+      "failedImageRetains": "rize-ayder"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "loadedAndShown": [
+        "rize-ayder",
+        "cappadocia",
+        "antalya",
+        "rize-ayder"
+      ],
+      "failedImageRetains": "rize-ayder"
+    }
+  ],
+  "errors": []
+}

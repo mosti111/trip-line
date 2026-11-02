@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "en-1440-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.9591, 0, 0, 0.9591, 0, 41.4)",
+      "trackStart": "matrix(1, 0, 0, 1, -13.8661, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -48.5345, 0)"
+    },
+    {
+      "id": "en-390-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.9782, 0, 0, 0.9782, 0, 41.3999)",
+      "trackStart": "matrix(1, 0, 0, 1, -55.4657, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -76.8001, 0)"
+    },
+    {
+      "id": "ar-1440-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.9591, 0, 0, 0.9591, 0, 41.4)",
+      "trackStart": "matrix(1, 0, 0, 1, -13.8685, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -48.5317, 0)"
+    },
+    {
+      "id": "ar-390-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.9782, 0, 0, 0.9782, 0, 41.3999)",
+      "trackStart": "matrix(1, 0, 0, 1, -59.1992, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -81.0648, 0)"
+    },
+    {
+      "id": "tr-1024-motion",
+      "heroStart": "matrix(1, 0, 0, 1, 0, 0)",
+      "heroDeparted": "matrix(0.9521, 0, 0, 0.9521, 0, 41.3998)",
+      "trackStart": "matrix(1, 0, 0, 1, -14.7368, 0)",
+      "trackEnd": "matrix(1, 0, 0, 1, -49.4, 0)"
+    },
+    {
+      "id": "en-1440-reduced",
+      "heroStart": "none",
+      "heroDeparted": "none",
+      "trackStart": "none",
+      "trackEnd": "none"
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12"
+}

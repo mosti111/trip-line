@@ -1,0 +1,102 @@
+{
+  "startedAt": "2026-10-19T22:33:30.446Z",
+  "browser": "Chromium",
+  "stage": "full",
+  "status": "passed",
+  "cpuThrottle": 4,
+  "cases": [
+    {
+      "locale": "en",
+      "attempt": 1,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "en",
+      "attempt": 2,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "en",
+      "attempt": 3,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "ar",
+      "attempt": 1,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "ar",
+      "attempt": 2,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "ar",
+      "attempt": 3,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "tr",
+      "attempt": 1,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "tr",
+      "attempt": 2,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    },
+    {
+      "locale": "tr",
+      "attempt": 3,
+      "selectedBeforeKeyboard": "antalya,istanbul",
+      "afterKeyboard": "antalya",
+      "boundaryFocus": true,
+      "removalFocus": true
+    }
+  ],
+  "errors": [],
+  "persistence": [
+    {
+      "locale": "en",
+      "ordered": "istanbul,antalya",
+      "journeyType": "corporate",
+      "cpuThrottle": 4
+    },
+    {
+      "locale": "ar",
+      "ordered": "istanbul,antalya",
+      "journeyType": "corporate",
+      "cpuThrottle": 4
+    },
+    {
+      "locale": "tr",
+      "ordered": "istanbul,antalya",
+      "journeyType": "corporate",
+      "cpuThrottle": 4
+    }
+  ]
+}

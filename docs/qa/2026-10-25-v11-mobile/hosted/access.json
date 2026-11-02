@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "engine": "chromium",
+      "locale": "en",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/en"
+    },
+    {
+      "engine": "chromium",
+      "locale": "tr",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/tr"
+    },
+    {
+      "engine": "chromium",
+      "locale": "ar",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/ar"
+    },
+    {
+      "engine": "webkit",
+      "locale": "en",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/en"
+    },
+    {
+      "engine": "webkit",
+      "locale": "tr",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/tr"
+    },
+    {
+      "engine": "webkit",
+      "locale": "ar",
+      "initialCookies": 0,
+      "loginRequired": false,
+      "width": 390,
+      "profile": "iPhone 13 emulation; not physical Safari",
+      "url": "https://trip-line-journal-v223-10lita4c5.vercel.app/ar"
+    }
+  ],
+  "status": "passed",
+  "errors": []
+}

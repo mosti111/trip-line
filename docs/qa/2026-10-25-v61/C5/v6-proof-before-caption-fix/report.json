@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "cases": [],
+  "errors": [],
+  "failure": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false"
+}

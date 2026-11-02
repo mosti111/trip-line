@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "transitions": [
+        {
+          "time": 6290.899999976158,
+          "animations": [
+            {
+              "duration": 260,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 200,
+              "pseudo": null
+            },
+            {
+              "duration": 180,
+              "pseudo": "::after"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-group(place-antalya)"
+            },
+            {
+              "duration": 250,
+              "pseudo": "::view-transition-old(root)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-new(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-new(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition-group(root)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition"
+            }
+          ]
+        }
+      ],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "reduced": false,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "transitions": [
+        {
+          "time": 5595.5,
+          "animations": [
+            {
+              "duration": 260,
+              "pseudo": null
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-group(place-antalya)"
+            },
+            {
+              "duration": 250,
+              "pseudo": "::view-transition-old(root)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-new(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-new(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 800,
+              "pseudo": "::view-transition-old(place-antalya)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition-group(root)"
+            },
+            {
+              "duration": 0,
+              "pseudo": "::view-transition"
+            }
+          ]
+        }
+      ],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "height": 768,
+      "reduced": true,
+      "fallback": false,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "transitions": [],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "reduced": false,
+      "fallback": true,
+      "sourceImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "destinationImage": "/_next/image?url=%2Fmedia%2Fantalya.jpg&w=3840&q=85",
+      "transitions": [],
+      "routes": [
+        "destinations/turkiye/cappadocia",
+        "destinations/turkiye/rize-ayder",
+        "services/tours",
+        "services/corporate",
+        "services/hajj-umrah"
+      ]
+    }
+  ],
+  "errors": []
+}

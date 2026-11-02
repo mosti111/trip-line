@@ -1,0 +1,97 @@
+{
+  "base": "http://localhost:3043",
+  "revision": "2989f28e006c1c2284ee36d53d03f5ee1452aa1d",
+  "applicationFingerprints": {
+    "components/travel/Inquiry.tsx": "b1b194c9dda1187e07da31d1e3d4243b80e6de341eeabc540c2eb7b303a89ae2",
+    "components/travel/Pages.tsx": "1b658cddb2c45ce9abaf56325a980ebf83fcc79cc7735529b0f5d0d38a2fbba6",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "ad17177c7ba19da3d207dd81df158a66e97685954bd1551fa49db457575d5651"
+  },
+  "captures": [
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar390-form.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:33.939Z",
+      "sha256": "d7bc7626844139a4fc89e6e052d872202b061981e03271ace0705c4e03c98b9c"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar390-prepared.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:34.304Z",
+      "sha256": "302400feb6bf556ac33b7f739e7986d8cb99acd5a2e2625410aa3102b9f73a4f"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar390-summary.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:33.832Z",
+      "sha256": "3530e4b599fe6451f5b79d8584ecc5dbeb67ece9af79ad7a96761f8443012290"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar390-top.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:33.524Z",
+      "sha256": "00cffe3da6cfa19e4017f0b68ca0070e7d7461629fad2483af41c2c62d43a407"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar768-form.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-15T22:07:36.240Z",
+      "sha256": "ba41d063e8a8cad63732b1cb3f3de70ffee3f75a47e7508af6008779a9f0c701"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar768-prepared.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-15T22:07:36.554Z",
+      "sha256": "1a66124394a3e43aa8c8a8894e3f7dc726f2d38675ec7666b9d5f6e87e9ec1be"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar768-summary.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-15T22:07:36.128Z",
+      "sha256": "a0e8b26067085dc76db44adba2bb65db1cd858e7ff4fe5aa163d1d5f20ae3e35"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/ar768-top.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-15T22:07:35.940Z",
+      "sha256": "eae3a16950d497323aa31706c38ab8d2849c390b3aa2e44a93eba8f9ffaf3c89"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/en390-form.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:31.071Z",
+      "sha256": "270bd243ce1668bb0770753643a021fcbbc9876dd0618148a70be2628bcd0473"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/en390-prepared.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:31.415Z",
+      "sha256": "a87dc796fea015a7aaa86e063aff6b52c5a8ee95b7a2110054e0aa70cef7dca3"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/en390-summary.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:30.986Z",
+      "sha256": "7d0e2013661b9e432ed4f70aef23bc7f1e03a987dec8b06459240caf214f6e6b"
+    },
+    {
+      "file": "tmp/frontend-qa/recovery-contact/2026-10-15T22-05-54.122Z/native/en390-top.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-15T22:07:30.720Z",
+      "sha256": "23c783cd0a0e44b88ac8813272d2829db54406724687345e5341fa7c3fecc478"
+    }
+  ]
+}

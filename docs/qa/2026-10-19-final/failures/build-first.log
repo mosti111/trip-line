@@ -1,0 +1,14 @@
+$ next build
+▲ Next.js 16.3.6 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 158ms
+
+> Build error occurred
+Error: EPERM: operation not permitted, unlink 'C:\Users\mosta\OneDrive\Documents\ChatGPT\trip line\frontend-v2\.next\server\app\preview\[type]\[id]\page'
+    at ignore-listed frames {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: 'C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\.next\\server\\app\\preview\\[type]\\[id]\\page'
+}
+[ELIFECYCLE] Command failed with exit code 1.

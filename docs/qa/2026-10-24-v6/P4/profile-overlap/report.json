@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3006",
+  "startedAt": "2026-10-24T21:51:38.647Z",
+  "cases": [],
+  "errors": [],
+  "recordings": [
+    {
+      "kind": "complete-desktop-wheel",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\page@818ee09efee4ba2cbb14934a0ad67d3b.webm",
+      "end": {
+        "y": 16354,
+        "max": 16354
+      }
+    },
+    {
+      "kind": "complete-Arabic-mobile-menu-and-touch-scroll",
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\page@8e54dfe425ce58016f406c072521344e.webm",
+      "end": {
+        "y": 17860,
+        "max": 17860
+      }
+    }
+  ],
+  "performance": {
+    "scope": "headless Chromium1440x900, real continuous wheel, video+trace enabled; interval data is not FPS or field-device certification",
+    "samples": 1239,
+    "frameIntervalsMs": {
+      "median": 33.30000000000291,
+      "p95": 83.29999999999927,
+      "p99": 216.59999999999854,
+      "max": 933.3000000000029
+    },
+    "longTasks": [
+      {
+        "start": 9606.099999904633,
+        "duration": 58
+      },
+      {
+        "start": 9665.5,
+        "duration": 68
+      },
+      {
+        "start": 26032.399999976158,
+        "duration": 737
+      },
+      {
+        "start": 29594,
+        "duration": 128
+      },
+      {
+        "start": 40348.699999928474,
+        "duration": 137
+      },
+      {
+        "start": 41219.89999997616,
+        "duration": 933
+      }
+    ]
+  },
+  "browser": "153.0.8010.12",
+  "finishedAt": "2026-10-24T21:53:59.249Z",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\desktop-end.png",
+      "bytes": 579005,
+      "sha256": "9a47a19253d8eb8cce4c129455b0a5919f0f4a1668a1b9567583639225a26ef7"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\desktop-trace.json",
+      "bytes": 10365220,
+      "sha256": "cba2b1cce4c1f7f3824dc9e58991008cf93de750b6ac1da099c8f0df89947fee"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\menu-ar-mobile.png",
+      "bytes": 52290,
+      "sha256": "212d1762bf1e55d126e1c2b7bdf319670d01df1e502da69dabc04fb07705cd70"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\mobile-interaction.png",
+      "bytes": 27856,
+      "sha256": "51b6b7ea0c0c806cb65ce85b053b5805b904b08eebd8305416b488e20464f6da"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\page@818ee09efee4ba2cbb14934a0ad67d3b.webm",
+      "bytes": 10198187,
+      "sha256": "16da54dcc1ea6151cfd5974f095a8dd97c6ee21cf6c49f8cbadab6d33516dbda"
+    },
+    {
+      "path": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\v6-resume-profile\\page@8e54dfe425ce58016f406c072521344e.webm",
+      "bytes": 6628354,
+      "sha256": "7c63f9132d0991b1f134e00a916f1564e6aeb606627f55634f79266ac389e480"
+    }
+  ]
+}

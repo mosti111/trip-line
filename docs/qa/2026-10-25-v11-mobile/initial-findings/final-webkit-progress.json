@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "cases": 24,
+  "findings": [],
+  "last": {
+    "locale": "ar",
+    "route": "",
+    "reduced": false
+  }
+}

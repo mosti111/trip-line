@@ -1,0 +1,62 @@
+{
+  "reviewer": "/root",
+  "buildId": "SoQy-aoR26IuNSvso9BsX",
+  "reviewed": [
+    "recovery/targets/2026-10-19T13-25-12.464Z/target-en-360x800.png",
+    "recovery/targets/2026-10-19T13-25-12.464Z/target-ar-390x844.png",
+    "recovery/targets/2026-10-19T13-25-12.464Z/target-ar-844x390.png",
+    "recovery/accessibility/2026-10-19T13-26-26.981Z/settled-menu-ar-390.png",
+    "recovery/accessibility/2026-10-19T13-26-26.981Z/settled-menu-tr-768.png",
+    "recovery/accessibility/2026-10-19T13-26-26.981Z/text200-ar-390.png",
+    "v3/services-keyboard-ar.png",
+    "reconstruction/ar-390-06.png",
+    "reconstruction/ar-768-04.png",
+    "reconstruction/ar-390-15.png",
+    "reconstruction/tr-390-11.png",
+    "reconstruction/tr-768-12.png",
+    "reconstruction/en-390-02.png",
+    "reconstruction/en-390-planner-selected.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-en-360x800-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-en-768x1024-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-en-844x390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-en-1280x600-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/en-destinations-turkiye-390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/en-services-hajj-umrah-390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/en-business-1440-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/en-not-a-page-390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-tr-360x800-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/tr-destinations-turkiye-antalya-1440-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-ar-390x844-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/home-ar-1024x768-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/ar-about-390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/ar-destinations-georgia-390-viewport.png",
+    "recovery/matrix/2026-10-20T17-15-54.527Z/ar-privacy-390-viewport.png",
+    "recovery/integrity/2026-10-20T17-30-09.030Z/ar390-prepared-open-message.png",
+    "recovery/integrity/2026-10-20T17-30-09.030Z/antalya-enlargement-en.png"
+  ],
+  "result": "PASS WITH FOLLOW-UP: no new visual regression; accepted Antalya source limitation retained.",
+  "notes": [
+    "Corrected44px menu targets preserve coherent header",
+    "Settled menus/readable connectedArabic/visiblefocus",
+    "Natural media/LTRcoordinates/non-map12place index",
+    "Filmcontrols/stickyCTA/finalarrival coherent",
+    "TRservices/Builder and ENselectedroute usable",
+    "ENlandscape bothprimaryactionsfirstscreen"
+  ],
+  "completedAt": "2026-10-20T22:21:13.895Z",
+  "motionReview": {
+    "method": "Actual IAB playback with timed visual samples from four uncut corrected recordings, native captures and recorded wheel/frame traces; prior accepted motion implementation unchanged by Q12.",
+    "clips": [
+      "en1440x900",
+      "ar1440x900",
+      "en1280x600",
+      "tr1280x600"
+    ],
+    "observations": [
+      "Readable opening and reverse restoration",
+      "Dimensional ribbon returns on reverse; matched route retained across service progression and Türkiye entrance",
+      "Short-height composition retains primary actions; no new regression observed"
+    ],
+    "limitation": "Sampled visual playback review, not frame-by-frame certification or field performance measurement."
+  }
+}

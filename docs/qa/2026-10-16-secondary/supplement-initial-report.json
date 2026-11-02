@@ -1,0 +1,217 @@
+{
+  "startedAt": "2026-10-16T18:09:37.147Z",
+  "cases": [
+    {
+      "name": "fresh en 1280",
+      "geometry": {
+        "scrollY": 0,
+        "header": {
+          "top": 0,
+          "bottom": 72,
+          "height": 72
+        },
+        "h1": {
+          "x": 64,
+          "y": 168.796875,
+          "width": 679.375,
+          "height": 143.8125,
+          "top": 168.796875,
+          "right": 743.375,
+          "bottom": 312.609375,
+          "left": 64
+        }
+      }
+    },
+    {
+      "name": "anchor en 1280 #faq-planning",
+      "geometry": {
+        "targetTop": 197.796875,
+        "headerBottom": 72,
+        "scrollY": 329
+      }
+    },
+    {
+      "name": "anchor en 1280 #faq-turkiye",
+      "geometry": {
+        "targetTop": 198.0625,
+        "headerBottom": 72,
+        "scrollY": 934
+      }
+    },
+    {
+      "name": "anchor en 1280 #faq-hajj",
+      "geometry": {
+        "targetTop": 197.765625,
+        "headerBottom": 72,
+        "scrollY": 1182
+      }
+    },
+    {
+      "name": "anchor en 1280 #faq-business",
+      "geometry": {
+        "targetTop": 198.46875,
+        "headerBottom": 72,
+        "scrollY": 1363
+      }
+    },
+    {
+      "name": "anchor en 1280 #faq-inquiry",
+      "geometry": {
+        "targetTop": 197.546875,
+        "headerBottom": 72,
+        "scrollY": 1828
+      }
+    },
+    {
+      "name": "fresh ar 390",
+      "geometry": {
+        "scrollY": 0,
+        "header": {
+          "top": 0,
+          "bottom": 72,
+          "height": 72
+        },
+        "h1": {
+          "x": 22,
+          "y": 163.796875,
+          "width": 346,
+          "height": 120.96875,
+          "top": 163.796875,
+          "right": 368,
+          "bottom": 284.765625,
+          "left": 22
+        }
+      }
+    },
+    {
+      "name": "anchor ar 390 #faq-planning",
+      "geometry": {
+        "targetTop": 198.34375,
+        "headerBottom": 72,
+        "scrollY": 569
+      }
+    },
+    {
+      "name": "anchor ar 390 #faq-turkiye",
+      "geometry": {
+        "targetTop": 198.0625,
+        "headerBottom": 72,
+        "scrollY": 1192
+      }
+    },
+    {
+      "name": "anchor ar 390 #faq-hajj",
+      "geometry": {
+        "targetTop": 197.625,
+        "headerBottom": 72,
+        "scrollY": 1432
+      }
+    },
+    {
+      "name": "anchor ar 390 #faq-business",
+      "geometry": {
+        "targetTop": 198.1875,
+        "headerBottom": 72,
+        "scrollY": 1605
+      }
+    },
+    {
+      "name": "anchor ar 390 #faq-inquiry",
+      "geometry": {
+        "targetTop": 198.125,
+        "headerBottom": 72,
+        "scrollY": 2061
+      }
+    },
+    {
+      "name": "expanded AR390",
+      "geometry": {
+        "scrollY": 399,
+        "header": {
+          "top": 0,
+          "bottom": 72,
+          "height": 72
+        },
+        "h1": {
+          "x": 22,
+          "y": -235.203125,
+          "width": 346,
+          "height": 120.96875,
+          "top": -235.203125,
+          "right": 368,
+          "bottom": -114.234375,
+          "left": 22
+        }
+      }
+    },
+    {
+      "name": "fresh ar 768",
+      "geometry": {
+        "scrollY": 0,
+        "header": {
+          "top": 0,
+          "bottom": 72,
+          "height": 72
+        },
+        "h1": {
+          "x": 319.59375,
+          "y": 198.796875,
+          "width": 410,
+          "height": 125.40625,
+          "top": 198.796875,
+          "right": 729.59375,
+          "bottom": 324.203125,
+          "left": 319.59375
+        }
+      }
+    },
+    {
+      "name": "anchor ar 768 #faq-planning",
+      "geometry": {
+        "targetTop": 197.796875,
+        "headerBottom": 72,
+        "scrollY": 311
+      }
+    },
+    {
+      "name": "anchor ar 768 #faq-turkiye",
+      "geometry": {
+        "targetTop": 197.921875,
+        "headerBottom": 72,
+        "scrollY": 916
+      }
+    },
+    {
+      "name": "anchor ar 768 #faq-hajj",
+      "geometry": {
+        "targetTop": 198.484375,
+        "headerBottom": 72,
+        "scrollY": 1163
+      }
+    },
+    {
+      "name": "anchor ar 768 #faq-business",
+      "geometry": {
+        "targetTop": 198.046875,
+        "headerBottom": 72,
+        "scrollY": 1345
+      }
+    },
+    {
+      "name": "anchor ar 768 #faq-inquiry",
+      "geometry": {
+        "targetTop": 197.984375,
+        "headerBottom": 72,
+        "scrollY": 1809
+      }
+    }
+  ],
+  "screens": [
+    "supplement-en-1280x600-faq-fresh-native.png",
+    "supplement-ar-390x844-faq-fresh-native.png",
+    "supplement-ar-390x844-faq-expanded-native.png",
+    "supplement-ar-768x1024-faq-fresh-native.png"
+  ],
+  "status": "passed",
+  "finishedAt": "2026-10-16T18:09:43.709Z"
+}

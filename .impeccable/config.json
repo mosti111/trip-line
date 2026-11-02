@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "frontend-v2/components/travel/Sections.tsx"
+        ],
+        "createdAt": "2026-10-24T18:16:51.603Z",
+        "reason": "Agent verified: this native picture img spreads Next getImageProps desktop including src/srcSet; explicit alt follows spread. Actual loaded sources verified in browser."
+      }
+    ]
+  }
+}

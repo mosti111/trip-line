@@ -1,24 +1,24 @@
 # Documentation index
 
-## Current implementation
+Start with [onboarding](START_HERE.md) and [current status](../PROJECT_STATUS.md).
 
-- [AI handoff — start here](AI_HANDOFF.md): current state, code map, commands, boundaries and continuation guidance.
-- [Frontend delivery](FRONTEND_DELIVERY.md): implemented behavior, verification and publication inputs.
-- [Frontend phase plan](FRONTEND_IMPLEMENTATION_PLAN.md): six completed phases and Türkiye client steering.
-- [QA baseline](qa/2026-10-02/README.md): saved reports and representative screenshots.
+| Canonical document | Purpose |
+| --- | --- |
+| [AGENTS](../AGENTS.md) | Operating agreement and approval boundaries |
+| [Product vision](PRODUCT_VISION.md) | Product intent and content boundaries |
+| [Architecture](ARCHITECTURE.md) | Actual app versus unfinished platform |
+| [Design](DESIGN_SYSTEM.md), [responsive](RESPONSIVE_RULES.md) | Implemented identity and viewport rules |
+| [Motion](MOTION_SYSTEM.md) | Full/System/Reduced and scene ownership |
+| [Routes/localization](ROUTES_LOCALIZATION.md) | Content URLs, RTL and metadata |
+| [Decisions](DECISIONS.md) | Current decisions and historical evidence |
+| [QA/release](QA_RELEASE.md) | Commands, limits and later release checklist |
+| [Deployments](DEPLOYMENTS.md) | Review/production separation and no-expiry policy |
+| [Changelog](CHANGELOG.md) | Milestones with original historical names |
+| [Tasks](tasks/README.md), [reports](reports/README.md) | Approved scope and delivery evidence |
+| [Archive](archive/README.md) | Indexed history, research and recovery |
 
-## Approved visual sources
-
-- [Approved direction](APPROVED_DESIGN_DIRECTION.md) and [page preview index](PUBLIC_PAGE_PREVIEW_INDEX.md).
-- [Public page sheets](references/public-page-previews/) and [approved references](references/approved/).
-- Root [client ZIP](../Trip-Line-Page-Previews.zip) preserves the original design pack.
-- [Asset provenance](ASSETS.md) and [current media sources](../frontend-v2/public/media/sources.json).
-- [Numbers and partners](NUMBERS_AND_PARTNERS_SECTIONS.md): source context for company-profile figures and logos.
-
-## Broader product and production work
-
-[Master specification](MASTER_SPECIFICATION.txt), [product](PRODUCT.md), [architecture](ARCHITECTURE.md), [API](API.md), [database](DATABASE.md), [security](SECURITY.md), [testing](TESTING.md), [deployment](DEPLOYMENT.md), and [milestones](../TODO.md). These include unfinished backend/CMS/operations work; they do not establish production readiness.
-
-## Historical research and exploration
-
-[Previous design handoff](NEW_CHAT_PROJECT_HANDOFF.md), dated design/research documents, `design-preview/`, `references/design-direction/`, `references/section-studies/`, [journal concept](LIVING_TRAVEL_JOURNAL.md), [V1 QA](DEMO_QA.md), and [earlier atlas direction](PROFILE_ATLAS_DIRECTION.md). Preserve them as context; current handoff, client steering and approved design take precedence over their older next-step instructions.
+Conditional references: [assets](ASSETS.md), [numbers/partners](NUMBERS_AND_PARTNERS_SECTIONS.md),
+[approved direction](APPROVED_DESIGN_DIRECTION.md), [platform](PRODUCT.md), [API](API.md),
+[database](DATABASE.md), [security](SECURITY.md), [target deployment](DEPLOYMENT.md) and
+[master specification](MASTER_SPECIFICATION.txt). Historical status never supersedes
+current source and later explicit decisions.

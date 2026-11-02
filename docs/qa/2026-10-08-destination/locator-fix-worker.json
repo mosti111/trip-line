@@ -1,0 +1,108 @@
+{
+  "startedAt": "2026-10-08T14:58:54.349Z",
+  "sourceCSS": "0cf941a4d27a77741f4f0ef841e88ab1a7422f6bd5655d6566c1164aefef0d9c",
+  "fix": "Explicit selected bronze overrides owned locator base; only locator visuals change.",
+  "captures": [
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "file": "static-corrected-en-istanbul-1440-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "istanbul",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "file": "static-corrected-en-istanbul-390-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "file": "static-corrected-en-rize-ayder-1440-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "file": "static-corrected-en-rize-ayder-390-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "file": "static-corrected-en-antalya-1440-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "antalya",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "file": "static-corrected-en-antalya-390-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "file": "static-corrected-en-cappadocia-1440-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "cappadocia",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "file": "static-corrected-en-cappadocia-390-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "istanbul",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "file": "static-corrected-ar-istanbul-390-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    },
+    {
+      "slug": "rize-ayder",
+      "locale": "tr",
+      "width": 1280,
+      "height": 800,
+      "file": "static-corrected-tr-rize-ayder-1280-locator.png",
+      "background": "rgb(200, 144, 57)",
+      "color": "rgb(7, 31, 32)",
+      "transform": "matrix(1, 0, 0, 1, -22, -22)"
+    }
+  ],
+  "finishedAt": "2026-10-08T14:59:28.911Z"
+}

@@ -1,0 +1,2285 @@
+{
+  "status": "failed",
+  "phase": "matrix",
+  "base": "http://localhost:3043",
+  "startedAt": "2026-10-19T13:04:06.206Z",
+  "revision": "40ac8b9ca46ab1a4fcde8b956f511cb9de0d3a6b",
+  "buildId": "Fij_l7JDB_TVkFA2POeOP",
+  "cases": [
+    {
+      "name": "home en 360x800",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 390x844",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 430x932",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 768x1024",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 1024x768",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 1280x900",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 1440x900",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 1280x600",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "home en 844x390",
+      "headings": [
+        {
+          "level": 2,
+          "text": "01 / Your journey starts in Türkiye"
+        },
+        {
+          "level": 1,
+          "text": "TÜRKİYE BEGINS HERE."
+        },
+        {
+          "level": 2,
+          "text": "What brings you here?"
+        },
+        {
+          "level": 3,
+          "text": "Explore & holiday"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 2,
+          "text": "Find your Türkiye."
+        },
+        {
+          "level": 2,
+          "text": "Türkiye, a little closer."
+        },
+        {
+          "level": 3,
+          "text": "Istanbul"
+        },
+        {
+          "level": 2,
+          "text": "Some places stay with you."
+        },
+        {
+          "level": 3,
+          "text": "Cappadocia"
+        },
+        {
+          "level": 3,
+          "text": "Rize & Ayder"
+        },
+        {
+          "level": 3,
+          "text": "Antalya"
+        },
+        {
+          "level": 2,
+          "text": "A moment on the Bosphorus."
+        },
+        {
+          "level": 2,
+          "text": "More than travel. A meaningful way to see the world."
+        },
+        {
+          "level": 2,
+          "text": "Care behind every journey."
+        },
+        {
+          "level": 3,
+          "text": "Customized Experiences"
+        },
+        {
+          "level": 3,
+          "text": "Professional Team"
+        },
+        {
+          "level": 3,
+          "text": "Attention to Detail"
+        },
+        {
+          "level": 2,
+          "text": "Journeys, in perspective."
+        },
+        {
+          "level": 2,
+          "text": "A simple path to a meaningful journey."
+        },
+        {
+          "level": 3,
+          "text": "Tell us"
+        },
+        {
+          "level": 3,
+          "text": "We coordinate"
+        },
+        {
+          "level": 3,
+          "text": "You confirm"
+        },
+        {
+          "level": 2,
+          "text": "Every step. Thoughtfully connected."
+        },
+        {
+          "level": 3,
+          "text": "Travel"
+        },
+        {
+          "level": 3,
+          "text": "Business & groups"
+        },
+        {
+          "level": 3,
+          "text": "Hajj & Umrah"
+        },
+        {
+          "level": 2,
+          "text": "Make the line your own."
+        },
+        {
+          "level": 3,
+          "text": "Your journey"
+        },
+        {
+          "level": 2,
+          "text": "The line continues."
+        },
+        {
+          "level": 2,
+          "text": "A little clarity before you go."
+        },
+        {
+          "level": 2,
+          "text": "Your next journey starts with a conversation."
+        }
+      ],
+      "coordinates": [
+        {
+          "text": "01 / 38.65° N · 34.83° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "02 / 40.96° N · 40.95° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "03 / 36.89° N · 30.70° E",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "text": "BOSPHORUS / 41.01° N · 28.98° E",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "family en destinations/turkiye 390"
+    },
+    {
+      "name": "family en destinations/turkiye 1440"
+    },
+    {
+      "name": "family en destinations/turkiye/antalya 390"
+    },
+    {
+      "name": "family en destinations/turkiye/antalya 1440"
+    },
+    {
+      "name": "family en services 390"
+    },
+    {
+      "name": "family en services 1440"
+    },
+    {
+      "name": "family en services/tours 390"
+    },
+    {
+      "name": "family en services/tours 1440"
+    },
+    {
+      "name": "family en services/hajj-umrah 390"
+    },
+    {
+      "name": "family en services/hajj-umrah 1440"
+    },
+    {
+      "name": "family en business 390"
+    },
+    {
+      "name": "family en business 1440"
+    },
+    {
+      "name": "family en about 390"
+    },
+    {
+      "name": "family en about 1440"
+    },
+    {
+      "name": "family en contact 390"
+    },
+    {
+      "name": "family en contact 1440"
+    },
+    {
+      "name": "family en destinations 390"
+    },
+    {
+      "name": "family en destinations 1440"
+    },
+    {
+      "name": "family en destinations/georgia 390"
+    },
+    {
+      "name": "family en destinations/georgia 1440"
+    },
+    {
+      "name": "family en faq 390"
+    },
+    {
+      "name": "family en faq 1440"
+    },
+    {
+      "name": "family en privacy 390"
+    },
+    {
+      "name": "family en privacy 1440"
+    },
+    {
+      "name": "family en terms 390"
+    },
+    {
+      "name": "family en terms 1440"
+    }
+  ],
+  "screens": [
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-360x800.png",
+      "sha256": "dcdd5c9febe98bd73b381124093f5e65eb3cf08ebd5ebdcebc0a91f0979ebaeb",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-360x800-viewport.png",
+      "sha256": "1a06520198f955032557d29575b73f6549890879e5c9dd2b120bba5df4a0dc54",
+      "locale": "en",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-390x844.png",
+      "sha256": "688114f90b155c4e8dfd2eb350b0465bbbdec4574bd388b7a3286be184c5cbff",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-390x844-viewport.png",
+      "sha256": "b2a6f453561878852040db43b91fb06b710bbe35c4026b0cfa7aab196d8a19bc",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-430x932.png",
+      "sha256": "f6c252ac097e2a28bfde47fc1424da8362e71fd6d28cf15773ca16dcda3b7db7",
+      "locale": "en",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-430x932-viewport.png",
+      "sha256": "0d735d6f008fafa0223366e46a42891607c0e6d14f1d479a1c288017ed59cb69",
+      "locale": "en",
+      "width": 430,
+      "height": 932
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-768x1024.png",
+      "sha256": "383cf41aee59ecacea0e8e3d032a50dcbf0d6cb688afb2f40d943ed6ec025ed8",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-768x1024-viewport.png",
+      "sha256": "1095be8b8ecd6aaefc93aa4dae5fcecc3f41f518ba6df6a4f4cc8cba821d22af",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1024x768.png",
+      "sha256": "be4e9d28eea34dc2e765ced79cf381f92b51f025b63dea83a92f157ad6adc55b",
+      "locale": "en",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1024x768-viewport.png",
+      "sha256": "dfb4553859c3cf1af8cac6dab8ea6fcb29e9d05ba6ad7882eb3085907df1da7a",
+      "locale": "en",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1280x900.png",
+      "sha256": "8f6ec8735f3d1bf165538a190f29b46b5f784bbfceac67495928b8f86c3cd3bd",
+      "locale": "en",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1280x900-viewport.png",
+      "sha256": "23fa2a6fb73360206175a91a29a23ab857f46c693d4867a8cddd3292b9f8b0a6",
+      "locale": "en",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1440x900.png",
+      "sha256": "85f2d856561cb2d9b25c13f979ee5aec9877c3f8d86ad883f4164c8c8b132049",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1440x900-viewport.png",
+      "sha256": "a2d76651d7b2dd778c28f5cd1e3c7739b3a1f4ecbb1940d80338fa4a2ac48404",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1280x600.png",
+      "sha256": "35e097f74d27336db32410efce1dd30947361f7786e18b312ac938bc78c9ca6a",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-1280x600-viewport.png",
+      "sha256": "adfee249e522464cfb99132b52ce6569e497e0c29846abf4541469b66e031e2a",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-844x390.png",
+      "sha256": "ec16dbc7a89cae96c2a26aaff49ab8764eae3fb30e71c50543df3de31446a01f",
+      "locale": "en",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\home-en-844x390-viewport.png",
+      "sha256": "5749772764675689d0eed7db861872cbb4dc785fb25455903603eb6ca4b67aee",
+      "locale": "en",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-390.png",
+      "sha256": "6adf68408524a13c8f4dfbbd60baaa1082eb9a12117c39d5ba194aa13d373cca",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-390-viewport.png",
+      "sha256": "97a50e22bec073f4de80b50f2185c25ee0b9a7d101f6206ac9418c7b7c7363d8",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-1440.png",
+      "sha256": "6e5d006c98770205ceef08f0249819c83f9e507c0182bb7cee3b0e32e9494cf4",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-1440-viewport.png",
+      "sha256": "5a91d441162a3cc30bc734fd125788ab02d0b9bfe463ccf1db740d33ee945691",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-antalya-390.png",
+      "sha256": "c18df075f55ec5c07d18bce56bfdf9c7760a887d3e40fd664c0ae33a8e435be5",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-antalya-390-viewport.png",
+      "sha256": "57ed7a032cc9a8f9959771b60c57a40a21a12d61e97ed9a158c1293e78db2dff",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-antalya-1440.png",
+      "sha256": "992af662f6ad5d07f26773fc6dc4ecbe27053bda8d8a222db46f2be2681e490e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-turkiye-antalya-1440-viewport.png",
+      "sha256": "9696a41446d1cc5ef02b67cf2923df03c4bc4ddbefc8c765f68771fa830cbe6f",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-390.png",
+      "sha256": "e4d2f3216e923934525b39124da57d5d5beb45fc44674757b07059804bd06b18",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-390-viewport.png",
+      "sha256": "23d29082045580a6c58fd85d90da3cffed6cac4e75ae8a0fcdd7baa8e06a3bbe",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-1440.png",
+      "sha256": "1021a5e1fe8ddc46bdddad6c7a1f94707d98c842e157d2baeaee547cd2d22d26",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-1440-viewport.png",
+      "sha256": "260c04d041f057b4cd22431ae37cf161b403062a102d79d8be1ede1e88f3d8ee",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-tours-390.png",
+      "sha256": "ce5780928e3b49b25d0478abe0e6016b7e818bbfaa015ac136d1e9896434dae1",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-tours-390-viewport.png",
+      "sha256": "c618b3a3516afc5d59ee1d9dbbf684b47651e0a2ac2d061ae1e0172b7ed69099",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-tours-1440.png",
+      "sha256": "0c3707473be9db56fb9d81e3d28c9343567a510ec1709f0b3670c0394862e3c5",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-tours-1440-viewport.png",
+      "sha256": "73694c3a9167db1484c470f4179a489f2843eb2f8ef78085cf613b3425947f2a",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-hajj-umrah-390.png",
+      "sha256": "063b987933e29cddd8c3d9eabce9567931d064d541eb8cdce2cc30a0874f0194",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-hajj-umrah-390-viewport.png",
+      "sha256": "24969f2ad1a8884cbd50a4ff7be3bf8f197ffd9730a1c3124537ab14b1f19d74",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-hajj-umrah-1440.png",
+      "sha256": "b7cf5880492b5b927f8a0bf7feb60311a4387f0f6769a03470863b0a17061f2d",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-services-hajj-umrah-1440-viewport.png",
+      "sha256": "119a52e6a1979fe72d341efccb48cfb4a5a8100ccdd4a964039faef49bc6534c",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-business-390.png",
+      "sha256": "72a9ec00b9a809e7e552ffee372b514bf6d13a6451a2a748f773b15050b0ea74",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-business-390-viewport.png",
+      "sha256": "834695a0e6bfb09d0ec9e37bb2aa1fa76d0edb3fd45ae15c16d4ff2f5f862fad",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-business-1440.png",
+      "sha256": "999cd6f7169dc9151142bbce749661e8b6ae1413dc888d68755ffa009d6ce003",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-business-1440-viewport.png",
+      "sha256": "cd144974d4c1d3e7a87a550c3b5ec66bc9d9f2113a8b5f8c3bf7c936d45803c5",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-about-390.png",
+      "sha256": "ea33449f4b8bdc83ef8dffc4c3f8ad4e60eb2f75fc7cb34e8a6fb0bdd57f1b0c",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-about-390-viewport.png",
+      "sha256": "90b152ade5f858ec89d03bca7b1ea68bd07d82bfc5ad3fd5dd6cb0bed6caaf0e",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-about-1440.png",
+      "sha256": "7a8cea4b1620f42a5b6a4052b57b6478fdcf1033369964b54f3ec9b92887d7d3",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-about-1440-viewport.png",
+      "sha256": "cdd15517f89eb29e1e76babf69c12c966f25bf62cb077fcf6d556a3ca9319b9e",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-contact-390.png",
+      "sha256": "8f03ce65d80f80dbe90a5d4fa792a9da75e6b3ae15e46f30c1a3fb9a1c9333f3",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-contact-390-viewport.png",
+      "sha256": "7ef92f2cb1d6de80d1283a0572a31422bb6b296886063ca6fdebe436a850ee20",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-contact-1440.png",
+      "sha256": "0a8ac5202a1884c3a1938f17894a0e05e65910f7b6ba7d1590dcfe698c739461",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-contact-1440-viewport.png",
+      "sha256": "0ce147f4932b630dbf8537488eb2833e074d73c86439a59b233f77dfe5833b0d",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-390.png",
+      "sha256": "377ac723971b5fa9fd803fd7aa75d4bce960303e7ee9028bf7aac3080182eff3",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-390-viewport.png",
+      "sha256": "718206b6a1b87a3a9be05902009935fda177aa66459c6e5190c332597e17c434",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-1440.png",
+      "sha256": "dcf656df2ff01665547b9316df381cdf6f9954f4b9a4d0ed64efac42ad3cdafc",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-1440-viewport.png",
+      "sha256": "bf11de786a2f10a57887ea5554daf233ea3ec109511a179df52e026243362123",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-georgia-390.png",
+      "sha256": "661cfcbb81c017dfd0073c5a8c2ded9ca1a9c4be64aece0eeab6a555a669cf38",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-georgia-390-viewport.png",
+      "sha256": "8b45e38418309a08bceb5d1f4bbdecadec758399a317f9620e2244b84746e5c3",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-georgia-1440.png",
+      "sha256": "877ef4db9fc9a37dc1a36c40c79fba6fb60889f40fb062e0541c9e64ea0b9b2a",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-destinations-georgia-1440-viewport.png",
+      "sha256": "46da15e167ad8050afc0b4ab084348c793e01c27b726d5263d6bd39214282336",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-faq-390.png",
+      "sha256": "714962e6c73b6ac0485f644b45e0870dec7fe05a253aed040ae7773cf4c90702",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-faq-390-viewport.png",
+      "sha256": "a98c80b4046f1e4274b306b4d5ae5cf64412aaf8e45fdcad28617f1e6c986140",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-faq-1440.png",
+      "sha256": "98819726c6616f8673e156cf590421a7a0fad7d05559602e9abac9baedbdc6a4",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-faq-1440-viewport.png",
+      "sha256": "6759ee4c0e2f7636d78b56c376f49567927f6256a36232b3a1283f3047b9ec4f",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-privacy-390.png",
+      "sha256": "c451993eafb1a9aac9a8b0cd72f28ccbbc3b1fabac73c43b016a5891788b616b",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-privacy-390-viewport.png",
+      "sha256": "81561f7ce246685b0c7d07bd4e60d904df1eda14db55d2600acc196f1f065729",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-privacy-1440.png",
+      "sha256": "481d6b915b5fa491b77c83505d51994606cac3007669ab74b355dc9195f3dfed",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-privacy-1440-viewport.png",
+      "sha256": "b5e0befaa642294f4ea72178b535ac3dc38b4f3d142652ecabea02be4888ef77",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-terms-390.png",
+      "sha256": "d4e87a35b0fa06df59fe0067fa12d91d55dfbdef487f8c62f8db0e08e0dfae9c",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-terms-390-viewport.png",
+      "sha256": "21ab581899cef171aed35542b8fe8921ad859be78797643264aa1900b2100fc6",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-terms-1440.png",
+      "sha256": "06baacaf12406ff25057eab88c32f733f9e42d9a8d9f9f5f5608da7b1b1279e5",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\final-q12\\recovery\\matrix\\2026-10-19T13-04-06.205Z\\en-terms-1440-viewport.png",
+      "sha256": "4f01787c0b666dc2ab066b48f98b99730cd52b0be2dca57d788563981f6d1996",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "chapterHeights": [
+        890,
+        2128.140625,
+        800,
+        1729.453125,
+        3113.671875,
+        849.203125,
+        679.921875,
+        836.296875,
+        612.125,
+        639.765625,
+        1384.515625,
+        1816.1875,
+        636.296875,
+        555.734375,
+        811.609375
+      ],
+      "firstSixRatio": 0.5439862294185308
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "chapterHeights": [
+        890,
+        2121.359375,
+        800,
+        1729.453125,
+        3113.671875,
+        849.203125,
+        679.921875,
+        806.140625,
+        617.65625,
+        572.421875,
+        1384.515625,
+        1620,
+        636.296875,
+        555.734375,
+        743.609375
+      ],
+      "firstSixRatio": 0.5551224400577176
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "chapterHeights": [
+        890,
+        2121.359375,
+        800,
+        1679.078125,
+        3113.671875,
+        849.203125,
+        679.921875,
+        784.546875,
+        625.0625,
+        550.828125,
+        1384.515625,
+        1620,
+        592.296875,
+        555.734375,
+        724.921875
+      ],
+      "firstSixRatio": 0.5570228135446847
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "chapterHeights": [
+        900,
+        2176.1875,
+        800,
+        1520.609375,
+        2990.203125,
+        904.90625,
+        584.71875,
+        676.078125,
+        750.1875,
+        571.3125,
+        1417.59375,
+        1414.375,
+        525,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5656424806841561
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "height": 768,
+      "chapterHeights": [
+        768,
+        1633.046875,
+        900,
+        1367,
+        2937.9375,
+        1032.5,
+        580,
+        620.84375,
+        656.1875,
+        562.453125,
+        1029.390625,
+        1235.984375,
+        477,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5760393679292661
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "height": 768,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 900,
+      "chapterHeights": [
+        900,
+        1754.453125,
+        900,
+        1332.140625,
+        3150.109375,
+        1046.875,
+        622.875,
+        596.796875,
+        670.5625,
+        591.203125,
+        1058.140625,
+        1250.359375,
+        477,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5842838578178189
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 900,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "chapterHeights": [
+        900,
+        1774.109375,
+        900,
+        1346.46875,
+        3255.96875,
+        1136.75,
+        649.875,
+        572.75,
+        679.5625,
+        585.15625,
+        1076.140625,
+        1259.359375,
+        477,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5891083580009587
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 600,
+      "chapterHeights": [
+        600,
+        1754.453125,
+        900,
+        1332.140625,
+        3150.109375,
+        1046.875,
+        622.875,
+        596.796875,
+        670.5625,
+        591.203125,
+        1058.140625,
+        1250.359375,
+        477,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5761039663775638
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "height": 600,
+      "headingJumps": []
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "chapterHeights": [
+        640,
+        2176.1875,
+        800,
+        1466.859375,
+        2990.203125,
+        904.90625,
+        584.71875,
+        644.890625,
+        750.1875,
+        497.359375,
+        1417.59375,
+        1414.375,
+        525,
+        436,
+        760
+      ],
+      "firstSixRatio": 0.5608444847881467
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "headingJumps": []
+    }
+  ],
+  "gaps": [
+    "Chromium lab only. Physical devices, Safari, Firefox, assistive technology and field performance unverified. Independent Root rendered review required."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "failure": {
+    "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator: locator('meta[name=robots]')\nExpected pattern: /noindex/\nError: strict mode violation: locator('meta[name=robots]') resolved to 2 elements:\n    1) <meta name=\"robots\" content=\"noindex\"/> aka locator('meta[name=\"robots\"]').first()\n    2) <meta name=\"robots\" content=\"noindex, nofollow\"/> aka locator('meta[name=\"robots\"]').nth(1)\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('meta[name=robots]') with timeout 5000ms\n  - waiting for locator('meta[name=robots]')\n",
+    "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator: locator('meta[name=robots]')\nExpected pattern: /noindex/\nError: strict mode violation: locator('meta[name=robots]') resolved to 2 elements:\n    1) <meta name=\"robots\" content=\"noindex\"/> aka locator('meta[name=\"robots\"]').first()\n    2) <meta name=\"robots\" content=\"noindex, nofollow\"/> aka locator('meta[name=\"robots\"]').nth(1)\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('meta[name=robots]') with timeout 5000ms\n  - waiting for locator('meta[name=robots]')\n\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toHaveAttribute (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at matrix (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery.mjs:40:54)\n    at async file:///C:/Users/mosta/OneDrive/Documents/ChatGPT/trip%20line/frontend-v2/scripts/verify-recovery.mjs:124:41",
+    "url": "http://localhost:3043/en/not-a-page"
+  },
+  "finishedAt": "2026-10-19T13:07:03.529Z"
+}

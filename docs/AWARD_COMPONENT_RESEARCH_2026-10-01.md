@@ -1,5 +1,10 @@
 # Trip Line — award component and motion research
 
+> Historical/reference record. Read [current handoff](AI_HANDOFF.md) and
+> [accepted decisions](DECISIONS.md) first. Older status, exploration and next-step
+> instructions below do not override the active frontend, Türkiye-first steering
+> or Bronze Journey continuation. Preserve source reasoning; this is not current QA sign-off.
+
 Research date: 1 October 2026. Scope: design research and recommendations; no frontend implementation or deployment.
 
 ## Recommendation

@@ -1,0 +1,13 @@
+$ vitest run
+
+ RUN  v3.2.7 C:/Users/mosta/OneDrive/Documents/ChatGPT/trip line/frontend-v2
+
+ ✓ lib/review-window.test.ts (5 tests) 26ms
+ ✓ lib/motion-preference.test.ts (22 tests) 117ms
+ ✓ lib/turkiye.test.ts (25 tests) 145ms
+ ✓ lib/journey.test.ts (7 tests) 86ms
+
+ Test Files  4 passed (4)
+      Tests  59 passed (59)
+   Start at  02:00:56
+   Duration  5.46s (transform 5.93s, setup 0ms, collect 7.33s, tests 375ms, environment 5ms, prepare 3.46s)

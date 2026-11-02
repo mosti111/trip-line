@@ -1,6 +1,46 @@
+> Historical platform testing plan and earlier frontend guidance. Current commands and release gates: [QA_RELEASE](QA_RELEASE.md); current evidence: [PROJECT_STATUS](../PROJECT_STATUS.md). The dated material below is preserved, not a claim of current QA.
+
 # Test and acceptance plan
 
-Status: production verification plan. Frontend build/typecheck/lint and targeted demo browser checks have run; see DEMO_QA.md for results. Backend compiles, but no PostgreSQL integration suite or production acceptance suite has run.
+Status: current frontend verification procedure plus unfinished production acceptance plan.
+V2 evidence is in [delivery](FRONTEND_DELIVERY.md) and [dated QA](qa/2026-10-02/README.md);
+V3's current reconstruction results are in [TL-002](reports/TL-002-report.md);
+[V3 delivery](V3_FRONTEND_DELIVERY.md) preserves the prior TL-001 baseline.
+Backend compilation is not PostgreSQL integration or production acceptance.
+
+## Current public frontend procedure
+
+From frontend-v2: `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm build`.
+Vitest currently has three journey boundary tests in `lib/journey.test.ts`. Browser
+coverage comes from the scripts below; never claim no-tests output as a pass.
+For documentation-only work, typecheck/lint plus
+link/consistency/diff review suffice; test/build if application/config changes.
+
+For public changes start a production preview (e.g. `pnpm start --port 3003`),
+then `node scripts/verify-public.mjs`. Set QA_URL for another origin.
+For V3 flows also run `node scripts/verify-v3.mjs`; it adds planner ordering/context,
+navigation, fallback and responsive checks. Run `node scripts/verify-v3-resilience.mjs`
+for real WebGL loss/restoration, initialization failure, invalid video, render-idle
+sampling and live preference/route cleanup. Install Chromium if needed:
+`pnpm exec playwright install chromium`.
+For the reconstruction, `node scripts/verify-reconstruction.mjs` checks seven
+homepage chapters at the six specified sizes in EN/TR/AR. Run
+`node scripts/verify-reconstruction-media.mjs` for visible film and delayed-photo
+continuity. Run resilience alone to avoid contention during idle-render sampling.
+`node scripts/verify-planner-throttled.mjs` checks first-click selection, removal
+and order after fresh navigation under 4× CPU throttling in EN/AR/TR.
+In PowerShell: `$env:QA_URL='http://localhost:3023'`, then run the scripts.
+Next standalone packaging needs public and .next/static beside its generated server;
+the preview procedure is not deployment. Read bundled Next docs before changing it.
+
+Check EN/AR/TR, natural map orientation, 360/390/430/768/1024/1280/1440px as relevant,
+keyboard/menu focus, prepared-message validation/context invalidation, video controls,
+WebGL failure, device/explicit reduced motion and no document overflow.
+Keep raw evidence under ignored root tmp/frontend-qa/ or tmp/v3-reconstruction/;
+preserve selected durable,
+non-sensitive results with date/revision in docs/qa/ and link from the task report.
+Record actual checks and missing browser/physical-device/performance coverage.
+Do not externally send inquiry test messages.
 
 ## Backend
 

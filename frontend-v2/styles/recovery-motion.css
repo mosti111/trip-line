@@ -1,0 +1,14 @@
+/* V5: finite readable entrance. No pin, scroller, sculpture or transform departure. */
+.rh-title-block,.rh-title-ink{display:block}
+@keyframes v5-photo{from{transform:scale(1.025)}to{transform:scale(1)}}
+@keyframes v5-heading{from{transform:translateY(14px)}to{transform:translateY(0)}}
+@keyframes v5-support{from{transform:translateY(8px);opacity:.8}to{transform:translateY(0);opacity:1}}
+@keyframes v5-trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:no-preference){
+ .rh-arrival[data-entry=play] .rh-photo-settle{animation:v5-photo 450ms var(--v5-ease) both}
+ .rh-arrival[data-entry=play] .rh-title-ink{animation:v5-heading 530ms var(--v5-ease) 120ms both}
+ .rh-arrival[data-entry=play] .rh-support-reveal,.rh-arrival[data-entry=play] .rh-actions-reveal,.rh-arrival[data-entry=play] .rh-links-reveal{animation:v5-support 450ms var(--v5-ease) 350ms both}
+ .rh-arrival[data-entry=play] [data-flight-path]{stroke-dasharray:1;animation:v5-trace 550ms var(--v5-ease) 450ms both}
+}
+.reduce-motion .rh-arrival *{animation:none!important}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .rh-arrival *{animation:none!important}}

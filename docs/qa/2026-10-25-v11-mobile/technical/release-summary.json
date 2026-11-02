@@ -1,0 +1,30 @@
+{
+  "build": "YcMLV8XQrru17yorEl3yd",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTests": 41,
+  "buildCheck": "passed",
+  "broadMatrix": 984,
+  "affectedFinal": 96,
+  "webkitFinal": 48,
+  "mapConfigurations": 24,
+  "mapTaps": 288,
+  "menuConfigurations": 24,
+  "publicRoutes": 120,
+  "v3Groups": 16,
+  "v3Captures": 60,
+  "axeSurfaces": 9,
+  "motionModes": 6,
+  "visibleSceneEffects": 7,
+  "physicalSafari": "not tested",
+  "continuousTouchLocales": [
+    "en",
+    "tr",
+    "ar"
+  ],
+  "finalIsolatedLongTasks": [
+    0,
+    0,
+    0
+  ]
+}

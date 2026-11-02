@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "base": "http://localhost:3041",
+  "mode": "saved Reduced, OS reduce, settled homepage viewport",
+  "cases": [
+    {
+      "name": "en-390",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "title": "Go somewhere meaningful. · Trip Line",
+      "h1": "TÜRKİYE\nBEGINS HERE.",
+      "pngSha256": "b6900cdc4711130d39e8ec948498600b0493f1d74ceba8620aac8a4ab2ec2ed6"
+    },
+    {
+      "name": "ar-390",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "title": "إلى رحلة تحمل معنى. · Trip Line",
+      "h1": "هنا تبدأ رحلتك\nإلى تركيا.",
+      "pngSha256": "a64ebe08e043e74adacb885c12c8f8ed8cccd69c96edc124d87f94d931e26020"
+    },
+    {
+      "name": "tr-390",
+      "locale": "tr",
+      "width": 390,
+      "height": 844,
+      "title": "Anlamlı bir yolculuğa çık. · Trip Line",
+      "h1": "TÜRKİYE YOLCULUĞUN\nBURADA BAŞLAR.",
+      "pngSha256": "67a0bc7710eee569de2bee2f8f2786e23af0d220e8f6ec19449b6b79d404f366"
+    },
+    {
+      "name": "en-768",
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "title": "Go somewhere meaningful. · Trip Line",
+      "h1": "TÜRKİYE\nBEGINS HERE.",
+      "pngSha256": "b262054cc2f6828b3ce43ab416fa10c9b41e729407c2dacda95f8cbba85b1c2d"
+    },
+    {
+      "name": "ar-768",
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "title": "إلى رحلة تحمل معنى. · Trip Line",
+      "h1": "هنا تبدأ رحلتك\nإلى تركيا.",
+      "pngSha256": "0e6489b86785d60ae9c2353c06bcbe70e954841e26e3b4eee7d69762a3a89106"
+    },
+    {
+      "name": "tr-768",
+      "locale": "tr",
+      "width": 768,
+      "height": 1024,
+      "title": "Anlamlı bir yolculuğa çık. · Trip Line",
+      "h1": "TÜRKİYE YOLCULUĞUN\nBURADA BAŞLAR.",
+      "pngSha256": "23531a37d933911c9508b3df37c0485d6e051ac083e6f2f81fc7698427ed5ade"
+    },
+    {
+      "name": "en-1440",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "title": "Go somewhere meaningful. · Trip Line",
+      "h1": "TÜRKİYE\nBEGINS HERE.",
+      "pngSha256": "c6c8f9a22c9bdca4dac8fe0e2564a99f6dba4b7ee8fc0c77aab245a84c2d35ea"
+    },
+    {
+      "name": "ar-1440",
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "title": "إلى رحلة تحمل معنى. · Trip Line",
+      "h1": "هنا تبدأ رحلتك\nإلى تركيا.",
+      "pngSha256": "501973331d719a8be69bd5e7b3a2f035d775756529e226a78c61372d79426362"
+    },
+    {
+      "name": "tr-1440",
+      "locale": "tr",
+      "width": 1440,
+      "height": 1000,
+      "title": "Anlamlı bir yolculuğa çık. · Trip Line",
+      "h1": "TÜRKİYE YOLCULUĞUN\nBURADA BAŞLAR.",
+      "pngSha256": "2df0e8ba2161608debe687910c96731416ed9aa2a7e2bd610b33956a03fbe55e"
+    }
+  ],
+  "errors": []
+}

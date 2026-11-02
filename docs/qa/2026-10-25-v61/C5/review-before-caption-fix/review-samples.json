@@ -1,0 +1,100 @@
+{
+  "method": "Native Chromium decoding of the original continuous recordings; stills sampled by video time for rendered review. No animation timeline seeking or retiming in the original recordings.",
+  "recordings": [
+    {
+      "kind": "complete-desktop-wheel",
+      "path": "docs\\qa\\2026-10-25-v61\\C5\\matrix\\desktop-wheel.webm",
+      "duration": 32.24,
+      "samples": [
+        {
+          "time": 0.6448,
+          "file": "desktop-wheel-2.png"
+        },
+        {
+          "time": 3.8688000000000002,
+          "file": "desktop-wheel-12.png"
+        },
+        {
+          "time": 7.7376000000000005,
+          "file": "desktop-wheel-24.png"
+        },
+        {
+          "time": 11.6064,
+          "file": "desktop-wheel-36.png"
+        },
+        {
+          "time": 15.475200000000001,
+          "file": "desktop-wheel-48.png"
+        },
+        {
+          "time": 19.344,
+          "file": "desktop-wheel-60.png"
+        },
+        {
+          "time": 23.2128,
+          "file": "desktop-wheel-72.png"
+        },
+        {
+          "time": 27.0816,
+          "file": "desktop-wheel-84.png"
+        },
+        {
+          "time": 31.2728,
+          "file": "desktop-wheel-97.png"
+        }
+      ],
+      "end": {
+        "y": 14657,
+        "max": 14657
+      }
+    },
+    {
+      "kind": "complete-Arabic-mobile-menu-and-touch-scroll",
+      "path": "docs\\qa\\2026-10-25-v61\\C5\\matrix\\arabic-touch.webm",
+      "duration": 35.24,
+      "samples": [
+        {
+          "time": 0.7048000000000001,
+          "file": "arabic-touch-2.png"
+        },
+        {
+          "time": 4.2288,
+          "file": "arabic-touch-12.png"
+        },
+        {
+          "time": 8.4576,
+          "file": "arabic-touch-24.png"
+        },
+        {
+          "time": 12.6864,
+          "file": "arabic-touch-36.png"
+        },
+        {
+          "time": 16.9152,
+          "file": "arabic-touch-48.png"
+        },
+        {
+          "time": 21.144000000000002,
+          "file": "arabic-touch-60.png"
+        },
+        {
+          "time": 25.3728,
+          "file": "arabic-touch-72.png"
+        },
+        {
+          "time": 29.6016,
+          "file": "arabic-touch-84.png"
+        },
+        {
+          "time": 34.1828,
+          "file": "arabic-touch-97.png"
+        }
+      ],
+      "end": {
+        "y": 16881,
+        "max": 16881
+      }
+    }
+  ],
+  "status": "passed"
+}

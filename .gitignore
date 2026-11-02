@@ -16,3 +16,7 @@ artifacts/
 
 # Local preparation, downloaded source pages and regenerable QA output.
 /tmp/
+
+# Locally installed advisory skills; pinned origins are in skills-lock.json.
+/.agents/
+/.codex/

@@ -1,0 +1,99 @@
+{
+  "startedAt": "2026-10-08T02:08:19.846Z",
+  "base": "http://localhost:3053",
+  "revision": "39f7e7edc6b80a73be8774c4b15fbead10cb4133 + preserved static source",
+  "browser": "Playwright Chromium",
+  "source": {
+    "frontend-v2/components/turkiye/TurkeyHub.tsx": "5753661544e41222308dd942372cd1f3c2fe1a9dd43ad9fa520100fb75b8dc00",
+    "frontend-v2/styles/recovery-hub.css": "7fcbc7f60e5a9404b6fb457ec1ff53f14680a22ae518e36f18883cdf50f1153d",
+    "frontend-v2/components/travel/Pages.tsx": "5c6c6940cbb992b43d786d2b4842f0b88c0ddf8d3a861ea3a2017b7c6ea2a7fe",
+    "frontend-v2/components/home-v3/JourneyBuilder.tsx": "e1753083a4e021c5ca2acf3e7091d044633f11ed1961fa440142dd5849b93bd6"
+  },
+  "captures": [
+    {
+      "file": "resume-static-en-1440-builder-heading.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "normal native",
+      "headingY": 256.5625,
+      "scrollY": 8600
+    },
+    {
+      "file": "resume-static-en-1440-builder-controls.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "mode": "normal native",
+      "scrollY": 9150
+    },
+    {
+      "file": "resume-static-en-1440-builder-complete-clean.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 1560,
+      "mode": "normal native",
+      "sectionGeometry": {
+        "top": 8720.171875,
+        "height": 1319.546875,
+        "width": 1440
+      },
+      "description": "Supplemental extended viewport for complete section; normal native heading screenshot retained separately. Previous fullpage attempt retained but sticky overlays its Arabic select; excluded from clean evidence."
+    },
+    {
+      "check": "en",
+      "heading": "Your Türkiye.",
+      "controls": 13,
+      "ordered": [
+        "istanbul",
+        "rize-ayder"
+      ],
+      "overflow": false,
+      "canvas": 0
+    },
+    {
+      "file": "resume-static-ar-390-builder-heading.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "normal native",
+      "headingY": 225,
+      "scrollY": 9509
+    },
+    {
+      "file": "resume-static-ar-390-builder-controls.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "mode": "normal native",
+      "scrollY": 10169
+    },
+    {
+      "file": "resume-static-ar-390-builder-complete-clean.png",
+      "locale": "ar",
+      "width": 390,
+      "height": 2092,
+      "mode": "normal native",
+      "sectionGeometry": {
+        "top": 9629.25,
+        "height": 1851.734375,
+        "width": 390
+      },
+      "description": "Supplemental extended viewport for complete section; normal native heading screenshot retained separately. Previous fullpage attempt retained but sticky overlays its Arabic select; excluded from clean evidence."
+    },
+    {
+      "check": "ar",
+      "heading": "تركيا بطريقتك.",
+      "controls": 13,
+      "ordered": [
+        "istanbul",
+        "rize-ayder"
+      ],
+      "overflow": false,
+      "canvas": 0
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-08T02:08:28.797Z",
+  "status": "passed"
+}

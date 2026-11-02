@@ -1,0 +1,52 @@
+/* TL-006: client-approved V5 foundations across every public family. */
+:root,.travel-site{--teal:#194244;--deep:#071F20;--night:#071F20;--ivory:#FFFDF8;--paper:#F8EFE0;--sand:#E4D7C1;--bronze:#C89039;--ink:#194244;--max:1320px;--gutter:clamp(22px,4.4vw,80px);--v5-press:120ms;--v5-hover:200ms;--v5-menu-open:300ms;--v5-menu-close:220ms;--v5-photo:420ms;--v5-editorial:650ms;--v5-layout:280ms;--v5-ease:cubic-bezier(.22,1,.36,1);--v5-inout:cubic-bezier(.76,0,.24,1)}
+.travel-site.recovery-shell{--display-type:var(--font-body),sans-serif;--control-type:var(--font-body),sans-serif;--font-display:var(--font-body);--font-arabic-display:var(--font-arabic);--max:1320px;--gutter:clamp(22px,4.4vw,80px)}
+html[lang=ar] .travel-site.recovery-shell{--display-type:var(--font-arabic),sans-serif;--control-type:var(--font-arabic),sans-serif}
+.travel-site.recovery-shell h1,.travel-site.recovery-shell h2,.travel-site.recovery-shell h3{font-family:var(--display-type);font-weight:800;letter-spacing:-.045em}
+html[lang=ar] .travel-site.recovery-shell :is(h1,h2,h3){letter-spacing:0;line-height:1.35}
+.travel-site .rh-wrap{width:min(calc(100% - var(--gutter)*2),1320px)}
+.travel-site .brand svg{height:100%;width:100%;overflow:visible}
+.flight-trace{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:hidden;z-index:0;color:#C89039}
+.flight-trace path{fill:none;stroke:currentColor;stroke-width:1.7;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.flight-trace .flight-plane{fill:currentColor;stroke:none}
+::selection{background:#C89039;color:#071F20}
+html{scrollbar-color:#C89039 #071F20}
+input,textarea{caret-color:#C89039}
+.travel-site :focus-visible{outline:3px solid #C89039;outline-offset:5px}
+@media(max-width:767px){.travel-site.recovery-shell{--gutter:22px}.flight-trace{opacity:.65}.flight-trace path{stroke-width:1.5}}
+@media(prefers-reduced-motion:reduce){html:not([data-motion-choice=full]){scroll-behavior:auto}:where(html:not([data-motion-choice=full])) .flight-trace path{stroke-dashoffset:0!important;stroke-dasharray:none!important}}
+.reduce-motion .flight-trace path{stroke-dashoffset:0!important;stroke-dasharray:none!important}
+
+/* Complete shared editorial treatment, inherited by the existing route families. */
+.travel-site.recovery-shell :is(.rd-wrap,.rs-wrap,.rb-wrap,.ra-wrap,.sx-wrap,.rt-wrap){max-width:1320px}
+.travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) h1{letter-spacing:-.045em;font-size:clamp(62px,8.5vw,132px);line-height:1.06}
+.travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) h2{font-size:clamp(38px,4.6vw,68px);line-height:1.12}
+.travel-site.recovery-shell .rd-arrival{min-height:760px;padding-block:155px 85px}
+.travel-site.recovery-shell .rd-arrival-media{inset-inline-start:18%}
+.travel-site.recovery-shell .rd-interest-copy{max-width:620px}
+.travel-site .rd-interest-1 .rd-interest-photo img{object-position:65% 50%}
+.travel-site .rd-interest-2 .rd-interest-photo img{object-position:35% 65%}
+.travel-site .rd-arrival img[src*="cappadocia-v5"]{object-position:50% 65%}
+.travel-site .rb-hero-photo img{object-position:50% 58%}
+.travel-site .rs-hero-media img[src*="corporate-v5"]{object-position:50% 60%}
+.travel-site.recovery-shell :is(.journey-action,.rh-intent,.button){transition:color var(--v5-hover),background var(--v5-hover),border-color var(--v5-hover),transform var(--v5-press)}
+.travel-site .journey-text-link svg{transition:translate var(--v5-hover) var(--v5-ease)}
+@media(hover:hover){.travel-site .journey-text-link:hover svg{translate:4px 0}html[dir=rtl] .travel-site .journey-text-link:hover svg{translate:-4px 0}}
+@media(max-width:767px){
+ .travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) h1{font-size:clamp(43px,12vw,66px);line-height:1.13;letter-spacing:-.035em}
+ .travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) h2{font-size:clamp(34px,9.5vw,46px);line-height:1.16}
+ .travel-site.recovery-shell .rd-arrival{min-height:760px;padding-block:125px 75px}
+ .travel-site.recovery-shell .rd-arrival-media{inset-inline-start:0}
+ html[lang=ar] .travel-site.recovery-shell :is(.recovery-destination,.recovery-services,.recovery-about,.recovery-business,.recovery-secondary) :is(h1,h2){line-height:1.4;letter-spacing:0}
+}
+@media(prefers-reduced-motion:reduce){:where(html:not([data-motion-choice=full])) .travel-site .journey-text-link svg{transition:none;translate:none!important}}
+
+@media(max-width:767px){.travel-site .rc-figure strong,.travel-site .rc-figure-clients strong,.travel-site .rc-figure-pilgrims strong,.travel-site .rc-figure-visas strong{font-size:clamp(48px,17vw,68px);font-weight:650}}
+/* V5 final accessibility corrections: bronze artwork retains its brand color;
+   small text uses a darker ink from the same bronze family. */
+.travel-site{--bronze-ink:#6F4D1B}
+.travel-site .rt-index button[aria-pressed=true]>span{opacity:1;color:#E4D7C1}
+.travel-site :is(.rh-builder legend>span,.rh-stop-number,.rp-process ol>li>span,.rs-process ol>li>span,.rs-point-list>li>span,.rd-interest-index a>span,.rt-directory-row>a>span:not(.sr-only)){color:var(--bronze-ink)}
+.travel-site .rd-nav-links a[aria-current=location]{color:var(--bronze-ink)}
+
+.travel-site :is(.rs-related-layout a>span,.rb-process-layout ol>li>span,.rd-process-line li>span,.rd-related-links>a>span){color:var(--bronze-ink)}

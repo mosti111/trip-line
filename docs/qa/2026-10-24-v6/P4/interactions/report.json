@@ -1,0 +1,276 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "touch": false,
+      "samples": [
+        {
+          "world": 0,
+          "depth": "matrix3d(1.06354, 0, 0.0557378, -5.06707e-05, 0, 1.065, 0, 0, -0.052336, 0, 0.99863, -0.000907845, 8.50832, 0, 0.445902, 0.999595)"
+        },
+        {
+          "world": 1,
+          "depth": "matrix3d(1.04743, 0, -0.0732152, 6.65592e-05, 0, 1.04999, 0, 0, 0.0697296, 0, 0.997566, -0.000906878, 0, -5.24798, 0, 1)"
+        },
+        {
+          "world": 2,
+          "depth": "matrix3d(1.045, 0, 0, 0, 0, 1.04357, 0.054689, -4.97172e-05, 0, -0.052334, 0.99863, -0.000907845, -8.35969, 0, 0, 1)"
+        },
+        {
+          "network": {
+            "start": "matrix(1, 0, 0, 1, -2.66698, 0)",
+            "end": "matrix(1, 0, 0, 1, -26.1326, 0)"
+          }
+        },
+        {
+          "process": "start",
+          "stroke": "1px"
+        },
+        {
+          "process": "mid",
+          "stroke": "1px"
+        },
+        {
+          "process": "end",
+          "stroke": "0px"
+        },
+        {
+          "memoryCaption": [
+            {
+              "x": 89.69115447998047,
+              "y": 540.4061889648438,
+              "width": 7.539306640625,
+              "height": 14.5618896484375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 95.76705932617188,
+              "y": 539.9978637695312,
+              "width": 5.3482513427734375,
+              "height": 14.33160400390625,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 99.65191650390625,
+              "y": 539.1746826171875,
+              "width": 9.295257568359375,
+              "height": 14.7464599609375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 89.69115447998047,
+              "y": 540.4061889648438,
+              "width": 7.539306640625,
+              "height": 14.5618896484375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 95.76705932617188,
+              "y": 539.9978637695312,
+              "width": 5.3482513427734375,
+              "height": 14.33160400390625,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 99.65191650390625,
+              "y": 539.1746826171875,
+              "width": 9.295257568359375,
+              "height": 14.7464599609375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 107.48377227783203,
+              "y": 536.4275512695312,
+              "width": 27.600669860839844,
+              "height": 16.67047119140625,
+              "owner": "v6-memory v6-memory-0"
+            }
+          ]
+        },
+        {
+          "keyboardFollower": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "slowImageLatestWins": true,
+      "manualReduced": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "touch": true,
+      "samples": [
+        {
+          "world": 0,
+          "depth": "matrix(1.045, 0, 0, 1.045, 0, 0)"
+        },
+        {
+          "world": 1,
+          "depth": "matrix(1.045, 0, 0, 1.045, 0, 0)"
+        },
+        {
+          "world": 2,
+          "depth": "matrix(1.045, 0, 0, 1.045, 0, 0)"
+        },
+        {
+          "network": {
+            "start": "matrix(1, 0, 0, 1, -4.79712, 0)",
+            "end": "matrix(1, 0, 0, 1, -27.7315, 0)"
+          }
+        },
+        {
+          "process": "start",
+          "stroke": "1px"
+        },
+        {
+          "process": "mid",
+          "stroke": "1px"
+        },
+        {
+          "process": "end",
+          "stroke": "0px"
+        },
+        {
+          "memoryCaption": [
+            {
+              "x": 65.86585235595703,
+              "y": 470.2132263183594,
+              "width": 7.898063659667969,
+              "height": 21.484344482421875,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 71.56881713867188,
+              "y": 469.6138000488281,
+              "width": 7.8980560302734375,
+              "height": 21.484375,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 77.27178192138672,
+              "y": 468.68121337890625,
+              "width": 11.068092346191406,
+              "height": 21.81756591796875,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 65.86585998535156,
+              "y": 470.2132263183594,
+              "width": 7.8980560302734375,
+              "height": 21.484344482421875,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 71.56881713867188,
+              "y": 469.61383056640625,
+              "width": 7.8980560302734375,
+              "height": 21.484344482421875,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 77.27177429199219,
+              "y": 468.68121337890625,
+              "width": 11.068099975585938,
+              "height": 21.81756591796875,
+              "owner": "v6-memory v6-memory-0"
+            },
+            {
+              "x": 41.32913589477539,
+              "y": 470.8126220703125,
+              "width": 26.731822967529297,
+              "height": 23.4638671875,
+              "owner": "v6-memory v6-memory-0"
+            }
+          ]
+        },
+        {
+          "keyboardFollower": "none"
+        }
+      ],
+      "slowImageLatestWins": true,
+      "manualReduced": true
+    }
+  ],
+  "errors": [],
+  "sharedStates": [
+    {
+      "name": "start",
+      "elapsed": 326.09999990463257,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 180,
+          "pseudo": "::after"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-group(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 250,
+          "pseudo": "::view-transition-old(root)"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-new(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-new(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-old(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-old(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition-group(root)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition"
+        }
+      ]
+    },
+    {
+      "name": "mid",
+      "elapsed": 1611.7999999523163,
+      "animations": []
+    },
+    {
+      "name": "end",
+      "elapsed": 2598.899999976158,
+      "animations": []
+    }
+  ]
+}

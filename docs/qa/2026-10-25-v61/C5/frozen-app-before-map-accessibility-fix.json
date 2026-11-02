@@ -1,0 +1,155 @@
+{
+  "build": "dl_ZtkpjzVAQ5-lRdaWhZ",
+  "applicationCheckpoint": "a72a1d2 plus C5 caption correction pending final checkpoint",
+  "changedApplicationFiles": [
+    {
+      "path": "frontend-v2/components/experience/FlightTrace.tsx",
+      "sha256": "2352b19973de0c3d4e0be73f5e8c1e19407c0b1e12934551956a934f2bae3477"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeEditorial.tsx",
+      "sha256": "c5f27495136487312d2389d7fcff08c17c76fb60b71ff043e7b4efca9af92209"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/HomeJourney.tsx",
+      "sha256": "974960243c4fa3a20b833acaf0ffbc495bbdd2162bef738aca4dbd9e3d0a81e4"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/JourneyBuilder.tsx",
+      "sha256": "21c8b42ac9bf8b9d8987f6b0dda3fbd9d3d25247eebc7ac092eaa13d13c2d004"
+    },
+    {
+      "path": "frontend-v2/components/home-v3/ServiceWorlds.tsx",
+      "sha256": "5901fb610f8536335adfa63b148394b4d419b176968e2dd0d573503d5e24bf9b"
+    },
+    {
+      "path": "frontend-v2/components/travel/TurkeyDiscovery.tsx",
+      "sha256": "6c359371cb544dfef61beb450decbd4fb0cbfc9dc2a4fc643819d49b9eb6b417"
+    },
+    {
+      "path": "frontend-v2/components/turkiye/TurkeyMap.tsx",
+      "sha256": "99c130861e9efb98ddc8cdeb77db5ece2a5fe0a96af7faf87d727bea50856b32"
+    },
+    {
+      "path": "frontend-v2/components/v6/TravelNetwork.tsx",
+      "sha256": "c4d065ea8c6a6b6298133fa572ec295253094387df79a5367de44ea076eb2754"
+    },
+    {
+      "path": "frontend-v2/components/v6/V6Motion.tsx",
+      "sha256": "5d7ea796069c1f706886e8736b967ce8a53e2b6af56d515f6706d941e04af1a9"
+    },
+    {
+      "path": "frontend-v2/components/v61/AtlasStage.tsx",
+      "sha256": "eea7b392b4323d7dd9c82a967d654962cfdbbb5a25e0bb80d3cac615e50b4746"
+    },
+    {
+      "path": "frontend-v2/components/v61/JourneyEcho.tsx",
+      "sha256": "db104a51793e6ca5f9b1db8d83d2123722503185cd428859ff130ac570fdc721"
+    },
+    {
+      "path": "frontend-v2/components/v61/PartnerBillboard.tsx",
+      "sha256": "9500bb8d3561f6d73b556b3f279d9f43a9fa507756f0e3b9d6c0eee408df59d7"
+    },
+    {
+      "path": "frontend-v2/lib/turkiye.ts",
+      "sha256": "c09c03a3178aa27c9d6582a762e5a6da53e50680932a2c9a899d5cc46c07bd60"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/bike-hotel.png",
+      "sha256": "2f46482b32cabd913d6545972c4a3775e354664b22de2842077a8f9b7650320f"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/continent.png",
+      "sha256": "99f5cde64dedc3298dafa830c4318b81550d1a84bc56da130ec514bc0eb1ff1f"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/copthorne.png",
+      "sha256": "4dbcc8052b2209e2d15f6fae873aeb0e1cae1857af15edeb700029b137a3ffaf"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/days-inn.png",
+      "sha256": "810b70716e29d2e29cac0efc2f020488cfbee58f5e1951b251d82dfdf7e5975e"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/diar-al-manasik.png",
+      "sha256": "0f4513549a8a601c517bab1f21c707e23b8c640b134571d277baf9309f04b469"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/grand-aras.png",
+      "sha256": "5dab016af941f655bfa9cada9bc1e88c23744a99cb868cc95504e755d18046c3"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/homey.png",
+      "sha256": "8c6d6d2b8c4c329d9d0217f9872f713943264aec2818bfb78b6696520a670a1e"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/megza.png",
+      "sha256": "ded871bd08ff6fabcaeebe4a6c6d1515554bf8312d682594bc8caafee214d780"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/millennium.png",
+      "sha256": "22155e78d830458592f5b0f2f21161801998439637fd33533379c80f6f887174"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/ndc-portal.png",
+      "sha256": "5324de91f7a2c317e44fe18dd5de31609190a15b35defb9a997f01eaaafd1706"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/nusuk.png",
+      "sha256": "e7d4764fc2292cc7b7a0d39b69e79fc3bc40056b653364d76d86e586178b4768"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/provenance.json",
+      "sha256": "1879a853dfc962d14f56aa86da4d6b536f2bebc5d75bff7a8b2a0164a7774f0f"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/ratehawk.png",
+      "sha256": "4d49b27db9cfd9836d1abf68d4432af742801f4aba27c25dd7a11d88763d2f79"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/rezlive.png",
+      "sha256": "f7a3f5ab6bd4b760eef99b12a64fad93d54c83104b1ffb8d3c9712d1b3fe3167"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/santa-ottoman.png",
+      "sha256": "b764950596fe17bff50915f0158425150c87426887166dd85ae534609c2908fd"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/saudi-hajj-umrah.png",
+      "sha256": "1de839f3de5db28ec0039064e73d7163b90010eef07126ed6cc47a935e6f44f6"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/turkish-airlines.png",
+      "sha256": "b30c05e9e3cc23cd94d02e0ff0ae5fcc59f1eecd1ce109f99e58557788b0123e"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/tursab.png",
+      "sha256": "38b0a09f91e64758ef4d82be3a5527ff015e0138ff388cd8177a0b0c6b6a0394"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/wyndham.png",
+      "sha256": "7e04e6c00163209895ec93f91456eebf37e6bf69c4a7d2aa00b3e56a21b092da"
+    },
+    {
+      "path": "frontend-v2/public/brand/network/optical/yamacda.png",
+      "sha256": "ab4b5895463734b6a4d0f7152969b2d200e59d050946aa5c6e6d02a31d0aa017"
+    },
+    {
+      "path": "frontend-v2/styles/v61-atlas.css",
+      "sha256": "b41f273fa42f9ec533e993ccb0e28ee81b69bb4dfbedfc37cc3054eb41a4a14e"
+    },
+    {
+      "path": "frontend-v2/styles/v61-billboard.css",
+      "sha256": "50b3f52e9082315eb97895dbefaaf4de1c982775e55feb7ef3a9c9f8802ffa69"
+    },
+    {
+      "path": "frontend-v2/styles/v61-journey.css",
+      "sha256": "65584304b5a4dd84178995e16f111ba3acfe9dcd1f3dd0ccc8c3d3aa0c88e988"
+    },
+    {
+      "path": "frontend-v2/styles/v61-support.css",
+      "sha256": "3dda2f64d300794b83961708b8fdad19fc44c073db8298a946cdf1d3bf0bb7ac"
+    }
+  ],
+  "status": "core and targeted proof passed; final release gates running"
+}

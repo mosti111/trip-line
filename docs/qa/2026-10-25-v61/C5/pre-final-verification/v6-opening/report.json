@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "entries": [
+        {
+          "value": "play",
+          "time": 1234.5
+        },
+        {
+          "value": "done",
+          "time": 2449.5999999046326
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 900,
+      "entries": [
+        {
+          "value": "play",
+          "time": 2075.5
+        },
+        {
+          "value": "done",
+          "time": 3283.6999999284744
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "entries": [
+        {
+          "value": "play",
+          "time": 1465.6000000238419
+        },
+        {
+          "value": "done",
+          "time": 2631.100000023842
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "entries": [
+        {
+          "value": "play",
+          "time": 2066.7999999523163
+        },
+        {
+          "value": "done",
+          "time": 3293.600000023842
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

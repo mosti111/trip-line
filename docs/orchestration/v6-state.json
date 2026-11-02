@@ -1,0 +1,84 @@
+{
+  "task": "TL-007",
+  "branch": "codex/trip-line-v6",
+  "preserved": "a499c5066c54f668aa70d4bc15d53b98189befc7",
+  "recoveryBranch": "codex/v5-before-v6",
+  "topology": "single implementation agent; sequential; no subagents",
+  "phase": "V6-P4",
+  "status": "ENGINEERING_COMPLETE",
+  "checkpoints": [
+    {
+      "phase": "V6-P0",
+      "sha": "ea3500b",
+      "evidence": "docs/qa/2026-10-24-v6/P0/report.json",
+      "correction": "P1/media verifies decoded image transitions after P0 harness gap"
+    },
+    {
+      "phase": "V6-P1",
+      "sha": "2a3e22b",
+      "evidence": "docs/qa/2026-10-24-v6/P1/report.json"
+    },
+    {
+      "phase": "V6-P2",
+      "sha": "3ca2d3d",
+      "evidence": "docs/qa/2026-10-24-v6/P2/report.json"
+    },
+    {
+      "phase": "V6-P3",
+      "sha": "81010dfce9d1daae942b440feca4a20695aba08a",
+      "evidence": "docs/qa/2026-10-24-v6/P3/report.json"
+    },
+    {
+      "phase": "V6-P4",
+      "sha": "6b64b167f678abaa2292cda2b3220eed17f0cb73",
+      "evidence": "docs/qa/2026-10-24-v6/manifest.json",
+      "build": "K0DVtH_TRdqIu8z6rhnip",
+      "verdict": "Engineering verification complete; user creative acceptance pending"
+    }
+  ],
+  "clientCreativeAcceptance": "pending",
+  "publication": "not authorized",
+  "build": "K0DVtH_TRdqIu8z6rhnip",
+  "pause": {
+    "requestedAt": "2026-10-24T20:12:00Z",
+    "reason": "User requested a checkpoint and continuation after the five-hour usage limit resets",
+    "resetAt": "2026-10-24T21:48:25Z",
+    "scheduledAt": "2026-10-24T21:50:00Z",
+    "automationId": "resume-trip-line-v6-after-limit-reset",
+    "checkpoint": "P4 in-progress checkpoint, not phase completion",
+    "next": "Read checkpoint report; inspect latest long task and evidence completeness; finish P4 verification/artifact manifest/report. No feature expansion or publication.",
+    "sha": "af3981aeb3ebfe65fabb201329cf76252fc7d2aa",
+    "resumedAt": "2026-10-24T21:50:27Z"
+  },
+  "resume": {
+    "source": "authorized one-shot heartbeat",
+    "startedAt": "2026-10-24T21:50:27Z",
+    "phase": "V6-P4",
+    "status": "Completed final verification after authorized reset continuation",
+    "automationStatus": "PAUSED after completed one-shot continuation"
+  },
+  "completedAt": "2026-10-24T22:21:18.469Z",
+  "verification": {
+    "build": "K0DVtH_TRdqIu8z6rhnip",
+    "typecheck": "passed",
+    "lint": "passed",
+    "tests": "32/32 passed",
+    "productionBuild": "passed",
+    "publicRoutes": 120,
+    "v3Checks": 16,
+    "v3Captures": 60,
+    "matrixCases": 36,
+    "accessibilitySurfaces": 9,
+    "longTasksInFinalRecordedScroll": 0,
+    "creativeAcceptance": "pending",
+    "limitations": "Instrumented Windows Chromium only; no field-device or V5 frame-interval parity claim"
+  },
+  "evidence": {
+    "manifest": "docs/qa/2026-10-24-v6/manifest.json",
+    "durableArtifacts": 514,
+    "logoAssets": 19,
+    "hashValidation": "passed",
+    "linksAndWhitespace": "passed",
+    "sourceFreeze": "docs/qa/2026-10-24-v6/P4/frozen-app.json"
+  }
+}

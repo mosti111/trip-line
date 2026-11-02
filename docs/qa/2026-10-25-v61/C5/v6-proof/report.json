@@ -1,0 +1,505 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 900,
+      "touch": false,
+      "samples": [
+        {
+          "world": 0,
+          "depth": "matrix3d(1.06935, 0, 0.0373425, -3.11187e-05, -0.000651716, 1.06984, 0.0186627, -1.55523e-05, -0.0348942, -0.0174524, 0.999239, -0.000832699, 0, 0, 0, 1)"
+        },
+        {
+          "world": 1,
+          "depth": "matrix3d(1.025, 0, 0, 0, 0, 1.025, 0, 0, 0, 0, 1, -3.5151e-07, 0, 0, 0, 1)"
+        },
+        {
+          "world": 2,
+          "depth": "matrix3d(1.035, 0, 0, 0, 0, 1.03464, 0.0270891, -1.93501e-05, 0, -0.0261731, 0.999657, -0.00071407, 0, 0, 0, 1)"
+        },
+        {
+          "signature": 0,
+          "hoverScale": "1.025",
+          "keyboardFocus": true
+        },
+        {
+          "signature": 1,
+          "hoverScale": "1.00002",
+          "keyboardFocus": true
+        },
+        {
+          "signature": 2,
+          "hoverScale": "1.025",
+          "keyboardFocus": true
+        },
+        {
+          "network": {
+            "start": "matrix(1, 0, 0, 1, -9.53508, 0)",
+            "end": "matrix(1, 0, 0, 1, -46.7983, 0)"
+          }
+        },
+        {
+          "process": "start",
+          "stroke": "1px"
+        },
+        {
+          "process": "mid",
+          "stroke": "1px"
+        },
+        {
+          "process": "end",
+          "stroke": "0px"
+        },
+        {
+          "memoryCaption": [
+            [
+              {
+                "x": 76.359375,
+                "y": 199.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 82.46875,
+                "y": 199.265625,
+                "width": 3.90625,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 86.375,
+                "y": 199.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 76.359375,
+                "y": 199.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 82.46875,
+                "y": 199.265625,
+                "width": 3.90625,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 86.375,
+                "y": 199.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 94.25,
+                "y": 199.265625,
+                "width": 26.28125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-0"
+              }
+            ],
+            [
+              {
+                "x": 115.015625,
+                "y": 299.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 121.125,
+                "y": 299.265625,
+                "width": 5.703125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 126.828125,
+                "y": 299.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 115.015625,
+                "y": 299.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 121.125,
+                "y": 299.265625,
+                "width": 5.703125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 126.828125,
+                "y": 299.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 134.703125,
+                "y": 299.265625,
+                "width": 37.28125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-1"
+              }
+            ],
+            [
+              {
+                "x": 342.171875,
+                "y": 557.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 348.28125,
+                "y": 557.265625,
+                "width": 5.53125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 353.8125,
+                "y": 557.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 342.171875,
+                "y": 557.265625,
+                "width": 6.109375,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 348.28125,
+                "y": 557.265625,
+                "width": 5.53125,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 353.8125,
+                "y": 557.265625,
+                "width": 7.875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 361.6875,
+                "y": 557.265625,
+                "width": 56.1875,
+                "height": 14,
+                "owner": "v6-memory v6-memory-2"
+              }
+            ]
+          ]
+        },
+        {
+          "keyboardFollower": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "slowImageLatestWins": true,
+      "manualReduced": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "touch": true,
+      "samples": [
+        {
+          "world": 0,
+          "depth": "matrix3d(1.06935, 0, 0.0373425, -3.11187e-05, -0.000651716, 1.06984, 0.0186627, -1.55523e-05, -0.0348942, -0.0174524, 0.999239, -0.000832699, 0, 0, 0, 1)"
+        },
+        {
+          "world": 1,
+          "depth": "matrix(1.025, 0, 0, 1.025, 0, 0)"
+        },
+        {
+          "world": 2,
+          "depth": "matrix3d(1.035, 0, 0, 0, 0, 1.03465, 0.0270931, -1.93522e-05, 0, -0.0261769, 0.999657, -0.000714041, 0, 0, 0, 1)"
+        },
+        {
+          "network": {
+            "start": "matrix(1, 0, 0, 1, -7.46816, 0)",
+            "end": "matrix(1, 0, 0, 1, -29.3306, 0)"
+          }
+        },
+        {
+          "process": "start",
+          "stroke": "1px"
+        },
+        {
+          "process": "mid",
+          "stroke": "1px"
+        },
+        {
+          "process": "end",
+          "stroke": "0px"
+        },
+        {
+          "memoryCaption": [
+            [
+              {
+                "x": 55.671875,
+                "y": 176.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 61.40625,
+                "y": 176.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 67.140625,
+                "y": 176.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 55.671875,
+                "y": 176.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 61.40625,
+                "y": 176.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 67.140625,
+                "y": 176.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              },
+              {
+                "x": 31,
+                "y": 176.203125,
+                "width": 24.671875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-0"
+              }
+            ],
+            [
+              {
+                "x": 317.828125,
+                "y": 261.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 323.5625,
+                "y": 261.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 329.296875,
+                "y": 261.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 317.828125,
+                "y": 261.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 323.5625,
+                "y": 261.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 329.296875,
+                "y": 261.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              },
+              {
+                "x": 282,
+                "y": 261.203125,
+                "width": 35.828125,
+                "height": 21,
+                "owner": "v6-memory v6-memory-1"
+              }
+            ],
+            [
+              {
+                "x": 338.609375,
+                "y": 483.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 344.34375,
+                "y": 483.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 350.078125,
+                "y": 483.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 338.609375,
+                "y": 483.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 344.34375,
+                "y": 483.203125,
+                "width": 5.734375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 350.078125,
+                "y": 483.203125,
+                "width": 8.921875,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              },
+              {
+                "x": 304.75,
+                "y": 483.203125,
+                "width": 33.859375,
+                "height": 21,
+                "owner": "v6-memory v6-memory-2"
+              }
+            ]
+          ]
+        },
+        {
+          "keyboardFollower": "none"
+        }
+      ],
+      "slowImageLatestWins": true,
+      "manualReduced": true
+    }
+  ],
+  "errors": [],
+  "sharedStates": [
+    {
+      "name": "start",
+      "elapsed": 259.89999997615814,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 260,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 200,
+          "pseudo": null
+        },
+        {
+          "time": 0,
+          "duration": 180,
+          "pseudo": "::after"
+        },
+        {
+          "time": 0,
+          "duration": 250,
+          "pseudo": "::view-transition-old(root)"
+        },
+        {
+          "time": 0,
+          "duration": 800,
+          "pseudo": "::view-transition-old(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition-group(root)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition"
+        }
+      ]
+    },
+    {
+      "name": "mid",
+      "elapsed": 964,
+      "animations": [
+        {
+          "time": 250,
+          "duration": 250,
+          "pseudo": "::view-transition-old(root)"
+        },
+        {
+          "time": 683.3230000317099,
+          "duration": 800,
+          "pseudo": "::view-transition-old(place-cappadocia)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition-group(root)"
+        },
+        {
+          "time": 0,
+          "duration": 0,
+          "pseudo": "::view-transition"
+        }
+      ]
+    },
+    {
+      "name": "end",
+      "elapsed": 1721.6000000238419,
+      "animations": []
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 PROJECT: TRIP LINE
 MASTER PRODUCT + DESIGN + ENGINEERING SPECIFICATION
-STATUS: LOCKED V1 DIRECTION
+STATUS: PRESERVED BROADER V1 PRODUCTION CONTRACT
+
+Interpretation note added 3 October 2026:
+This original specification is preserved, not a current implementation report or
+standalone authorization to resume every milestone. Newer approved decisions in
+docs/DECISIONS.md and current tasks take precedence. The active frontend is
+frontend-v2 with EN/AR/TR, Türkiye-first discovery and a bronze route/ribbon.
+English-only launch, original frontend path, aircraft/serif direction and persisted
+contact/CMS behavior below are historical or target-platform scope where superseded.
+Read AGENTS.md, docs/AI_HANDOFF.md and docs/PRODUCT_VISION.md first.
 
 ========================================================
 0. YOUR ROLE

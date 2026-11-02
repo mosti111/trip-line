@@ -1,0 +1,69 @@
+{
+  "task": "TL-012",
+  "sourceSha": "98c44f8d05792f97c7324ce5dcbf12f73e4e8535",
+  "branch": "codex/trip-line-v11-mobile-recovery",
+  "projectId": "prj_9pbqRH1MGonwCvNeQ20knZhH29Zv",
+  "projectName": "trip-line-v11-client-review",
+  "teamId": "team_l5N8qo6rdkw7ABXTnNIOx51K",
+  "rootDirectory": "frontend-v2",
+  "expiresAt": "2026-10-27T15:22:45Z",
+  "originalProduction": "dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5",
+  "originalProject": "prj_Z7d8Fd2lrA4DEAAZz1B7ZBIR0R8O",
+  "all285SourceFilesMatch": true,
+  "publicSource": false,
+  "authenticationRequired": false,
+  "deploymentId": "dpl_DQF8DKuSvtPMpdALsL1f37UcYrh5",
+  "deploymentUrl": "https://trip-line-v11-client-review.vercel.app",
+  "readyState": "READY",
+  "headerChecks": [
+    {
+      "path": "/en",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/tr",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/ar",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/media/istanbul-v5.jpg",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/media/istanbul-ferries.mp4",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/brand/mark.svg",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    },
+    {
+      "path": "/_next/static/immutable/chunks/0ql5t7nfxef9d.js",
+      "status": 200,
+      "expiry": "2026-10-27T15:22:45.000Z",
+      "cookie": false,
+      "queryToken": false
+    }
+  ]
+}

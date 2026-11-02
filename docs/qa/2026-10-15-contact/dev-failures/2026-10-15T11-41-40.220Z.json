@@ -1,0 +1,118 @@
+{
+  "status": "failed",
+  "stage": "static-dev",
+  "base": "http://localhost:3053",
+  "startedAt": "2026-10-15T11:41:40.220Z",
+  "revision": "2989f28e006c1c2284ee36d53d03f5ee1452aa1d",
+  "fingerprints": {
+    "components/travel/Inquiry.tsx": "ccf695ab1e00e3f35086a1700e4cd47799f441545e0e266aff7b4e5c3d6270ca",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "8ae42cc6ab55271a715fd0ae9d78b21b5e0981b01a02b72dc0340d2facfff7f4",
+    "scripts/verify-recovery-contact.mjs": "9fd20576ea9796edcf2b561fe0535cc7de115ef91646d38265ee3153cf19160c",
+    "scripts/verify-public.mjs": "fc5edb43047bfb5441c42fa7f63193429cd59022661a20f07760c17a61aaf90a",
+    "scripts/verify-v3.mjs": "dd612cfce453f751967bd0c721191b0fb023da325b78ab8e35ba80cd346ca7b6",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  },
+  "cases": [
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1440x900",
+      "at": "2026-10-15T11:41:44.807Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 1280x600",
+      "at": "2026-10-15T11:41:47.726Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 768x1024",
+      "at": "2026-10-15T11:41:50.810Z"
+    },
+    {
+      "name": "native ordered/form/error/prepared/invalidation en 390x844",
+      "at": "2026-10-15T11:41:54.699Z"
+    }
+  ],
+  "screens": [
+    {
+      "name": "en-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-1440x900-ordered.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1440-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-1440-prepared.png",
+      "locale": "en",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "en-1280x600-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-1280x600-ordered.png",
+      "locale": "en",
+      "width": 1280,
+      "height": 600
+    },
+    {
+      "name": "en-768x1024-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-768x1024-ordered.png",
+      "locale": "en",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "en-390x844-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-390x844-ordered.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-errors-keyboard",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-390-errors-keyboard.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "en-390-prepared",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\en-390-prepared.png",
+      "locale": "en",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "ar-1440x900-ordered",
+      "file": "C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\tmp\\frontend-qa\\recovery-contact\\2026-10-15T11-41-40.220Z\\ar-1440x900-ordered.png",
+      "locale": "ar",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "errors": [],
+  "mutations": [],
+  "gaps": [
+    "Chromium only; no physical device, Safari/Firefox, assistive technology or field performance certification. Chunk URL observation does not prove opaque bundle internals. Independent Root Astra rendered review pending."
+  ],
+  "failure": {
+    "message": "one occurrence إسطنبول → صبنجة\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0",
+    "stack": "Error: one occurrence إسطنبول → صبنجة\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n    at captureRawStack (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright-core@1.63.0\\node_modules\\playwright-core\\lib\\coreBundle.js:8588:17)\n    at callMatcherAsStep (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13310:57)\n    at Object.toBe (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\node_modules\\.pnpm\\playwright@1.63.0\\node_modules\\playwright\\lib\\matchers\\expect.js:13302:23)\n    at once (C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-contact.mjs:34:88)\n    at C:\\Users\\mosta\\OneDrive\\Documents\\ChatGPT\\trip line\\frontend-v2\\scripts\\verify-recovery-contact.mjs:41:69",
+    "url": "http://localhost:3053/ar/contact?journey=istanbul,sapanca&destination=istanbul&service=tours&dates=May%202027&travelers=4"
+  },
+  "finishedAt": "2026-10-15T11:41:58.802Z",
+  "finalFingerprints": {
+    "components/travel/Inquiry.tsx": "ccf695ab1e00e3f35086a1700e4cd47799f441545e0e266aff7b4e5c3d6270ca",
+    "components/travel/Pages.tsx": "90747d7ae242f41b254415ddd6f91f84d4a9cf59c4be14a2b8dbe9ee2c758c87",
+    "components/contact/ContactExperience.tsx": "2370a49186a6ba0c84ecf20a64a2fbbb5031be29f6fd1e668728d8a7c918896f",
+    "styles/recovery-contact.css": "017cf11a006a73bb1d41aae5ca596a5dd01ae1eaee2da9f3876597fcbe114f44",
+    "app/[locale]/[[...slug]]/page.tsx": "8ae42cc6ab55271a715fd0ae9d78b21b5e0981b01a02b72dc0340d2facfff7f4",
+    "scripts/verify-recovery-contact.mjs": "9fd20576ea9796edcf2b561fe0535cc7de115ef91646d38265ee3153cf19160c",
+    "scripts/verify-public.mjs": "fc5edb43047bfb5441c42fa7f63193429cd59022661a20f07760c17a61aaf90a",
+    "scripts/verify-v3.mjs": "dd612cfce453f751967bd0c721191b0fb023da325b78ab8e35ba80cd346ca7b6",
+    "lib/journey.ts": "5620fa5e93176442011af12cf6aef50ee55e7634d469ee5760b5fbc42db0427e",
+    "components/experience/JourneyStore.tsx": "cebec5bc60bc4ba56ac1deabf9a6db38b8bc94ded0e82c74c7b3e5fa7da50f7d"
+  }
+}

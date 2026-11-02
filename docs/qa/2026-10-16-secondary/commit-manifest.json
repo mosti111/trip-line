@@ -1,0 +1,459 @@
+{
+  "base": "162215a935b7935b74fcebed90ab69c43cc96aa9",
+  "implementationSha": "1cc0f2e2c5c5455bf0ec5b9fd9942e4ddb97e484",
+  "implementationFiles": [
+    "frontend-v2/components/secondary/CountryPlan.tsx",
+    "frontend-v2/components/secondary/FAQExperience.tsx",
+    "frontend-v2/components/secondary/InternationalExperience.tsx",
+    "frontend-v2/components/secondary/LegalExperience.tsx",
+    "frontend-v2/components/travel/Pages.tsx",
+    "frontend-v2/scripts/verify-recovery-secondary.mjs",
+    "frontend-v2/styles/recovery-secondary.css"
+  ],
+  "checkpointFiles": [
+    "docs/AI_HANDOFF.md",
+    "docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+    "docs/orchestration/recovery/TL-003-I11-delivery.md",
+    "docs/orchestration/recovery/TL-003-I11.md",
+    "docs/orchestration/recovery/TL-003-QI11-delivery.md",
+    "docs/orchestration/recovery/TL-003-QI11.md",
+    "docs/orchestration/state.json",
+    "docs/qa/2026-10-16-secondary/README.md",
+    "docs/qa/2026-10-16-secondary/build.log",
+    "docs/qa/2026-10-16-secondary/commit-manifest.json",
+    "docs/qa/2026-10-16-secondary/first-failure.json",
+    "docs/qa/2026-10-16-secondary/lint.log",
+    "docs/qa/2026-10-16-secondary/production.json",
+    "docs/qa/2026-10-16-secondary/public.json",
+    "docs/qa/2026-10-16-secondary/public.log",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x600-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x600-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x600-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x600-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x600-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1280x800-destinations-saudi-arabia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1440x900-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1440x900-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1440x900-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1440x900-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-1440x900-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-georgia.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-faq.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-privacy.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-390x844-terms.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-768x1024-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-768x1024-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-768x1024-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-768x1024-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/ar-768x1024-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/country-ordered-contact-prepared.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1280x600-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1280x600-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1280x600-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1280x600-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1280x600-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1440x900-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1440x900-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1440x900-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1440x900-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-1440x900-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-georgia.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-faq.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-privacy.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-390x844-terms.png",
+    "docs/qa/2026-10-16-secondary/screens/en-768x1024-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-768x1024-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-768x1024-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-768x1024-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/en-768x1024-terms-native.png",
+    "docs/qa/2026-10-16-secondary/screens/mutated-country-ordered-contact.png",
+    "docs/qa/2026-10-16-secondary/screens/supplement-ar-390x844-faq-expanded-native.png",
+    "docs/qa/2026-10-16-secondary/screens/supplement-ar-390x844-faq-fresh-native.png",
+    "docs/qa/2026-10-16-secondary/screens/supplement-ar-768x1024-faq-fresh-native.png",
+    "docs/qa/2026-10-16-secondary/screens/supplement-en-1280x600-faq-fresh-native.png",
+    "docs/qa/2026-10-16-secondary/screens/tr-1280x800-destinations-native.png",
+    "docs/qa/2026-10-16-secondary/screens/tr-390x844-destinations-georgia-native.png",
+    "docs/qa/2026-10-16-secondary/screens/tr-390x844-faq-native.png",
+    "docs/qa/2026-10-16-secondary/screens/tr-390x844-privacy-native.png",
+    "docs/qa/2026-10-16-secondary/screens/tr-390x844-terms-native.png",
+    "docs/qa/2026-10-16-secondary/source-inventory.json",
+    "docs/qa/2026-10-16-secondary/state-snapshot.json",
+    "docs/qa/2026-10-16-secondary/static.json",
+    "docs/qa/2026-10-16-secondary/supplement-initial-report.json",
+    "docs/qa/2026-10-16-secondary/supplement-report.json",
+    "docs/qa/2026-10-16-secondary/test.log",
+    "docs/qa/2026-10-16-secondary/typecheck.log",
+    "docs/qa/2026-10-16-secondary/unchanged-retry-failure.json",
+    "docs/qa/2026-10-16-secondary/v3.json",
+    "docs/qa/2026-10-16-secondary/v3.log",
+    "docs/reports/README.md",
+    "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md"
+  ],
+  "files": [
+    {
+      "path": "docs/AI_HANDOFF.md",
+      "sha256": "4db4141ce0c4ddbfe0dc024aa652eff880cd464970bbdeef7df1808b7d7b4eb5"
+    },
+    {
+      "path": "docs/FRONTEND_IMPLEMENTATION_PLAN.md",
+      "sha256": "61d37de2fcf0192ef6a91642511a34c44e1d8639a5dfdc9748637740a5655462"
+    },
+    {
+      "path": "docs/orchestration/recovery/TL-003-I11-delivery.md",
+      "sha256": "30a46e15fb6b8c0308ff29a588d79417adeae50ea921355a2d138852e2655b36"
+    },
+    {
+      "path": "docs/orchestration/recovery/TL-003-I11.md",
+      "sha256": "b36a3db35d97c3ba4c51424ea9ebdf2a3d9afe8b3af0d64c2a44f44d90c3b4a9"
+    },
+    {
+      "path": "docs/orchestration/recovery/TL-003-QI11-delivery.md",
+      "sha256": "2824edbd7b8bf1dd8bdcd532a57505237a8b3ddbb9019e42791b2c4e3239e901"
+    },
+    {
+      "path": "docs/orchestration/recovery/TL-003-QI11.md",
+      "sha256": "703015e52f1c2f9d110a64f9af90f65cb1831d38ff2357d91ee550fee80cc4c8"
+    },
+    {
+      "path": "docs/orchestration/state.json",
+      "sha256": "fb6925139210991a16211e34c5094cb168e229ac2d416a31aa0ebaf098104ca7"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/README.md",
+      "sha256": "694af5da7cdc53c7d9d38614a29c89f1ad00bb6ec228e3ea43f1249314b0bb05"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/build.log",
+      "sha256": "5c260b2f970f7392ae5eda19674eae51127627821a0d3a42dc67bf2a16d2ded2"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/first-failure.json",
+      "sha256": "624f5f172ac1dfa7bb7bdfffa9c3c3900358664d6b6b4576d6e7517eef02bcc2"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/lint.log",
+      "sha256": "050c69da23536758722729aeda55a8d0fb9d557495ef6d33d70873a3b64a71c1"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/production.json",
+      "sha256": "0f9efdde5717ba02e2853b40e70e764c9e979938e6a8af6baa3baf9edb72adf8"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/public.json",
+      "sha256": "b242f615df0f95902a088eb06438f050a796f775daa984a566fe4d3355463eaf"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/public.log",
+      "sha256": "7865c954f2c12e4fc1eaa6dc1b8e2040e81eeb19f13cad09f0f8e74d0e9a4863"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x600-destinations-georgia-native.png",
+      "sha256": "0e8fa0e7e17ec7842410194f41361e7cfef8d35e19e043e335f22a7162043aeb"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x600-destinations-native.png",
+      "sha256": "b26c2ce1c79c934ad7b7204f2ba04bf18b49ba51b67e3573c9b22fc1a064d919"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x600-faq-native.png",
+      "sha256": "621f82f07a25f0986ecc61f2543cd3611cdc9eddd8f70c619360bfff3fa97914"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x600-privacy-native.png",
+      "sha256": "80e3d9a851d87cb7f2f0d9cb6229b1761ee0cc26003485248f6f76fa569a2301"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x600-terms-native.png",
+      "sha256": "26ae2fb605effb2b681a5e166ccfdc27f59f4788961537d6007d556512812c08"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1280x800-destinations-saudi-arabia-native.png",
+      "sha256": "66838495ba4842ef47a4a9ab891d33cf3e21f07e722cc601e47c1d59195546ad"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1440x900-destinations-georgia-native.png",
+      "sha256": "c70e79bd88dac3cf05cce33721f1e6bfe25e59b01a69a6fd67451085ec03458f"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1440x900-destinations-native.png",
+      "sha256": "a84507859cb7085e9aea5c9052b03a91110cf5b0d1a4fecdbb4f0964ae631dc6"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1440x900-faq-native.png",
+      "sha256": "91a22e0ba6f8537f78c2d1d560a67cd8580071e161febcb9f333c598e6dd1d79"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1440x900-privacy-native.png",
+      "sha256": "f3b72c6371eefddc281e13e7acb5aeec9320e8fb0b40097bac650d6fcb57c07e"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-1440x900-terms-native.png",
+      "sha256": "61d4013638ad679037244281f8efaca29df526cf694ef527e1a713d26302138e"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-georgia-native.png",
+      "sha256": "a60238dd5862ba3d3ebd524ce09b39a51edbc612fa0b0121d6a70d54e1b7fc6c"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-georgia.png",
+      "sha256": "69ee9c3bd9d8304a88ba918b97c5608c0e2272f463068a1a56cf756f13373909"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations-native.png",
+      "sha256": "baeb4eedaaa8a01fd49f664b43209e1b693c799b27f109c54cb3a56053b9b9e1"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-destinations.png",
+      "sha256": "34dfa73fb3fcabe2386fc1b10493327eec584ffc138a4fe97fc5bfd1eae353bd"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-faq-native.png",
+      "sha256": "fd598c4cf900ebd5cb3a4264bc9abb561315c7adc0192ce808d335ae3b48efc5"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-faq.png",
+      "sha256": "0de9605b8fe745baab1e26926cc12b09aacf1ef0dba9cda851d4026d06371afb"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-privacy-native.png",
+      "sha256": "0270221092297d6abc4ffefee88c2a76cc58443504fa64cea2105fe5441a8049"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-privacy.png",
+      "sha256": "5ea5140f04481c3e0505b37d5e54d838cf864029207be23b9caf47acbe52e1a0"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-terms-native.png",
+      "sha256": "b6b209e617ccd4f52d1d4de9f19e48aa3e5123bb15039cc7cf6bb9f8336237d4"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-390x844-terms.png",
+      "sha256": "9369a0b07fc0117767ce587b7161de44174f5a060a35394db38ca855d7c4e960"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-768x1024-destinations-georgia-native.png",
+      "sha256": "875614033abdfd701515bd487592ab9ffec6f14810497c43edcd06803d59445d"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-768x1024-destinations-native.png",
+      "sha256": "54dcd47b522d38bc648d8079e7ba74a4163cf906fef0dd12e6057baf15758641"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-768x1024-faq-native.png",
+      "sha256": "c2e41114270280f1c15ebb263d6abd7fc367d358145c0d4fc3fc222e422222e0"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-768x1024-privacy-native.png",
+      "sha256": "e8662b6f6921aa8350a83f80470dc7a68c7eef50ef1d4b9c2fdd8696cf973bbd"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/ar-768x1024-terms-native.png",
+      "sha256": "f6d1886121ac0aed821f157c103941f79c01e6d7727eb85db9d2542ab8cbf5cc"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/country-ordered-contact-prepared.png",
+      "sha256": "70c7ffe80210881772420c61ee23c4404e77c6449ace5a12daed54d7159e9326"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1280x600-destinations-georgia-native.png",
+      "sha256": "f60013f13f3c5e2fb5271e3fd2dfbc9760e7301cb8ac92ee20e55c1c63337b9d"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1280x600-destinations-native.png",
+      "sha256": "f5fa5225918ef34a6c887a71d303acb95c1eab83f90ad6c1c64dcd1a3755eb07"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1280x600-faq-native.png",
+      "sha256": "89827e3533884d87ab05c504416a55d6529e1345d5947e772dbcf25bf75fbdbb"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1280x600-privacy-native.png",
+      "sha256": "9b3c1a1ecbe086bee8d41ae7cf414348e913f4db9d21d12b86297c4e1eb84b8c"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1280x600-terms-native.png",
+      "sha256": "ce0b044ff8fa8086d7ed0ed0cebee22a994ec8772229286630700046caf176b8"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1440x900-destinations-georgia-native.png",
+      "sha256": "46da15e167ad8050afc0b4ab084348c793e01c27b726d5263d6bd39214282336"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1440x900-destinations-native.png",
+      "sha256": "bf11de786a2f10a57887ea5554daf233ea3ec109511a179df52e026243362123"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1440x900-faq-native.png",
+      "sha256": "6759ee4c0e2f7636d78b56c376f49567927f6256a36232b3a1283f3047b9ec4f"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1440x900-privacy-native.png",
+      "sha256": "b5e0befaa642294f4ea72178b535ac3dc38b4f3d142652ecabea02be4888ef77"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-1440x900-terms-native.png",
+      "sha256": "4f01787c0b666dc2ab066b48f98b99730cd52b0be2dca57d788563981f6d1996"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-georgia-native.png",
+      "sha256": "8b45e38418309a08bceb5d1f4bbdecadec758399a317f9620e2244b84746e5c3"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-georgia.png",
+      "sha256": "661cfcbb81c017dfd0073c5a8c2ded9ca1a9c4be64aece0eeab6a555a669cf38"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations-native.png",
+      "sha256": "718206b6a1b87a3a9be05902009935fda177aa66459c6e5190c332597e17c434"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-destinations.png",
+      "sha256": "377ac723971b5fa9fd803fd7aa75d4bce960303e7ee9028bf7aac3080182eff3"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-faq-native.png",
+      "sha256": "a98c80b4046f1e4274b306b4d5ae5cf64412aaf8e45fdcad28617f1e6c986140"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-faq.png",
+      "sha256": "c0e9bfb87a35f4bf65f975ea5902b9f54721b7273c5b4f9ed021e867d78a1886"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-privacy-native.png",
+      "sha256": "81561f7ce246685b0c7d07bd4e60d904df1eda14db55d2600acc196f1f065729"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-privacy.png",
+      "sha256": "c451993eafb1a9aac9a8b0cd72f28ccbbc3b1fabac73c43b016a5891788b616b"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-terms-native.png",
+      "sha256": "21ab581899cef171aed35542b8fe8921ad859be78797643264aa1900b2100fc6"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-390x844-terms.png",
+      "sha256": "d4e87a35b0fa06df59fe0067fa12d91d55dfbdef487f8c62f8db0e08e0dfae9c"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-768x1024-destinations-georgia-native.png",
+      "sha256": "d240b985bef0c014e82010ade2f645ddde75c713ffcbe5b5cbd49da65311dcec"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-768x1024-destinations-native.png",
+      "sha256": "c664cc66f3a29bc56dd8b1ccef75570d4124fd76dc407f573fceabdc3099350f"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-768x1024-faq-native.png",
+      "sha256": "47cb798a78ea82b5be36083a7d805762a41f6272f5129c13fc6c4e3c4001d523"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-768x1024-privacy-native.png",
+      "sha256": "8c45634a129351a93a03403cd77733dd05ff8e5dbd673b4b96ea85373e3a1abf"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/en-768x1024-terms-native.png",
+      "sha256": "73448d913cbe5dcef88dbbe69c31c287f2396061bdf5037075f20c1f43d4df6a"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/mutated-country-ordered-contact.png",
+      "sha256": "7cea82271a9b1c2efd360ed442bed2aec644882124331009ff2d1cf13f10f2a2"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/supplement-ar-390x844-faq-expanded-native.png",
+      "sha256": "f1d8293e6801af555056675fb897a63b56095cd569f70b6b2a4a5f0d3a1431e2"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/supplement-ar-390x844-faq-fresh-native.png",
+      "sha256": "fd598c4cf900ebd5cb3a4264bc9abb561315c7adc0192ce808d335ae3b48efc5"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/supplement-ar-768x1024-faq-fresh-native.png",
+      "sha256": "c2e41114270280f1c15ebb263d6abd7fc367d358145c0d4fc3fc222e422222e0"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/supplement-en-1280x600-faq-fresh-native.png",
+      "sha256": "89827e3533884d87ab05c504416a55d6529e1345d5947e772dbcf25bf75fbdbb"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/tr-1280x800-destinations-native.png",
+      "sha256": "0cf193faa9970d93e75cdd341b71f8e81372c51f6e4efab9fc4306f492ceb918"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/tr-390x844-destinations-georgia-native.png",
+      "sha256": "65aecdb6db837af842a344e814a3cb044464d75f73ad816d3257e9337ab32663"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/tr-390x844-faq-native.png",
+      "sha256": "8dafc92b342915590c477467fa742d6eb5ee01ed27568b66cb4347c550245c13"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/tr-390x844-privacy-native.png",
+      "sha256": "bd806bafa4dae2067f4c66fcaa28fa246dc1b5b6f3db5fc842086e040ba6ba49"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/screens/tr-390x844-terms-native.png",
+      "sha256": "a338d1bee565c700301f4b9061b1577f6aaecdb000364459cc715139b6a90c99"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/source-inventory.json",
+      "sha256": "f895fb08eabfa60dc777723c9f287c9be1bade11e908326af5623fb4777e4af8"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/state-snapshot.json",
+      "sha256": "fb6925139210991a16211e34c5094cb168e229ac2d416a31aa0ebaf098104ca7"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/static.json",
+      "sha256": "0266df435014fe6de5e729c462e2ffb2e4ac5418a75acff45a1d09f7d0fe957f"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/supplement-initial-report.json",
+      "sha256": "865eba5564cefe23d6901d6ed8234be2187454db76df98de924ba3bfd9afc75d"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/supplement-report.json",
+      "sha256": "27437a99426ff1433b4384ed44731b783888e0d3fbf0d759f57cb3bc199a8b7c"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/test.log",
+      "sha256": "b8666ce38b344314d602d0f4835d32fcb93481ebecc5ef178c27763f7e34c917"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/typecheck.log",
+      "sha256": "8366207267355d3e3d5bf3bf6e8c94c5f93f6078c34f08973fa2b38cdda6cc92"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/unchanged-retry-failure.json",
+      "sha256": "c2774059a226d534cdf9bd3db0fe9409bcb847b1e30acacf74cd199967b9d334"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/v3.json",
+      "sha256": "c7ec10541ccaab84d47305d3ff220e7d93e88c2dd9df70ed634f25e29f574f9e"
+    },
+    {
+      "path": "docs/qa/2026-10-16-secondary/v3.log",
+      "sha256": "86ba97f17ad4b7e1c56fed864b71c0521fe582a84478e9e58121f44b24cc2aea"
+    },
+    {
+      "path": "docs/reports/README.md",
+      "sha256": "5afb48fd962f930782db2b8db47b8eee70d58f74750abafb1df3d13939caf79f"
+    },
+    {
+      "path": "docs/reports/TL-003-secondary-checkpoint-2026-10-16.md",
+      "sha256": "545b8903ea59fb2db377baae9443c3c5a3f19167ecdf167865a447192f238355"
+    }
+  ],
+  "note": "Manifest self-hash excluded to avoid circularity; paths exact. No implementation files included in metadata commit."
+}

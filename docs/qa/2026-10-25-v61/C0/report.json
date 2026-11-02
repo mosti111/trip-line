@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "base": "http://localhost:3006",
+  "cases": [
+    {
+      "reduced": false,
+      "preferences": {
+        "emulation": "QA browser context only; system preferences unchanged",
+        "osReduce": false,
+        "manual": "system",
+        "saveData": false,
+        "layout": "motion",
+        "mode": "native",
+        "triggers": null
+      },
+      "scroll": {
+        "before": "matrix(1, 0, 0, 1, 0, 0)",
+        "after": "matrix(0.96, 0, 0, 0.96, 0, 36)"
+      },
+      "marqueeDelta": -39.46563999999999
+    },
+    {
+      "reduced": true,
+      "preferences": {
+        "emulation": "QA browser context only; system preferences unchanged",
+        "osReduce": true,
+        "manual": "system",
+        "saveData": false,
+        "layout": "static",
+        "mode": "static",
+        "triggers": null
+      },
+      "scroll": {
+        "before": "none",
+        "after": "none"
+      },
+      "marqueeDelta": 0
+    }
+  ],
+  "errors": []
+}

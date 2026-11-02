@@ -1,0 +1,35 @@
+{
+  "task": "TL-011",
+  "deployedSha": "98c44f8d05792f97c7324ce5dcbf12f73e4e8535",
+  "branch": "codex/trip-line-v11-mobile-recovery",
+  "deploymentId": "dpl_45Zj8VFbRQcHjmgp2fDQXF4Qa1tm",
+  "deploymentUrl": "https://trip-line-journal-v223-10lita4c5.vercel.app",
+  "environment": "Preview",
+  "projectId": "prj_Z7d8Fd2lrA4DEAAZz1B7ZBIR0R8O",
+  "rootDirectory": "frontend-v2",
+  "readyState": "READY",
+  "sourceExportGitFiles": 285,
+  "remoteUploadedSourceFiles": 284,
+  "allUploadFilesMatchGit": true,
+  "excludedUploadFile": "frontend-v2/.gitignore",
+  "productionUnchanged": "dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5",
+  "productionExpiryUnchanged": "2026-10-27T15:22:45Z",
+  "accessControl": "Original Vercel authentication retained; client share URL verified without login in fresh contexts. Token kept out of Git.",
+  "providerShareExpiryText": "10/26/2026, 8:10:11 PM",
+  "shareTTL": "New Vercel share links expire after 23 hours",
+  "freshAccessCases": 6,
+  "hostedMobileCases": 48,
+  "hostedSupportingPages": 33,
+  "hostedDesktopCases": 3,
+  "hostedDesktopChangedPixels": [
+    0,
+    0,
+    0
+  ],
+  "runtimeErrorQuery": {
+    "scope": "project",
+    "lookback": "1h",
+    "reportedErrors": 0
+  },
+  "nativePhysicalSafari": "Not tested. Windows WebKit variable-font visual limitation documented."
+}

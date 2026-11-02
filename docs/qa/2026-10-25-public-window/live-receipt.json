@@ -1,0 +1,45 @@
+{
+  "task": "TL-010",
+  "status": "public_review_active",
+  "productionUrl": "https://trip-line-journal-v2.vercel.app",
+  "deploymentId": "dpl_8XqhZU1J7SobhsgiifgY4Q3QAwa5",
+  "applicationSha": "1632a6b9b2fec2d7cb620c5280f1fe2772fe3b76",
+  "expiresAt": "2026-10-27T15:22:45Z",
+  "expiresLocal": "2026-10-27 18:22:45 Europe/Istanbul",
+  "protectionChanged": false,
+  "automationId": "expire-trip-line-public-client-review",
+  "hostedQa": {
+    "status": "passed",
+    "pages": 33,
+    "media": [
+      {
+        "locale": "en",
+        "ready": 2,
+        "width": 1280,
+        "height": 720,
+        "src": "https://trip-line-journal-v2.vercel.app/media/istanbul-ferries.mp4",
+        "paused": false
+      },
+      {
+        "locale": "tr",
+        "ready": 2,
+        "width": 1280,
+        "height": 720,
+        "src": "https://trip-line-journal-v2.vercel.app/media/istanbul-ferries.mp4",
+        "paused": false
+      },
+      {
+        "locale": "ar",
+        "ready": 2,
+        "width": 1280,
+        "height": 720,
+        "src": "https://trip-line-journal-v2.vercel.app/media/istanbul-ferries.mp4",
+        "paused": false
+      }
+    ],
+    "errors": 0,
+    "cookiesSupplied": false,
+    "sharingTokenSupplied": false
+  },
+  "previousProductionPreserved": "dpl_DLu3qxDJHA9d6xjBev5HqVvz7yNt"
+}

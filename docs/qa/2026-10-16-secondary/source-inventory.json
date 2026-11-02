@@ -1,0 +1,547 @@
+{
+  "countries": [
+    {
+      "slug": "turkiye",
+      "name": {
+        "en": "Türkiye",
+        "ar": "تركيا",
+        "tr": "Türkiye"
+      },
+      "note": {
+        "en": "Where continents meet, history lives and everyday moments feel extraordinary.",
+        "ar": "حيث تلتقي القارات ويعيش التاريخ وتصبح اللحظات اليومية مميزة.",
+        "tr": "Kıtaların buluştuğu, tarihin yaşadığı ve gündelik anların özel hissettirdiği yer."
+      },
+      "interests": [
+        {
+          "en": "Istanbul & the Bosphorus",
+          "ar": "إسطنبول والبوسفور",
+          "tr": "İstanbul ve Boğaz"
+        },
+        {
+          "en": "Cappadocia landscapes",
+          "ar": "طبيعة كابادوكيا",
+          "tr": "Kapadokya manzaraları"
+        },
+        {
+          "en": "The Aegean & Mediterranean",
+          "ar": "بحر إيجة والمتوسط",
+          "tr": "Ege ve Akdeniz"
+        }
+      ],
+      "lon": 35,
+      "lat": 39,
+      "coordinate": "39° N / 35° E"
+    },
+    {
+      "slug": "georgia",
+      "name": {
+        "en": "Georgia",
+        "ar": "جورجيا",
+        "tr": "Gürcistan"
+      },
+      "note": {
+        "en": "Old-town streets, mountain horizons and room for a different rhythm.",
+        "ar": "شوارع البلدة القديمة وآفاق الجبال وإيقاع مختلف للحياة.",
+        "tr": "Eski şehir sokakları, dağ ufukları ve farklı bir ritme yer açan anlar."
+      },
+      "interests": [
+        {
+          "en": "Tbilisi discoveries",
+          "ar": "اكتشاف تبليسي",
+          "tr": "Tiflis keşifleri"
+        },
+        {
+          "en": "Caucasus landscapes",
+          "ar": "مناظر القوقاز",
+          "tr": "Kafkas manzaraları"
+        },
+        {
+          "en": "Local culture",
+          "ar": "الثقافة المحلية",
+          "tr": "Yerel kültür"
+        }
+      ],
+      "lon": 43.5,
+      "lat": 42,
+      "coordinate": "42° N / 43.5° E"
+    },
+    {
+      "slug": "egypt",
+      "name": {
+        "en": "Egypt",
+        "ar": "مصر",
+        "tr": "Mısır"
+      },
+      "note": {
+        "en": "Layers of history, lively cities and a journey along the Nile.",
+        "ar": "طبقات من التاريخ ومدن نابضة بالحياة ورحلة على ضفاف النيل.",
+        "tr": "Tarihin katmanları, canlı şehirler ve Nil boyunca bir yolculuk."
+      },
+      "interests": [
+        {
+          "en": "Cairo & Giza",
+          "ar": "القاهرة والجيزة",
+          "tr": "Kahire ve Gize"
+        },
+        {
+          "en": "Nile perspectives",
+          "ar": "مشاهد النيل",
+          "tr": "Nil manzaraları"
+        },
+        {
+          "en": "Ancient heritage",
+          "ar": "التراث القديم",
+          "tr": "Antik miras"
+        }
+      ],
+      "lon": 30,
+      "lat": 27,
+      "coordinate": "27° N / 30° E"
+    },
+    {
+      "slug": "saudi-arabia",
+      "name": {
+        "en": "Saudi Arabia",
+        "ar": "السعودية",
+        "tr": "Suudi Arabistan"
+      },
+      "note": {
+        "en": "A place for meaningful pilgrimage and a considered approach to travel.",
+        "ar": "وجهة لرحلة إيمانية وتخطيط مدروس للسفر.",
+        "tr": "Anlamlı manevi yolculuklar ve özenli seyahat planlaması."
+      },
+      "interests": [
+        {
+          "en": "Pilgrimage planning",
+          "ar": "تخطيط الحج والعمرة",
+          "tr": "Hac ve umre planlama"
+        },
+        {
+          "en": "City connections",
+          "ar": "رحلات المدن",
+          "tr": "Şehir bağlantıları"
+        },
+        {
+          "en": "Group coordination",
+          "ar": "تنسيق المجموعات",
+          "tr": "Grup koordinasyonu"
+        }
+      ],
+      "lon": 45,
+      "lat": 24,
+      "coordinate": "24° N / 45° E"
+    },
+    {
+      "slug": "oman",
+      "name": {
+        "en": "Oman",
+        "ar": "عُمان",
+        "tr": "Umman"
+      },
+      "note": {
+        "en": "Mountain silhouettes, a long coastline and the quiet detail of Muscat.",
+        "ar": "ظلال الجبال وساحل ممتد وتفاصيل مسقط الهادئة.",
+        "tr": "Dağ siluetleri, uzun kıyılar ve Maskat’ın sakin ayrıntıları."
+      },
+      "interests": [
+        {
+          "en": "Muscat architecture",
+          "ar": "عمارة مسقط",
+          "tr": "Maskat mimarisi"
+        },
+        {
+          "en": "Mountain landscapes",
+          "ar": "المناظر الجبلية",
+          "tr": "Dağ manzaraları"
+        },
+        {
+          "en": "Coastal moments",
+          "ar": "لحظات على الساحل",
+          "tr": "Kıyıda anlar"
+        }
+      ],
+      "lon": 57,
+      "lat": 21,
+      "coordinate": "21° N / 57° E"
+    },
+    {
+      "slug": "qatar",
+      "name": {
+        "en": "Qatar",
+        "ar": "قطر",
+        "tr": "Katar"
+      },
+      "note": {
+        "en": "Doha’s waterfront, cultural spaces and a compact city journey.",
+        "ar": "واجهة الدوحة البحرية ومساحاتها الثقافية ورحلة مدينة متكاملة.",
+        "tr": "Doha’nın kıyıları, kültür alanları ve kısa bir şehir yolculuğu."
+      },
+      "interests": [
+        {
+          "en": "Doha waterfront",
+          "ar": "واجهة الدوحة البحرية",
+          "tr": "Doha kıyıları"
+        },
+        {
+          "en": "Art & architecture",
+          "ar": "الفن والعمارة",
+          "tr": "Sanat ve mimari"
+        },
+        {
+          "en": "City & group planning",
+          "ar": "تخطيط المدن والمجموعات",
+          "tr": "Şehir ve grup planlama"
+        }
+      ],
+      "lon": 51.2,
+      "lat": 25.3,
+      "coordinate": "25.3° N / 51.2° E"
+    },
+    {
+      "slug": "uae",
+      "name": {
+        "en": "United Arab Emirates",
+        "ar": "الإمارات العربية المتحدة",
+        "tr": "Birleşik Arap Emirlikleri"
+      },
+      "note": {
+        "en": "Contemporary skylines, coastal spaces and new perspectives on city life.",
+        "ar": "آفاق عمرانية معاصرة ومساحات ساحلية ورؤية جديدة لحياة المدن.",
+        "tr": "Çağdaş şehir siluetleri, kıyılar ve şehir yaşamına yeni bakışlar."
+      },
+      "interests": [
+        {
+          "en": "Dubai discoveries",
+          "ar": "اكتشاف دبي",
+          "tr": "Dubai keşifleri"
+        },
+        {
+          "en": "Abu Dhabi culture",
+          "ar": "ثقافة أبوظبي",
+          "tr": "Abu Dabi kültürü"
+        },
+        {
+          "en": "Business & group journeys",
+          "ar": "رحلات الأعمال والمجموعات",
+          "tr": "İş ve grup yolculukları"
+        }
+      ],
+      "lon": 54,
+      "lat": 24,
+      "coordinate": "24° N / 54° E"
+    },
+    {
+      "slug": "maldives",
+      "name": {
+        "en": "Maldives",
+        "ar": "المالديف",
+        "tr": "Maldivler"
+      },
+      "note": {
+        "en": "Island horizons, clear water and time to slow down.",
+        "ar": "آفاق الجزر ومياه صافية ووقت للتمهل.",
+        "tr": "Ada ufukları, berrak sular ve yavaşlamak için zaman."
+      },
+      "interests": [
+        {
+          "en": "Island landscapes",
+          "ar": "مناظر الجزر",
+          "tr": "Ada manzaraları"
+        },
+        {
+          "en": "Time by the water",
+          "ar": "وقت على الشاطئ",
+          "tr": "Su kenarında zaman"
+        },
+        {
+          "en": "A slower pace",
+          "ar": "إيقاع أهدأ",
+          "tr": "Daha sakin bir tempo"
+        }
+      ],
+      "lon": 73.2,
+      "lat": 3.2,
+      "coordinate": "3.2° N / 73.2° E"
+    },
+    {
+      "slug": "malaysia",
+      "name": {
+        "en": "Malaysia",
+        "ar": "ماليزيا",
+        "tr": "Malezya"
+      },
+      "note": {
+        "en": "City energy, green landscapes and cultures that meet in everyday life.",
+        "ar": "حيوية المدن وطبيعة خضراء وثقافات تلتقي في الحياة اليومية.",
+        "tr": "Şehrin enerjisi, yeşil manzaralar ve günlük hayatta buluşan kültürler."
+      },
+      "interests": [
+        {
+          "en": "Kuala Lumpur",
+          "ar": "كوالالمبور",
+          "tr": "Kuala Lumpur"
+        },
+        {
+          "en": "Nature & green spaces",
+          "ar": "الطبيعة والمساحات الخضراء",
+          "tr": "Doğa ve yeşil alanlar"
+        },
+        {
+          "en": "Cultural discovery",
+          "ar": "اكتشاف ثقافي",
+          "tr": "Kültürel keşif"
+        }
+      ],
+      "lon": 102,
+      "lat": 4,
+      "coordinate": "4° N / 102° E"
+    },
+    {
+      "slug": "indonesia",
+      "name": {
+        "en": "Indonesia",
+        "ar": "إندونيسيا",
+        "tr": "Endonezya"
+      },
+      "note": {
+        "en": "Island landscapes, living traditions and space to explore at your own pace.",
+        "ar": "مناظر الجزر وتقاليد حية ومساحة للاكتشاف بوتيرتك الخاصة.",
+        "tr": "Ada manzaraları, yaşayan gelenekler ve kendi temponda keşif."
+      },
+      "interests": [
+        {
+          "en": "Bali landscapes",
+          "ar": "طبيعة بالي",
+          "tr": "Bali manzaraları"
+        },
+        {
+          "en": "Culture & temples",
+          "ar": "الثقافة والمعابد",
+          "tr": "Kültür ve tapınaklar"
+        },
+        {
+          "en": "Island time",
+          "ar": "وقت الجزر",
+          "tr": "Ada zamanı"
+        }
+      ],
+      "lon": 113,
+      "lat": -2,
+      "coordinate": "2° S / 113° E"
+    }
+  ],
+  "services": [
+    {
+      "slug": "tours",
+      "question": {
+        "en": "What can a tour include?",
+        "ar": "ماذا يمكن أن تشمل الجولة؟",
+        "tr": "Bir tur neleri kapsayabilir?"
+      },
+      "answer": {
+        "en": "We can discuss transport, accommodation, guiding and sightseeing. The exact scope is agreed for your journey.",
+        "ar": "يمكن مناقشة النقل والإقامة والإرشاد وزيارة المعالم. يُتفق على النطاق المناسب لرحلتك.",
+        "tr": "Ulaşım, konaklama, rehberlik ve gezileri konuşabiliriz. Kapsam, yolculuğuna göre birlikte belirlenir."
+      }
+    },
+    {
+      "slug": "hajj-umrah",
+      "question": {
+        "en": "Are dates and availability confirmed online?",
+        "ar": "هل تُؤكد المواعيد والتوافر عبر الموقع؟",
+        "tr": "Tarihler ve uygunluk sitede onaylanır mı?"
+      },
+      "answer": {
+        "en": "No. Our team discusses current arrangements with you. Availability, requirements and conditions are confirmed for your specific journey.",
+        "ar": "لا. يناقش فريقنا الترتيبات الحالية معك، ويؤكد التوافر والمتطلبات والشروط الخاصة برحلتك.",
+        "tr": "Hayır. Ekibimiz mevcut düzenlemeleri seninle görüşür. Uygunluk, gereklilikler ve koşullar yolculuğun için ayrıca netleştirilir."
+      }
+    },
+    {
+      "slug": "camps",
+      "question": {
+        "en": "Can a program combine activities and meetings?",
+        "ar": "هل يمكن الجمع بين الأنشطة والاجتماعات؟",
+        "tr": "Etkinlikler ve toplantılar birleştirilebilir mi?"
+      },
+      "answer": {
+        "en": "We can discuss a coordinated plan around your objectives, timing and participants. Specific arrangements are agreed together.",
+        "ar": "يمكن مناقشة خطة منسقة حول أهدافكم ومواعيدكم والمشاركين، والاتفاق على التفاصيل معاً.",
+        "tr": "Hedeflerinize, takviminize ve katılımcılara göre bir planı görüşebiliriz. Ayrıntılar birlikte belirlenir."
+      }
+    },
+    {
+      "slug": "corporate",
+      "question": {
+        "en": "Can we discuss recurring travel?",
+        "ar": "هل يمكن مناقشة السفر المتكرر؟",
+        "tr": "Düzenli seyahatleri görüşebilir miyiz?"
+      },
+      "answer": {
+        "en": "Yes. Share your usual routes, frequency and coordination needs so we can discuss a suitable approach.",
+        "ar": "نعم. شاركونا المسارات المعتادة وعدد مرات السفر واحتياجات التنسيق لمناقشة الطريقة المناسبة.",
+        "tr": "Evet. Uygun bir yaklaşımı konuşmak için rotalarınızı, sıklığı ve koordinasyon ihtiyaçlarını paylaşın."
+      }
+    },
+    {
+      "slug": "flights-hotels",
+      "question": {
+        "en": "Can I compare prices or book on this website?",
+        "ar": "هل يمكن مقارنة الأسعار أو الحجز عبر الموقع؟",
+        "tr": "Sitede fiyat karşılaştırabilir veya rezervasyon yapabilir miyim?"
+      },
+      "answer": {
+        "en": "This website starts an inquiry with our team. Options, prices and conditions are discussed and confirmed separately.",
+        "ar": "يتيح هذا الموقع بدء استفسار مع فريقنا. تُناقش الخيارات والأسعار والشروط وتُؤكد بشكل منفصل.",
+        "tr": "Bu site ekibimizle görüşme başlatmanı sağlar. Seçenekler, fiyatlar ve koşullar ayrıca görüşülüp onaylanır."
+      }
+    },
+    {
+      "slug": "tailor-made",
+      "question": {
+        "en": "Do I need a complete itinerary to get started?",
+        "ar": "هل أحتاج إلى برنامج كامل للبدء؟",
+        "tr": "Başlamak için tamamlanmış bir program gerekir mi?"
+      },
+      "answer": {
+        "en": "No. A few interests and a rough idea of your timing are enough to start the conversation.",
+        "ar": "لا. تكفي بعض الاهتمامات وفكرة أولية عن المواعيد لبدء الحديث.",
+        "tr": "Hayır. Birkaç ilgi alanı ve yaklaşık tarih, konuşmaya başlamak için yeterli."
+      }
+    },
+    {
+      "slug": "events",
+      "question": {
+        "en": "Can you coordinate travel alongside the event?",
+        "ar": "هل يمكن تنسيق السفر مع الفعالية؟",
+        "tr": "Etkinlikle birlikte seyahati koordine edebilir misiniz?"
+      },
+      "answer": {
+        "en": "Yes. We can discuss flights, accommodation and local coordination as part of the agreed event scope.",
+        "ar": "نعم. يمكن مناقشة الطيران والإقامة والتنسيق المحلي ضمن نطاق الفعالية المتفق عليه.",
+        "tr": "Evet. Uçuş, konaklama ve yerel koordinasyonu, üzerinde anlaşılan etkinlik kapsamına dahil ederek görüşebiliriz."
+      }
+    },
+    {
+      "slug": "training",
+      "question": {
+        "en": "Does program organization include accreditation?",
+        "ar": "هل يشمل تنظيم البرنامج اعتماداً تعليمياً؟",
+        "tr": "Program organizasyonu akreditasyon içerir mi?"
+      },
+      "answer": {
+        "en": "Our scope is program organization and coordination. Training content, providers and any certification must be discussed specifically.",
+        "ar": "نطاق الخدمة هو التنظيم والتنسيق. يجب مناقشة المحتوى التدريبي والجهات المقدمة وأي شهادات بشكل محدد.",
+        "tr": "Kapsamımız program organizasyonu ve koordinasyonudur. Eğitim içeriği, sağlayıcılar ve sertifikalar ayrıca görüşülmelidir."
+      }
+    },
+    {
+      "slug": "visa-assistance",
+      "question": {
+        "en": "Can visa approval or a processing time be guaranteed?",
+        "ar": "هل يمكن ضمان الموافقة على التأشيرة أو مدة المعالجة؟",
+        "tr": "Vize onayı veya işlem süresi garanti edilebilir mi?"
+      },
+      "answer": {
+        "en": "No. Decisions and processing are controlled by the relevant authorities. We discuss the assistance available for your circumstances.",
+        "ar": "لا. القرارات والمعالجة تخضع للجهات المختصة. نناقش المساعدة المتاحة بحسب حالتك.",
+        "tr": "Hayır. Karar ve işlem ilgili makamların yetkisindedir. Durumuna uygun desteği seninle görüşürüz."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "topic": "planning",
+      "q": {
+        "en": "How do I start planning?",
+        "ar": "كيف أبدأ التخطيط؟",
+        "tr": "Planlamaya nasıl başlarım?"
+      },
+      "a": {
+        "en": "Tell us your destination, dates, party size and interests through WhatsApp or the inquiry form. You can also start with an idea and ask for help choosing.",
+        "ar": "أخبرنا بالوجهة والمواعيد وعدد المسافرين واهتماماتك عبر واتساب أو نموذج الاستفسار. ويمكنك البدء بفكرة وطلب المساعدة في الاختيار.",
+        "tr": "WhatsApp veya talep formundan destinasyonu, tarihleri, kişi sayısını ve ilgi alanlarını paylaş. Bir fikirle başlayıp seçim için yardım da isteyebilirsin."
+      }
+    },
+    {
+      "topic": "planning",
+      "q": {
+        "en": "Is an inquiry a confirmed booking?",
+        "ar": "هل الاستفسار حجز مؤكد؟",
+        "tr": "Talep, onaylanmış rezervasyon mudur?"
+      },
+      "a": {
+        "en": "Our team will discuss your needs and the possible arrangements with you. An inquiry is the beginning of a conversation; arrangements and conditions are confirmed separately.",
+        "ar": "سيناقش فريقنا احتياجاتك والترتيبات الممكنة معك. الاستفسار بداية للحوار، وتُؤكد الترتيبات والشروط بشكل منفصل.",
+        "tr": "Ekibimiz ihtiyaçlarını ve olası düzenlemeleri seninle görüşür. Talep, bir görüşmenin başlangıcıdır; düzenlemeler ve koşullar ayrıca onaylanır."
+      }
+    },
+    {
+      "topic": "services",
+      "q": {
+        "en": "Can I combine services in one trip?",
+        "ar": "هل يمكن الجمع بين الخدمات في رحلة واحدة؟",
+        "tr": "Bir yolculukta hizmetleri birleştirebilir miyim?"
+      },
+      "a": {
+        "en": "Yes. Tell us which travel, accommodation or program arrangements you need. We will discuss a coordinated scope with you.",
+        "ar": "نعم. أخبرنا بترتيبات السفر أو الإقامة أو البرامج التي تحتاجها لنناقش نطاقاً منسقاً معك.",
+        "tr": "Evet. Hangi seyahat, konaklama veya program düzenlemelerine ihtiyacın olduğunu belirt. Koordineli bir kapsamı birlikte konuşalım."
+      }
+    },
+    {
+      "topic": "services",
+      "q": {
+        "en": "Which countries can I explore?",
+        "ar": "ما الدول التي يمكنني اكتشافها؟",
+        "tr": "Hangi ülkeleri keşfedebilirim?"
+      },
+      "a": {
+        "en": "Our destination directory covers Türkiye, Georgia, Egypt, Saudi Arabia, Oman, Qatar, the UAE, Maldives, Malaysia and Indonesia. Discuss the specific arrangements with our team.",
+        "ar": "يشمل دليل الوجهات تركيا وجورجيا ومصر والسعودية وعُمان وقطر والإمارات والمالديف وماليزيا وإندونيسيا. ناقش الترتيبات المحددة مع فريقنا.",
+        "tr": "Destinasyon rehberimiz Türkiye, Gürcistan, Mısır, Suudi Arabistan, Umman, Katar, BAE, Maldivler, Malezya ve Endonezya’yı kapsar. Belirli düzenlemeleri ekibimizle görüşebilirsin."
+      }
+    },
+    {
+      "topic": "groups",
+      "q": {
+        "en": "Do you organize journeys for organizations?",
+        "ar": "هل تنظمون رحلات للمؤسسات؟",
+        "tr": "Kurumlar için yolculuk düzenliyor musunuz?"
+      },
+      "a": {
+        "en": "Our services include corporate travel, conferences, events, camps and training program organization. Share your objective, participants and timing.",
+        "ar": "تشمل خدماتنا سفر الشركات والمؤتمرات والفعاليات والمخيمات وتنظيم البرامج التدريبية. شاركنا الهدف والمشاركين والمواعيد.",
+        "tr": "Hizmetlerimiz kurumsal seyahat, konferans, etkinlik, kamp ve eğitim programı organizasyonunu içerir. Amacı, katılımcıları ve takvimi paylaşın."
+      }
+    },
+    {
+      "topic": "contact",
+      "q": {
+        "en": "How can I contact Trip Line directly?",
+        "ar": "كيف أتواصل مباشرة مع تريب لاين؟",
+        "tr": "Trip Line ile doğrudan nasıl iletişime geçebilirim?"
+      },
+      "a": {
+        "en": "Use WhatsApp or call +90 554 107 22 02, or email info@triplinetravel.net. You can prepare a detailed inquiry on the contact page.",
+        "ar": "تواصل عبر واتساب أو اتصل بالرقم ‎+90 554 107 22 02، أو راسل info@triplinetravel.net. يمكنك تجهيز استفسار مفصل في صفحة التواصل.",
+        "tr": "WhatsApp’tan yaz, +90 554 107 22 02 numarasını ara veya info@triplinetravel.net adresine e-posta gönder. İletişim sayfasında ayrıntılı talep hazırlayabilirsin."
+      }
+    }
+  ],
+  "turkishPlaceIds": [
+    "istanbul",
+    "trabzon",
+    "rize-ayder",
+    "uzungol",
+    "antalya",
+    "bodrum",
+    "fethiye",
+    "marmaris",
+    "sapanca",
+    "bursa",
+    "yalova",
+    "cappadocia"
+  ]
+}
